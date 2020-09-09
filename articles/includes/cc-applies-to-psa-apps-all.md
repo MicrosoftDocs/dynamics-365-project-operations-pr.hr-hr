@@ -1,0 +1,1 @@
+<span data-ttu-id="ed116-101">Primjenjuje na verzije 3.x, 2.x i 1.x aplikacije Project Service</span><span class="sxs-lookup"><span data-stu-id="ed116-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>

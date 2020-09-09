@@ -1,0 +1,1 @@
+<span data-ttu-id="f0de7-101">Verzija 2.5.x aplikacije Project Service ili novija u sustavu Dynamics 365 (online) verzije 9.x</span><span class="sxs-lookup"><span data-stu-id="f0de7-101">Project Service app version 2.5.x or later on Dynamics 365 (online) version 9.x</span></span>
