@@ -1,0 +1,328 @@
+---
+title: Stvarne vrijednosti
+description: Ova tema pruža informacije o stvarnim vrijednostima projekta.
+author: rumant
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 03/06/2019
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: 44c6e85f-5b21-4e24-999c-15a2f065d977
+ms.author: rumant
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 8291e0eb8531e8e9690368675f333c44b6e92e48
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: hr-HR
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3750187"
+---
+# <a name="actuals"></a>Stvarne vrijednosti
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
+Stvarne vrijednosti su količina dovršenog posla na projektu. Stvarne vrijednosti projekta mogu se pratiti natrag do njihovih izvornih dokumenata. Ti izvorni dokumenti uključuju unose vremena, izdataka i dnevnika, a također i faktura.
+
+![Kako se stvarne vrijednosti projekta prate do izvornih dokumenata](media/basic-guide-18.png)
+
+## <a name="submitting-a-time-entry"></a>Slanje unosa vremena
+
+U aplikaciji PSA, kada se šalje unos vremena za projekt koji je mapiran u redak ugovora vremena i materijala, izrađuju se dva retka u dnevniku. Jedan redak je za trošak, a drugi redak je za nenaplaćenu prodaju. Kada se unos vremena šalje za projekt koji je mapiran u redak ugovora fiksne cijene, redak u dnevniku izrađuje se samo za trošak. 
+
+Logika za unos zadanih cijena temelji se na retku u dnevniku. Sve vrijednosti polja iz unosa vremena kopiraju se u redak u dnevniku. Ta polja uključuju datum transakcije, redak ugovora u koji je projekt mapiran i rezultat valute na odgovarajućem cjeniku. 
+
+Polja koja utječu na zadane cijene, kao što su **Uloga** i **Org jedinica** uzrokuju odgovarajuću cijenu koja se prema zadanim postavkama unosi u redak u dnevniku. Ako u unos vremena dodate prilagođeno polje, a želite da se vrijednost polja propagira do stvarnih vrijednosti, izradite polje u entitetu Stvarne vrijednosti i koristite mapiranja polja da biste kopirali polje iz unosa vremena u stvarnu vrijednost.
+
+## <a name="submitting-an-expense-entry"></a>Slanje unosa izdatka
+
+U aplikaciji PSA, kada se šalje unos izdatka za projekt koji je mapiran u redak ugovora vremena i materijala, izrađuju se dva retka u dnevniku. Jedan redak je za trošak, a drugi redak je za nenaplaćenu prodaju. Kada se šalje unos izdatka za projekt koji je mapiran u redak ugovora fiksne cijene, izrađuje se redak u dnevniku samo za trošak.
+
+Logika za unos zadanih cijena za izdatke temelji se na kategoriji troška koja se odabire na stranici **Unos izdataka**. Datum transakcije, redak ugovora u kojem je projekt mapiran i valuta koriste se za određivanje odgovarajućeg cjenika. Međutim, za samu cijenu, iznos koji je korisnik unio postavljen je izravno na povezane retke u dnevniku za izdatak i prodaju prema zadanim postavkama.
+
+U trenutačnoj verziji aplikacije PSA, unos zadanih cijena po jedinici koji se temelji na kategoriji u unosima izdatka nije dostupan.
+
+## <a name="using-journals-to-record-costs"></a>Korištenje dnevnika za zapis troškova
+
+U aplikaciji PSA, dnevnici služe za zapis troška ili prihoda u razredima materijala, naknade, vremena, izdatka ili porezne transakcije. Dnevnik ima zaglavlje, retke i radnju **Potvrdi**. Evo nekih scenarija u kojima biste mogli koristiti dnevnik:
+
+- Morate zapisati stvarne troškove materijala i prodaju na projektu.
+- Morate premještati stvarne vrijednosti transakcije iz drugog sustava u aplikaciju PSA.
+- Morate zapisati troškove koji su se pojavili u drugom sustavu, kao što su troškovi nabave ili podugovaranja.
+
+## <a name="recording-actuals-based-on-project-events"></a>Zapis stvarnih vrijednosti na temelju projektnih događaja
+
+PSA zapisuje financijske transakcije koje se odvijaju tijekom projekta. Te se transakcije zapisuju kao **stvarne vrijednosti**. Sljedeće tablice prikazuju različite vrste stvarnih vrijednosti koje se izrađuju, ovisno o tome radi li se o projektu s vremenom i materijalima ili o projektu s fiksnom cijenom, o projektu u fazi pretprodaje ili o internom projektu.
+
+**Resurs pripada istoj organizacijskoj jedinici kao i ugovorna jedinica projekta**
+
+<table>
+<thead>
+<tr>
+<th rowspan="3">Događaj</th>
+<th colspan="4">Naplativi ili prodani projekt</th>
+<th rowspan="3">Projekt u fazi pretprodaje</th>
+<th rowspan="3">Interni projekt</th>
+</tr>
+<tr>
+<th colspan="2">Vrijeme i materijali</th>
+<th colspan="2">Fiksna cijena</th>
+</tr>
+<tr>
+<th>Stvarne vrijednosti</th>
+<th>Valuta transakcije</th>
+<th>Fiksna cijena</th>
+<th>Valuta transakcije</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stvoren je unos vremena.</td>
+<td colspan="6">Nema aktivnosti u entitetu Stvarne vrijednosti</td>
+</tr>
+<tr>
+<td>Poslan je unos vremena.</td>
+<td colspan="6">Nema aktivnosti u entitetu Stvarne vrijednosti</td>
+</tr>
+<tr>
+<td rowspan="2">Vrijeme je odobreno i nema promjene ili povećanja u naplativim satima tijekom odobravanja.</td>
+<td>Stvarna vrijednost troškova</td>
+<td>Valuta ugovorne jedinice</td>
+<td rowspan="2">Stvarna vrijednost troškova</td>
+<td rowspan="2">Valuta ugovorne jedinice
+<td rowspan="2">Stvarna vrijednost troškova</td>
+<td rowspan="2">Stvarna vrijednost troškova</td>
+</tr>
+<tr>
+<td>Stvarna vrijednost nenaplaćene prodaje – Naplativa</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td rowspan="3">Vrijeme je odobreno i dolazi do smanjenja u naplativim satima tijekom odobravanja.</td>
+<td>Stvarna vrijednost troškova</td>
+<td>Valuta ugovorne jedinice</td>
+<td rowspan="3">Stvarna vrijednost troškova</td>
+<td rowspan="3">Valuta ugovorne jedinice</td>
+<td rowspan="3">Stvarna vrijednost troškova</td>
+<td rowspan="3">Stvarna vrijednost troškova</td>
+</tr>
+<tr>
+<td>Stvarna vrijednost nenaplaćene prodaje – Naplativa za novu količinu</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td>Stvarna vrijednost nenaplaćene prodaje – Nenaplativa za razliku</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td rowspan="2">Faktura je potvrđena i nema promjene ili povećanja u naplativim satima.</td>
+<td>Preokret nenaplaćene prodaje</td>
+<td>Valuta ugovora projekta</td>
+<td rowspan="2">Naplaćena prodaja za ključnu točku</td>
+<td rowspan="2">Valuta ugovora projekta</td>
+<td rowspan="2">Nije primjenjivo</td>
+<td rowspan="2">Nije primjenjivo</td>
+</tr>
+<tr>
+<td>Naplaćena prodaja</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td rowspan="3">Faktura je potvrđena i dolazi do smanjenja u naplativim satima.</td>
+<td>Preokret nenaplaćene prodaje</td>
+<td>Valuta ugovora projekta</td>
+<td rowspan="3">Nije primjenjivo</td>
+<td rowspan="3">Nije primjenjivo</td>
+<td rowspan="3">Nije primjenjivo</td>
+<td rowspan="3">Nije primjenjivo</td>
+</tr>
+<tr>
+<td>Naplaćena prodaja – Naplativa za novu količinu</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td>Naplaćena prodaja – Nenaplativa za razliku</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td rowspan="2">Faktura je ispravljena da bi se povećala naplativa količina.</td>
+<td>Naplaćena prodaja – Preokret</td>
+<td>Valuta ugovora projekta</td>
+<td rowspan="5">
+<ul>
+<li>Preokret naplaćene prodaje za ključnu točku</li>
+<li>Promjena statusa ključne točke iz <strong>Fakturirano</strong> u <strong>Spremno za fakturiranje</strong></li>
+</ul>
+</td>
+<td rowspan="5">Valuta ugovora projekta</td>
+<td rowspan="5">Nije primjenjivo</td>
+<td rowspan="5">Nije primjenjivo</td>
+</tr>
+<tr>
+<td>Naplaćena prodaja</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td rowspan="3">Faktura je ispravljena da bi se smanjila naplativa količina.</td>
+<td>Naplaćena prodaja – Preokret</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td>Naplaćena prodaja za novu količinu</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td>Nenaplaćena prodaja – Naplativa za razliku</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+</tbody>
+</table>
+
+**Resurs pripada organizacijskoj jedinici koja se razlikuje od ugovorne jedinice projekta**
+
+<table>
+<thead>
+<tr>
+<th rowspan="3">Događaj</th>
+<th colspan="4">Naplativi ili prodani projekt</th>
+<th rowspan="3">Projekt u fazi pretprodaje</th>
+<th rowspan="3">Interni projekt</th>
+</tr>
+<tr>
+<th colspan="2">Vrijeme i materijali</th>
+<th colspan="2">Fiksna cijena</th>
+</tr>
+<tr>
+<th>Stvarne vrijednosti</th>
+<th>Valuta transakcije</th>
+<th>Fiksna cijena</th>
+<th>Valuta transakcije</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stvoren je unos vremena.</td>
+<td colspan="6">Nema aktivnosti u entitetu Stvarne vrijednosti</td>
+</tr>
+<tr>
+<td>Poslan je unos vremena.</td>
+<td colspan="6">Nema aktivnosti u entitetu Stvarne vrijednosti</td>
+</tr>
+<tr>
+<td rowspan="4">Vrijeme je odobreno i nema promjene ili povećanja u naplativim satima tijekom odobravanja.</td>
+<td>Stvarna vrijednost troškova</td>
+<td>Valuta ugovorne jedinice</td>
+<td rowspan="4">Stvarna vrijednost troškova</td>
+<td rowspan="4">Valuta ugovorne jedinice</td>
+<td rowspan="4">Stvarna vrijednost troškova</td>
+<td rowspan="4">Stvarna vrijednost troškova</td>
+</tr>
+<tr>
+<td>Stvarna vrijednost nenaplaćene prodaje – Naplativa</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td>Jedinična cijena resursa</td>
+<td>Valuta resursne jedinice</td>
+</tr>
+<tr>
+<td>Međuorganizacijska prodaja</td>
+<td>Valuta ugovorne jedinice</td>
+</tr>
+<tr>
+<td rowspan="5">Vrijeme je odobreno i dolazi do smanjenja u naplativim satima tijekom odobravanja.</td>
+<td>Stvarna vrijednost troškova</td>
+<td>Valuta ugovorne jedinice</td>
+<td rowspan="5">Stvarna vrijednost troškova</td>
+<td rowspan="5">Valuta ugovorne jedinice</td>
+<td rowspan="5">Stvarna vrijednost troškova</td>
+<td rowspan="5">Stvarna vrijednost troškova</td>
+</tr>
+<tr>
+<td>Jedinična cijena resursa</td>
+<td>Valuta resursne jedinice</td>
+</tr>
+<tr>
+<td>Međuorganizacijska prodaja</td>
+<td>Valuta ugovorne jedinice</td>
+</tr>
+<tr>
+<td>Stvarna vrijednost nenaplaćene prodaje – Naplativa za novu količinu</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td>Stvarna vrijednost nenaplaćene prodaje – Nenaplativa za razliku</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td rowspan="2">Faktura je potvrđena i nema promjene ili povećanja u naplativim satima.</td>
+<td>Preokret nenaplaćene prodaje</td>
+<td>Valuta ugovora projekta</td>
+<td rowspan="2">Naplaćena prodaja za ključnu točku</td>
+<td rowspan="2">Valuta ugovora projekta</td>
+<td rowspan="2">Nije primjenjivo</td>
+<td rowspan="2">Nije primjenjivo</td>
+</tr>
+<tr>
+<td>Naplaćena prodaja</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td rowspan="3">Faktura je potvrđena i dolazi do smanjenja u naplativim satima.</td>
+<td>Preokret nenaplaćene prodaje</td>
+<td>Valuta ugovora projekta</td>
+<td rowspan="3">Nije primjenjivo</td>
+<td rowspan="3">Nije primjenjivo</td>
+<td rowspan="3">Nije primjenjivo</td>
+<td rowspan="3">Nije primjenjivo</td>
+</tr>
+<tr>
+<td>Naplaćena prodaja – Naplativa za novu količinu</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td>Naplaćena prodaja – Nenaplativa za razliku</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td rowspan="2">Faktura je ispravljena da bi se povećala naplativa količina.</td>
+<td>Naplaćena prodaja – Preokret</td>
+<td>Valuta ugovora projekta</td>
+<td rowspan="5">
+<ul>
+<li>Preokret naplaćene prodaje za ključnu točku</li>
+<li>Promjena statusa ključne točke iz <strong>Fakturirano</strong> u <strong>Spremno za fakturiranje</strong></li>
+</ul>
+</td>
+<td rowspan="5">Valuta ugovora projekta</td>
+<td rowspan="5">Nije primjenjivo</td>
+<td rowspan="5">Nije primjenjivo</td>
+</tr>
+<tr>
+<td>Naplaćena prodaja</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td rowspan="3">Faktura je ispravljena da bi se smanjila naplativa količina.</td>
+<td>Naplaćena prodaja – Preokret</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td>Naplaćena prodaja za novu količinu</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+<tr>
+<td>Nenaplaćena prodaja – Naplativa za razliku</td>
+<td>Valuta ugovora projekta</td>
+</tr>
+</tbody>
+</table>
