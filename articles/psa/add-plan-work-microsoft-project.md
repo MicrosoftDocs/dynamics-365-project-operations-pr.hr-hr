@@ -1,0 +1,178 @@
+---
+title: Korištenje dodatka Project Service za planiranje rada u programu Microsoft Project | MicrosoftDocs
+description: Ova tema pruža informacije o tome kako dodati, konfigurirati i koristiti dodatak Microsoft Project za Microsoft Project Service.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 04/06/2019
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: hr-HR
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073518"
+---
+# <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a><span data-ttu-id="9b22a-103">Pomoću dodatka Project Service Automation planirajte zadatke u programu Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="9b22a-103">Use the Project Service Automation Add-in to plan your work in Microsoft Project</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] <span data-ttu-id="9b22a-104">olakšava planiranje projekta, uključujući procjene.</span><span class="sxs-lookup"><span data-stu-id="9b22a-104">makes it easier for you to do your project planning, including estimates.</span></span> <span data-ttu-id="9b22a-105">Rad možete definirati tako su vrijednosti troškova, napora i prodaje jasne kod slanja konačnog prijedloga.</span><span class="sxs-lookup"><span data-stu-id="9b22a-105">You can define the work so that costs, effort, and sales value are clear as the final proposal is submitted.</span></span>  
+
+ <span data-ttu-id="9b22a-106">Sada možete instalirati [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] i planirati rad u poznatom okruženju programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-106">Now you can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] and do your planning work in the familiar environment of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span></span> <span data-ttu-id="9b22a-107">Koristite mogućnosti planiranja i upravljanja programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], a zatim ažurirajte projektni plan s pomoću dodatka Project Service Automation.</span><span class="sxs-lookup"><span data-stu-id="9b22a-107">Use the robust planning and management capabilities of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and then update your project plan in Project Service Automation.</span></span>  
+
+> [!IMPORTANT]
+> - <span data-ttu-id="9b22a-108">Kako biste s pomoću značajke platforme SharePoint za upravljanje dokumentima pohranili svoje datoteke [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] za projekte [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], vaš administrator sustava [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] mora uključiti značajku upravljanja dokumentima.</span><span class="sxs-lookup"><span data-stu-id="9b22a-108">To use SharePoint document management to store your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] files for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projects, your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] admin will need to turn on document management.</span></span> 
+> - <span data-ttu-id="9b22a-109">[!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] kompatibilan je samo s programom [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.</span><span class="sxs-lookup"><span data-stu-id="9b22a-109">The [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] is only compatible with [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.</span></span>  
+
+## <a name="download-and-install-the-add-in"></a><span data-ttu-id="9b22a-110">Preuzimanje i instaliranje dodatka</span><span class="sxs-lookup"><span data-stu-id="9b22a-110">Download and install the add-in</span></span>  
+ <span data-ttu-id="9b22a-111">Pripremite podatke za prijavu u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-111">Have your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sign-in information ready.</span></span> <span data-ttu-id="9b22a-112">Ti su vam podaci potrebni da biste se iz programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] mogli povezati s programom [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-112">You will need this information to connect from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+
+1.  <span data-ttu-id="9b22a-113">Iz centra za preuzimanje preuzmite dodatak za svoju podržanu verziju usluge Project Service, [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) ili [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).</span><span class="sxs-lookup"><span data-stu-id="9b22a-113">From the Download Center, download the add-in for your supported version of Project Service, either [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) or [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).</span></span>  
+
+2.  <span data-ttu-id="9b22a-114">Kliknite vezu za preuzimanje.</span><span class="sxs-lookup"><span data-stu-id="9b22a-114">Click the download link.</span></span>  
+
+3.  <span data-ttu-id="9b22a-115">Kada se preuzimanje završi, kliknite **Da** da biste instalirali dodatak.</span><span class="sxs-lookup"><span data-stu-id="9b22a-115">When the download is complete, click **Yes** to install the add-in.</span></span>  
+
+## <a name="configure-the-add-in"></a><span data-ttu-id="9b22a-116">Konfigurirajte dodatak.</span><span class="sxs-lookup"><span data-stu-id="9b22a-116">Configure the add-in</span></span>  
+
+1. <span data-ttu-id="9b22a-117">Otvorite [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], a zatim kliknite karticu **Project Service**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-117">Open [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and click the **Project Service** tab.</span></span>  
+
+2. <span data-ttu-id="9b22a-118">Kliknite **Poveži**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-118">Click **Connect**.</span></span>  
+
+3. <span data-ttu-id="9b22a-119">Unesite podatke za prijavu, a zatim kliknite **Prijava**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-119">Enter your sign-in information and then click **Sign in**.</span></span>  
+
+   <span data-ttu-id="9b22a-120">Sada možete početi koristiti dodatak.</span><span class="sxs-lookup"><span data-stu-id="9b22a-120">Now you can start using the add-in.</span></span>  
+
+## <a name="read-from-a-template"></a><span data-ttu-id="9b22a-121">Čitanje iz predloška</span><span class="sxs-lookup"><span data-stu-id="9b22a-121">Read from a template</span></span>  
+ <span data-ttu-id="9b22a-122">Čitajte iz predloška koji ste izradili u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] i kopirali u program [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] da biste započeli s planiranjem projekta.</span><span class="sxs-lookup"><span data-stu-id="9b22a-122">Read from a template that you created in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] and copied into [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to start your project planning.</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="9b22a-123">[Izradi predložak projekta (Project Service Automation)](../psa/create-project-template.md)</span><span class="sxs-lookup"><span data-stu-id="9b22a-123">[Create a project template (Project Service Automation)](../psa/create-project-template.md)</span></span>  
+
+1.  <span data-ttu-id="9b22a-124">Na kartici **Project Service** kliknite **Čitaj** > **Predložak projekta dodatka Project Service Automation**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-124">From the **Project Service** tab, click **Read** > **Project Service Automation Project Template**.</span></span>  
+
+2.  <span data-ttu-id="9b22a-125">S popisa odaberite predložak projekta, a zatim kliknite **Otvori**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-125">Choose a project template from the list and then click **Open**.</span></span>  
+
+    > [!NOTE]
+    >  <span data-ttu-id="9b22a-126">Prema zadanim postavkama, zadaci koji se kopiraju iz predloška u Projekt postavljeni su kao ručno zakazani.</span><span class="sxs-lookup"><span data-stu-id="9b22a-126">By default, the tasks that are copied from the template into Project are set as manually scheduled.</span></span>  
+
+## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a><span data-ttu-id="9b22a-127">Dodijeli uloge značajke [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] resursima projekta</span><span class="sxs-lookup"><span data-stu-id="9b22a-127">Assign [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] roles to project resources</span></span>  
+
+1.  <span data-ttu-id="9b22a-128">Otvorite projekt, a zatim kliknite vrpcu **Zadatak**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-128">Open a project and click the **Task** ribbon.</span></span>  
+
+2.  <span data-ttu-id="9b22a-129">Kliknite izbornik **Ganttov grafikon** , a zatim odaberite **List resursa**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-129">Click the **Gantt Chart** menu and then choose **Resource Sheet**.</span></span>  
+
+3.  <span data-ttu-id="9b22a-130">Na listu resursa kliknite padajući izbornik **Uloga resursa značajke Project Service** , a zatim odaberite ulogu dodatka Project Service Automation.</span><span class="sxs-lookup"><span data-stu-id="9b22a-130">On the Resource Sheet, click the **Project Service Resource Role** drop-down menu and choose a Project Service Automation role.</span></span>  
+
+## <a name="staff-your-project-with-resources"></a><span data-ttu-id="9b22a-131">Dodjela resursa u projekt</span><span class="sxs-lookup"><span data-stu-id="9b22a-131">Staff your project with resources</span></span>  
+
+1.  <span data-ttu-id="9b22a-132">Na kartici Project Service, odaberite redak, a zatim kliknite **Pronađi resurse**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-132">From the Project Service tab, select a row and click **Find Resources**.</span></span>  
+
+2.  <span data-ttu-id="9b22a-133">Na zaslonu **Rezerviraj resurs** odaberite resurs koji želite koristiti za projekt.</span><span class="sxs-lookup"><span data-stu-id="9b22a-133">On the **Book Resource** screen, select the resource that you want to use for the project.</span></span>  
+
+3.  <span data-ttu-id="9b22a-134">Kliknite **Rezerviraj** , a zatim **U redu**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-134">Click **Book** and then click **OK**.</span></span>  
+
+## <a name="publish-your-project"></a><span data-ttu-id="9b22a-135">Objavljivanje projekta</span><span class="sxs-lookup"><span data-stu-id="9b22a-135">Publish your project</span></span>  
+<span data-ttu-id="9b22a-136">Kada završite s planiranjem projekta, sljedeći je korak uvoz i objavljivanje projekta u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-136">When your project planning is complete, the next step is to import and publish the project in to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+
+<span data-ttu-id="9b22a-137">Projekt će se uvesti u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-137">The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span> <span data-ttu-id="9b22a-138">Primijenit će se postupak određivanja cijena i generiranja tima.</span><span class="sxs-lookup"><span data-stu-id="9b22a-138">The pricing and team generation process are applied.</span></span> <span data-ttu-id="9b22a-139">Otvorite projekt u programu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] da biste vidjeli jesu li generirane stavke tim, procjene projekta i strukturna analiza rada.</span><span class="sxs-lookup"><span data-stu-id="9b22a-139">Open the project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to see that the team, project estimates, and work breakdown structure has been generated.</span></span> <span data-ttu-id="9b22a-140">Sljedeća tablica prikazuje gdje pronaći rezultate:</span><span class="sxs-lookup"><span data-stu-id="9b22a-140">The following table shows where to find the results:</span></span>
+
+
+|                                                                                          |                                                                                                                                   |
+|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] <span data-ttu-id="9b22a-141">**Ganttov dijagram**</span><span class="sxs-lookup"><span data-stu-id="9b22a-141">**Gantt Chart**</span></span>   | <span data-ttu-id="9b22a-142">Uvozi na zaslon [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Strukturna analiza rada**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-142">Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Work Breakdown Structure** screen.</span></span> |
+| [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] <span data-ttu-id="9b22a-143">**List resursa**</span><span class="sxs-lookup"><span data-stu-id="9b22a-143">**Resource Sheet**</span></span> |   <span data-ttu-id="9b22a-144">Uvozi na zaslon [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Članovi projektnog tima**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-144">Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Team Members** screen.</span></span>   |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] <span data-ttu-id="9b22a-145">**Upotreba korištenja**</span><span class="sxs-lookup"><span data-stu-id="9b22a-145">**Use Usage**</span></span>    |    <span data-ttu-id="9b22a-146">Uvozi na zaslon [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Procjene projekta**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-146">Omports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Estimates** screen.</span></span>     |
+
+<span data-ttu-id="9b22a-147">**Uvoz i objava projekta**</span><span class="sxs-lookup"><span data-stu-id="9b22a-147">**To import and publish your project**</span></span>  
+1. <span data-ttu-id="9b22a-148">Na kartici **Project Service** kliknite **Objavi** > **Novi projekt dodatka Project Service Automation**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-148">From the **Project Service** tab, click **Publish** > **New Project Service Automation Project**.</span></span>  
+
+2. <span data-ttu-id="9b22a-149">U dijaloški okvir **Objavi u novi projekt u značajki Project Service** unesite **Naziv projekta** , a zatim odaberite **Klijent**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-149">On **Publish to a new project in Project Service** dialog box, enter the **Project Name** and select the **Customer**.</span></span>  
+
+3. <span data-ttu-id="9b22a-150">Možete i potvrditi okvir **Poveži projektni plan s dodatkom Project Service Automation** da biste datoteku projektnog plana povezali s dodatkom Project Service Automation.</span><span class="sxs-lookup"><span data-stu-id="9b22a-150">Optionally check the **Link project plan to Project Service Automation** to link the plan Project file to Project Service Automation.</span></span>  
+
+4. <span data-ttu-id="9b22a-151">Kliknite **Objavi**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-151">Click **Publish**.</span></span>  
+
+   <span data-ttu-id="9b22a-152">Povezivanjem datoteke Projekt sa [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] datoteka Projekt postaje glavna datoteka i strukturu analize rada u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] prebacuje u status samo za čitanje.</span><span class="sxs-lookup"><span data-stu-id="9b22a-152">Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes the Project file the master and sets the work breakdown structure in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to read-only.</span></span>  <span data-ttu-id="9b22a-153">Da biste mogli mijenjati projektni plan, promjene morate provesti u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i objaviti u obliku ažuriranja u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-153">In order to make changes to the project plan, you need to make them in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and publish them as updates to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+
+## <a name="edit-a-project-thats-been-imported"></a><span data-ttu-id="9b22a-154">Uređivanje uvezenog projekta</span><span class="sxs-lookup"><span data-stu-id="9b22a-154">Edit a project that’s been imported</span></span>  
+ <span data-ttu-id="9b22a-155">Projektni plan koji je uvezen u dodatak [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] možete mijenjati na sljedeća dva načina:</span><span class="sxs-lookup"><span data-stu-id="9b22a-155">To make changes to a project plan that's been imported into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you have two options:</span></span>  
+
+- <span data-ttu-id="9b22a-156">Otvorite glavnu datoteku i uredite je u aplikaciji [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-156">Open the master file and edit it in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span></span>  
+
+- <span data-ttu-id="9b22a-157">Poništite vezu datoteke i uredite je izravno u značajki Project Service</span><span class="sxs-lookup"><span data-stu-id="9b22a-157">Unlink the file and edit it directly in Project Service.</span></span> <span data-ttu-id="9b22a-158">Prema zadanim postavkama, projekt koji je učitan iz programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] zaključan je i moguće ga je uređivati samo u Projektu.</span><span class="sxs-lookup"><span data-stu-id="9b22a-158">By default, a project that’s been uploaded from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] is locked and can only be edited in Project.</span></span> <span data-ttu-id="9b22a-159">Kako biste datoteku uređivali u aplikaciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], morate poništiti njezinu vezu.</span><span class="sxs-lookup"><span data-stu-id="9b22a-159">To edit the file in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], the file has to be unlinked.</span></span>  
+
+### <a name="edit-in-pn_microsoft_project"></a><span data-ttu-id="9b22a-160">Uredi u [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]</span><span class="sxs-lookup"><span data-stu-id="9b22a-160">Edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]</span></span>  
+
+1. <span data-ttu-id="9b22a-161">Na glavnom izborniku, kliknite **Project Service** > **Projekti**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-161">From the main menu, click **Project Service** > **Projects**.</span></span>  
+
+2. <span data-ttu-id="9b22a-162">Na popisu projekata, otvorite projekt koji ste izradili u [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-162">From the list of projects, open the one you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span></span>  
+
+3. <span data-ttu-id="9b22a-163">Na vrpci kliknite **Otvori u programu MS Project**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-163">Click **Open in MS Project** from the ribbon.</span></span> <span data-ttu-id="9b22a-164">Tako ćete povezanu glavnu datoteku otvoriti u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-164">This will open the linked master file in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span></span>  
+
+### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a><span data-ttu-id="9b22a-165">Poništi vezu datoteke i uredi je u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service</span><span class="sxs-lookup"><span data-stu-id="9b22a-165">Unlink a file and edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service</span></span>  
+
+1. <span data-ttu-id="9b22a-166">Na glavnom izborniku kliknite **Project Service** > **Projekti**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-166">From the main menu, click **Project Service** > **Projects**.</span></span>  
+
+2. <span data-ttu-id="9b22a-167">Na popisu projekata, otvorite projekt koji ste izradili u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-167">From the list of projects, open the one you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].</span></span>  
+
+3. <span data-ttu-id="9b22a-168">Na vrpci kliknite **Poništi vezu s programom MS Project**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-168">Click **Unlink from MS Project** from the ribbon.</span></span>  
+
+## <a name="upload-a-project-file-to-sharepoint-or-office-groups"></a><span data-ttu-id="9b22a-169">Prijenos datoteke Projekt u sustav SharePoint ili u grupe sustava Office</span><span class="sxs-lookup"><span data-stu-id="9b22a-169">Upload a Project file to SharePoint or Office Groups</span></span>  
+ <span data-ttu-id="9b22a-170">Datoteku Projekt možete prenijeti u SharePoint i pronaći je pod Povezani dokumenti za svoj [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekt.</span><span class="sxs-lookup"><span data-stu-id="9b22a-170">You can upload your Project file to SharePoint and find it under the Associated Documents for your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.</span></span>  <span data-ttu-id="9b22a-171">Administrator mora konfigurirati upravljanje dokumentima platforme SharePoint i uključiti ga za entitet Projekta.</span><span class="sxs-lookup"><span data-stu-id="9b22a-171">You need to have your administrator configure SharePoint document management and turn it on for the Project entity.</span></span> 
+
+ <span data-ttu-id="9b22a-172">Datoteku Projekt možete prenijeti i na [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] ako su postavljene grupe sustava Office.</span><span class="sxs-lookup"><span data-stu-id="9b22a-172">You can also upload your Project file to [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] if you have Office Groups set up.</span></span>
+
+### <a name="upload-a-file-for-sharepoint"></a><span data-ttu-id="9b22a-173">Prijenos datoteke za SharePoint</span><span class="sxs-lookup"><span data-stu-id="9b22a-173">Upload a file for SharePoint</span></span>  
+
+1. <span data-ttu-id="9b22a-174">Na glavnom izborniku kliknite **Project Service** > **Prenesi**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-174">From the main menu, click **Project Service** > **Upload**.</span></span>  
+
+2. <span data-ttu-id="9b22a-175">Odaberite **U dokumente dodatka Project Service Automation**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-175">Select **To Project Service Automation Project Documents**.</span></span>  
+
+3. <span data-ttu-id="9b22a-176">U dijaloškom okviru **Omogući značajku Otvori u aplikaciji [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** odaberite **Da** ili **Ne**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-176">On the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog, select **Yes** or **No**.</span></span>  
+
+   - <span data-ttu-id="9b22a-177">Ako kliknete **Da** , moći ćete odabrati gumb **Otvori u aplikaciji [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** u dodatku Project Service Automation, pokrenuti aplikaciju [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i prenijeti datoteku Projekt iz biblioteke dokumenata platforme SharePoint.</span><span class="sxs-lookup"><span data-stu-id="9b22a-177">If you click **Yes** , you'll be able select the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button in Project Service Automation, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.</span></span>  
+
+   - <span data-ttu-id="9b22a-178">Ako kliknete **Ne** , veza za gumb **Otvori u aplikaciji [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** neće funkcionirati.</span><span class="sxs-lookup"><span data-stu-id="9b22a-178">If you click **No** , the link for the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button won't work.</span></span>  
+
+4. <span data-ttu-id="9b22a-179">Datoteku programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] možete pronaći u odjeljku [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pod **Dokumenti** za određeni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekt.</span><span class="sxs-lookup"><span data-stu-id="9b22a-179">The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.</span></span>  
+
+### <a name="upload-a-file-for-office-groups"></a><span data-ttu-id="9b22a-180">Prijenos datoteke za grupe sustava Office</span><span class="sxs-lookup"><span data-stu-id="9b22a-180">Upload a file for Office Groups</span></span>  
+
+1. <span data-ttu-id="9b22a-181">Na glavnom izborniku kliknite **Project Service** > **Prenesi**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-181">From the main menu, click **Project Service** > **Upload**.</span></span>  
+
+2. <span data-ttu-id="9b22a-182">Odaberite **U dokumente dodatka Project Service Automation**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-182">Select **To Project Service Automation Project Documents**.</span></span>  
+
+3. <span data-ttu-id="9b22a-183">U dijaloškom okviru **Omogući značajku Otvori u aplikaciji [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** odaberite **Da** ili **Ne**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-183">On the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog, select **Yes** or **No**.</span></span>  
+
+   - <span data-ttu-id="9b22a-184">Ako kliknete **Da** , moći ćete odabrati gumb **Otvori u aplikaciji [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** u dodatku Project Service Automation, pokrenuti aplikaciju [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i prenijeti datoteku Projekt iz biblioteke dokumenata platforme SharePoint.</span><span class="sxs-lookup"><span data-stu-id="9b22a-184">If you click **Yes** , you'll be able to select the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button in Project Service Automation, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.</span></span>  
+
+   - <span data-ttu-id="9b22a-185">Ako kliknete **Ne** , veza za gumb **Otvori u aplikaciji [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** neće funkcionirati.</span><span class="sxs-lookup"><span data-stu-id="9b22a-185">If you click **No** , the link for the **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** button won't work.</span></span>  
+
+4. <span data-ttu-id="9b22a-186">Datoteku programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] možete pronaći u odjeljku [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pod **Dokumenti** za određeni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekt.</span><span class="sxs-lookup"><span data-stu-id="9b22a-186">The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.</span></span>  
+
+## <a name="publish--your-project-as-a-template"></a><span data-ttu-id="9b22a-187">Objavljivanje projekta u obliku predloška</span><span class="sxs-lookup"><span data-stu-id="9b22a-187">Publish  your project as a template</span></span>  
+ <span data-ttu-id="9b22a-188">Možete spremiti projekt i ponovo ga upotrijebiti tako da ga spremite u obliku predloška projekta u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-188">You can save your project and reuse it by saving it as a project template in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  <span data-ttu-id="9b22a-189">Predlošci projekta projektni su planovi koje je moguće ponovno upotrijebiti u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-189">Project templates are reusable project plans in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="9b22a-190">[Izradi predložak projekta (Project Service Automation)](../psa/create-project-template.md)</span><span class="sxs-lookup"><span data-stu-id="9b22a-190">[Create a project template (Project Service Automation)](../psa/create-project-template.md)</span></span>  
+
+1. <span data-ttu-id="9b22a-191">Na kartici **Project Service** kliknite **Objavi** > **Novi predložak projekta dodatka Project Service Automation**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-191">From the **Project Service** tab, click **Publish** > **New Project Service Automation Project Template**.</span></span>  
+
+2. <span data-ttu-id="9b22a-192">U dijaloški okvir **Objavi u novi predložak projekta Project Service** unesite **Naziv predloška projekta**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-192">On the **Publish to a new project in Project Service template** dialog box, enter the **Project template name**.</span></span>  
+
+3. <span data-ttu-id="9b22a-193">Po želji, potvrdite okvir **Poveži projektni plan s dodatkom Project Service Automation** kako biste datoteku projektnog plana povezali s aplikacijom [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-193">Optionally, check the **Link project plan to Project Service Automation** to link the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+
+4. <span data-ttu-id="9b22a-194">Kliknite **Objavi**.</span><span class="sxs-lookup"><span data-stu-id="9b22a-194">Click **Publish**.</span></span>  
+
+<span data-ttu-id="9b22a-195">Povezivanjem datoteke Projekt sa [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] datoteka Projekt postaje glavna datoteka i strukturu analize rada [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] predloška postavlja u status samo za čitanje.</span><span class="sxs-lookup"><span data-stu-id="9b22a-195">Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes the Project file the master and sets the work breakdown structure in the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] template to read-only.</span></span>  <span data-ttu-id="9b22a-196">Da biste mogli mijenjati projektni plan, promjene morate izvoditi u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i objaviti ih u obliku ažuriranja u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span><span class="sxs-lookup"><span data-stu-id="9b22a-196">In order to make changes to the project plan, you need to make them in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and publish them as updates to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>
+
+### <a name="see-also"></a><span data-ttu-id="9b22a-197">Također pogledajte</span><span class="sxs-lookup"><span data-stu-id="9b22a-197">See Also</span></span>  
+ [<span data-ttu-id="9b22a-198">Vodič za voditelja projekta</span><span class="sxs-lookup"><span data-stu-id="9b22a-198">Project Manager Guide</span></span>](../psa/project-manager-guide.md)

@@ -9,20 +9,20 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: db3446c360c2d9278774d49ca3d5950cf2ce85ad
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907974"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073283"
 ---
-# <a name="define-resource-requirements"></a>Definiranje preduvjeta resursa
+# <a name="define-resource-requirements"></a><span data-ttu-id="219a2-103">Definiranje preduvjeta resursa</span><span class="sxs-lookup"><span data-stu-id="219a2-103">Define resource requirements</span></span>
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+<span data-ttu-id="219a2-104">_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_</span><span class="sxs-lookup"><span data-stu-id="219a2-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Preduvjete resursa definira voditelj projekta kako bi utvrdio resurse potrebne za izvršavanje rada na projektu. Poduzmite sljedeće korake kako biste definirali preduvjete resursa.
+<span data-ttu-id="219a2-105">Preduvjete resursa definira voditelj projekta kako bi utvrdio resurse potrebne za izvršavanje rada na projektu.</span><span class="sxs-lookup"><span data-stu-id="219a2-105">Resource requirements are defined by the Project manager to establish the resources needed to execute the work on the project.</span></span> <span data-ttu-id="219a2-106">Poduzmite sljedeće korake kako biste definirali preduvjete resursa.</span><span class="sxs-lookup"><span data-stu-id="219a2-106">Complete the following steps to define a resource requirement.</span></span>
 
-1.  U postavki **Strukturna analiza rada** stvorite jedan ili više zadataka.
-2.  Svakom zadatku dodijelite generičkog člana tima. Zadaci će ažurirati ukupan rad člana projektnog tima.
-3.  Na kartici **Član tima** odaberite člana tima, a zatim odaberite **Generiraj zahtjev**.
+1.  <span data-ttu-id="219a2-107">U postavki **Strukturna analiza rada** stvorite jedan ili više zadataka.</span><span class="sxs-lookup"><span data-stu-id="219a2-107">In the **Work breakdown structure** , create one or more tasks.</span></span>
+2.  <span data-ttu-id="219a2-108">Svakom zadatku dodijelite generičkog člana tima.</span><span class="sxs-lookup"><span data-stu-id="219a2-108">Assign a generic team member to each task.</span></span> <span data-ttu-id="219a2-109">Zadaci će ažurirati ukupan rad člana projektnog tima.</span><span class="sxs-lookup"><span data-stu-id="219a2-109">The assignments will update the total effort of the project team member.</span></span>
+3.  <span data-ttu-id="219a2-110">Na kartici **Član tima** odaberite člana tima, a zatim odaberite **Generiraj zahtjev**.</span><span class="sxs-lookup"><span data-stu-id="219a2-110">On the **Team Member** tab, select the team member and then select **Generate Requirement**.</span></span>
 
-Informacije o načinu izmjene zahtjeva za resursom potražite u odjeljku [Ažuriranje pojedinosti zahtjeva za resursom](define-resource-requirements.md) kako biste izmijenili preduvjete resursa.
+<span data-ttu-id="219a2-111">Informacije o načinu izmjene zahtjeva za resursom potražite u odjeljku [Ažuriranje pojedinosti zahtjeva za resursom](define-resource-requirements.md) kako biste izmijenili preduvjete resursa.</span><span class="sxs-lookup"><span data-stu-id="219a2-111">For information about how to modify the resource requirement, see [Update Resource requirement details](define-resource-requirements.md) to modify the resource requirement.</span></span>

@@ -3,139 +3,144 @@ title: Produljenje unosa vremena
 description: U ovoj temi nalaze se informacije o načinu na koji razvojni inženjeri mogu proširiti kontrolu unosa vremena.
 author: stsporen
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 93f411ad7c86beefcc35e7799a03987dacdcd62b
-ms.sourcegitcommit: 5a29adce48133e09f051929e8544d6c2c93c025d
+ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3930871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073287"
 ---
-# <a name="extending-time-entries"></a>Produljenje unosa vremena
+# <a name="extending-time-entries"></a><span data-ttu-id="18e3e-103">Produljenje unosa vremena</span><span class="sxs-lookup"><span data-stu-id="18e3e-103">Extending time entries</span></span>
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+<span data-ttu-id="18e3e-104">_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_</span><span class="sxs-lookup"><span data-stu-id="18e3e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Dynamics 365 Project Operations uključuje prilagođenu kontrolu produljenja unosa vremena. Ta kontrola obuhvaća sljedeće značajke:
+<span data-ttu-id="18e3e-105">Dynamics 365 Project Operations uključuje prilagođenu kontrolu produljenja unosa vremena.</span><span class="sxs-lookup"><span data-stu-id="18e3e-105">Dynamics 365 Project Operations includes an extendable time entry custom control.</span></span> <span data-ttu-id="18e3e-106">Ta kontrola obuhvaća sljedeće značajke:</span><span class="sxs-lookup"><span data-stu-id="18e3e-106">This control includes the following features:</span></span>
 
-- Unos vremena vodoravno tijekom tjedna
-- Ukupno po danu, retku ili tjednu
-- Kopiranje redaka ili tjedana
-- Unos vremena putem HH:mm ili HH.hh (automatski se pretvara u HH.hh)
-- Uvoz iz zadataka, rezervacija ili obveza
+- <span data-ttu-id="18e3e-107">Unos vremena vodoravno tijekom tjedna</span><span class="sxs-lookup"><span data-stu-id="18e3e-107">Enter time horizontally over a week</span></span>
+- <span data-ttu-id="18e3e-108">Ukupno po danu, retku ili tjednu</span><span class="sxs-lookup"><span data-stu-id="18e3e-108">Totals by day, row, or week</span></span>
+- <span data-ttu-id="18e3e-109">Kopiranje redaka ili tjedana</span><span class="sxs-lookup"><span data-stu-id="18e3e-109">Copy rows or weeks</span></span>
+- <span data-ttu-id="18e3e-110">Unos vremena putem HH:mm ili HH.hh (automatski se pretvara u HH.hh)</span><span class="sxs-lookup"><span data-stu-id="18e3e-110">Time entry through HH:mm or HH.hh (automatically converts to HH.hh)</span></span>
+- <span data-ttu-id="18e3e-111">Uvoz iz zadataka, rezervacija ili obveza</span><span class="sxs-lookup"><span data-stu-id="18e3e-111">Import from assignments, bookings, or appointments</span></span>
 
-Produljenja unosa vremena mogući su u dva područja:
-- [Dodavanje prilagođenih unosa vremena za vlastitu uporabu](#add)
-- [Prilagodba kontrole tjednog unosa vremena](#customize)
+<span data-ttu-id="18e3e-112">Produljenja unosa vremena mogući su u dva područja:</span><span class="sxs-lookup"><span data-stu-id="18e3e-112">Extending time entries is possible in two areas:</span></span>
+- [<span data-ttu-id="18e3e-113">Dodavanje prilagođenih unosa vremena za vlastitu uporabu</span><span class="sxs-lookup"><span data-stu-id="18e3e-113">Add custom time entries for your own use</span></span>](#add)
+- [<span data-ttu-id="18e3e-114">Prilagodba kontrole tjednog unosa vremena</span><span class="sxs-lookup"><span data-stu-id="18e3e-114">Customize the weekly Time Entry control</span></span>](#customize)
 
-## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Dodavanje prilagođenih unosa vremena za vlastitu uporabu.
+## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a><span data-ttu-id="18e3e-115">Dodavanje prilagođenih unosa vremena za vlastitu uporabu</span><span class="sxs-lookup"><span data-stu-id="18e3e-115">Add custom time entries for your own use</span></span>
 
-Unosi vremena temeljni su entitet koji je dizajniran za uporabu u više scenarija. U aprilskom valu 1 2020., predstavljeno je osnovno rješenje TESA, koje pruža entitet **Postavke** i novu sigurnosnu ulogu **Korisnik unosa vremena**. Nova polja **msdyn_start** i **msdyn_end** koja imaju izravan odnos prema **msdyn_duration**, također su bila uključena. Novi entitet, sigurnosna uloga i polja omogućuju objedinjeniji pristup vremenu diljem više proizvoda.
+<span data-ttu-id="18e3e-116">Unosi vremena osnovni su entitet koji se upotrebljava u više scenarija.</span><span class="sxs-lookup"><span data-stu-id="18e3e-116">Time entries are a core entity used in multiple scenarios.</span></span> <span data-ttu-id="18e3e-117">U valu 1. za ožujak 2020. predstavljeno je osnovno rješenje TESA.</span><span class="sxs-lookup"><span data-stu-id="18e3e-117">In April Wave 1 2020, the TESA core solution was introduced.</span></span> <span data-ttu-id="18e3e-118">TESA osigurava entitet **Postavke** i novu sigurnosnu ulogu **Korisnik vremenskog unosa**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-118">TESA provides a **Settings** entity and a new **Time Entry User** security role.</span></span> <span data-ttu-id="18e3e-119">Nova polja **msdyn_start** i **msdyn_end** , koja imaju izravan odnos prema **msdyn_duration** , također su bila uključena.</span><span class="sxs-lookup"><span data-stu-id="18e3e-119">The new fields, **msdyn_start** and **msdyn_end** , which have a direct relation to **msdyn_duration** , were also included.</span></span> <span data-ttu-id="18e3e-120">Novi entitet, sigurnosna uloga i polja omogućuju objedinjeniji pristup vremenu diljem više proizvoda.</span><span class="sxs-lookup"><span data-stu-id="18e3e-120">The new entity, security role, and fields allow for a more unified approach to time across multiple products.</span></span>
 
 
-### <a name="time-source-entity"></a>Entitet izvora vremena
-| Polje | Opis | 
+### <a name="time-source-entity"></a><span data-ttu-id="18e3e-121">Entitet izvora vremena</span><span class="sxs-lookup"><span data-stu-id="18e3e-121">Time source entity</span></span>
+| <span data-ttu-id="18e3e-122">Polje</span><span class="sxs-lookup"><span data-stu-id="18e3e-122">Field</span></span> | <span data-ttu-id="18e3e-123">Opis</span><span class="sxs-lookup"><span data-stu-id="18e3e-123">Description</span></span> | 
 |-------|------------|
-| Ime  | Naziv unosa izvora vremena upotrebljava se kao vrijednost odabira tijekom stvaranja unosa vremena. |
-| Zadani izvor vremena [Izvor vremena: jezadan] | Prema zadanim postavkama, samo jedan izvor vremena može biti označen kao zadani izvor vremena. Ova mogućnost omogućuje unosima zadane vrijednosti za izvor vremena ako nije naveden. |
-|Vrsta izvora vremena [Izvor vremena: izvorvremena] | Vrsta izvora je mogućnost (Vrsta izvora unosa vremena) koja omogućuje povezivanje izvora vremena s aplikacijom. Dodatne vrijednosti će se dodati ovom skup mogućnosti kako se dodaju dodatne aplikacije. Imajte na umu da Microsoft rezervira vrijednosti veće od 190.000.000.|
+| <span data-ttu-id="18e3e-124">Ime</span><span class="sxs-lookup"><span data-stu-id="18e3e-124">Name</span></span>  | <span data-ttu-id="18e3e-125">Naziv unosa izvora vremena upotrebljava se kao vrijednost odabira tijekom stvaranja vremenskih unosa.</span><span class="sxs-lookup"><span data-stu-id="18e3e-125">The name of the Time source entry used as the selection value when creating time entries.</span></span> |
+| <span data-ttu-id="18e3e-126">Zadani izvor vremena [Izvor vremena: jezadan]</span><span class="sxs-lookup"><span data-stu-id="18e3e-126">Default Time Source [Time Source: isdefault]</span></span> | <span data-ttu-id="18e3e-127">Prema zadanim postavkama, samo jedan izvor vremena može biti označen kao zadani.</span><span class="sxs-lookup"><span data-stu-id="18e3e-127">By default, only one Time Source can be marked at the default.</span></span> <span data-ttu-id="18e3e-128">Ova omogućuje da se unosima zadaju vrijednosti za izvor vremena ako nije naveden.</span><span class="sxs-lookup"><span data-stu-id="18e3e-128">This allows for entries to default to a time source if one isn't specified.</span></span> |
+|<span data-ttu-id="18e3e-129">Vrsta izvora vremena [Izvor vremena: izvorvremena]</span><span class="sxs-lookup"><span data-stu-id="18e3e-129">Time Source Type [Time Source: sourcetype]</span></span> | <span data-ttu-id="18e3e-130">Vrsta izvora je mogućnost (Vrsta izvora unosa vremena) koja omogućuje povezivanje izvora vremena s aplikacijom.</span><span class="sxs-lookup"><span data-stu-id="18e3e-130">The source type is an option (Time Entry Source Type) that allows for the association of the time source to an app.</span></span> <span data-ttu-id="18e3e-131">Microsoft rezervira vrijednosti veće od 190.000.000.</span><span class="sxs-lookup"><span data-stu-id="18e3e-131">Microsoft reserves values greater than 190,000,000.</span></span>|
 
 
-### <a name="time-entries-and-the-time-source-entity"></a>Unosi vremena i Entitet izvora vremena
-Svaki unos vremena povezan sa zapisom izvora vremena. Ovaj zapis određuje kako treba obraditi unos vremena i koje aplikacije to trebaju učiniti.
+### <a name="time-entries-and-the-time-source-entity"></a><span data-ttu-id="18e3e-132">Vremenski unosi i Entitet izvora vremena</span><span class="sxs-lookup"><span data-stu-id="18e3e-132">Time entries and the Time source entity</span></span>
+<span data-ttu-id="18e3e-133">Svaki unos vremena povezan sa zapisom izvora vremena.</span><span class="sxs-lookup"><span data-stu-id="18e3e-133">Each time entry is associated to a time source record.</span></span> <span data-ttu-id="18e3e-134">Ovaj zapis određuje kako treba obraditi unos vremena i koje aplikacije to trebaju učiniti.</span><span class="sxs-lookup"><span data-stu-id="18e3e-134">This record determines how and which applications should process the time entry.</span></span>
 
-Unosi vremena uvijek su jedan neprekinuti vremenski blok povezanog početka, kraja i trajanja.
+<span data-ttu-id="18e3e-135">Unosi vremena uvijek su jedan neprekinuti vremenski blok povezanog početka, kraja i trajanja.</span><span class="sxs-lookup"><span data-stu-id="18e3e-135">Time entries are always one contiguous block of time with the start, end, and duration linked.</span></span>
 
-Logika će automatski ažurirati zapis unosa vremena u sljedećim situacijama:
+<span data-ttu-id="18e3e-136">Logika će automatski ažurirati zapis unosa vremena u sljedećim situacijama:</span><span class="sxs-lookup"><span data-stu-id="18e3e-136">The logic will automatically update the time entry record in the following situations:</span></span>
 
-- Ako su navedena dva od tri sljedeća polja, treće se izračunava automatski 
+- <span data-ttu-id="18e3e-137">Ako su navedena dva od tri sljedeća polja, treće se izračunava automatski:</span><span class="sxs-lookup"><span data-stu-id="18e3e-137">If two of the three following fields are provided, the third is calculated automatically:</span></span> 
 
-    - **msdyn_start**
-    - **msdyn_end**
-    - **msdyn_duration**
+    - <span data-ttu-id="18e3e-138">**msdyn_start**</span><span class="sxs-lookup"><span data-stu-id="18e3e-138">**msdyn_start**</span></span>
+    - <span data-ttu-id="18e3e-139">**msdyn_end**</span><span class="sxs-lookup"><span data-stu-id="18e3e-139">**msdyn_end**</span></span>
+    - <span data-ttu-id="18e3e-140">**msdyn_duration**</span><span class="sxs-lookup"><span data-stu-id="18e3e-140">**msdyn_duration**</span></span>
 
-- Polja **msdyn_start** i **msdyn_end** poznate su vremenske zone.
-- Unosi vremena stvoreni samo a navedenim **msdyn_date** i **msdyn_duration** započet će u ponoć, a sukladno tome ažurirat će se **msdyn_start** i **msdyn_end**.
+- <span data-ttu-id="18e3e-141">Polja **msdyn_start** i **msdyn_end** poznate su vremenske zone.</span><span class="sxs-lookup"><span data-stu-id="18e3e-141">The fields, **msdyn_start** and **msdyn_end** are timezone aware.</span></span>
+- <span data-ttu-id="18e3e-142">Vremenski unosi stvoreni samo s navedenim **msdyn_date** i **msdyn_duration** započeti će u ponoć.</span><span class="sxs-lookup"><span data-stu-id="18e3e-142">Time entries created with only **msdyn_date** and **msdyn_duration** specified will start at midnight.</span></span> <span data-ttu-id="18e3e-143">Polja **msdyn_start** i **msdyn_end** ažurirat će se u skladu s tim.</span><span class="sxs-lookup"><span data-stu-id="18e3e-143">The **msdyn_start** and **msdyn_end** fields will update accordingly.</span></span>
 
-#### <a name="time-entry-types"></a>Vrste unosa vremena
+#### <a name="time-entry-types"></a><span data-ttu-id="18e3e-144">Vrste unosa vremena</span><span class="sxs-lookup"><span data-stu-id="18e3e-144">Time entry types</span></span>
 
-Zapisi unosa vremena imaju povezanu vrstu koja definira ponašanje u tijeku slanja za povezanu aplikaciju.
+<span data-ttu-id="18e3e-145">Zapisi unosa vremena imaju povezanu vrstu koja definira ponašanje u tijeku slanja za povezanu aplikaciju.</span><span class="sxs-lookup"><span data-stu-id="18e3e-145">Time entry records have an associated type that defines the behavior in the submission flow for the associated application.</span></span>
 
-|Natpis | Value|
+|<span data-ttu-id="18e3e-146">Natpis</span><span class="sxs-lookup"><span data-stu-id="18e3e-146">Label</span></span> | <span data-ttu-id="18e3e-147">Value</span><span class="sxs-lookup"><span data-stu-id="18e3e-147">Value</span></span>|
 |-----|-----|
-|Na pauzi   |192,355,000|
-|Putovanja | 192,355,001|
-|Prekovremeni rad   | 192,354,320|
-|Posao   | 192,350,000|
-|Odsutnost    | 192,350,001|
-|Godišnji odmor   | 192,350,002|
+|<span data-ttu-id="18e3e-148">Na pauzi</span><span class="sxs-lookup"><span data-stu-id="18e3e-148">On break</span></span>   |<span data-ttu-id="18e3e-149">192,355,000</span><span class="sxs-lookup"><span data-stu-id="18e3e-149">192,355,000</span></span>|
+|<span data-ttu-id="18e3e-150">Putovanja</span><span class="sxs-lookup"><span data-stu-id="18e3e-150">Travel</span></span> | <span data-ttu-id="18e3e-151">192,355,001</span><span class="sxs-lookup"><span data-stu-id="18e3e-151">192,355,001</span></span>|
+|<span data-ttu-id="18e3e-152">Prekovremeni rad</span><span class="sxs-lookup"><span data-stu-id="18e3e-152">Overtime</span></span>   | <span data-ttu-id="18e3e-153">192,354,320</span><span class="sxs-lookup"><span data-stu-id="18e3e-153">192,354,320</span></span>|
+|<span data-ttu-id="18e3e-154">Posao</span><span class="sxs-lookup"><span data-stu-id="18e3e-154">Work</span></span>   | <span data-ttu-id="18e3e-155">192,350,000</span><span class="sxs-lookup"><span data-stu-id="18e3e-155">192,350,000</span></span>|
+|<span data-ttu-id="18e3e-156">Odsutnost</span><span class="sxs-lookup"><span data-stu-id="18e3e-156">Absence</span></span>    | <span data-ttu-id="18e3e-157">192,350,001</span><span class="sxs-lookup"><span data-stu-id="18e3e-157">192,350,001</span></span>|
+|<span data-ttu-id="18e3e-158">Godišnji odmor</span><span class="sxs-lookup"><span data-stu-id="18e3e-158">Vacation</span></span>   | <span data-ttu-id="18e3e-159">192,350,002</span><span class="sxs-lookup"><span data-stu-id="18e3e-159">192,350,002</span></span>|
 
 
 
-## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Prilagodba kontrole tjednog unosa vremena
-Razvojni inženjeri mogu dodati dodatna polja i pretraživanja drugim entitetima i implementirati prilagođena poslovna pravila kako bi podržali svoje poslovne scenarije.
+## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a><span data-ttu-id="18e3e-160">Prilagodba kontrole tjednog unosa vremena</span><span class="sxs-lookup"><span data-stu-id="18e3e-160">Customize the weekly Time entry control</span></span>
+<span data-ttu-id="18e3e-161">Razvojni inženjeri mogu dodati dodatna polja i pretraživanja drugim entitetima i implementirati prilagođena poslovna pravila kako bi podržali svoje poslovne scenarije.</span><span class="sxs-lookup"><span data-stu-id="18e3e-161">Developers can add additional fields and lookups to other entities, and implement custom business rules to support their business scenarios.</span></span>
 
-### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Dodavanje prilagođenih polja s pretraživanjima drugim entitetima
-Postoje tri glavna koraka za dodavanje prilagođenog polja u rešetku tjednih vremenskih unosa.
+### <a name="add-custom-fields-with-lookups-to-other-entities"></a><span data-ttu-id="18e3e-162">Dodavanje prilagođenih polja s pretraživanjima drugim entitetima</span><span class="sxs-lookup"><span data-stu-id="18e3e-162">Add custom fields with lookups to other entities</span></span>
+<span data-ttu-id="18e3e-163">Postoje tri glavna koraka za dodavanje prilagođenog polja u rešetku tjednih vremenskih unosa.</span><span class="sxs-lookup"><span data-stu-id="18e3e-163">There are three main steps to adding a custom field to the weekly time entry grid.</span></span>
 
-- Dodajte prilagođeno polje u dijaloški okvir za brzo stvaranje.
-- Konfigurirajte rešetku kako bi se prikazivalo prilagođeno polje.
-- Dodajte prilagođeno polje ili u izvođenje zadatka uređivanja retka ili u izvođenje zadatka uređivanja ćelije.
+1. <span data-ttu-id="18e3e-164">Dodajte prilagođeno polje u dijaloški okvir za brzo stvaranje.</span><span class="sxs-lookup"><span data-stu-id="18e3e-164">Add the custom field to the quick create dialog box.</span></span>
+2. <span data-ttu-id="18e3e-165">Konfigurirajte rešetku kako bi se prikazivalo prilagođeno polje.</span><span class="sxs-lookup"><span data-stu-id="18e3e-165">Configure the grid to show the custom field.</span></span>
+3. <span data-ttu-id="18e3e-166">Dodajte prilagođeno polje izvođenju zadatka uređivanja retka ili izvođenju zadatka uređivanja ćelije.</span><span class="sxs-lookup"><span data-stu-id="18e3e-166">Add the custom field to the row edit task flow or the cell edit task flow.</span></span>
 
-Isto tako, morate provjeriti ima li novo polje ima potrebne provjere valjanosti u izvođenju zadatka uređivanja retka ili ćelije. U ovom koraku morate zaključati polje na temelju statusa unosa vremena.
+<span data-ttu-id="18e3e-167">Provjerite ima li novo polje potrebne provjere valjanosti u izvođenju zadatka uređivanja retka ili ćelije.</span><span class="sxs-lookup"><span data-stu-id="18e3e-167">Make sure that the new field has the required validations in the row or cell edit task flow.</span></span> <span data-ttu-id="18e3e-168">U ovom koraku zaključajte polje koje se temelji na statusu vremenskog unosa.</span><span class="sxs-lookup"><span data-stu-id="18e3e-168">As part of this step, lock the field based on the time entry status.</span></span>
 
-#### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Dodavanje prilagođenog polja u dijaloški okvir za brzo stvaranje
-Potrebno je dodati prilagođeno polje u dijaloški okvir **Brzo stvaranje unosa vremena**. Korisnici tada, tijekom dodavanja unosa vremena, mogu unijeti vrijednost odabirom mogućnosti **Novi**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a><span data-ttu-id="18e3e-169">Dodavanje prilagođenog polja u dijaloški okvir za brzo stvaranje</span><span class="sxs-lookup"><span data-stu-id="18e3e-169">Add the custom field to the quick create dialog box</span></span>
+<span data-ttu-id="18e3e-170">Dodajte prilagođeno polje u dijaloški okvir **Brzo stvaranje unosa vremena**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-170">Add the custom field to the **Create Time Entry Quick Create** dialog box.</span></span> <span data-ttu-id="18e3e-171">Zatim, nakon dodavanja vremenskog unosa, možete unijeti vrijednost odabirom mogućnosti **Novo**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-171">Then, when time entries are added, a value can be entered by selecting **New**.</span></span>
 
-#### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfiguriranje rešetke kako bi se prikazivalo prilagođeno polje
-Postoje dva načina dodavanja prilagođenog polja u rešetku tjednih vremenskih unosa:
+### <a name="configure-the-grid-to-show-the-custom-field"></a><span data-ttu-id="18e3e-172">Konfiguriranje rešetke kako bi se prikazivalo prilagođeno polje</span><span class="sxs-lookup"><span data-stu-id="18e3e-172">Configure the grid to show the custom field</span></span>
+<span data-ttu-id="18e3e-173">Postoje dva načina dodavanja prilagođenog polja u rešetku tjednih vremenskih unosa:</span><span class="sxs-lookup"><span data-stu-id="18e3e-173">There are two ways add a custom field to the weekly time entry grid:</span></span>
 
-  - Prilagodba prikaza i dodavanje prilagođenog polja
-  - Stvaranje novog zadanog prilagođenog unosa vremena 
+  - <span data-ttu-id="18e3e-174">Prilagodba prikaza i dodavanje prilagođenog polja</span><span class="sxs-lookup"><span data-stu-id="18e3e-174">Customize a view and add a custom field</span></span>
+  - <span data-ttu-id="18e3e-175">Stvaranje novog zadanog prilagođenog unosa vremena</span><span class="sxs-lookup"><span data-stu-id="18e3e-175">Create a new default custom time entry</span></span> 
 
 
-**Prilagodba prikaza i dodavanje prilagođenog polja**
+#### <a name="customize-a-view-and-add-a-custom-field"></a><span data-ttu-id="18e3e-176">Prilagodba prikaza i dodavanje prilagođenog polja</span><span class="sxs-lookup"><span data-stu-id="18e3e-176">Customize a view and add a custom field</span></span>
 
-Možete prilagođavati prikaz **Moji tjedni unosi vremena** i dodavati mu prilagođeno polje. Možete odabrati položaj i veličinu prilagođenog polja u rešetki uređivanjem tih svojstava u prikazu.
+<span data-ttu-id="18e3e-177">Prilagodite prikaz **Moji tjedni unosi vremena** i dodajte mu prilagođeno polje.</span><span class="sxs-lookup"><span data-stu-id="18e3e-177">Customize the **My Weekly Time Entries** view and add the custom field to it.</span></span> <span data-ttu-id="18e3e-178">Možete odabrati položaj i veličinu prilagođenog polja u rešetki uređivanjem svojstava u prikazu.</span><span class="sxs-lookup"><span data-stu-id="18e3e-178">You can choose the position and size of the custom field in the grid by editing the properties in the view.</span></span>
 
-**Stvaranje novog zadanog prilagođenog unosa vremena** 
+#### <a name="create-a-new-default-custom-time-entry"></a><span data-ttu-id="18e3e-179">Stvaranje novog zadanog prilagođenog unosa vremena</span><span class="sxs-lookup"><span data-stu-id="18e3e-179">Create a new default custom time entry</span></span>
 
-Ovaj prikaz mora sadržavati polja **Opis** i **Vanjski komentari**, kao i stupce koje želite dodati u rešetku. 
+<span data-ttu-id="18e3e-180">Ovaj prikaz mora sadržavati polja **Opis** i **Vanjski komentari** , kao i stupce koje želite dodati u rešetku.</span><span class="sxs-lookup"><span data-stu-id="18e3e-180">This view should contain the **Description** and **External Comments** fields, in addition to the columns that you want to have in the grid.</span></span> 
 
-1. Odaberite položaj, veličinu i zadani redoslijed sortiranja u rešetki uređivanjem tih svojstava u prikazu. 
-2. Konfigurirajte prilagođenu kontrolu za ovaj prikaz tako da je podesite kao kontrolu **Rešetka unosa vremena**. 
-3. Dodajte ovu kontrolu u prikaz i odaberite ga za web, telefone i tablete. 
-4. Konfigurirajte parametre za rešetku tjednih vremenskih unosa. Polje **Datum početka** postavite na **msdyn_date**, polje **Trajanje** na **msdyn_duration**, a polje **Status** na **msdyn_entrystatus**. 
-5. Za zadani prikaz polje **Popis statusa samo za čitanje** postavljeno je na **192350002, 192350003, 192350004**, polje **Izvođenje zadatka uređivanja retka** postavljeno je na **msdyn_timeentryrowedit**, a polje **Izvođenje zadatka uređivanja ćelije** postavljeno je na **msdyn_timeentryedit**. 
-6. Ta polja možete prilagoditi za dodavanje ili uklanjanje statusa samo za čitanje ili za upotrebu drugog iskustva na temelju zadatka (TBX) za uređivanje retka ili ćelije. Ta polja trebaju biti vezana za statičku vrijednost.
+1. <span data-ttu-id="18e3e-181">Odaberite položaj, veličinu i zadani redoslijed sortiranja u rešetki uređivanjem tih svojstava u prikazu.</span><span class="sxs-lookup"><span data-stu-id="18e3e-181">Choose the position, size, and default sort order of the grid by editing those properties in the view.</span></span> 
+2. <span data-ttu-id="18e3e-182">Konfigurirajte prilagođenu kontrolu za ovaj prikaz tako da je podesite kao kontrolu **Rešetka unosa vremena**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-182">Configure the custom control for this view so that it's a **Time Entry Grid** control.</span></span> 
+3. <span data-ttu-id="18e3e-183">Dodajte ovu kontrolu u prikaz i odaberite ga za web, telefone i tablete.</span><span class="sxs-lookup"><span data-stu-id="18e3e-183">Add this control to the view, and select it for web, phone, and tablet.</span></span> 
+4. <span data-ttu-id="18e3e-184">Konfigurirajte parametre za rešetku tjednih vremenskih unosa.</span><span class="sxs-lookup"><span data-stu-id="18e3e-184">Configure the parameters for the weekly time entry grid.</span></span> 
+5. <span data-ttu-id="18e3e-185">Polje **Datum početka** postavite na **msdyn_date** , polje **Trajanje** na **msdyn_duration** , a polje **Status** na **msdyn_entrystatus**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-185">Set the **Start Date** field to **msdyn_date** , set the **Duration** field to **msdyn_duration** , and set the **Status** field to **msdyn_entrystatus**.</span></span> 
+6. <span data-ttu-id="18e3e-186">Za zadani prikaz, polje **Popis statusa samo za čitanje** postavljeno je na **192350002,192350003,192350004**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-186">For the default view, the **Read-only Status List** field is set to **192350002,192350003,192350004**.</span></span> <span data-ttu-id="18e3e-187">Polje **Tijek zadatka za uređivanje retka** postavljeno je na **msdyn_timeentryrowedit**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-187">The **Row Edit Task Flow** field is set to **msdyn_timeentryrowedit**.</span></span> <span data-ttu-id="18e3e-188">Polje **Tijek zadatka za uređivanje ćelije** postavljeno je na **msdyn_timeentryedit**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-188">The **Cell Edit Task Flow** field is set to **msdyn_timeentryedit**.</span></span> 
+7. <span data-ttu-id="18e3e-189">Ta polja možete prilagoditi za dodavanje ili uklanjanje statusa samo za čitanje ili za upotrebu drugog iskustva na temelju zadatka (TBX) za uređivanje retka ili ćelije.</span><span class="sxs-lookup"><span data-stu-id="18e3e-189">You can customize these fields to add or remove read-only status, or to use a different task-based experience (TBX) for row or cell editing.</span></span> <span data-ttu-id="18e3e-190">Ta su polja sada vezana za statičku vrijednost.</span><span class="sxs-lookup"><span data-stu-id="18e3e-190">These fields are now bound to a static value.</span></span>
 
 
 > [!NOTE] 
-> Obje mogućnosti uklonit će neke gotove filtre u entitetima **Projekt** i **Projektni zadatak** tako da će se vidjeti svi prikazi za traženje za entitete. Gotova rješenja omogućuju vidljivost samo relevantnih prikaza za traženje.
-Morate odrediti odgovarajuće izvođenje zadatka za prilagođeno polje. Ako ste dodali polje u rešetku, ono bi vjerojatno trebalo ići u izvođenje zadatka uređivanja retka koje se koristi za polja koja se primjenjuju na cijeli redak vremenskih unosa. Ako prilagođeno polje ima jedinstvenu vrijednost svaki dan, kao što je prilagođeno polje za **Vrijeme završetka**, ono bi trebalo ići u izvođenje zadatka uređivanja ćelije.
+> <span data-ttu-id="18e3e-191">Obje mogućnosti uklonit će neke gotove filtre u entitetima **Projekt** i **Projektni zadatak** tako da će se vidjeti svi prikazi za traženje za entitete.</span><span class="sxs-lookup"><span data-stu-id="18e3e-191">Both options will remove some out-of-box filtering on the **Project** and **Project Task** entities so that all lookup views for the entities will be visible.</span></span> <span data-ttu-id="18e3e-192">Gotova rješenja omogućuju vidljivost samo relevantnih prikaza za traženje.</span><span class="sxs-lookup"><span data-stu-id="18e3e-192">Out-of-the-box, only the relevant lookup views are visible.</span></span>
 
-Za dodavanje prilagođenog polja u izvođenje zadatka, povucite element **Polje** u odgovarajući položaj na stranici, a zatim postavite svojstva polja. Postavite svojstvo **Izvor** na **Unos vremena**, a svojstvo **Polje podataka** postavite na prilagođeno polje. Svojstvo **Polje** određuje zaslonski naziv na TBX stranici. Odaberite **Primijeni** kako biste u polje spremili promjene, a zatim odaberite **Ažuriraj** kako biste spremili promjene na stranici.
+<span data-ttu-id="18e3e-193">Odredite odgovarajuće izvođenje zadatka za prilagođeno polje.</span><span class="sxs-lookup"><span data-stu-id="18e3e-193">Determine the appropriate task flow for the custom field.</span></span> <span data-ttu-id="18e3e-194">Ako ste dodali polje u rešetku, ono bi trebalo ići u izvođenje zadatka uređivanja retka koje se koristi za polja koja se primjenjuju na cijeli redak vremenskih unosa.</span><span class="sxs-lookup"><span data-stu-id="18e3e-194">If you added the field to the grid, it should go in the row edit task flow that is used for fields that apply to the whole row of time entries.</span></span> <span data-ttu-id="18e3e-195">Ako prilagođeno polje ima jedinstvenu vrijednost svaki dan, kao što je prilagođeno polje za **Vrijeme završetka** , ono bi trebalo ići u izvođenje zadatka uređivanja ćelije.</span><span class="sxs-lookup"><span data-stu-id="18e3e-195">If the custom field has a unique value every day, such as a custom field for **End time** , it should go in the cell edit task flow.</span></span>
 
-Da biste umjesto toga koristili novu prilagođenu TBX stranicu, stvorite novi proces. Postavite kategoriju na **Tijek poslovnog procesa**, postavite entitet na **Unos vremena** i postavite vrstu poslovnog procesa pomoću mogućnosti **Pokreni proces kao izvođenje zadatka**. U odjeljku **Svojstva** svojstvo **Naziv stranice** treba biti postavljeno na zaslonski naziv za stranicu. Dodajte sva relevantna polja na TBX stranicu. Spremite i aktivirajte proces, a zatim ažurirajte svojstvo prilagođene kontrole za odgovarajuće izvođenje zadatka na vrijednost **Naziv** u procesu.
+<span data-ttu-id="18e3e-196">Za dodavanje prilagođenog polja u izvođenje zadatka, povucite element **Polje** u odgovarajući položaj na stranici, a zatim postavite svojstva polja.</span><span class="sxs-lookup"><span data-stu-id="18e3e-196">To add the custom field to a task flow, drag a **Field** element into the appropriate position on the page, and then set the field properties.</span></span> <span data-ttu-id="18e3e-197">Postavite svojstvo **Izvor** na **Unos vremena** , a svojstvo **Polje podataka** postavite na prilagođeno polje.</span><span class="sxs-lookup"><span data-stu-id="18e3e-197">Set the **Source** property to **Time Entry** , and set the **Data Field** property to the custom field.</span></span> <span data-ttu-id="18e3e-198">Svojstvo **Polje** određuje zaslonski naziv na TBX stranici.</span><span class="sxs-lookup"><span data-stu-id="18e3e-198">The **Field** property specifies the display name on the TBX page.</span></span> <span data-ttu-id="18e3e-199">Odaberite **Primijeni** kako biste u polje spremili promjene, a zatim odaberite **Ažuriraj** kako biste spremili promjene na stranici.</span><span class="sxs-lookup"><span data-stu-id="18e3e-199">Select **Apply** to save your changes to the field, and then select **Update** to save your changes to the page.</span></span>
 
-### <a name="add-new-option-set-values"></a>Dodavanje novih vrijednosti skupa mogućnosti
-Da biste dodali vrijednosti skupa mogućnosti u unaprijed pripremljeno polje, otvorite stranicu za uređivanje za polje, a zatim u odjeljku **Vrsta**odaberite **Uredi** pokraj skupa mogućnosti. Zatim dodajte novu mogućnost koja ima prilagođenu oznaku i boju. Ako želite dodati novi status unosa vremena, unaprijed pripremljeno polje pod nazivom **Status unosa**, a ne **Status**.
+<span data-ttu-id="18e3e-200">Da biste umjesto toga koristili novu prilagođenu TBX stranicu, stvorite novi proces.</span><span class="sxs-lookup"><span data-stu-id="18e3e-200">To use a new custom TBX page instead, create a new process.</span></span> <span data-ttu-id="18e3e-201">Postavite kategoriju na **Tijek poslovnog procesa** , postavite entitet na **Unos vremena** i postavite vrstu poslovnog procesa pomoću mogućnosti **Pokreni proces kao izvođenje zadatka**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-201">Set the category to **Business Process Flow** , set the entity to **Time Entry** , and set the business process type to **Run process as a task flow**.</span></span> <span data-ttu-id="18e3e-202">U odjeljku **Svojstva** svojstvo **Naziv stranice** treba biti postavljeno na zaslonski naziv za stranicu.</span><span class="sxs-lookup"><span data-stu-id="18e3e-202">Under **Properties** , the **Page name** property should be set to the display name for the page.</span></span> <span data-ttu-id="18e3e-203">Dodajte sva relevantna polja na TBX stranicu.</span><span class="sxs-lookup"><span data-stu-id="18e3e-203">Add all the relevant fields to the TBX page.</span></span> <span data-ttu-id="18e3e-204">Spremite i aktivirajte postupak.</span><span class="sxs-lookup"><span data-stu-id="18e3e-204">Save and activate the process.</span></span> <span data-ttu-id="18e3e-205">Ažurirajte svojstvo prilagođene kontrole za odgovarajuće izvođenje zadatka u postupku na vrijednost **Naziv**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-205">Update the custom control property for the relevant task flow to the value of **Name** on the process.</span></span>
 
-### <a name="designate-a-new-time-entry-status-as-read-only"></a>Određivanje novog statusa unosa vremena kao unosa samo za čitanje
-Kako biste odredili novi status unosa vremena kao unosa samo za čitanje, dodajte novu vrijednost unosa vremena u svojstvo **Popis statusa samo za čitanje**. Dio rešetke vremenskih unosa za uređivanje bit će zaključan za retke koji imaju novi status.
-Zatim dodajte poslovna pravila da biste zaključali sva polja na TBX stranicama **Uređivanje retka za unos vremena** i **Uređivanje unosa vremena**. Poslovnim pravilima za te stranice možete pristupiti tako da otvorite uređivač izvođenja poslovnog procesa za stranicu, a zatim odaberete **Poslovna pravila**. Možete dodati novi status uvjetu u postojećim poslovnim pravilima ili možete dodati novo poslovno pravilo za novi status.
+### <a name="add-new-option-set-values"></a><span data-ttu-id="18e3e-206">Dodavanje novih vrijednosti skupa mogućnosti</span><span class="sxs-lookup"><span data-stu-id="18e3e-206">Add new option set values</span></span>
+<span data-ttu-id="18e3e-207">Kako biste dodali vrijednosti skupa mogućnosti u gotovo polje, otvorite stranicu za uređivanje polja, a zatim u odjeljku **Vrsta** pokraj skupa mogućnosti odaberite **Uredi**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-207">To add option set values to an out-of-the-box field, open the editing page for the field, and under **Type** , select **Edit** next to the option set.</span></span> <span data-ttu-id="18e3e-208">Dodajte novu mogućnost koja ima prilagođenu oznaku i boju.</span><span class="sxs-lookup"><span data-stu-id="18e3e-208">Add a new option that has a custom label and color.</span></span> <span data-ttu-id="18e3e-209">Ako želite dodati novi status unosa vremena, gotovo polje pod nazivom **Status unosa** , a ne **Status**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-209">If you want to add a new time entry status, the out-of-the-box field is named **Entry Status** , not **Status**.</span></span>
 
-### <a name="add-custom-validation-rules"></a>Dodavanje prilagođenih pravila provjere valjanosti
-Dvije su vrste pravila provjere valjanosti koje možete dodati iskustvu rešetke tjednog unosa vremena:
+### <a name="designate-a-new-time-entry-status-as-read-only"></a><span data-ttu-id="18e3e-210">Određivanje novog statusa unosa vremena kao unosa samo za čitanje</span><span class="sxs-lookup"><span data-stu-id="18e3e-210">Designate a new time entry status as read-only</span></span>
+<span data-ttu-id="18e3e-211">Kako biste odredili novi status unosa vremena kao unosa samo za čitanje, dodajte novu vrijednost unosa vremena u svojstvo **Popis statusa samo za čitanje**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-211">To designate a new time entry status as read-only, add the new time entry value to the **Read-only Status List** property.</span></span> <span data-ttu-id="18e3e-212">Dio rešetke vremenskih unosa za uređivanje bit će zaključan za retke koji imaju novi status.</span><span class="sxs-lookup"><span data-stu-id="18e3e-212">The editable part of the time entry grid will be locked for rows that have the new status.</span></span>
+<span data-ttu-id="18e3e-213">Zatim dodajte poslovna pravila da biste zaključali sva polja na TBX stranicama **Uređivanje retka za unos vremena** i **Uređivanje unosa vremena**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-213">Next, add business rules to lock all the fields on the **Time Entry Row Edit** and **Time Entry Edit** TBX pages.</span></span> <span data-ttu-id="18e3e-214">Poslovnim pravilima za te stranice možete pristupiti tako da otvorite uređivač izvođenja poslovnog procesa za stranicu, a zatim odaberete **Poslovna pravila**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-214">You can access the business rules for these pages by opening the business process flow editor for the page and then selecting **Business Rules**.</span></span> <span data-ttu-id="18e3e-215">Možete dodati novi status uvjetu u postojećim poslovnim pravilima ili možete dodati novo poslovno pravilo za novi status.</span><span class="sxs-lookup"><span data-stu-id="18e3e-215">You can add the new status to the condition in the existing business rules, or you can add a new business rule for the new status.</span></span>
 
-- Poslovna pravila na strani klijenta koja rade u dijaloškim okvirima za brzo stvaranje i na TBX stranicama.
-- Provjere valjanosti dodataka na strani poslužitelja koje se primjenjuju na sva ažuriranja unosa vremena.
+### <a name="add-custom-validation-rules"></a><span data-ttu-id="18e3e-216">Dodavanje prilagođenih pravila provjere valjanosti</span><span class="sxs-lookup"><span data-stu-id="18e3e-216">Add custom validation rules</span></span>
+<span data-ttu-id="18e3e-217">Dvije su vrste pravila provjere valjanosti koje možete dodati iskustvu rešetke tjednog unosa vremena:</span><span class="sxs-lookup"><span data-stu-id="18e3e-217">There are two types of validation rules that you can add for the weekly time entry grid experience:</span></span>
 
-#### <a name="business-rules"></a>Poslovna pravila
-Poslovna pravila služe za zaključavanje i otključavanje polja, unos zadanih vrijednosti u polja i određivanje provjera valjanosti koje zahtijevaju informacije samo iz trenutačnog zapisa unosa vremena. Poslovnim pravilima za TBX stranice možete pristupiti tako da otvorite uređivač izvođenja poslovnog procesa za stranicu, a zatim odaberete **Poslovna pravila**. Zatim možete urediti postojeća poslovna pravila ili dodati novo poslovno pravilo. Za još više prilagođenih provjera valjanosti možete upotrijebiti poslovno pravilo za pokretanje JavaScripta.
+- <span data-ttu-id="18e3e-218">Poslovna pravila na strani klijenta koja rade u dijaloškim okvirima za brzo stvaranje i na TBX stranicama.</span><span class="sxs-lookup"><span data-stu-id="18e3e-218">Client-side business rules that work in quick create dialog boxes and on TBX pages.</span></span>
+- <span data-ttu-id="18e3e-219">Provjere valjanosti dodataka na strani poslužitelja koje se primjenjuju na sva ažuriranja unosa vremena.</span><span class="sxs-lookup"><span data-stu-id="18e3e-219">Server-side plug-in validations that apply to all time entry updates.</span></span>
 
-#### <a name="plug-in-validations"></a>Provjere valjanosti dodatka
-Provjere valjanosti dodatka trebate upotrebljavati za sve provjere valjanosti koje zahtijevaju više konteksta nego što je dostupno u jednom zapisu unosa vremena ili za provjere valjanosti koje želite pokrenuti na ažuriranjima unutar retka na rešetki. Da biste dovršili provjeru valjanosti, stvorite prilagođeni dodatak u entitetu **Unos vremena**.
+#### <a name="business-rules"></a><span data-ttu-id="18e3e-220">Poslovna pravila</span><span class="sxs-lookup"><span data-stu-id="18e3e-220">Business rules</span></span>
+<span data-ttu-id="18e3e-221">Poslovna pravila služe za zaključavanje i otključavanje polja, unos zadanih vrijednosti u polja i određivanje provjera valjanosti koje zahtijevaju informacije samo iz trenutačnog zapisa unosa vremena.</span><span class="sxs-lookup"><span data-stu-id="18e3e-221">Use business rules to lock and unlock fields, enter default values in fields, and define validations that require information only from the current time entry record.</span></span> <span data-ttu-id="18e3e-222">Poslovnim pravilima za TBX stranice možete pristupiti tako da otvorite uređivač izvođenja poslovnog procesa za stranicu, a zatim odaberete **Poslovna pravila**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-222">You can access the business rules for a TBX page by opening the business process flow editor for the page and then selecting **Business Rules**.</span></span> <span data-ttu-id="18e3e-223">Zatim možete urediti postojeća poslovna pravila ili dodati novo poslovno pravilo.</span><span class="sxs-lookup"><span data-stu-id="18e3e-223">You can then edit the existing business rules or add a new business rule.</span></span> <span data-ttu-id="18e3e-224">Za još više prilagođenih provjera valjanosti možete upotrijebiti poslovno pravilo za pokretanje JavaScripta.</span><span class="sxs-lookup"><span data-stu-id="18e3e-224">For even more customized validations, you can use a business rule to run JavaScript.</span></span>
+
+#### <a name="plug-in-validations"></a><span data-ttu-id="18e3e-225">Provjere valjanosti dodatka</span><span class="sxs-lookup"><span data-stu-id="18e3e-225">Plug-in validations</span></span>
+<span data-ttu-id="18e3e-226">Upotrijebite dodatak za provjere valjanosti za sve provjere valjanosti koje zahtijevaju više konteksta nego što je dostupno u jednom zapisu unosa vremena ili za provjere valjanosti koje želite pokrenuti na ažuriranjima unutar retka na rešetki.</span><span class="sxs-lookup"><span data-stu-id="18e3e-226">Use plug-in validations for any validations that require more context than is available in a single time entry record, or for any validations that you want to run on inline updates in the grid.</span></span> <span data-ttu-id="18e3e-227">Da biste dovršili provjeru valjanosti, stvorite prilagođeni dodatak u entitetu **Unos vremena**.</span><span class="sxs-lookup"><span data-stu-id="18e3e-227">To complete the validation, create a custom plug-in on the **Time Entry** entity.</span></span>
+
+### <a name="copying-time-entries"></a><span data-ttu-id="18e3e-228">Kopiranje vremenskih unosa</span><span class="sxs-lookup"><span data-stu-id="18e3e-228">Copying time entries</span></span>
+<span data-ttu-id="18e3e-229">Upotrijebite prikaz **Kopiraj stupce za unos vremena** za definiranje popisa polja za kopiranje tijekom vremenskog unosa.</span><span class="sxs-lookup"><span data-stu-id="18e3e-229">Use the view **Copy Time Entry Columns** to define the list of fields to copy during time entry.</span></span> <span data-ttu-id="18e3e-230">**Datum** i **Trajanje** obvezna su polja i ne biste ih trebali ukloniti iz prikaza.</span><span class="sxs-lookup"><span data-stu-id="18e3e-230">**Date** and **Duration** are required fields and shouldn't be removed from the view.</span></span>

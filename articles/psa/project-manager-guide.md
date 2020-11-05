@@ -1,0 +1,95 @@
+---
+title: Vodič voditelja projekta
+description: Vodič kroz upravljanje projektom u programu Project Service
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 89e33ae67f5d4134bf8c6f6c517fd4460c6879dd
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: hr-HR
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073358"
+---
+# <a name="project-manager-guide-project-service"></a><span data-ttu-id="d9b0c-103">Vodič za upravitelja projektima (Project Service)</span><span class="sxs-lookup"><span data-stu-id="d9b0c-103">Project manager guide (Project Service)</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+<span data-ttu-id="d9b0c-104">Mogućnosti komponente [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u sustavu [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] olakšavaju stvaranje ponuda i ugovora te stvaranje i upravljanje projektima za vaše klijente nakon što ste potpisali ugovor.</span><span class="sxs-lookup"><span data-stu-id="d9b0c-104">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] help you create project quotes and contracts, and create and manage projects for your clients after you’ve won the contract.</span></span> <span data-ttu-id="d9b0c-105">Također omogućuju analizu kako bi vam projekti bili izvedivi i profitabilni.</span><span class="sxs-lookup"><span data-stu-id="d9b0c-105">They also provides analytics to help you ensure projects are feasible and profitable.</span></span> <span data-ttu-id="d9b0c-106">Projekte možete postaviti ovisno o vremenu, materijalima ili na temelju cijene.</span><span class="sxs-lookup"><span data-stu-id="d9b0c-106">You can set up projects on a time and materials or fixed-price basis.</span></span>  
+  
+ <span data-ttu-id="d9b0c-107">Prednosti alata za upravljanje projektom:</span><span class="sxs-lookup"><span data-stu-id="d9b0c-107">Project management tools help you to:</span></span>  
+  
+-   <span data-ttu-id="d9b0c-108">Učinkovite procjene rada</span><span class="sxs-lookup"><span data-stu-id="d9b0c-108">Effectively estimate work</span></span>  
+  
+-   <span data-ttu-id="d9b0c-109">Predviđanja preduvjeta za resurse kada su projekti u kanalu</span><span class="sxs-lookup"><span data-stu-id="d9b0c-109">Forecast resource requirements when projects are in the pipeline</span></span>  
+  
+-   <span data-ttu-id="d9b0c-110">Omogućivanja suradnje na projektima za članove tima i održavanja aktualnog i točnog stanja projekta u svakom trenutku</span><span class="sxs-lookup"><span data-stu-id="d9b0c-110">Enable team members to collaborate on projects and maintain current and accurate project status at all times</span></span>  
+  
+-   <span data-ttu-id="d9b0c-111">Proaktivne identifikacije i rješavanja potencijalnih prijetnji uspjehu za svaku aktivnost.</span><span class="sxs-lookup"><span data-stu-id="d9b0c-111">Proactively identify and resolve potential threats to the success of each and every engagement.</span></span>  
+  
+<span data-ttu-id="d9b0c-112">Ovaj vodič nudi informacije potrebne za stvaranje i upravljanje projektima:</span><span class="sxs-lookup"><span data-stu-id="d9b0c-112">This guide provides information you need to create and manage projects:</span></span>  
+  
+-   [<span data-ttu-id="d9b0c-113">Pružanje procjene posla za projekt tijekom prodajnog procesa</span><span class="sxs-lookup"><span data-stu-id="d9b0c-113">Provide work estimates for a project during the sales process</span></span>](../psa/provide-estimates-project-during-sales-process.md)  
+  
+-   [<span data-ttu-id="d9b0c-114">Stvori projekt</span><span class="sxs-lookup"><span data-stu-id="d9b0c-114">Create a project</span></span>](../psa/create-project.md)  
+  
+-   [<span data-ttu-id="d9b0c-115">Pomoću dodatka Project Service Automation planirajte zadatke u programu Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="d9b0c-115">Use the Project Service Automation add-in to plan your work in Microsoft Project</span></span>](../psa/add-plan-work-microsoft-project.md)  
+  
+-   [<span data-ttu-id="d9b0c-116">Raspoređivanje projekta sa strukturnom analizom rada</span><span class="sxs-lookup"><span data-stu-id="d9b0c-116">Schedule a project with a work breakdown structure</span></span>](../psa/schedule-project-work-breakdown-structure.md)  
+  
+-   [<span data-ttu-id="d9b0c-117">Određivanje cijene i prihoda za projekt</span><span class="sxs-lookup"><span data-stu-id="d9b0c-117">Determine project cost and revenue estimates</span></span>](../psa/determine-project-cost-revenue-estimates.md)  
+  
+-   [<span data-ttu-id="d9b0c-118">Praćenje napretka projekta i troška</span><span class="sxs-lookup"><span data-stu-id="d9b0c-118">Track project progress and cost</span></span>](../psa/track-project-progress-cost.md)  
+  
+-   [<span data-ttu-id="d9b0c-119">Stvaranje predloška projekta</span><span class="sxs-lookup"><span data-stu-id="d9b0c-119">Create a project template</span></span>](../psa/create-project-template.md)  
+  
+-   [<span data-ttu-id="d9b0c-120">Slanje zahtjeva za resurse</span><span class="sxs-lookup"><span data-stu-id="d9b0c-120">Submit resource requests</span></span>](../psa/submit-resource-requests.md)  
+  
+-   [<span data-ttu-id="d9b0c-121">Stvaranje grupe sustava Office 365 za projekt</span><span class="sxs-lookup"><span data-stu-id="d9b0c-121">Create an Office 365 Group for a project</span></span>](../psa/create-office-365-group-project.md)  
+  
+-   [<span data-ttu-id="d9b0c-122">Dodavanje dokumenata projektu</span><span class="sxs-lookup"><span data-stu-id="d9b0c-122">Add documents to a project</span></span>](../psa/add-documents-project.md)  
+  
+-   [<span data-ttu-id="d9b0c-123">Praćenje statusa projekta</span><span class="sxs-lookup"><span data-stu-id="d9b0c-123">Track a project’s status</span></span>](../psa/track-project-status.md)  
+  
+-   [<span data-ttu-id="d9b0c-124">Prikaz članova tima za projekt i upravljanje rezervacijama</span><span class="sxs-lookup"><span data-stu-id="d9b0c-124">View project team members and manage bookings</span></span>](../psa/view-project-team-members-manage-bookings.md)  
+  
+-   [<span data-ttu-id="d9b0c-125">Prikaz i uređivanje procjena projekta</span><span class="sxs-lookup"><span data-stu-id="d9b0c-125">View and edit project estimates</span></span>](../psa/view-edit-project-estimates.md)  
+  
+-   [<span data-ttu-id="d9b0c-126">Vrijeme i troškovi odobrenja</span><span class="sxs-lookup"><span data-stu-id="d9b0c-126">Approve time and expenses</span></span>](../psa/approve-time-expenses.md)  
+  
+-   [<span data-ttu-id="d9b0c-127">Pregled stvarnih podataka projekta</span><span class="sxs-lookup"><span data-stu-id="d9b0c-127">Review project actuals</span></span>](../psa/review-project-actuals.md)  
+  
+-   [<span data-ttu-id="d9b0c-128">Prikaz i slanje faktura</span><span class="sxs-lookup"><span data-stu-id="d9b0c-128">View and send invoices</span></span>](../psa/view-send-invoices.md)  
+  
+-   [<span data-ttu-id="d9b0c-129">Prikaz nadzornih ploča i izvješća</span><span class="sxs-lookup"><span data-stu-id="d9b0c-129">View dashboards and reports</span></span>](../psa/view-dashboards-reports.md)  
+  
+## <a name="prerequisites"></a><span data-ttu-id="d9b0c-130">Preduvjeti</span><span class="sxs-lookup"><span data-stu-id="d9b0c-130">Prerequisites</span></span>  
+ <span data-ttu-id="d9b0c-131">Ako već niste, morat ćete dovršiti sljedeće stavke prije no što počnete sa stvaranjem projekata:</span><span class="sxs-lookup"><span data-stu-id="d9b0c-131">If you haven't already, you’ll need to complete the following items before you can start creating projects:</span></span>  
+  
+-   <span data-ttu-id="d9b0c-132">[Stvorite predložak radnog vremena](../psa/create-work-hours-template.md).</span><span class="sxs-lookup"><span data-stu-id="d9b0c-132">[Create a work hours template](../psa/create-work-hours-template.md).</span></span> <span data-ttu-id="d9b0c-133">Postavite kalendar projekta koji određuje radno vrijeme po danu u rasporedu i neradno vrijeme.</span><span class="sxs-lookup"><span data-stu-id="d9b0c-133">Set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span>  
+  
+-   <span data-ttu-id="d9b0c-134">[Stvaranje cjenika](../psa/create-price-list.md).</span><span class="sxs-lookup"><span data-stu-id="d9b0c-134">[Create a price list](../psa/create-price-list.md).</span></span> <span data-ttu-id="d9b0c-135">Odredite trošak i prodajne cijene za uloge resursa u organizaciji, kao i za druge kategorije kao što su troškovi i proizvodi.</span><span class="sxs-lookup"><span data-stu-id="d9b0c-135">Set cost and sales prices for resource roles in your organization, as well as for other categories like expenses and products.</span></span>  
+  
+-   <span data-ttu-id="d9b0c-136">[Dodavanje uloga resursa](../psa/add-resource-roles.md).</span><span class="sxs-lookup"><span data-stu-id="d9b0c-136">[Add resource roles](../psa/add-resource-roles.md).</span></span> <span data-ttu-id="d9b0c-137">Definirajte uloge da biste odredili preduvjete za resurse i troškove projekta.</span><span class="sxs-lookup"><span data-stu-id="d9b0c-137">Define roles to help determine resource requirements and project costs.</span></span>  
+  
+### <a name="see-also"></a><span data-ttu-id="d9b0c-138">Pogledajte također</span><span class="sxs-lookup"><span data-stu-id="d9b0c-138">See Also</span></span>  
+ <span data-ttu-id="d9b0c-139">[Pregled usluge Project Service](../psa/overview.md) </span><span class="sxs-lookup"><span data-stu-id="d9b0c-139">[Overview of Project Service](../psa/overview.md) </span></span>  
+ <span data-ttu-id="d9b0c-140">[​Vodič za administratore](../psa/admin-guide.md) </span><span class="sxs-lookup"><span data-stu-id="d9b0c-140">[Administrator Guide](../psa/admin-guide.md) </span></span>  
+ <span data-ttu-id="d9b0c-141">[Vodič za voditelja kupaca](../psa/account-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="d9b0c-141">[Account Manager Guiden](../psa/account-manager-guide.md) </span></span>  
+ <span data-ttu-id="d9b0c-142">[Vodič za upravitelj resursa](../psa/resource-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="d9b0c-142">[Resource Manager Guide](../psa/resource-manager-guide.md) </span></span>  
+ [<span data-ttu-id="d9b0c-143">Vodič za vrijeme, troškove i suradnju</span><span class="sxs-lookup"><span data-stu-id="d9b0c-143">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+

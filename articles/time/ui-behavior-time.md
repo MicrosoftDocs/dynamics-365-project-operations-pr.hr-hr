@@ -9,79 +9,79 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961691"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073323"
 ---
-# <a name="time-entry-ui-behavior"></a>Ponašanje korisničkog sučelja za unos vremena
+# <a name="time-entry-ui-behavior"></a><span data-ttu-id="c7fe0-103">Ponašanje korisničkog sučelja za unos vremena</span><span class="sxs-lookup"><span data-stu-id="c7fe0-103">Time entry UI behavior</span></span>
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+<span data-ttu-id="c7fe0-104">_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_</span><span class="sxs-lookup"><span data-stu-id="c7fe0-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-Rešetka **Tjedni unos vremena** prilagođena je kontrola koja ima dva glavna odjeljka, **Dimenzije** i **Trajanje**.
+<span data-ttu-id="c7fe0-105">Rešetka **Tjedni unos vremena** prilagođena je kontrola koja ima dva glavna odjeljka, **Dimenzije** i **Trajanje**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-105">The **Weekly time entry** grid is a custom control that has two main sections, **Dimensions** and **Duration**.</span></span>
 
-## <a name="dimensions"></a>Dimenzije
-U odjeljku **Dimenzije** prikazuju se sve dimenzije prema kojima se može unijeti vrijeme. Sljedeće dimenzije podržane su kao gotova rješenja:
+## <a name="dimensions"></a><span data-ttu-id="c7fe0-106">Dimenzije</span><span class="sxs-lookup"><span data-stu-id="c7fe0-106">Dimensions</span></span>
+<span data-ttu-id="c7fe0-107">U odjeljku **Dimenzije** prikazuju se sve dimenzije prema kojima se može unijeti vrijeme.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-107">The **Dimensions** section shows the dimensions that time can be entered against.</span></span> <span data-ttu-id="c7fe0-108">Sljedeće dimenzije podržane su kao gotova rješenja:</span><span class="sxs-lookup"><span data-stu-id="c7fe0-108">The following dimensions are supported out-of-the-box:</span></span>
 
-  - Project
-  - Projektni zadatak
-  - Uloga
-  - Tip
-  - Status unosa
+  - <span data-ttu-id="c7fe0-109">Project</span><span class="sxs-lookup"><span data-stu-id="c7fe0-109">Project</span></span>
+  - <span data-ttu-id="c7fe0-110">Projektni zadatak</span><span class="sxs-lookup"><span data-stu-id="c7fe0-110">Project Task</span></span>
+  - <span data-ttu-id="c7fe0-111">Uloga</span><span class="sxs-lookup"><span data-stu-id="c7fe0-111">Role</span></span>
+  - <span data-ttu-id="c7fe0-112">Tip</span><span class="sxs-lookup"><span data-stu-id="c7fe0-112">Type</span></span>
+  - <span data-ttu-id="c7fe0-113">Status unosa</span><span class="sxs-lookup"><span data-stu-id="c7fe0-113">Entry Status</span></span>
 
-U odjeljku **Dimenzije** nije dozvoljeno uređivanje unutar retka. Ovaj odjeljak temelji se na prikazu koji omogućuje dodavanje prilagođenih polja u rešetku tjednih vremenskih unosa.
+<span data-ttu-id="c7fe0-114">U odjeljku **Dimenzije** nije dozvoljeno uređivanje unutar retka.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-114">The **Dimensions** section doesn't allow inline editing.</span></span> <span data-ttu-id="c7fe0-115">Ovaj odjeljak temelji se na prikazu koji omogućuje dodavanje prilagođenih polja u rešetku tjednih vremenskih unosa.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-115">This section is backed by a view that enables custom fields to be added to the weekly time entry grid.</span></span>
 
-## <a name="duration"></a>Trajanje
-U odjeljku Trajanje dani u tjednu prikazuju se kao zaglavlja stupaca. Ovaj odjeljak omogućuje uređivanje u retku. Nakon stvaranja retka za unos vremena odgovarajućih dimenzija, korisnici mogu brzo unutar retka unijeti vrijeme koje su potrošili na te dimenzije.
+## <a name="duration"></a><span data-ttu-id="c7fe0-116">Trajanje</span><span class="sxs-lookup"><span data-stu-id="c7fe0-116">Duration</span></span>
+<span data-ttu-id="c7fe0-117">U odjeljku Trajanje dani u tjednu prikazuju se kao zaglavlja stupaca.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-117">The Duration section shows the days of the week as column headers.</span></span> <span data-ttu-id="c7fe0-118">Ovaj odjeljak omogućuje uređivanje u retku.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-118">This section allows inline editing.</span></span> <span data-ttu-id="c7fe0-119">Nakon stvaranja retka za unos vremena odgovarajućih dimenzija, korisnici mogu brzo unutar retka unijeti vrijeme koje su potrošili na te dimenzije.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-119">After a time entry row is created with the appropriate dimensions, users can quickly enter the amount of time that they spent on those dimensions.</span></span>
 
-## <a name="create-a-new-time-entry"></a>Stvaranje novog unosa vremena
+## <a name="create-a-new-time-entry"></a><span data-ttu-id="c7fe0-120">Stvaranje novog unosa vremena</span><span class="sxs-lookup"><span data-stu-id="c7fe0-120">Create a new time entry</span></span>
 
-1. U rešetki za unos vremena odaberite **Novo**. 
-2. U dijaloškom okviru **Brzo stvaranje unosa vremena** odaberite datum unosa vremena.
-3. Unesite podatke za dimenzije **Projekt**, **Projektni zadatak**, **Uloga** i **Trajanje**. Ove podatke trebate dodati u minutama, satima ili danima upisivanjem **h**, **m** ili **d**, zajedno s brojem. 
-4. Unesite opis unosa i sve komentare koji se mogu dijeliti s vanjskim korisnicima koji se odnose na unos vremena. 
+1. <span data-ttu-id="c7fe0-121">U rešetki za unos vremena odaberite **Novo**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-121">In the time entry grid, select **New**.</span></span> 
+2. <span data-ttu-id="c7fe0-122">U dijaloškom okviru **Brzo stvaranje unosa vremena** odaberite datum unosa vremena.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-122">In the **Time Entry Quick Create** dialog box, select the time entry date.</span></span>
+3. <span data-ttu-id="c7fe0-123">Unesite podatke za dimenzije **Projekt** , **Projektni zadatak** , **Uloga** i **Trajanje**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-123">Enter data for the **Project** , **Project Task** , **Role** , and **Duration** dimensions.</span></span> <span data-ttu-id="c7fe0-124">Ove podatke trebate dodati u minutama, satima ili danima upisivanjem **h** , **m** ili **d** , zajedno s brojem.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-124">This information should be added in minutes, hours, or days by typing **h** , **m** , or **d** , together with the number.</span></span> 
+4. <span data-ttu-id="c7fe0-125">Unesite opis unosa i sve komentare koji se mogu dijeliti s vanjskim korisnicima koji se odnose na unos vremena.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-125">Enter a description for the entry and any comments that can be shared externally regarding time entry.</span></span> 
 
-Kada spremite unos, unesene vrijednosti prikazuju se u odjeljku **Dimenzije**. Podaci uneseni u polje **Trajanje** prikazuju se na datumu za koji je unos vremena stvoren.
+<span data-ttu-id="c7fe0-126">Kada spremite unos, unesene vrijednosti prikazuju se u odjeljku **Dimenzije**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-126">When you save the entry, the entered values appear in the **Dimensions** section.</span></span> <span data-ttu-id="c7fe0-127">Podaci uneseni u polje **Trajanje** prikazuju se na datumu za koji je unos vremena stvoren.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-127">The information entered in the **Duration** field appears on the date that the time entry was created for.</span></span>
 
-Polja za traženje podržavaju sistemski prikazi. Na primjer, nakon što korisnik unese projekt, polje **Projektni zadatak** prema zadanim postavkama postavljeno je na prikaz **Kopiranje**. Da biste stvorili vremenske unose za zadatke koji nisu dodijeljeni korisniku, odaberite **Promijeni prikaz** u dijaloškom okviru za traženje, a zatim odaberite prikaz **Svi aktivni zadaci projekta**.
+<span data-ttu-id="c7fe0-128">Polja za traženje podržavaju sistemski prikazi.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-128">Lookup fields are backed by system views.</span></span> <span data-ttu-id="c7fe0-129">Na primjer, nakon što korisnik unese projekt, polje **Projektni zadatak** prema zadanim postavkama postavljeno je na prikaz **Kopiranje**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-129">For example, after a user enters a project, the **Project Task** field is set to the **Copy** view by default.</span></span> <span data-ttu-id="c7fe0-130">Da biste stvorili vremenske unose za zadatke koji nisu dodijeljeni korisniku, odaberite **Promijeni prikaz** u dijaloškom okviru za traženje, a zatim odaberite prikaz **Svi aktivni zadaci projekta**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-130">To create time entries for tasks that aren't assigned to a user, select **Change View** in the lookup dialog box, and then select the **All Active Project Tasks** view.</span></span>
 
-## <a name="edit-a-time-entry"></a>Uređivanje unosa vremena 
-Pojedinosti iz nekih polja na stranici za Unos vremena, kao što su **Opis** i **Vanjski komentari**, ne prikazuju se u rešetki tjednih vremenskih unosa. Umjesto toga, u ćelijama **Trajanje** koje imaju te dodatne pojedinosti prikazuje se mali trokutasti indikator. 
+## <a name="edit-a-time-entry"></a><span data-ttu-id="c7fe0-131">Uređivanje unosa vremena</span><span class="sxs-lookup"><span data-stu-id="c7fe0-131">Edit a time entry</span></span> 
+<span data-ttu-id="c7fe0-132">Pojedinosti iz nekih polja na stranici za Unos vremena, kao što su **Opis** i **Vanjski komentari** , ne prikazuju se u rešetki tjednih vremenskih unosa.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-132">Details from some fields on the time entry page, such as **Description** and **External Comments** , aren't shown in the weekly time entry grid.</span></span> <span data-ttu-id="c7fe0-133">Umjesto toga, u ćelijama **Trajanje** koje imaju te dodatne pojedinosti prikazuje se mali trokutasti indikator.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-133">Instead, a small triangular indicator appears in the **Duration** cells that have these additional details.</span></span> 
 
-1. Kako biste uredili unos vremena, odaberite ćeliju koju želite ažurirati u unosu vremena.
-2. Odaberite mogućnost **Uredi pojedinosti** kako biste ažurirali podatke u oknu **Glavni obrazac za unos vremena**. 
+1. <span data-ttu-id="c7fe0-134">Kako biste uredili unos vremena, odaberite ćeliju koju želite ažurirati u unosu vremena.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-134">To edit a time entry, select the cell you want to update in the time entry.</span></span>
+2. <span data-ttu-id="c7fe0-135">Odaberite mogućnost **Uredi pojedinosti** kako biste ažurirali podatke u oknu **Glavni obrazac za unos vremena**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-135">Select **Edit Details** to update the data in the **Time Entry Mainform** pane.</span></span> 
 
-## <a name="copy-a-time-entry-row"></a>Kopiranje retka za unos vremena
-Nakon stvaranja retka možete odabrati mogućnost **Kopiraj redak** kako biste cijeli redak kopirali u novi redak. Kada se redak kopira na taj način, kopiraju se i dimenzije i trajanje. Isto tako, možete odabrati **Uredi redak** kako biste u odjeljku **Trajanje** ažurirali vrijednosti dimenzija i trajanja.
+## <a name="copy-a-time-entry-row"></a><span data-ttu-id="c7fe0-136">Kopiranje retka za unos vremena</span><span class="sxs-lookup"><span data-stu-id="c7fe0-136">Copy a time entry row</span></span>
+<span data-ttu-id="c7fe0-137">Nakon stvaranja retka možete odabrati mogućnost **Kopiraj redak** kako biste cijeli redak kopirali u novi redak.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-137">After the row has been created, you can select **Copy Row** to copy the whole row to a new row.</span></span> <span data-ttu-id="c7fe0-138">Kada se redak kopira na taj način, kopiraju se i dimenzije i trajanje.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-138">When a row is copied in this way, dimensions and durations are also copied.</span></span> <span data-ttu-id="c7fe0-139">Isto tako, možete odabrati **Uredi redak** kako biste u odjeljku **Trajanje** ažurirali vrijednosti dimenzija i trajanja.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-139">You can also select **Edit Row** to update dimension values and durations in the **Duration** section.</span></span>
 
-## <a name="open-a-time-entry-behavior"></a>Otvaranje ponašanja unosa vremena
-Za podršku optimalnom i brzom unosu u najistaknutija polja rešetka tjednih vremenskih unosa prikazuje podskup odabranih dimenzija i trajanja. Da biste pregledali sve pojedinosti jednog unosa vremena, u odjeljku **Uređivanje unosa** odaberite **Otvori**.
+## <a name="open-a-time-entry-behavior"></a><span data-ttu-id="c7fe0-140">Otvaranje ponašanja unosa vremena</span><span class="sxs-lookup"><span data-stu-id="c7fe0-140">Open a time entry behavior</span></span>
+<span data-ttu-id="c7fe0-141">Za podršku optimalnom i brzom unosu u najistaknutija polja rešetka tjednih vremenskih unosa prikazuje podskup odabranih dimenzija i trajanja.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-141">To support optimal and quick entry in the most prominent fields, the weekly time entry grid shows a subset of selected dimensions and time durations.</span></span> <span data-ttu-id="c7fe0-142">Da biste pregledali sve pojedinosti jednog unosa vremena, u odjeljku **Uređivanje unosa** odaberite **Otvori**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-142">To view all the details of a single time entry, under **Edit Entry** , select **Open**.</span></span>
 
-## <a name="submit-a-time-entry"></a>Slanje unosa vremena
-Možete poslati jedan unos vremena ili grupu unosa vremena odabirom bloka ćelija ili cijelog stupca za unos vremena, a zatim odaberite **Pošalji**. Poslani Unos vremenai prikazuju se kao unosi koji čekaju odobravanje na stranici **Odobrenje** odobravatelja. Nakon što se Unos vremenai uspješno pošalju, ne mogu se uređivati.
+## <a name="submit-a-time-entry"></a><span data-ttu-id="c7fe0-143">Slanje unosa vremena</span><span class="sxs-lookup"><span data-stu-id="c7fe0-143">Submit a time entry</span></span>
+<span data-ttu-id="c7fe0-144">Možete poslati jedan unos vremena ili grupu unosa vremena odabirom bloka ćelija ili cijelog stupca za unos vremena, a zatim odaberite **Pošalji**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-144">You can submit a single time entry or a group of time entries by selecting a block of cells or a whole time entry row, and then selecting **Submit**.</span></span> <span data-ttu-id="c7fe0-145">Poslani Unos vremenai prikazuju se kao unosi koji čekaju odobravanje na stranici **Odobrenje** odobravatelja.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-145">Submitted time entries appear as entries that are pending approval on the approvers' **Approval** page.</span></span> <span data-ttu-id="c7fe0-146">Nakon što se Unos vremenai uspješno pošalju, ne mogu se uređivati.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-146">After time entries are successfully submitted, they can't be edited.</span></span>
 
-## <a name="recall-a-time-entry"></a>Opoziv unosa vremena
-Možete opozvati unose koje ste poslali. Možete opozvati jedan Unos vremena, blok vremenskih unosa ili cijeli redak vremenskih unosa. Opozvani unosi vremena mogu se uređivati.
+## <a name="recall-a-time-entry"></a><span data-ttu-id="c7fe0-147">Opoziv unosa vremena</span><span class="sxs-lookup"><span data-stu-id="c7fe0-147">Recall a time entry</span></span>
+<span data-ttu-id="c7fe0-148">Možete opozvati unose koje ste poslali.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-148">You can recall time entries that you've submitted.</span></span> <span data-ttu-id="c7fe0-149">Možete opozvati jedan Unos vremena, blok vremenskih unosa ili cijeli redak vremenskih unosa.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-149">You can recall a single time entry, a block of time entries, or a whole row of time entries.</span></span> <span data-ttu-id="c7fe0-150">Opozvani unosi vremena mogu se uređivati.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-150">Recalled time entries can be edited.</span></span>
 
-## <a name="time-entry-status"></a>Status unosa vremena
+## <a name="time-entry-status"></a><span data-ttu-id="c7fe0-151">Status unosa vremena</span><span class="sxs-lookup"><span data-stu-id="c7fe0-151">Time entry status</span></span>
 
-- **Skica**: Novim vremenskim unosima automatski se dodjeljuje status **Skica**. Mogu se izbrisati samo Unos vremenai koji imaju status **Skica**.
-- **Poslano**: Kada se unos vremena pošalje, status se ažurira na **Poslano**. 
-- **Odobreno**: Kada se poslani unos vremena odobri, status se ažurira na **Odobreno**. 
-- **Vraćeno**: Ako je unos vremena odbijen, status se ažurira na **Vraćeno**, a unos postaje dostupan za ispravak i ponovno slanje. 
+- <span data-ttu-id="c7fe0-152">**Skica** : Novim vremenskim unosima automatski se dodjeljuje status **Skica**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-152">**Draft** : New time entries are automatically assigned a status of **Draft**.</span></span> <span data-ttu-id="c7fe0-153">Mogu se izbrisati samo Unos vremenai koji imaju status **Skica**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-153">Only time entries that have a status of **Draft** can be deleted.</span></span>
+- <span data-ttu-id="c7fe0-154">**Poslano** : Kada se unos vremena pošalje, status se ažurira na **Poslano**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-154">**Submitted** : When a time entry is submitted, the status is updated to **Submitted**.</span></span> 
+- <span data-ttu-id="c7fe0-155">**Odobreno** : Kada se poslani unos vremena odobri, status se ažurira na **Odobreno**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-155">**Approved** : When a submitted time entry is approved, the status is updated to **Approved**.</span></span> 
+- <span data-ttu-id="c7fe0-156">**Vraćeno** : Ako je unos vremena odbijen, status se ažurira na **Vraćeno** , a unos postaje dostupan za ispravak i ponovno slanje.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-156">**Returned** : If a time entry is rejected, the status is updated to **Returned** , and the entry becomes available for correction and resubmission.</span></span> 
 
-## <a name="view-rejection-comments"></a>Prikaz komentara o odbacivanju
-Kada odobravatelj odbije Unos vremena, odobravatelj može dodati komentare kako bi resurs saznao zašto je unos odbijen. Za prikaz komentara o odbacivanju za Unos vremena odaberite **Otvori unos**. Komentari o odbacivanju prikazuju se na vremenskoj traci. Korisnik može odgovoriti na komentare odbijanja prije nego što ponovo pošalju unos.
+## <a name="view-rejection-comments"></a><span data-ttu-id="c7fe0-157">Prikaz komentara o odbacivanju</span><span class="sxs-lookup"><span data-stu-id="c7fe0-157">View rejection comments</span></span>
+<span data-ttu-id="c7fe0-158">Kada odobravatelj odbije Unos vremena, odobravatelj može dodati komentare kako bi resurs saznao zašto je unos odbijen.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-158">When a time entry is rejected by an approver, the approver might add comments to help the resource understand the reason for the rejection.</span></span> <span data-ttu-id="c7fe0-159">Za prikaz komentara o odbacivanju za Unos vremena odaberite **Otvori unos**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-159">To view the rejection comments for a time entry, select **Open entry**.</span></span> <span data-ttu-id="c7fe0-160">Komentari o odbacivanju prikazuju se na vremenskoj traci.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-160">The rejection comments will be shown in the timeline.</span></span> <span data-ttu-id="c7fe0-161">Korisnik može odgovoriti na komentare odbijanja prije nego što ponovo pošalju unos.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-161">The user can respond to the rejection comments before they resubmit the entry.</span></span>
 
-## <a name="copy-week"></a>Kopiraj tjedan
-Nakon stvaranja nekoliko unosa vremena, korisnici mogu istodobno stvoriti više vremenskih unosa.
+## <a name="copy-week"></a><span data-ttu-id="c7fe0-162">Kopiraj tjedan</span><span class="sxs-lookup"><span data-stu-id="c7fe0-162">Copy week</span></span>
+<span data-ttu-id="c7fe0-163">Nakon stvaranja nekoliko unosa vremena, korisnici mogu istodobno stvoriti više vremenskih unosa.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-163">After a few time entries have been created, users can create multiple time entries at the same time.</span></span>
 
-1. U obrascu **Unosi vremena** odaberite **Kopiraj tjedan** za skupno stvaranje dodatnih unosa vremena. 
-2. U dijaloškom okviru **Kopiraj**, u odjeljku **Od razdoblja**, upotrijebite polja **Datum početka** i **Datum završetka** kako biste definirali raspon datuma iz kojih ćete kopirati unose vremena. 
-3. U odjeljku **Razdoblje do** u polju **Datum početka** navedite datum za koji stvarate vremenske unose. 
-4. Odaberite **Kopiraj**. Za navedeni datum u stavci **Do razdoblja**, stvara se kopija unosa vremena za odgovarajući dan u tjednu u stavci **Od razdoblja**. Na primjer, Unos vremena za ponedjeljak od prošlog tjedna kopira se u ponedjeljak u tjednu koji je naveden kao vrijednost stavke **Do razdoblja**.
+1. <span data-ttu-id="c7fe0-164">U obrascu **Unosi vremena** odaberite **Kopiraj tjedan** za skupno stvaranje dodatnih unosa vremena.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-164">In the **Time Entries** form, select **Copy Week** to bulk-create additional time entries.</span></span> 
+2. <span data-ttu-id="c7fe0-165">U dijaloškom okviru **Kopiraj** , u odjeljku **Od razdoblja** , upotrijebite polja **Datum početka** i **Datum završetka** kako biste definirali raspon datuma iz kojih ćete kopirati unose vremena.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-165">In the **Copy** dialog box, in the **From period** section, use the **Start Date** and **End Date** fields to define the date range to copy time entries from.</span></span> 
+3. <span data-ttu-id="c7fe0-166">U odjeljku **Razdoblje do** u polju **Datum početka** navedite datum za koji stvarate vremenske unose.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-166">In the **To Period** section, in the **Start Date** field, specify the date to create time entries for.</span></span> 
+4. <span data-ttu-id="c7fe0-167">Odaberite **Kopiraj**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-167">Select **Copy**.</span></span> <span data-ttu-id="c7fe0-168">Za navedeni datum u stavci **Do razdoblja** , stvara se kopija unosa vremena za odgovarajući dan u tjednu u stavci **Od razdoblja**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-168">For the specified date in the **To period** , a copy of the time entries for the corresponding day of the week in the **From period** is created.</span></span> <span data-ttu-id="c7fe0-169">Na primjer, Unos vremena za ponedjeljak od prošlog tjedna kopira se u ponedjeljak u tjednu koji je naveden kao vrijednost stavke **Do razdoblja**.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-169">For example, Monday's time entry from last week is copied into Monday of the week that is specified as the **To period**.</span></span>
 
-## <a name="import"></a>Uvezi
-Isti osnovni postupak koristi se za uvoz iz rezervacija, dodjela i razmjena. Možete navesti raspon datuma iz kojeg se vrši uvoz rezervacija, a zatim izričito odabrati rezervacije koje treba kopirati u skice unosa vremena. 
+## <a name="import"></a><span data-ttu-id="c7fe0-170">Uvezi</span><span class="sxs-lookup"><span data-stu-id="c7fe0-170">Import</span></span>
+<span data-ttu-id="c7fe0-171">Isti osnovni postupak koristi se za uvoz iz rezervacija, dodjela i razmjena.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-171">The same basic process is used to import from bookings, assignments, and exchanges.</span></span> <span data-ttu-id="c7fe0-172">Možete navesti raspon datuma iz kojeg se vrši uvoz rezervacija, a zatim izričito odabrati rezervacije koje treba kopirati u skice unosa vremena.</span><span class="sxs-lookup"><span data-stu-id="c7fe0-172">You can specify the date range that bookings are imported from and then explicitly select the bookings that should be copied into draft time entries.</span></span> 
