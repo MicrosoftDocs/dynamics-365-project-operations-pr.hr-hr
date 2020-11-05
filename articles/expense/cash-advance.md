@@ -11,11 +11,11 @@ ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
 ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907960"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073271"
 ---
 # <a name="cash-advance"></a>Gotovinski predujam
 
@@ -46,13 +46,13 @@ Pod stavkom **Moji troškovi: Gotovinski predujmovi** možete pregledati popis s
 
 Voditelji ili korisnici konfigurirani kao odobravatelji u tijeku rada moći će odobriti gotovinske predujmove koji su im dostavljeni na pregled. 
 
-1. Kako biste odobrili gotovinski predujam, pod stavkom **Obradi gotovinske predujmove**, odaberite **Gotovinski predujmovi za moj pregled**.
+1. Kako biste odobrili gotovinski predujam, pod stavkom **Obradi gotovinske predujmove** , odaberite **Gotovinski predujmovi za moj pregled**.
 2. Odaberite gotovinski predujam koji trebate pregledati i odaberite **Odobri**.  
 
 ## <a name="pay-cash-advances"></a>Plaćanje gotovinskih predujmova 
 Sljedeći postupak obično dovršava računovođa ili korisnik s računovodstvenim dozvolama.
 
-1. Za knjiženje odobrenih gotovinskih predujmova, odaberite **Odobreni gotovinski predujmovi**, a zatim odaberite **Plati i prenesi**.  
+1. Za knjiženje odobrenih gotovinskih predujmova, odaberite **Odobreni gotovinski predujmovi** , a zatim odaberite **Plati i prenesi**.  
 2. Navedite pojedinosti temeljnice za gotovinske predujmove, a zatim odaberite **U redu**. 
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Pošaljite izvješće o troškovima u odnosu na plaćeni gotovinski predujam 

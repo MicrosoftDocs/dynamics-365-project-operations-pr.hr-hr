@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907966"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073310"
 ---
 # <a name="expense-estimates"></a>Procjena troška
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
@@ -32,9 +32,9 @@ Poduzmite sljedeće korake za prikaz, dodavanje ili brisanje troška projekta.
 
 Sljedeći atributi definirani su za svaku stavku retka troška:
 
-- **Kategorija**: Uobičajena grupiranja koja su se upotrebljavala za opisivanje svih troškova nastalih na projektu.
-- **Početni datum**: Datum kada se predviđa da će nastati trošak.
-- **Količina**: Procijenjeni broj stavki troška za određenu kategoriju.
-- **Jedinična cijena koštanja**: Jedinična cijena koja se upotrebljava za izračun koštanja troška.
-- **Jedinična prodajna cijena**: Jedinična cijena koja se upotrebljava za izračun prodajne cijene troška.
+- **Kategorija** : Uobičajena grupiranja koja su se upotrebljavala za opisivanje svih troškova nastalih na projektu.
+- **Početni datum** : Datum kada se predviđa da će nastati trošak.
+- **Količina** : Procijenjeni broj stavki troška za određenu kategoriju.
+- **Jedinična cijena koštanja** : Jedinična cijena koja se upotrebljava za izračun koštanja troška.
+- **Jedinična prodajna cijena** : Jedinična cijena koja se upotrebljava za izračun prodajne cijene troška.
 

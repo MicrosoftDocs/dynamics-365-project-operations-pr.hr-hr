@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898252"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073426"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Stvaranje prilagođenih polja i entitete kao cjenovnih veličina
 
@@ -36,8 +35,8 @@ Dovršite sljedeće korake u bilo kojem trenutku kada želite stvoriti prilagođ
 
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Izradi prilagođeno rješenje za dimenzije određivanja cijena
-1. Idite na **Postavke** > **Rješenja**, a zatim odaberite **Novo** kako biste stvorili novo rješenje. 
-2. Rješenju dodijelite naziv **\<your organization name> dimenzije za određivanje cijena**, unesite preostale potrebne podatke, a zatim odaberite **Spremi**.
+1. Idite na **Postavke** > **Rješenja** , a zatim odaberite **Novo** kako biste stvorili novo rješenje. 
+2. Rješenju dodijelite naziv **\<your organization name> dimenzije za određivanje cijena** , unesite preostale potrebne podatke, a zatim odaberite **Spremi**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Izradi prilagođena polja i skupove mogućnosti u rješenju dimenzije određivanja cijena
 
@@ -63,7 +62,7 @@ Možete izraditi dvije dimenzije koje se temelje na skupu mogućnosti. Koristite
 
 Podatke za dimenzije koje se temeljene na entitetu možete izraditi ručno ili s pomoću Microsoft Excel poziva za uvoz ili servisiranje. Koristite korake u ovom postupku za izradu dvaju standardnih naslova, **Inženjer sustava** i **Viši inženjer sustava** iz dimenzije koja se temelji na entitetu, **Standardni naslov**. Ako su podaci koje želite izraditi mali, kao u sljedećem primjeru, možete koristiti standardni obrazac.
 
-1. Odaberite **Napredno pretraživanje**, odaberite entitet **Standardni naslov**, a zatim odaberite **Rezultati**. Prikazat će se svi redovi u entitetu **Standardni naslov**.
+1. Odaberite **Napredno pretraživanje** , odaberite entitet **Standardni naslov** , a zatim odaberite **Rezultati**. Prikazat će se svi redovi u entitetu **Standardni naslov**.
 2. Odaberite **Novo** i upolju **Naziv** unesite „Inženjer sustava”, a zatim odaberite **Spremi**.
 3. Zatvori obrazac. 
 4. Ponovite korake 1 - 3 za izradu drugog standardnog naslova za "Viši inženjer sustava".

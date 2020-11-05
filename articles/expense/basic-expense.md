@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073272"
 ---
 # <a name="expense-entry-lite"></a>Unos izdatka (jednostavan)
 
@@ -41,7 +41,7 @@ Nakon što završite s bilježenjem svih troškova i spremni ste ih dati na odob
 
 Kada greškom pošaljete trošak, možete ga stornirati. Vrijeme potrebno za storniranje unosa troška ovisi o fazi odobrenja u kojoj se nalazi.  Ako odobravatelj još nije odobrio unos, storniranje se može izvršiti odmah. Međutim, ako je unos već odobren, od odobravatelja se treba zatražiti odobrenje storniranja i poništenje transakcija.
 
-1. Idite na stavku **Troškovi**, a zatim na popisu troškova odaberite trošak koji želite stornirati.
+1. Idite na stavku **Troškovi** , a zatim na popisu troškova odaberite trošak koji želite stornirati.
 2. Odaberite **Storniraj**. Ako unos troška još nije odobren, sustav ga odmah stornira. Ako je unos troška već odobren, stvara se zahtjev za storniranje kako bi se obavijestio odobravatelj da želite stornirati trošak. Odobravatelj će tada potvrditi da se opoziv može izvršiti i unos će biti vraćen.
 
 ## <a name="delete-a-basic-expense"></a>Brisanje osnovnog troška

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e841ab7c37e0b348a4d1570123a5aea00ede0047
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898478"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073416"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Stvaranje procjena po retku ponude
 
@@ -47,7 +46,7 @@ U pojedinostima retka ugovora nisu dozvoljene procjene materijala.
 
 Procesi koji su podržani u ugovoru projekta su izrada fakture i potvrda. Izrada fakture izrađuje skicu fakture koja se temelji na projektu koja uključuje sve stvarne vrijednosti nenaplaćene prodajne do trenutačnog datuma.
 
-Potvrdom se dobiva verzija ugovora koje je samo za čitanje i njezin se status mijenja iz **Skica** u **Potvrđeno**. Nakon što poduzmete ovu radnju, ne možete ju poništiti. Budući da je ova radnja trajna, najbolja je praksa održati ugovor u statusu **Skica**.
+Potvrdom se dobiva verzija ugovora koja je samo za čitanje i njezin se status mijenja iz **Skica** u **Potvrđeno**. Nakon što poduzmete ovu radnju, ne možete ju poništiti. Budući da je ova radnja trajna, najbolja je praksa održati ugovor u statusu **Skica**.
 
 Jedine razlike između ugovora sa statusom skice i potvrđenih ugovora jesu njihov status i činjenica da se ugovori sa statusom skice mogu uređivati, dok potvrđeni ugovori ne mogu. Izrada fakture i praćenje stvarnih vrijednosti mogu se izvršiti na ugovorima sa statusom skice i potvrđenim ugovorima.
 
@@ -81,10 +80,10 @@ Sljedeću tablicu koristite kao vodič za razumijevanje poslovne logike u fazi p
 Ako ste dodali prilagođeno polje u pojedinost retka ponude i želite da sustav unese vrijednost polja kao zadanu vrijednost na povezani redak troškova koji izradi, upotrijebite dodatak PreOperationContractLineDetailUpdate i PreOperationQuoteLineDetailUpdate alata za registraciju. Ti se dodaci moraju ponovno registrirati nakon što se pojedinost retka ponude ili pojedinost retka ugovora promijeni. Da biste dovršili proces, slijedite ove korake:
 
 1. Otvorite PluginRegistrationTool i povežite se s mrežnom instancom.
-2. Odaberite **Pretraži**i potražite dodatak za ažuriranje.
+2. Odaberite **Pretraži** i potražite dodatak za ažuriranje.
 3. Odaberite dodatak, a zatim na glavnoj stranici odaberite **Odaberi**.
 4. Odaberite korak dodatka za ažuriranje, kliknite desnom tipkom miša, a zatim odaberite **Ažuriraj**.
-5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke (**...**):
+5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke ( **...** ):
 6. U dijaloškom okviru **Odaberi atribute** odaberite potvrdne okvire za prilagođene atribute.
 7. Odaberite **U redu** da biste zatvorili dijaloški okvir, a zatim odaberite **Ažuriraj korak**.
 8. Ponovite korake od 1 do 7 za drugi dodatak.

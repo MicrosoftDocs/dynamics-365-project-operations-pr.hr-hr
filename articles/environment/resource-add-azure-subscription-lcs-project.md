@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948791"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073259"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Dodavanje pretplate za platformu Azure LCS projektu
 
@@ -23,11 +23,11 @@ Okruženja hostirana u oblaku moraju se implementirati s pomoću postojeće pret
 
 ## <a name="grant-admin-consent"></a>Davanje pristanka administratora
 
-1. U vašem LCS projektu, u odjeljku **Okruženja**, odaberite **Postavke platforme Microsoft Azure**.
+1. U vašem LCS projektu, u odjeljku **Okruženja** , odaberite **Postavke platforme Microsoft Azure**.
 
 ![Postavke značajke Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Na stranici **Postavke projekta**, na kartici **Poveznici platforme Azure**, odaberite **Autoriziraj**. To omogućuje implementaciju okruženja na ovaj projekt.
+2. Na stranici **Postavke projekta** , na kartici **Poveznici platforme Azure** , odaberite **Autoriziraj**. To omogućuje implementaciju okruženja na ovaj projekt.
 
 ![Poveznici platforme Azure](./media/2AzureConnectors.png)
 

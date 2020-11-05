@@ -3,23 +3,23 @@ title: Kopiranje projekta
 description: U ovoj temi nalaze se informacije o kopiranju projekata u aplikaciji Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907967"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073329"
 ---
 # <a name="copy-a-project"></a>Kopiranje projekta
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
 
-S pomoću aplikacije Dynamics 365 Project Operations možete brzo graditi nove projekte uporabom radnje **Kopiraj projekt** iz postavke **Projekti**. Kako biste kopirali projekt, odaberite projekt, a zatim odaberite **Kopiraj**. Radnja će kopirati:
+S pomoću aplikacije Dynamics 365 Project Operations možete brzo graditi nove projekte odabirom mogućnosti **Kopiraj projekt** iz obrasca **Projekti**. Kako biste kopirali projekt, otvorite projekt koji želite kopirati, a zatim odaberite **Kopiraj projekt**. Radnja će kopirati:
 
 - Svojstava projekta
 - Strukturna analiza rada
@@ -58,4 +58,6 @@ Kada se projektni tim kopira iz izvornog projekta, kopiraju se generički resurs
 
 ## <a name="estimates"></a>Procjene
 
-Kada se projekt kopira, iz izvornog projekta kopiraju se i redci za procjenu resursa i troška.
+Kada se projekt kopira, iz izvornog projekta kopiraju se i redci za procjenu resursa i troška. 
+
+Za informacije o načinu programskog pristupanja aplikaciji Copy Project, pogledajte odjeljak [Razvoj predložaka projekata s pomoću aplikacije Copy Project](dev-copy-project.md).

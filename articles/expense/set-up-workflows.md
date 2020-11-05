@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfc5945f32bb8d4073fc31499979ba279fef66a4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896542"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073415"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Postavljanje tijekova rada za upravljanje troškovima
 
@@ -31,9 +30,9 @@ Možete postaviti postupak tijeka rada za pregled i odobravanje dokumenata o put
 
 Tijek rada predstavlja poslovni proces i definira način prolaska dokumenta kroz sustav. Tijek rada također ukazuje na to tko mora izvršiti zadatak ili odobriti dokument. Nekoliko je blagodati uporabe sustava tijeka rada u vašoj tvrtki ili ustanovi:
 
-- **Dosljedni procesi**: Možete definirati postupak odobrenja za određene dokumente, poput zahtjeva za kupnju i izvješća o troškovima. Uporaba sustava tijeka rada osigurava da se dokumenti obrađuju i odobravaju na dosljedan i učinkovit način.
-- **Vidljivost procesa**: Možete pratiti mjerne podatke statusa, povijesti i učinkovitosti određene instance tijeka rada. To vam pomaže utvrditi trebaju li se unijeti promjene u tijek rada kako bi se poboljšala učinkovitost.
-- **Centralizirani popis posla**: Korisnici mogu pregledavati centralizirani popis posla kako bi vidjeli zadatke tijeka rada i odobrenja koja su im dodijeljena. 
+- **Dosljedni procesi** : Možete definirati postupak odobrenja za određene dokumente, poput zahtjeva za kupnju i izvješća o troškovima. Uporaba sustava tijeka rada osigurava da se dokumenti obrađuju i odobravaju na dosljedan i učinkovit način.
+- **Vidljivost procesa** : Možete pratiti mjerne podatke statusa, povijesti i učinkovitosti određene instance tijeka rada. To vam pomaže utvrditi trebaju li se unijeti promjene u tijek rada kako bi se poboljšala učinkovitost.
+- **Centralizirani popis posla** : Korisnici mogu pregledavati centralizirani popis posla kako bi vidjeli zadatke tijeka rada i odobrenja koja su im dodijeljena. 
 
 ## <a name="workflow-types"></a>Vrste tijekova rada
 

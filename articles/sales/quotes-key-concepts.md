@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b252f6e02d0809c352d3665731ec5e02e4e9a73f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898433"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073554"
 ---
 # <a name="quotes---key-concepts"></a>Ponude – Osnovni koncepti
 
@@ -31,20 +30,20 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 U aplikaciji Dynamics 365 Project Operations, postoje dvije vrste ponuda: za projekt i prodaju. Te dvije vrste ponuda razlikuju se na sljedeće načine:
 
-- **Rešetke za stavke retka**: Na ponudi prodaje postoji samo jedna rešetka za stavke retka. Ponuda projekta ima dvije rešetke za stavke redaka. Jedna je rešetka za retke projekta, a druga za retke proizvoda.
-- **Aktivacija i revizije**: Ponude prodaje podržavaju aktivaciju i revizije. Ovi procesi nisu podržani u ponudi projekta.
-- **Priložene narudžbe**: Ponudi prodaje možete priložiti više narudžbi. Ponudi projekta možete priložiti samo jedan ugovor o projektu.
+- **Rešetke za stavke retka** : Na ponudi prodaje postoji samo jedna rešetka za stavke retka. Ponuda projekta ima dvije rešetke za stavke redaka. Jedna je rešetka za retke projekta, a druga za retke proizvoda.
+- **Aktivacija i revizije** : Ponude prodaje podržavaju aktivaciju i revizije. Ovi procesi nisu podržani u ponudi projekta.
+- **Priložene narudžbe** : Ponudi prodaje možete priložiti više narudžbi. Ponudi projekta možete priložiti samo jedan ugovor o projektu.
 - **Usvajanje ponude** : Kada osvojite ponudu prodaje, povezana prilika može ostati otvorena. Nakon što se dobije projetna ponuda, povezana prilika je zatvorena.
-- **Polja i koncepti**: Ponuda prodaje ne uključuje neka polja i koncepte koji su uključeni u ponudu projekta. Polja uključuju **Ugovornu jedinicu**, **Upravitelja računa** i **Naziv fakture za kontakt**.  
-- **Vrsta**: Ponude prodaje i projekta također se identificiraju poljem koje se temelji na skupu mogućnosti,**Vrsta**. Za prodajnu ponudu, ovo polje ima vrijednost **Na temelju artikla**. Za projektnu ponudu, ona ima vrijednost **Na temelju rada**.
+- **Polja i koncepti** : Ponuda prodaje ne uključuje neka polja i koncepte koji su uključeni u ponudu projekta. Polja uključuju **Ugovornu jedinicu** , **Upravitelja računa** i **Naziv fakture za kontakt**.  
+- **Vrsta** : Ponude prodaje i projekta također se identificiraju poljem koje se temelji na skupu mogućnosti, **Vrsta**. Za prodajnu ponudu, ovo polje ima vrijednost **Na temelju artikla**. Za projektnu ponudu, ona ima vrijednost **Na temelju rada**.
 
 U ovoj temi usredotočit ćemo se na pojedinosti o ponudama projekta.
 
 Ponuda projekta u aplikaciji Project Operations može imati stavke s više redaka ili retke ponuda. U stvari, projektna ponuda ima dvije rešetke za stavke redaka. Jedna rešetka je za retke temeljene na projektu koji omogućuju detaljne procjene. Druga rešetka je za retke temeljene na proizvodu koje koriste jednostavnu jediničnu cijenu i pristup temeljen na količini.
 
-- **Na temelju projekta**: Vrijednost ponude određuje se nakon procjene koliko je posla potrebno. Možete procijeniti rad na visokoj razini, izravno kao pojedinosti retka ispod svakog retka ponude ili na temelju procjena najsitnijih pojedinosti, uporabom projekta i plana projekta. Redci ponude koji se temelje na projektu nalaze se samo u ponudama temeljenim na projektu koje su izrađene s pomoću aplikacije Project Operations. Ova vrsta retka ponude prilagođeni je oblik redaka ponude za unos koji su dostupni u Microsoft Dynamics 365 Sales.
+- **Na temelju projekta** : Vrijednost ponude određuje se nakon procjene koliko je posla potrebno. Možete procijeniti rad na visokoj razini, izravno kao pojedinosti retka ispod svakog retka ponude ili na temelju procjena najsitnijih pojedinosti, uporabom projekta i plana projekta. Redci ponude koji se temelje na projektu nalaze se samo u ponudama temeljenim na projektu koje su izrađene s pomoću aplikacije Project Operations. Ova vrsta retka ponude prilagođeni je oblik redaka ponude za unos koji su dostupni u Microsoft Dynamics 365 Sales.
 
-- **Na temelju proizvoda**: Vrijednost ponude određuje se na temelju količine prodanih jedinica i prodajne cijene jediničnog proizvoda. Proizvod u retku koji se temelji na proizvodu može doći iz kataloga proizvoda u Prodaji ili može biti proizvod koji definirate. Ova vrsta retka ponude dostupna je i u ponudama temeljenim na projektu koje su izrađene uporabom aplikacije Project Operations.
+- **Na temelju proizvoda** : Vrijednost ponude određuje se na temelju količine prodanih jedinica i prodajne cijene jediničnog proizvoda. Proizvod u retku koji se temelji na proizvodu može doći iz kataloga proizvoda u Prodaji ili može biti proizvod koji definirate. Ova vrsta retka ponude dostupna je i u ponudama temeljenim na projektu koje su izrađene uporabom aplikacije Project Operations.
 
 Iznos na ponudi je ukupan zbroj u recima koji se temelje na proizvodu i recima koji se temelje na projektu.
 
@@ -76,12 +75,12 @@ Project Operations podržava sve tri vrste rasporeda faktura za retke ponude s f
 
 Organizacije za profesionalne usluge obično sastavljaju ponude i izdaju fakture svojim klijentima klasifikacijom troškova. Troškovi su predstavljeni sljedećim klasifikacijama transakcija:
 
-- **Vrijeme**: Ova klasifikacija predstavlja trošak rada ili vremena ljudskog resursa na projektu.
-- **Trošak**: Ova klasifikacija predstavlja sve druge vrste troškova na projektu. Budući da troškovi mogu biti široko klasificirani, većina organizacija izrađuje podkategorije, kao što su putovanja, iznajmljivanje automobila, hotel ili uredski materijal.
-- **Naknada**: Ova klasifikacija predstavlja razne opće troškove, kazne i ostale stavke koji se naplaćuju klijentu. 
-- **Porez**: Ova klasifikacija predstavlja iznose poreza koje korisnici dodaju tijekom unosa troškova.
-- **Materijalna transakcija**: Ova klasifikacija predstavlja stvarne podatke iz redaka s proizvodima na potvrđenoj fakturi za projekt.
-- **Ključna točka**: Ovom se klasifikacijom služi logika naplate fiksne cijene.
+- **Vrijeme** : Ova klasifikacija predstavlja trošak rada ili vremena ljudskog resursa na projektu.
+- **Trošak** : Ova klasifikacija predstavlja sve druge vrste troškova na projektu. Budući da troškovi mogu biti široko klasificirani, većina organizacija izrađuje podkategorije, kao što su putovanja, iznajmljivanje automobila, hotel ili uredski materijal.
+- **Naknada** : Ova klasifikacija predstavlja razne opće troškove, kazne i ostale stavke koji se naplaćuju klijentu. 
+- **Porez** : Ova klasifikacija predstavlja iznose poreza koje korisnici dodaju tijekom unosa troškova.
+- **Materijalna transakcija** : Ova klasifikacija predstavlja stvarne podatke iz redaka s proizvodima na potvrđenoj fakturi za projekt.
+- **Ključna točka** : Ovom se klasifikacijom služi logika naplate fiksne cijene.
 
 Jedna ili više tih klasifikacija transakcije može se pridružiti svakom retku ponude. Nakon što se dobije ponuda, mapiranje između klasifikacije transakcija i retka ponude prenosi se u redak ugovora.
   
@@ -91,16 +90,16 @@ Na primjer, ponuda može sadržavati sljedeće dvije retke ponude:
 - Povezani putni troškovi koji upotrebljavaju način naplate fiksne cijene. Na primjer, svi putni troškovi za primjer **Implementacije AX Dynamics** sustava fakturirani su po fiksnoj monetarnoj vrijednosti.
 
 > [!NOTE]
-> Kombinacija projekta i klasifikacija transakcije **Vremena**, **Troška** i **Naknade** koje su pridružene retku ponude ili retku ugovora mora biti jedinstvena. Ako je ista kombinacija razreda projekta i transakcije pridružena više od jednom retku ugovora ili retku ponude, Project Operations neće ispravno funkcionirati.
+> Kombinacija projekta i klasifikacija transakcije **Vremena** , **Troška** i **Naknade** koje su pridružene retku ponude ili retku ugovora mora biti jedinstvena. Ako je ista kombinacija razreda projekta i transakcije pridružena više od jednom retku ugovora ili retku ponude, Project Operations neće ispravno funkcionirati.
 
 ## <a name="billing-types"></a>Vrste naplate
 
 Polje **Vrsta naplate** definira koncept mogućnosti naplate. To je skup mogućnosti koji ima sljedeće moguće vrijednosti:
 
-- **Naplativo**: Trošak koji se obračunava ovom ulogom/kategorijom izravan je trošak koji pokreće izvršenje projekta, a klijent će platiti za ovaj rad. Plaćanje se može provoditi kao aranžman na temelju vremena i materijala ili kao aranžman fiksne cijene. Međutim, zaposlenik koji provede ovo vrijeme primit će odgovarajuću plaću za svoje naplativo korištenje.
-- **Nenaplativo**: Trošak koji se obračunava ovom ulogom/kategorijom smatra se izravnim troškom koji pokreće izvršenje projekta, iako klijent ne uvažava tu činjenicu i neće platiti za taj rad. Zaposlenik koji provodi ovo vrijeme neće biti plaćen za naplativim korištenjem za njega.
-- **Besplatno**: Trošak koji se obračunava ovom ulogom/kategorijom smatra se izravnim troškom koji pokreće izvršenje projekta, a klijent uvažava tu činjenicu. Zaposlenik koji provodi ovo vrijeme biti će plaćen za naplativo korištenje za njega. Međutim, taj se trošak ne naplaćuje klijentu.
-- **Nije dostupno**: S pomoću ove mogućnosti prate se troškovi nastali na internim projektima koji ne zahtijevaju praćenje prihoda.
+- **Naplativo** : Trošak koji se obračunava ovom ulogom/kategorijom izravan je trošak koji pokreće izvršenje projekta, a klijent će platiti za ovaj rad. Plaćanje se može provoditi kao aranžman na temelju vremena i materijala ili kao aranžman fiksne cijene. Međutim, zaposlenik koji provede ovo vrijeme primit će odgovarajuću plaću za svoje naplativo korištenje.
+- **Nenaplativo** : Trošak koji se obračunava ovom ulogom/kategorijom smatra se izravnim troškom koji pokreće izvršenje projekta, iako klijent ne uvažava tu činjenicu i neće platiti za taj rad. Zaposlenik koji provodi ovo vrijeme neće biti plaćen za naplativim korištenjem za njega.
+- **Besplatno** : Trošak koji se obračunava ovom ulogom/kategorijom smatra se izravnim troškom koji pokreće izvršenje projekta, a klijent uvažava tu činjenicu. Zaposlenik koji provodi ovo vrijeme biti će plaćen za naplativo korištenje za njega. Međutim, taj se trošak ne naplaćuje klijentu.
+- **Nije dostupno** : S pomoću ove mogućnosti prate se troškovi nastali na internim projektima koji ne zahtijevaju praćenje prihoda.
 
 ## <a name="invoice-schedule"></a>Raspored faktura
 
@@ -116,11 +115,11 @@ Te tri vrijednosti atributa upotrebljavaju se za generiranje privremenog skupa d
 
 Učestalost fakture je entitet koji pohranjuje vrijednosti atributa koje pomažu izraziti učestalost izrade fakture. Sljedeći atributi izražavaju ili definiraju entitet Učestalost fakture:
 
-- **Razdoblje**: Podržavaju se mjesečna, dvotjedna i tjedna razdoblja. 
-- **Izvršavanje po razdoblju**: Za tjedna i dvotjedna razdoblja, možete definirati samo jedno izvršavanje po razdoblju. Za mjesečna razdoblja, možete definirati između jednog i četiri izvođenja po razdoblju. 
-- **Dani izvršavanja**: Dani kada bi trebalo izvršiti fakturiranje. Ovaj atribut možete konfigurirati na dva načina:
+- **Razdoblje** : Podržavaju se mjesečna, dvotjedna i tjedna razdoblja. 
+- **Izvršavanje po razdoblju** : Za tjedna i dvotjedna razdoblja, možete definirati samo jedno izvršavanje po razdoblju. Za mjesečna razdoblja, možete definirati između jednog i četiri izvođenja po razdoblju. 
+- **Dani izvršavanja** : Dani kada bi trebalo izvršiti fakturiranje. Ovaj atribut možete konfigurirati na dva načina:
   - **Radni dani** – Na primjer, možete odrediti da se fakturiranje izvršava svakog ponedjeljka ili svakog drugog ponedjeljka. Klijenti koji moraju postaviti fakturiranje za izvođenje na radni dan možda preferiraju ovu vrstu konfiguracije. 
-  - **Kalendarski dani**: Na primjer, možete odrediti da se fakturiranje izvršava sedmog i dvadesetprvog dana svakog mjeseca. Neke tvrtke možda preferiraju ovu vrstu konfiguracije jer pomaže jamčiti da se fakturiranje izvodi prema fiksnom rasporedu svaki mjesec.
+  - **Kalendarski dani** : Na primjer, možete odrediti da se fakturiranje izvršava sedmog i dvadesetprvog dana svakog mjeseca. Neke tvrtke možda preferiraju ovu vrstu konfiguracije jer pomaže jamčiti da se fakturiranje izvodi prema fiksnom rasporedu svaki mjesec.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Raspored faktura za redak ponude fiksne cijene
 

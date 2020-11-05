@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896227"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073314"
 ---
 # <a name="product-based-opportunity-lines"></a>Redci prilike koji ser temelje na proizvodu
 
@@ -25,4 +25,4 @@ Redci koji se temelje na proizvodu mogu biti stavke iz kataloga ili proizvodi ko
 
 Jedan koncept o redcima prilike koji se temelje na proizvodu koji je specifičan za priliku koja se temelji na projektu jest **Proračun klijenta**. Ovo polje upotrebljavajte za praćenje iznosa koji je kupac spreman platiti za stavku retka.
 
-Ako je metoda prihoda sažetka Prilike postavljena na **Izračunao sustav**, proračunske vrijednosti klijenta u svim redcima koji se temelje na proizvodu i projektu sažete su kako bi se izračunao procijenjeni prihod.
+Ako je metoda prihoda sažetka Prilike postavljena na **Izračunao sustav** , proračunske vrijednosti klijenta u svim redcima koji se temelje na proizvodu i projektu sažete su kako bi se izračunao procijenjeni prihod.

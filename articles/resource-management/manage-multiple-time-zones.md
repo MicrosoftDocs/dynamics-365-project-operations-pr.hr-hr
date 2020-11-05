@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961834"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073326"
 ---
 # <a name="manage-time-zones"></a>Upravljanje vremenskim zonama
 
@@ -30,7 +30,7 @@ Kada se stvori zadatak, vrijeme početka, vrijeme završetka i sati/dan kontroli
 
 ## <a name="manage-resources-with-time-zones"></a>Upravljanje resursima s pomoću vremenskih zona
 
-Za točne i predvidljive rezultate tijekom uporabe mogućnosti **Produlji rezervaciju**, dva su ključna preduvjeta koja se moraju ispuniti:  
+Za točne i predvidljive rezultate tijekom uporabe mogućnosti **Produlji rezervaciju** , dva su ključna preduvjeta koja se moraju ispuniti:  
 
 - Korisnik mora konfigurirati vremensku zonu svog uređaja tako da odgovara vremenskoj zoni definiranoj u stavci **Postavke personalizacije** sustava.
  
@@ -57,7 +57,7 @@ Tablice u nastavku prikazuju:
 |Resurs C  |  ![Kalendar resursa C](media/reconcile-assignments-08.png) |
 |Resurs D  | ![Kalendar resursa D](media/reconcile-assignments-09.png)  |
  
-Kada prijeđete na prikaz **Usklađivanje**, prikazuju se dodjele resursa i pridruženi nedostaci rezervacija.
+Kada prijeđete na prikaz **Usklađivanje** , prikazuju se dodjele resursa i pridruženi nedostaci rezervacija.
 
 ![Prikaz usklađivanja prije produljena](media/reconcile-assignments-10.png)
 

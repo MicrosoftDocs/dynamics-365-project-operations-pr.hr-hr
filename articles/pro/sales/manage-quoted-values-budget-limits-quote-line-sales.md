@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907969"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073318"
 ---
 # <a name="project-based-quote-lines-pro"></a>Redci ponude utemeljeni na projektu (Pro)
 
@@ -49,15 +49,15 @@ Tablica u nastavku pruža informacije o poljima na kartici **Općenito** retka p
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravila provjere valjanosti za polja na kartici Općenito redaka ponude koji se temelje na projektu
 
-**Pravilo 1**: Ako je polje **Uključeni zadaci** prazno ili ako je postavljeno na **Svi projektni zadaci**, projekt je uključen u redak ponude.
+**Pravilo 1** : Ako je polje **Uključeni zadaci** prazno ili ako je postavljeno na **Svi projektni zadaci** , projekt je uključen u redak ponude.
 
-**Pravilo 2**: Ako je polje **Uključeni zadaci** prazno ili je postavljeno na **Svi projektni zadaci**, projekt i određena klasa transakcija mogu se uključiti samo u jedan redak ponude koji se temelji na projektu.
+**Pravilo 2** : Ako je polje **Uključeni zadaci** prazno ili je postavljeno na **Svi projektni zadaci** , projekt i određena klasa transakcija mogu se uključiti samo u jedan redak ponude koji se temelji na projektu.
 
-**Pravilo 3**: Ako je polje **Uključeni zadaci** postavljeno na **Svi projektni zadaci**, projekt i određena klasa transakcija mogu se uključiti u više redaka ponude koji se temelji na projektu.
+**Pravilo 3** : Ako je polje **Uključeni zadaci** postavljeno na **Svi projektni zadaci** , projekt i određena klasa transakcija mogu se uključiti u više redaka ponude koji se temelji na projektu.
 
-**Pravilo 4**: Ako prilika ima više ponuda, mogu postojati redci ponude iz različitih ponuda koji se svi odnose na isti projekt i uključuju istu klasu transakcije.
+**Pravilo 4** : Ako prilika ima više ponuda, mogu postojati redci ponude iz različitih ponuda koji se svi odnose na isti projekt i uključuju istu klasu transakcije.
 
-**Pravilo 5**: Ako ponude ne pripadaju istoj prilici, ne mogu obuhvaćati isti projekt i klasu transakcije.
+**Pravilo 5** : Ako ponude ne pripadaju istoj prilici, ne mogu obuhvaćati isti projekt i klasu transakcije.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

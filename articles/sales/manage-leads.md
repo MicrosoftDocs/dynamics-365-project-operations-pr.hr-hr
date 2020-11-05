@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898612"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073246"
 ---
 # <a name="manage-leads"></a>Upravljanje potencijalnim klijentima
 
@@ -53,7 +53,7 @@ Potencijalni klijenti koji vrijednost **Vrsta** imaju postavljenu na **Na temelj
 
 - Račun koji upotrebljava polje **Tvrtka** potencijalnog klijenta.
 - Zapis kontakata povezan s računom koji se temelji na vrijednostima u poljima **Ime** i **Prezime** potencijalnog klijenta.
-- Prilika koji se temelji na projektu koja ima polje **Vrsta** postavljeno na &quot;**Na temelju rada**.
+- Prilika koji se temelji na projektu koja ima polje **Vrsta** postavljeno na **Na temelju rada**.
 
 Podrobnije informacije o kvalificiranim potencijalnim klijentima potražite u članku [Kvalificiranje ili pretvaranje potencijalnih klijenata](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

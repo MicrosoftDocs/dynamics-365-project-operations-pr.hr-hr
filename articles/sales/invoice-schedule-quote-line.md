@@ -1,5 +1,5 @@
 ---
-title: rasporedi faktura po redcima ponude koji se temelje na projektu
+title: Rasporedi faktura po redcima ponude koji se temelje na projektu
 description: U ovoj temi nalaze se informacije o stvaranju rasporeda faktura i kontrolnih točaka za retke ponude.
 author: rumant
 manager: Annbe
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073321"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Rasporedi faktura po redcima ponude koji se temelje na projektu
 
@@ -32,7 +32,7 @@ Kada je način naplate retka ponude koji se temelji na projektu Vrijeme i materi
 3. Otvorite redak ponude vremena i materijala za koji trebate stvoriti raspored faktura koji se temelji na datumu. 
 4. Na kartici **Raspored faktura** odaberite vrijednosti u poljima **Početak naplate** i **Učestalost faktura**. 
 5. Na podrešetki odaberite **Generiraj raspored faktura**.
-6. Aplikacija generira raspored faktura s poljima **Datum pokretanja fakture**, **Datum presjeka transakcije** i **Status pokretanja** postavljenima na sljedeći način:
+6. Aplikacija generira raspored faktura s poljima **Datum pokretanja fakture** , **Datum presjeka transakcije** i **Status pokretanja** postavljenima na sljedeći način:
 
     - **Datum pokretanja fakture** postavljen je na datum koji se određuje na temelju učestalosti fakture.
     - **Datum presjeka transakcije** postavljen je na dan prije **Datuma pokretanja fakture**.
@@ -40,7 +40,7 @@ Kada je način naplate retka ponude koji se temelji na projektu Vrijeme i materi
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Stvaranje rasporeda faktura nepromjenjive cijene za redak ponude koji se temelji na projektu
 
-Kada redak ponude koji se temelji na projektu ima način naplate **Nepromjenjiv**, sustav stvara raspored faktura na temelju kontrolne točke. Poduzmite sljedeće korake za automatsko generiranje ovog rasporeda za nepromjenjivi skup kontrolnih točaka koje su podjednako raspoređene za kalendarsko razdoblje.
+Kada redak ponude koji se temelji na projektu ima način naplate **Nepromjenjiv** , sustav stvara raspored faktura na temelju kontrolne točke. Poduzmite sljedeće korake za automatsko generiranje ovog rasporeda za nepromjenjivi skup kontrolnih točaka koje su podjednako raspoređene za kalendarsko razdoblje.
 
 1. Idite na **Postavke** > **Učestalost faktura** i postavite učestalost faktura.
 2. Na stranici **Ponude** otvorite ponudu projekta i na kartici **Sažetak** postavite traženi datum isporuke.
@@ -58,7 +58,7 @@ Kada redak ponude koji se temelji na projektu ima način naplate **Nepromjenjiv*
 
 Kontrolne točke s nepromjenjivom cijenom mogu se generirati i ručno kada se povremeno ne dijele. Za ručno stvaranje kontrolnih točaka, učinite sljedeće:
 
-Otvorite redak ponude s nepromjenjivom cijenom u kojem trebate stvoriti kontrolnu točku. Na kartici **Raspored računa**, na podrešetki, odaberite **+ Stvori novu kontrolnu točku retka ponude** i unesite tražene podatke na temelju sljedeće tablice.
+Otvorite redak ponude s nepromjenjivom cijenom u kojem trebate stvoriti kontrolnu točku. Na kartici **Raspored računa** , na podrešetki, odaberite **+ Stvori novu kontrolnu točku retka ponude** i unesite tražene podatke na temelju sljedeće tablice.
 
 | **Polje** | **Mjesto** | **Relevantnost, svrha i smjernice** | **Utjecaj na niže razine** |
 | --- | --- | --- | --- |

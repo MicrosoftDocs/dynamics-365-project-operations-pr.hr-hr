@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907972"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073242"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Upravljanje s više klijenata u ponudama projekta
 
@@ -29,7 +29,7 @@ Klijenti ponude i klijenti retka ponude mogu se dodati, ažurirati ili izbrisati
 
 Klijent naveden na kartici **Sažetak** ponude projekta kao potencijalni klijent, primarni je klijent ponude. Ako pokušate izbrisati primarnog klijenta s popisa klijenata na ponudi, prikazat će se pogreška da se primarni zapis klijenta na ponudi ne može izbrisati.
 
-Primarni klijent ne bi se trebao ažurirati s popisa klijenata na ponudi. Međutim, možete utjecati na primarnog klijenta promjenom potencijalnog klijenta na kartici **Sažetak** ponude. Kada se ovo polje ažurira na stavci **Sažetak ponude**, novoodabrani potencijalni klijent dodaje se kao novi klijent ponude sa zastavicom postavljenom na **Primarni**. Stari potencijalni klijent i dalje će biti klijent na ponudi.
+Primarni klijent ne bi se trebao ažurirati s popisa klijenata na ponudi. Međutim, možete utjecati na primarnog klijenta promjenom potencijalnog klijenta na kartici **Sažetak** ponude. Kada se ovo polje ažurira na stavci **Sažetak ponude** , novoodabrani potencijalni klijent dodaje se kao novi klijent ponude sa zastavicom postavljenom na **Primarni**. Stari potencijalni klijent i dalje će biti klijent na ponudi.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Stvaranje, ažuriranje ili brisanje zapisa o klijentu ponude
 

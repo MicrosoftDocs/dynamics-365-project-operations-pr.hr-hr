@@ -3,17 +3,17 @@ title: Prijavite se za pretplate za pretpregled aplikacije Project Operations za
 description: U ovoj temi nalaze se informacije o načinu pretplate i implementiranja aplikacije Project Operations za scenarije koji se temelje na resursu / bez zalihe.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948792"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073274"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijavite se za pretplate za pretpregled aplikacije Project Operations za scenarije resursa / bez zalihe
 
@@ -29,48 +29,53 @@ U ovoj temi pojašnjava se način pretplate na pretpregled / ponudu partnera i i
 
 ## <a name="subscribe"></a>Pretplata
 
-Kada se odobri vaš [zahtjeva za pretpregled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), e-poštom ćete primiti dvije ponude od tvrtke Microsoft. Te ponude omogućuju vam postavljanje pretpregleda aplikacije Project Operations:
+Kada se odobri vaš [zahtjeva za pretpregled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), e-poštom ćete primiti tri ponude od tvrtke Microsoft. Te ponude omogućuju vam postavljanje pretpregleda aplikacije Project Operations:
 
-- Dynamics 365 Project Operations – Probni pretpregled
-- Probni pretpregled aplikacije Dynamics 365 for Finance and Operations
+- Dynamics 365 Project Operations (CRM) – Probni pretpregled
+- Office 365 Project Operations –Probni pretpregled
+- Probni pretpregled – Dynamics 365 Finance
 
 > [!IMPORTANT]
 > Samo jedna osoba u tvrtki ili ustanovi, administrator klijenta, mora izvršiti ovaj zadatak. Ako niste pretplatnik na ovo izdanje, pričekajte dok se vaša tvrtka ili ustanova ne prijavi i ne dobijete svoje vjerodajnice.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – probni pretpregled
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Probni pretpregled 
 
-1. Iskoristite prvu ponudu **Probne aplikacije Dynamics 365 Project Operations** s pomoću URL-adrese navedene u poruci dobrodošlice koju ste dobili e-poštom.
+Prije nego što započnete, provjerite jeste li prijavljeni u preglednik s korisničkim radnim računom na klijentu u kojem želite pretpregled aplikacije Project Operations.
 
-![Prva ponuda](./media/1FirstOffer.png)
+1. Iskoristite kod iz prvu ponude, **Dynamics 365 Project Operations (CRM) – Probni pretpregled** tako da ga zalijepite u URL-adresu preglednika.
 
-2. Provjerite jeste li prijavljeni kao korisnik koji pripada tvrtki ili ustanovi koja će se pretplatiti na uslugu.
-3. Nastavite s iskorištavanjem ponude. 
-4. Odaberite **Da, dodaj na moj račun**.
+![Korištenje ponude](./media/16RedeemFirstOfferNew.png)
 
-![Korištenje ponude](./media/2RedeemFirstOffer.png)
+2. Potvrdite svoj nalog.
 
-![Potvrda ponude](./media/3ConfirmFirstOffer.png)
+![Potvrda naloga](./media/17ConfirmOrderNew.png)
 
-![Ponuda iskorištena](./media/4OfferSuccessfulyRedeemed.png)
+Vidjet ćete da je nalog potvrde uspješno iskorišten.
+
+![Potvrda](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations –Probni pretpregled
+
+Ponovite iste korake kao i s prvim kodom ponude. Obvezno dodajte kod iz druge ponude s pomoću istog korisničkog računa koji je upotrebljavan s kodom iz prve ponude.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Probni pretpregled aplikacije Dynamics 365 Finance
 
-Ponovite iste korake s drugom ponudom iz e-pošte dobrodošlice.
+Ponovite iste korake s posljednjom ponudom iz e-pošte dobrodošlice.
 
 ## <a name="assign-licenses"></a>Dodjela licenci
 
 > [!IMPORTANT]
-> Trebat će vam administrativni pristup portalu sustava Office 365 vaše tvrtke ili ustanove za dovršetak sljedećih koraka.
+> Trebat će vam administrativni pristup portalu sustava Microsoft 365 vaše tvrtke ili ustanove za dovršetak sljedećih koraka.
 
 1. Idite do [Centra za administratore sustava Microsoft 365](https://portal.office.com/) kako biste dodijelili licence svojim korisnicima.
 
-![Administratorski portal aplikacije Office](./media/5OfficeAdminPortal.png)
+![Početna stranica Centra za administratore](./media/14AdminPortal.png)
 
 2. Na stranici **Aktivni korisnici** odaberite korisnike kojima želite dodijeliti licencu.
 
-![Dodjela licenci](./media/6AssignLicenses.png)
+![Dodjela licenci](./media/15AssignLicenses.png)
 
-3. Provjerite je li odabrana licenca za aplikaciju Project Operations i odaberite **Spremi promjene**. 
+3. Provjerite jesu li odabrane licence **Pretpregled aplikacije Dynamics 365 Project Operations (CRM)** i **Office 365 Project Operations – Pretpregled** i odaberite **Spremi promjene**.
 
 > [!NOTE]
 > Ponudu za probnu aplikaciju Finance ne treba dodijeliti korisniku.
@@ -85,9 +90,9 @@ Kako biste dovršili ovaj zadatak, slijedite korake u temi [Dodavanje pretplate 
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementiranje pokaznog okruženja aplikacije Finance s aplikacijom Project Operations za scenarije resursa / bez zalihe
 
-Slijedite smjernice u temi [Dodjela novog okruženja](resource-provision-new-environment.md) kako biste dovršili implementaciju. Upotrijebite vrstu implementacije [pokaznog okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) za pretpregled.
+Slijedite smjernice u temi [Dodjela novog okruženja](resource-provision-new-environment.md) kako biste dovršili implementaciju. Upotrijebite vrstu implementacije [pokaznog okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) za pretpregled. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalacija postavljanja CDS-a i konfiguracijskih podataka
 
 Instalirajte podatke o postavljanju i konfiguraciji CDS-a na način opisan u temi [Postavljanje i primjena konfiguracijskih podataka na platformi Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Dovršite ovaj korak tek nakon što se implementira pokazna verzija okruženja aplikacije Finance i budu spremni pokazni podaci u FO.

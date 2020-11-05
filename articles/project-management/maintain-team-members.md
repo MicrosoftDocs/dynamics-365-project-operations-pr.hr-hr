@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961833"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073254"
 ---
 # <a name="maintain-team-members"></a>Održavanje članova tima
 
@@ -22,13 +22,13 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 Možete dodati imenovani resurs projektnom timu tako da ga izravno rezervirate za tim.
 
 1. U aplikaciji Dynamics 365 Project Operations, idite na **Projekti** i odaberite otvori projekt za koji rezerviraš.
-2. Na stranici **Projekt**, na kartici **Tim**, odaberite **Novo**. 
+2. Na stranici **Projekt** , na kartici **Tim** , odaberite **Novo**. 
 3. U dijaloškom okviru **Brza izrada člana projektnog tima** odaberite resurs koji se može rezervirati. Polje **Uloga** popunit će se zadanom ulogom resursa ako mu je dodijeljena jedna. Ulogu možete promijeniti. 
 4. Odaberite početni i završni datum koji će biti potrebni za resurs i odaberite način dodjele kapaciteta resursa. 
 5. Ako želite da član tima bude odobravatelj projekta, u polju **Odobravatelj projekta** odaberite **Da**. Član tima može odobriti poslane unose vremena i troška za ovaj projekt. 
 6. Odaberite **Spremi**.
 
-Sada možete dodijeliti rezervirani resurs zadacima na projektu. Na stranici **Projekt**, na kartici **Raspored**, dodijelite zadatke novom resursu. Birač resursa koji je pokrenut iz polja **Resursi** u rešetki zadataka pokazat će članove tima koje možete odabrati.
+Sada možete dodijeliti rezervirani resurs zadacima na projektu. Na stranici **Projekt** , na kartici **Raspored** , dodijelite zadatke novom resursu. Birač resursa koji je pokrenut iz polja **Resursi** u rešetki zadataka pokazat će članove tima koje možete odabrati.
 
 
 U aplikaciji Project Operations, rezerviranja resursa i dodjele zadataka nisu usko povezani. Kada upotrebljavate birač resursa u rasporedu, možete dodijeliti zadatke članovima tima za više sati nego što njihove rezervacije pokrivaju na projektu.

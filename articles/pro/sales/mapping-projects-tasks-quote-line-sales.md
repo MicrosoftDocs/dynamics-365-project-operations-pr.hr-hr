@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964898"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073280"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapiranje projekata i zadataka u redak ponude koji se temelji na projektu
 
@@ -57,13 +57,13 @@ Stranica **Projekt** pruža optimalno iskustvo za povezivanje zadataka s redcima
 Projektne zadatke možete povezati s redcima ponude iz kartice **Zadaci koji se naplaćuju** na stranici **Redak ponude**.
 
 >[!NOTE]
->Optimalno mjesto za povezivanje projektnih zadataka s redcima ponude jest na kartici **Naplata zadatka** na stranici **Projekt**. Ako povezujete zadatke iz kartice **Zadaci koji se naplaćuju** na stranici **Redak ponude**, svaki projekt morate ručno povezati.
+>Optimalno mjesto za povezivanje projektnih zadataka s redcima ponude jest na kartici **Naplata zadatka** na stranici **Projekt**. Ako povezujete zadatke iz kartice **Zadaci koji se naplaćuju** na stranici **Redak ponude** , svaki projekt morate ručno povezati.
 
 1. Na kartici **Općenito** retka ponude koji se temelji na projektu, provjerite je li u polju **Projekt** odabran projekt.
 2. U polju **Uključeni zadaci** odaberite mogućnost **Samo odabrani zadaci**.
 3. Spremanje retka ponude utemeljenog na projektu Kada se obrazac osvježi, prikazuje se kartica **Zadaci koji se naplaćuju**.
 4. Na kartici **Zadaci koji se naplaćuju** odaberite **Dodaj zadatak retka ponude**.
-5. Na stranici **Zadatak retka ponude** u polju **Zadaci**, odaberite zadatak i u polju **Vrsta naplate** odaberite **Spremi**. 
+5. Na stranici **Zadatak retka ponude** u polju **Zadaci** , odaberite zadatak i u polju **Vrsta naplate** odaberite **Spremi**. 
 6. Zatvorite stranicu. Odabrani zadatak sada je povezan s retkom ponude.
 
 ## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Prekidanje veze zadataka od redaka ponude koji se temelje na projektu
@@ -72,7 +72,7 @@ Projektne zadatke možete povezati s redcima ponude iz kartice **Zadaci koji se 
 
 Ovaj način pruža najoptimalnije iskustvo za prekidanje veze zadataka od redaka ponude. Možete odabrati više zadataka, kao i njihove podređene zadatke, i prekinuti njihovu vezu s odabranim redcima ponude.
 
-1. Na kartici **Općenito** retka ponude koji se temelji na projektu, u polju **Projekt**, odaberite vezu na projekt.
+1. Na kartici **Općenito** retka ponude koji se temelji na projektu, u polju **Projekt** , odaberite vezu na projekt.
 2. Na stranici **Projekt** odaberite karticu **Naplata zadatka**.
 3. U drugoj rešetki, koja se odnosi na postavke naplate određenih zadataka, odaberite jedan ili više zadataka, a zatim odaberite **Prekini vezu s redcima ponude**.
 4. Na dijaloškoj stranici koja se prikaže odaberite redak ponude.

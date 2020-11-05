@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073311"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Upravljanje cjenicima projekta u ponudama projekta (prodaja)
 
@@ -30,7 +30,7 @@ Kada na ponudi projekta ne postoje cjenici projekata, primit ćete poruku upozor
 Kako biste stvorili ili odabrali određeni cjenik za procjenu rada i troškova koji se temelje na projektu, poduzmite sljedeće korake.
 
 1. Na ponudi odaberite karticu **Cijena projekta** i u podrešetki odaberite mogućnost **+ Dodaj novi cjenik projekta**.
-2. Na stranici Brzo stvaranje odaberite cjenik. Padajući popis prikazuje sve cjenike kojima je kontekst postavljen na **Prodaja**, a valuta odgovara valuti ponude.
+2. Na stranici Brzo stvaranje odaberite cjenik. Padajući popis prikazuje sve cjenike kojima je kontekst postavljen na **Prodaja** , a valuta odgovara valuti ponude.
 4. Unesite opis povezanih cjenika projekta i odaberite **Spremi i zatvori**.
 
 Stvoren je povezani cjenik projekta.
@@ -65,5 +65,5 @@ Kako biste postavili cjenik projekta specifičan za klijenta, poduzmite sljedeć
 
 Nakon što ste dobili cjenike projekata zadane organizacijski i za specifičnog klijenta, ponude projekata automatski će se stvarati s tim povezanim cjenikom projekata. Međutim, u određenim slučajevima možda ćete trebati stvoriti prilagođene cijene za određenu ponudu projekta. 
 
-1. Na stavci **Ponuda projekta**, na kartici **Cjenik projekta**, provjerite u podrešetki da nije odabran posebni zapis cjenika.
+1. Na stavci **Ponuda projekta** , na kartici **Cjenik projekta** , provjerite u podrešetki da nije odabran posebni zapis cjenika.
 2. Odaberite **Stvori prilagođene cijene**. Time će se napraviti kopije svih standardnih cjenika trenutačno povezanih s ponudom i povezati te primjerke s ponudom. Uklonit će se postojeća povezanost sa standardnim cjenicima. Tada prodajni predstavnik može započeti s uređivanjem cijena na tim primjercima. Promijenjene cijene primjenjivat će se samo na cijene ponude za ovaj projekt.

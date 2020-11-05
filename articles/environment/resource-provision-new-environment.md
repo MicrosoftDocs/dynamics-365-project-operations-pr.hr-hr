@@ -3,17 +3,17 @@ title: Priprema novog okruženja
 description: U ovoj temi nalaze se informacije o načinu pripreme novog okruženja aplikacije Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073275"
 ---
 # <a name="provision-a-new-environment"></a>Priprema novog okruženja
 
@@ -26,14 +26,14 @@ U ovoj temi nalaze se informacije o načinu pripreme okruženja aplikacije Dynam
 Poduzmite sljedeće korake kako biste omogućili automatizirani tijek pripreme za LCS projekt.
 
 1. Idite na [LCS](https://lcs.dynamics.com/v2) i odaberite pločicu **Pregled upravljanja značajkama**.
-2. U popisu **Značajka pregleda** odaberite **Project Operations** i odabrani **Omogućena značajka pregleda** kako biste omogućili aplikaciju Project Operations.
+2. U popisu **Značajka pregleda** odaberite **Značajka aplikacije Project Operations** i zatim odaberite **Omogućena značajka pregleda** kako biste omogućili aplikaciju Project Operations.
 
 > [!NOTE]
 > Ovaj korak izvodi se samo jedanput po LCS projektu.
 
 ## <a name="provision-a-project-operations-environment"></a>Priprema okruženja aplikacije Project Operations
 
-1. Otvorite novo Dynamics 365 Finance [probno okruženje](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ili implementaciju [sigurnosne ograde / proizvodnog okruženja](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otvorite novo Dynamics 365 Finance [probno okruženje](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ili implementaciju [sigurnosne ograde / proizvodnog okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Upoznajte se s radom čarobnjaka **Priprema okruženja**. 
 
 > [!IMPORTANT]
@@ -76,7 +76,7 @@ Project Operations zahtijeva okruženje aplikacije Finance verzije **10.0.13 (10
 
 Možda ćete trebati primijeniti kvalitativna ažuriranja u svom okruženju aplikacije Finance kako biste primili ovu verziju.
 
-1. Na stranici **Pojedinosti okruženja** LSC-a, u odjeljku **Dostupna ažuriranja**, odaberite **Pogledajte ažuriranje**.
+1. Na stranici **Pojedinosti okruženja** LSC-a, u odjeljku **Dostupna ažuriranja** , odaberite **Pogledajte ažuriranje**.
 
 ![Prikaz ažuriranja](./media/5ViewUpdates.png)
 
@@ -120,7 +120,7 @@ Održavanje okruženja potrajat će neko vrijeme. Nakon završetka, okruženje �
 
 ![Primjena rješenja](./media/13ApplySolutions.png)
 
-5. Odaberite oba rješenja, **Dvostruko zapisivanje mape entiteta aplikacije Dynamics 365 Finance and Operations** i **Dvostruko zapisivanje mapa entiteta aplikacije Dynamics 365 Project Operations**, a zatim odaberite**Prijava**.
+5. Odaberite oba rješenja, **Dvostruko zapisivanje mape entiteta aplikacije Dynamics 365 Finance and Operations** i **Dvostruko zapisivanje mapa entiteta aplikacije Dynamics 365 Project Operations** , a zatim odaberite **Prijava**.
 
 ![Potvrda rješenja](./media/14ConfirmSolutions.png)
 
@@ -142,7 +142,7 @@ Nakon primjene entiteta, sva raspoloživa mapiranja navedena su u okruženju.
 
 ![Parametri okvira](./media/17FrameworkParameters.png)
 
-3. Na stranici **Postavke entiteta**, odaberite mogućnost **Osvježi popis entiteta**.
+3. Na stranici **Postavke entiteta** , odaberite mogućnost **Osvježi popis entiteta**.
 
 ![Osvježavanje popisa entiteta](./media/18RefreshEntityList.png)
 
@@ -165,18 +165,19 @@ Osvježavanje će potrajati otprilike 20 minuta. Kada bude dovršeno dobit ćete
 | **Entitet integracije za odnose projektne transakcije (msdyn\_transactionconnections)** | No | No | Nije dostupno | No | Nije dostupno |
 | **Kontrolne točke retka ugovora za integraciju aplikacije Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | Nije dostupno | No | Nije dostupno |
 | **Entitet za integraciju aplikacije Project Operations za procjene troškova (msdyn\_estimateslines)** | No | No | Nije dostupno | No | Nije dostupno |
-| **Entitet za integraciju aplikacije Project Operations za procjene sati (msdyn\_resourceassignments)** | No | No | Nije dostupno | No | Nije dostupno |
+| **Entitet izvoza kategorija troškova projekta za integraciju aplikacije Project Operations (msdyn\_expensecategories)** | No | No | Nije dostupno | No | Nije dostupno |
 | **Entitet izvoza troškova projekta za integraciju aplikacije Project Operations (msdyn\_expenses)** | Jest | No | Nije dostupno | No | Nije dostupno |
 | **Entitet za integraciju aplikacije Project Operations za procjene sati (msdyn\_resourceassignments)** | Jest | No | Nije dostupno | No | Nije dostupno |
 
+
 4. Kako biste osvježili entitet, odaberite naziv mape, a zatim odaberite **Osvježi entitete**. 
-5. Nakon završetka osvježavanja nastavite s izvođenjem mape.
+
 
 ![Osvježavanje mape](./media/20RefreshMapping.png)
 
-Prije nego što omogućite sljedeću mapu, provjerite je li mapa u tablici u stanju **Izvodi se**. Izvođenje mapa s većim brojem preduvjeta može potrajati.
+5. Nakon završetka osvježavanja pokrenite mapu. Prije nego što omogućite sljedeću mapu, provjerite je li mapa u tablici u stanju **Izvodi se**. Izvođenje mapa s većim brojem preduvjeta može potrajati.
 
-Kako biste pokrenuli mapu s preduvjetima, omogućite preklopni gumb **Prikaži povezane mape entiteta**. Ako je u tablici navedeno kako **Početna sinkronizacija preduvjeta** ima vrijednost **Ne**, prije pokretanja provjerite je li zastavica **Početna sinkronizacija** postavljena na **Isključeno** na svim mapama s preduvjetima.
+Kako biste pokrenuli mapu s preduvjetima, omogućite preklopni gumb **Prikaži povezane mape entiteta**. Ako je u tablici navedeno kako **Početna sinkronizacija preduvjeta** ima vrijednost **Ne** , prije pokretanja provjerite je li zastavica **Početna sinkronizacija** postavljena na **Isključeno** na svim mapama s preduvjetima.
 
 ![Pokretanje mape](./media/21RunMap.png)
 

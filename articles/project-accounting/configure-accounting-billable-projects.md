@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896117"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073302"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfiguracija računovodstva za naplative projekte
 
@@ -21,8 +21,8 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Dynamics 365 Project Operations podržava razne mogućnosti računovodstva za naplative projekte koji uključuju vrijeme i materijal te transakcije s nepromjenjivom cijenom.
 
-- **Vremenske i materijalne transakcije**: Ove transakcije fakturiraju se tijekom rada na temelju potrošnje sati, troškova, predmeta ili naknada na projektu. Ovi transakcijski troškovi mogu se uskladiti s prihodom od svake transakcije, a projekt se fakturira tijekom rada. Prihod od projekta također može biti obračunan u trenutku kada se transakcija dogodi. Tijekom fakturiranja prihod se priznaje i, ako je primjenjivo, obračunani se prihod stornira.
-- **Transakcije s nepromjenjivom cijenom**: Te se transakcije fakturiraju prema rasporedu naplate koji se temelji na ugovoru o projektu. Prihod za transakcije s nepromjenjivom cijenom može se priznati na fakturiranju ili izračunati i knjižiti periodično, u skladu s načinom **Završen ugovor** ili **Postotak dovršenosti**.
+- **Vremenske i materijalne transakcije** : Ove transakcije fakturiraju se tijekom rada na temelju potrošnje sati, troškova, predmeta ili naknada na projektu. Ovi transakcijski troškovi mogu se uskladiti s prihodom od svake transakcije, a projekt se fakturira tijekom rada. Prihod od projekta također može biti obračunan u trenutku kada se transakcija dogodi. Tijekom fakturiranja prihod se priznaje i, ako je primjenjivo, obračunani se prihod stornira.
+- **Transakcije s nepromjenjivom cijenom** : Te se transakcije fakturiraju prema rasporedu naplate koji se temelji na ugovoru o projektu. Prihod za transakcije s nepromjenjivom cijenom može se priznati na fakturiranju ili izračunati i knjižiti periodično, u skladu s načinom **Završen ugovor** ili **Postotak dovršenosti**.
 
 Projekt se smatra naplativim kad je povezan s jednim ili više redaka ugovora. Redak ugovora o projektu sam definira dozvoljene načine naplate i vrste transakcija.
 
@@ -45,47 +45,47 @@ Izvršite sljedeće korake za stvaranje novog profila troškova i prihoda projek
 3. U polje **Naziv** unesite naziv i kratki opis profila.
 4. U polju **Način naplate** odaberite **Vrijeme i materijal** ili **Nepromjenjiva cijena**.
 5. Proširite Brzu karticu **Glavne knjige**. Polja na ovoj kartici definiraju računovodstvena načela koja se upotrebljavaju kada se projektne transakcije unose u temeljnicu s pomoću temeljnice integracije aplikacije Project Operations, a zatim fakturiraju putem prijedloga fakture za projekt.
-6. Odaberite odgovarajuće podatke u sljedećim poljima u Brzoj kartici stavke **Glavna knjiga**:
+6. Odaberite odgovarajuće podatke u sljedećim poljima u Brzoj kartici stavke **Glavna knjiga** :
 
-    - **Knjiženje troškova – sat**:
+    - **Knjiženje troškova – sat** :
 
-       - *Bez glavne knjige*: Troškovi vremenskih transakcija neće se knjižiti u glavnu knjigu kada se knjiži temeljnica integracije u aplikaciji Project Operations. Međutim, računovođa može naknadno knjižiti troškove s pomoću funkcije Knjiži troškove.
-       - **Saldo**: Trošak vremenskih transakcija teretit će se vrstom računa glavne knjige, *WIP – Vrijednost troška* i pripisati *Računu za raspodjelu plaća* u postavci knjiženja glavne knjige. Računovođa će upotrijebiti funkciju knjiženja troškova kako bi taj trošak povremeno premještao s računa salda na račun dobiti i gubitka.
-       - **Dobit i gubitak**: Tijekom knjiženja temeljnice integracije aplikacije Project Operations, trošak vremenske transakcije teretit će se vrstom računa glavne knjige *Trošak* i pripisati *Računu za raspodjelu plaća* definiranom na kartici **Trošak** na stranici **Postavljanje knjiženja glavne knjige** (**Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Knjiženje** \> **Postavljanje knjiženja glavne knjige**). Ovo je najčešće postavljanje vremenskih i materijalnih transakcija.
-        - *Bez glavne knjige*: Troškovi vremenskih transakcija nikada neće biti knjiženi u glavnu knjigu.
+       - *Bez glavne knjige* : Troškovi vremenskih transakcija neće se knjižiti u glavnu knjigu kada se knjiži temeljnica integracije u aplikaciji Project Operations. Međutim, računovođa može naknadno knjižiti troškove s pomoću funkcije Knjiži troškove.
+       - **Saldo** : Trošak vremenskih transakcija teretit će se vrstom računa glavne knjige, *WIP – Vrijednost troška* i pripisati *Računu za raspodjelu plaća* u postavci knjiženja glavne knjige. Računovođa će upotrijebiti funkciju knjiženja troškova kako bi taj trošak povremeno premještao s računa salda na račun dobiti i gubitka.
+       - **Dobit i gubitak** : Tijekom knjiženja temeljnice integracije aplikacije Project Operations, trošak vremenske transakcije teretit će se vrstom računa glavne knjige *Trošak* i pripisati *Računu za raspodjelu plaća* definiranom na kartici **Trošak** na stranici **Postavljanje knjiženja glavne knjige** ( **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Knjiženje** \> **Postavljanje knjiženja glavne knjige** ). Ovo je najčešće postavljanje vremenskih i materijalnih transakcija.
+        - *Bez glavne knjige* : Troškovi vremenskih transakcija nikada neće biti knjiženi u glavnu knjigu.
 
-    - **Knjiženje troškova – trošak**:
+    - **Knjiženje troškova – trošak** :
 
-         - **Saldo**: Tijekom knjiženja temeljnice integracije aplikacije Project Operations, trošak transakcije izdatka tereti se vrstom računa glavne knjige *WIP – Vrijednost troška* kako je definirano na kartici **Trošak** na stranici **Postavljanje knjiženja glavne knjige** i pripisuje se računu za poravnanje u retku temeljnice. Zadani računi za naknadu troškova definirani su u postavci **Upravljanje projektima i računovodstvo** > **Postavljanje** \> **Knjiženje** \> **Zadani račun poravnanja za troškove**. Računovođa će upotrijebiti funkciju **Knjiži troškove** kako bi taj trošak povremeno premještao s računa salda na račun dobiti i gubitka.
-        - **Dobit i gubitak**: Tijekom knjiženja temeljnice integracije aplikacije Project Operations, trošak transakcije izdatka tereti se vrstom računa glavne knjige *Trošak* kako je definirano na kartici **Trošak** na stranici **Postavljanje knjiženja glavne knjige** i pripisuje se računu za poravnanje u retku temeljnice. Zadani računi za naknadu troškova definirani su u postavci **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Knjiženje** \> **Zadani račun poravnanja za troškove**.
+         - **Saldo** : Tijekom knjiženja temeljnice integracije aplikacije Project Operations, trošak transakcije izdatka tereti se vrstom računa glavne knjige *WIP – Vrijednost troška* kako je definirano na kartici **Trošak** na stranici **Postavljanje knjiženja glavne knjige** i pripisuje se računu za poravnanje u retku temeljnice. Zadani računi za naknadu troškova definirani su u postavci **Upravljanje projektima i računovodstvo** > **Postavljanje** \> **Knjiženje** \> **Zadani račun poravnanja za troškove**. Računovođa će upotrijebiti funkciju **Knjiži troškove** kako bi taj trošak povremeno premještao s računa salda na račun dobiti i gubitka.
+        - **Dobit i gubitak** : Tijekom knjiženja temeljnice integracije aplikacije Project Operations, trošak transakcije izdatka tereti se vrstom računa glavne knjige *Trošak* kako je definirano na kartici **Trošak** na stranici **Postavljanje knjiženja glavne knjige** i pripisuje se računu za poravnanje u retku temeljnice. Zadani računi za naknadu troškova definirani su u postavci **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Knjiženje** \> **Zadani račun poravnanja za troškove**.
        
-    - **Fakturiranje na računu**:
+    - **Fakturiranje na računu** :
 
-        - **Saldo**: Tijekom knjiženja prijedloga fakture za projekt, djelomična transakcija (kontrolna točka za naplatu) pripisuje se vrsti računa glavne knjige *WIP fakturiran – djelomično* kako je definirano na kartici **Prihod** na stranici **Postavljanje knjiženja glavne knjige** i tereti račun salda klijenta.
-         - **Dobit i gubitak**: Tijekom knjiženja prijedloga fakture za projekt, djelomična transakcija (kontrolna točka za naplatu) pripisuje se vrsti računa glavne knjige *Fakturirani prihod – djelomično* kako je definirano na kartici **Prihod** na stranici **Postavljanje knjiženja glavne knjige** i tereti račun salda klijenta. Računi salda klijenta definirani su u stavci **Potraživanja** \> **Postavljanje** \> **Profili knjiženja klijenta**.
+        - **Saldo** : Tijekom knjiženja prijedloga fakture za projekt, djelomična transakcija (kontrolna točka za naplatu) pripisuje se vrsti računa glavne knjige *WIP fakturiran – djelomično* kako je definirano na kartici **Prihod** na stranici **Postavljanje knjiženja glavne knjige** i tereti račun salda klijenta.
+         - **Dobit i gubitak** : Tijekom knjiženja prijedloga fakture za projekt, djelomična transakcija (kontrolna točka za naplatu) pripisuje se vrsti računa glavne knjige *Fakturirani prihod – djelomično* kako je definirano na kartici **Prihod** na stranici **Postavljanje knjiženja glavne knjige** i tereti račun salda klijenta. Računi salda klijenta definirani su u stavci **Potraživanja** \> **Postavljanje** \> **Profili knjiženja klijenta**.
 
-   Kada definirate profile knjiženja za načine naplate vremena i materijala, imate mogućnost obračunati prihod po vrsti transakcije (sat, trošak i naknada). Ako je mogućnost **Obračunani prihod** postavljena na **Da**, nefakturirane prodajne transakcije u temeljnici integracije aplikacije Project Operations evidentirat će se u glavnu knjigu. Prodajna vrijednost tereti se stavkom **WIP – račun vrijednosti prodaje** i pripisuje se računu **Obračunani prihod – prodajna vrijednost** koji je postavljen na stranici **Postavljanje knjiženja glavne knjige** na kartici **Prihod**. 
+   Kada definirate profile knjiženja za načine naplate vremena i materijala, imate mogućnost obračunati prihod po vrsti transakcije (sat, trošak i naknada). Ako je mogućnost **Obračunani prihod** postavljena na **Da** , nefakturirane prodajne transakcije u temeljnici integracije aplikacije Project Operations evidentirat će se u glavnu knjigu. Prodajna vrijednost tereti se stavkom **WIP – račun vrijednosti prodaje** i pripisuje se računu **Obračunani prihod – prodajna vrijednost** koji je postavljen na stranici **Postavljanje knjiženja glavne knjige** na kartici **Prihod**. 
   
   > [!NOTE]
   > Mogućnost **Obračunani prihod** dostupan je samo kada se odgovarajuća vrsta transakcije **Trošak** knjiži na račun dobiti i gubitka.
     
 7. Proširite Brzu karticu **Procijeni**. Polja na ovoj kartici definiraju postavke izračuna za procjene prihoda s nepromjenjivom cijenom. Polja na ovoj kartici odnose se samo na profile troškova i prihoda projekta s načinom naplate **Nepromjenjiva cijena**.
-8. Odaberite odgovarajuće podatke u sljedećim poljima u Brzoj kartici mogućnosti **Procijeni**:
+8. Odaberite odgovarajuće podatke u sljedećim poljima u Brzoj kartici mogućnosti **Procijeni** :
 
-    - **Načelo upotrijebljeno za izračun završetka projekta**:
+    - **Načelo upotrijebljeno za izračun završetka projekta** :
 
-        - **Završen ugovor**: Usklađivanje troškova i priznavanje prihoda ne događa se do kraja projekta. Troškovi se do završetka projekta u saldu odražavaju kao WIP.
-        - **Postotak dovršenosti**: Obračunani prihod izračunava se i knjiži u glavnu knjigu svakog razdoblja na temelju postotka dovršenosti projekta. Dostupno je više načina za izračunavanje postotka dovršenosti. Ti načini mogu biti automatski na osnovi konfiguracije ili ručni.
-        - **Bez WIP-a**: Ova postavka upotrebljava se za projekte s nepromjenjivom cijenom i kratkim vremenskim rasponom te tamo gdje se faktura i troškovi javljaju u istom razdoblju. U tom slučaju vrijednost polja **Djelomično fakturiranje** na Brzoj kartici **Glavna knjiga** automatski se postavlja na **Dobit i gubitak** kako bi se osiguralo da se prihod prizna pri fakturiranju. Postupak procjene prihoda neće se upotrebljavati za profil troška i prihoda tog projekta.
+        - **Završen ugovor** : Usklađivanje troškova i priznavanje prihoda ne događa se do kraja projekta. Troškovi se do završetka projekta u saldu odražavaju kao WIP.
+        - **Postotak dovršenosti** : Obračunani prihod izračunava se i knjiži u glavnu knjigu svakog razdoblja na temelju postotka dovršenosti projekta. Dostupno je više načina za izračunavanje postotka dovršenosti. Ti načini mogu biti automatski na osnovi konfiguracije ili ručni.
+        - **Bez WIP-a** : Ova postavka upotrebljava se za projekte s nepromjenjivom cijenom i kratkim vremenskim rasponom te tamo gdje se faktura i troškovi javljaju u istom razdoblju. U tom slučaju vrijednost polja **Djelomično fakturiranje** na Brzoj kartici **Glavna knjiga** automatski se postavlja na **Dobit i gubitak** kako bi se osiguralo da se prihod prizna pri fakturiranju. Postupak procjene prihoda neće se upotrebljavati za profil troška i prihoda tog projekta.
 
-    - **Načela podudaranja**: Ovo polje određuje kako će se izračunana prodajna vrijednost  (obračunani prihod) knjižiti u glavnu knjigu.
+    - **Načela podudaranja** : Ovo polje određuje kako će se izračunana prodajna vrijednost  (obračunani prihod) knjižiti u glavnu knjigu.
 
         - Uporabom načela **Prodajna vrijednost** sustav će izračunati prodajnu vrijednost podudaranjem troškova i prihoda, a zatim će ih knjižiti kao jedan iznos.
         - Uporabom načela **Proizvodnja i dobit** sustav će prodajnu vrijednost podijeliti na ostvarene troškove i izračunanu dobit. Oni se knjiže zasebno.
 
-    - **Predlošci troškova**: Dozvolite grupiranje projektnih transakcija na temelju vrste transakcije i kategorije projekta te za ove grupe definirajte pravila izračuna postotka dovršenosti.
-    - **Šifre razdoblja**: Definirajte učestalost izračunavanja procjene prihoda za određeni profil troška i prihoda projekta.
-    - **Kategorije za procjenu**: Upotrebljava se za knjiženje vrijednosti prodaje (obračunani prihod) u projektne transakcije. Prvo konfigurirajte namjensku kategoriju projekta za vrstu transakcije **Naknada**, a zatim postavite zastavicu, **Procjeni** za ovu kategoriju projekata. Nadalje, ovisno o odabranom načelu podudaranja, odaberite ovu kategoriju projekta u vrijednosti **Prodaja** ili polju **Dobit** u profilu troškova i prihoda projekta.
+    - **Predlošci troškova** : Dozvolite grupiranje projektnih transakcija na temelju vrste transakcije i kategorije projekta te za ove grupe definirajte pravila izračuna postotka dovršenosti.
+    - **Šifre razdoblja** : Definirajte učestalost izračunavanja procjene prihoda za određeni profil troška i prihoda projekta.
+    - **Kategorije za procjenu** : Upotrebljava se za knjiženje vrijednosti prodaje (obračunani prihod) u projektne transakcije. Prvo konfigurirajte namjensku kategoriju projekta za vrstu transakcije **Naknada** , a zatim postavite zastavicu, **Procjeni** za ovu kategoriju projekata. Nadalje, ovisno o odabranom načelu podudaranja, odaberite ovu kategoriju projekta u vrijednosti **Prodaja** ili polju **Dobit** u profilu troškova i prihoda projekta.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Uzorci konfiguracija za profile troškova i prihoda projekta
 

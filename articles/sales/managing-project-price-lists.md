@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898657"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073614"
 ---
 # <a name="project-price-lists"></a>Cjenici projekta
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations proširuje entitet cjenika u aplikaciji Dynamics
 
 Cjenik uključuje informacije koje pružaju četiri različita entiteta:
 
-- **Cjenik**: Ovaj entitet pohranjuje informacije o kontekstu, valuti, datumu stupanja na snagu i vremenskoj jedinici za vrijeme određivanja cijena. Kontekst prikazuje izražava li cjenik cijene koštanja ili cijene prodaje. 
-- **Valuta**: Ovaj entitet pohranjuje valutu cijena na cjenik. 
-- **Datum**: Ovaj se entitet upotrebljava kada sustav pokuša unijeti zadanu cijenu na transakciju. Cjenik koji ima datum stupanja na snagu koji uključuje odabrani datum transakcije. Ako je pronađeno više od jednog cjenika koji je na snazi za datum transakcije i koji je priložen povezanoj ponudi, ugovoru ili organizacijskoj jedinici, onda nijedna cijena nije zadana. 
-- **Vrijeme**: Ovaj entitet pohranjuje jedinicu vremena za koju su cijene izražene, kao što su dnevne ili po satu. 
+- **Cjenik** : Ovaj entitet pohranjuje informacije o kontekstu, valuti, datumu stupanja na snagu i vremenskoj jedinici za vrijeme određivanja cijena. Kontekst prikazuje izražava li cjenik cijene koštanja ili cijene prodaje. 
+- **Valuta** : Ovaj entitet pohranjuje valutu cijena na cjenik. 
+- **Datum** : Ovaj se entitet upotrebljava kada sustav pokuša unijeti zadanu cijenu na transakciju. Cjenik koji ima datum stupanja na snagu koji uključuje odabrani datum transakcije. Ako je pronađeno više od jednog cjenika koji je na snazi za datum transakcije i koji je priložen povezanoj ponudi, ugovoru ili organizacijskoj jedinici, onda nijedna cijena nije zadana. 
+- **Vrijeme** : Ovaj entitet pohranjuje jedinicu vremena za koju su cijene izražene, kao što su dnevne ili po satu. 
 
 Entitet Cjenik ima tri povezane tablice koje pohranjuju cijene:
 
-  - **Cijena na temelju uloge**: Ova tablica pohranjuje cijenu za kombiniranje vrijednosti uloge i organizacijske jedinice te se upotrebljava za postavljanje cijena utemeljenih na ulogama za ljudske resurse.
-  - **Cijena po kategoriji transakcije**: Ova tablica pohranjuje cijene po kategoriji transakcije i upotrebljava se za postavljanje cijena po kategoriji troška.
-  - **Stavke cjenika**: Ova tablica pohranjuje cijene za kataloške proizvode.
+  - **Cijena na temelju uloge** : Ova tablica pohranjuje cijenu za kombiniranje vrijednosti uloge i organizacijske jedinice te se upotrebljava za postavljanje cijena utemeljenih na ulogama za ljudske resurse.
+  - **Cijena po kategoriji transakcije** : Ova tablica pohranjuje cijene po kategoriji transakcije i upotrebljava se za postavljanje cijena po kategoriji troška.
+  - **Stavke cjenika** : Ova tablica pohranjuje cijene za kataloške proizvode.
  
 Cjenik je službena cijena. Službena cijena je kombinacija entiteta Cjenik i povezanih redaka u tablicama Cijena na temelju uloge, Cijena po kategoriji transakcije i Stavke cjenika.
 
@@ -54,15 +53,15 @@ Pojam *Uloga resursa* odnosi se na skup vještina, kompetencija i certifikacija 
 
 Vrijeme ljudskog resursa navodi se na temelju uloge koju resurs ispunjava u određenom projektu. Vrijeme, troškovi i naplata ljudskog resursa temelje se na ulozi resursa. Vrijeme može biti naplaćeno u bilo kojoj jedinici u grupi jedinica **Vrijeme**.
 
-Grupa jedinica **Vrijeme** stvara se kada instalirate aplikaciju Project Operations. Ima zadanu jedinicu **Sat**. Ne možete brisati, preimenovati ili uređivati atribute grupe jedinica **Vrijeme** ili jedinice **Sat**. Međutim, možete dodati druge jedinice u grupu jedinica **Vrijeme**. Ako pokušate izbrisati grupu jedinica **Vrijeme** ili jedinicu **Sat**, mogli biste uzrokovati pogreške u poslovnoj logici.
+Grupa jedinica **Vrijeme** stvara se kada instalirate aplikaciju Project Operations. Ima zadanu jedinicu **Sat**. Ne možete brisati, preimenovati ili uređivati atribute grupe jedinica **Vrijeme** ili jedinice **Sat**. Međutim, možete dodati druge jedinice u grupu jedinica **Vrijeme**. Ako pokušate izbrisati grupu jedinica **Vrijeme** ili jedinicu **Sat** , mogli biste uzrokovati pogreške u poslovnoj logici.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorije transakcija i kategorije troškova
 
 Putni i ostali troškovi koje snose projektni savjetnici naplaćuju se klijentu. Određivanje cijena kategorija troškova dovršava se s pomoću cjenika. Zrakoplovne karte, hotel i najam automobila primjeri su za kategorije troškova. Svaki redak cjenika za troškove određuje određivanje cijena za određenu kategoriju troškova. Za određivanje cijena troškova upotrebljavaju se sljedeća tri načina:
 
-- **Po cijeni**: Cijena troškova naplaćuje se klijentu i ne primjenjuje se marža.
-- **Postotak marže**: Klijentu se naplaćuje postotak iznad stvarnih troškova. 
-- **Cijena po jedinici**: Cijena naplate postavljena je za svaku jedinicu kategorije troškova. Iznos koji se naplaćuje klijentu izračunava se na temelju broja jedinica troškova koje savjetnik prijavljuje. Kilometraža koristi metodu određivanja cijena po jedinici. Na primjer, kategorija troškova kilometraže može se konfigurirati za 30 američkih dolara (USD) dnevno ili 2 USD po milji. Kada savjetnik prijavi kilometražu na projektu, iznos računa izračunava se na temelju broja milja koje je savjetnik prijavio.
+- **Po cijeni** : Cijena troškova naplaćuje se klijentu i ne primjenjuje se marža.
+- **Postotak marže** : Klijentu se naplaćuje postotak iznad stvarnih troškova. 
+- **Cijena po jedinici** : Cijena naplate postavljena je za svaku jedinicu kategorije troškova. Iznos koji se naplaćuje klijentu izračunava se na temelju broja jedinica troškova koje savjetnik prijavljuje. Kilometraža koristi metodu određivanja cijena po jedinici. Na primjer, kategorija troškova kilometraže može se konfigurirati za 30 američkih dolara (USD) dnevno ili 2 USD po milji. Kada savjetnik prijavi kilometražu na projektu, iznos računa izračunava se na temelju broja milja koje je savjetnik prijavio.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Određivanje cijena prodaje projekta i otpisi
 

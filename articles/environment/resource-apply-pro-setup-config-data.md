@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073261"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Postavljanje i primjena konfiguracijskih podataka na platformi Common Data Service za aplikaciju Project Operations
 
@@ -27,7 +27,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 ![Migracija konfiguracije](./media/1ConfigurationMigration.png)
 
-4. Na 2. stranici CMT čarobnjaka odaberite **Office 365** kao **Vrstu uvođenja**.
+4. Na 2. stranici CMT čarobnjaka odaberite **Microsoft 365** kao **Vrstu implementacije**.
 5. Označite potvrdne okvire **Prikaži popis dostupnih tvrtki ili ustanova** i **Prikaži napredne**.
 6. Odaberite regiju svog klijenta, unesite svoje vjerodajnice, a zatim odaberite mogućnost **Prijava**.
 
@@ -75,7 +75,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 ![Otvaranje okruženja](./media/7OpenEnvironment.png)
 
-2. Idite na **Projekti** > **Resursi**, a zatim odaberite **Novi** kako biste svojem korisniku stvorili resurs koji se može rezervirati.
+2. Idite na **Projekti** > **Resursi** , a zatim odaberite **Novi** kako biste svojem korisniku stvorili resurs koji se može rezervirati.
 
 ![Resursi koje je moguće rezervirati](./media/8BookableResources.png)
 
@@ -83,7 +83,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 ![Novi resurs koji se može rezervirati](./media/9NewBookableResource.png)
 
-4. Na kartici **Planiranje**, u polju **Tvrtka**, odaberite tvrtku **USPM**, a zatim odaberite **Spremi**. 
+4. Na kartici **Planiranje** , u polju **Tvrtka** , odaberite tvrtku **USPM** , a zatim odaberite **Spremi**. 
 
 ![Kartica planiranja](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
  
 12. Ažurirajte sljedeća polja:
 
- - **Zadana tvrtka**: USPM
+ - **Zadana tvrtka** : USPM
  - **Zadana organizacijska jedinica** : Contoso Robotics Global
- - **Učestalost faktura**: Sedmi i posljednji dan
- - **Predložak radnog vremena**: Zamijenite s predloškom koji ste stvorili.
+ - **Učestalost faktura** : Sedmi i posljednji dan
+ - **Predložak radnog vremena** : Zamijenite s predloškom koji ste stvorili.
 
 13. Odaberite **Spremi**. 
 

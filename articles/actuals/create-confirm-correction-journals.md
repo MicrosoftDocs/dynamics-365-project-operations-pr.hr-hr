@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 274f99527804b0db81b26201a22eb5a8cbe86c9a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896947"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073385"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Stvaranje i potvrda dnevnika ispravaka
 
@@ -37,7 +36,7 @@ Kako biste dovršili postupke u ovoj temi, trebat će vam dopuštenja administra
 
 Izvršite sljedeće korake kako biste ispravili pojedinačne ili višestruke vremenske unose za projekt.
 
-1. U području mogućnosti **Prodaja**, odaberite stavku **Transakcije**, a zatim odaberite mogućnost **Odobreno vrijeme**, 
+1. U području mogućnosti **Prodaja** , odaberite stavku **Transakcije** , a zatim odaberite mogućnost **Odobreno vrijeme** , 
 
 2. U popisu **Odobreno vrijeme** pronađite i odaberite jedan ili više odobrenih vremenskih unosa koje želite ispraviti. Možete upotrijebiti filtar za pronalaženje povezanih unosa. Na primjer, možete filtrirati po ID-u projekta i odabrati sve odobrene vremenske unose s tim ID-om projekta.
 
@@ -45,7 +44,7 @@ Izvršite sljedeće korake kako biste ispravili pojedinačne ili višestruke vre
 
 4. Na stranicu **Novi dnevnik** unesite **Opis** za svoj dnevnik ispravaka, a zatim odaberite karticu **Ispravci vremenskih unosa**.  
 
-5. U odjeljku **Nove vrijednosti za vremenske unose**, po potrebi, polja ažurirajte ispravnim podacima. Na primjer, možete promijeniti dodijeljeni projekt ili resurs koji se može rezervirati.
+5. U odjeljku **Nove vrijednosti za vremenske unose** , po potrebi, polja ažurirajte ispravnim podacima. Na primjer, možete promijeniti dodijeljeni projekt ili resurs koji se može rezervirati.
 
 6. Odaberite mogućnost **Pretpregled**. U dijaloškom okviru odaberite mogućnost **U redu**. Na kartici **Redci dnevnika** možete vidjeti popis izvornih stvarnih podataka povezanih s odabranim vremenskim unosima koji su preokrenuti i odgovarajuće ispravljene retke koji su stvoreni. Ako je potrebno izvršiti dodatne ispravke, ponovite korake 5 i 6. 
 
@@ -54,9 +53,9 @@ Izvršite sljedeće korake kako biste ispravili pojedinačne ili višestruke vre
 
 7. Ako se ispravci prikazuju onako kako ste očekivali, odaberite mogućnost **Potvrdi**. U dijaloškom okviru odaberite mogućnost **U redu**.
 
-8. Vratite se na područje **Prodaja**, odaberite stavku **Projekti** i otvorite projekt za koji ste upravo ažurirali vremenske unose. 
+8. Vratite se na područje **Prodaja** , odaberite stavku **Projekti** i otvorite projekt za koji ste upravo ažurirali vremenske unose. 
 
-9. Na stranici **Projekti**, kartici **Stvarni podaci**, pogledajte promjene koje ste napravili. 
+9. Na stranici **Projekti** , kartici **Stvarni podaci** , pogledajte promjene koje ste napravili. 
 
 > [!NOTE]
 > Ako kartica **Stvarni podaci** nije vidljiva, odaberite mogućnost **Povezani** > **Stvarni podaci**.  
@@ -70,11 +69,11 @@ Na primjer, na sljedećoj slici postoje dvije stavke retka s količinom od 8,00 
 
 Izvršite sljedeće korake za ispravljanje jednog ili više unosa troškova. 
 
-1. U lijevom navigacijskom oknu područja **Prodaja**, ispod stavke **Transakcije**, odaberite mogućnost **Odobreni troškovi**.
+1. U lijevom navigacijskom oknu područja **Prodaja** , ispod stavke **Transakcije** , odaberite mogućnost **Odobreni troškovi**.
 
 2. Na popisu **Odobreni troškovi** odaberite projekt koji želite ispraviti i zatim odaberite mogućnost **Ispravni unosi**. Automatski će se stvoriti novi dnevnik ispravljanja, s pomoću dodijeljene vrste stavke **Ispravak troška**. 
 
-3. Na stranici **Novi dnevnik** unesite **Opis** za ispravak, a na kartici **Ispravljanje troškova**, u odjeljku **Nove vrijednosti za rashode**, odaberite polja podataka koja želite ispraviti za odabrane retke troškova. Na primjer, trošak možete dodijeliti drugom **Projektu** ili ispraviti stavke **Kategorija troškova**, **Datum troška** ili **Resurs koji se može rezervirati**.
+3. Na stranici **Novi dnevnik** unesite **Opis** za ispravak, a na kartici **Ispravljanje troškova** , u odjeljku **Nove vrijednosti za rashode** , odaberite polja podataka koja želite ispraviti za odabrane retke troškova. Na primjer, trošak možete dodijeliti drugom **Projektu** ili ispraviti stavke **Kategorija troškova** , **Datum troška** ili **Resurs koji se može rezervirati**.
 
 4. Odaberite mogućnost **Pretpregled**. U dijaloškom okviru odaberite mogućnost **U redu**. 
 
@@ -87,6 +86,6 @@ Izvršite sljedeće korake za ispravljanje jednog ili više unosa troškova.
 
 7. Nakon što potvrdite dnevnik ispravaka, vratite se na projekt ili projekte koje ste ažurirali kako biste pogledali promjene.  
 
-8. Na stranici projekta, na kartici **Stvarni podaci**, pregledajte mogućnost **Stvarni pridruženi prikaz**. Navedeni su izvorni i ispravljeni unosi. Sljedeća slika prikazuje unose izvornih iznosa troškova i odgovarajuće ispravljene iznose unosa troškova. 
+8. Na stranici projekta, na kartici **Stvarni podaci** , pregledajte mogućnost **Stvarni pridruženi prikaz**. Navedeni su izvorni i ispravljeni unosi. Sljedeća slika prikazuje unose izvornih iznosa troškova i odgovarajuće ispravljene iznose unosa troškova. 
 
 

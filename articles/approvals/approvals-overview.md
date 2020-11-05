@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961157"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073248"
 ---
 # <a name="approvals-overview"></a>Pregled odobrenja
 
@@ -27,7 +27,7 @@ Kada stvarate i šaljete unos vremena ili troška, stvara se unos odobrenja. Odo
 ## <a name="approve-an-entry"></a>Odobravanje unosa
 Obrazac **Odobrenja** omogućuje vam prebacivanje između različitih prikaza kako biste mogli vidjeti različite vrste odobrenja.
   
-1. Idite na obrazac **Odobrenja** i odaberite mogućnost **Troškovi**, **Vrijeme** ili **Storniranja**.
+1. Idite na obrazac **Odobrenja** i odaberite mogućnost **Troškovi** , **Vrijeme** ili **Storniranja**.
 2. Pregledajte svako odobrenje i odaberite ona koja želite odobriti.
 3. Odaberite mogućnost **Odobri** kako bite odobrili odabrane unose.
 Sustav će obraditi te unose i stvoriti stvarne podatke ili rezervaciju.

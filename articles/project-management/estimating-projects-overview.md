@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968034"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073277"
 ---
 # <a name="estimate-projects-overview"></a>Pregled projekata procjene
 
@@ -71,10 +71,10 @@ Sljedeću tablicu koristite kao vodič za razumijevanje poslovne logike u fazi p
 Ako ste dodali prilagođeno polje u pojedinost retka ponude i želite da sustav unese vrijednost polja kao zadanu vrijednost na povezani redak troškova koji stvara, upotrijebite dodatke **PreOperationContractLineDetailUpdate** i **PreOperationQuoteLineDetailUpdate** alata za registraciju. Ti se dodaci moraju ponovno registrirati nakon što se pojedinost retka ponude ili pojedinost retka ugovora promijeni. Da biste dovršili proces, slijedite ove korake:
 
 1. Otvorite PluginRegistrationTool i povežite se s mrežnom instancom.
-2. Odaberite **Pretraži**i potražite dodatak za ažuriranje.
+2. Odaberite **Pretraži** i potražite dodatak za ažuriranje.
 3. Odaberite dodatak, a zatim na glavnoj stranici kliknite **Odaberi**.
 4. Odaberite korak dodatka za ažuriranje, kliknite desnom tipkom miša, a zatim odaberite **Ažuriraj**.
-5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke (**...**):
+5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke ( **...** ):
 6. U dijaloškom okviru **Odaberi atribute** odaberite potvrdne okvire za prilagođene atribute.
 7. Odaberite **U redu** da biste zatvorili dijaloški okvir, a zatim odaberite **Ažuriraj korak**.
 8. Ponovite korake od 1 do 7 za drugi dodatak.
