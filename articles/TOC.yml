@@ -1,15 +1,21 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Započnite
+- name: Početak
   items:
-    - name: Odredite vrstu uvođenja
+    - name: Odredite vrstu implementacije
       href: environment/determine-deployment-type.md
+    - name: Ažuriranja aplikacije Project Operations
+      href: whats-new/project-operations-updates.md
 - name: Project Operations za scenarije temeljene na resursima / bez zaliha
   items:
-    - name: Započnite
+    - name: Početak
       items:
-        - name: Prijavite se za pretplatu na pretpregled (temeljen na resursima / bez zaliha)
+        - name: Pregled implementacije aplikacije Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: environment/project-operations-integrated-deployment-overview.md
+        - name: Prijavite se za pretplatu na pretpregled
           href: environment/resource-sign-up-preview-subscription.md
+        - name: Kretanje aplikacijom Project Operations
+          href: environment/navigate-project-operations.md
         - name: Konfiguriranje preduvjeta
           items:
             - name: Pokretanje novog LCS projekta
@@ -18,21 +24,25 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Primjena pokaznih podataka
           items:
-            - name: Primjena pokaznih podataka aplikacije Project Operations na okruženje aplikacije Finance hostirano u oblaku
+            - name: Primjena pokaznih podataka u okruženju aplikacije Finance hostiranom u oblaku
               href: environment/resource-apply-finance-demo-data.md
-            - name: Primjena konfiguracijskih podataka na platformi Common Data Service za aplikaciju Project Operations
+            - name: Primjena konfiguracijskih podataka na platformi Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
-        - name: Uvođenje okruženja
+        - name: Implementacija okruženja
           items:
             - name: Priprema novog okruženja
               href: environment/resource-provision-new-environment.md
             - name: Sigurnosni model
               href: environment/security-model.md
-            - name: Konfiguriranje integracije rješenja Project Operations po pravnoj osobi
+            - name: Konfiguriranje integracije aplikacije Project Operations po pravnoj osobi
               href: environment/resource-configure-integration-per-legal-entity.md
-    - name: Prodajni postupak
+    - name: Novosti
       items:
-        - name: Pretpregled prodaje
+        - name: Studeni 2020. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-nov-2020-resource-based.md
+    - name: Postupak prodaje projekta
+      items:
+        - name: Pregled postupka prodaje projekta
           href: sales/sales-overview.md
         - name: Postavljanje
           items:
@@ -42,94 +52,104 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
-        - name: Upravljanje potencijalnim klijentima
+        - name: Upravljanje potencijalnim klijentima projekta
           href: sales/manage-leads.md
-        - name: Upravljanje prilikama
+        - name: Upravljanje prilikama za projekt
           items:
-            - name: Upravljanje prilikama koje se temelje na projektu
+            - name: Pregled upravljanja prilikama za projekt
               href: sales/manage-project-based-opportunities.md
-            - name: Zaglavlje prilike
+            - name: Postavke prilike koja se temelji na projektu
               href: sales/opportunity-header.md
-            - name: Redci koji se temelje na projektu
+            - name: Redci prilike koja se temelji na projektu
               href: sales/project-based-lines.md
+            - name: Stvaranje ponuda za projekt iz prilika
+              href: sales/link-quotes-opportunities.md
             - name: Kopiranje prilika koje se temelje na projektu
               href: sales/copy-project-based-opportunity.md
-            - name: Stvaranje projektnih ponuda iz prilika
-              href: sales/link-quotes-opportunities.md
-            - name: Zatvaranje prilike
+            - name: Zatvaranje prilike za projekt
               href: sales/close-opportunity.md
-        - name: Upravljanje ponudama
+        - name: Upravljanje ponudama projekta
           items:
-            - name: Osnovni koncepti
+            - name: Pregled upravljanja ponudama projekta
+              href: pro/sales/manage-quotes-sales.md
+            - name: Koncepti ponuda projekta
               href: sales/quotes-key-concepts.md
-            - name: Sažeti podaci i projektna ponuda
+            - name: Postavke ponuda projekta
               href: sales/quote-values-budget-limits-contract.md
-            - name: Upravljanje s više klijenata po ponudi
+            - name: Upravljanje s više klijenata u ponudi projekta
               href: sales/manage-multiple-customers-quote.md
-            - name: Redci ponude koji se temelje na proizvodu
-              item:
-                - name: Određivanje cijene redaka ponude utemeljenih na proizvodu
-                  href: sales/costing-product-based-quote-lines.md
-                - name: Upravljanje složenim jedinicama za retke ponude utemeljene na proizvodu
-                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Upravljanje cjenicima projekta u ponudi
+              href: sales/managing-project-price-lists.md
             - name: Redci ponude koji se temelje na projektu
               items:
-                - name: Upravljanje cjenicima projekta
-                  href: sales/managing-project-price-lists.md
+                - name: Pregled redaka ponude koji se temelje na projektu
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Upravljanje s više klijenata u redcima ponude koji se temelje na projektu
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Konfiguriranje naplative komponente retka ponude projekta
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Stvaranje procjena po retku ponude
                   href: sales/create-estimate-quote-line.md
-                - name: Uvoz procjena za projekt u redak ponude koji se temelji na projektu
+                - name: Uvoz procjena iz projekta u redak ponude koji se temelji na projektu
                   href: sales/import-estimate-quote-line.md
-                - name: 'Upravljanje ponuđenim vrijednostima, proračunima klijenata i ograničenjima koja se ne smiju premašiti'
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Rasporedi faktura po redcima ponude koji se temelje na projektu
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopiranje ponuda koje se temelje na projektu
+            - name: Kopiranje ponuda projekta
               href: sales/lose-quote.md
-            - name: Zatvaranje ponude
+            - name: Zatvaranje ponuda projekta
               href: sales/win-quote.md
-        - name: Upravljanje ugovorima
+        - name: Upravljanje ugovorima o projektu
           items:
-            - name: Osnovni koncepti – Ugovori o projektu
+            - name: Pregled upravljanja ugovorima o projektu
+              href: pro/sales/manage-contracts-sales.md
+            - name: Koncepti ugovora o projektu
               href: sales/contracts-key-concepts.md
             - name: Postavke ugovora o projektu
               href: sales/project-contract-settings.md
+            - name: Upravljanje cjenicima projekta u ugovorima o projektu
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Upravljanje s više klijenata u ugovorima o projektu
+              href: sales/contracts-manage-project-price-lists.md
             - name: Redci ugovora koji se temelje na projektu
               items:
+                - name: Pregled redaka ugovora koji se temelje na projektu
+                  href: sales/manage-contract-values-project-based.md
+                - name: Upravljanje s više klijenata u redcima ugovora koji se temelje na projektu
+                  href: sales/manage-multiple-customers-contract-line.md
                 - name: Konfiguriranje naplative komponente retka ugovora koji se temelji na projektu
                   href: sales/configure-chargeable-contract-line.md
-                - name: Uvoz procjene u redak ugovora koji se temelji na projektu
+                - name: Procjena retka ugovora koji se temelji na projektu
+                  href: sales/create-estimate-contract-line.md
+                - name: Uvoz procjena iz projekta u redak ugovora koji se temelji na projektu
                   href: sales/import-estimate-project-contract-line.md
-                - name: Stvaranje rasporeda faktura na retku ugovora koji se temelji na projektu
+                - name: Stvaranje rasporeda faktura na redcima ugovora koji se temelje na projektu
                   href: sales/invoice-schedules-contract-line.md
             - name: Potvrda ugovora o projektu
               href: pro/sales/confirm-contract-sales.md
+            - name: Kopiranje ugovora o projektu
+              href: pro/sales/copy-project-contracts-sales.md
     - name: Određivanje cijene i troškova
       items:
         - name: Postavljanje cjenika
-          href: pricing-costing/price-list-setup.md
-        - name: Cjenici proizvoda
-          href: pricing-costing/product-price-list.md
-        - name: Cjenici projekta
           items:
-            - name: Postavke cjenika za prodaju
-              items:
-                - name: Postavljanje prodajnog cjenika
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Postavljanje cijena za naplatu rada
-                  href: pricing-costing/set-up-labor-bill-rate.md
-                - name: Postavljanje cijena koštanja rada
-                  href: pricing-costing/set-up-labor-cost-rate.md
-                - name: Postavljanje cijena koštanja i prodaje za troškove
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Zadani cjenici
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Rješavanje cijena koštanja za procjene i stvarne podatke
-                  href: pricing-costing/cost-price-resolution.md
-        - name: Zadane vrijednosti i nadjačavanja
+            - name: Postavljanje cjenika
+              href: pricing-costing/price-list-setup.md
+            - name: Cjenici proizvoda
+              href: pricing-costing/product-price-list.md
+            - name: Postavljanje cijena za naplatu rada
+              href: pricing-costing/set-up-labor-bill-rate.md
+            - name: Postavljanje cijena koštanja rada
+              href: pricing-costing/set-up-labor-cost-rate.md
+            - name: Postavljanje cijena koštanja i prodaje za troškove
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
+        - name: Zadane vrijednosti i poništavanja
           items:
+            - name: Zadani cjenici
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Poništavanje prodajnih cjenika za projekt
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Rješavanje cijena koštanja za procjene i stvarne podatke
+              href: pricing-costing/cost-price-resolution.md
             - name: Rješavanje prodajnih cijena za procjene i stvarne podatke
               href: pricing-costing/sales-price-resolution.md
             - name: Kopiranje cjenika
@@ -138,8 +158,10 @@
           items:
             - name: Pregled veličina za određivane cijena
               href: pricing-costing/pricing-dimensions-overview.md
-            - name: Uporaba postojećeg polja kao veličine za određivanje cijene
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Uporaba postojećih polja kao veličina za određivanje cijene
+              items:
+                - name: Polja aplikacije Project Operations kao veličine za određivanje cijena
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: Prilagođena polja kao veličine za određivanje cijene
               items:
                 - name: Stvaranje prilagođenih polja i entiteta kao veličina za određivanje cijena
@@ -242,17 +264,21 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: Upravljanje vremenskim zonama
               href: resource-management/manage-multiple-time-zones.md
+        - name: Korištenje resursa
+          items:
+            - name: Prikaz korištenja resursa
+              href: resource-management/resource-utilization-overview.md
     - name: Vrijeme
       items:
         - name: Pregled vremena
           href: time/time-entry-overview.md
-        - name: Stvaranje vremenskih unosa
+        - name: Stvaranje unosa vremena
           items:
-            - name: Ponašanje korisničkog sučelja za unos vremena
+            - name: Korisničko sučelje za unos vremena
               href: time/ui-behavior-time.md
         - name: Bilješke razvojnog inženjera
           items:
-            - name: Prilagođavanje rešetke tjednog vremenskog unosa
+            - name: Prilagođavanje rešetke tjednog unosa vremena
               href: time/customize-weekly-time-entry-grid.md
     - name: Trošak
       items:
@@ -300,12 +326,16 @@
                   href: expense/expense-reports-reimagined.md
                 - name: Usklađivanje računa s izdatkom s pomoću OCR-a
                   href: expense/match-receipt-expense-ocr.md
-            - name: Mobilno upravljanje izdatkom
+            - name: Mobilno upravljanje troškovima
               href: expense/expense-using-mobile.md
     - name: Odobrenja
       items:
         - name: Pregled odobrenja
           href: approvals/approvals-overview.md
+        - name: Bilješke razvojnog inženjera
+          items:
+            - name: Bilješke razvojnog inženjera za odobrenja
+              href: approvals/dev-notes-approvals.md
     - name: Stvarni podaci
       items:
         - name: Pregled stvarnih podataka
@@ -316,38 +346,52 @@
               href: actuals/create-confirm-correction-journals.md
     - name: Predračun
       items:
-        - name: Upravljanje zaostalim naplatama
+        - name: Upravljanje zaostalim naplatama projekta
           href: proforma-invoicing/manage-billing-backlog.md
-        - name: Stvaranje ručnog predračuna
+        - name: Upravljanje statusom koji se ne smije premašiti i provjerama valjanosti
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Stvaranje ručnog predračuna za projekt
           href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Potvrda predračuna
+        - name: Upravljanje predračunom za projekt
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Potvrda predračuna za projekt
           href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Ispravljene fakture
-          href: proforma-invoicing/corrective-invoices.md
-        - name: Konfiguriranje automatskog stvaranja fakture
+        - name: Konfiguriranje automatskog fakturiranja za projekt
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projektno računovodstvo
       items:
+        - name: Zadane postavke financijske dimenzije
+          href: project-accounting/financial-dimension-defaults.md
         - name: Konfiguriranje kategorija projekta
           href: project-accounting/configure-project-categories.md
         - name: Konfiguriranje računovodstva za interne projekte
           href: project-accounting/configure-accounting-internal-projects.md
         - name: Konfiguriranje računovodstva za naplative projekte
           href: project-accounting/configure-accounting-billable-projects.md
-- name: Jednostavno uvođenje – od sklapanja dogovora do predračuna
+        - name: Dnevnik integracije u aplikaciji Project Operations
+          href: project-accounting/project-operations-integration-journal.md
+- name: Osnovna implementacija – od sklapanja posla do predračuna
   items:
-    - name: Započnite
+    - name: Početak
       items:
-        - name: Prijavite se za pretplatu na pretpregled (jednostavno)
+        - name: Pregled osnovne implementacije
+          href: pro/project-operations-overview-lite.md
+        - name: Prijavite se za pretplatu na pretpregled – osnovno
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Uvođenje aplikacije Project Operations Lite – od sklapanja dogovora do predračuna
+        - name: Implementacija aplikacije Project Operations – osnovna
           href: environment/lite-deployment.md
-        - name: Primjena probnog postavljanja i konfiguracija podataka
+        - name: Primjena probnog postavljanja i konfiguriranje podataka – osnovno
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Sigurnosni model
           href: environment/security-model.md
-    - name: Prodajni postupak
+    - name: Novosti
       items:
+        - name: Novosti u studenom 2020. – osnovna implementacija – od sklapanja posla do predračuna
+          href: pro/whats-new/whats-new-nov-2020-lite.md
+    - name: Postupak prodaje projekta
+      items:
+        - name: Pregled postupka prodaje projekta
+          href: sales/sales-overview.md
         - name: Postavljanje
           items:
             - name: Proizvodi
@@ -356,119 +400,149 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
-        - name: Upravljanje potencijalnim klijentima
+        - name: Upravljanje potencijalnim klijentima projekta
           href: pro/sales/managing-leads-sales.md
-        - name: Upravljanje prilikama
+        - name: Upravljanje prilikama za projekt
           items:
-            - name: Upravljanje prilikama koje se temelje na projektu
+            - name: Pregled prilika za projekt
               href: sales/manage-project-based-opportunities.md
-            - name: Zaglavlje prilike
+            - name: Postavke prilike za projekt
               href: pro/sales/opportunity-header-sales.md
-            - name: Redci koji se temelje na projektu
+            - name: Upravljanje redcima prilike koji se temelje na proizvodu
+              href: pro/sales/product-based-lines-sales.md
+            - name: Upravljanje redcima prilike koji se temelje na projektu
               href: pro/sales/project-based-lines-sales.md
+            - name: Stvaranje ponuda iz prilika za projekt
+              href: sales/link-quotes-opportunities.md
             - name: Kopiranje prilika koje se temelje na projektu
               href: sales/copy-project-based-opportunity.md
-            - name: Stvaranje projektnih ponuda iz prilika
-              href: sales/link-quotes-opportunities.md
-            - name: Redci prilike koji se temelje na proizvodu
-              href: pro/sales/product-based-lines-sales.md
-            - name: Zatvaranje prilike
+            - name: Zatvaranje prilike za projekt
               href: sales/close-opportunity.md
-        - name: Upravljanje ponudama
+        - name: Upravljanje ponudama koje se temelje na projektu
           items:
-            - name: Osnovni koncepti projektne ponude
+            - name: Pregled ponuda koji se temelje na projektu
+              href: pro/sales/manage-quotes-sales.md
+            - name: Koncepti ponude projekta
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Sažeti podaci i projektna ponuda (prodaja)
+            - name: Postavke ponude projekta
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Upravljanje s više klijenata u projektnim ponudama
+            - name: Više klijenata na ponudama projekta
               href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Cjenici projekta u ponudama projekta
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Redci ponude koji se temelje na proizvodu
               items:
+                - name: Pregled redaka ponude koji se temelje na proizvodu
+                  href: pro/sales/product-based-quote-lines-sales.md
                 - name: Određivanje cijene redaka ponude utemeljenih na proizvodu
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: 'Upravljanje složenim jedinicama, primjerice po korisniku, po mjesecu za retke ponude utemeljene na proizvodu'
+                - name: Upravljanje složenim jedinicama za retke ponude utemeljene na proizvodu
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
             - name: Redci ponude koji se temelje na projektu
               items:
-                - name: Upravljanje cjenicima projekta u projektnim ponudama
-                  href: pro/sales/manage-project-price-lists-sales.md
-                - name: Upravljanje s više klijenata u redcima ponude utemeljenim na projektu
+                - name: Pregled redaka ponude koji se temelje na projektu
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Upravljanje s više klijenata
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Mapiranje projekata i zadataka u redak ponude utemeljen na projektu
+                - name: Mapiranje projekata i zadataka
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Konfiguriranje naplativih komponenti
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Procjena retka ponude utemeljenog na projektu
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Redci ponude koji se temelje na projektu (prodaja)
-                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Uvoz procjena za projekt u redak ponude koji se temelji na projektu
+                - name: Uvoz procjene iz projekta
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Rasporedi faktura po redcima ponude koji se temelje na projektu
+                - name: Upravljanje rasporedima faktura
                   href: sales/invoice-schedule-quote-line.md
-                - name: Konfiguriranje naplative komponente retka ponude
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: Kopiranje ponuda koje se temelje na projektu
-          href: sales/lose-quote.md
-        - name: Zatvaranje ponude
-          href: pro/sales/win-quote-sales.md
-    - name: Upravljanje ugovorima
-      items:
-        - name: Osnovni koncepti ugovora o projektu
-          href: pro/sales/contracts-key-concepts-sales.md
-        - name: Polja i informacije ugovoru o projektu
-          href: pro/sales/project-contract-settings-sales.md
-        - name: Redci ugovora koji se temelje na proizvodu
+            - name: Kopiranje ponuda koje se temelje na projektu
+              href: sales/lose-quote.md
+            - name: Zatvaranje ponuda koje se temelje na projektu
+              href: pro/sales/win-quote-sales.md
+        - name: Upravljanje ugovorima koji se temelje na projektima
           items:
-            - name: Pregled redaka ugovora koji se temelje na proizvodu
-              href: pro/sales/product-based-contract-lines-overview-sales.md
-            - name: Određivanje cijene redaka ugovora utemeljenih na proizvodu
-              href: pro/sales/cost-product-based-contract-lines-sales.md
-        - name: Redci ugovora koji se temelje na projektu
-          items:
-            - name: Konfiguriranje naplative komponente retka ugovora koji se temelji na projektu
-              href: pro/sales/configure-chargeable-components-contract-line.md
-            - name: Uvoz procjene u redak ugovora koji se temelji na projektu
-              href: pro/sales/import-estimate-project-contract-line-sales.md
-            - name: Stvaranje rasporeda faktura na retku ugovora koji se temelji na projektu
-              href: pro/sales/invoice-schedules-contract-line-sales.md
-        - name: Kopiranje ugovora o projektu
-          href: pro/sales/copy-project-contracts-sales.md
-        - name: Potvrda ugovora o projektu
-          href: pro/sales/confirm-contract-sales.md
-        - name: Predujmovi i ugovori koji e temelje na povremenim plaćanjima
-          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+            - name: Pregled ugovora koji se temelje na projektu
+              href: pro/sales/manage-contracts-sales.md
+            - name: Koncepti ugovora o projektu
+              href: pro/sales/contracts-key-concepts-sales.md
+            - name: Postavke ugovora o projektu
+              href: pro/sales/project-contract-settings-sales.md
+            - name: Više klijenata u ugovorima o projektu
+              href: pro/sales/manage-multiple-customers-contract-sales.md
+            - name: Cjenici projekta u ugovorima o projektu
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Redci ugovora koji se temelje na proizvodu
+              items:
+                - name: Pregled redaka ugovora koji se temelje na proizvodu
+                  href: pro/sales/product-based-contract-lines-overview-sales.md
+                - name: Određivanje cijene redaka ugovora utemeljenih na proizvodu
+                  href: pro/sales/cost-product-based-contract-lines-sales.md
+                - name: Upravljanje složenim jedinicama za retke ugovora utemeljene na proizvodu
+                  href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+            - name: Redci ugovora koji se temelje na projektu
+              items:
+                - name: Pregled redaka ugovora koji se temelje na projektu
+                  href: pro/sales/manage-contract-values-project-based-sales.md
+                - name: Upravljanje s više klijenata ugovora
+                  href: pro/sales/manage-multiple-customers-contract-line-sales.md
+                - name: Mapiranje projekata i zadataka u redak ugovora o projektu
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Konfiguriranje naplativih komponenti u retku ugovora o projektu
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Procjena retka ugovora koji se temelji na projektu
+                  href: pro/sales/create-estimate-project-contract-line-sales.md
+                - name: Uvoz procjena iz projekta u redak ugovora o projektu
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Upravljanje rasporedima faktura u retku ugovora o projektu
+                  href: pro/sales/invoice-schedules-contract-line-sales.md
+            - name: Kopiranje ugovora o projektu
+              href: pro/sales/copy-project-contracts-sales.md
+            - name: Potvrda ugovora o projektu
+              href: pro/sales/confirm-contract-sales.md
+            - name: Predujmovi i akontacije
+              items:
+                - name: Ugovori koji se temelje na predujmovima i akontacijama – osnovan
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Postavljanje rasporeda akontacija – osnovno
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Stvaranje ad hoc predujma za ugovor – osnovno
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Određivanje cijene i troškova
       items:
         - name: Postavljanje cjenika
-          href: pricing-costing/price-list-setup.md
-        - name: Cjenici projekta
           items:
-            - name: Postavke cjenika za prodaju
-              items:
-                - name: Postavljanje prodajnog cjenika
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Postavljanje cijena za naplatu rada
-                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-                - name: Postavljanje cijena koštanja rada
-                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-                - name: Postavljanje cijena koštanja i prodaje za kataloške proizvode
-                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
-                - name: Postavljanje cijena koštanja i prodaje za troškove
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Zadani cjenici
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Rješavanje cijena koštanja na procjenama i stvarnim podacima
-                  href: pro/pricing-costing/cost-price-resolution-sales.md
-        - name: Zadane vrijednosti i nadjačavanja
+            - name: Postavljanje cjenika
+              href: pricing-costing/price-list-setup.md
+            - name: Postavljanje prodajnog cjenika
+              href: pricing-costing/sales-price-list-setup.md
+            - name: Postavljanje cijena za naplatu rada – osnovno
+              href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+            - name: Postavljanje cijena koštanja rada – osnovno
+              href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+            - name: Postavljanje cijena koštanja i prodaje za kataloške proizvode – osnovno
+              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+            - name: Postavljanje cijena koštanja i prodaje za troškove
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
+        - name: Zadane vrijednosti i poništavanja
           items:
-            - name: Rješavanje prodajnih cijena za procjene i stvarne podatke
+            - name: Zadani cjenici
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Poništavanje prodajnih cjenika za projekt
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Rješavanje cijena koštanja na procjenama i stvarnim podacima – osnovno
+              href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: Rješavanje prodajnih cijena za procjene i stvarne podatke – osnovno
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Kopiranje cjenika
               href: pricing-costing/copy-price-lists.md
         - name: Veličine za određivanje cijena
           items:
-            - name: Uporaba postojećeg polja kao veličine za određivanje cijene
-              href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Prilagođena polja kao veličina za određivanje cijene
+            - name: Pregled veličina za određivane cijena
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Uporaba postojećih polja kao veličina za određivanje cijene
+              items:
+                - name: Uporaba postojećeg polja kao veličine za određivanje cijene
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Prilagođena polja kao veličine za određivanje cijene
               items:
                 - name: Stvaranje prilagođenih polja i entiteta kao veličina za određivanje cijena
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
@@ -566,28 +640,36 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: Upravljanje vremenskim zonama
               href: resource-management/manage-multiple-time-zones.md
+        - name: Korištenje resursa
+          items:
+            - name: Prikaz korištenja resursa
+              href: resource-management/resource-utilization-overview.md
     - name: Vrijeme
       items:
         - name: Pregled vremena
           href: time/time-entry-overview.md
-        - name: Stvaranje vremenskih unosa
+        - name: Stvaranje unosa vremena
           items:
-            - name: Ponašanje korisničkog sučelja za unos vremena
+            - name: Korisničko sučelje za unos vremena
               href: time/ui-behavior-time.md
         - name: Bilješke razvojnog inženjera
           items:
-            - name: Prilagođavanje rešetke tjednog vremenskog unosa
+            - name: Prilagođavanje rešetke tjednog unosa vremena
               href: time/customize-weekly-time-entry-grid.md
     - name: Trošak
       items:
         - name: Pregled troškova
           href: expense/expense-overview.md
-        - name: Unos izdatka (jednostavan)
+        - name: Unos izdatka (osnovni)
           href: expense/basic-expense.md
     - name: Odobrenja
       items:
         - name: Pregled odobrenja
           href: approvals/approvals-overview.md
+        - name: Bilješke razvojnog inženjera
+          items:
+            - name: Bilješke razvojnog inženjera za odobrenja
+              href: approvals/dev-notes-approvals.md
     - name: Stvarni podaci
       items:
         - name: Pregled stvarnih podataka
@@ -596,20 +678,32 @@
           items:
             - name: Stvaranje i potvrđivanje dnevnika ispravaka
               href: actuals/create-confirm-correction-journals.md
-        - name: Predračun
-          items:
-            - name: Upravljanje zaostalim naplatama
-              href: proforma-invoicing/manage-billing-backlog.md
-            - name: Stvaranje ručnog predračuna
-              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-            - name: Faktura za povremena plaćanja ili plaćanje unaprijed
-              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Ispravljene fakture
-              href: proforma-invoicing/corrective-invoices.md
-            - name: Konfiguriranje automatskog stvaranja računa
-              href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Predračun
+      items:
+        - name: Upravljanje zaostalim naplatama projekta
+          href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+        - name: Upravljanje statusom koji se ne smije premašiti i provjerama valjanosti
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Stvaranje ručnog predračuna za projekt
+          href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+        - name: Upravljanje predračunom za projekt
+          href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+        - name: Faktura za povremena plaćanja ili plaćanje unaprijed
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+        - name: Potvrda predračuna za projekt
+          href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+        - name: Stvaranje korektivnih faktura za projekt
+          href: pro/proforma-invoicing/corrective-invoices-sales.md
+        - name: Konfiguriranje automatskog fakturiranja za projekt
+          href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations za scenarije koji se temelje na zalihama / proizvodnji
   items:
+    - name: Novosti
+      items:
+        - name: Novosti u studenom 2020 – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
+          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+    - name: Pregled implementacije aplikacije Project Operations za scenarije koji se temelje na zalihama/proizvodnji
+      href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Pregled upravljanja projektom i računovodstva
       href: prod-pma/overview-project-management-accounting.md
     - name: Fakturiranje unutar tvrtke
@@ -734,12 +828,14 @@
       href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation
   items:
-    - name: Pregled aplikacije Project Service Automation
+    - name: Project Service Automation
       href: psa/overview.md
     - name: Novosti
       items:
         - name: Ažuriranje rasporeda izdanja za aplikaciju Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 25, V3'
+          href: psa/whats-new-ur-25.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 24, V3'
           href: psa/whats-new-ur-24.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 23, V3'
@@ -770,76 +866,88 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: 'Novosti ili izmjene u aplikaciji Project Service Automation, V3'
           href: psa/whats-new-changed-v3.md
-    - name: Implementacija aplikacije Project Service Automation 3.x
+    - name: Planiranje implementacije (verzija aplikacije 3.x)
       items:
-        - name: Pregled implementacije
+        - name: Instalacija uzorka podataka
           href: psa/install-sample-data-3-x.md
-    - name: Nadogradnja
+        - name: Vodič za planiranje i praćenje projekta
+          href: psa/implementation-guides/project-planning-tracking.md
+        - name: 'Vodič za osnove ponude, određivanje cijena i naplatu.'
+          href: psa/implementation-guides/begin-quoting-pricing-billing.md
+        - name: 'Vodič za napredne ponude, određivanje cijena i naplatu'
+          href: psa/implementation-guides/adv-quoting-pricing-billing.md
+        - name: Vodič za upravljanje resursima
+          href: psa/implementation-guides/resource-management-guide.md
+        - name: Vodič za izvješćivanje
+          href: psa/implementation-guides/reporting-guide.md
+    - name: Nadogradnja aplikacije Project Service Automation (verzija aplikacije 3.x)
       items:
-        - name: Nadogradnja aplikacije Project Service Automation (3.x)
+        - name: Nadogradnja aplikacije Project Service Automation
           href: psa/upgrade-psa-home-page.md
         - name: Razmatranja o nadogradnji – s verzije 2.x ili 1.x na verziju 3
           href: psa/upgrade-v3.md
         - name: Razvoj (3.x)
-          href: psa/developer-guides/overview-dev-notes-v3.x.md
-        - name: Izmjene entiteta
-          href: psa/developer-guides/entity-changes-v3.x.md
-        - name: Vrijeme i trošak
-          href: psa/developer-guides/time-expense-changes-v3.x.md
-        - name: Upravljanje resursima
-          href: psa/developer-guides/resource-management-changes-v3.x.md
-        - name: Zastarjeli web-resursi u aplikaciji Project Service Automation v3.x
-          href: psa/developer-guides/web-resources-deprecated-v3.x.md
-    - name: Planiranje projekta
-      items:
-        - name: Pregled planiranja projekta
-          href: psa/project-planning.md
-        - name: Rasporedi projekta
-          href: psa/project-creating.md
-        - name: Troškovi i prihod projekta
-          href: psa/project-estimating.md
-        - name: Procjene i planovi prodaje
-          href: psa/project-leveraging.md
-        - name: Napredak projekta i cijena troška
-          href: psa/project-tracking.md
-        - name: Predlošci projekta
-          href: psa/project-templates.md
-        - name: Faze projekta
-          href: psa/project-stages.md
-        - name: Postavke projekta
-          href: psa/project-settings.md
-    - name: Razmjer cijena i troškova
-      items:
-        - name: Pregled veličina cijena i troškova
-          href: psa/pricing-costing-dimensions.md
-        - name: Stvaranje rješenja za prilagođene veličine određivanja cijena
-          href: psa/custompricingdimensionssolution.md
-        - name: Stvaranje prilagođenih polja i entiteta
-          href: psa/create-custom-fields-entities.md
-        - name: Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima
-          href: psa/field-references.md
-        - name: Postavljanje prilagođenih polja kao cjenovnih veličina
-          href: psa/set-up-pricing-dimensions.md
-        - name: Ažuriranje atributa dodataka za uključivanje novih cjenovnih veličina
-          href: psa/update-plug-in-attributes.md
-        - name: Ponovna uporaba elemenata kao veličina za određivanje cijena
           items:
-            - name: Uporaba postojećeg polja u aplikaciji Project Service kao veličine za određivanje cijene
-              href: psa/use-existing-field.md
-            - name: Uporaba resursa kojeg je moguće rezervirati kao veličine za određivanje cijene
-              href: psa/bookable-resource-pricing-dimension.md
-            - name: Uporaba kategorije transakcije kao veličine za određivanje cijene
-              href: psa/transaction-category-pricing-dimension.md
-        - name: Resurs koji se može rezervirati s više uloga na projektu
-          href: psa/bookable-resource-multiple-roles.md
-        - name: Isključivanje veličine za određivanje cijene
-          href: psa/turn-off-pricing-dimension.md
-    - name: 'Nuđenje, određivanje cijene i naplata'
+            - name: Razvoj (verzija aplikacije 3.x)
+              href: psa/developer-guides/overview-dev-notes-v3.x.md
+            - name: Izmjene entiteta
+              href: psa/developer-guides/entity-changes-v3.x.md
+            - name: Vrijeme i trošak
+              href: psa/developer-guides/time-expense-changes-v3.x.md
+            - name: Upravljanje resursima
+              href: psa/developer-guides/resource-management-changes-v3.x.md
+            - name: Zastarjeli web-resursi u aplikaciji Project Service Automation v3.x
+              href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Project Service Automation (3.x)
       items:
-        - name: 'Pregled nuđenja, određivanja cijene i naplate'
-          href: psa/quote-bill-price.md
-        - name: Nuđenje
+        - name: Planiranje projekta
           items:
+            - name: Početna stranica planiranja projekta
+              href: psa/project-planning.md
+            - name: Rasporedi projekta
+              href: psa/project-creating.md
+            - name: Troškovi i prihod projekta
+              href: psa/project-estimating.md
+            - name: Procjene i planovi prodaje
+              href: psa/project-leveraging.md
+            - name: Napredak projekta i cijena troška
+              href: psa/project-tracking.md
+            - name: Predlošci projekta
+              href: psa/project-templates.md
+            - name: Faze projekta
+              href: psa/project-stages.md
+            - name: Postavke projekta
+              href: psa/project-settings.md
+        - name: Veličine za određivanje cijena i troškova
+          items:
+            - name: Početna stranica veličina za određivanje cijena i troškova
+              href: psa/pricing-costing-dimensions.md
+            - name: Stvaranje rješenja za prilagođene veličine za određivanje cijena
+              href: psa/custompricingdimensionssolution.md
+            - name: Stvaranje prilagođenih polja i entiteta
+              href: psa/create-custom-fields-entities.md
+            - name: Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima
+              href: psa/field-references.md
+            - name: Postavljanje prilagođenih polja kao cjenovnih veličina
+              href: psa/set-up-pricing-dimensions.md
+            - name: Ažuriranje atributa programskih dodataka za uključivanje novih veličina za određivanje cijena
+              href: psa/update-plug-in-attributes.md
+            - name: Uporaba postojećeg polja kao veličine za određivanje cijene
+              items:
+                - name: Uporaba postojećeg polja u aplikaciji Project Service kao veličine za određivanje cijene
+                  href: psa/use-existing-field.md
+                - name: Uporaba resursa kojeg je moguće rezervirati kao veličine za određivanje cijene
+                  href: psa/bookable-resource-pricing-dimension.md
+                - name: Uporaba kategorije transakcije kao veličine za određivanje cijene
+                  href: psa/transaction-category-pricing-dimension.md
+            - name: Resurs koji se može rezervirati s više uloga na projektu
+              href: psa/bookable-resource-multiple-roles.md
+            - name: Isključivanje veličine za određivanje cijene
+              href: psa/turn-off-pricing-dimension.md
+        - name: 'Nuđenje, određivanje cijene i naplata'
+          items:
+            - name: 'Početna stranica nuđenja, određivanja cijene i naplate'
+              href: psa/quote-bill-price.md
             - name: Prodajni postupci
               href: psa/basic-sales-process.md
             - name: Grupe jedinica i jedinice
@@ -850,21 +958,15 @@
               href: psa/basic-quote-lines.md
             - name: Redci ponude koji se temelje na proizvodu
               href: psa/product-based-quote-lines.md
-            - name: Analiza ponuda projekta
-              href: psa/basic-analyzing-quotes.md
-        - name: Određivanje cijene
-          items:
             - name: Određivanje cijene projekta
               href: psa/basic-pricing.md
             - name: Određivanje cijena u katalogu proizvoda
-              hreF: psa/product-catalog-pricing.md
+              href: psa/product-catalog-pricing.md
             - name: Poslovne transakcije
               href: psa/basic-business-transactions.md
             - name: Procjene
               href: psa/estimates.md
-        - name: Naplata
-          items:
-            - name: Analiza ponuda projekta
+            - name: Analiziranje ponuda projekta
               href: psa/basic-analyzing-quotes.md
             - name: Opoziv prethodno odobrenih unosa vremena ili troška
               href: psa/recall-approved.md
@@ -880,71 +982,71 @@
               href: psa/invoicing.md
             - name: Scenariji s više valuta
               href: psa/advanced-currency.md
-    - name: Raspodjela resursa u projektima
-      items:
-        - name: Pregled raspodjele resursa na projekte
-          href: psa/resource-management.md
-        - name: Dodjeljivanje zadatku generičkih resursa koji se mogu rezervirati i generiranje zahtjeva za resursima
-          href: psa/assign-generic-bookable-resource.md
-        - name: Rezerviranje imenovanih resursa koji se mogu rezervirati za projektni tim i dodjela zadatka
-          href: psa/assign-named-bookable-resource.md
-        - name: Dodjela resursa zadatku
-          href: psa/FAQ-assign-resources-to-tasks.md
-        - name: Rezerviranje imenovanih resursa iz preduvjeta za resurs
-          href: psa/book-named-resource.md
-        - name: Rezervacije resursa i način na koji su povezane s dodjelama zadataka
-          href: psa/FAQ-bookings-and-assignments.md
-        - name: Slanje zahtjeva za resurs
-          href: psa/submit-resource-request.md
-        - name: Prihvaćanje ili odbijanje predloženog resursa
-          href: psa/accept-reject-proposed-resource.md
-        - name: Prikaz naplative iskoristivosti resursa
-          href: psa/FAQ-utilization-view.md
+        - name: Raspodjela resursa za projekte
+          items:
+            - name: Početna stranica raspodjele resursa za projekte
+              href: psa/resource-management.md
+            - name: Dodjeljivanje zadatku generičkih resursa koji se mogu rezervirati i generiranje zahtjeva za resursima
+              href: psa/assign-generic-bookable-resource.md
+            - name: Rezerviranje imenovanih resursa koji se mogu rezervirati za projektni tim i dodjela zadatka
+              href: psa/assign-named-bookable-resource.md
+            - name: Dodjela resursa zadatku
+              href: psa/FAQ-assign-resources-to-tasks.md
+            - name: Rezerviranje imenovanih resursa iz preduvjeta za resurs
+              href: psa/book-named-resource.md
+            - name: Rezervacije resursa i način na koji su povezane s dodjelama zadataka
+              href: psa/FAQ-bookings-and-assignments.md
+            - name: Slanje zahtjeva za resurs
+              href: psa/submit-resource-request.md
+            - name: Prihvaćanje ili odbijanje predloženog resursa
+              href: psa/accept-reject-proposed-resource.md
+            - name: Prikaz naplative iskoristivosti resursa
+              href: psa/FAQ-utilization-view.md
         - name: Usklađivanje rezervacija i dodjele
           href: psa/reconcile-booking-assignment.md
-    - name: Upravljanje resursima
-      items:
-        - name: Početna stranica upravljanja resursima
-          href: psa/resource-management-home-page.md
         - name: Upravljanje resursima
-          href: psa/manage-resources.md
-        - name: Osnovni koncepti
-          href: psa/reports-key-concepts.md
-        - name: Popunjavanje zahtjeva za resursima
-          href: psa/resource-management-fulfill-requests.md
-        - name: Predlaganje resursa
-          href: psa/resource-management-propose-resources.md
-        - name: Rezervacija resursa
-          href: psa/resource-management-book-resources-scheduleboard.md
-        - name: Načini dodjele rezervacija
-          href: psa/FAQ-allocation-methods.md
-        - name: Preduvjeti probne rezervacije
-          href: psa/resource-management-softbook-requirements.md
-        - name: Probna rezervacija resursa
-          href: psa/FAQ-soft-book.md
-        - name: Stvaranje rezervacije projekta s ploče rasporeda
-          href: psa/FAQ-project-booking-schedule-board.md
-        - name: Modeli vještina i stručnosti
-          href: psa/resource-management-skills-proficiency.md
-        - name: Najčešća pitanja o upravljanju resursima
-          href: psa/resource-management-faq.md
-    - name: Izvješćivanje
-      items:
-        - name: Pregled izvješćivanja
-          href: psa/reports-reporting-dynamics-365-project-service.md
-        - name: Nadzorne ploče
-          href: psa/reports-dashboards.md
-        - name: Rad s podatkovnim modelom aplikacije Project Service Automation
-          href: psa/reports-working-project-service-data-model.md
-    - name: Vremenski unos
-      items:
-        - name: Stvaranje vremenskih unosa
-          href: psa/time-entries.md
-        - name: Kalendar vremenskih unosa
-          href: psa/time-entry-calendar.md
-        - name: Prilagođeni tjedni vremenski unos
-          href: psa/time-entry-extensibility-v3.md
-    - name: Najčešća pitanja i rješavanje problema
+          items:
+            - name: Početna stranica upravljanja resursima
+              href: psa/resource-management-home-page.md
+            - name: Upravljanje resursima
+              href: psa/manage-resources.md
+            - name: Osnovni koncepti
+              href: psa/reports-key-concepts.md
+            - name: Popunjavanje zahtjeva za resursima
+              href: psa/resource-management-fulfill-requests.md
+            - name: Predlaganje resursa
+              href: psa/resource-management-propose-resources.md
+            - name: Rezerviranje resursa
+              href: psa/resource-management-book-resources-scheduleboard.md
+            - name: Načini dodjele rezervacija
+              href: psa/FAQ-allocation-methods.md
+            - name: Preduvjeti probne rezervacije
+              href: psa/resource-management-softbook-requirements.md
+            - name: Probna rezervacija resursa
+              href: psa/FAQ-soft-book.md
+            - name: Stvaranje rezervacije projekta s ploče rasporeda
+              href: psa/FAQ-project-booking-schedule-board.md
+            - name: Modeli vještina i stručnosti
+              href: psa/resource-management-skills-proficiency.md
+            - name: Najčešća pitanja o upravljanju resursima
+              href: psa/resource-management-faq.md
+        - name: Izvješćivanje
+          items:
+            - name: Početna stranica izvješćivanja
+              href: psa/reports-reporting-dynamics-365-project-service.md
+            - name: Nadzorne ploče
+              href: psa/reports-dashboards.md
+            - name: Modul podataka za aplikaciju Project Service Automation
+              href: psa/reports-working-project-service-data-model.md
+        - name: Vremenski unosi
+          items:
+            - name: Stvaranje unosa vremena
+              href: psa/time-entries.md
+            - name: Kalendar unosa vremena
+              href: psa/time-entry-calendar.md
+            - name: Prilagođeni tjedni unos vremena
+              href: psa/time-entry-extensibility-v3.md
+    - name: Najčešća pitanja i rješavanje problema (3.x)
       items:
         - name: Zašto je zadana cijena u stvarnim troškovima koštanja nula?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
@@ -971,60 +1073,62 @@
         - name: Tehnička dokumentacija
           href: psa/white-papers.md
         - name: Vodič za administratore
-          href: psa/admin-guide.md
-        - name: Instalacija i prilagodba
-          href: psa/install-customize.md
-        - name: Uporaba pokaznih podataka
-          href: psa/use-demo-data.md
-        - name: Konfiguriranje aplikacije Project Service Automation
           items:
-            - name: Konfiguriranje aplikacije Project Service Automation
-              href: psa/configure.md
-            - name: Postavljanje vremenskih jedinica
-              href: psa/set-up-time-units.md
-            - name: Postavljanje valuta i tečajeva
-              href: psa/set-up-currencies-exchange-rates.md
-            - name: Stvaranje organizacijskih jedinica
-              href: psa/create-organizational-units.md
-            - name: Postavljanje učestalosti faktura
-              href: psa/set-up-invoice-frequencies.md
-            - name: Konfiguracija kategorija transakcije
-              href: psa/configure-transaction-categories.md
-            - name: Konfiguriranje kategorija troškova
-              href: psa/configure-expense-categories.md
-            - name: Stvaranje stavki kataloga proizvoda
-              href: psa/create-product-catalog-items.md
-            - name: Stvaranje cjenika
-              href: psa/create-price-list.md
-        - name: Resursi
-          items:
+            - name: Vodič za administratore (Project Service)
+              href: psa/admin-guide.md
+            - name: Instalacija i prilagodba
+              href: psa/install-customize.md
+            - name: Uporaba pokaznih podataka
+              href: psa/use-demo-data.md
+            - name: Konfiguriranje aplikacije Project Service
+              items:
+                - name: Konfiguriranje aplikacije Project Service
+                  href: psa/configure.md
+                - name: Postavljanje vremenskih jedinica
+                  href: psa/set-up-time-units.md
+                - name: Postavljanje valuta i tečajeva
+                  href: psa/set-up-currencies-exchange-rates.md
+                - name: Stvaranje organizacijskih jedinica
+                  href: psa/create-organizational-units.md
+                - name: Postavljanje učestalosti faktura
+                  href: psa/set-up-invoice-frequencies.md
+                - name: Konfiguracija kategorija transakcije
+                  href: psa/configure-transaction-categories.md
+                - name: Konfiguracija kategorija troškova
+                  href: psa/configure-expense-categories.md
+                - name: Stvaranje stavki kataloga proizvoda
+                  href: psa/create-product-catalog-items.md
+                - name: Stvaranje cjenika
+                  href: psa/create-price-list.md
             - name: Postavljanje resursa
-              href: psa/set-up-resources.md
-            - name: Dodavanje resursa
-              href: psa/add-resources.md
-            - name: Dodavanje vještina resursa
-              href: psa/add-resource-skills.md
-            - name: Postavljanje modela stručnosti
-              href: psa/set-up-proficiency-models.md
-            - name: Dodavanje uloga resursima
-              href: psa/add-resource-roles.md
-            - name: Konfiguriranje uloga resursa
-              href: psa/configure-resource-roles.md
-            - name: Povezivanje vještina s resursima
-              href: psa/associate-skills-with-resources.md
-            - name: Povezivanje vještina s ulogama resursa
-              href: psa/associate-skills-with-resource-roles.md
-            - name: Stvaranje predloška radnog vremena
-              href: psa/create-work-hours-template.md
-            - name: Primjena kalendara na resurs
-              href: psa/apply-calendar-resource.md
-            - name: Konfiguriranje dodatnih postavki
-              href: psa/configure-additional-parameters-settings.md
-            - name: Omogućivanje aplikacije Project Finder Mobile
-              href: psa/enable-project-finder-mobile-app-features.md
-        - name: Upravljanje resursima
+              items:
+                - name: Postavljanje resursa (Project Service)
+                  href: psa/set-up-resources.md
+                - name: Dodavanje resursa
+                  href: psa/add-resources.md
+                - name: Dodavanje vještina resursa
+                  href: psa/add-resource-skills.md
+                - name: Postavljanje modela stručnosti
+                  href: psa/set-up-proficiency-models.md
+                - name: Dodavanje uloga resursima
+                  href: psa/add-resource-roles.md
+                - name: Konfiguriranje uloga resursa
+                  href: psa/configure-resource-roles.md
+                - name: Povezivanje vještina s resursima
+                  href: psa/associate-skills-with-resources.md
+                - name: Povezivanje vještina s ulogama resursa
+                  href: psa/associate-skills-with-resource-roles.md
+                - name: Stvaranje predloška radnog vremena
+                  href: psa/create-work-hours-template.md
+                - name: Primjena kalendara na resurs
+                  href: psa/apply-calendar-resource.md
+                - name: Konfiguriranje dodatnih postavki
+                  href: psa/configure-additional-parameters-settings.md
+                - name: Omogućivanje aplikacije Project Finder Mobile
+                  href: psa/enable-project-finder-mobile-app-features.md
+        - name: Vodič za upravitelja resursa
           items:
-            - name: Vodič za upravitelja resursima
+            - name: Vodič za upravitelja resursa (Project Service)
               href: psa/resource-manager-guide.md
             - name: Upravljanje zahtjevima za resurse
               href: psa/manage-resource-requests.md
@@ -1032,13 +1136,13 @@
               href: psa/schedule-resources-project.md
             - name: Prikaz dostupnosti resursa
               href: psa/view-resource-availability.md
-            - name: Prikaz korištenja resursa
+            - name: Prikaz iskoristivosti resursa
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
               href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
-        - name: Upravljanje projektima
+        - name: Vodič za voditelje projekata
           items:
-            - name: Vodič za voditelje projekata
+            - name: Vodič za upravitelja projekta (Project Service)
               href: psa/project-manager-guide.md
             - name: Osiguravanje procjena rada
               href: psa/provide-estimates-project-during-sales-process.md
@@ -1074,21 +1178,21 @@
               href: psa/view-dashboards-reports.md
             - name: S pomoću dodatka planirajte rad u aplikaciji Microsoft Project
               href: psa/add-plan-work-microsoft-project.md
-        - name: Upravljanje kupcima
+        - name: Vodič za voditelje računa
           items:
-            - name: Vodič za voditelje računa
+            - name: Vodič za voditelja računa (Project Service)
               href: psa/account-manager-guide.md
             - name: Stvaranje računa klijenta
               href: psa/create-customer-account.md
-            - name: Izrada prilike za projekt
+            - name: Stvaranje prilike za projekt
               href: psa/create-project-opportunity.md
             - name: Stvaranje ponude za projekt
               href: psa/create-project-quote.md
-            - name: Stvaranje ugovora za projekt
+            - name: Stvaranje ugovora o projektu
               href: psa/create-project-contract.md
-        - name: Vrijeme i trošak
+        - name: 'Vrijeme, trošak i suradnja'
           items:
-            - name: 'Vrijeme, trošak i suradnja'
+            - name: 'Vodič za vrijeme, troškove i suradnju (Project Service)'
               href: psa/time-expense-collaboration-guide.md
             - name: Preuzmite aplikacije
               href: psa/get-apps.md
@@ -1106,12 +1210,13 @@
               href: psa/allow-someone-else-enter-time-entry-expense.md
             - name: Planiranje slobodnog vremena
               href: psa/schedule-time-off.md
-            - name: 'Surađivanje s pomoću grupa sustava Office 365](collaborate-project-team-members-office-365-groups.md'
+            - name: Surađivanje s pomoću grupa sustava Office 365
+              href: psa/collaborate-project-team-members-office-365-groups.md
             - name: Pronalaženje projekata s pomoću aplikacije Project Finder Mobile
               href: psa/find-next-project-finder-mobile-app.md
             - name: Vodič za središte resursa projekta
               href: psa/project-resource-hub-users-guide.md
-        - name: Bilješke razvojnog inženjera
+        - name: Napomene za razvojne inženjere (verzija aplikacije 2.x)
           items:
             - name: Dodavanje prilagođenih obrazaca za entitete
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
