@@ -1,23 +1,30 @@
 ---
-title: Primjena pokaznog postavljanja i konfiguracijskih podataka
+title: Primjena probnog postavljanja i konfiguracija podataka – jednostavno
 description: U ovoj temi nalaze se informacije o načinu primjene pokaznih postavki i konfiguracijskih podataka za aplikaciju Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073253"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401254"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Primjena pokaznih postavki i konfiguracijskih podataka za uvođenje jednostavne aplikacije Project Operations – od sklapanja posla do predračuna
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Primjena podataka postavljanja pokazne verzije i konfiguracije za aplikaciju Project Operations – jednostavno 
 
-_**Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Jednostavna implementacija – od sklapanja posla do predračuna_
+
+## <a name="prerequisites"></a>Preduvjeti
+
+Prije nego započnete konfiguriranje, morate imati okruženje platforme Common Data Service (CDS) pripremljeno za aplikaciju Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Upute
 
 1. Preuzmite [Paket glavnih podataka](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Pomaknite se do mape *ProjOpsDemoDataSetupAndMaster – Integrirani CMT* i pokrenite izvršnu datoteku *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Jednostavno uvođenje – od sklapanja posla do predračuna_
 10. Uvoz će se izvoditi otprilike dvije do deset minuta, ovisno o brzini vaše mreže. Po završetku izađite iz CMT čarobnjaka. 
 11. U svojoj tvrtki ili ustanovi provjerite podatke za sljedećih 20 entiteta:
 
-- Valuta
-- Organizacijska jedinica
-- Kontakt
-- Porezna grupa
-- Grupa klijenata
-- Jedinica
-- Grupa jedinica
-- Cjenik
-- Cjenik parametara projekta
-- Učestalost fakturiranja
-- Pojedinost učestalosti fakture
-- Kategorija resursa koji je moguće rezervirati
-- Kategorija transakcije
-- Kategorija troška
-- Cijena uloge
-- Cijena kategorije transakcije
-- Značajka
-- Resurs koji je moguće rezervirati
-- Dodjela kategorije resursa kojeg je moguće rezervirati
-- Značajka kategorije resursa koji je moguće rezervirati
+-   Valuta
+-   Poslovni subjekt
+-   Organizacijska jedinica
+-   Kontakt
+-   Porezna grupa
+-   Grupa klijenata
+-   Jedinica
+-   Grupa jedinica
+-   Cjenik
+-   Cjenik parametara projekta 
+-   Učestalost fakturiranja
+-   Kategorija resursa koji je moguće rezervirati
+-   Kategorija transakcije
+-   Kategorija troška
+-   Cijena uloge
+-   Cijena kategorije transakcije
+-   Značajka
+-   Resurs koji je moguće rezervirati
+-   Dodjela kategorije resursa kojeg je moguće rezervirati
+-   Značajka kategorije resursa koji je moguće rezervirati
 
 ![Dovrši uvoz](./media/6CompleteImport.png)

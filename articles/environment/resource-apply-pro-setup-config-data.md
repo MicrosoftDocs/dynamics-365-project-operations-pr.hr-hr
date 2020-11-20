@@ -1,23 +1,33 @@
 ---
-title: Postavljanje i primjena konfiguracijskih podataka na platformi Common Data Service za aplikaciju Project Operations
+title: Postavljanje i primjena konfiguracijskih podataka na platfomi Common Data Service
 description: U ovoj temi nalaze se informacije o načinu postavljanja i primjene konfiguracijskih podataka u aplikaciji Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073261"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401119"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Postavljanje i primjena konfiguracijskih podataka na platformi Common Data Service za aplikaciju Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Postavljanje i primjena konfiguracijskih podataka na platfomi Common Data Service 
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
+
+## <a name="prerequisites"></a>Preduvjeti
+
+Prije nego što započnete konfiguriranje podataka na platformi Common Data Service (CDS), moraju biti ispunjeni sljedeći preduvjeti:
+
+1.  Osigurana okruženja platforme CDS i sustava Dynamics 365 Finance za aplikaciju Project Operations.
+2.  Dijeljenje podataka o pravnoj osobi sustava Dynamics 365 Finance s okruženjem platforme CDS. To znači da entitet **Tvrtka** na platformi CDS ima sljedeće zapise o poduzeću:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Instalacija postavljanja i konfiguracijskih podataka
 
@@ -75,7 +85,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 ![Otvaranje okruženja](./media/7OpenEnvironment.png)
 
-2. Idite na **Projekti** > **Resursi** , a zatim odaberite **Novi** kako biste svojem korisniku stvorili resurs koji se može rezervirati.
+2. Idite na **Projekti** > **Resursi**, a zatim odaberite **Novi** kako biste svojem korisniku stvorili resurs koji se može rezervirati.
 
 ![Resursi koje je moguće rezervirati](./media/8BookableResources.png)
 
@@ -83,7 +93,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 ![Novi resurs koji se može rezervirati](./media/9NewBookableResource.png)
 
-4. Na kartici **Planiranje** , u polju **Tvrtka** , odaberite tvrtku **USPM** , a zatim odaberite **Spremi**. 
+4. Na kartici **Planiranje**, u polju **Tvrtka**, odaberite tvrtku **USPM**, a zatim odaberite **Spremi**. 
 
 ![Kartica planiranja](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
  
 12. Ažurirajte sljedeća polja:
 
- - **Zadana tvrtka** : USPM
+ - **Zadana tvrtka**: USPM
  - **Zadana organizacijska jedinica** : Contoso Robotics Global
- - **Učestalost faktura** : Sedmi i posljednji dan
- - **Predložak radnog vremena** : Zamijenite s predloškom koji ste stvorili.
+ - **Učestalost faktura**: Sedmi i posljednji dan
+ - **Predložak radnog vremena**: Zamijenite s predloškom koji ste stvorili.
 
 13. Odaberite **Spremi**. 
 

@@ -3,10 +3,10 @@ title: Pregledavanje predloženih resursa
 description: Ova tema pruža informacije o tome kako predložiti resurse projekta.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073355"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401164"
 ---
 # <a name="review-proposed-resources"></a>Pregledavanje predloženih resursa
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Upravitelji resursa mogu predložiti resurs voditelju projekta pomoću zahtjeva za resurs.
 
@@ -47,35 +47,6 @@ Kada upravitelji resursa obrađuju zahtjeve za resurs, mogu upotrijebiti neki od
 - Predložite manje resursa nego što je potrebno. U ovom scenariju predloženi kapacitet resursa je manji od potrebnih sati koje je odredio podnositelj zahtjeva. Zbog toga se, kad podnositelj zahtjeva prihvati predložene resurse, stvara neispunjeni zahtjev za resurs koji pokriva preostalu potražnju.
 - Rezerviranje više resursa kako bi se zadovoljila potražnja ako nije dostupan jedan resurs koji bi dovršio posao.
 - Rezervirajte manje resursa nego što je potrebno. U ovom scenariju rezerviranih je sati manje od potrebnih sati. Sustav vas upućuje da predložite resurse umjesto rezervacija, tako da podnositelj zahtjeva može provjeriti valjanost i pratiti preostalu potražnju.
-
-## <a name="billable-utilization"></a>Naplativa upotreba
-
-Resursi mogu imati ciljanu naplativu upotrebu. Ova ciljana upotreba definira se kao atribut u zadanoj ulozi resursa ili je postavljena na zapisu pojedinačnog resursa koji se može rezervirati. Izračuni upotrebe temelje se na stvarnim satima koje su resursi prijavili pomoću odobrenih vremenskih unosa.
-
-Formule u nastavku služe za izračun upotrebe:
-
-- Naplativa upotreba = naplativi stvarni sati ÷ kapacitet resursa
-- Nenaplativa upotreba = stvarno vrijeme s ID-om vrste naplate = nenaplativo, besplatno ili nije dostupno ÷ kapacitet resursa
-- Interno = stvarno vrijeme bez prodajnog ugovora ÷ kapacitet resursa
-- Kapacitet resursa = radno vrijeme resursa – izvan ureda – neradni dani
-
-Prikaz **Upotreba resursa** možete pronaći u oknu **Resursi**.
-
-Svaka ćelija u rešetki predstavlja postotak naplative upotrebe resursa u razdoblju, kao što je dan, tjedan ili mjesec. Formule u nastavku služe za označavanje ćelija bojom:
-
-- **Zelena:** naplativa upotreba \>= ciljna upotreba resursa
-- **Žuta:** ciljna upotreba – 20 \<= naplativa upotreba \< ciljna upotreba
-- **Crvena:** naplativa upotreba \< ciljna upotreba – 20
-
-Budući da se prikaz **Upotreba resursa** temelji na ploči s rasporedom, možete filtrirati rezultate pomoću mogućnosti filtriranja na ploči s rasporedom.
-
-U rešetki je potrebno postaviti ciljnu upotrebu za svaku ulogu ili pojedinačni resurs. Da biste to učinili, otvorite **Resursi** \> **Uloge resursa**.
-
-Osim toga, svakom resursu koji se može rezervirati potrebno je dodijeliti zadanu ulogu. Otvorite **Resursi** \> **Resursi**. Na kartici **Project Service** provjerite je li definirana uloga resursa i je li polje **Zadano je** postavljeno na **Da**. Možete dodati dodatne uloge ako je polje **Zadano je = Ne**. Uloga u kojoj se koristi polje **Zadano je = Da** služi za procjenu upotrebe resursa u odnosu na cilj za tu ulogu.
-
-Na kartici **Project Service** možete postaviti i pojedinačnu ciljnu upotrebu za resurs. Izračun upotrebe zatim upotrebljava ciljnu upotrebu da bi se procijenio cilj resursa, a ne cilj zadane uloge resursa.
-
-Upotreba se prikazuje za resurs samo ako taj resurs ima odobreno naplativo vrijeme tijekom razdoblja koje je prikazano u rešetki.
 
 ## <a name="resource-availability"></a>dostupnost resursa
 
