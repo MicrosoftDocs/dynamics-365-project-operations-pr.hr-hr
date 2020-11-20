@@ -1,33 +1,33 @@
 ---
-title: Postavljanje cijena za naplatu radne snage
+title: Postavljanje cijena za naplatu rada – jednostavno
 description: U ovoj temi nalaze se informacije o postavljanju cijena za naplatu radne snage u aplikaciji Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073450"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181170"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Postavljanje cijena za naplatu radne snage 
+# <a name="set-up-labor-bill-rates---lite"></a>Postavljanje cijena za naplatu rada – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Svaki cjenik ima skup cijena uloga ili cijena radne snage koje su na snazi u kontekstu, a datumu stupanja na snagu uključen u zaglavlje cjenika. Cijene naplate za vrijeme u aplikaciji Dynamics 365 Project Operations mogu se postaviti u samo jednoj valuti, koja je valuta u zaglavlju Cjenika.
 
 1. Kako biste postavili cijene naplate za radnu snagu za prodajni cjenik, stvorite cjenik na temelju zaglavlja cjenika. 
-2. Na kartici **Cijene uloga** , u podrešetki, odaberite **+ Nova cijena uloge**. 
+2. Na kartici **Cijene uloga**, u podrešetki, odaberite **+ Nova cijena uloge**. 
 3. U oknu **Brzo stvaranje** unesite kombinaciju uloge i organizacijske jedinice za koju trebate postaviti cijenu naplate.
 
   Sljedeća tablica uključuje polja na kartici **Općenito** i oknu **Brzo stvaranje** retka cjene uloge koju biste trebali imati na umu tijekom izrade cijena uloga na prodajnom cjeniku:
 
-  | Polje | Lokacija | Relevantnost, svrha i smjernice | Utjecaj na niže razine |
+  | Polje | Lokacija | Opis | Utjecaj na niže razine |
   | --- | --- | --- | --- |
   | Uloga | Kartica **Općenito** i okno **Brzo stvaranje** | Odaberite ulogu za koju postavljate cijenu naplate. | Uloga na dolaznoj procjeni ili stvarnoj vrijednosti podudarit će se s ovim retkom kako bi se zadala cijena naplate uloge. |
   | Jedinica za resurse | Kartica **Općenito** i okno **Brzo stvaranje** | Odaberite organizacijsku jedinicu ili sektor tvrtke iz koje je preuzeta uloga. Na primjer, razvojni inženjer iz sektora Robotics tvrtke Fabrikam India ili razvojni inženjer iz sektora softvera tvrtke Fabrikam USA. | Jedinica za određivanje resursa na dolaznoj procjeni ili stvarnoj vrijednosti podudarat će se s ovim retkom kako bi se zadala cijena naplate uloge. |

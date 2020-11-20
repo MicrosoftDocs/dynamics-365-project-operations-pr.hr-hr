@@ -1,23 +1,23 @@
 ---
-title: Konfiguriranje automatskog stvaranja predračuna
+title: Konfiguriranje automatskog stvaranja fakture – jednostavno
 description: U ovoj temi nalaze se informacije o konfiguriranju automatskog stvaranja predračuna.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073297"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176557"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Konfiguriranje automatskog stvaranja predračuna
-
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+# <a name="configure-automatic-invoice-creation---lite"></a>Konfiguriranje automatskog stvaranja fakture – jednostavno
+ 
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Možete konfigurirati automatsko stvaranje faktura u programu Dynamics 365 Project Operations. Sustav stvara nacrt predračuna na temelju rasporeda faktura za svaki ugovor o projektu i redak ugovora. Rasporedi faktura konfigurirani su na razini retka ugovora. Svaki redak ugovora može imati različit raspored faktura ili isti raspored faktura može biti uključen u svaki redak ugovora.
 
@@ -48,21 +48,21 @@ Rasporedi faktura definirani za svaku od ove dvije stavke retka izgledaju kao sl
 
 U ovom primjeru, kada se automatsko fakturiranje pokreće dana:
 
-- **4. listopada ili neki datum prije** : Za ovaj se ugovor ne generira faktura jer tablica **Raspored fakture** za svaki od ovih redaka ugovora ne poziva 4. listopada, nedjelju kao datum pokretanja fakture.
-- **Ponedjeljak, 5. listopada** : Generira se jedna faktura za:
+- **4. listopada ili neki datum prije**: Za ovaj se ugovor ne generira faktura jer tablica **Raspored fakture** za svaki od ovih redaka ugovora ne poziva 4. listopada, nedjelju kao datum pokretanja fakture.
+- **Ponedjeljak, 5. listopada**: Generira se jedna faktura za:
 
     - Prototip rada koji uključuje kontrolnu točku, ako je označena kao **Spremno za fakturiranje**.
     - Rad na implementaciji koji uključuje sve vremenske transakcije stvorene prije datuma presijecanja transakcija, nedjelja, 4. listopada, koji je označen kao **Spremno za fakturiranje**.
     - Nastali trošak koji uključuje sve transakcije troškova stvorenih prije datuma presijecanja transakcija, nedjelja, 4. listopada, koji je označen kao **Spremno za fakturiranje**.
   
-- **6. listopada ili neki datum prije 19. listopada** : Za ovaj se ugovor ne generira faktura jer tablica **Raspored faktura** za svaki od ovih redaka ugovora ne poziva 6. listopada ili neki datum prije 19. listopada kao datum pokretanja fakture.
-- **19. listopad, ponedjeljak** : Jedna je faktura generirana za rad na implementaciji koji uključuje sve vremenske transakcije stvorene prije datuma presijecanja transakcija, 18. listopada, nedjelja, koji je označen kao **Spremno za fakturiranje**.
-- **Ponedjeljak, 2. listopada** : Generira se jedna faktura za:
+- **6. listopada ili neki datum prije 19. listopada**: Za ovaj se ugovor ne generira faktura jer tablica **Raspored faktura** za svaki od ovih redaka ugovora ne poziva 6. listopada ili neki datum prije 19. listopada kao datum pokretanja fakture.
+- **19. listopad, ponedjeljak**: Jedna je faktura generirana za rad na implementaciji koji uključuje sve vremenske transakcije stvorene prije datuma presijecanja transakcija, 18. listopada, nedjelja, koji je označen kao **Spremno za fakturiranje**.
+- **Ponedjeljak, 2. listopada**: Generira se jedna faktura za:
 
     - Rad na implementaciji koji uključuje sve vremenske transakcije stvorene prije datuma presijecanja transakcija, nedjelja, 1. studeni, koji je označen kao **Spremno za fakturiranje**.
     - Nastali trošak koji uključuje sve transakcije troškova stvorenih prije datuma presijecanja transakcija, nedjelja, 1. studeni, koji je označen kao **Spremno za fakturiranje**.
 
-- **Utorak, 3. studenog** : Generira se jedna faktura za rad na prototipu koji uključuje kontrolnu točku za 12.000 USD, ako je označena kao **Spremno za fakturiranje**.
+- **Utorak, 3. studenog**: Generira se jedna faktura za rad na prototipu koji uključuje kontrolnu točku za 12.000 USD, ako je označena kao **Spremno za fakturiranje**.
 
 ## <a name="configure-automatic-invoicing"></a>Konfiguriranje automatskog fakturiranja
 
@@ -77,15 +77,15 @@ Poduzmite sljedeće korake za konfiguraciju automatskog pokretanja faktura.
 - ProcessRunner
 - UpdateRoleUtilization
 
-5. Odaberite **ProcessRunCaller** , a zatim **Dodaj**.
+5. Odaberite **ProcessRunCaller**, a zatim **Dodaj**.
 6. U sljedećem dijaloškom okviru odaberite **U redu**. Nakon tijeka rada **Sleep** slijedi tijek rada **Process**. 
 
 > [!NOTE]
-> U petom koraku možete odabrati i **ProcessRunner**. Zatim, kada odaberete **U redu** , nakon tijeka rada **Process** slijedi tijek rada **Sleep**.
+> U petom koraku možete odabrati i **ProcessRunner**. Zatim, kada odaberete **U redu**, nakon tijeka rada **Process** slijedi tijek rada **Sleep**.
 
 Tijekovi rada **ProcessRunCaller** i **ProcessRunner** stvaraju fakture. **ProcessRunCaller** poziva **ProcessRunner**. **ProcessRunner** jest tijek rada koji stvara fakture. Radni tijek prolazi kroz sve retke ugovora za koje je potrebno stvoriti fakture i stvara fakture za te retke. Da bi se odredili reci ugovora za koje je potrebno stvoriti fakture, posao traži datume stvaranja faktura za retke ugovora. Ako reci ugovora koji pripadaju jednom ugovoru imaju isti datum stvaranja fakture, transakcije se kombiniraju u jednu fakturu koja ima dva retka fakture. Ako nema transakcija za stvaranje faktura, posao preskače stvaranje fakture.
 
-Nakon pokretanja funkcije **ProcessRunner** poziva se **ProcessRunCaller** , navodi se vrijeme završetka i funkcija se zatvara. **ProcessRunCaller** zatim pokreće mjerač vremena koji se izvodi 24 sata od navedenog vremena završetka. Po završetku izvođenja mjerača vremena funkcija **ProcessRunCaller** zatvara se.
+Nakon pokretanja funkcije **ProcessRunner** poziva se **ProcessRunCaller**, navodi se vrijeme završetka i funkcija se zatvara. **ProcessRunCaller** zatim pokreće mjerač vremena koji se izvodi 24 sata od navedenog vremena završetka. Po završetku izvođenja mjerača vremena funkcija **ProcessRunCaller** zatvara se.
 
 Skupni postupak stvaranja faktura ponavljajući je posao. Ako se taj skupni postupak izvodi više puta, stvaraju se višestruke instance posla koje uzrokuju pogreške. Stoga biste trebali pokrenuti skupni postupak samo jednom i zatim ga ponovno pokrenuti samo ako se prestane izvoditi.
 

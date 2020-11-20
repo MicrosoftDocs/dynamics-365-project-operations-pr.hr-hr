@@ -3,7 +3,7 @@ title: Instalacija uzorka podataka
 description: U ovoj temi nalaze se informacije o načinu instaliranju uzoraka podataka u aplikaciju Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073453"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132414"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalacija oglednih podataka za aplikaciju Project Service
 
@@ -43,13 +43,13 @@ Najnoviji paket **pokaznih** podataka je sljedeći:
 Ti paketi oglednih podataka dostupni su samo na engleskom.
 
 > [!IMPORTANT]
-> **Ogledne podatke nije moguće deinstalirati.** Pakete biste trebali instalirati samo na probnim ili testnim sustavima te sustavima za procjenu i obuku. Napominjemo i da nije podržano instaliranje jednog pojedinačnog paketa, a zatim instaliranje još jednog pojedinačnog paketa. (Drugim riječima, ne možete instalirati **FSMasterData** , a nakon toga **PSMasterData** ili obrnuto.) Ako mislite da bi vam u budućnosti mogli zatrebati ogledni podaci za obje aplikacije, instalirajte paket **v902FPSMasterData**.
+> **Ogledne podatke nije moguće deinstalirati.** Pakete biste trebali instalirati samo na probnim ili testnim sustavima te sustavima za procjenu i obuku. Napominjemo i da nije podržano instaliranje jednog pojedinačnog paketa, a zatim instaliranje još jednog pojedinačnog paketa. (Drugim riječima, ne možete instalirati **FSMasterData**, a nakon toga **PSMasterData** ili obrnuto.) Ako mislite da bi vam u budućnosti mogli zatrebati ogledni podaci za obje aplikacije, instalirajte paket **v902FPSMasterData**.
 
 Pri instaliranju bilo kojeg paketa oglednih podataka postupak instalacije izvodi sljedeće radnje:
 
 - Stvara ili postavlja zadane parametre za korištenje aplikacije Project Service, Field Service ili obje aplikacije (ako je to primjenjivo).
 
-- Uvozi ogledne podatke za aplikacije, kao što su resursi koji se mogu rezervirati, uloge za određenu aplikaciju, prodajne popise i cjenike, organizacijske jedinice, zapise o prodajnim procesima i druge entitete koji prikazuju ključne mogućnosti aplikacije.  
+- Uvozi ogledne podatke za aplikacije, kao što su resursi koji se mogu rezervirati, uloge za određenu aplikaciju, prodajne popise i cjenike, organizacijske jedinice, zapise o prodajnim procesima i druge entitete koji prikazuju ključne mogućnosti aplikacije.  
 
 U paketu **pokaznih podataka** dobivate sve gore navedene i dodatne transakcijske podatke kao što su radni nalozi i projekti.
 
@@ -112,15 +112,15 @@ Za paket **FPSDemoData** potrebno je šest korisnika, a za paket **FPSMasterData
 
 Pri instalaciji paketa **FPSMasterData** bit će potrebno odabrati korisnika Spencer Low i za njega koristiti ovdje opisane postavke. Da biste ispravno instalirali paket, trebate stvoriti (ili privremeno preimenovati) korisnike u svom okruženju tako da odgovaraju konfiguraciji ulaznih oglednih podataka.
 
-Da biste stvorili ili konfigurirali korisnike, idite na **Postavke** > **Sigurnost** > **Korisnici** , a zatim učinite sljedeće:
+Da biste stvorili ili konfigurirali korisnike, idite na **Postavke** > **Sigurnost** > **Korisnici**, a zatim učinite sljedeće:
 
-1. Korisniku UserFullname="Spencer Low" s korisničkim imenom „spencerl” ( **mala slova** ) dodijelite ulogu voditelja projekta i upravitelja prakse.
+1. Korisniku UserFullname="Spencer Low" s korisničkim imenom „spencerl” (**mala slova**) dodijelite ulogu voditelja projekta i upravitelja prakse.
 
-2. Odaberite korisnika **Spencer Low** , a zatim odaberite **Upravljanje ulogama**. Pronađite i odaberite ulogu **Administrator sustava** , a zatim odaberite **U redu** da biste dodijelili potpuna administratorska prava Spenceru Lowu. Taj je korak potreban kako bi se osiguralo da stvoreni ogledni zapisi imaju ispravno korisničko vlasništvo te da se prikazi ispravno popune.
+2. Odaberite korisnika **Spencer Low** , a zatim odaberite **Upravljanje ulogama**. Pronađite i odaberite ulogu **Administrator sustava**, a zatim odaberite **U redu** da biste dodijelili potpuna administratorska prava Spenceru Lowu. Taj je korak potreban kako bi se osiguralo da stvoreni ogledni zapisi imaju ispravno korisničko vlasništvo te da se prikazi ispravno popune.
 
-3. U preuzetom paketu morate ažurirati datoteku za mapiranje podataka adresama e-pošte zadanog korisničkog konteksta. Kako biste to učinili, otvorite mapu **PkgFolder** , a zatim pronađite i otvorite datoteku **ImportUserMapFile.xml** u programu Notepad (alatu Visual Studio ili nekom drugom XML uređivaču). Postavite polje **DefaultUserToMapTo =** na adresu e-pošte korisnika Spencera Lowa.
+3. U preuzetom paketu morate ažurirati datoteku za mapiranje podataka adresama e-pošte zadanog korisničkog konteksta. Kako biste to učinili, otvorite mapu **PkgFolder**, a zatim pronađite i otvorite datoteku **ImportUserMapFile.xml** u programu Notepad (alatu Visual Studio ili nekom drugom XML uređivaču). Postavite polje **DefaultUserToMapTo =** na adresu e-pošte korisnika Spencera Lowa.
 
-4. Ako za korisnika niste odabrali Spencera Lowa s korisničkim imenom **spencerl** , morate ažurirati dodatnu datoteku. Otvorite datoteku **DemoDataPreImportConfig.xml** , a zatim pronađite oznaku **userstocreateandconfigure**. Ažurirajte oznaku **\<login\>** korisničkim imenom korisnika Tome Debeljaka. Dodatne pojedinosti potražite u [tehničkim napomenama](#technical-notes).
+4. Ako za korisnika niste odabrali Spencera Lowa s korisničkim imenom **spencerl**, morate ažurirati dodatnu datoteku. Otvorite datoteku **DemoDataPreImportConfig.xml**, a zatim pronađite oznaku **userstocreateandconfigure**. Ažurirajte oznaku **\<login\>** korisničkim imenom korisnika Tome Debeljaka. Dodatne pojedinosti potražite u [tehničkim napomenama](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Stvaranje ili konfiguriranje korisnika – paket pokaznih podataka
 
@@ -143,9 +143,9 @@ Za paket pokaznih podataka potrebno je šest korisnika. Da bi se paket pravilno 
    > [!div class="mx-imgBorder"]
    > ![Snimka zaslona s prikazom datoteke UserMapFile](media/sample-data-7.png)
 
-4. Ako vaš korisnik s imenom i prezimenom „Spencer Low” ima drugačiji korisnički ID od **"spencerl** , morate ažurirati dodatnu datoteku. Otvorite datoteku **DemoDataPreImportConfig.xml** pa pronađite oznaku **userstocreateandconfigure**. Ažurirajte oznaku **\<login\>** s pomoću ID-a za prijavu (razlikovanje velikih i malih slova). 
+4. Ako vaš korisnik s imenom i prezimenom „Spencer Low” ima drugačiji korisnički ID od **"spencerl**, morate ažurirati dodatnu datoteku. Otvorite datoteku **DemoDataPreImportConfig.xml** pa pronađite oznaku **userstocreateandconfigure**. Ažurirajte oznaku **\<login\>** s pomoću ID-a za prijavu (razlikovanje velikih i malih slova). 
 
-5. Kalendar prvog korisnika (u oznaci **userstocreateandconfigure** ) upotrebljava se za ispunjavanje radnog vremena za sve resurse koje je moguće rezervirati pri uvozu pokaznih podataka. Idite na **Postavke** > **Sigurnost** > **Korisnici** , pronađite svojeg korisnika „Spencer Low” i otvorite mogućnost „Radno vrijeme”. Uredite postojeće radno vrijeme uz odabir mogućnosti **Cijeli tjedni raspored koji se ponavlja od početka do kraja**. Provjerite je li **radno vrijeme postavljeno na 8 – 17 sati (9 sati), od ponedjeljka do petka, s vremenskom zonom Pacifičko vrijeme (SAD i Kanada)**. To je potrebno kako biste osigurali pravilan prikaz ploče projekta i rasporeda.
+5. Kalendar prvog korisnika (u oznaci **userstocreateandconfigure**) upotrebljava se za ispunjavanje radnog vremena za sve resurse koje je moguće rezervirati pri uvozu pokaznih podataka. Idite na **Postavke** > **Sigurnost** > **Korisnici**, pronađite svojeg korisnika „Spencer Low” i otvorite mogućnost „Radno vrijeme”. Uredite postojeće radno vrijeme uz odabir mogućnosti **Cijeli tjedni raspored koji se ponavlja od početka do kraja**. Provjerite je li **radno vrijeme postavljeno na 8 – 17 sati (9 sati), od ponedjeljka do petka, s vremenskom zonom Pacifičko vrijeme (SAD i Kanada)**. To je potrebno kako biste osigurali pravilan prikaz ploče projekta i rasporeda.
 
 **Preporuka:** bilo bi dobro da odmah stvorite sigurnosnu kopiju svoje organizacije u slučaju da se morate vratiti na početnu točku ako nešto ne bude u redu tijekom instalacije oglednih podataka. Dodatne informacije potražite u članku [Sigurnosno kopiranje i vraćanje instanci](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -235,7 +235,7 @@ Postoji niz drugih komponenti konfiguracije u ovoj konfiguracijskoj datoteci za 
 
 - **\<EntitiesToEnableScheduling\>** navodi koje bi entitete trebalo omogućiti za rezervaciju u sustavu Microsoft Dynamics Scheduling (poznatom i kao Universal Resource Scheduling).
 
-- **\<UsersToCreateAndConfigure\>** navodi resurse koje je moguće rezervirati, a koji će se stvoriti (ako već ne postoje) prije nego što se izvrši uvoz oglednih podataka. Imajte na umu da se ime i prezime (FullName) i podaci za prijavu svakog resursa (koji se može rezervirati) oglednih podataka izvornog sustava podudaraju s imenom i prezimenom i podacima za prijavu zapisa resursa (koji se može rezervirati) ciljnog sustava. Stoga NIJE moguće promijeniti nazive u toj predkonfiguracijskoj datoteci, osim ako najprije ne uvezete ogledne podatke u ciljni sustav pomoću tih imena, a zatim preimenujete resurse koje je moguće rezervirati u željeni skup naziva zajedno sa zapisima omogućenog korisnika te potom ponovno izvezete podatke u konačni odredišni sustav (ažurirajući na odgovarajući način stare i nove unose za **ImportUserMapFile.xml** ).
+- **\<UsersToCreateAndConfigure\>** navodi resurse koje je moguće rezervirati, a koji će se stvoriti (ako već ne postoje) prije nego što se izvrši uvoz oglednih podataka. Imajte na umu da se ime i prezime (FullName) i podaci za prijavu svakog resursa (koji se može rezervirati) oglednih podataka izvornog sustava podudaraju s imenom i prezimenom i podacima za prijavu zapisa resursa (koji se može rezervirati) ciljnog sustava. Stoga NIJE moguće promijeniti nazive u toj predkonfiguracijskoj datoteci, osim ako najprije ne uvezete ogledne podatke u ciljni sustav pomoću tih imena, a zatim preimenujete resurse koje je moguće rezervirati u željeni skup naziva zajedno sa zapisima omogućenog korisnika te potom ponovno izvezete podatke u konačni odredišni sustav (ažurirajući na odgovarajući način stare i nove unose za **ImportUserMapFile.xml**).
 
 - **\<PluginsToDisable\>** navodi točne dodatke stavke retka koje je potrebno onemogućiti tijekom uvoza oglednih podataka, a zatim kasnije ponovno omogućiti.
 

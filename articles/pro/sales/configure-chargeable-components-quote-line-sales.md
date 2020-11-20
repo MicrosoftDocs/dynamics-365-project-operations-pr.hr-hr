@@ -1,23 +1,23 @@
 ---
-title: Konfiguriranje naplative komponente retka ponude
+title: Konfiguriranje naplative komponente retka ponude – jednostavno
 description: U ovoj temi nalaze se informacije o postavljanju naplativih i nenaplativih komponenti na retku ponude koji se temelji na projektu.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073509"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177097"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfiguriranje naplative komponente retka ponude
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfiguriranje naplative komponente retka ponude – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Redak ponude koji se temelji na projektu ima koncept *uključenih* komponenti i *naplativih* komponenti.
 
@@ -44,21 +44,21 @@ Mogućnost naplate definirana je u kategorijama transakcije za redak ponude i pr
 
 Projektni zadatak može biti naplativ ili nenaplativ u kontekstu određenog retka ponude koji se temelji na projektu, što omogućuje sljedeće postavljanje:
 
-Ako redak ponude koji se temelji na projektu uključuje **Vrijeme** i zadatak **T1** , zadatak je povezan s retkom ponude kao naplativ. Ako postoji drugi redak ponude koji uključuje stavku **Troškovi** , možete povezati zadatak **T1** s retkom ponude kao nenaplativ. Rezultat je da se svo vrijeme zabilježeno na zadatku naplaćuje, dok se svi troškovi zabilježeni na zadatku ne naplaćuju.
+Ako redak ponude koji se temelji na projektu uključuje **Vrijeme** i zadatak **T1**, zadatak je povezan s retkom ponude kao naplativ. Ako postoji drugi redak ponude koji uključuje stavku **Troškovi**, možete povezati zadatak **T1** s retkom ponude kao nenaplativ. Rezultat je da se svo vrijeme zabilježeno na zadatku naplaćuje, dok se svi troškovi zabilježeni na zadatku ne naplaćuju.
 
-Vrsta naplate zadatka može se konfigurirati na kartici **Naplativi zadaci** retka ponude koji se temelji na projektu ažuriranjem polja **Vrsta naplate** na podrešetki **Zadaci retka ponude**. Alternativno, možete ažurirati vrstu naplate projektnog zadatka u polju **Vrsta naplate** na podrešetki na postavci naplate zadatka projekta koja prikazuje retke ponude povezane sa zadatkom.
+Vrsta naplate zadatka može se konfigurirati na kartici **Naplativi zadaci** retka ponude koji se temelji na projektu ažuriranjem polja **Vrsta naplate** u podrešetki **Zadaci retka ponude**. Umjesto toga, možete ažurirati vrstu naplate za projektni zadatak u polju **Vrsta naplate** na podrešetki, na postavci naplate zadatka projekta koja prikazuje retke ponude povezane sa zadatkom.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Ažuriranje uloge kako bi bila naplativa ili nenaplativa
 
 Uloga može biti naplativa ili nenaplativa u kontekstu određenog retka ponude koji se temelji na projektu.
 
-Vrsta naplate uloge može se konfigurirati na kartici **Naplative uloge** retka ponude koji se temelji na projektu ažuriranjem polja **Vrsta naplate** na podrešetki **Naplative uloge**.
+Vrsta naplate uloge može se konfigurirati na kartici **Naplative uloge** retka ponude ažuriranjem polja **Vrsta naplate** u podrešetki **Naplative uloge**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Ažuriranje kategorije transakcije kako bi bila naplativa ili nenaplativa
 
 Kategorije transakcije može biti naplativa ili nenaplativa na određenom retku ponude.
 
-Vrsta naplate transakcije može se konfigurirati na kartici **Naplative kategorije** retka ponude koji se temelji na projektu ažuriranjem polja **Vrsta naplate** na podrešetki **Naplative kategorije**.
+Vrsta naplate transakcije može se konfigurirati na kartici **Naplative kategorije** retka ponude ažuriranjem polja **Vrsta naplate** u podrešetki **Naplative kategorije**.
 
 ### <a name="resolve-chargeability"></a>Rješavanje naplativosti
 Procijenjeno ili stvarno stvoreno vrijeme smatrat će se naplativima samo ako je **Vrijeme** uključeno u redak ponude i ako su **Zadatak** i **Uloga** konfigurirani kao naplativi u retku ponude.

@@ -1,23 +1,23 @@
 ---
-title: Redci ponude utemeljeni na projektu (Pro)
+title: Pregled redaka ponude koji se temelje na projektu – jednostavno
 description: U ovoj temi nalaze se informacije o uporabi redaka ponude koji se temelje na projektu za rad na projektu. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073318"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181083"
 ---
-# <a name="project-based-quote-lines-pro"></a>Redci ponude utemeljeni na projektu (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Pregled redaka ponude koji se temelje na projektu – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Redci ponude koji se temelje na projektu osmišljeni su za pomoć pri procjeni angažiranja rada na projektu. Struktura redaka ponude koji se temelje na projektu proširena je za projektne procjene sa sljedećim konceptima:
 
@@ -31,7 +31,7 @@ Redci ponude koji se temelje na projektu osmišljeni su za pomoć pri procjeni a
 
 Tablica u nastavku pruža informacije o poljima na kartici **Općenito** retka ponude koji se temelje na projektu. Ova polja pomažu u postavljanju osnove za podrobnu, temeljitu procjenu rada na projektu.
 
-| **Polje** | **Relevantnost, svrha i smjernice** | **Utjecaj prema dolje** |
+| **Polje** | **Opis** | **Utjecaj prema dolje** |
 | --- | --- | --- |
 | Ime | Naziv retka ponude koji bi vam trebao pomoći pri prepoznavanju diskretne komponente ponude koja se procjenjuje. | Kopira se u redak ugovora o projektu koji se stvara iz ovog retka ponude kad se prihvati ponuda. |
 | Način naplate | U ponudi stvorenoj iz prilike, ova se vrijednost kopira iz odgovarajućeg polja u retku prilike. Ovo polje uključuje dva glavna načina ugovaranja koje podržava aplikacija Dynamics 365 Project Operations:</br>- Fiksna cijena</br>- Vrijeme i materijal.| Ta se vrijednost polja kopira u redak ugovora o projektu koji se stvara iz ovog retka ponude kad se prihvati ponuda. |
@@ -49,15 +49,15 @@ Tablica u nastavku pruža informacije o poljima na kartici **Općenito** retka p
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravila provjere valjanosti za polja na kartici Općenito redaka ponude koji se temelje na projektu
 
-**Pravilo 1** : Ako je polje **Uključeni zadaci** prazno ili ako je postavljeno na **Svi projektni zadaci** , projekt je uključen u redak ponude.
+**Pravilo 1**: Ako je polje **Uključeni zadaci** prazno ili ako je postavljeno na **Svi projektni zadaci**, projekt je uključen u redak ponude.
 
-**Pravilo 2** : Ako je polje **Uključeni zadaci** prazno ili je postavljeno na **Svi projektni zadaci** , projekt i određena klasa transakcija mogu se uključiti samo u jedan redak ponude koji se temelji na projektu.
+**Pravilo 2**: Ako je polje **Uključeni zadaci** prazno ili je postavljeno na **Svi projektni zadaci**, projekt i određena klasa transakcija mogu se uključiti samo u jedan redak ponude koji se temelji na projektu.
 
-**Pravilo 3** : Ako je polje **Uključeni zadaci** postavljeno na **Svi projektni zadaci** , projekt i određena klasa transakcija mogu se uključiti u više redaka ponude koji se temelji na projektu.
+**Pravilo 3**: Ako je polje **Uključeni zadaci** postavljeno na **Svi projektni zadaci**, projekt i određena klasa transakcija mogu se uključiti u više redaka ponude koji se temelji na projektu.
 
-**Pravilo 4** : Ako prilika ima više ponuda, mogu postojati redci ponude iz različitih ponuda koji se svi odnose na isti projekt i uključuju istu klasu transakcije.
+**Pravilo 4**: Ako prilika ima više ponuda, mogu postojati redci ponude iz različitih ponuda koji se svi odnose na isti projekt i uključuju istu klasu transakcije.
 
-**Pravilo 5** : Ako ponude ne pripadaju istoj prilici, ne mogu obuhvaćati isti projekt i klasu transakcije.
+**Pravilo 5**: Ako ponude ne pripadaju istoj prilici, ne mogu obuhvaćati isti projekt i klasu transakcije.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

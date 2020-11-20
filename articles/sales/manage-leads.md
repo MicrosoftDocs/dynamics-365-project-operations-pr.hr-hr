@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073246"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181758"
 ---
 # <a name="manage-leads"></a>Upravljanje potencijalnim klijentima
 
@@ -38,7 +38,7 @@ Kako bi kvalificirani potencijalni klijent automatski stvorio priliku, kada stva
 
 Sljedeća tablica uključuje bitne podatke o polju za potencijalnog klijenta i djelovanje tih polja na niže razine.
  
-| **Polje** | **Mjesto** | **Relevantnost, svrha i smjernice** | **Utjecaj na niže razine** |
+| **Polje** | **Mjesto** | **Opis** | **Utjecaj prema dolje** |
 | --- | --- | --- | --- |
 | Tema | Kartica Općenito | Ovo tekstno polje treba sadržavati kratki opis posla. | Tema potencijalnog klijenta bit će zadana kao tema Prilike, te naziv ponude i ugovor o projektu. |
 | Tip | Kartica Općenito | Ovo polje skupa mogućnosti ima sljedeće mogućnosti:</br>- na temelju rada (dostupno samo kada je instalirana aplikacija Project Operations)</br>- na temelju stavke (dostupno samo kada su instalirane aplikacije Project Operations i Sales)</br>- Temeljeno na servisnom održavanju (dostupno kada se instalira aplikacija Field Service) | Kada je vrijednost ovog polja za potencijalnog klijenta postavljena na mogućnost **Na temelju rada** potencijalni klijent kvalificiran je za stvaranje prilike koji se temelji na projektu. Za ovaj posao potrebna je prilika koji se temelji na projektu koja će omogućiti sva proširenja i funkcionalnost u procesu prodaje prema nižim razinama. |
@@ -59,7 +59,7 @@ Podrobnije informacije o kvalificiranim potencijalnim klijentima potražite u č
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Kvalifikacija potencijalnog klijenta i podaci o pravnoj osobi 
 
-Kada pokrenete Projektne operacije s pomoću načina uvođenja, Project Operations za scenarije koji se temelje na resursima / bez zaliha, svaki klijent i prilika zahtijevat će postavljanje polja **Tvrtka vlasnica**. Tvrtka vlasnica pravna je osoba u vašoj tvrtki ili ustanovi koja je vlasnik isporuke projekta. Svaki klijent ili račun s vrstom odnosa klijenta mora u polju **Tvrtka vlasnica** imati vrijednost postavljenu za pravnu osobu koja ugovara i pregovara s ovim klijentom. Klijent može biti samo u jednoj pravnoj osobi.
+Kada pokrenete Projektne operacije s pomoću načina implementacije, Project Operations za scenarije koji se temelje na resursima / bez zaliha, svaki klijent i prilika zahtijevat će postavljanje polja **Tvrtka vlasnica**. Tvrtka vlasnica pravna je osoba u vašoj tvrtki ili ustanovi koja je vlasnik isporuke projekta. Svaki klijent ili račun s vrstom odnosa klijenta mora u polju **Tvrtka vlasnica** imati vrijednost postavljenu za pravnu osobu koja ugovara i pregovara s ovim klijentom. Klijent može biti samo u jednoj pravnoj osobi.
 
 Kad se potencijalni klijent kvalificira, stvoreni zapisi o klijentima i prilikama imat će polje **Tvrtka vlasnica** postavljeno na tvrtku trenutačnog korisničkog zapisa resursa koji se može rezervirati.
 

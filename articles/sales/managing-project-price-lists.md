@@ -1,12 +1,12 @@
 ---
-title: Cjenici projekta
+title: Upravljanje cjenicima za projekt u ponudi
 description: U ovoj se temi nalaze se informacije o entitetu cjenika za projekt.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073614"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177187"
 ---
-# <a name="project-price-lists"></a>Cjenici projekta
+# <a name="manage-project-price-lists-on-a-quote"></a>Upravljanje cjenicima za projekt u ponudi
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Dynamics 365 Project Operations proširuje entitet cjenika u aplikaciji Dynamics 365 Sales. 
 
@@ -34,16 +34,16 @@ Dynamics 365 Project Operations proširuje entitet cjenika u aplikaciji Dynamics
 
 Cjenik uključuje informacije koje pružaju četiri različita entiteta:
 
-- **Cjenik** : Ovaj entitet pohranjuje informacije o kontekstu, valuti, datumu stupanja na snagu i vremenskoj jedinici za vrijeme određivanja cijena. Kontekst prikazuje izražava li cjenik cijene koštanja ili cijene prodaje. 
-- **Valuta** : Ovaj entitet pohranjuje valutu cijena na cjenik. 
-- **Datum** : Ovaj se entitet upotrebljava kada sustav pokuša unijeti zadanu cijenu na transakciju. Cjenik koji ima datum stupanja na snagu koji uključuje odabrani datum transakcije. Ako je pronađeno više od jednog cjenika koji je na snazi za datum transakcije i koji je priložen povezanoj ponudi, ugovoru ili organizacijskoj jedinici, onda nijedna cijena nije zadana. 
-- **Vrijeme** : Ovaj entitet pohranjuje jedinicu vremena za koju su cijene izražene, kao što su dnevne ili po satu. 
+- **Cjenik**: Ovaj entitet pohranjuje informacije o kontekstu, valuti, datumu stupanja na snagu i vremenskoj jedinici za vrijeme određivanja cijena. Kontekst prikazuje izražava li cjenik cijene koštanja ili cijene prodaje. 
+- **Valuta**: Ovaj entitet pohranjuje valutu cijena na cjenik. 
+- **Datum**: Ovaj se entitet upotrebljava kada sustav pokuša unijeti zadanu cijenu na transakciju. Cjenik koji ima datum stupanja na snagu koji uključuje odabrani datum transakcije. Ako je pronađeno više od jednog cjenika koji je na snazi za datum transakcije i koji je priložen povezanoj ponudi, ugovoru ili organizacijskoj jedinici, onda nijedna cijena nije zadana. 
+- **Vrijeme**: Ovaj entitet pohranjuje jedinicu vremena za koju su cijene izražene, kao što su dnevne ili po satu. 
 
 Entitet Cjenik ima tri povezane tablice koje pohranjuju cijene:
 
-  - **Cijena na temelju uloge** : Ova tablica pohranjuje cijenu za kombiniranje vrijednosti uloge i organizacijske jedinice te se upotrebljava za postavljanje cijena utemeljenih na ulogama za ljudske resurse.
-  - **Cijena po kategoriji transakcije** : Ova tablica pohranjuje cijene po kategoriji transakcije i upotrebljava se za postavljanje cijena po kategoriji troška.
-  - **Stavke cjenika** : Ova tablica pohranjuje cijene za kataloške proizvode.
+  - **Cijena na temelju uloge**: Ova tablica pohranjuje cijenu za kombiniranje vrijednosti uloge i organizacijske jedinice te se upotrebljava za postavljanje cijena utemeljenih na ulogama za ljudske resurse.
+  - **Cijena po kategoriji transakcije**: Ova tablica pohranjuje cijene po kategoriji transakcije i upotrebljava se za postavljanje cijena po kategoriji troška.
+  - **Stavke cjenika**: Ova tablica pohranjuje cijene za kataloške proizvode.
  
 Cjenik je službena cijena. Službena cijena je kombinacija entiteta Cjenik i povezanih redaka u tablicama Cijena na temelju uloge, Cijena po kategoriji transakcije i Stavke cjenika.
 
@@ -53,15 +53,15 @@ Pojam *Uloga resursa* odnosi se na skup vještina, kompetencija i certifikacija 
 
 Vrijeme ljudskog resursa navodi se na temelju uloge koju resurs ispunjava u određenom projektu. Vrijeme, troškovi i naplata ljudskog resursa temelje se na ulozi resursa. Vrijeme može biti naplaćeno u bilo kojoj jedinici u grupi jedinica **Vrijeme**.
 
-Grupa jedinica **Vrijeme** stvara se kada instalirate aplikaciju Project Operations. Ima zadanu jedinicu **Sat**. Ne možete brisati, preimenovati ili uređivati atribute grupe jedinica **Vrijeme** ili jedinice **Sat**. Međutim, možete dodati druge jedinice u grupu jedinica **Vrijeme**. Ako pokušate izbrisati grupu jedinica **Vrijeme** ili jedinicu **Sat** , mogli biste uzrokovati pogreške u poslovnoj logici.
+Grupa jedinica **Vrijeme** stvara se kada instalirate aplikaciju Project Operations. Ima zadanu jedinicu **Sat**. Ne možete brisati, preimenovati ili uređivati atribute grupe jedinica **Vrijeme** ili jedinice **Sat**. Međutim, možete dodati druge jedinice u grupu jedinica **Vrijeme**. Ako pokušate izbrisati grupu jedinica **Vrijeme** ili jedinicu **Sat**, mogli biste uzrokovati pogreške u poslovnoj logici.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorije transakcija i kategorije troškova
 
 Putni i ostali troškovi koje snose projektni savjetnici naplaćuju se klijentu. Određivanje cijena kategorija troškova dovršava se s pomoću cjenika. Zrakoplovne karte, hotel i najam automobila primjeri su za kategorije troškova. Svaki redak cjenika za troškove određuje određivanje cijena za određenu kategoriju troškova. Za određivanje cijena troškova upotrebljavaju se sljedeća tri načina:
 
-- **Po cijeni** : Cijena troškova naplaćuje se klijentu i ne primjenjuje se marža.
-- **Postotak marže** : Klijentu se naplaćuje postotak iznad stvarnih troškova. 
-- **Cijena po jedinici** : Cijena naplate postavljena je za svaku jedinicu kategorije troškova. Iznos koji se naplaćuje klijentu izračunava se na temelju broja jedinica troškova koje savjetnik prijavljuje. Kilometraža koristi metodu određivanja cijena po jedinici. Na primjer, kategorija troškova kilometraže može se konfigurirati za 30 američkih dolara (USD) dnevno ili 2 USD po milji. Kada savjetnik prijavi kilometražu na projektu, iznos računa izračunava se na temelju broja milja koje je savjetnik prijavio.
+- **Po cijeni**: Cijena troškova naplaćuje se klijentu i ne primjenjuje se marža.
+- **Postotak marže**: Klijentu se naplaćuje postotak iznad stvarnih troškova. 
+- **Cijena po jedinici**: Cijena naplate postavljena je za svaku jedinicu kategorije troškova. Iznos koji se naplaćuje klijentu izračunava se na temelju broja jedinica troškova koje savjetnik prijavljuje. Kilometraža koristi metodu određivanja cijena po jedinici. Na primjer, kategorija troškova kilometraže može se konfigurirati za 30 američkih dolara (USD) dnevno ili 2 USD po milji. Kada savjetnik prijavi kilometražu na projektu, iznos računa izračunava se na temelju broja milja koje je savjetnik prijavio.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Određivanje cijena prodaje projekta i otpisi
 
@@ -77,7 +77,7 @@ Svaki od sljedećih entiteta može imati jedan ili više pridruženih prodajnih 
 - Ponuda 
 - Ugovor o projektu
 
-Pridruživanje tih entiteta cjeniku naznačeno je cjenikom projekta. Jedan ili više cjenika možete prudružiti prodajnim entitetima Klijent, Prilika, Ponuda i Ugovor o projektu.
+Pridruživanje tih entiteta cjeniku naznačeno je cjenikom za projekt. Jedan ili više cjenika možete prudružiti prodajnim entitetima Klijent, Prilika, Ponuda i Ugovor o projektu.
 
 Zadani cjenik projekta ne unosi se automatski u zapis klijenta. Međutim, cjenik projekta možete ručno priložiti zapisu klijenta. Ipak, trebate ručno priložiti cjenik projekta samo kada imate prilagođeni ugovor o određivanju cijena s klijentom. 
 
@@ -95,7 +95,7 @@ Na ugovoru o projektu, sljedeći je redoslijed prvenstva za automatsko postavlja
 
 Ako je cjenik projekta unesen po zadanim postavkama, sustav provjerava odgovara li valuta valuti klijenta i imaju li zadani cjenici koji su uneseni kontekst **Prodaja**.
 
-Entitete Klijent, Prilika, Ponuda i Ugovor projekta možete povezati s nekoliko cjenika projekta. Ova mogućnost podržava zadane cijene za određeni datum za ugovor o dugoročnom projektu, u kojem bi moglo biti potrebno više od jednog cjenika za ažuriranje cijena koje se pojavljuju zbog inflacije. Međutim, ako cjenici koje pridružujete entitetu Klijent, Prilika, Ponuda ili Ugovor o projektu imaju preklapajući datum stupanja na snagu, zadane cijene možda nisu točne. Stoga biste trebali osigurati da cjenici projekta koji imaju preklapajući datum stupanja na snagu nisu pridruženi tim entitetima.
+Entitete Klijent, Prilika, Ponuda i Ugovor o projektu možete povezati s nekoliko cjenika za projekt. Ova mogućnost podržava zadane cijene za određeni datum za ugovor o dugoročnom projektu, u kojem bi moglo biti potrebno više od jednog cjenika za ažuriranje cijena koje se pojavljuju zbog inflacije. Međutim, ako cjenici koje pridružujete entitetu Klijent, Prilika, Ponuda ili Ugovor o projektu imaju preklapajući datum stupanja na snagu, zadane cijene možda nisu točne. Stoga biste trebali osigurati da cjenici za projekt koji imaju preklapajući datum stupanja na snagu nisu povezani s tim entitetima.
 
 ### <a name="deal-specific-price-overrides"></a>Otpisi cijena koji su specifični za dogovor
 

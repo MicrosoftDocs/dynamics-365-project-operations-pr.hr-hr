@@ -3,7 +3,7 @@ title: Izradi predložak radnog vremena
 description: Kako izraditi predložak radnog vremena u programu Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073398"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133044"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Izradi predložak radnog vremena (Project Service)
 
@@ -45,7 +45,7 @@ Prije nego što izradite rasporede projekta, morate postaviti kalendar projekta 
   
 2.  Odaberite resurs na kojem želite temeljiti radno vrijeme.  
   
-3.  Kliknite **Spremi kalendar kao** , unesite naziv predloška radnog vremena, a zatim kliknite **Spremi**.  
+3.  Kliknite **Spremi kalendar kao**, unesite naziv predloška radnog vremena, a zatim kliknite **Spremi**.  
   
 4.  Kada završite s promjenom mogućnosti, kliknite **Spremi i zatvori**.  
   

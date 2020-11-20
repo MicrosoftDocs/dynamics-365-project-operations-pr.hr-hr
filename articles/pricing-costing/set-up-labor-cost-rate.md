@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073285"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180588"
 ---
 # <a name="set-up-labor-cost-rates"></a>Postavljanje troškova radne snage
 
@@ -22,13 +22,13 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Svaki cjenik ima skup cijena radne snage (cijena uloge) koje su u skladu sa sadržajem i datumom stupanja na snagu cjenika.
 
-1. Stvorite cjenik i na kartici **Cijena uloga** , u podrešetki, odaberite **+ Nova uloga**.
-2. Na stranici **Brzo stvaranje** , odaberite ulogu i organizacijsku jedinicu.
+1. Stvorite cjenik i na kartici **Cijena uloge** u podrešetki odaberite **Nova uloga**.
+2. Na stranici **Brzo stvaranje**, odaberite ulogu i organizacijsku jedinicu.
 3. Unesite sve druge obvezne podatke.
 
 Sljedeća tablica uključuje neka polja koja su bitna za stvaranje cijena radne snage na cjeniku troškova.
 
-| Polje | Lokacija | Relevantnost, svrha i smjernice | Utjecaj na niže razine |
+| Polje | Lokacija | Opis | Utjecaj na niže razine |
 | --- | --- | --- | --- |
 | Uloga | Kartica **Općenito** i stranice **Brzo stvaranje** | Odaberite ulogu na koju se troškova primjenjuje. | Uloga na dolaznoj procjeni ili stvarnoj vrijednosti podudarit će se s ovim retkom kako bi se zadala cijena uloge. |
 | Tvrtka resursa | Kartica **Općenito** i stranice **Brzo stvaranje** | Odaberite pravnu osobu kojoj je dodijeljena uloga. Na primjer, razvojni inženjer iz tvrtke Fabrikam India ili razvojni inženjer iz tvrtke Fabrikam USA. | Tvrtka za određivanje resursa na dolaznoj procjeni ili stvarnoj vrijednosti podudarat će se s ovim retkom kako bi se zadala troškova uloge. |
@@ -40,7 +40,7 @@ Sljedeća tablica uključuje neka polja koja su bitna za stvaranje cijena radne 
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Prijenos cijene i troškova za resurse izvan svojeg sektora ili pravne osobe
 
-U projektnim je tvrtkama uobičajena uporaba zaposlenika iz različitih pravnih osoba ili sektora za rad na projektima. Projekt može izvršiti jedna pravna osoba, ali zaposlenici ili savjetnici koji rade na projektu mogu dolaziti iz iste pravne osobe ili iz neke druge tj. može se raditi o kombinacije obje. U aplikaciji Dynamics 365 Project Operations, pravna osoba koja je vlasnik isporuke projekta je **Tvrtka vlasnik** , a sektor koji je vlasnik isporuke je **Ugovorna jedinica**. Ostale pravne osobe koje osiguravaju resurse su **Tvrtke za raspodjelu resursa** , a sektori koji osiguravaju resurse su **Jedinice za raspodjelu resursa**. U većini zemalja tvrtke su dužne osigurati da pravna osoba ili sektor za raspodjelu resursa naplaćuju uporabu resursa tvrtki vlasnici i ugovornoj jedinici.
+U projektnim je tvrtkama uobičajena uporaba zaposlenika iz različitih pravnih osoba ili sektora za rad na projektima. Projekt može izvršiti jedna pravna osoba, ali zaposlenici ili savjetnici koji rade na projektu mogu dolaziti iz iste pravne osobe ili iz neke druge tj. može se raditi o kombinacije obje. U aplikaciji Dynamics 365 Project Operations, pravna osoba koja je vlasnik isporuke projekta je **Tvrtka vlasnik**, a sektor koji je vlasnik isporuke je **Ugovorna jedinica**. Ostale pravne osobe koje osiguravaju resurse su **Tvrtke za raspodjelu resursa**, a sektori koji osiguravaju resurse su **Jedinice za raspodjelu resursa**. U većini zemalja tvrtke su dužne osigurati da pravna osoba ili sektor za raspodjelu resursa naplaćuju uporabu resursa tvrtki vlasnici i ugovornoj jedinici.
 
 Na primjer, tvrtka Fabrikam mora osigurati da Fabrikam India-Robotics pregovara o kartici cijene troška s Fabrikam US-Robotics ili Fabrikam UK-Robotics.
 

@@ -5,21 +5,21 @@ author: sigitac
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 504e7481cb2aee6310cb4ace2d0791d1c7fe360d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea04178d4327ccd701ab431f172463a13a55154e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073322"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132369"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Konfiguracija računovodstva za interne projekte
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Interni projekti omogućuju tvrtkama praćenje troškova povezanih s aktivnostima koje se ne naplaćuju kupcu. Primjeri internih projekata uključuju:
+Interni projekti omogućuju tvrtkama praćenje troškova povezanih s aktivnostima koje se ne naplaćuju klijentu. Primjeri internih projekata uključuju:
 
 - Razvoj proizvoda, poput mobilne aplikacije, i praćenje troškova povezanih s razvojem.
 - Upravljanje vremenom i troškovima pretprodaje. Ovaj pretprodajni interni projekt može se kasnije pretvoriti u projekt koji se može naplatiti ako se prihvati ponuda.

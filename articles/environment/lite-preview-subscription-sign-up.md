@@ -1,23 +1,23 @@
 ---
-title: Prijava za pretplatu na pretpregled
-description: U ovoj temi nalaze se informacije o načinu pretplate i uvođenja jednostavne aplikacije Project Operations – od sklapanja posla do predračuna.
+title: Prijava za pretplatu na pretpregled – jednostavno
+description: U ovoj temi nalaze se informacije o načinu pretplate i implementacije jednostavne aplikacije Project Operations – od sklapanja posla do predračuna.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073251"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175882"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Prijava za pretplatu na pretpregled za jednostavno uvođenje – posao s predračunom
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Prijava za pretplatu na pretpregled – jednostavno 
 
-U ovoj temi pojašnjava se način pretplate na pretpregled ponude partnera i uvođenja jednostavne aplikacije Dynamics 365 Project Operations – od sklapanja posla do predračuna.
+U ovoj temi pojašnjava se način pretplate na pretpregled ponude partnera i implementacije jednostavne aplikacije Dynamics 365 Project Operations – od sklapanja posla do predračuna.
 
 > [!NOTE]
 > Ovaj će se postupak promijeniti u predstojećim izdanjima aplikacije Project Operations.
@@ -76,7 +76,7 @@ Ponovite iste korake kao i s prvim kodom ponude. Obvezno dodajte kod iz druge po
 
 ## <a name="create-a-new-cds-environment"></a>Stvaranje novog CDS okruženja
 
-1. Pripremite novo okruženje za uvođenje CDS-a aplikacije Project Operations slijedeći upute u temi [Model uvođenja CDS-a](lite-deployment.md). Kad odaberete vrstu okruženja, obvezno upotrijebite **Probno razdoblje (na temelju pretplate)**.
+1. Pripremite novo okruženje za implementaciju CDS-a aplikacije Project Operations slijedeći upute u temi [Model implementacije CDS-a](lite-deployment.md). Kad odaberete vrstu okruženja, obvezno upotrijebite **Probno razdoblje (na temelju pretplate)**.
 ![Novo okruženje](./media/19CreateEnvironment.png)
 
 2. Odaberite postavku **Omogući aplikacije sustava Dynamics 365** i mogućnost **Automatski postavi ove aplikacije** ostavite praznu.  

@@ -3,7 +3,7 @@ title: Postavljanje učestalosti fakture
 description: Postavljanje učestalosti fakturiranja u programu Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073604"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132013"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Postavljanje učestalosti fakturiranja (Project Service)
 
@@ -37,7 +37,7 @@ Učestalosti fakturiranja [!INCLUDE[pn_project_service_auto](../includes/pn-proj
   
 3.  U području **Općenito** unesite naziv za učestalost fakturiranja u **Naziv**.  
   
-4.  Pod **Razdoblje** odaberite **Mjesečno** , **Dvotjedno** ili **Tjedno**.  
+4.  Pod **Razdoblje** odaberite **Mjesečno**, **Dvotjedno** ili **Tjedno**.  
   
 5.  Ako ste za razdoblje naveli mjesečno ili dvotjedno, pod **Dani izvođenja** odaberite **Dan razdoblja** za fakturiranje na određeni dan razdoblja (ili radni dan ili vikend) ili odaberite **Radnim dan razdoblja** za fakturiranje na navedeni radni dan razdoblja.  
   

@@ -1,21 +1,21 @@
 ---
-title: Redci ponude utemeljeni na projektu
+title: Pregled redaka ponude koji se temelje na projektu
 description: U ovoj temi nalaze se informacije o uporabi redaka ponude koji se temelje na projektu za rad na projektu.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073255"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181848"
 ---
-# <a name="project-based-quote-lines"></a>Redci ponude utemeljeni na projektu
+# <a name="project-based-quote-lines-overview"></a>Pregled redaka ponude koji se temelje na projektu
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
@@ -31,7 +31,7 @@ Redci ponude koji se temelje na projektu osmišljeni su za pomoć pri procjeni a
 
 Tablica u nastavku pruža informacije o poljima na kartici **Općenito** retka ponude koji se temelje na projektu. Ova polja pomažu u postavljanju osnove za podrobnu, temeljitu procjenu rada na projektu.
 
-| **Polje** | **Relevantnost, svrha i smjernice** | **Utjecaj prema dolje** |
+| **Polje** | **Opis** | **Utjecaj prema dolje** |
 | --- | --- | --- |
 | Ime | Naziv retka ponude koji bi vam trebao pomoći pri prepoznavanju diskretne komponente ponude koja se procjenjuje. | Kopira se u redak ugovora o projektu koji se stvara iz ovog retka ponude kad se prihvati ponuda. |
 | Način naplate | U ponudi stvorenoj iz prilike, ova se vrijednost kopira iz odgovarajućeg polja u retku prilike. Ovo polje uključuje dva glavna načina ugovaranja koje podržava aplikacija Dynamics 365 Project Operations:</br>- Fiksna cijena</br>- Vrijeme i materijal.| Ta se vrijednost polja kopira u redak ugovora o projektu koji se stvara iz ovog retka ponude kad se prihvati ponuda. |
@@ -47,11 +47,11 @@ Tablica u nastavku pruža informacije o poljima na kartici **Općenito** retka p
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravila provjere valjanosti za polja na kartici Općenito redaka ponude koji se temelje na projektu
 
-**Pravilo 1** : Određena klasa transakcije na odabranom projektu može se uključiti samo u jedan redak ponude koji se temelji na projektu.
+**Pravilo 1**: Određena klasa transakcije na odabranom projektu može se uključiti samo u jedan redak ponude koji se temelji na projektu.
 
-**Pravilo 2** : Ako prilika ima više ponuda, mogu postojati redci ponude iz različitih ponuda koji se svi odnose na isti projekt i uključuju istu klasu transakcije.
+**Pravilo 2**: Ako prilika ima više ponuda, mogu postojati redci ponude iz različitih ponuda koji se svi odnose na isti projekt i uključuju istu klasu transakcije.
 
-**Pravilo 3** : Ako ponude ne pripadaju istoj prilici, ne mogu obuhvaćati isti projekt i klasu transakcije.
+**Pravilo 3**: Ako ponude ne pripadaju istoj prilici, ne mogu obuhvaćati isti projekt i klasu transakcije.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

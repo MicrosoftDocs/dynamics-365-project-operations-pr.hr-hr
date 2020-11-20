@@ -1,42 +1,42 @@
 ---
-title: Polja i podaci ugovora o projektu
+title: Postavke ugovora o projektu – jednostavno
 description: U ovoj temi nalaze se informacije o poljima koja utječu na retke ugovora i informacije o ugovoru koje su sažete u svim stavkama retka.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087846"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180903"
 ---
-# <a name="project-contract-fields-and-information"></a>Polja i podaci ugovora o projektu 
+# <a name="project-contract-settings---lite"></a>Postavke ugovora o projektu – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 U ovoj temi nalaze se informacije o poljima koja se primjenjuju na cjelokupni ugovor o projektu, uključujući postavke koje utječu na sve retke ugovora. Uključene su i informacije o ugovoru koje su sažete u svim stavkama retka za pokretanje KPI-jeva ugovora o projektu.
 
 Sljedeća tablica navodi polja na ugovoru o projektu koja su jedinstvena za aplikaciju Dynamics 365 Project Operations ili imaju neke bitne promjene u ponašanju iz ponuda za prodaju u aplikaciji Dynamics 365 Sales.
 
-| Polje | Lokacija | Relevantnost, svrha i smjernice | Utjecaj na niže razine |
+| Polje | Lokacija | Opis | Utjecaj na niže razine |
 | --- | --- | --- | --- |
-| Tip | Kartica **Sažetak** (skrivena) | Ovo je polje skupa mogućnosti i ima sljedeće mogućnosti:</br>- **Na temelju rada** (dostupno samo kada je instalirana aplikacija Project Operations)</br>- **Na temelju stavke** (dostupno samo kada su instalirane aplikacije Project Operations i Prodaja)</br>- **Na temelju usluge održavanja** (dostupno kada je instalirana aplikacija Dynamics 365 Field Service) | U aplikaciji Project Operations vrijednost ovog polja zadana je za mogućnost **Na temelju rada** i klasificira ugovor kao ugovor koji se temelji na projektu. Ugovor bi se trebao temeljiti na projektu kako bi se omogućila sva proširenja i funkcionalnosti specifične za projekt. |
+| Tip | Kartica **Sažetak**(skrivena) | Ovo je polje skupa mogućnosti i ima sljedeće mogućnosti:</br>- **Na temelju rada** (dostupno samo kada je instalirana aplikacija Project Operations)</br>- **Na temelju stavke** (dostupno samo kada su instalirane aplikacije Project Operations i Prodaja)</br>- **Na temelju usluge održavanja** (dostupno kada je instalirana aplikacija Dynamics 365 Field Service) | U aplikaciji Project Operations vrijednost ovog polja zadana je za mogućnost **Na temelju rada** i klasificira ugovor kao ugovor koji se temelji na projektu. Ugovor bi se trebao temeljiti na projektu kako bi se omogućila sva proširenja i funkcionalnosti specifične za projekt. |
 | Potencijalni klijent | Kartica **Sažetak** | Upućivanje na zapis tvrtke ili računa klijenta. Kada je iz prilike stvori ugovor, ovo se polje kopira iz odgovarajućeg polja u zapisu ponude. | Valuta na ugovoru o projektu zadana je na temelju valute klijenta. To se može promijeniti prije nego što se ugovor spremi. |
-| Voditelj kupaca | Kartica **Sažetak** | Naziv upravitelja računa za ovaj posao. Kada je iz prilike stvori ugovor, ovo se polje kopira iz odgovarajućeg polja u zapisu ponude. | Upravitelj računa odgovoran je za upravljanje odnosom s klijentom kroz dovršetak ovog projekta. Na temelju zapisa resursa koji se može rezervirati vezanog za upravitelja računa, ugovorna jedinica zadana je u ugovoru o projektu. |
+| Voditelj računa | Kartica **Sažetak** | Naziv upravitelja računa za ovaj posao. Kada je iz prilike stvori ugovor, ovo se polje kopira iz odgovarajućeg polja u zapisu ponude. | Upravitelj računa odgovoran je za upravljanje odnosom s klijentom kroz dovršetak ovog projekta. Na temelju zapisa resursa koji se može rezervirati vezanog za upravitelja računa, ugovorna jedinica zadana je u ugovoru o projektu. |
 | Ugovorena jedinica | Kartica **Sažetak** | Organizacijska jedinica koja je odgovorna za isporuku projekata povezanih s ovim ugovorom. Kada je iz prilike stvori ugovor, ovo se polje kopira iz odgovarajućeg polja u zapisu ponude. | Ugovorna jedinica sektor je tvrtke koji izvršava projekte. Svaka ugovorna jedinica ima valutu i ta se valuta upotrebljava za izvješćivanje o procijenjenim i stvarnim troškovima nastalim tijekom izvršenja projekta. |
 | Cjenik proizvoda | Kartica **Sažetak** | Ovaj se cjenik upotrebljava za zadavanje cijena na redcima ugovora koji se temelje na proizvodu. Popis padajućih mogućnosti za ovo polje prikazuje popis cjenika na kojima se valuta cjenika podudara s valutom ugovora. Kada je iz prilike stvori ugovor, ovo se polje kopira iz odgovarajućeg polja u zapisu ponude. Ovo polje na ugovoru o projektu zadano je iz zapisa računa, ali se može promijeniti. | Za to polje. nema nizvodne relevantnosti. |
-| Valuta | Kartica **Sažetak** | Valuta koja se upotrebljava za izvješćivanje o vrijednosti ovog posla i valuta u kojoj će se klijentu fakturirati. Kada je iz prilike stvori ugovor, ovo se polje kopira iz odgovarajućeg polja u zapisu ponude. Ovo polje na ugovoru o projektu zadaje se iz zapisa računa, ali se može promijeniti. | Nakon spremanja ugovora, ovo se polje više ne može uređivati. To se polje upotrebljava za zadavanje cjenika proizvoda i projekata u ugovoru. Valuta na ugovoru upotrebljava se za podudaranje s valutom na cjeniku. |
-| Ograničenje koje se ne smije prekoračiti | Kartica **Sažetak** | To polje ukazuje na ugovorenu gornju granicu konačne vrijednosti na koje je kupac pristao za ovaj posao. | Gornja se granica procjenjuje tijekom izvršenja i primjenjivo je na sve stavke i projekte povezane s ovom poslom. |
+| Valuta | Kartica **Sažetak** | Valuta koja se upotrebljava za izvješćivanje o vrijednosti ovog posla i valuta u kojoj će se klijentu fakturirati. Kada je iz prilike stvori ugovor, ovo se polje kopira iz odgovarajućeg polja u zapisu ponude. Ovo polje na ugovoru o projektu zadaje se iz zapisa računa, ali se može promijeniti. | Nakon spremanja ugovora, ovo se polje više ne može uređivati. To se polje upotrebljava za zadavanje cjenika proizvoda i projekta u ugovoru. Valuta na ugovoru upotrebljava se za podudaranje s valutom na cjeniku. |
+| Ograničenje koje se ne smije prekoračiti | Kartica **Sažetak** | To polje ukazuje na ugovorenu gornju granicu konačne vrijednosti na koje je klijent pristao za ovaj posao. | Gornja se granica procjenjuje tijekom izvršenja i primjenjivo je na sve stavke i projekte povezane s ovom poslom. |
 | Zatraženi datum dostave | Kartica **Sažetak** | Kada je iz ponude projekta stvori ugovor, ovo se polje kopira iz odgovarajućeg polja u ponudi projekta. | Taj datum upotrebljava se kao datum završetka za generiranje rasporeda računa. |
 
 Sljedeći su KPI-jevi dostupni na kartici **Izvršenje ugovora** ugovora o projektu.
 
-| Polje | Lokacija | Relevantnost, svrha i smjernice |
+| Polje | Lokacija | Opis |
 | --- | --- | --- |
 | Vrijednost ugovora | Ukupni ugovor | Ukupna vrijednost ugovora o projektu. |
 | Naplaćeni iznos | Ukupni ugovor | Zbroj iznosa na svim računima prema ovom ugovoru. |

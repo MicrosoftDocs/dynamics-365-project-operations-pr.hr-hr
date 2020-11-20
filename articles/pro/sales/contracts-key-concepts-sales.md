@@ -1,23 +1,23 @@
 ---
-title: Osnovni koncepti ugovora o projektu
+title: Ugovori o projektu – Osnovni koncepti – jednostavno
 description: U ovoj temi nalaze se informacije o osnovnim konceptima ugovora o projektima.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073294"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177052"
 ---
-# <a name="key-concepts-of-project-contracts"></a>Osnovni koncepti ugovora o projektu
+# <a name="project-contracts---key-concepts---lite"></a>Ugovori o projektu – Osnovni koncepti – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 U ovoj temi nalaze se osnovni koncepti kojih morate biti svjesni prije nego što počnete upotrebljavati ugovore o projektima u aplikaciji Dynamics 365 Project Operations:
 
@@ -46,11 +46,11 @@ Obično postoje dvije vrste modela ugovaranja projekata, fiksna naknada i na tem
 - Vrijeme i materijal: Model ugovaranja koji se temelji na potrošnji u kojem je svaki nastali trošak poduprt odgovarajućim prihodom. Kako procjenjujete ili pravite više troškova, povećavaju se i odgovarajuće procijenjena i stvarna prodaja. Navedite ograničenja koja se ne smiju prekoračiti za retke ugovora koji imaju ovaj način naplate koji ograničava stvarni prihod. Ograničenja koja ne smiju premašiti ne utječu na procijenjeni prihod.
 - Fiksna cijena: Model ugovaranja s fiksnom naknadom koji ukazuje da će prodajne vrijednosti biti neovisne o nastalim troškovima. Prodajna je vrijednost fiksna i ne mijenja se kako procijenite ili napravite više troškova.
 
-## <a name="project-price-lists"></a>Cjenici projekta
+## <a name="project-price-lists"></a>Cjenici za projekt
 
-Cjenici projekta upotrebljavaju se za zadane cijene, a ne cijene troška, za vrijeme, trošak i ostale komponente povezane s projektom. Može postojati više cjenika. Svaki cjenik ima svoj datum stupanja na snagu za svaki ugovor o projektu. Project Operations ne podržava preklapanje datuma stupanja na snagu cjenika projekta.
+Cjenici za projekt upotrebljavaju se za zadane cijene, a ne cijene troška, za vrijeme, trošak i ostale komponente povezane s projektom. Može postojati više cjenika. Svaki cjenik ima svoj datum stupanja na snagu za svaki ugovor o projektu. Project Operations ne podržava preklapanje datuma stupanja na snagu cjenika za projekt.
 
-Kada se ugovor o projektu stvara prihvaćanjem ponude projekta, cjenici projekta kopiraju se s uključenim nazivom i datumom ugovora. Kopiranje ovih podataka formira prilagođenu cijenu za komponente projekta na ovom ugovoru o projektu.
+Kada se ugovor o projektu stvara prihvaćanjem ponude projekta, cjenici za projekt kopiraju se s uključenim nazivom i datumom ugovora. Kopiranje ovih podataka formira prilagođenu cijenu za komponente projekta na ovom ugovoru o projektu.
 
 ## <a name="product-price-lists"></a>Cjenici proizvoda
 

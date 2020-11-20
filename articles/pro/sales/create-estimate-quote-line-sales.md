@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073292"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180363"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Procjena retka ponude utemeljenog na projektu
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Redak ponude koji se temelji na projektu sadrži pojedinosti koje pomažu u procjeni troška i potencijalnih prihoda od posla potrebnog za isporuku retka ponude.
 
@@ -30,9 +30,9 @@ Za procjenu retka ponude koji se temelji na projektu, na retku ponude koji se te
 
 Kako biste stvorili procjenu iz retka ponude koji se temelji na projektu, odaberite karticu **Pojedinosti retka ponude**. Stavka retka koju stvarate na ovoj kartici sažet će ponuđenu vrijednost za ovaj redak ponude. 
 
-Kako biste stvorili pojedinosti retka ponude, odaberite **+ Nova pojedinost retka ponude** na podrešetki **Pojedinosti retka ponude**. Otvorit će se klizač za brzo stvaranje. Sljedeća polja na obrascu **Redak ponude** :
+Kako biste stvorili pojedinosti retka ponude, odaberite **+ Nove pojedinosti retka ponude** u podrešetki **Pojedinosti retka ponude**. Otvorit će se klizač za brzo stvaranje. Sljedeća polja na obrascu **Redak ponude**:
 
-| **Polje** | **Mjesto** | **Relevantnost, svrha i smjernice** | **Utjecaj na niže razine** |
+| **Polje** | **Mjesto** | **Opis** | **Utjecaj prema dolje** |
 | --- | --- | --- | --- |
 | Opis | Brzo stvaranje | Opis specifične procjene. | Ovo se polje prema zadanim postavkama odnosi na pojedinosti retka ponude za trošak koji se automatski stvara. |
 | Razred transakcije | Brzo stvaranje | Ovaj padajući popis pruža klase transakcija koje su uključene u karticu **Općenito** retka ponude koji se temelji na projektu.  | Ovo se polje prema zadanim postavkama odnosi na pojedinosti retka ponude za trošak koji se automatski stvara. |
@@ -54,7 +54,7 @@ Ako ste promijenili cijene na cjeniku projekta koji je priložen uz ponudu ili n
 
 ## <a name="access-quote-line-details-for-cost"></a>Pristup pojedinostima retka ponude za trošak
 
-Na kartici **Pojedinosti retka ponude** odaberite redak u rešetki kako biste omogućili neke radnje na alatnoj traci podrešetke. Prva radnja na alatnoj traci podrešetke kada se odabere pojedinost retka ponude je **Pojedinost otvorenog troška**. Odaberite **Pojedinosti otvorenog troška** kako biste vidjeli povezanu cijenu troška i iznos za taj redak ponude.
+Na kartici **Pojedinosti retka ponude** odaberite redak u rešetki kako biste omogućili neke radnje na alatnoj traci podrešetke. Prva radnja na alatnoj traci podrešetke kada se odabere pojedinost retka ponude je **Otvori pojedinosti troška**. Odaberite **Pojedinosti otvorenog troška** kako biste vidjeli povezanu cijenu troška i iznos za taj redak ponude.
 
 > [!NOTE]
 > Izmjena vrijednosti resursne jedinice, količine, datuma, uloge ili kategorije na pojedinosti retka ponude promijenit će odgovarajuće vrijednosti na pojedinostima retka ponude za prodaju.

@@ -1,23 +1,23 @@
 ---
-title: Upravljanje složenim jedinicama, primjerice po korisniku, po mjesecu za retke ponude utemeljene na proizvodu
+title: Upravljanje složenim jedinicama, primjerice po korisniku, po mjesecu za retke ponude utemeljene na proizvodu – jednostavno
 description: U ovoj temi nalaze se informacije o upravljanju složenim jedinicama za retke ponude koji se temelje na projektu.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073320"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175567"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Upravljanje složenim jedinicama, primjerice po korisniku, po mjesecu za retke ponude utemeljene na proizvodu
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Upravljanje složenim jedinicama, primjerice po korisniku, po mjesecu za retke ponude utemeljene na proizvodu – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Dynamics 365 Project Operations upotrebljava čimbenike količine za podršku pri prodaji proizvoda temeljenih na pretplati. Za proizvode temeljene na pretplati količina u retku ponude ili ugovora o projektu izražena je kao broj korisničkih mjeseci.
 
@@ -29,8 +29,8 @@ Project Operations provjerava valjanost jesu li samo numerička svojstva ili svo
 
 Na primjer, Dynamics 365 Sales može imati sljedeća svojstva:
 
-- **Broj korisnika** : broj korisnika
-- **Broj mjeseci** : broj mjeseci pretplate
+- **Broj korisnika**: broj korisnika
+- **Broj mjeseci**: broj mjeseci pretplate
 - **SKU proizvoda**
 
 Svojstva **Broj korisnika** i **Broj mjeseci** možete označiti kao čimbenike količine uređivanjem svojstava retka proizvoda.

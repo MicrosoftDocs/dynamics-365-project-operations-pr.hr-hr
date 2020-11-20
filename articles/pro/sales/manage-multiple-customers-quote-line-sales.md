@@ -1,23 +1,23 @@
 ---
-title: Upravljanje s više klijenata u redcima ponude koji se temelje na projektu
+title: Upravljanje s više klijenata u redcima ponude koji se temelje na projektu – jednostavno
 description: U ovoj temi opisuje se način upravljanja višestrukim klijentima u redcima ponude koji se temelje na projektu.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073289"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176467"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Upravljanje s više klijenata u redcima ponude koji se temelje na projektu
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Upravljanje s više klijenata u redcima ponude koji se temelje na projektu – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Redci ponude koji se temelje na projektu podržavaju scenarije u kojima svaki redak ponude ima popis klijenata koji to plaćaju. Ovaj popis klijenata u retku ponude koji se temelji na projektu može biti jednak popisu klijenata na ponudi. Također možete promijeniti popis klijenata kako bi bio drugačiji. Kada se prihvati ponuda projekta, popis klijenata na retku ponude koji se temelji na projektu kopira se u odgovarajući redak ugovora koji se temelji na projektu kako bi se stvorio konačni ugovor o projektu. Klijenti u ponudi koji se temelji na projektu kopiraju se u ugovor o projektu.
 
@@ -33,10 +33,10 @@ Sljedeća tablica prikazuje polja u zapisu o klijentu retka ponude koji se temel
 
 | Polje | Lokacija | Opis i smjernice | Utjecaj na niže razine |
 | --- | --- | --- | --- |
-| **Poslovni subjekt** | Rešetka koja se može uređivati na kartici **Klijenti retka ponude** , glavni obrazac i obrasci za brzo stvaranje za klijenta retka ponude. | Navodi sve aktivne račune. Ovo je polje zaključano nakon stvaranja zapisa. Ako trebate ažurirati polje, izbrišite i ponovno stvorite zapis. Ako ste zabilježili neke stvarne podatke, zapis ne možete izbrisati. | Kada odaberete račun s glavnog popisa računa koji želite dodati, klijent retka ponude također se dodaje kao kupac ponude kada ga spremite. Kada se prihvati ponuda, klijenti retka ponude kopiraju se u klijente retka ugovora. |
-| **Postotak dijeljene naplate** | Rešetka koja se može uređivati na kartici **Klijenti retka ponude** , glavni obrazac i obrasci za brzo stvaranje za klijenta retka ponude. | Predstavlja postotak svake nefakturirane prodajne transakcije koja će se pripisati ovom klijentu retka ponude. | Kopirano na klijente retka ugovora o projektu. |
-| **Ograničenje koje se ne smije prekoračiti** | Rešetka koja se može uređivati na kartici **Klijenti retka ponude** , glavni obrazac i obrasci za brzo stvaranje za klijenta retka ponude. | Označava postoji li dogovoreno ograničenje ili gornja granica ukupnog iznosa koji će se fakturirati ovom klijentu za ovaj redak ponude. | Kopira se preko klijenata iz redaka ugovora o projektu kada se prihvati ponuda. |
-| **Zaokruženo je** | Rešetka koja se može uređivati na kartici **Klijenti retka ponude** , glavni obrazac i obrasci za brzo stvaranje za klijenta retka ponude. | Označava je li ovaj klijent zadani klijent za zaokruživanje za ovaj redak ponude zasnovan na projektu. | Kopira se preko klijenata ugovora o projektu kada se prihvati ponuda. |
+| **Poslovni subjekt** | Rešetka koja se može uređivati na kartici **Klijenti retka ponude**, glavni obrazac i obrasci za brzo stvaranje za klijenta retka ponude. | Navodi sve aktivne račune. Ovo je polje zaključano nakon stvaranja zapisa. Ako trebate ažurirati polje, izbrišite i ponovno stvorite zapis. Ako ste zabilježili neke stvarne podatke, zapis ne možete izbrisati. | Kada odaberete račun s glavnog popisa računa koji želite dodati, klijent retka ponude također se dodaje kao klijent ponude kada ga spremite. Kada se prihvati ponuda, klijenti retka ponude kopiraju se u klijente retka ugovora. |
+| **Postotak dijeljene naplate** | Rešetka koja se može uređivati na kartici **Klijenti retka ponude**, glavni obrazac i obrasci za brzo stvaranje za klijenta retka ponude. | Predstavlja postotak svake nefakturirane prodajne transakcije koja će se pripisati ovom klijentu retka ponude. | Kopirano na klijente retka ugovora o projektu. |
+| **Ograničenje koje se ne smije prekoračiti** | Rešetka koja se može uređivati na kartici **Klijenti retka ponude**, glavni obrazac i obrasci za brzo stvaranje za klijenta retka ponude. | Označava postoji li dogovoreno ograničenje ili gornja granica ukupnog iznosa koji će se fakturirati ovom klijentu za ovaj redak ponude. | Kopira se preko klijenata iz redaka ugovora o projektu kada se prihvati ponuda. |
+| **Zaokruženo je** | Rešetka koja se može uređivati na kartici **Klijenti retka ponude**, glavni obrazac i obrasci za brzo stvaranje za klijenta retka ponude. | Označava je li ovaj klijent zadani klijent za zaokruživanje za ovaj redak ponude zasnovan na projektu. | Kopira se preko klijenata ugovora o projektu kada se prihvati ponuda. |
 
 ## <a name="edit-billing-split-percentages"></a>Uređivanje postotka podjele naplate
 

@@ -3,7 +3,7 @@ title: Izradi priliku projekta
 description: Kako izraditi priliku projekta u programu Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073580"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133224"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Izradi priliku projekta (Project Service)
 
@@ -35,7 +35,7 @@ Prilike su potencijalni klijenti koji žele ugovoriti vaše usluge. Mogućnosti 
   
 2.  Kliknite **Novo**.  
   
-3.  U dijelu **Sažetak** , unesite poduzeće prilike i druge informacije.  
+3.  U dijelu **Sažetak**, unesite poduzeće prilike i druge informacije.  
   
 4.  Dodajte bilješke i aktivnosti (na primjer, telefonske pozive ili poruke e-pošte) povezane s ovim potencijalnim klijentom. Da biste saznali više o dodavanju bilješki i aktivnosti, pogledajte [Prati bilješke, zadatake, pozive ili e-poštu s pomoću aktivnosti](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
@@ -45,7 +45,7 @@ Prilike su potencijalni klijenti koji žele ugovoriti vaše usluge. Mogućnosti 
   
 7.  Da biste dodali konkurente, u dijelu **Konkurenti** kliknite **+**.  
   
-8.  Da biste prilici dodali proizvod, kliknite **Novo** pod **Reci koji se temelje na proizvodu** u dijelu **Reci prilike**. Odaberite stavku pod **Naziv proizvoda** , a zatim unesite količinu, prodajnu cijenu i proračun klijenta.  
+8.  Da biste prilici dodali proizvod, kliknite **Novo** pod **Reci koji se temelje na proizvodu** u dijelu **Reci prilike**. Odaberite stavku pod **Naziv proizvoda**, a zatim unesite količinu, prodajnu cijenu i proračun klijenta.  
   
 9. Da biste prilici dodali procjenu projekta, kliknite **+** pod **Reci koji se temelje na projektu** u dijelu **Reci prilike**. Unesite naziv, proračunski iznos i projekt, ako je dostupan. Ako je potrebno izraditi projekt sa strukturnom analizom rada za dobivanje procjene, pogledajte [Izradi projekt](../psa/create-project.md).  
   

@@ -3,7 +3,7 @@ title: Izradi ponudu projekta
 description: Kako izraditi ponudu projekta u programu Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073496"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133134"
 ---
 # <a name="create-a-project-quote-project-service"></a>Izradi ponudu projekta (Project Service)
 
@@ -35,21 +35,21 @@ Postupak izrade ponude sličan je postupku izrade prilike. Dok je prilika intern
   
 2. Kliknite **Sljedeća faza** na desnoj strani trake procesa, a zatim odaberite postojeću ponudu ili kliknite **Izradi** da biste izradili novu ponudu.  
   
-3. U dijelu **Sažetak** , promijenite podatke prema potrebi.  
+3. U dijelu **Sažetak**, promijenite podatke prema potrebi.  
   
 4. Kliknite **Spremi** da biste izradili ponudu tako da možete nastaviti s uređivanjem.  
   
-5. Da biste ponudi dodali proizvod, kliknite **Novo** pod **Reci koji se temelje na proizvodu** u dijelu **Reci ponude**. Odaberite stavku pod **Naziv proizvoda** , a zatim unesite količinu, prodajnu cijenu i iznos u ponudi.  
+5. Da biste ponudi dodali proizvod, kliknite **Novo** pod **Reci koji se temelje na proizvodu** u dijelu **Reci ponude**. Odaberite stavku pod **Naziv proizvoda**, a zatim unesite količinu, prodajnu cijenu i iznos u ponudi.  
   
 6. Da biste ponudi dodali procjenu projekta, kliknite **+** pod **Reci koji se temelje na projektu** u dijelu **Reci ponude**. Unesite naziv, proračunski iznos i projekt, ako je dostupan. Ako je potrebno izraditi projekt sa strukturnom analizom rada za dobivanje procjene, pogledajte [Izradi projekt](../psa/create-project.md).  
   
 7. Kada ste završili s uređivanjem, kliknite gumb **Spremi** u donjem desnom kutu zaslona.  
   
-8. Kada ste spremni poslati ponudu klijentu, kliknite **Više** (...), kliknite **Pokreni izvješće** , a zatim kliknite **Ponuda**. Spremite izvješće kao [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] dokument, uredite prema potrebi te pošaljite ponudu klijentu.  
+8. Kada ste spremni poslati ponudu klijentu, kliknite **Više** (...), kliknite **Pokreni izvješće**, a zatim kliknite **Ponuda**. Spremite izvješće kao [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] dokument, uredite prema potrebi te pošaljite ponudu klijentu.  
   
 9. Ako klijent prihvati ponudu, kliknite **Zatvori kao Ostvareno** pri vrhu zaslona **Ponuda**. Ako klijent želi da promijenite neke stavke, ponovite ovaj postupak da biste izradili novu ponudu. Ako klijent odluči da trenutačno ne želi koristiti vaše usluge, kliknite **Zatvori kao izgubljeno** pri vrhu zaslona **Ponuda**.  
   
-   Kada zatvarate ponudu kao ostvarenu, projekt prelazi u fazu **Ugovor** , a zaslon **Ugovor projekta** od vas traži da izradite ugovor za ovaj projekt.  
+   Kada zatvarate ponudu kao ostvarenu, projekt prelazi u fazu **Ugovor**, a zaslon **Ugovor projekta** od vas traži da izradite ugovor za ovaj projekt.  
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za voditelja računa](../psa/account-manager-guide.md)

@@ -3,7 +3,7 @@ title: Unesi troškove
 description: Kako unijeti troškove u programu Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073592"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132909"
 ---
 # <a name="enter-expenses-project-service"></a>Unesi troškove (Project Service)
 
@@ -49,7 +49,7 @@ Unesite troškove najmanje tjedno ili onoliko često koliko to traže vaši upra
   
    Ako koristite mobilnu aplikaciju:  
   
-8. Na izborniku idite na **Troškovi**.     Možete se prebaciti na prikaz **Dan** , **Tjedan** ili **Mjesec** ili otići na prethodno ili sljedeće vremensko razdoblje.  
+8. Na izborniku idite na **Troškovi**.     Možete se prebaciti na prikaz **Dan**, **Tjedan** ili **Mjesec** ili otići na prethodno ili sljedeće vremensko razdoblje.  
   
 9. Dodirnite **...** i dodirnite **Novo**.  
   

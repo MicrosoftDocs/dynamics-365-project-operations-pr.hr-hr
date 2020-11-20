@@ -1,23 +1,23 @@
 ---
-title: Osnovni koncepti ponude projekta
+title: Ponude – Osnovni koncepti – jednostavno
 description: U ovoj temi nalaze se informacije o načinu uporabe ponuda projekata u aplikaciji Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073312"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177997"
 ---
-# <a name="project-quote-key-concepts"></a>Osnovni koncepti ponude projekta
+# <a name="quotes---key-concepts---lite"></a>Ponude – Osnovni koncepti – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 
 Slijede ključni koncepti kojih morate biti svjesni prije nego što počnete upotrebljavati ponude projekata u aplikaciji Dynamics 365 Project Operations:
@@ -34,7 +34,7 @@ Budući da tečajevi na platformi CDS ne mogu biti datumski učinkoviti, ukupni 
 
 ## <a name="sales-currency"></a>Valuta prodaje
 
-Valuta prodaje u aplikaciji Project Operations valuta je u kojoj se bilježe i prikazuju procijenjeni i stvarni iznosi prodaje. To je također valuta u kojoj se klijentu fakturira ugovoreni posao. Na ponudi projekta, valuta prodaje zadana je iz zapisa klijenta ili računa i može se mijenjati kada se stvori cijena. Nakon spremanja ponude, valuta prodaje ne može se mijenjati. Cjenici proizvoda i projekata zadani su na temelju valute prodaje iz ponude.
+Valuta prodaje u aplikaciji Project Operations valuta je u kojoj se bilježe i prikazuju procijenjeni i stvarni iznosi prodaje. To je također valuta u kojoj se klijentu fakturira ugovoreni posao. Na ponudi projekta, valuta prodaje zadana je iz zapisa klijenta ili računa i može se mijenjati kada se stvori cijena. Nakon spremanja ponude, valuta prodaje ne može se mijenjati. Cjenici proizvoda i projekta zadani su na temelju valute prodaje iz ponude.
 
 Za razliku od troškova, vrijednosti prodaje mogu se evidentirati samo u valuti prodaje.
 
@@ -45,9 +45,9 @@ Projekti obično imaju fiksne modele ugovaranja na temelju naknada i potrošnje.
 - **Vrijeme i materijal:** Ovo je model ugovora koji se temelji na potrošnji u kojem je svaki nastali trošak poduprt odgovarajućim prihodom. Kako procijenite ili napravite više troškova, odgovarajuća procijenjena i stvarna prodaja također će se povećati. U redcima ponude koji imaju ovaj način naplate možete odrediti ograničenja koja ne smiju premašiti. Ovo će ograničiti stvarni prihod. Ograničenja koja ne smiju premašiti ne utječu na procijenjeni prihod.
 - **Fiksna cijena:** Ovo je model ugovora s fiksnom naknadom koji ukazuje da će prodajne vrijednosti biti neovisne o nastalim troškovima. Prodajna je vrijednost fiksna i ne mijenja se kako procijenite ili napravite više troškova.
 
-## <a name="project-price-lists"></a>Cjenici projekta
+## <a name="project-price-lists"></a>Cjenici za projekt
 
-Cjenici projekata su cjenici koji se upotrebljavaju za zadane cijene, a ne cijene troška, za vrijeme, trošak i ostale komponente povezane s projektom. Cjenika može biti više, a svaki popis može imati svoj datum stupanja na snagu za svaku ponudu projekta. Project Operations ne podržava preklapanje datuma stupanja na snagu cjenika projekata.
+Cjenici za projekt su cjenici koji se upotrebljavaju za zadane cijene, a ne cijene troška, za vrijeme, trošak i ostale komponente povezane s projektom. Cjenika može biti više, a svaki popis može imati svoj datum stupanja na snagu za svaku ponudu projekta. Project Operations ne podržava preklapanje datuma stupanja na snagu cjenika za projekt.
 
 ## <a name="product-price-lists"></a>Cjenici proizvoda
 

@@ -1,23 +1,23 @@
 ---
-title: Potvrda predračuna
+title: Potvrda predračuna – jednostavno
 description: U ovoj temi nalaze se informacije o potvrđivanju predračuna u rješenju Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4b67ee6848efdcb85cf732c1eaa3e40cdc51a2e2
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073296"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176512"
 ---
-# <a name="confirming-a-proforma-invoice"></a>Potvrda predračuna
+# <a name="confirm-a-proforma-invoice---lite"></a>Potvrda predračuna – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 
 Nakon potvrde predračuna status fakture za projekt ažurira se na **Potvrđeno**. Kad se faktura potvrdi, postaje samo za čitanje. Ubuduće se faktura može ispraviti samo ako postoje ispravke ili dugovanja koje je pokrenuo klijent, ako je faktura označena kao plaćena.

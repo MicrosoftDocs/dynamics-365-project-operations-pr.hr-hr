@@ -1,23 +1,23 @@
 ---
-title: Upravljanje potencijalnim klijentima (Pro)
+title: Upravljanje potencijalnim klijentima – jednostavno
 description: U ovoj temi nalaze se informacije o upravljanju potencijalnim klijentima koji se temelje na projektu (pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073317"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180498"
 ---
-# <a name="manage-leads-pro"></a>Upravljanje potencijalnim klijentima (Pro)
+# <a name="manage-leads---lite"></a>Upravljanje potencijalnim klijentima – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Potencijalnim se klijentima koji se temelje na projektu može upravljati u aplikaciji Project Operations, gdje ih se može i kvalificirati Proces upravljanja potencijalnim klijentima uključuje stvaranje potencijalnih klijenata koji se temelje na radu i njihovo kvalificiranje. 
 
@@ -38,7 +38,7 @@ Kako bi kvalificirani potencijalni klijent automatski stvorio priliku, kada stva
 
 Sljedeća tablica uključuje bitne podatke o polju za potencijalnog klijenta i djelovanje tih polja na niže razine.
 
-| **Polje** | **Mjesto** | **Relevantnost, svrha i smjernice** | **Utjecaj na niže razine** |
+| **Polje** | **Mjesto** | **Opis** | **Utjecaj prema dolje** |
 | --- | --- | --- | --- |
 | Tema | Kartica Općenito | Ovo tekstno polje treba sadržavati kratki opis posla. | Tema potencijalnog klijenta bit će zadana kao tema Prilike, te naziv ponude i ugovor o projektu. |
 | Tip | Kartica Općenito | Ovo polje skupa mogućnosti ima sljedeće mogućnosti:</br>- na temelju rada (dostupno samo kada je instalirana aplikacija Project Operations)</br>- na temelju stavke (dostupno samo kada su instalirane aplikacije Project Operations i Sales)</br>- Temeljeno na servisnom održavanju (dostupno kada se instalira aplikacija Field Service) | Kada je vrijednost ovog polja za potencijalnog klijenta postavljena na mogućnost **Na temelju rada** potencijalni klijent kvalificiran je za stvaranje prilike koji se temelji na projektu. Za ovaj posao potrebna je prilika koji se temelji na projektu koja će omogućiti sva proširenja i funkcionalnost u procesu prodaje prema nižim razinama. |

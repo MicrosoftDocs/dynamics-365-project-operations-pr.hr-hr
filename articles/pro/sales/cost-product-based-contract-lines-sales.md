@@ -1,23 +1,23 @@
 ---
-title: Određivanje cijene redaka ugovora utemeljenih na proizvodu
+title: Cijena redaka ugovora koji se temelje na proizvodu – osnovna
 description: Ova tema pruža informacije o stvaranju
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4073619"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177232"
 ---
-# <a name="costing-product-based-contract-lines"></a>Određivanje cijene redaka ugovora utemeljenih na proizvodu
+# <a name="cost-product-based-contract-lines---lite"></a>Cijena redaka ugovora koji se temelje na proizvodu – osnovna
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 
 Redci ugovora koji se temelje na proizvodima u aplikaciji Dynamics 365 Project Operations uključuju polje **Cijena troška** u kojem je pohranjena cijena troška proizvoda za izračun nizvodne profitabilnosti.

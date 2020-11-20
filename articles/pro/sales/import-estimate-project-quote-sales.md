@@ -1,23 +1,23 @@
 ---
-title: Uvoz procjena za projekt u redak ponude koji se temelji na projektu
+title: Uvoz procjena za projekt u redak ponude koji se temelji na projektu – jednostavno
 description: U ovoj temi nalaze se informacije o načinu uvoza procjena iz projekta u redak ponude.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073290"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177727"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Uvoz procjena za projekt u redak ponude koji se temelji na projektu
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Uvoz procjena za projekt u redak ponude koji se temelji na projektu – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Ako se projekt stvara tijekom faze pretprodaje, možete odabrati uvoz financijske procjene iz projekta u redak ponude koji se temelji na projektu.
 
@@ -30,7 +30,7 @@ Ako se projekt stvara tijekom faze pretprodaje, možete odabrati uvoz financijsk
   - **Uloga** 
   - **Projektni zadatak**
 
-Na temelju vašeg odabira kopiraju se procjene iz projekta za sve klase transakcija uključene u ovaj redak ponude. Kako biste provjerili koje su klase transakcija uključene, odaberite karticu **Općenito** na retku ponude koji se temelji na projektu i provjerite vrijednosti za **Uključi vrijeme** , **Uključi troškove** i **Uključi naknade**.  Kako biste provjerili koji su zadaci uključeni, odaberite karticu **Naplativi zadaci** u retku ponude.
+Na temelju vašeg odabira kopiraju se procjene iz projekta za sve klase transakcija uključene u ovaj redak ponude. Kako biste provjerili koje su klase transakcija uključene, odaberite karticu **Općenito** na retku ponude koji se temelji na projektu i provjerite vrijednosti za **Uključi vrijeme**, **Uključi troškove** i **Uključi naknade**.  Kako biste provjerili koji su zadaci uključeni, odaberite karticu **Naplativi zadaci** u retku ponude.
 
 Ovisno o povezanim Zadacima i Uključenim klasama transakcija, procjene za te kombinacije zadataka i klasa transakcija uvoze se u redak ponude.
 

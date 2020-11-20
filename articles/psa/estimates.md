@@ -3,7 +3,7 @@ title: Procjene
 description: Ova tema sadrži informacije o procjenama u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073590"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132708"
 ---
 # <a name="estimates"></a>Procjene
 
@@ -90,7 +90,7 @@ Ako ste dodali prilagođeno polje u pojedinost retka ponude i želite da sustav 
 
     ![Odabir koraka u dodatku](media/basic-guide-20.png)
 
-5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke ( **...** ):
+5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke (**...**):
  
     ![Dijaloški okvir Ažuriranje postojećeg koraka](media/basic-guide-21.png)
 
