@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,29 +15,29 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 548673541cee5ce598721f94415c0444995c8325
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cfa8677f38e9468aa3236f587d2e9bd5af839054
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073391"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120984"
 ---
-# <a name="expense-reports-and-multiple-approvers"></a><span data-ttu-id="dfe03-103">Izvješća o trošku i više odobravatelja</span><span class="sxs-lookup"><span data-stu-id="dfe03-103">Expense reports and multiple approvers</span></span>
+# <a name="expense-reports-and-multiple-approvers"></a><span data-ttu-id="8356e-103">Izvješća o trošku i više odobravatelja</span><span class="sxs-lookup"><span data-stu-id="8356e-103">Expense reports and multiple approvers</span></span>
 
-<span data-ttu-id="dfe03-104">_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_</span><span class="sxs-lookup"><span data-stu-id="dfe03-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="8356e-104">_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_</span><span class="sxs-lookup"><span data-stu-id="8356e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="dfe03-105">Ovisno o pravilima vaše tvrtke ili ustanove za odobravanje troškova, možda će podneseno izvješće o troškovima morati odobriti više osoba.</span><span class="sxs-lookup"><span data-stu-id="dfe03-105">Depending on your organization's expense approval policies, more than one person might have to approve a submitted expense report.</span></span> <span data-ttu-id="dfe03-106">Kada postavljate postupak tijeka rada za odobrenje izvješća o troškovima, možete dodati elemente tijeka rada koji obuhvaćaju zadatke ili korake za jednog ili više odobravatelja izvješća o troškovima.</span><span class="sxs-lookup"><span data-stu-id="dfe03-106">When you set up the workflow process for expense report approval, you can add workflow elements that include tasks or steps for one or more expense report approvers.</span></span> <span data-ttu-id="dfe03-107">Na primjer, možda ćete tražiti da sva izvješća o troškovima odobre dvije odvojene osobe, rukovoditelj zaposlenika koji je podnio izvješće i koordinator dugovanja.</span><span class="sxs-lookup"><span data-stu-id="dfe03-107">For example, you might require that all expense reports be approved by two separate people, the manager of the employee who submitted the report and the Accounts payable coordinator.</span></span>
+<span data-ttu-id="8356e-105">Ovisno o pravilima vaše tvrtke ili ustanove za odobravanje troškova, možda će podneseno izvješće o troškovima morati odobriti više osoba.</span><span class="sxs-lookup"><span data-stu-id="8356e-105">Depending on your organization's expense approval policies, more than one person might have to approve a submitted expense report.</span></span> <span data-ttu-id="8356e-106">Kada postavljate postupak tijeka rada za odobrenje izvješća o troškovima, možete dodati elemente tijeka rada koji obuhvaćaju zadatke ili korake za jednog ili više odobravatelja izvješća o troškovima.</span><span class="sxs-lookup"><span data-stu-id="8356e-106">When you set up the workflow process for expense report approval, you can add workflow elements that include tasks or steps for one or more expense report approvers.</span></span> <span data-ttu-id="8356e-107">Na primjer, možda ćete tražiti da sva izvješća o troškovima odobre dvije odvojene osobe, rukovoditelj zaposlenika koji je podnio izvješće i koordinator dugovanja.</span><span class="sxs-lookup"><span data-stu-id="8356e-107">For example, you might require that all expense reports be approved by two separate people, the manager of the employee who submitted the report and the Accounts payable coordinator.</span></span>
 
-<span data-ttu-id="dfe03-108">Ako odlučite tražiti više odobravatelja izvješća o troškovima, elemente tijeka rada možete dodati na jedan od sljedećih načina:</span><span class="sxs-lookup"><span data-stu-id="dfe03-108">If you decide to require multiple expense report approvers, you can add the workflow elements in any of the following ways:</span></span>
+<span data-ttu-id="8356e-108">Ako odlučite tražiti više odobravatelja izvješća o troškovima, elemente tijeka rada možete dodati na jedan od sljedećih načina:</span><span class="sxs-lookup"><span data-stu-id="8356e-108">If you decide to require multiple expense report approvers, you can add the workflow elements in any of the following ways:</span></span>
 
-- <span data-ttu-id="dfe03-109">Dodajte jedan element odobrenja koji ima jedan korak.</span><span class="sxs-lookup"><span data-stu-id="dfe03-109">Add one approval element that has one step.</span></span> <span data-ttu-id="dfe03-110">Na primjer, korak može zahtijevati da se izvješće o troškovima dodijeli grupi korisnika i da ga odobri 50 posto članova grupe korisnika.</span><span class="sxs-lookup"><span data-stu-id="dfe03-110">For example, the step might require that an expense report be assigned to a user group, and that it be approved by 50 percent of the user group's members.</span></span>
-- <span data-ttu-id="dfe03-111">Dodajte jedan element odobrenja koji ima više koraka.</span><span class="sxs-lookup"><span data-stu-id="dfe03-111">Add one approval element that has multiple steps.</span></span> <span data-ttu-id="dfe03-112">Na primjer, element odobrenja može imati sljedeće korake:</span><span class="sxs-lookup"><span data-stu-id="dfe03-112">For example, the approval element might have the following steps:</span></span>
+- <span data-ttu-id="8356e-109">Dodajte jedan element odobrenja koji ima jedan korak.</span><span class="sxs-lookup"><span data-stu-id="8356e-109">Add one approval element that has one step.</span></span> <span data-ttu-id="8356e-110">Na primjer, korak može zahtijevati da se izvješće o troškovima dodijeli grupi korisnika i da ga odobri 50 posto članova grupe korisnika.</span><span class="sxs-lookup"><span data-stu-id="8356e-110">For example, the step might require that an expense report be assigned to a user group, and that it be approved by 50 percent of the user group's members.</span></span>
+- <span data-ttu-id="8356e-111">Dodajte jedan element odobrenja koji ima više koraka.</span><span class="sxs-lookup"><span data-stu-id="8356e-111">Add one approval element that has multiple steps.</span></span> <span data-ttu-id="8356e-112">Na primjer, element odobrenja može imati sljedeće korake:</span><span class="sxs-lookup"><span data-stu-id="8356e-112">For example, the approval element might have the following steps:</span></span>
 
-    1. <span data-ttu-id="dfe03-113">Izvješće o troškovima odobrava rukovoditelj zaposlenika koji je podnio izvješće.</span><span class="sxs-lookup"><span data-stu-id="dfe03-113">The manager of the employee who submitted the expense report approves it.</span></span>
-    2. <span data-ttu-id="dfe03-114">Službenik za dugovanja provjerava račune i stavke izvješća o troškovima.</span><span class="sxs-lookup"><span data-stu-id="dfe03-114">The Accounts payable clerk verifies the receipts and the expense report items.</span></span>
-    3. <span data-ttu-id="dfe03-115">Izvješće o troškovima odobrava vlasnik proračuna.</span><span class="sxs-lookup"><span data-stu-id="dfe03-115">The budget owner approves the expense report.</span></span>
+    1. <span data-ttu-id="8356e-113">Izvješće o troškovima odobrava rukovoditelj zaposlenika koji je podnio izvješće.</span><span class="sxs-lookup"><span data-stu-id="8356e-113">The manager of the employee who submitted the expense report approves it.</span></span>
+    2. <span data-ttu-id="8356e-114">Službenik za dugovanja provjerava račune i stavke izvješća o troškovima.</span><span class="sxs-lookup"><span data-stu-id="8356e-114">The Accounts payable clerk verifies the receipts and the expense report items.</span></span>
+    3. <span data-ttu-id="8356e-115">Izvješće o troškovima odobrava vlasnik proračuna.</span><span class="sxs-lookup"><span data-stu-id="8356e-115">The budget owner approves the expense report.</span></span>
 
-- <span data-ttu-id="dfe03-116">Dodajte više elemenata odobrenja, od kojih svaki ima jedan korak.</span><span class="sxs-lookup"><span data-stu-id="dfe03-116">Add multiple approval elements, each of which has one step.</span></span> <span data-ttu-id="dfe03-117">Na primjer, možete dodati zasebni element odobrenja za svaki od sljedećih koraka:</span><span class="sxs-lookup"><span data-stu-id="dfe03-117">For example, you might add a separate approval element for each of the following steps:</span></span>
+- <span data-ttu-id="8356e-116">Dodajte više elemenata odobrenja, od kojih svaki ima jedan korak.</span><span class="sxs-lookup"><span data-stu-id="8356e-116">Add multiple approval elements, each of which has one step.</span></span> <span data-ttu-id="8356e-117">Na primjer, možete dodati zasebni element odobrenja za svaki od sljedećih koraka:</span><span class="sxs-lookup"><span data-stu-id="8356e-117">For example, you might add a separate approval element for each of the following steps:</span></span>
 
-    1. <span data-ttu-id="dfe03-118">Izvješće o troškovima odobrava rukovoditelj zaposlenika.</span><span class="sxs-lookup"><span data-stu-id="dfe03-118">The employee's manager approves the expense report.</span></span>
-    2. <span data-ttu-id="dfe03-119">Izvješće o troškovima odobrava vlasnik proračuna.</span><span class="sxs-lookup"><span data-stu-id="dfe03-119">The budget owner approves the expense report.</span></span>
+    1. <span data-ttu-id="8356e-118">Izvješće o troškovima odobrava rukovoditelj zaposlenika.</span><span class="sxs-lookup"><span data-stu-id="8356e-118">The employee's manager approves the expense report.</span></span>
+    2. <span data-ttu-id="8356e-119">Izvješće o troškovima odobrava vlasnik proračuna.</span><span class="sxs-lookup"><span data-stu-id="8356e-119">The budget owner approves the expense report.</span></span>
