@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073495"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128454"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled cjenovnih veličina
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Dimenzije koje se koriste u ljudskim resursima za postavljanje cijena i troškova spadaju u dvije kategorije:
 
@@ -35,8 +35,8 @@ Dimenzije koje se koriste u ljudskim resursima za postavljanje cijena i troškov
 
 Zbog toga postoje dvije vrste dostupnih vrijednosti dimenzija za određivanje cijena:
 
-- **Skupovi mogućnosti** : dimenzije koje su fiksne enumeracije za skup vrijednosti.
-- **Vrijednosti temeljene na entitetima** : dimenzije koje mogu biti različiti skup vrijednosti.
+- **Skupovi mogućnosti**: dimenzije koje su fiksne enumeracije za skup vrijednosti.
+- **Vrijednosti temeljene na entitetima**: dimenzije koje mogu biti različiti skup vrijednosti.
 
 ## <a name="pricing-dimensions"></a>Cjenovne veličine
 
@@ -47,7 +47,7 @@ Ako trebate odrediti cijenu ili trošak resursa pomoću dodatnih atributa, može
 ## <a name="pricing-human-resource-time"></a>Određivanje cijene vremena ljudskog resursa
 Način na koji tvrtka ili ustanova određuje cijenu vremena ljudskog resursa često je važno strateško razmatranje koje izravno utječe na profitabilnost tvrtke ili ustanove. Surađujte s financijskim timovima i voditeljima kada je vaša tvrtka ili ustanova spremna identificirati način na koji želi postaviti naplatu i stope troškova za vrijeme ljudskog resursa.
 
-Druga razmatranja za određivanje cijena uključuju želite li ponovno koristiti polja ili entitete koji trenutačno ne određuju cijene dimenzija, ali se primjenjuju kao dimenzija cijena za vašu tvrtku ili ustanovu. Polja kao što su **Kategorija transakcije** ( **msdyn_transactioncategory** ) i **Resurs koji je moguće rezervirati** ( **bookableresource** ) primjeri su dimenzija kandidata. 
+Druga razmatranja za određivanje cijena uključuju želite li ponovno koristiti polja ili entitete koji trenutačno ne određuju cijene dimenzija, ali se primjenjuju kao dimenzija cijena za vašu tvrtku ili ustanovu. Polja kao što su **Kategorija transakcije** (**msdyn_transactioncategory**) i **Resurs koji je moguće rezervirati** (**bookableresource**) primjeri su dimenzija kandidata. 
 
 Razmotrite treba li dimenzija određivanja cijena biti tablica ili skup mogućnosti. Ako predviđate promjene vrijednosti dimenzije koja će premašiti 10 ili 12, a potrebni su vam dodatni atributi tih vrijednosti, možete stvoriti entitet umjesto skupa mogućnosti. Održavanje skupa mogućnosti, kao što je dodavanje ili uklanjanje vrijednosti, zahtijeva administratora ili razvojnog programera dok dodavanje novih redaka u tablicu može izvršiti većina korisnika.
 

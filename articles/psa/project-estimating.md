@@ -3,7 +3,7 @@ title: Troškovi i prihod projekta
 description: Ova tema pruža informacije o procjeni troškova i prihoda projekta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073418"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127959"
 ---
 # <a name="project-costs-and-revenue"></a>Troškovi i prihod projekta
 
@@ -80,7 +80,7 @@ U prikazu s vremenskim fazama ukupni procijenjeni rad za zadatak raspoređuje se
 
 ### <a name="work-hours-based-allocation"></a>Dodjela na temelju radnog vremena
  
-U načinu automatskog raspoređivanja zadataka dnevni zadani sati za resurse zadatka postavljeni su na puno radno vrijeme. To se ponašanje primjenjuje i kada se rad dodjeljuje dijeljenjem na trajanje zadatka u prikazu s vremenskim fazama. Na primjer, ako procijenite da će se zadatak dovršiti s jednim resursom jednom u vremenskom mjerilu **Dan** , dodijeljeni rad po danu neće premašivati radno vrijeme po danu definirano u kalendaru projekta. Zbog toga dodjela rada uvijek osigurava da se procjenjuje korištenje resursa cijeli dan.
+U načinu automatskog raspoređivanja zadataka dnevni zadani sati za resurse zadatka postavljeni su na puno radno vrijeme. To se ponašanje primjenjuje i kada se rad dodjeljuje dijeljenjem na trajanje zadatka u prikazu s vremenskim fazama. Na primjer, ako procijenite da će se zadatak dovršiti s jednim resursom jednom u vremenskom mjerilu **Dan**, dodijeljeni rad po danu neće premašivati radno vrijeme po danu definirano u kalendaru projekta. Zbog toga dodjela rada uvijek osigurava da se procjenjuje korištenje resursa cijeli dan.
 
 ### <a name="even-allocation"></a>Ravnomjerna dodjela
 

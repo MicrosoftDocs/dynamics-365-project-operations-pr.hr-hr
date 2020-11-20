@@ -3,7 +3,7 @@ title: Vodič za administratora
 description: Detaljne upute za administriranje programa Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7462a57ad750f255cfb48dbbeda7f899f51ecfa7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bce13430f56b4c72453c90a259e3ffb3a63d8a3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073425"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129525"
 ---
 # <a name="administrator-guide-project-service"></a>Vodič za administratora (Project Service)
 
@@ -36,7 +36,7 @@ Ovaj vodič vodi vas kroz postupak instalacije i konfiguracije:
 - [Konfiguriraj Project Service Automation](configure.md)
 - [Postavi vremenske jedinice](set-up-time-units.md)
 - [Postavi valute i tečajeve](set-up-currencies-exchange-rates.md)
-- [Izradi organizacijske jedinice](create-organizational-units.md)
+- [Stvaranje organizacijskih jedinica](create-organizational-units.md)
 - [Postavljanje učestalosti faktura](set-up-invoice-frequencies.md)
 - [Konfiguracija kategorija transakcije](configure-transaction-categories.md)
 - [Konfiguracija kategorija troškova](configure-expense-categories.md)

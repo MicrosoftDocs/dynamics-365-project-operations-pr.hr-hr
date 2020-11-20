@@ -3,7 +3,7 @@ title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažu
 description: U ovoj se temi navode značajke i ispravke dostupne u rješenju Project Service Automation, izdanje ažuriranja 22, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073336"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126609"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation, izdanje ažuriranja 22, V3
 
@@ -56,7 +56,7 @@ Popravljeni su sljedeći problemi:
 
 - S pomoću dvostrukog klika na EstimateGridControl neće se pravilno raščlaniti brojevi holandskog formata.
 - Zadani sati ne ažuriraju se ispravno kad se zadaci mijenjaju s pomoću dodatka za klijent radne površine aplikacije Microsoft Project.
-- Rešetke za praćenje i procjene projekta prikazuju pogrešan kôd valute prodaje kada je ugovorena valuta različita od valute kupca, a tvrtka ili ustanova konfigurirana je za prikaz kodova valuta umjesto simbola valuta.
+- Rešetke za praćenje i procjene projekta prikazuju pogrešan kôd valute prodaje kada je ugovorena valuta različita od valute klijenta, a tvrtka ili ustanova konfigurirana je za prikaz kodova valuta umjesto simbola valuta.
 - Datum završetka člana Tima dodati će jedan dan ako je raspored sati rada 24 sata dnevno.
 - U Projektnom rasporedu, dodavanje Transakcijske kategorije zadatku ne aktivira automatsko spremanje.
 - Sljedeća greška prikazuje se tijekom dodavanja člana tima u predložak projekta: „Preduvjeti za resurse ne mogu se povezati s predlošcima projekta”. 
@@ -69,4 +69,4 @@ Popravljeni su sljedeći problemi:
 - Poruka o pogrešci provjere ne prikazuje se kada je u pretraživanju cjenika na obrascu „Nova ponuda cjenika projekta” odabran cjenik.
 - Zatvaranje prihvaćene ponude ne prelazi na stvoreni ugovor ako je BPF u prilogu ponude u završnoj fazi.
 - Storniranje **Nenaplaćene prodaje** povezano je s izvornim troškom kad se opozove unos vremena.
-- Nakon odabira gumba **Potvrdi** , status fakture se ne mijenja u **Potvrđen** sve dok se faktura ne osvježi.
+- Nakon odabira gumba **Potvrdi**, status fakture se ne mijenja u **Potvrđen** sve dok se faktura ne osvježi.

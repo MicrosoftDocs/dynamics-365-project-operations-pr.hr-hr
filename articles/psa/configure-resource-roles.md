@@ -3,7 +3,7 @@ title: Konfiguriraj uloge resursa
 description: Kako konfigurirati uloge resursa u programu Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073386"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129129"
 ---
 # <a name="configure-resource-roles-project-service"></a>Konfiguriraj uloge resursa (Project Service)
 
@@ -45,9 +45,9 @@ Uloge imaju važnu ulogu u planiranju projekta prilikom određivanja zahtjeva re
   
 4.  Kliknite **Spremi** da biste izradili zapis tako da možete nastaviti s uređivanjem.  
   
-5.  U dijelu **Vještine** , kliknite **+** za dodavanje vještine.  
+5.  U dijelu **Vještine**, kliknite **+** za dodavanje vještine.  
   
-6.  U oknu **Zahtjev kompetencije uloge** , kliknite u polje **Vještina** , kliknite gumb **Pretraži** i zatim odaberite vještinu.  
+6.  U oknu **Zahtjev kompetencije uloge**, kliknite u polje **Vještina**, kliknite gumb **Pretraži** i zatim odaberite vještinu.  
   
 7.  Odaberite stručnost za tu vještinu, a zatim kliknite **Spremi**.  
   

@@ -3,7 +3,7 @@ title: Dodjela resursa zadatku
 description: Ova tema pruža informacije o tome kako dodijeliti resurse zadacima.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073577"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125124"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Dodjela resursa zadatku
 
@@ -48,7 +48,7 @@ Možete dodati resurs projektnom timu i zatim ga dodijeliti zadacima u projektno
 3. Na rešetki **Raspored** za zadatak, odaberite ikonu **Resurs** u ćeliji resursa, a zatim pod **Članovi tima** odaberite člana tima kojeg ste upravo dodali. 
 
 > [!NOTE]
-> Na karticama **Članovi tima** i **Usklađivanje** , resurs pokazuje rezervirane i dodijeljene sate. Sati bi trebali biti isti, ali ne moraju biti, budući da rezervacije i zadaci nisu usko povezani. Kartica **Usklađivanje** pruža vam pojedinosti kada su različite, na primjer, kada dodijelite resursu više sati nego što ste rezervirali. Po potrebi, možete ispraviti informacije produljivanjem rezervacija resursa ili izmjenom zadatka.
+> Na karticama **Članovi tima** i **Usklađivanje**, resurs pokazuje rezervirane i dodijeljene sate. Sati bi trebali biti isti, ali ne moraju biti, budući da rezervacije i zadaci nisu usko povezani. Kartica **Usklađivanje** pruža vam pojedinosti kada su različite, na primjer, kada dodijelite resursu više sati nego što ste rezervirali. Po potrebi, možete ispraviti informacije produljivanjem rezervacija resursa ili izmjenom zadatka.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Izrada generičkog člana tima putem dodjele zadatka
 
@@ -62,7 +62,7 @@ Kada izrađujete generičkog člana tima putem dodjele zadatka, izrađujete reze
 
 4. Možete nastaviti dodjeljivati zadatke tom rezerviranom mjestu resursa odabirom resursa na **Biraču resursa** za taj zadatak. Navedeni su pod stavkom **Članovi tima**.
 
-5. Kada završite s dodjelom generičkog resursa, odaberite ga na kartici **Tim** , a zatim odaberite **Generiraj preduvjet** da biste izradili preduvjet resursa za generički resurs.
+5. Kada završite s dodjelom generičkog resursa, odaberite ga na kartici **Tim**, a zatim odaberite **Generiraj preduvjet** da biste izradili preduvjet resursa za generički resurs.
 
 6. Odaberite **Rezerviraj** za generički resurs. Zatim možete koristiti Ploču s rasporedom za pronalazak i rezerviranje pravog resursa. Možete poslati i zahtjev za ispunjenje od strane upravitelja resursa.
 

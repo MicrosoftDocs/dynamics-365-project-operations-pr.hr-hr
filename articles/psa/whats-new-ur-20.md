@@ -3,7 +3,7 @@ title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažu
 description: U ovoj se temi navode značajke i ispravke dostupne u rješenju Project Service Automation, izdanje ažuriranja 20, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073337"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126744"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, izdanje ažuriranja 20, V3
 
@@ -48,7 +48,7 @@ Popravljeni su sljedeći problemi:
 
 Popravljeni su sljedeći problemi:
 
-- Ako na obrascu **Ugovor** dvaput kliknite mogućnost **Stvori fakturu** , stvaraju se dvije fakture za jedan zapis o stvarnim podacima.
+- Ako na obrascu **Ugovor** dvaput kliknite mogućnost **Stvori fakturu**, stvaraju se dvije fakture za jedan zapis o stvarnim podacima.
 - U programu Internet Explorer 11 korisnici ne mogu stvoriti unose troškova.
 - Poništavanje troška i nenaplaćenih stvarnih podataka o prodaji nisu povezani.
 - Gumb **Osvježi stvarne podatke** na obrascu **Projekt** ne osvježava **Stvarne sate zadatka**.
@@ -59,4 +59,4 @@ Popravljeni su sljedeći problemi:
 - Vrijednosti jedinica i grupe jedinica ne postavljaju se ispravno za kategorije troškova na obrascima **Pojedinosti retka ugovora** i **Pojedinosti retka ponude**.
 - Popisi **Cijena koštanja OrgUnit** dopuštaju preklapanje u efektivnosti datuma.
 - Korisnicima nije dopušteno mijenjati **OrgUnit** kada vrsta narudžbe nije zasnovana na radu jer će dovesti do pogreške iznimke prazne reference.
-- Pri pokušaju navigacije s obrasca **Pojedinosti retka ponude** natrag na karticu **Ponuda** , obrazac se osvježava i prikazuje karticu **Sažetak**.
+- Pri pokušaju navigacije s obrasca **Pojedinosti retka ponude** natrag na karticu **Ponuda**, obrazac se osvježava i prikazuje karticu **Sažetak**.

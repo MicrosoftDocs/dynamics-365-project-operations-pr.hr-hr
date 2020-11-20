@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073325"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128679"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfiguriranje naplative komponente retka ugovora koji se temelji na projektu
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Redak ugovora koji se temelji na projektu ima koncept uključenih, naplativih i nenaplativih komponenti.
 
-Uključene komponente podliježu načinu naplate, podjelama kupca, ograničenjima koja ne smiju premašiti i postavkama učestalosti računa definiranim na retku ugovora koji se temelji na projektu.
+Uključene komponente podliježu načinu naplate, podjelama klijenta, ograničenjima koja ne smiju premašiti i postavkama učestalosti računa definiranim na retku ugovora koji se temelji na projektu.
 
 Podskup uključenih komponenti može se označiti kao naplativ ažuriranjem polja **Vrsta naplate**.
 
@@ -35,13 +35,13 @@ Mogućnost naplate definirana je u kategorijama transakcije za redak ugovora o p
 
 Uloga može biti naplativa ili nenaplativa na određenom retku ugovora koji se temelji na projektu.
 
-Na kartici **Naplative uloge** retka ugovora koji se temelji na projektu, u podrešetki **Naplative kategorije** u polju **Vrsta naplate** , ažurirajte vrstu naplate za ulogu.
+Na kartici **Naplative uloge** retka ugovora koji se temelji na projektu, na podrešetki **Naplative kategorije**, u polju **Vrsta naplate**, ažurirajte vrstu naplate za ulogu.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Ažuriranje kategorije transakcije kako bi bila naplativa ili nenaplativa
 
 Kategorije transakcije može biti naplativa ili nenaplativa na određenom retku ugovora koji se temelji na projektu.
 
-Na kartici **Naplative kategorije** retka ugovora koji se temelji na projektu, u podrešetki **Naplative kategorije** u polju **Vrsta naplate** , ažurirajte vrstu naplate za transakciju.
+Na kartici **Naplative kategorije** retka ugovora koji se temelji na projektu, na podrešetki **Naplative kategorije**, u polju **Vrsta naplate**, ažurirajte vrstu naplate za transakciju.
 
 ### <a name="resolve-chargeability"></a>Rješavanje naplativosti
 

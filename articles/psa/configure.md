@@ -3,7 +3,7 @@ title: Konfiguriraj sustav Project Service Automation
 description: Koraci za konfiguriranje programa Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd02611b5b3133e097b2818a725b6c5d667e5ac0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8a219ef0166565a550a7836ffeae37ffd514a001
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073497"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129174"
 ---
 # <a name="configure-project-service"></a>Konfiguriraj program Project Service
 

@@ -3,7 +3,7 @@ title: Upravljanje projektima i rezervacijama u kalendaru sustava Office 365
 description: Način upravljanja projektima i rezervacijama u kalendaru sustava Office 365
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073422"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129039"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Upravljanje projektima i rezervacijama u kalendaru (Project Service)
 
@@ -77,7 +77,7 @@ Pregledajte osobne obveze, rezervacije projekata i dodjele radnih naloga usluge 
   
 1. Otvorite kalendar sustava [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] i kliknite **Uvoz podataka**.  
   
-2. Na zaslonu Filtri odaberite **Obveze iz sustava Exchange** , a zatim kliknite **Primijeni**.  
+2. Na zaslonu Filtri odaberite **Obveze iz sustava Exchange**, a zatim kliknite **Primijeni**.  
   
 3. Sustav će povući obveze u prikaz unosa vremena kao predložene unose iz tekućeg tjedna. Da biste dodali unose za drugi tjedan, kliknite **Prethodno** ili **Sljedeće**.  
   

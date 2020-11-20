@@ -5,19 +5,19 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073279"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127419"
 ---
 # <a name="project-team-members"></a>Članovi projektnog tima
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Članovi projektnog tima sudionici su projekta koji rade na projektu. Cilj je rešetke članova tima omogućiti popis imenovanih resursa koji su predani angažmanu i generičkih članova tima koji su resursi rezerviranog mjesta i koji će biti zaposleni kasnije.
 
@@ -47,16 +47,16 @@ Tablica u nastavku navodi ključne atribute člana projektnog tima.
 
 Iz rešetke člana tima mogu se poduzeti sljedeće radnje:
 
-- **Rezervacija** : Za tvrtke ili ustanove koje izvršavaju iskorištavanje metodologije hibridnih rezervacija, radnja rezervacije omogućit će korisnicima rezerviranje imenovanih resursa na temelju zahtjeva za preduvjetima koji se generiraju od generičkog člana tima
-- **Generiraj zahtjev** : Ova radnja generira zahtjev.
-- **Navedi obrazac** : Omogućuje voditeljima projekata prilagodbu kontura preduvjeta resursa na razini pojedinosti. Voditelji projekata mogu se prilagoditi specifičnim potrebama projekta u slučajevima kada zadana raspodjela ne pristaje.
-- **Pošalji zahtjev** : Za tvrtke ili ustanove koje upotrebljavaju metodologiju središnjeg rezerviranja.
-- **Uredi** : Atributi člana tima mogu se uređivati, uključujući organizacijsku jedinicu, ulogu i naziv radnog mjesta.
-- **Održavaj rezervacije** : Kada je potrebno ažurirati rezervacije resursa, održavanje rezervacija omogućite voditelju projekta da prilagodi:
+- **Rezervacija**: Za tvrtke ili ustanove koje izvršavaju iskorištavanje metodologije hibridnih rezervacija, radnja rezervacije omogućit će korisnicima rezerviranje imenovanih resursa na temelju zahtjeva za preduvjetima koji se generiraju od generičkog člana tima
+- **Generiraj zahtjev**: Ova radnja generira zahtjev.
+- **Navedi obrazac**: Omogućuje voditeljima projekata prilagodbu kontura preduvjeta resursa na razini pojedinosti. Voditelji projekata mogu se prilagoditi specifičnim potrebama projekta u slučajevima kada zadana raspodjela ne pristaje.
+- **Pošalji zahtjev**: Za tvrtke ili ustanove koje upotrebljavaju metodologiju središnjeg rezerviranja.
+- **Uredi**: Atributi člana tima mogu se uređivati, uključujući organizacijsku jedinicu, ulogu i naziv radnog mjesta.
+- **Održavaj rezervacije**: Kada je potrebno ažurirati rezervacije resursa, održavanje rezervacija omogućite voditelju projekta da prilagodi:
 
     - Početak
     - Završetak
     - Raspodjelu ukupnog rada
 
-- **Novi** : Osim dodavanja resursa izravno iz rasporeda, voditelji projekata mogu dodati nove imenovane ili generičke članove tima iz rešetke članova tima.
-- **Izbriši** : Odabirom jednog ili više članova tima, voditelj projekta može izbrisati resurse koji više neće sudjelovati u projektu. Brisanje člana tima također će izbrisati sve pridružene dodjele resursa i otkazati sve postojeće rezervacije.
+- **Novi**: Osim dodavanja resursa izravno iz rasporeda, voditelji projekata mogu dodati nove imenovane ili generičke članove tima iz rešetke članova tima.
+- **Izbriši**: Odabirom jednog ili više članova tima, voditelj projekta može izbrisati resurse koji više neće sudjelovati u projektu. Brisanje člana tima također će izbrisati sve pridružene dodjele resursa i otkazati sve postojeće rezervacije.

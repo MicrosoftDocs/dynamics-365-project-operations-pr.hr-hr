@@ -3,7 +3,7 @@ title: Izradi račun klijenta
 description: Kako izraditi račun klijenta u programu Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0dc328d1e0a2deba256dacb1697aee65e89055e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f80d7612563b49765c5d0dc36e0033c9f7c42f9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073394"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129084"
 ---
 # <a name="create-a-customer-account-project-service"></a>Izradi račun klijenta (Project Service)
 
@@ -35,11 +35,11 @@ Izradite račun za svakog klijenta s kojim surađujete, bez obzira izrađujete l
   
 2.  Kliknite **Novo**.  
   
-3.  U dijelu **Sažetak** , unesite naziv za novi račun u **Naziv** i prema potrebi ispunite druga polja.  
+3.  U dijelu **Sažetak**, unesite naziv za novi račun u **Naziv** i prema potrebi ispunite druga polja.  
   
 4.  Kliknite **Spremi** da biste izradili zapis tako da možete nastaviti s uređivanjem.  
   
-5.  U dijelu **Cjenici projekta** , kliknite + da biste dodali cjenik. Možete dodati više od jednog cjenika za ovaj račun.  
+5.  U području **Cjenici za projekt**, kliknite + kako biste dodali cjenik. Možete dodati više od jednog cjenika za ovaj račun.  
   
 6.  Kada ste završili, kliknite **Spremi** u donjem desnom kutu zaslona.  
   

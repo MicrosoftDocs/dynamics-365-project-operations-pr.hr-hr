@@ -3,7 +3,7 @@ title: Raspoređivanje projekta sa strukturnom analizom rada
 description: Raspoređivanje projekta sa strukturnom analizom rada u programu Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073570"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127869"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Raspoređivanje projekta sa strukturnom analizom rada (Project Service)
 
@@ -86,14 +86,14 @@ Prilikom stvaranja strukturne analize rada koristit ćete sljedeće vrsta zadata
   
 ### <a name="schedule-attributes"></a>Atributi rasporeda
 
- - Dodijelite vrijednosti stavkama **Sati truda** , **Broj resursa** , **Početni datum** , **Završni datum** i **Trajanje** da biste odredili raspored za zadatak. 
+ - Dodijelite vrijednosti stavkama **Sati truda**, **Broj resursa**, **Početni datum**, **Završni datum** i **Trajanje** da biste odredili raspored za zadatak. 
  - **Trud** je procjena koliko će sati biti potrebno za dovršetak zadatka.
  - **Broj resursa** je procjena voditelja projekta za zadatak koja pomaže u stvaranju najboljeg mogućeg rasporeda. 
  - **Trajanje** (u danima) označava broj radnih dana potrebnih za dovršetak zadatka.  
   
 ### <a name="staffing-attributes"></a>Atributi broja djelatnika
 
- - **Uloga** , **Organizacijska jedinica resursa** , **Broj resursa** i **Resursi** opisuju zahtjeve za brojem djelatnika za zadatak. 
+ - **Uloga**, **Organizacijska jedinica resursa**, **Broj resursa** i **Resursi** opisuju zahtjeve za brojem djelatnika za zadatak. 
  - **Uloga** opisuje vrstu resursa potrebnih za izvođenje zadatka. 
  - **Organizacijska jedinica resursa** označava organizacijsku jedinicu iz koje treba dodijeliti djelatnike resursima za taj zadatak; to također utječe na procjenu troška i prodaje za zadatak jer se to uzima u obzir prilikom određivanja prodajne cijene jedinice za resurs. 
  - Stavka **Resursi** sadrži generički resurs ili resurs s nazivom kada je pronađen.  

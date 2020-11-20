@@ -5,19 +5,19 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073277"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131559"
 ---
 # <a name="estimate-projects-overview"></a>Pregled projekata procjene
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 U ponudi koja se temelji na projektu možete upotrebljavati entitet **Pojedinost retka ponude** za procjenu rada potrebnog za isporuku projekta. Tu procjenu zatim možete podijeliti s klijentom.
 
@@ -74,7 +74,7 @@ Ako ste dodali prilagođeno polje u pojedinost retka ponude i želite da sustav 
 2. Odaberite **Pretraži** i potražite dodatak za ažuriranje.
 3. Odaberite dodatak, a zatim na glavnoj stranici kliknite **Odaberi**.
 4. Odaberite korak dodatka za ažuriranje, kliknite desnom tipkom miša, a zatim odaberite **Ažuriraj**.
-5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke ( **...** ):
+5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke (**...**):
 6. U dijaloškom okviru **Odaberi atribute** odaberite potvrdne okvire za prilagođene atribute.
 7. Odaberite **U redu** da biste zatvorili dijaloški okvir, a zatim odaberite **Ažuriraj korak**.
 8. Ponovite korake od 1 do 7 za drugi dodatak.

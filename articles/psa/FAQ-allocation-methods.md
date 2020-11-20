@@ -3,7 +3,7 @@ title: Načini dodjele rezervacija u aplikaciji Project Service Automation
 description: Ova tema pruža informacije o različitim načinima na koje možete dodijeliti rezervacije.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 295da428ce15e7775450dfa94e96047f200bdede
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073382"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131338"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Načini dodjele rezervacija u aplikaciji Project Service Automation
 

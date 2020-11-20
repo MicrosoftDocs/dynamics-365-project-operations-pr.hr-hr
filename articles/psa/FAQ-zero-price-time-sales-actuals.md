@@ -3,7 +3,7 @@ title: Zašto je zadana cijena nula u stvarnim vrijednostima vremena i prodaje?
 description: Rješavanje problema zbog kojeg je zadana cijena 0 u stvarnim vrijednostima vremena i prodaje.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c886c4a53b4ba47e381b891fe22a565ad8fd1ac6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5106e8c1a059bbb0efbeb73dc63e03e8bc9e4b7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073512"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125934"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Zašto je zadana cijena nula u stvarnim vrijednostima vremena i prodaje?
 
@@ -33,9 +33,9 @@ Ova se često postavljena pitanja primjenjuju na stvarne vrijednosti u slučajev
 
 ## <a name="check-1-identify-the-sales-price-list-for-the-project"></a>Provjera 1: identificiraj cjenik prodaje za projekt
 
-Pronađite projekt u polju projekta stvarne vrijednosti i otvorite stranicu projekta. Zatim otvorite karticu Prodaja i na rešetki Reci ugovora projekta kliknite vezu u polju Ugovor projekta. Otvorit će se stranica projekta Ugovor. Na stranici projekta Ugovor, otvorite karticu Cjenici projekta. Provjerite je li tu priložen barem jedan cjenik. Ako rešetki Cjenici projekta stranice Ugovor projekta nije priložen nijedan cjenik, utvrdili ste problem. Priložite jedan cjenik rešetki Cjenici projekta. Da bi se cjenici mogli tu priložiti, njihovo polje konteksta mora biti postavljeno na Prodaja, a polje valute na cjeniku mora se podudarati s poljem valute na stranici Ugovor projekta. Nakon što ste izvršili potrebne popravke, ponovno izradite Unos vremena, odobrite ga pa provjerite prikazuje li se valjana cijena za stvarnu vrijednost nenaplaćene prodaje. 
+Pronađite projekt u polju projekta stvarne vrijednosti i otvorite stranicu projekta. Zatim otvorite karticu Prodaja i na rešetki Reci ugovora projekta kliknite vezu u polju Ugovor projekta. Otvorit će se stranica projekta Ugovor. Na stranici Ugovor o projektu idite na karticu Cjenici za projekt. Provjerite je li tu priložen barem jedan cjenik. Ako rešetki Cjenici za projekt Ugovora o projektu nije priložen nijedan cjenik, utvrdili ste problem. Priložite cjenik rešetki Cjenici za projekt. Da bi se cjenici mogli tu priložiti, njihovo polje konteksta mora biti postavljeno na Prodaja, a polje valute na cjeniku mora se podudarati s poljem valute na stranici Ugovor projekta. Nakon što ste izvršili potrebne popravke, ponovno izradite Unos vremena, odobrite ga pa provjerite prikazuje li se valjana cijena za stvarnu vrijednost nenaplaćene prodaje. 
 
-Ako ste rešetki Cjenici projekta stranice Ugovor projekta priložili jedan ili više cjenika, prijeđite na sljedeću provjeru u dokumentu.
+Ako ste rešetki Cjenici za projekt Ugovora o projektu priložili jedan ili više cjenika, prijeđite na sljedeću provjeru u dokumentu.
 
 ## <a name="check-2-are-any-of-the-price-lists-identified-above-valid-for-the-specific-date-of-the-time-sales-actual"></a>Provjera 2: Je li ijedan od cjenika koji su utvrđeni gore valjan za određeni datum stvarne vrijednosti vremena i prodaje?
 

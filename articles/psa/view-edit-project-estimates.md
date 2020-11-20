@@ -3,7 +3,7 @@ title: Prikaz i uređivanje procjene projekta
 description: Prikaz i uređivanje procjene projekta u programu Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073464"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125844"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Prikaz i uređivanje procjene projekta (Project Service)
 
@@ -37,7 +37,7 @@ S pomoću mogućnosti za [!INCLUDE[pn_project_service_auto](../includes/pn-proje
   
 3.  Na traci na vrhu ekrana odaberite strelicu prema dolje pokraj naziva projekta, a zatim kliknite **Procjene projekta**.  
   
-4.  U izborniku **Vremenska faza po** odaberite **Trud** , **Trošak** ili **Prodaja** da biste odredili koja komponenta procjene projekta će se prikazati.  
+4.  U izborniku **Vremenska faza po** odaberite **Trud**, **Trošak** ili **Prodaja** da biste odredili koja komponenta procjene projekta će se prikazati.  
   
 5.  Za dodavanje ili brisanje troškova kliknite **Prikaz rešetke za prikaz**. Da biste stvorili nove troškove kliknite **Novi troškovi**. Da biste izbrisali trošak odaberite ga na popisu, a zatim kliknite **Izbriši trošak**. Kada završite s dodavanjem ili brisanjem troškova kliknite **Spremi**.  
   

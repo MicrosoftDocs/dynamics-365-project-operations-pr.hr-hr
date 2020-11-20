@@ -3,7 +3,7 @@ title: Prikaz članova tima za projekt i upravljanje rezervacijama
 description: Prikaz članova tima za projekt i upravljanje rezervacijama u programu Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f7fae8a4e8821b7983112ffa46c1879c97b9589
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073463"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127750"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Prikaz članova tima za projekt i upravljanje rezervacijama (Project Service)
 
@@ -41,7 +41,7 @@ Možete prikazati popis članova tima vašeg projekta i iz njega možete održav
   
 5.  Da biste umjesto toga čvrsto rezervirali resurs, odaberite ulogu, a zatim kliknite **Čvrsto rezerviraj**. Ovo prikazuje prikaz kalendara svih resursa i njihovu dostupnost s kodiranjem bojom koje nudi vizualni prikaz stanja rezervacije resursa. Učinite nešto od sljedećeg za optimiziranje pretraživanja:  
   
-    -   Odaberite prikaz ili redoslijed sortiranja s vrha zaslona. Možete odabrati želite li prikazati dostupnost za **Dan** , **Tjedan** ili **Mjesec** , i koristite strelice da biste prikazali prethodno ili sljedeće vremensko razdoblje. Koristite okvir za pretraživanje da biste pronašli određeni resurs.  
+    -   Odaberite prikaz ili redoslijed sortiranja s vrha zaslona. Možete odabrati želite li prikazati dostupnost za **Dan**, **Tjedan** ili **Mjesec**, i koristite strelice da biste prikazali prethodno ili sljedeće vremensko razdoblje. Koristite okvir za pretraživanje da biste pronašli određeni resurs.  
   
     -   Kliknite **Mogućnosti** da biste promijenili što se prikazuje. Na primjer, možete prikazati legendu koja prikazuje sheme boja za različite vrste rezervacija ili možete odabrati prikaz samo određene vrste rezervacija (na primjer, tvrda rezervacija ili meka rezervacija).  
   

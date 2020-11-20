@@ -3,7 +3,7 @@ title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažu
 description: U ovoj se temi navode značajke i ispravke dostupne u rješenju Project Service Automation, izdanje ažuriranja 24, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073340"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126564"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation, izdanje ažuriranja 24, V3
 
@@ -67,7 +67,7 @@ Popravljeni su sljedeći problemi:
 
 Popravljeni su sljedeći problemi:
 
-- U mogućnosti **Raspored projekta** , pri promjeni iz **Ručno** u **Automatski** , automatsko se spremanje ne dovršava.
+- U mogućnosti **Raspored projekta**, pri promjeni iz **Ručno** u **Automatski**, automatsko se spremanje ne dovršava.
 - Troškovi izdatka ne bi se trebali računati prema odstupanjima na stavci **Rešetka za praćenje projekata**.
 - Nedosljedno ponašanje stupaca **Oznaka procjena** tijekom opterećenja naspram promjene vrste **Vremenska faza**.
 - Stvarni trošak projekta možda neće odražavati ukupne iznose iz mogućnosti **Stvarni podaci**.

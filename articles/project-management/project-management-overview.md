@@ -5,19 +5,19 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de7b77bbb0f6e8f7c55aadc35d1f732f37d56615
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073238"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127554"
 ---
 # <a name="project-management-overview"></a>Pregled upravljanja projektom
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Alati za upravljanje projektima u Dynamics 365 Project Operations pomažu vam pri jednostavnom pokretanju projekata. Alati za planiranje pomažu upraviteljima projekata i timovima da ostanu produktivni. Neki zadaci za koje vam alati mogu pomoći uključuju:
 

@@ -3,7 +3,7 @@ title: Upravljanje zahtjevima za resurse
 description: Upravljanje zahtjevima za resurse u programu Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073387"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128994"
 ---
 # <a name="manage-resource-requests-project-service"></a>Upravljanje zahtjevima za resurse (Project Service)
 
@@ -37,7 +37,7 @@ Upravitelji računa i upravitelji projekta redovito zahtijevaju resurse za proje
   
     Učinite nešto od sljedećeg za optimiziranje pretraživanja:  
   
-   -   Odaberite prikaz ili redoslijed sortiranja s vrha zaslona. Možete odabrati želite li prikazati dostupnost za **Dan** , **Tjedan** ili **Mjesec** , i koristite strelice da biste prikazali prethodno ili sljedeće vremensko razdoblje. Koristite okvir za pretraživanje da biste pronašli određeni resurs.  
+   -   Odaberite prikaz ili redoslijed sortiranja s vrha zaslona. Možete odabrati želite li prikazati dostupnost za **Dan**, **Tjedan** ili **Mjesec**, i koristite strelice da biste prikazali prethodno ili sljedeće vremensko razdoblje. Koristite okvir za pretraživanje da biste pronašli određeni resurs.  
   
    -   Kliknite **Mogućnosti** da biste promijenili što se prikazuje. Na primjer, možete prikazati legendu koja prikazuje sheme boja za različite vrste rezervacija ili možete odabrati prikaz samo određene vrste rezervacija (na primjer, tvrda rezervacija ili meka rezervacija).  
   

@@ -3,7 +3,7 @@ title: Konfiguriraj dodatne postavke parametara
 description: Koko konfigurirati postavke dodatnih parametara u programu Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073388"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129354"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfiguriraj postavke dodatnih parametara (Project Service)
 
@@ -54,9 +54,9 @@ Za postavljanje parametara projekta:
   
 2. Kliknite postavku parametara koju želite konfigurirati (onu koje ste izradili tijekom prve instalacije [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), ili kliknite **Novo** da biste izradili novi zapis.  
   
-3. U dijelu **Općenito** , postavite sve mogućnosti za parametre projekta.  
+3. U dijelu **Općenito**, postavite sve mogućnosti za parametre projekta.  
   
-4. U dijelu **Cjenik** kliknite **+** da biste dodali cjenik, odaberite cjenik na padajućem popisu **Cjenik parametara projekta** , a zatim kliknite **Spremi**.  
+4. U dijelu **Cjenik** kliknite **+** da biste dodali cjenik, odaberite cjenik na padajućem popisu **Cjenik parametara projekta**, a zatim kliknite **Spremi**.  
   
 5. Kliknite gumb **Spremi** u donjem desnom kutu zaslona.  
 

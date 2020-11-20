@@ -3,7 +3,7 @@ title: Dodaj uloge resursa
 description: Kako dodijeliti ulogu resursima značajke Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073584"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129579"
 ---
 # <a name="add-resource-roles-project-service"></a>Dodaj uloge resursa (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4073584"
 
 Postavljanje stopa ciljnog korištenja za svaku ulogu. Ove postavke određuju raspoloživost resursa i korištenje kada organizirate broj djelatnika i analizirate stvarne rezultate.  
   
-1.  Idite na željenu ulogu resursa za koju želite konfigurirati korištenje ( **Project Service > Uloga resursa** ).  
+1.  Idite na željenu ulogu resursa za koju želite konfigurirati korištenje (**Project Service > Uloga resursa**).  
   
 2.  Kliknite strelicu prema dolje pokraj uloge resursa pri vrhu zaslona.  
   

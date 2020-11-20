@@ -3,7 +3,7 @@ title: Prodajni procesi
 description: Ova tema pruža informacije o osnovnim prodajnim procesima.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073502"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129309"
 ---
 # <a name="sales-processes"></a>Prodajni procesi
 
@@ -46,7 +46,7 @@ Vrijednost prodaje može se procijeniti na temelju projekata koji su prethodno b
 
 Možete izraditi procjenu visoke razine ponude. Na kraju, ovu procjenu visoke razine zamijenit će detaljnija procjena koja se temelji na projektnom planu koju izrađujete s pomoću standardiziranih predložaka projekta. Ti predlošci pomažu kod izrade rasporeda i određivanja monetarnih vrijednosti u ponudi i njezinim komponentama (recima ponude). 
 
-Možete izraditi više ponuda za projekt i grupirati ih pod vrstom entiteta pojedinačne prilike. Naposljetku se jedna od tih ponuda označava kao **Zatvorena kao osvojena** , a izrađuje se ugovor projekta ili izjava o radu (SOW). Ugovor projekta sadrži ugovorenu vrijednost za svaku komponentu (redak ugovora) koju klijent prihvaća za isporuku. SOW se obično izrađuje kao Microsoft Word dokument. Sve fakture koje se šalju klijentu tijekom isporuke projekta, upućuju na ugovor projekta ili izjavu o radu.
+Možete izraditi više ponuda za projekt i grupirati ih pod vrstom entiteta pojedinačne prilike. Naposljetku se jedna od tih ponuda označava kao **Zatvorena kao osvojena**, a izrađuje se ugovor projekta ili izjava o radu (SOW). Ugovor projekta sadrži ugovorenu vrijednost za svaku komponentu (redak ugovora) koju klijent prihvaća za isporuku. SOW se obično izrađuje kao Microsoft Word dokument. Sve fakture koje se šalju klijentu tijekom isporuke projekta, upućuju na ugovor projekta ili izjavu o radu.
 
 Možete izraditi i alternativne ponude pod jednom vrstom entiteta prilike ili postaviti sustav tako da se ugovor projekta izradi kada se osvoji ponuda. U tom slučaju možete Wordov dokument koji predstavlja SOW priložiti zapisu ugovora projekta.
 
@@ -70,12 +70,12 @@ Tih šest faza predstavljaju ševroni (\>) koje odaberete za proširenje u svako
  
 Vaša organizacija može koristiti različite entitete da bi predstavljala isti dogovor kako se ona razvija. Početkom prodajnog procesa ugovor predstavlja entitet Prilika. Kako vrijeme prolazi i pojavljuje se više detalja, možda ćete koristiti procjene visoke razine za izradu jedne ili više ponuda. Ako se jedna od tih ponuda revidira od strane internih dionika i klijenata dionika, entitet Ponuda predstavlja dogovor. Nakon što klijent prihvati ponudu, ugovor projekta ili SOW predstavlja dogovor. Da biste podržali to ponašanje, BPFs strukturirani su tako da je svaka faza u procesu povezana s drugom tablicom baze podataka.
 
-Fazu **Kvalificiranje** u prodajnom procesu može poduprijeti entitet Prilika. Faze **Procjene** i **Interne revizije** može poduprijeti entitet Ponuda. Faze **Ugovor** , **Isporuka** i **Zatvori** može poduprijeti entitet Ugovor projekta.
+Fazu **Kvalificiranje** u prodajnom procesu može poduprijeti entitet Prilika. Faze **Procjene** i **Interne revizije** može poduprijeti entitet Ponuda. Faze **Ugovor**, **Isporuka** i **Zatvori** može poduprijeti entitet Ugovor projekta.
 
 Dok vodite dogovore kroz faze, od vas će se zatražiti da izradite odgovarajući zapis entiteta za pomoć pri vođenju kroz proces. Faze mogu biti uvjetovane. Na primjer, ako vam je potrebna interna revizija ponude samo ako ponuda koristi prilagođeni cjenik, možete konfigurirati taj uvjet u odgovarajućoj fazi poslovnog procesa. Faza **Interna revizija** zatim se prikazuje samo za ponude koje koriste prilagođeni cjenik. Za sve ostale ugovore i ponude, fazu **Procjena** slijedi faza **Ugovor**.
 
 > [!NOTE]
-> PSA ima određene stranice za entitete Prilika, Ponuda, Narudžba i Faktura. Za te entitete morate izraditi prilike, ponude, narudžbe i fakture za projektne usluge s pomoću stranica s informacijama o projektu. Ako koristite drugu stranicu za izradu zapisa, nećete moći otvoriti zapis sa stranice **Informacije o projektu**. Ako želite otvoriti zapis sa stranice **Informacije o projektu** , morate izbrisati zapis i ponovno ga izraditi s pomoću stranice **Informacije o projektu**. Na stranici **Informacije o projektu** , poslovna logika za svaku od tih vrsta entiteta osigurava ispravno postavljanje polja **Vrste** zapisa i pravilnu inicijalizaciju svih obaveznih pojmova.
+> PSA ima određene stranice za entitete Prilika, Ponuda, Narudžba i Faktura. Za te entitete morate izraditi prilike, ponude, narudžbe i fakture za projektne usluge s pomoću stranica s informacijama o projektu. Ako koristite drugu stranicu za izradu zapisa, nećete moći otvoriti zapis sa stranice **Informacije o projektu**. Ako želite otvoriti zapis sa stranice **Informacije o projektu**, morate izbrisati zapis i ponovno ga izraditi s pomoću stranice **Informacije o projektu**. Na stranici **Informacije o projektu**, poslovna logika za svaku od tih vrsta entiteta osigurava ispravno postavljanje polja **Vrste** zapisa i pravilnu inicijalizaciju svih obaveznih pojmova.
 
 > ![Informacije o projektu za novu narudžbu](media/basic-guide-4.png)
  
@@ -87,7 +87,7 @@ Iako prodajni proces u sustavu PSA koristi osnovne mogućnosti prodajnog procesa
 - **Zatvaranje ponude kao izgubljene ili osvojene** – u sustavu PSA, kada je ponuda projekta zatvorena kao osvojena ili izgubljena, prilika ostaje otvorena. Sve ostale ponude na prilici zatvorene su kao izgubljene. U Prodaji, kada je ponuda zatvorena kao osvojena ili izgubljena, od korisnika se traži da poduzme radnju u prilici. Ovisno o unosu korisnika, moguće je priliku zatvoriti ili ostaviti otvorenu.
 
 ## <a name="tracking-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Praćenje revizija ponuda i projektnih planova u prodajnom ciklusu
-U sustavu PSA, ne možete pratiti revizije koje se provode na ponudi. Umjesto toga morate označiti postojeću ponudu **Zatvorena kao izgubljena** , a zatim izraditi novu ponudu. Možete kopirati ponudu ili klonirati ponudu koja se temelji na projektu s pomoću PSA.
+U sustavu PSA, ne možete pratiti revizije koje se provode na ponudi. Umjesto toga morate označiti postojeću ponudu **Zatvorena kao izgubljena**, a zatim izraditi novu ponudu. Možete kopirati ponudu ili klonirati ponudu koja se temelji na projektu s pomoću PSA.
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Praćenje komentara i odobrenja ponuda i ugovora projekta
 Možete upravljati pregledom i odobrenjem ponuda i ugovora projekta s pomoću zida zapisa i objava. Vaša organizacija može izraditi prilagođene tijekove rada i dodatke za dodjelu, preusmjeravanje, eskalaciju i upravljanje obavijestima o radnim stavkama pregleda i odobravanja.

@@ -5,19 +5,19 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073239"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127331"
 ---
 # <a name="project-tracking-overview"></a>Pregled praćenja projekta
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Potreba praćenja napretka u odnosu na raspored razlikuje se ovisno o djelatnosti. Neke djelatnosti napredak prate na razini pojedinosti, dok ga druge prate na višoj razini. Ova tema pokazuje kako postaviti raspored da biste ispunili zahtjeve tvrtke ili ustanove.
 
@@ -25,10 +25,10 @@ Potreba praćenja napretka u odnosu na raspored razlikuje se ovisno o djelatnost
 
 Prikaz **Praćenje rada** prati napredak zadataka u rasporedu uspoređujući stvarne radne sate utrošene na zadatak s planiranim radnim satima za zadatak. Dynamics 365 Project Operations upotrebljava sljedeće formule za izračun mjernih podataka o praćenju:
 
-- **Postotak dovršenosti** : stvarni rad utrošen do datuma ÷ predviđen za dovršetak (EAC, Estimate at complete) 
-- **Predviđen za dovršetak (ETC)** : planirani rad – stvarni rad utrošen do datuma 
-- **EAC** : preostali rad + stvarni rad do datuma 
-- **Predviđeno odstupanje rada** : planirani rad – EAC
+- **Postotak dovršenosti**: stvarni rad utrošen do datuma ÷ predviđen za dovršetak (EAC, Estimate at complete) 
+- **Predviđen za dovršetak (ETC)**: planirani rad – stvarni rad utrošen do datuma 
+- **EAC**: preostali rad + stvarni rad do datuma 
+- **Predviđeno odstupanje rada**: planirani rad – EAC
 
 Project Operations prikazuje predviđanje odstupanja rada u zadatku. Ako je EAC veći od planiranog rada, predviđa se da će zadatak potrajati dulje nego što je prvotno planirano i da zaostaje za rasporedom. Ako je EAC manji od planiranog rada, predviđa se da će zadatak potrajati kraće nego što je prvotno planirano i da je ispred roka.
 
@@ -60,10 +60,10 @@ Prikaz **Praćenje troškova** uspoređuje stvarni trošak koji je potrošen na 
 > [!NOTE]
 > Ovaj prikaz prikazuje samo troškove rada i ne uključuje troškove iz procjena troškova. Project Operations upotrebljava sljedeće formule za izračun mjernih podataka o praćenju:
 
-- **Postotak utrošenog troška** : stvarni trošak utrošen do datuma ÷ procijenjeni trošak na završetku zadatka
-- **Trošak za dovršetak (CTC)** : planirani trošak – stvarni trošak do datuma
-- **EAC** : preostali troškovi + stvarni troškovi potrošeni do datuma
-- **Predviđeno odstupanje troškova** : planirani trošak – EAC
+- **Postotak utrošenog troška**: stvarni trošak utrošen do datuma ÷ procijenjeni trošak na završetku zadatka
+- **Trošak za dovršetak (CTC)**: planirani trošak – stvarni trošak do datuma
+- **EAC**: preostali troškovi + stvarni troškovi potrošeni do datuma
+- **Predviđeno odstupanje troškova**: planirani trošak – EAC
 
 Predviđanje odstupanja troškova prikazuje se u zadatku. Ako je EAC veći od planiranog troška, predviđa se da će zadatak imati veći trošak nego što je izvorno planirano. Stoga postoji tendencija premašivanja proračuna. Ako je EAC manji od planiranog troška, predviđa se da će zadatak imati manji trošak nego što je izvorno planirano. Stoga postoji tendencija neiskorištavanja proračuna.
 

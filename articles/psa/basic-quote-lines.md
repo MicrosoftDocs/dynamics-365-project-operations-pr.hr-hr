@@ -3,7 +3,7 @@ title: Ponude i reci ponude
 description: Ova tema pruža informacije o ponudama i recima ponude.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073503"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129444"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponude i reci ponude
 
@@ -35,7 +35,7 @@ U Dynamics 365 Project Service Automation, postoje dvije vrste ponuda: projektne
 - Prodajna ponuda podržava aktivaciju i revizije. Projektna ponuda ne podržava te procese.
 - Prodajnoj ponudi možete priložiti više naloga. Projektnoj ponudi možete priložiti samo jedan ugovor o projektu.
 - Možete osvojiti prodajnu ponudu i zadržati povezanu priliku otvorenom. Nakon što se dobije projetna ponuda, povezana prilika je zatvorena.
-- Prodajna ponuda ne uključuje neka polja i koncepte koji su uključeni u polja projektne ponude. Polja uključuju **Ugovornu jedinicu** , **Upravitelja računa** i **Naziv fakture za kontakt**.  
+- Prodajna ponuda ne uključuje neka polja i koncepte koji su uključeni u polja projektne ponude. Polja uključuju **Ugovornu jedinicu**, **Upravitelja računa** i **Naziv fakture za kontakt**.  
 - Prodajne ponude i projektne ponude također se identificiraju poljem koje se temelji na skupu mogućnosti pod nazivom **Vrsta**. Za prodajnu ponudu, ovo polje ima vrijednost **Na temelju artikla**. Za projektnu ponudu, ona ima vrijednost **Na temelju rada**.
 
 Ova tema usredotočit će se na pojedinosti o projektnim ponudama.
@@ -59,7 +59,7 @@ Redak ponude koji se temelji na projektu u PSA ima sljedeće načine naplate:
 
 ### <a name="time-and-material"></a>Vrijeme i materijal
 
-Način naplate vremena i materijala temelji se na potrošnji. Kada odaberete ovaj način naplate, kupac se fakturira jer projekt snosi troškove. Fakture se izrađuju na periodičnoj frekvenciji koja se temelji na datumu. Tijekom procesa prodaje, navedena vrijednost komponente vremena i materijala daje samo procjenu krajnjeg troška klijentu. Dobavljač se ne obvezuje na dovršetak projekta za točno navedenu vrijednost. Komponente vremena i materijala povećavaju rizik klijenta. Klijenti bi mogli pregovarati o dodatnim klauzulama koje se ne mogu premašiti kako bi smanjio njihov rizik. PSA ne podržava postavljanje klauzula koje se ne smije prelaziti.
+Način naplate vremena i materijala temelji se na potrošnji. Kada odaberete ovaj način naplate, klijentu se fakturira jer projekt snosi troškove. Fakture se izrađuju na periodičnoj frekvenciji koja se temelji na datumu. Tijekom procesa prodaje, navedena vrijednost komponente vremena i materijala daje samo procjenu krajnjeg troška klijentu. Dobavljač se ne obvezuje na dovršetak projekta za točno navedenu vrijednost. Komponente vremena i materijala povećavaju rizik klijenta. Klijenti bi mogli pregovarati o dodatnim klauzulama koje se ne mogu premašiti kako bi smanjio njihov rizik. PSA ne podržava postavljanje klauzula koje se ne smije prelaziti.
 
 ### <a name="fixed-price"></a>Fiksna cijena
 
@@ -76,7 +76,7 @@ PSA podržava sve tri vrste rasporeda faktura za retke fiksne cijene.
 Organizacije za profesionalne usluge obično sastavljaju ponude i izdaju fakture svojim klijentima klasifikacijom troškova. U PSA, troškovi su predstavljaju sljedećim klasifikacijama transakcija:
 
 - **Vrijeme** – Ova klasifikacija predstavlja trošak rada ili vremena ljudskog resursa na projektu.
-- **Trošak** : – Ova klasifikacija predstavlja sve druge vrste troškova na projektu. Budući da troškovi mogu biti široko klasificirani, većina organizacija izrađuje podkategorije, kao što su putovanja, iznajmljivanje automobila, hotel ili uredski materijal.
+- **Trošak**: – Ova klasifikacija predstavlja sve druge vrste troškova na projektu. Budući da troškovi mogu biti široko klasificirani, većina organizacija izrađuje podkategorije, kao što su putovanja, iznajmljivanje automobila, hotel ili uredski materijal.
 - **Naknada** – Ova klasifikacija predstavlja razne troškove, kazne i ostale stavke koji se naplaćuju klijentu. 
 - **Porez** – Ova klasifikacija predstavlja iznose poreza koje korisnici dodaju dok unose troškove.
 - **Materijalna transakcija** – Ova klasifikacija predstavlja stvarne podatke linija proizvoda na potvrđenoj fakturi projekta.
@@ -91,7 +91,7 @@ Na primjer, ponuda može sadržavati sljedeće dvije retke ponude:
 - Povezani putni troškovi koji upotrebljavaju način naplate fiksne cijene. Na primjer, svi putni troškovi za primjer **Implementacije AX Dynamics** sustava fakturirani su po fiksnoj monetarnoj vrijednosti.
 
 > [!NOTE]
-> Kombinacija projekta i klasifikacija transakcije **Vremena** , **Troška** i **Naknade** koje su pridružene retku ponude ili retku ugovora mora biti jedinstvena. Ako je ista kombinacija razreda projekta i transakcije pridružena više od jednom retka ugovora ili retka ponude, PSA neće ispravno funkcionirati.
+> Kombinacija projekta i klasifikacija transakcije **Vremena**, **Troška** i **Naknade** koje su pridružene retku ponude ili retku ugovora mora biti jedinstvena. Ako je ista kombinacija razreda projekta i transakcije pridružena više od jednom retka ugovora ili retka ponude, PSA neće ispravno funkcionirati.
 
 ## <a name="billing-types"></a>Vrste naplate
 

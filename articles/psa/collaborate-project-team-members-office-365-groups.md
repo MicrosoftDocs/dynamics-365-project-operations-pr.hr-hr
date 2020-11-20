@@ -3,7 +3,7 @@ title: Surađuj s članovima projektnog tima koristeći grupe sustava Office 365
 description: Kako surađivati s članovima tima programa Project Service putem grupa sustava Office 365
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a7caa9275c2df493b42f08a23d4cf450c56a8683
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3b8f6fb0de5c6803f0ff242160164207af8ce738
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073565"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126924"
 ---
 # <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a>Surađuj s članovima projektnog tima koristeći grupe sustava Office 365 (Project Service)
 
@@ -37,7 +37,7 @@ Uz [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], možete surađiv
   
 3. Na traci pri vrhu ekrana, odaberite strelicu prema dolje pokraj naziva projekta, a zatim kliknite **Grupe sustava Office 365**. Prikazat će se vaš projekt i stavke koje se dijele s vašom grupom.  
   
-4. Da biste otvorili radni prostor tima u [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], kliknite **Otvori kalendar** , **Otvori razgovore** , **Otvori bilježnicu** , **Otvori dokumente** ili **Otvori osobe**.  
+4. Da biste otvorili radni prostor tima u [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], kliknite **Otvori kalendar**, **Otvori razgovore**, **Otvori bilježnicu**, **Otvori dokumente** ili **Otvori osobe**.  
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)

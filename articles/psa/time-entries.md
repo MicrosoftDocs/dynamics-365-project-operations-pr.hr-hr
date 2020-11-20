@@ -3,7 +3,7 @@ title: Stvaranje vremenskih unosa
 description: Ova tema pruža informacije o tome kako izraditi vremenske unose.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073479"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131254"
 ---
 # <a name="create-time-entries"></a>Stvaranje vremenskih unosa
 
@@ -41,7 +41,7 @@ Slijedite ove korake da biste stvorili Unos vremena.
 4. U polju **Projektni zadatak** pronađite zadatak za ovaj Unos vremena.
 
     > [!NOTE]
-    > Ako stvarate Unos vremena za zadatak koji nije dodijeljen korisniku, u polju **Projektni zadatak** odaberite gumb **Pretraži** , **Promijeni prikaz** , a zatim odaberite **Svi aktivni zadaci projekta** za prikaz popisa svih zadataka.
+    > Ako stvarate Unos vremena za zadatak koji nije dodijeljen korisniku, u polju **Projektni zadatak** odaberite gumb **Pretraži**, **Promijeni prikaz**, a zatim odaberite **Svi aktivni zadaci projekta** za prikaz popisa svih zadataka.
 
 5. Unesite opis ako je potreban opis, a zatim odaberite **Spremi i zatvori**.
 

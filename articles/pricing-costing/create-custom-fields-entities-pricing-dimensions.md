@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073426"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130884"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Stvaranje prilagođenih polja i entitete kao cjenovnih veličina
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Dovršite sljedeće korake u bilo kojem trenutku kada želite stvoriti prilagođeni skup mogućnosti ili entitet.
 
@@ -35,8 +35,8 @@ Dovršite sljedeće korake u bilo kojem trenutku kada želite stvoriti prilagođ
 
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Izradi prilagođeno rješenje za dimenzije određivanja cijena
-1. Idite na **Postavke** > **Rješenja** , a zatim odaberite **Novo** kako biste stvorili novo rješenje. 
-2. Rješenju dodijelite naziv **\<your organization name> dimenzije za određivanje cijena** , unesite preostale potrebne podatke, a zatim odaberite **Spremi**.
+1. Idite na **Postavke** > **Rješenja**, a zatim odaberite **Novo** kako biste stvorili novo rješenje. 
+2. Rješenju dodijelite naziv **\<your organization name> dimenzije za određivanje cijena**, unesite preostale potrebne podatke, a zatim odaberite **Spremi**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Izradi prilagođena polja i skupove mogućnosti u rješenju dimenzije određivanja cijena
 
@@ -62,7 +62,7 @@ Možete izraditi dvije dimenzije koje se temelje na skupu mogućnosti. Koristite
 
 Podatke za dimenzije koje se temeljene na entitetu možete izraditi ručno ili s pomoću Microsoft Excel poziva za uvoz ili servisiranje. Koristite korake u ovom postupku za izradu dvaju standardnih naslova, **Inženjer sustava** i **Viši inženjer sustava** iz dimenzije koja se temelji na entitetu, **Standardni naslov**. Ako su podaci koje želite izraditi mali, kao u sljedećem primjeru, možete koristiti standardni obrazac.
 
-1. Odaberite **Napredno pretraživanje** , odaberite entitet **Standardni naslov** , a zatim odaberite **Rezultati**. Prikazat će se svi redovi u entitetu **Standardni naslov**.
+1. Odaberite **Napredno pretraživanje**, odaberite entitet **Standardni naslov**, a zatim odaberite **Rezultati**. Prikazat će se svi redci u entitetu **Standardni naslov**.
 2. Odaberite **Novo** i upolju **Naziv** unesite „Inženjer sustava”, a zatim odaberite **Spremi**.
 3. Zatvori obrazac. 
 4. Ponovite korake 1 - 3 za izradu drugog standardnog naslova za "Viši inženjer sustava".

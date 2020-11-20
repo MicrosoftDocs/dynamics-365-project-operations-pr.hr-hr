@@ -3,7 +3,7 @@ title: Dopusti da netko drugi unese stavku vremena ili troškova
 description: Kako drugima dopustiti unos vaše stavke vremena ili troškova u programu Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073361"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130346"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Dopusti da netko drugi unese stavku vremena ili troškova (Project Service)
 
@@ -37,13 +37,13 @@ Postavite delegat da biste drugima dopustili unos stavke vremena ili troškova u
   
 2.  Na traci s naredbama kliknite **Novo**.  
   
-3. **Naziv** : Unesite naziv zapisa.  
+3. **Naziv**: Unesite naziv zapisa.  
   
-4. **Vrsta** : Odaberite može li delegat unijeti stavke vremena ili troškova u vaše ime.  
+4. **Vrsta**: Odaberite može li delegat unijeti stavke vremena ili troškova u vaše ime.  
   
-5. **Delegat** : Odaberite ime osobe koju želite imenovati kao delegata.  
+5. **Delegat**: Odaberite ime osobe koju želite imenovati kao delegata.  
   
-6. **Datum početka i završetka** : Odaberite datume kada delegacija počinje i završava.  
+6. **Datum početka i završetka**: Odaberite datume kada delegacija počinje i završava.  
   
 7.  Kada završite, kliknite **Spremi i zatvori**.  
   
@@ -61,7 +61,7 @@ Postavite delegat da biste drugima dopustili unos stavke vremena ili troškova u
   
 1.  Na glavnom izborniku kliknite **Project Service** > **Unosi vremena**.  
   
-2.  S padajućeg popisa na traci s naredbama odaberite **NAZIV RESURSA** , a zatim odaberite ime osobe za koju unosite vrijeme.  
+2.  S padajućeg popisa na traci s naredbama odaberite **NAZIV RESURSA**, a zatim odaberite ime osobe za koju unosite vrijeme.  
   
 3.  Kliknite **U redu**.  
   
@@ -77,7 +77,7 @@ Postavite delegat da biste drugima dopustili unos stavke vremena ili troškova u
   
 1.  Na glavnom izborniku kliknite **Project Service** > **Troškovi**.  
   
-2.  S padajućeg popisa na traci s naredbama odaberite **NAZIV RESURSA** , a zatim odaberite ime osobe za koju unosite troškove.  
+2.  S padajućeg popisa na traci s naredbama odaberite **NAZIV RESURSA**, a zatim odaberite ime osobe za koju unosite troškove.  
   
 3.  Kliknite **U redu**.  
   

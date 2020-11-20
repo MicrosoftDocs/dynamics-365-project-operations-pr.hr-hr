@@ -3,7 +3,7 @@ title: Rezerviraj imenovane resurse iz zahtjeva resursa
 description: Ova tema pruža informacije o rezerviranju imenovanih resursa za generički zahtjev resursa.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073593"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125889"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Rezerviraj imenovane resurse iz zahtjeva resursa
 
@@ -31,14 +31,14 @@ ms.locfileid: "4073593"
 
 Možete rezervirati imenovani resurs da zamjenite generički resurs koji ima zahtjev resursa.
 
-1. U sustavu Project Service Automation (PSA) na stranici **Projekti** , kliknite karticu **Tim**.
+1. U sustavu Project Service Automation (PSA) na stranici **Projekti**, kliknite karticu **Tim**.
 2. S popisa odaberite generički resurs koji ima zahtjev resursa, a zatim kliknite **Rezerviraj**. Ili otvorite zahtjev resursa, a zatim kliknite **Rezerviraj**.
 
 
 ![Rezervacija člana generičkog tima](media/RM-how-to-14.png)
 
 
-3. Na stranici **Pomoćnik za raspored** , odaberite imenovani resurs koji ćete rezervirati u projektni tim, a zatim kliknite **Rezerviraj**.
+3. Na stranici **Pomoćnik za raspored**, odaberite imenovani resurs koji ćete rezervirati u projektni tim, a zatim kliknite **Rezerviraj**.
 
 ![Rezervacija člana generičkog tima s pomoću pomoćnika za raspored](media/RM-how-to-15.png)
 

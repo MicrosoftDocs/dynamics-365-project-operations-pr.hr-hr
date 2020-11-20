@@ -5,19 +5,19 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2ebde2b3c5bcfb5faa02ee476065ac34b1953432
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 454b8931db53739a7bc19364911109802a1ed087
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073308"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127342"
 ---
 # <a name="resource-estimates"></a>Procjene resursa
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Procjene resursa potječu iz vremenski razrađenog rada koji je definiran u strukturnoj analizi rada zajedno s mjerodavnom dimenzijama cijena. Uobičajeno, izračun je **cijena/sat za svaku ulogu x sati**. Vremenski razrađeni rad za svaki resurs pohranjen je u zapisu o dodjeli resursa. Cijene su pohranjene u unaprijed definiranom cjeniku. Pretvaranje jedinice primjenjuje se na temelju mjerodavnog cjenika.
 

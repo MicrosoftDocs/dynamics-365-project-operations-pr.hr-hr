@@ -5,25 +5,25 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073333"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130298"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Popunjavanje zahtjeva za generičkim resursima
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Možete rezervirati imenovani resurs da zamjenite generički resurs koji ima zahtjev resursa.
 
 1. Na stranici **Projekti** odaberite karticu **Tim**.
 2. S popisa odaberite generički resurs koji ima zahtjev za resursom, a zatim odaberite **Rezerviraj**. Ili otvorite zahtjev za resursom, a zatim odaberite **Rezerviraj**.
-3. Na stranici **Pomoćnik za raspored** , odaberite imenovani resurs koji ćete rezervirati u projektni tim, a zatim odaberite **Rezerviraj**.
+3. Na stranici **Pomoćnik za raspored**, odaberite imenovani resurs koji ćete rezervirati u projektni tim, a zatim odaberite **Rezerviraj**.
 
 Kada je rezervacija dovršena i ispunjena od strane imenovanog resursa, generički resurs zamjenjuje se imenovanim resursom.
 
