@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 087950c9639a95868a20d71286dfad4437555108
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073383"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119409"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Postavljanje prilagođenih polja kao cjenovnih veličina
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Prije početka rada, u ovoj se temi podrazumijeva da ste dovršili postupke opisane u temama [Izrada prilagođenih polja i entiteta](create-custom-fields-entities-pricing-dimensions.md) i [Dodavanje obveznih prilagođenih polja entitetima za postavljanje cijena i transakcije](add-custom-fields-price-setup-transactional-entities.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovu temu. 
 
@@ -36,14 +36,14 @@ Ovaj tema pruža informacije o postavljanju prilagođenih dimenzija cijena. Na s
 - **msdyn_OrganizationalUnit** (Organizacijska jedinica)
 
 > [!IMPORTANT]
-> Nemojte izbrisati te retke. No, ako ih ne trebate, možete im onemogućiti primjenu u određenom kontekstu postavljanjem vrijednosti za **Primjenjivo na trošak** , **Primjenjivo na prodaju** i **Primjenjivo na kupnju** na **Ne** Postavljanje vrijednosti tih atributa na **Ne** ima isti učinak kao da nemate polje kao dimenziju cijena.
+> Nemojte izbrisati te retke. No, ako ih ne trebate, možete im onemogućiti primjenu u određenom kontekstu postavljanjem vrijednosti za **Primjenjivo na trošak**, **Primjenjivo na prodaju** i **Primjenjivo na kupnju** na **Ne** Postavljanje vrijednosti tih atributa na **Ne** ima isti učinak kao da nemate polje kao dimenziju cijena.
 
 Da bi polje postalo dimenzija cijena, ono mora biti:
 
 - Stvoreno kao polje u entitetima **Cijena uloge** i **Provizija cijene uloge**. Više informacija kako to napraviti potražite u odjeljku [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](add-custom-fields-price-setup-transactional-entities.md).
 - Stvoreno kao redak u tablici **Dimenzija cijena**. Na primjer, dodajte retke dimenzije cijena kao što je prikazano na slici u nastavku. 
 
-Radno vrijeme resursa ( **msdyn_resourceworkhours** ) dodano je kao veličina utemeljena na proviziji i dodana je u rešetku na kartici **Cjenovna veličina utemeljena na proviziji**.
+Radno vrijeme resursa (**msdyn_resourceworkhours**) dodano je kao veličina utemeljena na proviziji i dodana je u rešetku na kartici **Cjenovna veličina utemeljena na proviziji**.
 
 > [!IMPORTANT]
 > Svaka izmjena podataka o dimenziji cijena u ovoj tablici, postojećih ili novih, prenosi se na poslovnu logiku određivanja cijena tek nakon osvježavanja predmemorije. Vrijeme osvježavanja predmemorije može trajati do 10 minuta. Pričekajte neko vrijeme dok se promjene ne prikažu u logici za postavljanje zadane cijene koja mora odražavati promjene u podacima dimenzije cijena.
@@ -58,8 +58,8 @@ Ova bi vrijednost trebala točno odgovarati nazivu sheme polja koje je dodano u 
 ### <a name="type-of-dimension"></a>Vrsta dimenzije
 Postoje dvije vrste dimenzija cijena:
   
-  - **Dimenzije utemeljene na iznosu** : vrijednosti dimenzije iz ulaznog konteksta podudaraju se s vrijednostima dimenzije u retku **Cijena uloge** , a cijena/trošak preuzete su kao zadane vrijednosti izravno iz tablice **Cijena uloge**.
-  - **Veličine utemeljene na proviziji** : To su veličine za koje se upotrebljava sljedeći postupak u tri koraka kako bi se došlo do cijene/troška:
+  - **Dimenzije utemeljene na iznosu**: vrijednosti dimenzije iz ulaznog konteksta podudaraju se s vrijednostima dimenzije u retku **Cijena uloge**, a cijena/trošak preuzete su kao zadane vrijednosti izravno iz tablice **Cijena uloge**.
+  - **Veličine utemeljene na proviziji**: To su veličine za koje se upotrebljava sljedeći postupak u tri koraka kako bi se došlo do cijene/troška:
  
     1. Vrijednosti veličine koje nisu utemeljene na proviziji iz konteksta unosa podudaraju se s retkom Cijene uloge kako bi se dobila osnovna cijena.
     2. Vrijednosti veličine iz konteksta unosa podudaraju se s retkom **Provizija cijene uloge** kako bi se dobio postotak provizije.
@@ -77,16 +77,16 @@ Postoje dvije vrste dimenzija cijena:
 Ako je resurs iz tvrtke Contoso Indija čija je osnovna stopa za rad na lokaciji 600,00 kn, a oni na unosu radnog vremena bilježe 8 sati redovitog i 2 sata prekovremenog rada, modul za određivanje cijena upotrebljava osnovnu cijenu od 600,00 kn za 8 sati kako bi se zabilježilo 4.800,00 kn. Za 2 sata prekovremenog rada na osnovnu stopu od 100 primjenjuje se provizija od 15% da bi se dobila jedinična cijena od 115 USD te se bilježi ukupni trošak od 230 USD.
 
 ### <a name="applicable-to-cost"></a>Primjenjivo na trošak 
-Ako je ovo polje postavljeno na **Da** , to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa troška i provizije.
+Ako je ovo polje postavljeno na **Da**, to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa troška i provizije.
 
 ### <a name="applicable-to-sales"></a>Primjenjivo na prodaju
-Ako je ovo polje postavljeno na **Da** , to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa naplate i provizije.
+Ako je ovo polje postavljeno na **Da**, to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa naplate i provizije.
 
 ### <a name="applicable-to-purchase"></a>Primjenjivo na kupnju
-Ako je ovo polje postavljeno na **Da** , to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja kupovne cijene. Scenariji podugovaranja nisu podržani, pa se ovo polje ne upotrebljava. 
+Ako je ovo polje postavljeno na **Da**, to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja kupovne cijene. Scenariji podugovaranja nisu podržani, pa se ovo polje ne upotrebljava. 
 
 ### <a name="priority"></a>Prioritet
 Postavljanje prioriteta veličine omogućuje alatu za određivanje cijene da napravi cijenu, čak i kada ne može pronaći točno podudaranje između vrijednosti ulazne veličine i vrijednosti iz tablice **Cijena uloge** ili **Provizija cijene uloge**. U ovom scenariju vrijednosti nule upotrebljavaju se za vrijednosti veličine koje se ne podudaraju kako bi se dimenzije ponderirale po redoslijedu prioriteta.
 
-- **Prioritet troška** : vrijednost prioriteta troška dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena koštanja. Vrijednost **Prioritet troška** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na trošak**.
-- **Prioritet prodaje** : vrijednost prioriteta prodaje dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena prodaje ili stopa naplate. Vrijednost **Prioritet prodaje** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na prodaju**.
+- **Prioritet troška**: vrijednost prioriteta troška dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena koštanja. Vrijednost **Prioritet troška** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na trošak**.
+- **Prioritet prodaje**: vrijednost prioriteta prodaje dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena prodaje ili stopa naplate. Vrijednost **Prioritet prodaje** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na prodaju**.

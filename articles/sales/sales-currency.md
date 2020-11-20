@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,21 +17,21 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1db7e76dbb220954b9f9088b2168eed1a1902abc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073420"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121209"
 ---
 # <a name="currency"></a>Valuta
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Valute određuju cijene proizvoda navedenih u katalogu proizvoda i trošak transakcija kao što su prodajne narudžbe. Ako imate klijente širom svijeta, dodajte njihove valute radi upravljanja transakcijama. Dodajte valute koje najviše odgovaraju vašim trenutačnim i budućim poslovnim potrebama.  
 
 > [!NOTE]
-> Ako je vaše okruženje okruženje usluge Common Data Service, nalazite se u centru za administratore sustava Power Platform i odaberete stranicu **Valute** ( **Okruženja** > [odaberite okruženje] > **Postavke** > **Poslovanje** > **Valute** ), stranica će biti prazna. To je zbog toga što postavljanje valute nije podržano u okruženjima Common Data Service.
+> Ako je vaše okruženje okruženje usluge Common Data Service, nalazite se u centru za administratore sustava Power Platform i odaberete stranicu **Valute** (**Okruženja** > [odaberite okruženje] > **Postavke** > **Poslovanje** > **Valute**), stranica će biti prazna. To je zbog toga što postavljanje valute nije podržano u okruženjima Common Data Service.
 
 ## <a name="add-a-currency"></a>Dodavanje valute  
 Prije nego što započnete ovaj postupak, provjerite sadrži li vaša sigurnosna uloga dozvole administratora sustava. 
@@ -45,9 +45,9 @@ Prije nego što započnete ovaj postupak, provjerite sadrži li vaša sigurnosna
 
    |          Polje          |                                                                                                                                                                                                                                                                                                                                                                            Opis                                                                                                                                                                                                                                                                                                                                                                            |
    |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |    **Vrsta valute**    | - **Sustav** – odaberite ovu mogućnost ako želite koristiti valute dostupne u aplikacijama utemeljenima na modelu u sustavu Dynamics 365. Za pretraživanje valute odaberite mogućnost **Traženje**. Kada odaberete šifru valute, **Naziv valute** i **Simbol valute** će se automatski dodati za odabranu valutu.<br />- **Prilagođeno** – odaberite ovu mogućnost ako želite dodati valutu koja nije dostupna u aplikacijama utemeljenima na modelu u sustavu Dynamics 365. U tom slučaju potrebno je ručno unijeti vrijednosti **Šifra valute** , **Preciznost valute** , **Naziv valute** , **Simbol valute** , i **Pretvorba valute**. |
+   |    **Vrsta valute**    | - **Sustav** – odaberite ovu mogućnost ako želite koristiti valute dostupne u aplikacijama utemeljenima na modelu u sustavu Dynamics 365. Za pretraživanje valute odaberite mogućnost **Traženje**. Kada odaberete šifru valute, **Naziv valute** i **Simbol valute** će se automatski dodati za odabranu valutu.<br />- **Prilagođeno** – odaberite ovu mogućnost ako želite dodati valutu koja nije dostupna u aplikacijama utemeljenima na modelu u sustavu Dynamics 365. U tom slučaju potrebno je ručno unijeti vrijednosti **Šifra valute**, **Preciznost valute**, **Naziv valute**, **Simbol valute**, i **Pretvorba valute**. |
    |    **Šifra valute**    |                                                                                                                                                                                                                                                                                                                                            Kratica valute. Na primjer **USD** za United States Dollar (dolar SAD-a).                                                                                                                                                                                                                                                                                                                                            |
-   | **Preciznost valute**  |                                                                                                                                                                                  Upišite broj decimalnih mjesta koje želite koristiti za valutu.  Možete dodati vrijednost između 0 i 4. **Napomena**  Ako ste postavili preciznu vrijednost u dijaloškom okviru **Postavke sustava** , ta će se vrijednost pojaviti ovdje.                                                                                                                                                                                  |
+   | **Preciznost valute**  |                                                                                                                                                                                  Upišite broj decimalnih mjesta koje želite koristiti za valutu.  Možete dodati vrijednost između 0 i 4. **Napomena**  Ako ste postavili preciznu vrijednost u dijaloškom okviru **Postavke sustava**, ta će se vrijednost pojaviti ovdje.                                                                                                                                                                                  |
    |    **Naziv valute**    |                                                                                                                                                                                                                                         Ako ste odabrali kod valute s popisa dostupnih valuta u aplikacijama utemeljenima na modelu u sustavu Dynamics 365 , naziv valute za odabrani kod prikazuje se ovdje. Ako ste odabrali **Prilagođeno** kao vrstu valute, upišite naziv valute.                                                                                                                                                                                                                                          |
    |   **Simbol valute**   |                                                                                                                                                                                                                                                                      Ako ste odabrali šifru valute s popisa dostupnih valuta, ovdje se prikazuje simbol za odabranu valutu. Ako ste odabrali **Prilagođeno** kao vrstu valute, unesite simbol za novu valutu.                                                                                                                                                                                                                                                                       |
    | **Pretvorba valute** |                                                                                                                                                                                                                                     Upišite vrijednost odabrane valute u odnosu na jedan američki dolar. To je iznos prema kojem se odabrana valuta pretvara u osnovnu valutu. **Važno:**  pobrinite se da ažurirate valutu dovoljno često kako biste izbjegli netočne izračune u transakcijama.                                                                                                                                                                                                                                      |

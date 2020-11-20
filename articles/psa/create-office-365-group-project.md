@@ -3,7 +3,7 @@ title: Izradi grupu sustava Office 365 za projekt
 description: Kako izraditi grupu sustava Office 365 u programu Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 080b00e03597b0e81f09926fcac0093136a4565b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c3f2be4f68fc492dc867cdbbac6f1401eede629d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073393"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118824"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>Izradi grupu sustava Office 365 za projekt (Project Service)
 

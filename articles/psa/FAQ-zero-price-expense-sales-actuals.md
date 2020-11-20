@@ -3,7 +3,7 @@ title: Zašto je zadana cijena u u stvarnim podacima troškovi – prodaja nula
 description: Sljedeće tri provjere pomoći će vam utvrditi zašto je zadana cijena u stvarnim podacima troškovi – prodaja 0.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5840bda4f74c720bfcdc7f4e84c8f22e0c6163ec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073408"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122064"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Zašto je zadana cijena u stvarnim podacima troškovi – prodaja nula?
 
@@ -33,12 +33,12 @@ Ova se najčešća pitanja primjenjuju na stvarne troškove u slučajevima u koj
 
 ## <a name="check-1-identify-the-sales-price-list-for-project"></a>Provjera 1: identifikacija cjenika prodaje za projekt
 
-Pronađite projekt iz polja Projekt stvarnih podataka i otvorite stranicu projekta. Zatim otvorite karticu Prodaja. Na rešetki Retci ugovora projekta kliknite vezu u polju Ugovor projekta. Otvorit će se stranica Ugovor projekta. Na stranici Ugovor projekta otvorite karticu Retci ugovora projekta. Provjerite je li tu priložen barem jedan cjenik.
+Pronađite projekt iz polja Projekt stvarnih podataka i otvorite stranicu projekta. Zatim otvorite karticu Prodaja. Na rešetki Retci ugovora projekta kliknite vezu u polju Ugovor projekta. Otvorit će se stranica Ugovor projekta. Na stranici Ugovor o projektu otvorite karticu cjenici za projekt. Provjerite je li tu priložen barem jedan cjenik.
 
-Ako rešetki Cjenici projekta stranice Ugovor projekta nije priložen nijedan cjenik, učinite sljedeće:
+Ako rešetki Cjenici za projekt Ugovora o projektu nije priložen nijedan cjenik, učinite sljedeće:
 
-- Priložite jedan cjenik rešetki Cjenici projekta. Da bi se cjenici mogli priložiti tu, njihovo polje konteksta mora biti postavljeno na Prodaju, a vrijednost polja valute na cjeniku mora se podudarati s vrijednošću polja valute na stranici Ugovor projekta. Nakon što izvršite potrebne popravke, ponovno stvorite unos troška, odobrite ga pa provjerite prikazuje li se valjana cijena za stvarnu nenaplaćenu prodaju.
-- Ako ste rešetki Cjenici projekta stranice Ugovor projekta priložili jedan ili više cjenika, prijeđite na provjeru 2:
+- Priložite cjenik rešetki Cjenici za projekt. Da bi se cjenici mogli priložiti tu, njihovo polje konteksta mora biti postavljeno na Prodaju, a vrijednost polja valute na cjeniku mora se podudarati s vrijednošću polja valute na stranici Ugovor projekta. Nakon što izvršite potrebne popravke, ponovno stvorite unos troška, odobrite ga pa provjerite prikazuje li se valjana cijena za stvarnu nenaplaćenu prodaju.
+- Ako ste rešetki Cjenici za projekt stranice Ugovora o projektu priložili jedan ili više cjenika, prijeđite na provjeru 2:
 
 ## <a name="check-2-are-any-of-the-price-lists-identified-above-valid-for-the-specific-date-of-the-expense-actual"></a>Provjera 2: Je li ijedan od cjenika utvrđenih gore valjan za određeni datum iz stvarnih troškova?
 

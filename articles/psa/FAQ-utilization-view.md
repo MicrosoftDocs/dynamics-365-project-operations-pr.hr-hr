@@ -3,7 +3,7 @@ title: Prikaži naplativo korištenje za resurse
 description: Ova tema pruža informacije o prikazu korištenja resursa.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073410"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122154"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Prikaži naplativo korištenje za resurse
  
@@ -46,7 +46,7 @@ Ciljno korištenje može se postaviti na zadanu ulogu resursa ili na sam određe
 
 1. Otvorite **Resursi** \> **Resursi**. 
 2. Odaberite resurs da biste otvorili zapis. 
-3. Na kartici **Project Service** , možete postaviti ciljno korištenje resursa.
+3. Na kartici **Project Service**, možete postaviti ciljno korištenje resursa.
 
 > ![Snimka zaslona s prikazom postavljanja ciljnog korištenja s pomoću kartice Project Service](media/FAQ-utilization-2.png)
  
@@ -68,7 +68,7 @@ Najprije, ciljno korištenje mora se postaviti na pojedinačni resurs ili na ulo
 
 1. Da biste to postavili, idite na **Resursi** \> **Resursi**. 
 2. Odaberite resurs, otvorite zapis, a zatim odaberite karticu **Project Service**. 
-3. U rešetki **Uloga resursa** , provjerite postoji li jedna uloga za resurs i je li **Zadana** postavljena na **Da**.
+3. U rešetki **Uloga resursa**, provjerite postoji li jedna uloga za resurs i je li **Zadana** postavljena na **Da**.
  
 ### <a name="change-billing-type-for-resource-role"></a>Promijeni vrstu naplate za ulogu resursa
 

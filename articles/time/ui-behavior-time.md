@@ -5,19 +5,19 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073323"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124494"
 ---
 # <a name="time-entry-ui-behavior"></a>Ponašanje korisničkog sučelja za unos vremena
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 
 Rešetka **Tjedni unos vremena** prilagođena je kontrola koja ima dva glavna odjeljka, **Dimenzije** i **Trajanje**.
@@ -40,7 +40,7 @@ U odjeljku Trajanje dani u tjednu prikazuju se kao zaglavlja stupaca. Ovaj odjel
 
 1. U rešetki za unos vremena odaberite **Novo**. 
 2. U dijaloškom okviru **Brzo stvaranje unosa vremena** odaberite datum unosa vremena.
-3. Unesite podatke za dimenzije **Projekt** , **Projektni zadatak** , **Uloga** i **Trajanje**. Ove podatke trebate dodati u minutama, satima ili danima upisivanjem **h** , **m** ili **d** , zajedno s brojem. 
+3. Unesite podatke za dimenzije **Projekt**, **Projektni zadatak**, **Uloga** i **Trajanje**. Ove podatke trebate dodati u minutama, satima ili danima upisivanjem **h**, **m** ili **d**, zajedno s brojem. 
 4. Unesite opis unosa i sve komentare koji se mogu dijeliti s vanjskim korisnicima koji se odnose na unos vremena. 
 
 Kada spremite unos, unesene vrijednosti prikazuju se u odjeljku **Dimenzije**. Podaci uneseni u polje **Trajanje** prikazuju se na datumu za koji je unos vremena stvoren.
@@ -48,7 +48,7 @@ Kada spremite unos, unesene vrijednosti prikazuju se u odjeljku **Dimenzije**. P
 Polja za traženje podržavaju sistemski prikazi. Na primjer, nakon što korisnik unese projekt, polje **Projektni zadatak** prema zadanim postavkama postavljeno je na prikaz **Kopiranje**. Da biste stvorili vremenske unose za zadatke koji nisu dodijeljeni korisniku, odaberite **Promijeni prikaz** u dijaloškom okviru za traženje, a zatim odaberite prikaz **Svi aktivni zadaci projekta**.
 
 ## <a name="edit-a-time-entry"></a>Uređivanje unosa vremena 
-Pojedinosti iz nekih polja na stranici za Unos vremena, kao što su **Opis** i **Vanjski komentari** , ne prikazuju se u rešetki tjednih vremenskih unosa. Umjesto toga, u ćelijama **Trajanje** koje imaju te dodatne pojedinosti prikazuje se mali trokutasti indikator. 
+Pojedinosti iz nekih polja na stranici za Unos vremena, kao što su **Opis** i **Vanjski komentari**, ne prikazuju se u rešetki tjednih vremenskih unosa. Umjesto toga, u ćelijama **Trajanje** koje imaju te dodatne pojedinosti prikazuje se mali trokutasti indikator. 
 
 1. Kako biste uredili unos vremena, odaberite ćeliju koju želite ažurirati u unosu vremena.
 2. Odaberite mogućnost **Uredi pojedinosti** kako biste ažurirali podatke u oknu **Glavni obrazac za unos vremena**. 
@@ -67,10 +67,10 @@ Možete opozvati unose koje ste poslali. Možete opozvati jedan Unos vremena, bl
 
 ## <a name="time-entry-status"></a>Status unosa vremena
 
-- **Skica** : Novim vremenskim unosima automatski se dodjeljuje status **Skica**. Mogu se izbrisati samo Unos vremenai koji imaju status **Skica**.
-- **Poslano** : Kada se unos vremena pošalje, status se ažurira na **Poslano**. 
-- **Odobreno** : Kada se poslani unos vremena odobri, status se ažurira na **Odobreno**. 
-- **Vraćeno** : Ako je unos vremena odbijen, status se ažurira na **Vraćeno** , a unos postaje dostupan za ispravak i ponovno slanje. 
+- **Skica**: Novim vremenskim unosima automatski se dodjeljuje status **Skica**. Mogu se izbrisati samo Unos vremenai koji imaju status **Skica**.
+- **Poslano**: Kada se unos vremena pošalje, status se ažurira na **Poslano**. 
+- **Odobreno**: Kada se poslani unos vremena odobri, status se ažurira na **Odobreno**. 
+- **Vraćeno**: Ako je unos vremena odbijen, status se ažurira na **Vraćeno**, a unos postaje dostupan za ispravak i ponovno slanje. 
 
 ## <a name="view-rejection-comments"></a>Prikaz komentara o odbacivanju
 Kada odobravatelj odbije Unos vremena, odobravatelj može dodati komentare kako bi resurs saznao zašto je unos odbijen. Za prikaz komentara o odbacivanju za Unos vremena odaberite **Otvori unos**. Komentari o odbacivanju prikazuju se na vremenskoj traci. Korisnik može odgovoriti na komentare odbijanja prije nego što ponovo pošalju unos.
@@ -79,9 +79,9 @@ Kada odobravatelj odbije Unos vremena, odobravatelj može dodati komentare kako 
 Nakon stvaranja nekoliko unosa vremena, korisnici mogu istodobno stvoriti više vremenskih unosa.
 
 1. U obrascu **Unosi vremena** odaberite **Kopiraj tjedan** za skupno stvaranje dodatnih unosa vremena. 
-2. U dijaloškom okviru **Kopiraj** , u odjeljku **Od razdoblja** , upotrijebite polja **Datum početka** i **Datum završetka** kako biste definirali raspon datuma iz kojih ćete kopirati unose vremena. 
+2. U dijaloškom okviru **Kopiraj**, u odjeljku **Od razdoblja**, upotrijebite polja **Datum početka** i **Datum završetka** kako biste definirali raspon datuma iz kojih ćete kopirati unose vremena. 
 3. U odjeljku **Razdoblje do** u polju **Datum početka** navedite datum za koji stvarate vremenske unose. 
-4. Odaberite **Kopiraj**. Za navedeni datum u stavci **Do razdoblja** , stvara se kopija unosa vremena za odgovarajući dan u tjednu u stavci **Od razdoblja**. Na primjer, Unos vremena za ponedjeljak od prošlog tjedna kopira se u ponedjeljak u tjednu koji je naveden kao vrijednost stavke **Do razdoblja**.
+4. Odaberite **Kopiraj**. Za navedeni datum u stavci **Do razdoblja**, stvara se kopija unosa vremena za odgovarajući dan u tjednu u stavci **Od razdoblja**. Na primjer, Unos vremena za ponedjeljak od prošlog tjedna kopira se u ponedjeljak u tjednu koji je naveden kao vrijednost stavke **Do razdoblja**.
 
 ## <a name="import"></a>Uvezi
 Isti osnovni postupak koristi se za uvoz iz rezervacija, dodjela i razmjena. Možete navesti raspon datuma iz kojeg se vrši uvoz rezervacija, a zatim izričito odabrati rezervacije koje treba kopirati u skice unosa vremena. 

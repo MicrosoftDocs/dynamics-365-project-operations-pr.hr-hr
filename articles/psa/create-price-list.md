@@ -3,7 +3,7 @@ title: Izradi cjenik
 description: Kako izraditi cjenik u programu Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073424"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122019"
 ---
 # <a name="create-a-price-list-project-service"></a>Izradi cjenik (Project Service)
 
@@ -39,15 +39,15 @@ Cjenici ovise o ulogama i kategorijama troškova, tako da prije no što izradite
   
 2.  Kliknite **Novo**.  
   
-3.  U izborniku **Kontekst** , odaberite je li cjenik za kategoriju **Trošak** , **Nabava** ili **Prodaja**.  
+3.  U izborniku **Kontekst**, odaberite je li cjenik za kategoriju **Trošak**, **Nabava** ili **Prodaja**.  
   
-4.  U kategoriji **Naziv** , unesite naziv za cjenik.  
+4.  U kategoriji **Naziv**, unesite naziv za cjenik.  
   
-5.  U kategoriji **Valuta** , odaberite valutu koji ćete koristiti za naplatu i obračun troškova.  
+5.  U kategoriji **Valuta**, odaberite valutu koji ćete koristiti za naplatu i obračun troškova.  
   
 6.  U kategoriji **Jedinica vremena** navedite razdoblje na koje se cijena odnosi, kao što su dan ili sat.  
   
-7.  Ispunite **Datum početka** , **Datum završetka** i **Opis** , prema potrebi.  
+7.  Ispunite **Datum početka**, **Datum završetka** i **Opis**, prema potrebi.  
   
 8.  Kliknite **Spremi** da biste izradili zapis tako da možete nastaviti s uređivanjem.  
   
@@ -57,15 +57,15 @@ Cjenici ovise o ulogama i kategorijama troškova, tako da prije no što izradite
   
 11. Da biste cjeniku dodali cijenu kategorije troškova, kliknite **+** pod **Cijene kategorije**.  
   
-12. U oknu **Cijena kategorije transakcija** , unesite pojedinosti, a zatim kliknite **Spremi**. Nastavite s dodavanjem cijena kategorija prema potrebi. Kada ste završili, kliknite **Spremi** u donjem desnom kutu zaslona.  
+12. U oknu **Cijena kategorije transakcija**, unesite pojedinosti, a zatim kliknite **Spremi**. Nastavite s dodavanjem cijena kategorija prema potrebi. Kada ste završili, kliknite **Spremi** u donjem desnom kutu zaslona.  
   
 13. Da biste cjeniku dodali stavke cjenika, kliknite **+** pod **Stavke cjenika**.  
   
-14. U oknu **Stavka cjenika** , unesite pojedinosti, a zatim kliknite **Spremi**. Nastavite s dodavanjem stavki cjenika prema potrebi. Kada ste završili, kliknite **Spremi** u donjem desnom kutu zaslona.  
+14. U oknu **Stavka cjenika**, unesite pojedinosti, a zatim kliknite **Spremi**. Nastavite s dodavanjem stavki cjenika prema potrebi. Kada ste završili, kliknite **Spremi** u donjem desnom kutu zaslona.  
   
 15. Da biste cjeniku dodali odnose teritorija, kliknite **+** pod **Odnosi teritorija**.  
   
-16. U prozoru **Nova veza** , unesite pojedinosti, a zatim kliknite **Spremi**. Nastavite s dodavanjem odnosa teritorija prema potrebi. Kada ste završili, kliknite **Spremi** u donjem desnom kutu zaslona.  
+16. U prozoru **Nova veza**, unesite pojedinosti, a zatim kliknite **Spremi**. Nastavite s dodavanjem odnosa teritorija prema potrebi. Kada ste završili, kliknite **Spremi** u donjem desnom kutu zaslona.  
   
 ### <a name="see-also"></a>Također pogledajte  
  [Konfiguriraj sustav Project Service Automation](../psa/configure.md)

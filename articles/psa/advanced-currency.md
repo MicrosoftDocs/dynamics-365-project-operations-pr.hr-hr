@@ -3,7 +3,7 @@ title: Scenariji višestruke valute (verzija 3.x)
 description: Ova tema pruža informacije o scenarijima višestruke valute.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073498"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123369"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenariji višestruke valute
 
@@ -56,7 +56,7 @@ Sljedeći entiteti smatraju se poslovnim transakcijama:
 - Pojedinost retka fakture
 - Stvarni rezultat
 
-U svakom od tih entiteta postoji zapis koji predstavlja iznos troška ili iznos prodaje. Što se tiče bilo kojeg entiteta sustava Dynamics 365 koji ima polje **Iznos** , svaki zapis sadrži iznose i u valuti transakcije i u osnovnoj valuti. 
+U svakom od tih entiteta postoji zapis koji predstavlja iznos troška ili iznos prodaje. Što se tiče bilo kojeg entiteta sustava Dynamics 365 koji ima polje **Iznos**, svaki zapis sadrži iznose i u valuti transakcije i u osnovnoj valuti. 
 
 PSA proširuje koncept valute transakcije za trošak i prodaju na sljedeće načine:
 
@@ -69,8 +69,8 @@ PSA proširuje koncept valute transakcije za trošak i prodaju na sljedeće nač
 U ovom se odjeljku opisuje primjer projekta koji Contoso UK dostavlja klijentu koji se zove Fabrikam, Japan. Evo kako je scenarij postavljen:
 
 1. GBP i Japanski jen (JPY) postavljeni su pod **Postavke** \> **Poslovno upravljanje** \> **Valute**. 
-2. Postavljen je račun klijenta pod nazivom **Fabrikam - Japan** , a JPY je odabran kao valuta na računu.
-3. Postavljena je organizacijska jedinica pod nazivom **Contoso UK** , a GBP je odabrana kao valuta.
+2. Postavljen je račun klijenta pod nazivom **Fabrikam - Japan**, a JPY je odabran kao valuta na računu.
+3. Postavljena je organizacijska jedinica pod nazivom **Contoso UK**, a GBP je odabrana kao valuta.
 4. Izrađen je ugovor o projektu gdje je **Contoso UK** naveden kao ugovorna jedinica, a **Fabrikam – Japan** kao klijent.
 5. Na temelju aranžmana naplate za različite razrede transakcija na projektu, kao što je naplata za vrijeme u odnosu na naplatu za troškove, izrađeni su reci ugovora o projektu.
 6. Izrađen je projekt u kojem je **Contoso UK** naveden kao ugovorna jedinica. Ovaj projekt je izrađen i mapiran u retke ugovora o projektu.

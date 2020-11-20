@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 702402854c0787dae0bde854c9c274f5c23c131f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073456"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119589"
 ---
 # <a name="product-price-lists"></a>Cjenici proizvoda
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Cjenici i entiteti stavki cjenika podržavaju određivanje cijena kataloga proizvoda. Ova se funkcija uglavnom upotrebljava za retke temeljene na katalogu u ponudama projekata i ugovorima o projektu.
 
@@ -42,13 +42,13 @@ Proizvode iz kataloga proizvoda možete dodavati na različite cjenike. Reci cje
 
 PSA podržava različite mogućnosti zaokruživanja kada su cijene konfigurirane kao funkcija kataloške cijene, trenutačnog troška ili standardnog troška. Uz iskorištavanje prednosti više načina određivanja cijena i mogućnosti zaokruživanja, popise popusta možete povezati sa stavkama cjenika. 
 
-Kada stvarate novi prilagođeni cjenik za ponudu odabirom mogućnosti **Stvori prilagođeno određivanje cijena** na stranici **Ponuda za projekt** , napravljena je kopija cjenika, a polje **Entitet** u zaglavlju novog cjenika postavlja se na **Prodajni entitet**. Naziv novog cjenika dodaje se s nazivom ponude i vremenskom oznakom. Također možete koristiti naziv novog cjenika i naziv ponude u prilagođenim tijekovima rada za pokretanje dodatnog pregleda i odobrenja za ponude koje koriste prilagođeno određivanje cijena.
+Kada stvarate novi prilagođeni cjenik za ponudu odabirom mogućnosti **Stvori prilagođeno određivanje cijena** na stranici **Ponuda za projekt**, napravljena je kopija cjenika, a polje **Entitet** u zaglavlju novog cjenika postavlja se na **Prodajni entitet**. Naziv novog cjenika dodaje se s nazivom ponude i vremenskom oznakom. Također možete koristiti naziv novog cjenika i naziv ponude u prilagođenim tijekovima rada za pokretanje dodatnog pregleda i odobrenja za ponude koje koriste prilagođeno određivanje cijena.
 
  
 ## <a name="default-product-price-list"></a>Zadani cjenik proizvoda
-Svaki zapis klijenta sadrži polje **Zadani cjenik** , gdje možete navesti cjenik koji odgovara valuti klijenta. Zadana vrijednost ne unosi se automatski u ovo polje. Kada postoji prilagođeni ugovor o određivanju cijena s određenim klijentom, ovo polje možete koristiti za povezivanje cjenika s tim klijentom.
+Svaki zapis klijenta sadrži polje **Zadani cjenik**, gdje možete navesti cjenik koji odgovara valuti klijenta. Zadana vrijednost ne unosi se automatski u ovo polje. Kada postoji prilagođeni ugovor o određivanju cijena s određenim klijentom, ovo polje možete koristiti za povezivanje cjenika s tim klijentom.
 
-Entiteti Prilika, Ponuda i Ugovor o projektu koriste sljedeću ponudu za unos zadanih cjenika proizvoda. Ista ponuda koristi se za cjenike projekta.
+Entiteti Prilika, Ponuda i Ugovor o projektu koriste sljedeću ponudu za unos zadanih cjenika proizvoda. Ista ponuda upotrebljava se za cjenike za projekt.
 
 1.  Ponuda
 2.  Prilika

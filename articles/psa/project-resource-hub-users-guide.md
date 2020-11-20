@@ -3,7 +3,7 @@ title: Korisnički vodič za središte resursa projekata
 description: Korisnički vodič za središte resursa projekata za Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073379"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123144"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Korisnički vodič za središte resursa projekata
 
@@ -88,7 +88,7 @@ Unesite troškove najmanje tjedno ili onoliko često koliko to traže vaši upra
 
 1. Dodirnite gumb izbornika ![gumb Izbornika](media/MenuButton.png "Gumb izbornika"), a zatim dodirnite stavku **Izdaci**. To pokreće kalendar.
 
-2. Možete prijeći na prikaz **Dan** , **Tjedan** ili **Mjesec** ili se pomaknuti na prethodno ili sljedeće vremensko razdoblje. 
+2. Možete prijeći na prikaz **Dan**, **Tjedan** ili **Mjesec** ili se pomaknuti na prethodno ili sljedeće vremensko razdoblje. 
 
 3. Da biste unijeli troškove dodirnite **novo** na naredbenoj traci. 
 

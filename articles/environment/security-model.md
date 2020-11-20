@@ -5,19 +5,19 @@ author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073273"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124359"
 ---
 # <a name="security-model"></a>Sigurnosni model
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Microsoft Dynamics 365 Project Operations sadrži jedinstveni sigurnosni model koji omogućuje poslovni model sigurnosti koji se temelji na ulozi koja surađuje s Grupama sustava Microsoft Office. 
 
@@ -66,7 +66,7 @@ Pretraživanje člana grupe u dijaloškom okviru **Upravljanje grupom** ogranič
 4. Izvorni vlasnik projekta dodan je u grupu sustava Office.
 
 ## <a name="deployment-recommendation"></a>Preporuke za implementaciju
-Kako se model suradnje grupe sustava Office razvija, dodavat će se funkcionalnost koja će tijekom vremena pružati podrobniju kontrolu. Kupci koji danas implementiraju aplikaciju Project Operations potiču se da se usredotoče na tradicionalni sigurnosni model sustava Microsoft Dynamics 365.
+Kako se model suradnje grupe sustava Office razvija, dodavat će se funkcionalnost koja će tijekom vremena pružati podrobniju kontrolu. Klijenti koji danas implementiraju aplikaciju Project Operations potiču se da se usredotoče na tradicionalni sigurnosni model sustava Microsoft Dynamics 365.
 
 Dodatne informacije potražite u odjeljku [Sigurnost na platformi Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
 

@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073257"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123729"
 ---
 # <a name="travel-requisitions"></a>Putni nalozi
 
@@ -52,7 +52,7 @@ Odaberite putni nalog koji želite odobriti, a zatim odaberite **Tijek rada** > 
 
 1. Stvorite novo izvješće o troškovima i u zaglavlju izvješća o troškovima, a zatim s popisa odobrenih putnih naloga, odaberite **Mapiraj u putni nalog**.
 2. Polje **Iznos putnog naloga** automatski se ažurira u zaglavlju izvješća o troškovima.
-3. Dodavanje svih troškova nastalih tijekom putovanja. Ako je omogućeno polje **Predautorizirano** , ažurirat će se usklađeni iznos i odobreni iznos za određenu kategoriju troška.
+3. Dodavanje svih troškova nastalih tijekom putovanja. Ako je omogućeno polje **Predautorizirano**, ažurirat će se usklađeni iznos i odobreni iznos za određenu kategoriju troška.
 
 > [!NOTE]
 > Kada mapirate izvješće o troškovima u odobreni putni nalog, iznos transakcije ne može biti veći od autoriziranog iznosa. 

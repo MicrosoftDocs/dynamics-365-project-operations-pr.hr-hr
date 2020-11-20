@@ -3,17 +3,17 @@ title: Priprema novog okruženja
 description: U ovoj temi nalaze se informacije o načinu pripreme novog okruženja aplikacije Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073275"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121164"
 ---
 # <a name="provision-a-new-environment"></a>Priprema novog okruženja
 
@@ -76,7 +76,7 @@ Project Operations zahtijeva okruženje aplikacije Finance verzije **10.0.13 (10
 
 Možda ćete trebati primijeniti kvalitativna ažuriranja u svom okruženju aplikacije Finance kako biste primili ovu verziju.
 
-1. Na stranici **Pojedinosti okruženja** LSC-a, u odjeljku **Dostupna ažuriranja** , odaberite **Pogledajte ažuriranje**.
+1. Na stranici **Pojedinosti okruženja** LSC-a, u odjeljku **Dostupna ažuriranja**, odaberite **Pogledajte ažuriranje**.
 
 ![Prikaz ažuriranja](./media/5ViewUpdates.png)
 
@@ -120,7 +120,7 @@ Održavanje okruženja potrajat će neko vrijeme. Nakon završetka, okruženje �
 
 ![Primjena rješenja](./media/13ApplySolutions.png)
 
-5. Odaberite oba rješenja, **Dvostruko zapisivanje mape entiteta aplikacije Dynamics 365 Finance and Operations** i **Dvostruko zapisivanje mapa entiteta aplikacije Dynamics 365 Project Operations** , a zatim odaberite **Prijava**.
+5. Odaberite oba rješenja, **Dvostruko zapisivanje mape entiteta aplikacije Dynamics 365 Finance and Operations** i **Dvostruko zapisivanje mapa entiteta aplikacije Dynamics 365 Project Operations**, a zatim odaberite **Prijava**.
 
 ![Potvrda rješenja](./media/14ConfirmSolutions.png)
 
@@ -142,7 +142,7 @@ Nakon primjene entiteta, sva raspoloživa mapiranja navedena su u okruženju.
 
 ![Parametri okvira](./media/17FrameworkParameters.png)
 
-3. Na stranici **Postavke entiteta** , odaberite mogućnost **Osvježi popis entiteta**.
+3. Na stranici **Postavke entiteta**, odaberite mogućnost **Osvježi popis entiteta**.
 
 ![Osvježavanje popisa entiteta](./media/18RefreshEntityList.png)
 
@@ -177,7 +177,7 @@ Osvježavanje će potrajati otprilike 20 minuta. Kada bude dovršeno dobit ćete
 
 5. Nakon završetka osvježavanja pokrenite mapu. Prije nego što omogućite sljedeću mapu, provjerite je li mapa u tablici u stanju **Izvodi se**. Izvođenje mapa s većim brojem preduvjeta može potrajati.
 
-Kako biste pokrenuli mapu s preduvjetima, omogućite preklopni gumb **Prikaži povezane mape entiteta**. Ako je u tablici navedeno kako **Početna sinkronizacija preduvjeta** ima vrijednost **Ne** , prije pokretanja provjerite je li zastavica **Početna sinkronizacija** postavljena na **Isključeno** na svim mapama s preduvjetima.
+Kako biste pokrenuli mapu s preduvjetima, omogućite preklopni gumb **Prikaži povezane mape entiteta**. Ako je u tablici navedeno kako **Početna sinkronizacija preduvjeta** ima vrijednost **Ne**, prije pokretanja provjerite je li zastavica **Početna sinkronizacija** postavljena na **Isključeno** na svim mapama s preduvjetima.
 
 ![Pokretanje mape](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Kako biste pokrenuli mapu s preduvjetima, omogućite preklopni gumb **Prikaži p
 
 ![Sve mape rade](./media/22AllMapsRunning.png)
 
-Vaše okruženje Project Operations sada je pripremljeno i konfigurirano.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Primjena konfiguracijskih podataka na platformi CDS za aplikaciju Project Operations (neobvezno)
+
+Ako ste primijenili pokazne podatke u okruženju aplikacije Finance, pogledajte odjeljak [Postavljanje i primjena podataka na platformi Common Data Service za aplikaciju Project Operations](resource-apply-pro-setup-config-data.md) kako biste pokazne podatke primijenili na okruženje platforme CDS.
+
+
+Vaše okruženje Project Operations sada je pripremljeno i konfigurirano. 

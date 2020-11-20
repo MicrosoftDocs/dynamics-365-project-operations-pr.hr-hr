@@ -3,7 +3,7 @@ title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažu
 description: U ovoj se temi navode značajke i ispravke dostupne u rješenju Project Service Automation, izdanje ažuriranja 18, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073342"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119859"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation, izdanje ažuriranja 18, V3
 
@@ -36,7 +36,7 @@ Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji 
 
 **Vrijeme i trošak**
 
-- Rješeno: Mogućnosti **Podsjetnik** , **Zahtjev** i **Otkaži odobrenje** odbacuju iznimke s nejasnim porukama o pogrešci.
+- Rješeno: Mogućnosti **Podsjetnik**, **Zahtjev** i **Otkaži odobrenje** odbacuju iznimke s nejasnim porukama o pogrešci.
 - riješeno: Kada mogućnost **Otkaži odobrenje** ne uspije za trošak, relevantna se pogreška iznimke ne odbacuje.
 - Riješeno: Rešetka vremenskog unosa pogrešno obrađuje neradne dane u Australiji nakon prebacivanja ljetnog računanja vremena (DST) u listopadu.
 - Riješeno: Nepravilna zadana logika sprječava slanje troškova.
@@ -60,4 +60,4 @@ Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji 
 
 **Sales**
 
-- Riješeno: Kada se vremenski unosi ponovno odobre ( **Odobri > Odustani >** odobri ponovno), stvara se dvostruki nenaplativi trenutak.
+- Riješeno: Kada se vremenski unosi ponovno odobre (**Odobri > Odustani >** odobri ponovno), stvara se dvostruki nenaplativi trenutak.

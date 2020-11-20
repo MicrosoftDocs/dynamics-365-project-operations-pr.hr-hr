@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073416"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122919"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Stvaranje procjena po retku ponude
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Na ponudi koji se temelji na projektu, možete koristiti entitet pojedinost retka ponude za procjenu rada potrebnog za isporuku projekta. Tu procjenu zatim možete podijeliti s klijentom.
 
@@ -83,7 +83,7 @@ Ako ste dodali prilagođeno polje u pojedinost retka ponude i želite da sustav 
 2. Odaberite **Pretraži** i potražite dodatak za ažuriranje.
 3. Odaberite dodatak, a zatim na glavnoj stranici odaberite **Odaberi**.
 4. Odaberite korak dodatka za ažuriranje, kliknite desnom tipkom miša, a zatim odaberite **Ažuriraj**.
-5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke ( **...** ):
+5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke (**...**):
 6. U dijaloškom okviru **Odaberi atribute** odaberite potvrdne okvire za prilagođene atribute.
 7. Odaberite **U redu** da biste zatvorili dijaloški okvir, a zatim odaberite **Ažuriraj korak**.
 8. Ponovite korake od 1 do 7 za drugi dodatak.

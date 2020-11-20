@@ -2,7 +2,7 @@
 title: Nadogradnja početne stranice
 description: Ova tema pokazuje gdje pronaći važne informacije o novim i promijenjenim značajkama u sustavu Dynamics 365 Project Service Automation i procesu nadogradnje na najnoviju verziju.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073469"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121749"
 ---
 # <a name="upgrade-home-page"></a>Nadogradnja početne stranice
 
@@ -61,4 +61,4 @@ Od 17. svibnja 2019. godine sve će nove instance imati UCI kao zadani klijent. 
 Od 1. ožujka 2020. klijenti sustava Dynamics PSA više neće moći stvarati nova okruženja sa starijim verzijama PSA, na primjer PSA verzije 2.x ili starije. Svako novo okruženje dobit će samo PSA verzije 3.x.
 
 > [!NOTE]
-> Za najbolji doživljaj prilikom korištenja starijih verzija aplikacija Field service i PSA, idite na **Postavke sustava** , a za polje **Koristi samo novo objedinjeno sučelje (preporučeno)** , odaberite **Ne** jer ove verzije nisu dizajnirane da se ispravno učitavaju u UCI-ju. Nakon što ste isključili UCI, možete otvoriti i pokrenuti ove verzije aplikacija Field Service i PSA pomoću starog web-klijenta. 
+> Za najbolji doživljaj prilikom korištenja starijih verzija aplikacija Field service i PSA, idite na **Postavke sustava**, a za polje **Koristi samo novo objedinjeno sučelje (preporučeno)**, odaberite **Ne** jer ove verzije nisu dizajnirane da se ispravno učitavaju u UCI-ju. Nakon što ste isključili UCI, možete otvoriti i pokrenuti ove verzije aplikacija Field Service i PSA pomoću starog web-klijenta. 

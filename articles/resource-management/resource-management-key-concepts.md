@@ -5,19 +5,19 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 124d9bad5cc0c16955417a8213db047a2d8bae1d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073235"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123864"
 ---
 # <a name="resource-management-key-concepts"></a>Ključni koncepti upravljanja resursima
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Resursi su najvažnije sredstvo za tvrtke ili ustanove koje su utemeljene na uslugama. Mogućnost pronalaženja pravih resursa u pravo vrijeme, rezerviranje tih resursa u projektima i iskorištavanje tih resursa omogućuju da tvrtka ili ustanova ostvari ciljeve prihoda i zadovoljstva klijenata. Funkciju raspodjele resursa za projekt u aplikaciji Dynamics 365 Project Operations možete upotrijebiti za sljedeće zadatke:
 

@@ -3,7 +3,7 @@ title: Određivanje cijene projekta
 description: Ova tema sadrži informacije o tome kako funkcionira određivanje cijene u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073585"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120759"
 ---
 # <a name="project-pricing"></a>Određivanje cijene projekta 
 
@@ -56,7 +56,7 @@ Pojam *Uloga resursa* odnosi se na skup vještina, kompetencija i certifikacija 
 
 Vrijeme ljudskog resursa obično se navodi na temelju uloge koju resurs ispunjava u određenom projektu. Za vrijeme ljudskog resursa, PSA podržava troškove i naplatu koji se temelje na ulozi resursa. Vrijeme može biti naplaćeno u bilo kojoj jedinici u grupi jedinica **Vrijeme**.
 
-Grupa jedinica **Vrijeme** izrađuje se prilikom instalacije PSA. Ima zadanu jedinicu **Sat**. Ne možete brisati, preimenovati ili uređivati atribute grupe jedinica **Vrijeme** ili jedinice **Sat**. Međutim, možete dodati druge jedinice u grupu jedinica **Vrijeme**. Ako pokušate izbrisati grupu jedinica **Vrijeme** ili jedinicu **Sat** , mogli biste uzrokovati greške u poslovnoj logici sustava PSA.
+Grupa jedinica **Vrijeme** izrađuje se prilikom instalacije PSA. Ima zadanu jedinicu **Sat**. Ne možete brisati, preimenovati ili uređivati atribute grupe jedinica **Vrijeme** ili jedinice **Sat**. Međutim, možete dodati druge jedinice u grupu jedinica **Vrijeme**. Ako pokušate izbrisati grupu jedinica **Vrijeme** ili jedinicu **Sat**, mogli biste uzrokovati greške u poslovnoj logici sustava PSA.
 
 > ![Konfiguriranje cijena po ulozi](media/basic-guide-13.png)
  
@@ -84,7 +84,7 @@ Svaki od sljedećih entiteta može imati jedan ili više pridruženih prodajnih 
 - Ponuda 
 - Ugovor o projektu
 
-Pridruživanje tih entiteta cjeniku naznačeno je cjenikom projekta. Jedan ili više cjenika možete prudružiti prodajnim entitetima Klijent, Prilika, Ponuda i Ugovor o projektu.
+Povezivanje tih entiteta s cjenikom naznačeno je cjenicima za projekt. Jedan ili više cjenika možete prudružiti prodajnim entitetima Klijent, Prilika, Ponuda i Ugovor o projektu.
 
 Zadani cjenik projekta ne unosi se automatski u zapis klijenta. Međutim, cjenik projekta možete ručno priložiti zapisu klijenta. Ipak, trebate ručno priložiti cjenik projekta samo kada imate prilagođeni ugovor o određivanju cijena s klijentom. 
 
@@ -93,7 +93,7 @@ Kada se cjenik projekta prilaže prodajnom entitetu, PSA provjerava sljedeće in
 - Cjenik u kontekstu **Prodaje**. 
 - Valuta cjenika podudara se s valutom klijenta. 
 
-Na ugovoru o projektu, PSA koristi sljedeći redoslijed prvenstva za automatsko postavljanje povezanih cjenika projekta:
+Na ugovoru o projektu, PSA koristi sljedeći redoslijed prvenstva za automatsko postavljanje povezanih cjenika za projekt:
 
 1. Ponuda
 2. Prilika
@@ -102,11 +102,11 @@ Na ugovoru o projektu, PSA koristi sljedeći redoslijed prvenstva za automatsko 
 
 Ako je cjenik projekta unesen po zadanim postavkama, PSA provjerava odgovara li valuta valuti klijenta i imaju li zadani cjenici koji su uneseni kontekst **Prodaje**.
 
-Entitete Klijent, Prilika, Ponuda i Ugovor projekta možete povezati s nekoliko cjenika projekta. Ova mogućnost podržava zadane cijene za određeni datum za ugovor o dugoročnom projektu, u kojem bi moglo biti potrebno više od jednog cjenika za ažuriranje cijena koje se pojavljuju zbog inflacije. Međutim, ako cjenici koje pridružujete entitetu Klijent, Prilika, Ponuda ili Ugovor o projektu imaju preklapajući datum stupanja na snagu, zadane cijene možda nisu točne. Stoga biste trebali osigurati da cjenici projekta koji imaju preklapajući datum stupanja na snagu nisu pridruženi tim entitetima.
+Entitete Klijent, Prilika, Ponuda i Ugovor o projektu možete povezati s nekoliko cjenika za projekt. Ova mogućnost podržava zadane cijene za određeni datum za ugovor o dugoročnom projektu, u kojem bi moglo biti potrebno više od jednog cjenika za ažuriranje cijena koje se pojavljuju zbog inflacije. Međutim, ako cjenici koje pridružujete entitetu Klijent, Prilika, Ponuda ili Ugovor o projektu imaju preklapajući datum stupanja na snagu, zadane cijene možda nisu točne. Stoga biste trebali osigurati da cjenici za projekt koji imaju preklapajući datum stupanja na snagu nisu pridruženi tim entitetima.
 
 ### <a name="deal-specific-price-overrides"></a>Otpisi cijena koji su specifični za dogovor
 
-U PSA možete izraditi otpise koji su specifični za dogovor za odabrane cijene na cjenicima projekta koji su uneseni prema zadanim postavkama u ponudu ili ugovor projekta.
+U PSA možete izraditi otpise koji su specifični za dogovor za odabrane cijene na cjenicima za projekt koji su uneseni prema zadanim postavkama u ponudu ili ugovor o projektu.
 
 Prema zadanim postavkama, ugovor projekta uvijek dobiva kopiju glavnog prodajnog cjenika umjesto izravne veze do njega. To ponašanje pomaže jamčiti da se sporazumi o cijenama koji su sklopljeni s klijentom za izjavu o radu (SOW) ne mijenjaju ako je glavni cjenik promijenjen.
 

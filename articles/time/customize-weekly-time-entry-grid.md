@@ -5,19 +5,19 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073287"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124629"
 ---
 # <a name="extending-time-entries"></a>Produljenje unosa vremena
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Dynamics 365 Project Operations uključuje prilagođenu kontrolu produljenja unosa vremena. Ta kontrola obuhvaća sljedeće značajke:
 
@@ -33,7 +33,7 @@ Produljenja unosa vremena mogući su u dva područja:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Dodavanje prilagođenih unosa vremena za vlastitu uporabu
 
-Unosi vremena osnovni su entitet koji se upotrebljava u više scenarija. U valu 1. za ožujak 2020. predstavljeno je osnovno rješenje TESA. TESA osigurava entitet **Postavke** i novu sigurnosnu ulogu **Korisnik vremenskog unosa**. Nova polja **msdyn_start** i **msdyn_end** , koja imaju izravan odnos prema **msdyn_duration** , također su bila uključena. Novi entitet, sigurnosna uloga i polja omogućuju objedinjeniji pristup vremenu diljem više proizvoda.
+Unosi vremena osnovni su entitet koji se upotrebljava u više scenarija. U valu 1. za ožujak 2020. predstavljeno je osnovno rješenje TESA. TESA osigurava entitet **Postavke** i novu sigurnosnu ulogu **Korisnik vremenskog unosa**. Nova polja **msdyn_start** i **msdyn_end**, koja imaju izravan odnos prema **msdyn_duration**, također su bila uključena. Novi entitet, sigurnosna uloga i polja omogućuju objedinjeniji pristup vremenu diljem više proizvoda.
 
 
 ### <a name="time-source-entity"></a>Entitet izvora vremena
@@ -103,13 +103,13 @@ Prilagodite prikaz **Moji tjedni unosi vremena** i dodajte mu prilagođeno polje
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Stvaranje novog zadanog prilagođenog unosa vremena
 
-Ovaj prikaz mora sadržavati polja **Opis** i **Vanjski komentari** , kao i stupce koje želite dodati u rešetku. 
+Ovaj prikaz mora sadržavati polja **Opis** i **Vanjski komentari**, kao i stupce koje želite dodati u rešetku. 
 
 1. Odaberite položaj, veličinu i zadani redoslijed sortiranja u rešetki uređivanjem tih svojstava u prikazu. 
 2. Konfigurirajte prilagođenu kontrolu za ovaj prikaz tako da je podesite kao kontrolu **Rešetka unosa vremena**. 
 3. Dodajte ovu kontrolu u prikaz i odaberite ga za web, telefone i tablete. 
 4. Konfigurirajte parametre za rešetku tjednih vremenskih unosa. 
-5. Polje **Datum početka** postavite na **msdyn_date** , polje **Trajanje** na **msdyn_duration** , a polje **Status** na **msdyn_entrystatus**. 
+5. Polje **Datum početka** postavite na **msdyn_date**, polje **Trajanje** na **msdyn_duration**, a polje **Status** na **msdyn_entrystatus**. 
 6. Za zadani prikaz, polje **Popis statusa samo za čitanje** postavljeno je na **192350002,192350003,192350004**. Polje **Tijek zadatka za uređivanje retka** postavljeno je na **msdyn_timeentryrowedit**. Polje **Tijek zadatka za uređivanje ćelije** postavljeno je na **msdyn_timeentryedit**. 
 7. Ta polja možete prilagoditi za dodavanje ili uklanjanje statusa samo za čitanje ili za upotrebu drugog iskustva na temelju zadatka (TBX) za uređivanje retka ili ćelije. Ta su polja sada vezana za statičku vrijednost.
 
@@ -117,14 +117,14 @@ Ovaj prikaz mora sadržavati polja **Opis** i **Vanjski komentari** , kao i stup
 > [!NOTE] 
 > Obje mogućnosti uklonit će neke gotove filtre u entitetima **Projekt** i **Projektni zadatak** tako da će se vidjeti svi prikazi za traženje za entitete. Gotova rješenja omogućuju vidljivost samo relevantnih prikaza za traženje.
 
-Odredite odgovarajuće izvođenje zadatka za prilagođeno polje. Ako ste dodali polje u rešetku, ono bi trebalo ići u izvođenje zadatka uređivanja retka koje se koristi za polja koja se primjenjuju na cijeli redak vremenskih unosa. Ako prilagođeno polje ima jedinstvenu vrijednost svaki dan, kao što je prilagođeno polje za **Vrijeme završetka** , ono bi trebalo ići u izvođenje zadatka uređivanja ćelije.
+Odredite odgovarajuće izvođenje zadatka za prilagođeno polje. Ako ste dodali polje u rešetku, ono bi trebalo ići u izvođenje zadatka uređivanja retka koje se koristi za polja koja se primjenjuju na cijeli redak vremenskih unosa. Ako prilagođeno polje ima jedinstvenu vrijednost svaki dan, kao što je prilagođeno polje za **Vrijeme završetka**, ono bi trebalo ići u izvođenje zadatka uređivanja ćelije.
 
-Za dodavanje prilagođenog polja u izvođenje zadatka, povucite element **Polje** u odgovarajući položaj na stranici, a zatim postavite svojstva polja. Postavite svojstvo **Izvor** na **Unos vremena** , a svojstvo **Polje podataka** postavite na prilagođeno polje. Svojstvo **Polje** određuje zaslonski naziv na TBX stranici. Odaberite **Primijeni** kako biste u polje spremili promjene, a zatim odaberite **Ažuriraj** kako biste spremili promjene na stranici.
+Za dodavanje prilagođenog polja u izvođenje zadatka, povucite element **Polje** u odgovarajući položaj na stranici, a zatim postavite svojstva polja. Postavite svojstvo **Izvor** na **Unos vremena**, a svojstvo **Polje podataka** postavite na prilagođeno polje. Svojstvo **Polje** određuje zaslonski naziv na TBX stranici. Odaberite **Primijeni** kako biste u polje spremili promjene, a zatim odaberite **Ažuriraj** kako biste spremili promjene na stranici.
 
-Da biste umjesto toga koristili novu prilagođenu TBX stranicu, stvorite novi proces. Postavite kategoriju na **Tijek poslovnog procesa** , postavite entitet na **Unos vremena** i postavite vrstu poslovnog procesa pomoću mogućnosti **Pokreni proces kao izvođenje zadatka**. U odjeljku **Svojstva** svojstvo **Naziv stranice** treba biti postavljeno na zaslonski naziv za stranicu. Dodajte sva relevantna polja na TBX stranicu. Spremite i aktivirajte postupak. Ažurirajte svojstvo prilagođene kontrole za odgovarajuće izvođenje zadatka u postupku na vrijednost **Naziv**.
+Da biste umjesto toga koristili novu prilagođenu TBX stranicu, stvorite novi proces. Postavite kategoriju na **Tijek poslovnog procesa**, postavite entitet na **Unos vremena** i postavite vrstu poslovnog procesa pomoću mogućnosti **Pokreni proces kao izvođenje zadatka**. U odjeljku **Svojstva** svojstvo **Naziv stranice** treba biti postavljeno na zaslonski naziv za stranicu. Dodajte sva relevantna polja na TBX stranicu. Spremite i aktivirajte postupak. Ažurirajte svojstvo prilagođene kontrole za odgovarajuće izvođenje zadatka u postupku na vrijednost **Naziv**.
 
 ### <a name="add-new-option-set-values"></a>Dodavanje novih vrijednosti skupa mogućnosti
-Kako biste dodali vrijednosti skupa mogućnosti u gotovo polje, otvorite stranicu za uređivanje polja, a zatim u odjeljku **Vrsta** pokraj skupa mogućnosti odaberite **Uredi**. Dodajte novu mogućnost koja ima prilagođenu oznaku i boju. Ako želite dodati novi status unosa vremena, gotovo polje pod nazivom **Status unosa** , a ne **Status**.
+Kako biste dodali vrijednosti skupa mogućnosti u gotovo polje, otvorite stranicu za uređivanje polja, a zatim u odjeljku **Vrsta** pokraj skupa mogućnosti odaberite **Uredi**. Dodajte novu mogućnost koja ima prilagođenu oznaku i boju. Ako želite dodati novi status unosa vremena, gotovo polje pod nazivom **Status unosa**, a ne **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Određivanje novog statusa unosa vremena kao unosa samo za čitanje
 Kako biste odredili novi status unosa vremena kao unosa samo za čitanje, dodajte novu vrijednost unosa vremena u svojstvo **Popis statusa samo za čitanje**. Dio rešetke vremenskih unosa za uređivanje bit će zaključan za retke koji imaju novi status.

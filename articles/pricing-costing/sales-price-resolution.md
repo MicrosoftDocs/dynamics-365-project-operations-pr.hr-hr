@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4ae5b3c4a4378330caed97011f55ca11175e644
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087852"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119544"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Rješavanje prodajnih cijena za procjene i stvarne podatke
 
@@ -27,12 +27,12 @@ U aplikaciji Project Operations, redci procjene za vrijeme upotrebljavaju se za 
 
 Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zadavanje cijene naplate.
 
-1. Sustav upotrebljava polja **Uloga** , **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa** u retku s procijenjenim podacima za Vrijeme kako bi uskladio retke s cijenama uloga u riješenom cjeniku. Ova podudarnost pretpostavlja uporabu gotovih dimenzija za cijene naplate koje se upotrebljavaju. Ako ste umjesto toga konfigurirali određivanje cijena na temelju nekog drugog polja ili dodatno za mogućnosti **Uloga** , **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa** , tada je to druga kombinacija koja će se upotrebljavati za dohvaćanje odgovarajućeg retka cijene uloge.
-2. Ako sustav pronađe redak cijene uloge koja ima cijenu naplate za kombinaciju polja **Uloga** , **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa** , to je zadana ta cijena naplate.
-3. Ako sustav nije u mogućnosti podudariti vrijednosti polja **Uloga** , **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa** , tada dohvaća retke s cijenama uloga s pomoću odgovarajuće uloge, ali s praznom vrijednosti stavke **Jedinica resursa**. Nakon što sustav pronađe podudarni zapis o cijeni uloge, iz tog će zapisa zadati obračun. Ovo podudaranje pretpostavlja gotovu konfiguraciju za relativni prioritet mogućnosti **Uloga** nasuprot **Jedinica za raspodjelu resursa** kao dimenzije određivanja prodajnih cijena.
+1. Sustav upotrebljava polja **Uloga**, **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa** u retku s procijenjenim podacima za Vrijeme kako bi uskladio retke s cijenama uloga u riješenom cjeniku. Ova podudarnost pretpostavlja uporabu gotovih dimenzija za cijene naplate koje se upotrebljavaju. Ako ste umjesto toga konfigurirali određivanje cijena na temelju nekog drugog polja ili dodatno za mogućnosti **Uloga**, **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa**, tada je to druga kombinacija koja će se upotrebljavati za dohvaćanje odgovarajućeg retka cijene uloge.
+2. Ako sustav pronađe redak cijene uloge koja ima cijenu naplate za kombinaciju polja **Uloga**, **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa**, to je zadana ta cijena naplate.
+3. Ako sustav nije u mogućnosti podudariti vrijednosti polja **Uloga**, **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa**, tada dohvaća retke s cijenama uloga s pomoću odgovarajuće uloge, ali s praznom vrijednosti stavke **Jedinica resursa**. Nakon što sustav pronađe podudarni zapis o cijeni uloge, iz tog će zapisa zadati obračun. Ovo podudaranje pretpostavlja gotovu konfiguraciju za relativni prioritet mogućnosti **Uloga** nasuprot **Jedinica za raspodjelu resursa** kao dimenzije određivanja prodajnih cijena.
 
 > [!NOTE]
-> Ako ste konfigurirali drugačije određivanje prioriteta za stavke **Uloga** , **Tvrtka resursa** i **Jedinica resursa** ili ako imate druge dimenzije koje imaju veći prioritet, to će se ponašanje u skladu s tim promijeniti. Sustav dohvaća zapise cijena uloga s vrijednostima koje se podudaraju sa svakom vrijednošću dimenzije za određivanje cijene prema redoslijedu prioriteta, s redovima koji nemaju vrijednosti za one dimenzije koje dolaze posljednje.
+> Ako ste konfigurirali drugačije određivanje prioriteta za stavke **Uloga**, **Tvrtka resursa** i **Jedinica resursa** ili ako imate druge dimenzije koje imaju veći prioritet, to će se ponašanje u skladu s tim promijeniti. Sustav dohvaća zapise cijena uloga s vrijednostima koje se podudaraju sa svakom vrijednošću dimenzije za određivanje cijene prema redoslijedu prioriteta, s redovima koji nemaju vrijednosti za one dimenzije koje dolaze posljednje.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Rješavanje prodajnih cijena na redcima sa stvarnim i procijenjenim podacima za trošak
 
@@ -41,7 +41,7 @@ U aplikaciji Project Operations, redci procjene za trošak upotrebljavaju se za 
 Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zadavanje jedinične prodajne cijene.
 
 1. Sustav upotrebljava kombinaciju polja **Kategorija** i **Jedinica** u retku s procijenjenim podacima za trošak kako bi uskladio retke cijene kategorije na riješenom cjeniku.
-2. Ako sustav pronađe redak cijene kategorije koji ima prodajnu cijenu za kombinaciju polja **Kategorija** i **Jedinica** , tada je prodajna cijena zadana.
+2. Ako sustav pronađe redak cijene kategorije koji ima prodajnu cijenu za kombinaciju polja **Kategorija** i **Jedinica**, tada je prodajna cijena zadana.
 3. Ako sustav pronađe podudarni redak cijene kategorije, metoda određivanja cijena može se upotrebljavati za zadavanje prodajne cijene. Sljedeća tablica u nastavku prikazuje zadano ponašanje cijene troška u aplikaciji Project Operations.
 
     | Kontekst | Način određivanja cijena | Zadana cijena |
@@ -53,4 +53,4 @@ Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zada
     | &nbsp; | Uz trošak | Na temelju povezanih stvarnih troškova |
     | &nbsp; | Marža na trošak | Primjena oznake definirane retkom cjenovne kategorije na jediničnu cijenu troška povezanog stvarnog troška |
 
-4. Ako sustav ne može podudarati vrijednosti polja **Kategorija** i **Jedinica** , prodajna cijena zadana je na nulu (0).
+4. Ako sustav ne može podudarati vrijednosti polja **Kategorija** i **Jedinica**, prodajna cijena zadana je na nulu (0).

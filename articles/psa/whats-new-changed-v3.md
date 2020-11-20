@@ -2,7 +2,7 @@
 title: Što je novo ili promijenjeno u aplikaciji Project Service Automation, verzija 3
 description: Ova tema pruža informacije o tome što je novo i promijenjeno u verziji 3 aplikacije Project Service Automation.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073350"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119994"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Što je novo ili promijenjeno u aplikaciji Project Service Automation, verzija 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Procjene su podijeljene na dvije kartice: **Dodjela resursa** i **Procjene**. Ka
 
 ![Kartica dodjela resursa prikazuje procjene truda i dodjele resursa za zadatke](media/resource-assignments-tab-02.png)
 
-Kartica **Procjene** prikazuje iznose troška i prodaje za dodjele resursa. Iznosi su samo za čitanje. Obračun troškova i određivanje cijena prodaje sada se pokreće dodjeljivanjem članova tima u rasporedu. To znači da ako imate zadatak bez ikakve dodjele, zadatak će se prikazati ispod nedodijeljene grupe. To također znači da bez **uloge** , koja je zadana dimenzija određivanja cijena, neće biti procijenjenog troška ili prodaje ako imate klijenta ili ugovor/ponudu povezane s projektom. 
+Kartica **Procjene** prikazuje iznose troška i prodaje za dodjele resursa. Iznosi su samo za čitanje. Obračun troškova i određivanje cijena prodaje sada se pokreće dodjeljivanjem članova tima u rasporedu. To znači da ako imate zadatak bez ikakve dodjele, zadatak će se prikazati ispod nedodijeljene grupe. To također znači da bez **uloge**, koja je zadana dimenzija određivanja cijena, neće biti procijenjenog troška ili prodaje ako imate klijenta ili ugovor/ponudu povezane s projektom. 
 
 ![Kartica procjene prikazuje iznose troška i prodaje](media/estimates-tab-03.png)
   
@@ -192,7 +192,7 @@ Platforma Common Data Service ne podržava međusobno oponašanje korisnika, št
 Prilagođavanje vam omogućuje dodavanje **Resursa koji se može rezervirati** za doživljaje stvaranja i uređivanja, što će korisniku omogućiti da djeluje kao delegat promjenom polja **Resurs za rezervacije** na drugog korisnika za kojeg su Unos vremenai i unosi troška trebali biti snimljeni. Sljedeći koraci pokrivaju delegiranje vremenskih unosa. Ista se informacija primjenjuje za delegiranje unosa troškova. 
  
 1.  Provjerite ima li delegirani korisnik ima globalni sigurnosni pristup na projektima i projektnim zadacima. 
-1.  Budući da **Resurs koji se može rezervirati** , što je polje na entitetu **Unos vremena** , nije izložen na stranici **Brzo stvaranje** morate ga dodati.
+1.  Budući da **Resurs koji se može rezervirati**, što je polje na entitetu **Unos vremena**, nije izložen na stranici **Brzo stvaranje** morate ga dodati.
 
     -ili-
 
@@ -240,7 +240,7 @@ Postavljanje Naplativih uloga i Naplativih kategorija također iskorištava goto
 ### <a name="create-and-edit-custom-pricing-for-a-project-service-automation-quote-and-project-contract"></a>Stvaranje i uređivanje prilagođenog određivanja cijena za ponudu i ugovor o projektu u aplikaciji Project Service Automation
 U verzijama 1 i 2 korištenje prilagođenog cjenika za određene ponude i ugovore učinjeno je pomoću **Uredi cijene** u prikazu **Mogućnost naplate**. Prikaz **Mogućnost naplate** nalazio se u gornjoj navigaciji retka ponude ili retka ugovora. To je također bilo mjesto gdje ste mogli postaviti opcije mogućnosti naplate za uloge ili kategorije troškova.
 
-Od verzije 3 aplikacije Project Service Automation stvaranje i uporaba prilagođenog cjenika projekta u ponudi i ugovoru o projektu odvojeni su od postavljanja mogućnosti naplate. Ponuda i ugovori o projektu u aplikaciji Project Service Automation sadrže novu karticu pod nazivom **Cjenici projekta**. Ova kartica prikazuje pridruženi prikaz svih Cjenika projekta koji su dodani ponudi ili ugovoru o projektu u aplikaciji Project Service Automation. Za stvaranje prilagođenog cjenika iz postojećeg cjenika koji je već pridružen ponudi za projekt ili ugovoru kliknite **Stvori prilagođeno određivanje cijena**. To će napraviti kopiju svih pridruženih cjenika i dodati ih ponudi ili ugovoru. Sada možete otvoriti cjenik i uređivati ulogu ili cijenu kategorije troška da bi se te promjene određivanja cijena primjenjivale samo na tu ponudu ili ugovor. 
+Od verzije 3 aplikacije Project Service Automation stvaranje i uporaba prilagođenog cjenika projekta u ponudi i ugovoru o projektu odvojeni su od postavljanja mogućnosti naplate. Ponuda i ugovori o projektu u aplikaciji Project Service Automation sadrže novu karticu pod nazivom **Cjenici za projekt**. Ova kartica prikazuje pridruženi prikaz svih Cjenika za projekt koji su dodani ponudi ili ugovoru o projektu u aplikaciji Project Service Automation. Za stvaranje prilagođenog cjenika iz postojećeg cjenika koji je već pridružen ponudi za projekt ili ugovoru kliknite **Stvori prilagođeno određivanje cijena**. To će napraviti kopiju svih pridruženih cjenika i dodati ih ponudi ili ugovoru. Sada možete otvoriti cjenik i uređivati ulogu ili cijenu kategorije troška da bi se te promjene određivanja cijena primjenjivale samo na tu ponudu ili ugovor. 
   
 Sljedeća je grafika prije stvaranja prilagođenih cjenika.
 

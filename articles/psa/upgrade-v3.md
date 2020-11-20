@@ -2,7 +2,7 @@
 title: Razmatranja nadogradnje – Microsoft Dynamics 365 Project Service Automation verzija 2.x ili 1.x na verziju 3.x
 description: Ova tema pruža informacije o razmatranjima koja morate napraviti kada nadograđujete s aplikacije Project Service Automation verzija 2.x ili 1.x na verziju 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073468"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121704"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Razmatranja nadogradnje – PSA verzija 2.x ili 1.x na verziju 3.x
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -77,7 +77,7 @@ U verziji 2 i verziji 1 projekti s generičkim resursima mogu biti u dva stanja 
 
 Prije nego što započnete nadogradnju, preporučujemo da ponovno generirate tim za svaki projekt koji ima zadatke dodijeljene generičkim resursima ili još nije imao pokrenut postupak generiranja tima.
 
-Za zadatke koji su dodijeljeni generičkim članovima tima koji su generirani pomoću značajke **Generiraj tim** , nadogradnja će ostaviti generički resurs u timu i ostaviti dodjelu tom generičkom članu tima. Preporučujemo da generirate uvjet resursa za generičkog člana tima nakon nadogradnje, ali prije nego što rezervirate ili pošaljete zahtjev za resursima. Time će se očuvati sve dodjele jedinica tvrtke ili ustanove za generičke članove tima koje su različite od projektne ugovorene jedinice tvrtke ili ustanove.
+Za zadatke koji su dodijeljeni generičkim članovima tima koji su generirani pomoću značajke **Generiraj tim**, nadogradnja će ostaviti generički resurs u timu i ostaviti dodjelu tom generičkom članu tima. Preporučujemo da generirate uvjet resursa za generičkog člana tima nakon nadogradnje, ali prije nego što rezervirate ili pošaljete zahtjev za resursima. Time će se očuvati sve dodjele jedinica tvrtke ili ustanove za generičke članove tima koje su različite od projektne ugovorene jedinice tvrtke ili ustanove.
 
 Na primjer, u projektu Projekt Z ugovorena je jedinica tvrtke ili ustanove Contoso US. U planu projekta zadaci testiranja u fazi implementacije dodijeljeni su ulozi tehničkog savjetnika, a dodijeljena je jedinica tvrtke ili ustanove Contoso India.
 

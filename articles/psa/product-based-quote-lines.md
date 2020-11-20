@@ -3,7 +3,7 @@ title: Reci ponude temeljeni na proizvodu
 description: Ova tema pruža informacije o recima ponude temeljenim na proizvodu.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073568"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123189"
 ---
 # <a name="product-based-quote-lines"></a>Reci ponude temeljeni na proizvodu
 
@@ -54,7 +54,7 @@ Ako se redak ponude temelji na katalogu proizvoda, prodajnu cijenu možete izrav
 - Zamijeni cijene  
 - Koristi zadano
 
-Ako ovo polje postavite na **Zamijeni cijene** , Dynamics 365 ne postavlja zadanu cijenu. Morate unijeti cijenu proizvoda u retku ponude. Ako ovo polje postavite na **Koristi zadano** , Dynamics 365 koristi zadanu prodajnu cijenu i zaključava polje kako bi se spriječilo uređivanje.
+Ako ovo polje postavite na **Zamijeni cijene**, Dynamics 365 ne postavlja zadanu cijenu. Morate unijeti cijenu proizvoda u retku ponude. Ako ovo polje postavite na **Koristi zadano**, Dynamics 365 koristi zadanu prodajnu cijenu i zaključava polje kako bi se spriječilo uređivanje.
 
 Nakon instaliranja PSA-a zadane prodajne cijene unose se u retke temeljene na proizvodu u ponudi. Polje **Određivanje cijena** zatim se postavlja na **Zamijeni cijene** kako biste mogli urediti zadanu cijenu u recima ponude.
 

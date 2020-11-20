@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c429fa14b4b95420c67a91a6a59af7db2660f68
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073286"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124674"
 ---
 # <a name="close-a-quote"></a>Zatvaranje ponude
 
@@ -37,7 +37,7 @@ Svi ponovno obrađeni stvarni podaci dostupni su u modulu Upravljanje projektom 
 
 ## <a name="close-a-quote-as-lost"></a>Zatvaranje ponude kao neostvarene
 
-Zatvaranjem ponude projekta kao Neostvarene postavit će status na **Zatvorena** , a razlog statusa na **Neostvarena**. Zatvaranje ponude čini je ponudom samo za čitanje. Budući da se zatvorena ponuda ne može ponovno otvoriti, prije nego što zatvorite ponudu, dijaloški okvir potvrdit će vaše promjene.
+Zatvaranjem ponude projekta kao Neostvarene postavit će status na **Zatvorena**, a razlog statusa na **Neostvarena**. Zatvaranje ponude čini je ponudom samo za čitanje. Budući da se zatvorena ponuda ne može ponovno otvoriti, prije nego što zatvorite ponudu, dijaloški okvir potvrdit će vaše promjene.
 
 Ako ponuda projekta koja je zatvorena kao Izgubljena ima projekt naveden na nekom od svojih redaka, taj projekt se također označava kao Zatvoren i sve rezervacije resursa od toga dana nadalje otkazuju se.
 

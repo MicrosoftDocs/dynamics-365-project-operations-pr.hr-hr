@@ -3,7 +3,7 @@ title: Vrste faza projekta
 description: Ova tema pruža informacije o fazama projekta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073439"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123037"
 ---
 # <a name="project-stage-types"></a>Vrste faza projekta 
 
@@ -46,11 +46,11 @@ Kada stvorite projekt, faza projekta postavljena je na **Novo**. Ako je projekt 
 
 ## <a name="quote"></a>Ponuda
 
-Kada projekt povežete s projektom ili ponudom ili kada stvorite projekt na temelju ponude, faza projekta postavljena je na mogućnost **Ponuda** , a procijenjeni datumi početka i završetka ažuriraju se. Kada je projekt u fazi **Ponuda** , pojedinosti o ponudi prikazuju se na kartici **Prodaja** na stranici **Entitet projekta**.
+Kada projekt povežete s projektom ili ponudom ili kada stvorite projekt na temelju ponude, faza projekta postavljena je na mogućnost **Ponuda**, a procijenjeni datumi početka i završetka ažuriraju se. Kada je projekt u fazi **Ponuda**, pojedinosti o ponudi prikazuju se na kartici **Prodaja** na stranici **Entitet projekta**.
 
 ## <a name="plan"></a>Plan
 
-Kada osvojite ponudu povezanu s projektom i kada aktivnost napreduje do faze **Ugovor** , faza projekta ažurira se na **Plan**. Kada je projekt u fazi **Plan** , stranica **Entitet projekta** prikazuje pojedinosti o ugovoru.
+Kada osvojite ponudu povezanu s projektom i kada aktivnost napreduje do faze **Ugovor**, faza projekta ažurira se na **Plan**. Kada je projekt u fazi **Plan**, stranica **Entitet projekta** prikazuje pojedinosti o ugovoru.
 
 ## <a name="deliver"></a>Isporuka
 

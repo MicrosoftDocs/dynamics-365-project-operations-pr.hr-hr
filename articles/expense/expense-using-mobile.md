@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,16 +15,16 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073390"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120894"
 ---
 # <a name="expense-using-mobile"></a>Trošenje putem mobitela
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 U ovoj se temi nalaze informacije o mobilnom radnom prostoru **Upravljanje troškovima**. Ovaj radni prostor omogućuje korisnicima dohvaćanje i prijenos računa, kako bi ga kasnije mogli priložiti izvješću o troškovima. Korisnici također mogu brzo stvoriti redak troška s pomoću priloženog računa te stvoriti i upravljati svojim izvješćima o troškovima. Osim toga, odobravatelji mogu upotrebljavati mobilni radni prostor **Upravljanje troškovima** za pregled izvješća o troškovima koji su im dodijeljeni i ta izvješća odobriti ili odbiti.
 
@@ -105,13 +105,13 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 3. Odaberite **Fotografiraj** ili **Odaberi sliku**.
 4. Slijedite jedan od ovih koraka:
 
-   - Ako ste odabrali **Fotografiraj** , slijedite ove korake:
+   - Ako ste odabrali **Fotografiraj**, slijedite ove korake:
 
       1. Preusmjereni ste na kameru svojeg mobilnog uređaja kako biste mogli fotografirati račun. 
       2. Kada završite s fotografiranjem, odaberite **U redu** kako biste prihvatili fotografiju.
       3. Neobvezno: Unesite naziv fotografije i sve bilješke.
 
-    - Ako ste odabrali mogućnost **Odaberi sliku** , slijedite ove korake:
+    - Ako ste odabrali mogućnost **Odaberi sliku**, slijedite ove korake:
 
         1. Odaberite sliku s popisa.
         2. Neobvezno: Unesite naziv slike i sve bilješke.
@@ -130,8 +130,8 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 8. Odaberite **Fotografiraj** ili **Odaberi sliku**.
 9. Slijedite jedan od ovih koraka:
 
-    - Ako ste odabrali **Fotografiraj** , preusmjereni ste na kameru svojeg mobilnog uređaja kako biste mogli fotografirati račun. Kada završite s fotografiranjem, odaberite **U redu** kako biste prihvatili fotografiju.
-    - Ako ste odabrali **Odaberi sliku** , odaberite sliku s popisa.
+    - Ako ste odabrali **Fotografiraj**, preusmjereni ste na kameru svojeg mobilnog uređaja kako biste mogli fotografirati račun. Kada završite s fotografiranjem, odaberite **U redu** kako biste prihvatili fotografiju.
+    - Ako ste odabrali **Odaberi sliku**, odaberite sliku s popisa.
 
 10. Odaberite **Gotovo**.
 
@@ -166,60 +166,60 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 14. Odaberite valutu troška. Prikazuje se popis šifri valuta koje su prenesene u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama prenosi se 400 valuta, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša valuta nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po valuti ili se prebacite na pretraživanje po nazivu.
 15. Odaberite **Gotovo**.
 16. Kako biste trošku dodali više pojedinosti, odaberite **Dodaj više pojedinosti**. Dostupna polja ovise o konfiguraciji upravljanja troškovima za vašu tvrtku.
-17. Ako je prema pravilima tvrtke potreban račun o trošku, odaberite **Računi** , a zatim slijedite ove korake:
+17. Ako je prema pravilima tvrtke potreban račun o trošku, odaberite **Računi**, a zatim slijedite ove korake:
 
     1. Odaberite **Dohvati račun** ili **Priloži račun**.
     2. Slijedite jedan od ovih koraka:
 
-        - Ako ste odabrali mogućnost **Dohvati račun** , slijedite ove korake:
+        - Ako ste odabrali mogućnost **Dohvati račun**, slijedite ove korake:
 
             1. Odaberite **Fotografiraj** ili **Odaberi sliku**.
             2. Slijedite jedan od ovih koraka:
 
-                - Ako ste odabrali **Fotografiraj** , slijedite ove korake:
+                - Ako ste odabrali **Fotografiraj**, slijedite ove korake:
 
                     1. Preusmjereni ste na kameru svojeg mobilnog uređaja kako biste mogli fotografirati račun. Kada završite s fotografiranjem, odaberite **U redu** kako biste prihvatili fotografiju.
                     2. Neobvezno: Unesite naziv fotografije i sve bilješke.
 
-                - Ako ste odabrali mogućnost **Odaberi sliku** , slijedite ove korake:
+                - Ako ste odabrali mogućnost **Odaberi sliku**, slijedite ove korake:
 
                     1. Odaberite sliku s popisa.
                     2. Neobvezno: Unesite naziv slike i sve bilješke.
 
             3.  Odaberite **Gotovo**.
 
-        - Ako ste odabrali mogućnost **Priloži račun** , slijedite ove korake:
+        - Ako ste odabrali mogućnost **Priloži račun**, slijedite ove korake:
 
             1.  Na popisu odaberite jednu sliku ili više njih.
             2.  Odaberite **Gotovo**.
 
     3. Odaberite gumb **Povratak** za povratak na pojedinosti o troškovima.
 
-18. Ako su prema pravilima tvrtke za trošak potrebni gosti, odaberite **Gosti** , a zatim slijedite ove korake:
+18. Ako su prema pravilima tvrtke za trošak potrebni gosti, odaberite **Gosti**, a zatim slijedite ove korake:
 
-    1. Odaberite **Gost** , **Prethodni gosti** ili **Suradnici**.
+    1. Odaberite **Gost**, **Prethodni gosti** ili **Suradnici**.
     2. Slijedite jedan od ovih koraka:
 
-        - Ako ste odabrali mogućnost **Gost** , slijedite ove korake:
+        - Ako ste odabrali mogućnost **Gost**, slijedite ove korake:
 
             1. Unesite naziv gosta.
             2. Neobvezno: Unesite organizaciju i/ili državu gosta.
             3. Neobavezno: Unesite stručni naslov gosta.
             4. Odaberite **Gotovo**.
 
-        - Ako ste odabrali mogućnost **Prethodni gosti** , slijedite ove korake:
+        - Ako ste odabrali mogućnost **Prethodni gosti**, slijedite ove korake:
 
             1. Na popisu odaberite jednog prethodnog gosta ili više njih. Prikazuje se popis prethodnih gostiju koje ste dodali u prethodna izvješća o troškovima koja su prenesena u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaš prethodni gost nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po imenu ili se prebacite na pretraživanje po tvrtki ili ustanovi, državi ili stručnom naslovu.
             2. Odaberite **Gotovo**.
 
-        - Ako ste odabrali mogućnost **Suradnici** , slijedite ove korake:
+        - Ako ste odabrali mogućnost **Suradnici**, slijedite ove korake:
 
             1. Na popisu odaberite jednog suradnika ili više njih. Prikazuje se popis suradnika koji su preneseni u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaši suradnici nisu na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po imenu ili se prebacite na pretraživanje po tvrtki ili stručnom naslovu.
             2. Odaberite **Gotovo**.
 
     3. Odaberite gumb **Povratak** za povratak na pojedinosti o troškovima.
 
-19. Ako je prema pravilima tvrtke potrebna specifikacija troška, odaberite **Specificiraj** , a zatim slijedite ove korake:
+19. Ako je prema pravilima tvrtke potrebna specifikacija troška, odaberite **Specificiraj**, a zatim slijedite ove korake:
 
     1. Odaberite prvi datum za specifikaciju.
     2. Odaberite **Dodaj specifikaciju**.

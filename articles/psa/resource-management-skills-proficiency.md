@@ -3,7 +3,7 @@ title: Modeli vještina i stručnosti
 description: Ovaj tema pruža informacije o tome kako upotrebljavati modele vještina i stručnosti.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073608"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124179"
 ---
 # <a name="skills-and-proficiency-models"></a>Modeli vještina i stručnosti
 
@@ -39,10 +39,10 @@ Da biste zadržali spremište vještina u aplikaciji Project Service Automation,
 
 Vještine za resurse ocjenjuju se prema modelima stručnosti. Model stručnosti sadrži pojedinačne ocjene. 
 
-1. Da biste izradili model stručnosti, otvorite **Resursi** \> **Modeli stručnosti** , a zatim odaberite **Novo**.
+1. Da biste izradili model stručnosti, otvorite **Resursi** \> **Modeli stručnosti**, a zatim odaberite **Novo**.
 2. U novom modelu ocjenjivanja navedite vrijednost najniže ocjene, vrijednost najviše ocjene i entitet koji se ocjenjuje.
 3. Na podrešetki **Vrijednosti ocjene** možete definirati različite vrijednosti ocjene, od najniže do najviše.
 
 > ![Definirane najniže i najviše ocjene](media/Resource-Management-image85.png)
 
-Ove vrijednosti ocjena prikazane su u filtrima **Preduvjeti resursa** , **Ploča s rasporedom** i **Pomoćnik za raspored**.
+Ove vrijednosti ocjena prikazane su u filtrima **Preduvjeti resursa**, **Ploča s rasporedom** i **Pomoćnik za raspored**.

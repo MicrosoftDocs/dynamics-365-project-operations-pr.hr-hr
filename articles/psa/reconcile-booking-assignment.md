@@ -3,7 +3,7 @@ title: Usklađivanje rezervacija i dodjela
 description: Ova tema pruža informacije o stvarnim podacima.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073434"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120444"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Usklađivanje rezervacija i dodjela
 
@@ -35,7 +35,7 @@ Zbog slobodnog uparivanja rezervacija i dodjela zadataka projekta kartica **Uskl
 
 Za svaki imenovani tim kartica **Usklađivanje** prikazuje rezervacije i dodjele na razini dodjele pojedinačnog zadatka. Prikazuje sate u ćelijama koje predstavljaju razdoblja od mjeseci do dana.
 
-U polju **Vremensko mjerilo** možete odabrati **Mjesec** , **Tjedan** ili **Dan**. Prema zadanim postavkama odabrana je mogućnost **Tjedan**. Međutim, zadanu vrijednost možete promijeniti odabirom gumba **Postavke**. Kada se otvori kartica **Usklađivanje** , prikazuje se trenutačni datum, no možete koristiti kontrolu kalendara za pomicanje naprijed ili natrag u vremenu. Ako projekt ima datum početka u budućnosti, kartica prikazuje taj datum prilikom otvaranja. Kontrola kalendara također sadrži mogućnosti koje vam omogućuju pomicanje datuma početka i završetka projekta.
+U polju **Vremensko mjerilo** možete odabrati **Mjesec**, **Tjedan** ili **Dan**. Prema zadanim postavkama odabrana je mogućnost **Tjedan**. Međutim, zadanu vrijednost možete promijeniti odabirom gumba **Postavke**. Kada se otvori kartica **Usklađivanje**, prikazuje se trenutačni datum, no možete koristiti kontrolu kalendara za pomicanje naprijed ili natrag u vremenu. Ako projekt ima datum početka u budućnosti, kartica prikazuje taj datum prilikom otvaranja. Kontrola kalendara također sadrži mogućnosti koje vam omogućuju pomicanje datuma početka i završetka projekta.
 
 Možete koristiti kontrole proširivača za svaki resurs da bi se prikazale pojedinosti o rezervacijama tog resursa. Možete također proširiti dodjele svakog resursa na razinu pojedinačnog zadatka.
 
@@ -47,9 +47,9 @@ Dno kartice **Usklađivanje** prikazuje ukupni neto iznos za projekt, a kartica 
 > [!NOTE]
 > Legenda za navedene uvjete može biti skrivena kako bi ostalo više prostora za rešetku. U tom slučaju legendu možete učiniti vidljivom tako da odaberete gumb **Postavke**.
 
-U nekim slučajevima, kada je polje **Vremensko mjerilo** postavljeno na razinu koja je viša od razine **Dan** , razlike se mogu izračunati kao 0 (nula). Na primjer, na razini **Mjesec** neto razlika za resurs može biti 0 (nula) kako bi se naznačilo da je broj ukupnih rezervacija jednak broju dodjela. Međutim, ako pogledate vrijeme na razini **Tjedan** , možda ćete vidjeti da postoje dodjele od 0 (nula) sati i rezervacije od 40 sati u prvom tjednu mjeseca te dodjele od 40 sati i rezervacije od 0 (nula) sati u drugom tjednu mjeseca. Iako je broj ukupnih rezervacija i dodjela za mjesec jednak, razlikuje se po tjednu.
+U nekim slučajevima, kada je polje **Vremensko mjerilo** postavljeno na razinu koja je viša od razine **Dan**, razlike se mogu izračunati kao 0 (nula). Na primjer, na razini **Mjesec** neto razlika za resurs može biti 0 (nula) kako bi se naznačilo da je broj ukupnih rezervacija jednak broju dodjela. Međutim, ako pogledate vrijeme na razini **Tjedan**, možda ćete vidjeti da postoje dodjele od 0 (nula) sati i rezervacije od 40 sati u prvom tjednu mjeseca te dodjele od 40 sati i rezervacije od 0 (nula) sati u drugom tjednu mjeseca. Iako je broj ukupnih rezervacija i dodjela za mjesec jednak, razlikuje se po tjednu.
 
-Kada pogledate vrijeme na višim razinama, na kartici **Usklađivanje** prikazuje se pokazatelj ćelija koji će vas obavijestiti da postoje razlike na nižim razinama. Na primjer, na sljedećoj ilustraciji pokazatelj ćelije prikazuje se u ćeliji za mjesec listopad 2018. za resurs naziva Klara Čeh. Stoga možete vidjeti da, iako je broj ukupnih rezervacija i dodjela za resurs jednak kada se zbroji na razini **Mjesec** , ti se brojevi ne podudaraju na nižim razinama.
+Kada pogledate vrijeme na višim razinama, na kartici **Usklađivanje** prikazuje se pokazatelj ćelija koji će vas obavijestiti da postoje razlike na nižim razinama. Na primjer, na sljedećoj ilustraciji pokazatelj ćelije prikazuje se u ćeliji za mjesec listopad 2018. za resurs naziva Klara Čeh. Stoga možete vidjeti da, iako je broj ukupnih rezervacija i dodjela za resurs jednak kada se zbroji na razini **Mjesec**, ti se brojevi ne podudaraju na nižim razinama.
 
 ![Neusklađene rezervacije i zadaci na mjesečnoj razini](media/reconcile-assignments-01.JPG)
 

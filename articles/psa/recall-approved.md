@@ -3,7 +3,7 @@ title: Opoziv odobrenih unosa vremena ili troškova
 description: Ova tema pruža informacije o tome kako opozvati prethodno odobreno vrijeme ili transakciju troškova.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073435"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120534"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Opoziv odobrenih unosa vremena ili troškova
 
@@ -53,7 +53,7 @@ Poduzmite ove korake da biste zatražili opoziv odobrenog unosa vremena ili tro�
 4. Unesite razlog za opoziv, a zatim odaberite **U redu** da biste potvrdili operaciju. Sustav šalje osobi koja je odobrila unose zahtjev za odobravanje opoziva.
 
 > [!NOTE]
-> Iako se odobreni unosi vremena ili troškova mogu opozvati, ako su odobreno vrijeme ili trošak već fakturirani kupcu, nije moguće stvoriti zahtjev za opoziv. Korisnik koji pokuša stvoriti zahtjev za opoziv primit će poruku u kojoj se navodi da vrijeme ili trošak nije moguće opozvati jer su već fakturirani.
+> Iako se odobreni unosi vremena ili troškova mogu opozvati, ako su odobreno vrijeme ili trošak već fakturirani klijentu, nije moguće stvoriti zahtjev za opoziv. Korisnik koji pokuša stvoriti zahtjev za opoziv primit će poruku u kojoj se navodi da vrijeme ili trošak nije moguće opozvati jer su već fakturirani.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Odobravanje ili odbacivanje zahtjeva za opoziv
 
@@ -62,11 +62,11 @@ Poduzmite ove korake da biste odobrili ili odbacili zahtjev za opoziv.
 1. Idi na **Projekti** \> **Moj posao** \> **Odobrenja**.
 2. Na stranici popisa **Odobrenja** promijenite prikaz u **Zahtjevi za opoziv za odobrenje**. Prikazat će se popis poslanih zahtjeva za opoziv.
 3. Odaberite jedan ili više unosa, a zatim odaberite **Odobri** ili **Odbaci**.
-4. Ako ste odabrali **Odobri** , primit ćete poruku upozorenja koja objašnjava učinak odobrenja. Odaberite **U redu** da biste potvrdili operaciju. Zahtjev za opoziv odobren je.
+4. Ako ste odabrali **Odobri**, primit ćete poruku upozorenja koja objašnjava učinak odobrenja. Odaberite **U redu** da biste potvrdili operaciju. Zahtjev za opoziv odobren je.
 
     –ili–
 
-    Ako ste odabrali **Odbaci** , zahtjev za opoziv odbacuje se.
+    Ako ste odabrali **Odbaci**, zahtjev za opoziv odbacuje se.
 
 > [!NOTE]
 > Kao kada se zatraži opoziv, kada se opoziv odobri, sustav provjerava postoje li aktivnosti fakturiranja u vezi s unosima vremena ili troškova. Ako je unos već fakturiran ili je naveden u skici fakture, odobravatelj će primiti poruku o pogrešci u kojoj se navodi da se vrijeme ili trošak ne mogu odobriti za opoziv jer su već fakturirani.
@@ -77,11 +77,11 @@ Kada se odobrenje opozove, postoji operativni i financijski učinak.
 
 ### <a name="operational-impact"></a>Operativni učinak
 
-Ako se zahtjev za opoziv odobri, zapis odobravanja dobiva oznaku **Odbačeno**. Status unosa mijenja se u **Vraćeno** ili **Odbačeno** , ovisno o tome je li riječ o unosu vremena ili troška.
+Ako se zahtjev za opoziv odobri, zapis odobravanja dobiva oznaku **Odbačeno**. Status unosa mijenja se u **Vraćeno** ili **Odbačeno**, ovisno o tome je li riječ o unosu vremena ili troška.
 
 Član projektnog tima može pregledati, urediti i zatim ponovno poslati unose ili ih u cijelosti izbrisati.
 
-Ako se zahtjev za opoziv odbaci, status unosa ostaje **Odobreno** , a član projektnog tima ili odobravatelj za projekt ne može uređivati unos.
+Ako se zahtjev za opoziv odbaci, status unosa ostaje **Odobreno**, a član projektnog tima ili odobravatelj za projekt ne može uređivati unos.
 
 ### <a name="financial-impact"></a>Financijski učinak
 
@@ -90,7 +90,7 @@ Ako se zahtjev za opoziv odobri, odgovarajući stvarni podaci za troškove i pro
 - Polje **Status prilagodbe** ažurira se na **Prilagođeno**.
 - Polje **Status naplate** ažurira se na **Prilagođeno**.
 
-Zatim, izrađuju se unosi preokreta u tablici Stvarne vrijednosti. Da biste izradili unose preokreta, sustav kopira vrijednosti polja iz izvornih stvarnih vrijednosti. Jedine vrijednosti koje se ne kopiraju su vrijednosti količine. Te su vrijednosti umjesto toga preokreću. Preokrenute stvarne vrijednosti izrađuju se za stvarne vrijednosti **Troškova** i **Nenaplaćene prodaje**. Polje **Status prilagodbe** u poništenim stvarnim podacima postava se na **Nije moguće prilagoditi** , a polje **Status naplate** postavlja se na **Otkazano**. Zbog tih promjena zabilježena potrošnja i zaostatak prihoda na projektu više neće pravdati iznose koje ti stvarni podaci predstavljaju.
+Zatim, izrađuju se unosi preokreta u tablici Stvarne vrijednosti. Da biste izradili unose preokreta, sustav kopira vrijednosti polja iz izvornih stvarnih vrijednosti. Jedine vrijednosti koje se ne kopiraju su vrijednosti količine. Te su vrijednosti umjesto toga preokreću. Preokrenute stvarne vrijednosti izrađuju se za stvarne vrijednosti **Troškova** i **Nenaplaćene prodaje**. Polje **Status prilagodbe** u poništenim stvarnim podacima postava se na **Nije moguće prilagoditi**, a polje **Status naplate** postavlja se na **Otkazano**. Zbog tih promjena zabilježena potrošnja i zaostatak prihoda na projektu više neće pravdati iznose koje ti stvarni podaci predstavljaju.
 
 Ako se zahtjev za opoziv odbaci, ne postoji financijski učinak na projekt.
 

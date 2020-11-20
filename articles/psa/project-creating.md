@@ -3,7 +3,7 @@ title: Rasporedi projekta
 description: Ova tema pruža informacije o tome kako izraditi raspored.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073423"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123217"
 ---
 # <a name="project-schedules"></a>Rasporedi projekta 
 
@@ -83,12 +83,12 @@ Gumbi **Premjesti gore** i **Premjesti dolje** mijenjaju položaj zadatka unutar
 
 Rešetka **Raspored** potpuno je dostupna i može se koristiti s čitačima zaslona kao što su Narrator, JAWS ili NVDA. Možete se kretati područjem rešetke pomoću tipki sa strelicama (kao u programu Microsoft Excel), možete koristiti tipku Tab za kretanje interaktivnim elementima korisničkog sučelja i možete koristiti tipku sa strelicom dolje, tipku Enter ili razmaknicu za odabir i aktiviranje padajućih izbornika. Zaglavlja stupaca također su interaktivna. Možete sakriti i prikazati stupce, koristiti tipku Tab i tipke sa strelicama za kretanje zaglavljima stupaca te koristiti gumbe radnji na alatnoj traci. Osim toga, možete koristiti sljedeće tipkovne prečace:
 
-- **Osvježi** : ALT+SHIFT+F5
-- **Dodaj** : ALT+SHIFT+Insert
-- **Izbriši** : ALT+SHIFT+Delete
-- **Premjesti gore/dolje** :ALT+SHIFT+Up/strelice gore/dolje
-- **Uvuci/izvuci** : ALT_SHIFT+ strelice lijevo/desno
-- **Proširi/sažmi hijerarhije** : ALT+SHIFT+tipkeplus/minus
+- **Osvježi**: ALT+SHIFT+F5
+- **Dodaj**: ALT+SHIFT+Insert
+- **Izbriši**: ALT+SHIFT+Delete
+- **Premjesti gore/dolje**:ALT+SHIFT+Up/strelice gore/dolje
+- **Uvuci/izvuci**: ALT_SHIFT+ strelice lijevo/desno
+- **Proširi/sažmi hijerarhije**: ALT+SHIFT+tipkeplus/minus
 
 ## <a name="task-attributes"></a>Atributi zadatka
 
@@ -98,19 +98,19 @@ Naziv zadatka opisuje posao koji treba dovršiti. U PSA-u atributi povezani sa z
  
 ### <a name="schedule-attributes"></a>Atributi rasporeda
 
-Atributi **Rad** , **Datum početka** , **Datum završetka** i **Trajanje** određuju raspored zadatka.
+Atributi **Rad**, **Datum početka**, **Datum završetka** i **Trajanje** određuju raspored zadatka.
 
 Dodatni atributi rasporeda uključuju sljedeće:
 
-- **Sati rada** : unesite procjenu sati potrebnih za dovršetak zadatka. 
-- **Trajanje** : navedite broj radnih dana potrebnih za dovršetak zadatka.
-- **ID rasporeda** : ovaj automatski generirani ID koristi se za raspoređivanje zadataka u hijerarhiji. Ovisnosti između zadataka upravljaju stvarnim redoslijedom kojim se zadaci obavljaju.
+- **Sati rada**: unesite procjenu sati potrebnih za dovršetak zadatka. 
+- **Trajanje**: navedite broj radnih dana potrebnih za dovršetak zadatka.
+- **ID rasporeda**: ovaj automatski generirani ID koristi se za raspoređivanje zadataka u hijerarhiji. Ovisnosti između zadataka upravljaju stvarnim redoslijedom kojim se zadaci obavljaju.
  
 ### <a name="staffing-attributes"></a>Atributi broja djelatnika
 
 Atributima broja djelatnika pristupa se putem polja **Resursi** u rasporedu. Možete pretražiti postojeći resurs ili kliknuti **Stvori** i u oknu **Brzo stvaranje** dodati člana projektnog tima kao novi resurs.
 
-Polja **Uloga** , **Jedinica za resurse** i **Naziv položaja** koriste se za opisivanje zahtjeva za broj djelatnika za zadatak. Ti atributi broja djelatnika zajedno s rasporedom zadataka koriste se za pronalaženje dostupnih resursa za taj zadatak.
+Polja **Uloga**, **Jedinica za resurse** i **Naziv položaja** koriste se za opisivanje zahtjeva za broj djelatnika za zadatak. Ti atributi broja djelatnika zajedno s rasporedom zadataka koriste se za pronalaženje dostupnih resursa za taj zadatak.
 
 **Uloga** – odredite vrstu resursa koji je potreban za izvršavanje zadatka.
 
@@ -134,7 +134,7 @@ Način zadatka određuje zakazivanje zadataka lisnog čvora. PSA podržava dva n
 
 ### <a name="auto-scheduling"></a>Automatsko zakazivanje 
  
-Ako je način zadatka postavljen na **Automatsko zakazano** , modul zakazivanja zadataka koristi pravila za zakazivanje za atribute zadatka kako bi se odredio raspored za zadatak:
+Ako je način zadatka postavljen na **Automatsko zakazano**, modul zakazivanja zadataka koristi pravila za zakazivanje za atribute zadatka kako bi se odredio raspored za zadatak:
 
 #### <a name="scheduling-rules"></a>Pravila zakazivanja
 
