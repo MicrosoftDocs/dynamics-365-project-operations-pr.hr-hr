@@ -1,5 +1,5 @@
 ---
-title: Faktura za akontaciju ili predujam – osnovna
+title: Faktura za akontaciju ili predujam
 description: U ovoj se temi nalaze informacije o načinu fakturiranja akontacije ili predujma u aplikaciji Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180543"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596183"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Faktura za akontaciju ili predujam – osnovna
+# <a name="invoice-a-retainer-or-an-advance"></a>Faktura za povremena plaćanja ili plaćanje unaprijed
 
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Dynamics 365 Project Operations podržava ugovore koji se temelje na akontacijama i jednokratnim predujmovima. Na ugovor o projektu možete zabilježiti raspored akontacija ili jednokratnih predujmova. Međutim, bilježenje na razini ugovora o projektu ne osigurava odmah uporabu akontacije ili predujma. Kako biste upotrebljavali akontaciju ili predujam na računu kojim se stvarno tereti klijenta, prvo se mora fakturirati akontacija ili predujam.
+Dynamics 365 Project Operations podržava ugovore koji se temelje na akontacijama. Na ugovor o projektu možete zabilježiti raspored akontacija ili jednokratnih predujmova. Međutim, bilježenje na razini ugovora o projektu ne osigurava odmah uporabu akontacije ili predujma. Kako biste upotrebljavali akontaciju ili predujam na računu kojim se stvarno tereti klijenta, prvo se mora fakturirati akontacija ili predujam.
 
 Poduzmite sljedeće korake za fakturiranje akontacije ili predujma.
 

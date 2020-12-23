@@ -8,26 +8,28 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175522"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642129"
 ---
 # <a name="project-contracts---key-concepts"></a>Ugovori o projektu – Osnovni koncepti
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovoj temi nalaze se osnovni koncepti kojih morate biti svjesni prije nego što počnete upotrebljavati ugovore o projektima u aplikaciji Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+U ovoj temi nalaze se ključni koncepti kojih morate biti svjesni prije nego što počnete upotrebljavati ugovore o projektu u aplikaciji Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Tvrtka vlasnik
 
 Tvrtka vlasnica pravna je osoba iz modula **Upravljanje projektima i računovodstvo** za aplikaciju Project Operations iz aplikacije Dynamics 365 Finance. Tvrtka vlasnik pravna je osoba koja će obračunati troškove i prihode koji proizlaze iz posla.
 
-## <a name="contracting-unit"></a>Ugovorena jedinica
+## <a name="contracting-unit"></a>Ugovorna jedinica
 
-Ugovorna jedinica predstavlja odjel ili praksu koja je vlasnik isporuke projekta. Možete postaviti troškove resursa za svaku ugovornu jedinicu. Kada resursu odredite cijenu, moći ćete postaviti i različite cijene troška za resurse. Ova ugovorna jedinica posuđuje ove resurse od drugih sektora ili praksi unutar poduzeća. Cijene troška resursa nazivaju se cijenama prijenosa, posuđivanjem resursa ili cijenama razmjene. Kada postavljate cijene troška za posudbu resursa iz drugih sektora, upotrijebite valutu sektora koji posuđuje.
+Ugovorna jedinica predstavlja odjel ili praksu koja je vlasnik isporuke projekta. Možete postaviti troškove resursa za svaku ugovornu jedinicu. Kada resursu odredite cijenu, moći ćete postaviti i različite cijene koštanja resursa. Ova ugovorna jedinica posuđuje ove resurse od drugih sektora ili praksi unutar poduzeća. Cijene koštanja resursa nazivaju se cijenama prijenosa, posuđivanjem resursa ili cijenama razmjene. Kada postavljate cijene koštanja za posudbu resursa iz drugih sektora, upotrijebite valutu sektora koji posuđuje.
 
 ## <a name="cost-currency"></a>Valuta troška
 
@@ -52,7 +54,7 @@ Obično postoje dvije vrste modela ugovaranja projekata, fiksna naknada i na tem
 
 ## <a name="project-price-lists"></a>Cjenici za projekt
 
-Cjenici za projekt upotrebljavaju se za zadane cijene, a ne cijene troška, za vrijeme, trošak i ostale komponente povezane s projektom. Može postojati više cjenika. Svaki cjenik ima svoj datum stupanja na snagu za svaki ugovor o projektu. Project Operations ne podržava preklapanje datuma stupanja na snagu cjenika za projekt.
+Cjenici za projekt upotrebljavaju se za zadane cijene, a ne cijene koštanja, za vrijeme, trošak i ostale komponente povezane s projektom. Može postojati više cjenika. Svaki cjenik ima svoj datum stupanja na snagu za svaki ugovor o projektu. Project Operations ne podržava preklapanje datuma stupanja na snagu cjenika za projekt.
 
 Kada se ugovor o projektu stvara prihvaćanjem ponude projekta, cjenici za projekt kopiraju se s uključenim nazivom i datumom ugovora. Kopiranje ovih podataka formira prilagođenu cijenu za komponente projekta na ovom ugovoru o projektu.
 

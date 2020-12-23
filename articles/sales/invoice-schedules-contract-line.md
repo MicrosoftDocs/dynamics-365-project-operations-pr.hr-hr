@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180768"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513915"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Stvaranje rasporeda faktura na retku ugovora koji se temelji na projektu 
 
@@ -49,7 +49,7 @@ Poduzmite sljedeće korake za generiranje rasporeda faktura koje se temelje na k
 3. Otvorite redak ugovora **Nepromjenjiva cijena** za koji trebate stvoriti raspored kontrolnih točaka. Na kartici **Kontrolne točke za naplatu** odaberite datum početka naplate i učestalost faktura. 
 4. Na podrešetki odaberite **Generiraj povremene kontrolne točke**. Raspored faktura generira se s poljima **Naziv kontrolne točke**, **Datum kontrolne točke** i **Iznos kontrolne točke** koja su postavljena na sljedeći način:
 
-    - **Naziv kontrolne točke**: Taj datum određuje učestalost faktura.
+    - **Naziv kontrolne točke**: Ovo ime nameće učestalost računa.
     - **Datum kontrolne točke**: Taj datum određuje učestalost faktura.
     - **Iznos kontrolne točke**: Ovaj se iznos izračunava dijeljenjem ugovornog iznosa na retku ugovora koji se temelji na projektu s brojem kontrolnih točaka kako je određeno učestalošću te početkom naplate i zatraženim datumima isporuke.
 

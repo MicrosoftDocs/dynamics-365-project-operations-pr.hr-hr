@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130974"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590892"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Dodavanje potrebnih prilagođenih polja postavljanju cijena i transakcijskim entitetima
 
@@ -49,6 +49,8 @@ Kada se dimenzija prilagođenog određivanja cijena mogućnost koja se temelji n
 > [!IMPORTANT]
 > Kada dodate polje u više entiteta, koristite isti naziv polja na svim entitetima. 
 
+> ![Dodavanje lokacije rada resursa u cijenu uloge](media/RWL-Field.png)
+
 U fazama prodaje i procjene projekta, procjene radnih napora potrebnih za dovršetak **Terenskog** i **Uredskog** rada, u **Redoviti sati** i **Prekovremeni sati**  koriste se za procjenu vrijednosti ponude/projekta. Polja **Mjesto rada resursa** i **Radno vrijeme resursa** dodat će se entitetima procjene, **Pojedinost retka ponude**, **Pojedinost retka ugovora**, **Član tima projekta** i **Redak procjene**.
 
 1. U aplikaciji Project operations odaberite **Postavke** > **Rješenja** i zatim dvaput kliknite **\<your organization name> dimenzije za određivanje cijena**. 
@@ -58,6 +60,8 @@ U fazama prodaje i procjene projekta, procjene radnih napora potrebnih za dovrš
 5. Odaberite **Upotrijebi postojeći skup mogućnosti** i **Mjesto rada resursa**, a zatim odaberite **Spremi**.
 6. Ponovite korake 1 - 5 da biste dodali ovo polje u entitete **Pojedinost retka ugovora projekta**, **Član tima projekta** i **Redak procjene**.
 7. Ponovite korake 1 - 6 za skup mogućnosti **Radno vrijeme resursa**. 
+
+> ![Dodavanje lokacije rada resursa u redak procjene](media/RWL-Default-Value.png)
 
 Da bi se izvršili isporuka i fakturiranje, za završeni rad mora biti precizno određena cijena da bi se moglo odabrati je li izvršen **Na terenu** ili **U uredu** te je li dovršen tijekom **Redovitih sati** ili **Prekovremenih sati** u Stvarnim vrijednostima projekta. Polja **Radno mjesto resursa** i **Radno vrijeme resursa** treba dodati u entitete **Unos vremena**, **Stvarna vrijednost**, **Pojedinost retka fakture** i **Redak u dnevniku**.
 
@@ -69,6 +73,8 @@ Da bi se izvršili isporuka i fakturiranje, za završeni rad mora biti precizno 
 6. Ponovite korake 1 - 5 da biste dodali ovo polje u entitete **Stvarna vrijednost**, **Pojedinost retka fakture** i **Redak u dnevniku**.
 7. Ponovite korake 1 - 6 za skup mogućnosti **Radno vrijeme resursa**. 
 
+> ![Dodavanje lokacije rada resursa u Unos vremena](media/RWL-time-entry.png)
+
 Time se dovršavaju promjene sheme potrebne za prilagođene dimenzije koje se temelje na skupu mogućnosti.
 
 ## <a name="entity-based-custom-pricing-dimensions"></a>Dimenzije prilagođenog određivanja cijena koje se temelje na entitetu
@@ -79,6 +85,8 @@ Kada je dimenzija prilagođenog određivanja cijena entitet, dodat ćete odnose 
 2. U istraživaču rješenja, u lijevom navigacijskom oknu, odaberite **Entiteti > Standardna titula**.
 3. Proširite entitet **Standardna titula** i odaberite **Odnosi 1:N**.
 4. Odaberite **Novo** kako biste stvorili novi odnos 1:N pod nazivom **Standardni naslov resursa koji se može rezervirati**. Unesite potrebne informacije, a zatim odaberite **Spremi**.
+
+> ![Dodavanje Standardne titule kao referentnog polja Resursu koji se može rezervirati](media/ST-BR.png)
 
 Standardni će se naslov također morati dodati entitetima za određivanje cijena, **Cijena uloge** i **Provizija cijene uloge**. To se također izvodi koristeći odnose 1:N između entiteta **Standardna titula** i **Cijena uloge** i entiteta **Standardna titula** i **Marža cijene uloge**.
 
@@ -96,9 +104,13 @@ U fazama prodaje i procjene za projekt, kod određivanja cijena ponude/projekta 
 
 5. Ponovite korake 1 - 5 za stvaranje odnosa 1: N **Standardne titule** prema **Pojedinosti retka ponude**, **Pojedinosti retka ugovora projekta**, **Članu tima projekta**, i **Retku procjene**.
 
+> ![Dodavanje Standardne titule kao referentnog polja Retku procjene](media/ST-Estimate-Line.png)
+
   U fazama isporuke i fakturiranja, za rad dovršen od strane svake standardne titule mora biti točno određena cijena na stvarnim vrijednostima projekta. To znači da moraju postojati odnosi 1:N **Standardne titule** prema **Unosu vremena**, **Stvarnoj vrijednosti**, **Pojedinosti retka fakture** i **Entitetima retka u dnevniku**.
 
 6. Ponovite korake 1 - 6 da biste stvorili odnose 1:N **Standardne titule** prema **Unosu vremena**, **Stvarnoj vrijednosti**, **Pojedinosti retka fakture** i **Entitetima retka u dnevniku**.
+
+> ![Dodavanje Standardne titule kao referentnog polja Unosu vremena](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Postavljanje zadane vrijednosti dimenzije s pomoću značajki mapiranja platforme
 Za Unos vremena, bilo bi korisno da sustav standardnu titulu na Unosu vremena postavi kao zadanu od Resursa koji se može rezervirati koji zapisuje Unos vremena. Koristite sljedeće korake za dodavanje mapiranja polja u odnos 1:N **Resursa koji se može rezervirati** prema **Unosu vremena**.
@@ -106,7 +118,9 @@ Za Unos vremena, bilo bi korisno da sustav standardnu titulu na Unosu vremena po
 1. U istraživaču rješenja, u lijevom navigacijskom oknu, odaberite **Entiteti > Standardna titula**.
 2. Proširite entitet **Standardna titula** i odaberite **Odnosi 1:N**.
 3. Kliknite dvaput **Resurs koji se može rezervirati prema unosu vremena**. Na stranici **Odnos**, odaberite **Upotrijebi mapiranja polja**. 
-4. Odaberite **Novo** kako biste stvorili novo mapiranje polja između polja **Standardni naslov** u entitetu **Resurs koji se može rezervirati** prema polju refernce **Standardni naslov** u entitetu **Vremenski unos**. 
+4. Odaberite **Novo** kako biste stvorili novo mapiranje polja između polja **Standardni naslov** u entitetu **Resurs koji se može rezervirati** prema polju refernce **Standardni naslov** u entitetu **Unos vremena**. 
+
+> ![Postavljanje mapiranja polja kako bi se omogućilo da se standardna titula postavi kao zadana kod odnosa resursa koji se može rezervirati prema unosu vremena](media/ST-Mapping2.png)
 
 Time se dovršavaju promjene sheme potrebne za prilagođene dimenzije koje se temelje na entitetu.
 

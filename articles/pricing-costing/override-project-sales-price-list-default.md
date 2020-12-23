@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130839"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672222"
 ---
 # <a name="override-project-sales-price-lists"></a>Nadjačavanje prodajnih cjenika za projekt
 
@@ -27,7 +28,7 @@ Kako biste postavili cjenik projekta specifičan za kupca, u području **Prodaja
 
 1. Otvorite stranicu s popisom **Računi**.
 2. Pronađite i dvaput kliknite zapis o klijentu kako biste otvorili stranicu s pojedinostima **Računa**.
-3. Na kartici **Cjenici za projekt** odaberite **+ Novi cjenik za projekt^^.
+3. Na kartici **Cjenici za projekt** odaberite **+ Novi cjenik za projekt**.
 4. Na stranici **Novi cjenik za projekt**, s padajućeg izbornika odaberite cjenik. Samo cjenici kojima je kontekst postavljen na **Prodaja** i čija se valuta podudara s valutom računa.
 5. Ime i veza, a zatim odaberite **Spremi**. Stvoren je cjenik za projekt specifičan za klijenta. Ovaj će se cjenik upotrebljavati za zadavanje cijena za projekt na ponudama projekta ili ugovorima o projektu stvorenim za ovog klijenta ako datum stvaranja ponude ili ugovora o projektu pada unutar datuma kada je cjenik na snazi.
 

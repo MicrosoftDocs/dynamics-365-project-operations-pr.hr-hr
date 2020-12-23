@@ -3,17 +3,17 @@ title: Unos izdatka (jednostavno)
 description: U ovoj temi nalaze se informacije o načinu unosa troška u jednostavnoj implementaciji.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121074"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590937"
 ---
 # <a name="expense-entry-lite"></a>Unos izdatka (jednostavno)
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predrač
 
 Osnovno ili jednostavno upravljanje troškovima mogućnost je evidentiranja jednostavnih troškova. Možete evidentirati troškove na projektu, a zatim će ih odobravatelj projekta pregledati i odobriti.
 
-Dodatne informacije o mogućnostima troškova u aplikaciji Dynamics 365 Project Operations potražite u odjeljku [Pregled troškova](expense-overview.md).
+Dodatne informacija o mogućnostima troškova u rješenju Dynamics 365 Project Operations potražite u odjeljku [Pregled troškova](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Bilježenje osnovnog troška
 
@@ -37,12 +37,16 @@ Nakon što završite s bilježenjem svih troškova i spremni ste ih dati na odob
 1. Idite na stavku **Troškovi** i odaberite trošak. Ili odaberite sve troškove s pomoću potvrdnog okvira u zaglavlju.
 2. Odaberite **Šalji**. Sustav obrađuje odabrane unose, a zatim stvara zahtjeve za odobrenje troškova.
 
+## <a name="add-an-attachment"></a>Dodaj privitak
+
+Možda ćete odobravatelju morati dostaviti dodatnu dokumentaciju o trošku. Potvrdu možete priložiti vremenskoj traci unosa troškova. Izaberite **Uredi** i u odjeljku **Vremenska traka**, a zatim odaberite ikonu spajalice kako biste priložili potvrdu.
+
 ## <a name="recall-a-basic-expense"></a>Opoziv osnovnog troška
 
-Kada greškom pošaljete trošak, možete ga stornirati. Vrijeme potrebno za storniranje unosa troška ovisi o fazi odobrenja u kojoj se nalazi.  Ako odobravatelj još nije odobrio unos, storniranje se može izvršiti odmah. Međutim, ako je unos već odobren, od odobravatelja se treba zatražiti odobrenje storniranja i poništenje transakcija.
+Kada greškom pošaljete trošak, možete ga stornirati. Vrijeme potrebno za storniranje unosa troška ovisi o fazi odobrenja u kojoj se nalazi.  Ako odobravatelj još nije odobrio unos, storniranje se može izvršiti odmah. Međutim, ako je unos već odobren, od odobravatelja se treba zatražiti odobrenje opoziva i storniranja transakcija.
 
 1. Idite na stavku **Troškovi**, a zatim na popisu troškova odaberite trošak koji želite stornirati.
-2. Odaberite **Storniraj**. Ako unos troška još nije odobren, sustav ga odmah stornira. Ako je unos troška već odobren, stvara se zahtjev za storniranje kako bi se obavijestio odobravatelj da želite stornirati trošak. Odobravatelj će tada potvrditi da se opoziv može izvršiti i unos će biti vraćen.
+2. Odaberite **Storniraj**. Ako unos troška još nije odobren, sustav ga odmah stornira. Ako je unos troška već odobren, stvara se zahtjev za storniranje kako bi se obavijestio odobravatelj da želite stornirati trošak. Odobravatelj će tada potvrditi da se storniranje može izvršiti i unos će biti vraćen.
 
 ## <a name="delete-a-basic-expense"></a>Brisanje osnovnog troška
 

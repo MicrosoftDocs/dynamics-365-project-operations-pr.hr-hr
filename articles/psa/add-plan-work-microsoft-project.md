@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129669"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642759"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Pomoću dodatka Project Service Automation planirajte zadatke u programu Microsoft Project
 
@@ -172,7 +172,60 @@ Projekt će se uvesti u [!INCLUDE[pn_project_service_auto](../includes/pn-projec
 
 4. Kliknite **Objavi**.  
 
-Povezivanjem datoteke Projekt sa [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] datoteka Projekt postaje glavna datoteka i strukturu analize rada [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] predloška postavlja u status samo za čitanje.  Da biste mogli mijenjati projektni plan, promjene morate izvoditi u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i objaviti ih u obliku ažuriranja u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+Povezivanjem datoteke Projekt sa [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] datoteka Projekt postaje glavna datoteka i strukturu analize rada [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] predloška postavlja u status samo za čitanje.  Da biste mogli mijenjati projektni plan, promjene morate provesti u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i objaviti u obliku ažuriranja u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
-### <a name="see-also"></a>Također pogledajte  
- [Vodič za voditelja projekta](../psa/project-manager-guide.md)
+## <a name="read-a-resource-loaded-schedule"></a>Čitanje rasporeda učitanih resursa
+
+Kada projekt čitate iz aplikacije Project Service Automation, kalendar resursa nije sinkroniziran s klijentom radne površine. Ako postoje razlike u trajanju zadatka, naporu ili završetku, to je vjerojatno zato što resursi i klijent radne površine nemaju isti kalendar predložaka radnog vremena koji se primjenjuje na projekt.
+
+
+## <a name="data-synchronization"></a>Sinkronizacija podataka
+
+Sljedeća tablica opisuje kako se podaci sinkroniziraju između aplikacije Project Service Automation i programskog dodatka radne površine Microsoft Project.
+
+| **Entitet** | **Polje** | **Microsoft Project prema aplikaciji Project Service Automation** | **Project Service Automation prema aplikaciji Microsoft Project** |
+| --- | --- | --- | --- |
+| Zadatak projekta | Krajnji rok | ● | - |
+| Zadatak projekta | Procijenjeni rad | ● | - |
+| Zadatak projekta | ID klijenta aplikacije MS Project | ● | - |
+| Zadatak projekta | Nadređeni zadatak | ● | - |
+| Zadatak projekta | Project | ● | - |
+| Zadatak projekta | Projektni zadatak | ● | - |
+| Zadatak projekta | Naziv projektnog zadatka | ● | - |
+| Zadatak projekta | Jedinica za resurse (zastarjelo u verziji 3.0) | ● | - |
+| Zadatak projekta | Zakazano trajanje | ● | - |
+| Zadatak projekta | Datum početka | ● | - |
+| Zadatak projekta | ID SAR-a | ● | - |
+
+| **Entitet** | **Polje** | **Microsoft Project prema aplikaciji Project Service Automation** | **Project Service Automation prema aplikaciji Microsoft Project** |
+| --- | --- | --- | --- |
+| Član tima | ID klijenta aplikacije MS Project | ● | - |
+| Član tima | Naziv položaja | ● | - |
+| Član tima | projekt | ● | ● |
+| Član tima | Projektni tim | ● | ● |
+| Član tima | Jedinica za resurse | - | ● |
+| Član tima | Uloga | - | ● |
+| Član tima | Radni sati | Nije sinkronizirano | Nije sinkronizirano |
+
+| **Entitet** | **Polje** | **Microsoft Project prema aplikaciji Project Service Automation** | **Project Service Automation prema aplikaciji Microsoft Project** |
+| --- | --- | --- | --- |
+| Dodjela resursa | Od datuma | ● | - |
+| Dodjela resursa | h | ● | - |
+| Dodjela resursa | ID klijenta aplikacije MS Project | ● | - |
+| Dodjela resursa | Planirani rad | ● | - |
+| Dodjela resursa | Project | ● | - |
+| Dodjela resursa | Projektni tim | ● | - |
+| Dodjela resursa | Dodjela resursa | ● | - |
+| Dodjela resursa | Zadatak | ● | - |
+| Dodjela resursa | Do danas | ● | - |
+
+| **Entitet** | **Polje** | **Microsoft Project prema aplikaciji Project Service Automation** | **Project Service Automation prema aplikaciji Microsoft Project** |
+| --- | --- | --- | --- |
+| Ovisnosti projektnih zadataka | Ovisnost projektnog zadatka | ● | - |
+| Ovisnosti projektnih zadataka | Vrsta veze | ● | - |
+| Ovisnosti projektnih zadataka | Prethodni zadatak | ● | - |
+| Ovisnosti projektnih zadataka | Project | ● | - |
+| Ovisnosti projektnih zadataka | Sljedeći zadatak | ● | - |
+
+### <a name="see-also"></a>Pogledajte također  
+ [Vodič voditelja projekta](../psa/project-manager-guide.md)

@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121164"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642953"
 ---
 # <a name="provision-a-new-environment"></a>Priprema novog okruženja
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovoj temi nalaze se informacije o načinu pripreme okruženja aplikacije Dynamics 365 Project Operations za scenarije koji se temelje na resursu / bez zalihe.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+U ovoj temi nalaze se informacije o načinu omogućivanja novog okruženja aplikacije Dynamics 365 Project Operations za scenarije koji se temelje na resursu / bez zaliha.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Omogućivanje automatiziranu pripremu aplikacije Project Operations u LCS projektu
 
@@ -120,7 +122,7 @@ Održavanje okruženja potrajat će neko vrijeme. Nakon završetka, okruženje �
 
 ![Primjena rješenja](./media/13ApplySolutions.png)
 
-5. Odaberite oba rješenja, **Dvostruko zapisivanje mape entiteta aplikacije Dynamics 365 Finance and Operations** i **Dvostruko zapisivanje mapa entiteta aplikacije Dynamics 365 Project Operations**, a zatim odaberite **Prijava**.
+5. Odaberite oba rješenja, **Karta entiteta aplikacije Dynamics 365 Finance and Operations za dvostruko upisivanje** i **Karte entiteta aplikacije Dynamics 365 Project Operations za dvostruko upisivanje**, a zatim odaberite mogućnost **Primijeni**.
 
 ![Potvrda rješenja](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Osvježavanje će potrajati otprilike 20 minuta. Kada bude dovršeno dobit ćete
 | --- | --- | --- | --- | --- | --- |
 | **Uloge aplikacije Project Resource za sve tvrtke (kategorije resursa koji se mogu rezervirati)** | No | Jest | Common Data Service | No | Nije dostupno |
 | **Pravne osobe (cdm\_companies)** | No | Jest | Aplikacije Finance and Operations | No | Nije dostupno |
+| **Glavna knjiga (msdyn_ledgers)** | No | Jest | Aplikacije Finance and Operations | Jest | Da, aplikacije Finance and Operations |
 | **Stvarni podaci o integraciji aplikacije Project Operations (msdyn\_actuals)** | No | No | Nije dostupno | Jest | No |
 | **Redci ugovora o projektu (pojedinosti prodajnog naloga)** | No | No | Nije dostupno | No | No |
 | **Entitet integracije za odnose projektne transakcije (msdyn\_transactionconnections)** | No | No | Nije dostupno | No | Nije dostupno |

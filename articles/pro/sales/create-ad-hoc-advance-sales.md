@@ -1,5 +1,5 @@
 ---
-title: Stvaranje ad hoc predujma za ugovor – jednostavno
+title: Stvaranje ad hoc predujma za ugovor
 description: U ovoj temi nalaze se informacije o stvaranju predujma za ugovor, ako je potrebno.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181353"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595937"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Stvaranje ad hoc predujma za ugovor – jednostavno
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Stvaranje ad hoc predujma za ugovor
 
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Microsoft Dynamics 365 Project Operations podržava scenarije fakturiranja koji uključuju plaćanja unaprijed i predujmove. Postupak uporabe mogućnosti **Predujmovi** u aplikaciji **Project Operations** sličan je ugovorima o **Akontaciji**. 
 

@@ -1,5 +1,5 @@
 ---
-title: Postavljanje rasporeda akontacija – jednostavno
+title: Postavljanje rasporeda akontacija
 description: U ovoj temi nalaze se informacije o načinu postavljanja rasporeda akontacija u aplikaciji Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181263"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596363"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Postavljanje rasporeda akontacija – jednostavno
+# <a name="set-up-a-retainer-schedule"></a>Postavljanje rasporeda akontacija
 
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Rasporedi akontacija postavljeni su na stranici **Ugovor o projektu** u aplikaciji Dynamics 365 Project Operations.
 
