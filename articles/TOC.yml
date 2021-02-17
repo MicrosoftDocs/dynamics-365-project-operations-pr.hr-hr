@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Primjena pokaznih podataka
           items:
-            - name: Primjena pokaznih podataka u okruženju aplikacije Finance hostiranom u oblaku
-              href: environment/resource-apply-finance-demo-data.md
             - name: Primjena konfiguracijskih podataka na platformi Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Implementacija okruženja
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novosti
       items:
+        - name: Veljača 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: Siječanj 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: Prosinac 2020. – Project Operations za scenarije temeljene na resursima / bez zaliha
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Studeni 2020. – Project Operations za scenarije temeljene na resursima / bez zaliha
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Predujmovi i akontacije
               items:
-                - name: Ugovori koji se temelje na predujmovima i akontacijama – osnovni
+                - name: Predujmovi i ugovori koji e temelje na povremenim plaćanjima
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Postavljanje rasporeda akontacija – osnovno
+                - name: Postavljanje rasporeda zadržavanja
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Stvaranje ad hoc predujma za ugovor – osnovno
+                - name: Stvaranje ad hoc predujma za ugovor
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Određivanje cijene i troškova
       items:
@@ -210,11 +212,13 @@
           href: project-management/copy-project.md
         - name: Planiranje strukturne analize rada
           items:
+            - name: Stvaranje strukturne analize rada
+              href: project-management/create-wbs.md
             - name: Stvaranje zadataka
               href: project-management/create-assignments.md
         - name: Procjena projekata
           items:
-            - name: Pregled procjena projekata
+            - name: Pregled procjene projekata
               href: project-management/estimating-projects-overview.md
             - name: Procjene resursa
               href: project-management/resource-estimates.md
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Održavanje članova tima
               href: project-management/maintain-team-members.md
+        - name: Rješavanje problema s radom u mreži zadataka
+          href: project-management/projectplanningUIFAQ.md
         - name: Suradnja
           items:
             - name: Suradnja s grupama programa Office
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Pregledavanje predloženih resursa
               href: resource-management/review-proposed-resources.md
+            - name: Uređivanje rezervacija
+              href: resource-management/edit-existing-bookings.md
         - name: Rezervacija decentraliziranih resursa (hibrid)
           items:
             - name: Dodavanje članova tima iz rešetke članova tima
@@ -324,8 +332,10 @@
                   href: expense/configure-expense-management-parameters.md
                 - name: Postavljanje integracije kreditne kartice
                   href: expense/set-up-credit-card-integration.md
-                - name: Postavljanje kategorije izdatka
+                - name: Postavljanje kategorije troška
                   href: expense/set-up-expense-categories.md
+            - name: Rad s osobnim troškovima na izvješću o trošku
+              href: expense/personal-expenses-expense-report.md
             - name: Stvaranje izvješća o troškovima
               items:
                 - name: Raspodjele u izvješću o troškovima
@@ -370,22 +380,28 @@
           items:
             - name: Stvaranje i potvrđivanje dnevnika ispravaka
               href: actuals/create-confirm-correction-journals.md
-    - name: Predračun
+    - name: Fakturiranje
       items:
-        - name: Upravljanje zaostalim naplatama projekta
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Upravljanje statusom koji se ne smije premašiti i provjerama valjanosti
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Stvaranje ručnog predračuna za projekt
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Upravljanje predračunom za projekt
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Faktura za povremena plaćanja ili plaćanje unaprijed
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Potvrda predračuna za projekt
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Konfiguriranje automatskog fakturiranja za projekt
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Pregled postupka fakturiranja
+          href: invoicing/post-project-invoices.md
+        - name: Upravljanje prijedlozima faktura za projekt
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Predračun
+          items:
+            - name: Upravljanje zaostalim naplatama projekta
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Upravljanje statusom koji se ne smije premašiti i provjerama valjanosti
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Stvaranje ručnog predračuna za projekt
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Upravljanje predračunom za projekt
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Faktura za povremena plaćanja ili plaćanje unaprijed
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Potvrda predračuna za projekt
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Konfiguriranje automatskog fakturiranja za projekt
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projektno računovodstvo
       items:
         - name: Zadane postavke financijske dimenzije
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Konfiguriranje fakturiranja unutar tvrtke
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Stvaranje faktura klijenta i dobavljača unutar tvrtke
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Stvaranje transakcija unutar tvrtke
               href: project-accounting/create-intercompany-transactions.md
+            - name: Stvaranje faktura klijenta i dobavljača unutar tvrtke
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Priznavanje prihoda
       items:
         - name: Pregled priznavanja prihoda
@@ -418,12 +434,12 @@
               href: project-accounting/period-types.md
             - name: Postavljanje predložaka troškova
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Upravljanje procjenama prihoda
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Projekti procjene prihoda s fiksnom cijenom
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Načini troškova do završetka
           href: revenue-recognition/cost-complete-methods.md
+        - name: Upravljanje procjenama prihoda
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Osnovna implementacija – od sklapanja posla do predračuna
   items:
     - name: Početak
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: Novosti
       items:
-        - name: Novosti u prosincu 2020. – osnovna implementacija – od sklapanja posla do predračuna
+        - name: Novosti u veljači 2021. – osnovna implementacija
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: Novosti u siječnju 2021. – osnovna implementacija
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: Novosti u prosincu 2020. – osnovna implementacija
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Novosti u studenom 2020. – osnovna implementacija – od sklapanja posla do predračuna
+        - name: Novosti u studenom 2020. – osnovna implementacija
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Postupak prodaje projekta
       items:
@@ -636,11 +656,13 @@
           href: project-management/copy-project.md
         - name: Planiranje strukturne analize rada
           items:
+            - name: Stvaranje strukturne analize rada
+              href: project-management/create-wbs.md
             - name: Stvaranje zadataka
               href: project-management/create-assignments.md
         - name: Procjena projekata
           items:
-            - name: Pregled procjena projekata
+            - name: Pregled procjene projekata
               href: project-management/estimating-projects-overview.md
             - name: Procjene resursa
               href: project-management/resource-estimates.md
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Održavanje članova tima
               href: project-management/maintain-team-members.md
+        - name: Rješavanje problema s radom u mreži zadataka
+          href: project-management/projectplanningUIFAQ.md
         - name: Suradnja
           items:
             - name: Suradnja s grupama programa Office
               href: project-management/collaboration-groups.md
+        - name: Bilješke razvojnog inženjera
+          items:
+            - name: Razvoj predložaka projekata s pomoću mogućnosti Kopiranja projekta
+              href: project-management/dev-copy-project.md
     - name: Upravljanje resursima
       items:
         - name: Osnovni koncepti
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Pregledavanje predloženih resursa
               href: resource-management/review-proposed-resources.md
+            - name: Uređivanje rezervacija
+              href: resource-management/edit-existing-bookings.md
         - name: Rezervacija decentraliziranih resursa (hibrid)
           items:
             - name: Dodavanje članova tima iz rešetke članova tima
@@ -772,6 +802,10 @@
   items:
     - name: Novosti
       items:
+        - name: Novosti u siječnju 2021. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: Novosti u prosincu 2020. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: Novosti u studenom 2020 – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Pregled implementacije aplikacije Project Operations za scenarije koji se temelje na zalihama/proizvodnji
@@ -906,6 +940,14 @@
       items:
         - name: Ažuriranje rasporeda izdanja za aplikaciju Project Service 3.x
           href: psa/version-history-ps.md
+        - name: Novosti ili izmjene u izdanju ažuriranja 28.5 Hitni popravak V3
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: Novosti ili izmjene u izdanju ažuriranja 27.5 Hitni popravak V3
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 27, V3'
+          href: psa/whats-new-ur-27.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 26, V3'
           href: psa/whats-new-ur-26.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 25, V3'
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 12, V3'
           href: psa/whats-new-ur-12.md
+        - name: 'Novosti ili izmjene u aplikaciji Project Service Automation, V3.x val 1 iz 2021.'
+          href: psa/whats-new-2021-wave1.md
         - name: 'Novosti ili izmjene u aplikaciji Project Service Automation, V3.x val 1 iz 2020.'
           href: psa/whats-new-v3-2020-wave1.md
         - name: 'Novosti ili izmjene u aplikaciji Project Service Automation, V3'
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Postavke projekta
               href: psa/project-settings.md
+            - name: S pomoću programskog dodatka aplikaciji Project Service planirajte rad u aplikaciji Microsoft Project
+              href: psa/add-in-plan-work-projects.md
         - name: Veličine za određivanje cijena i troškova
           items:
             - name: Početna stranica veličina za određivanje cijena i troškova
