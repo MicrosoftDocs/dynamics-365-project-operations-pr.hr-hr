@@ -16,53 +16,55 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121839"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147059"
 ---
-# <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a><span data-ttu-id="92043-103">Ažuriranje atributa dodatka za uključivanje novih dimenzija cijena</span><span class="sxs-lookup"><span data-stu-id="92043-103">Update plug-in attributes to include new pricing dimensions</span></span>
+# <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a><span data-ttu-id="c1751-103">Ažuriranje atributa dodatka za uključivanje novih dimenzija cijena</span><span class="sxs-lookup"><span data-stu-id="c1751-103">Update plug-in attributes to include new pricing dimensions</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> <span data-ttu-id="92043-104">Ako ne upotrebljavate značajke sastavljanja ponuda i ugovora u programu Project Service Automation (PSA), možete preskočiti ovu tema.</span><span class="sxs-lookup"><span data-stu-id="92043-104">If you are not using the Project Service Automation (PSA) Quoting and Contracting features, you can skip this topic.</span></span>
+> <span data-ttu-id="c1751-104">Ako ne upotrebljavate značajke sastavljanja ponuda i ugovora u programu Project Service Automation (PSA), možete preskočiti ovu tema.</span><span class="sxs-lookup"><span data-stu-id="c1751-104">If you are not using the Project Service Automation (PSA) Quoting and Contracting features, you can skip this topic.</span></span>
 
-<span data-ttu-id="92043-105">Ova tema podrazumijeva da ste dovršili postupke opisane u temama [Izrada prilagođenih polja i entiteta](create-custom-fields-entities.md), [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](field-references.md) i [Postavljanje prilagođenih polja kao dimenzija cijena](set-up-pricing-dimensions.md).</span><span class="sxs-lookup"><span data-stu-id="92043-105">This topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md), [Add custom fields to price setup and transactional entities](field-references.md), and [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md).</span></span> <span data-ttu-id="92043-106">Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovu temu.</span><span class="sxs-lookup"><span data-stu-id="92043-106">If you haven't completed those procedures, go back and complete them and then return to this topic.</span></span>
+<span data-ttu-id="c1751-105">Ova tema podrazumijeva da ste dovršili postupke opisane u temama [Izrada prilagođenih polja i entiteta](create-custom-fields-entities.md), [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](field-references.md) i [Postavljanje prilagođenih polja kao dimenzija cijena](set-up-pricing-dimensions.md).</span><span class="sxs-lookup"><span data-stu-id="c1751-105">This topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md), [Add custom fields to price setup and transactional entities](field-references.md), and [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md).</span></span> <span data-ttu-id="c1751-106">Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovu temu.</span><span class="sxs-lookup"><span data-stu-id="c1751-106">If you haven't completed those procedures, go back and complete them and then return to this topic.</span></span>
 
-<span data-ttu-id="92043-107">Kada se pojedinost retka ponude izradi na stranici **Redak ponude** za redak ponude projekta, sustav stvara dva retka procjene u pozadini – jedan redak za stranu troška procjene i jedan za stranu prodaje.</span><span class="sxs-lookup"><span data-stu-id="92043-107">When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines in the background -- one line for the cost side of the estimate and one for sales side.</span></span> <span data-ttu-id="92043-108">Isto vrijedi i za retke ugovora o projektu.</span><span class="sxs-lookup"><span data-stu-id="92043-108">This is the same  for project contract lines.</span></span>
+<span data-ttu-id="c1751-107">Kada se pojedinost retka ponude izradi na stranici **Redak ponude** za redak ponude projekta, sustav stvara dva retka procjene u pozadini – jedan redak za stranu troška procjene i jedan za stranu prodaje.</span><span class="sxs-lookup"><span data-stu-id="c1751-107">When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines in the background -- one line for the cost side of the estimate and one for sales side.</span></span> <span data-ttu-id="c1751-108">Isto vrijedi i za retke ugovora o projektu.</span><span class="sxs-lookup"><span data-stu-id="c1751-108">This is the same  for project contract lines.</span></span>
 
-<span data-ttu-id="92043-109">Kada uvedete promjenu u količinu ili polje na strani troška, ta se promjena prenosi na stranu prodaje.</span><span class="sxs-lookup"><span data-stu-id="92043-109">When you make a change to the quantity or a field on the cost side, that change is propagated to the sales side.</span></span> <span data-ttu-id="92043-110">To je moguće zbog sljedećih dodatka koji se moraju ponovno registrirati nakon promjene dimenzija cijena.</span><span class="sxs-lookup"><span data-stu-id="92043-110">This is possible because of the following plug-ins that must be re-registered after a change to pricing dimensions.</span></span>
+<span data-ttu-id="c1751-109">Kada uvedete promjenu u količinu ili polje na strani troška, ta se promjena prenosi na stranu prodaje.</span><span class="sxs-lookup"><span data-stu-id="c1751-109">When you make a change to the quantity or a field on the cost side, that change is propagated to the sales side.</span></span> <span data-ttu-id="c1751-110">To je moguće zbog sljedećih dodatka koji se moraju ponovno registrirati nakon promjene dimenzija cijena.</span><span class="sxs-lookup"><span data-stu-id="c1751-110">This is possible because of the following plug-ins that must be re-registered after a change to pricing dimensions.</span></span>
 
-- <span data-ttu-id="92043-111">PreOperationContractLineDetailUpdate – Ažuriranja **msdyn_orderlinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="92043-111">PreOperationContractLineDetailUpdate - Updates **msdyn_orderlinetransaction**.</span></span>
-- <span data-ttu-id="92043-112">PreOperationQuoteLineDetailUpdate – Ažuriranja **msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="92043-112">PreOperationQuoteLineDetailUpdate - Updates **msdyn_quotelinetransaction**.</span></span>
+- <span data-ttu-id="c1751-111">PreOperationContractLineDetailUpdate – Ažuriranja **msdyn_orderlinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="c1751-111">PreOperationContractLineDetailUpdate - Updates **msdyn_orderlinetransaction**.</span></span>
+- <span data-ttu-id="c1751-112">PreOperationQuoteLineDetailUpdate – Ažuriranja **msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="c1751-112">PreOperationQuoteLineDetailUpdate - Updates **msdyn_quotelinetransaction**.</span></span>
 
-<span data-ttu-id="92043-113">Koraci u nastavku objašnjavaju vam postupak registracije dodataka.</span><span class="sxs-lookup"><span data-stu-id="92043-113">The following steps walk you through the process of registering the plug-ins.</span></span>
+<span data-ttu-id="c1751-113">Koraci u nastavku objašnjavaju vam postupak registracije dodataka.</span><span class="sxs-lookup"><span data-stu-id="c1751-113">The following steps walk you through the process of registering the plug-ins.</span></span>
 
-1. <span data-ttu-id="92043-114">Otvorite **PluginRegistrationTool** i povežite se s mrežnom instancom.</span><span class="sxs-lookup"><span data-stu-id="92043-114">Open the **PluginRegistrationTool** and connect to your online instance.</span></span>
-2. <span data-ttu-id="92043-115">Kliknite **Pretraži** i potražite dodatak za ažuriranje.</span><span class="sxs-lookup"><span data-stu-id="92043-115">Click **Search** and search for the plug-in to be updated.</span></span>
+1. <span data-ttu-id="c1751-114">Otvorite **PluginRegistrationTool** i povežite se s mrežnom instancom.</span><span class="sxs-lookup"><span data-stu-id="c1751-114">Open the **PluginRegistrationTool** and connect to your online instance.</span></span>
+2. <span data-ttu-id="c1751-115">Kliknite **Pretraži** i potražite dodatak za ažuriranje.</span><span class="sxs-lookup"><span data-stu-id="c1751-115">Click **Search** and search for the plug-in to be updated.</span></span>
 
  ![Snimka zaslona stabla pretraživanja](media/PRT-1.png)
 
-3. <span data-ttu-id="92043-117">Nakon što pronađete dodatak, odaberite ga, a zatim kliknite **Odaberi u glavnom obrascu**.</span><span class="sxs-lookup"><span data-stu-id="92043-117">After the plug-in is found, select it and then click **Select on Main Form**.</span></span>
+3. <span data-ttu-id="c1751-117">Nakon što pronađete dodatak, odaberite ga, a zatim kliknite **Odaberi u glavnom obrascu**.</span><span class="sxs-lookup"><span data-stu-id="c1751-117">After the plug-in is found, select it and then click **Select on Main Form**.</span></span>
 
-4. <span data-ttu-id="92043-118">Odaberite korak dodatka za ažuriranje, kliknite desnom tipkom miša, a zatim odaberite **Ažuriraj**.</span><span class="sxs-lookup"><span data-stu-id="92043-118">Select the step of the plug-in to be updated, right-click, and then select **Update**.</span></span>
+4. <span data-ttu-id="c1751-118">Odaberite korak dodatka za ažuriranje, kliknite desnom tipkom miša, a zatim odaberite **Ažuriraj**.</span><span class="sxs-lookup"><span data-stu-id="c1751-118">Select the step of the plug-in to be updated, right-click, and then select **Update**.</span></span>
 
  ![Snimka zaslona dodatka koji se ažurira](media/PRT-2.png)
  
-5. <span data-ttu-id="92043-120">U prozoru za ažuriranje kliknite tri točke (**...**) u atributima filtriranja.</span><span class="sxs-lookup"><span data-stu-id="92043-120">In the update window, click the ellipsis (**...**) in the filtering attributes.</span></span>
+5. <span data-ttu-id="c1751-120">U prozoru za ažuriranje kliknite tri točke (**...**) u atributima filtriranja.</span><span class="sxs-lookup"><span data-stu-id="c1751-120">In the update window, click the ellipsis (**...**) in the filtering attributes.</span></span>
 
  ![Snimka zaslona informacija o konfiguraciji ažuriranja postojećeg koraka](media/PRT-3.png)
  
-6. <span data-ttu-id="92043-122">Odaberite potvrdne okvire atributa cijena.</span><span class="sxs-lookup"><span data-stu-id="92043-122">Select the pricing attribute check boxes.</span></span>
+6. <span data-ttu-id="c1751-122">Odaberite potvrdne okvire atributa cijena.</span><span class="sxs-lookup"><span data-stu-id="c1751-122">Select the pricing attribute check boxes.</span></span>
 
  ![Snimka zaslona s prikazom odabranog potvrdnog okvira za atribute cijena](media/PRT-4.png)
 
-7. <span data-ttu-id="92043-124">Kliknite **U redu** da biste zatvorili stranicu, a zatim odaberite **Ažuriraj korak**.</span><span class="sxs-lookup"><span data-stu-id="92043-124">Click **OK** to close the page and then select **Update Step**.</span></span>
+7. <span data-ttu-id="c1751-124">Kliknite **U redu** da biste zatvorili stranicu, a zatim odaberite **Ažuriraj korak**.</span><span class="sxs-lookup"><span data-stu-id="c1751-124">Click **OK** to close the page and then select **Update Step**.</span></span>
 
  ![Snimka zaslona s prikazom gumba „Ažuriraj korak”](media/PRT-5.png)
  
-8. <span data-ttu-id="92043-126">Ponovite ovaj postupak za drugi dodatak, **PreOperationQuoteLineDetail – Ažuriranje msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="92043-126">Repeat this process for the second plug-in, **PreOperationQuoteLineDetail - Update of msdyn_quotelinetransaction**.</span></span>
+8. <span data-ttu-id="c1751-126">Ponovite ovaj postupak za drugi dodatak, **PreOperationQuoteLineDetail – Ažuriranje msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="c1751-126">Repeat this process for the second plug-in, **PreOperationQuoteLineDetail - Update of msdyn_quotelinetransaction**.</span></span>
 
-9. <span data-ttu-id="92043-127">Zatvorite alat za registraciju dodataka.</span><span class="sxs-lookup"><span data-stu-id="92043-127">Close the plug-in registration tool.</span></span>
+9. <span data-ttu-id="c1751-127">Zatvorite alat za registraciju dodataka.</span><span class="sxs-lookup"><span data-stu-id="c1751-127">Close the plug-in registration tool.</span></span>
 
