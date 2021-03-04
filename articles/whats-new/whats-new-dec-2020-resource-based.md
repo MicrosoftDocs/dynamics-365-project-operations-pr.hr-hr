@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700671"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727871"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u prosincu 2020. – Project Operations za scenarije koji se temelje na resursu / bez zaliha
 
@@ -24,6 +24,8 @@ Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Pro
 
 - Project Operations na verziji 4.5.0.134 okruženja platforme Dataverse
 - Upravljanje projektima i računovodstvo u okruženju aplikacije Dynamics 365 Finance verzije 10.0.15
+
+Informacije o načinu ažuriranja na ovo izdanje potražite u odjeljku [Ažuriranje aplikacije Project Operations u okruženju aplikacije Financije](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 U ovo izdanje uključene su sljedeće značajke:

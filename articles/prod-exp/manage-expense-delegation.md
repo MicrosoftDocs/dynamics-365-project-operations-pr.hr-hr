@@ -1,6 +1,6 @@
 ---
 title: Upravljanje prenošenjem troškova
-description: Korisnik koji je ovlaštenik troškova može izrađivati izvješća o troškovima i upravljati njima u ime drugog zaposlenika tvrtke ili ustanove.
+description: Delegirani korisnik troškova može stvoriti i upravljati izvješćima o troškovima za drugog zaposlenika u tvrtki ili ustanovi.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073540"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960778"
 ---
-# <a name="manage-expense-delegation"></a>Upravljanje prenošenjem troškova
+# <a name="manage-expense-delegation"></a>Delegiranje upravljanja troškovima
 
-[!include [banner](../includes/banner.md)]
+Delegat za troškove može stvoriti i upravljati izvješćima o troškovima za drugog zaposlenika.
 
-Korisnik koji je ovlaštenik troškova može izrađivati izvješća o troškovima i upravljati njima u ime drugog zaposlenika tvrtke ili ustanove.
+## <a name="configure-expense-delegation"></a>Stvaranje delegiranja troškova
 
-## <a name="configuring-expense-delegation"></a>Konfiguriranje delegiranja troškova
+1. Kako biste postavili korisnika kao delegata troškova, idite na stavku **Upravljanje troškovima > Postavljanje > Općenito > Delegati**.
+2. Na stranici **Delegati** odaberite **Novo**.
+3. Odaberite zaposlenika kojem će se odrediti delegat. 
+4. Unesite zamjensko ime ovlaštenog korisnika te datum početka i završetka razdoblja ovlaštenja.
 
-Kako biste postavili korisnika kao ovlaštenika troškova, idite na **Upravljanje troškovima > Postavljanje > Općenito > Ovlaštenici** kako biste otvorili stranicu **Ovlaštenici**. Odaberite **Novi** , a zatim odaberite zaposlenika za kojeg će biti definirano ovlaštenje. Unesite zamjensko ime ovlaštenog korisnika te datum početka i završetka razdoblja ovlaštenja.
+## <a name="manage-expense-delegation-for-another-employee"></a>Upravljanje delegiranjem troškova za drugog zaposlenika
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Upravljanje prenošenjem troškova u ime drugog zaposlenika
+Kada je omogućen ključ za upravljanje značajkama **Omogući stranicu s popisom delegata troškova**, bit će dostupna stranica s popisom **Troškovi delegirani meni**. Idite na **Upravljanje troškovima** > **Moji troškovi** > **Troškovi delegirani meni**.
 
-Ako je omogućen ključ za upravljanje značajkama **Omogući stranicu s popisom ovlaštenika za troškove** , stranica s popisom **Troškovi preneseni na mene** bit će dostupna odlaskom na **Upravljanje troškovima > Moji troškovi > Troškovi koji su mi preneseni**.
+Delegirani korisnik može brzo filtrirati i pretraživati postojeća izvješća o troškovima koji su mu delegirani. Također mogu stvoriti novo izvješće o troškovima za druge korisnike odabirom mogućnosti **Novo izvješće o troškovima**.
 
-Ovlašteni korisnik može brzo filtrirati i pretraživati postojeća izvješća o troškovima koja su prenesena korisniku. Korisnik također može brzo stvoriti novo izvješće o troškovima u ime drugih korisnika klikom na mogućnost **Novo izvješće o troškovima**.
-
-Ovlašteni korisnici mogu također stvoriti izvješća o troškovima za ostale zaposlenike i upravljati njima odlaskom na **Upravljanje troškovima > Moji troškovi > Izvješća o troškovima** i odabirom gumba **Otvori troškove drugih korisnika**.
+Delegirani korisnici također mogu stvoriti i upravljati izvješćima o troškovima za druge zaposlenike odlaskom na mogućnost **Upravljanje troškovima** > **Moji troškovi** > **Izvješća o troškovima** i odabirom stavke **Otvori troškove drugih korisnika**.

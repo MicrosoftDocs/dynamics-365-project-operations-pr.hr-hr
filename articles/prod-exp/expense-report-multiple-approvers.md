@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b6d07f00fd6c1ba2d860787665d95f95f7b1a89
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073544"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960598"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Više odobravatelja izvješća o troškovima
-
-[!include [banner](../includes/banner.md)]
 
 Ovisno o pravilima vaše tvrtke ili ustanove za odobravanje troškova, možda će izvješće o troškovima koje je poslao zaposlenik morati odobriti više osoba. Kada postavljate postupak tijeka rada za odobrenje izvješća o troškovima, možete dodati elemente tijeka rada koji obuhvaćaju zadatke ili korake za jednog ili više odobravatelja izvješća o troškovima. Na primjer, možda ćete tražiti da sva izvješća o troškovima najprije odobri rukovoditelj zaposlenika koji je podnio izvješće, a zatim koordinator Dugovanja.
 

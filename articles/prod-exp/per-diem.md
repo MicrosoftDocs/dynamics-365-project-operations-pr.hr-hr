@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 537a50f5bc10a0293ed70ba6dc769a09ec6287f5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 177e0a6f676000c148346f7f7b7a2391326bc78b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073538"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960013"
 ---
 # <a name="per-diem-rules"></a>Pravila za dnevnicu
-
-[!include [banner](../includes/banner.md)]
 
 *Dnevnica* je naknada koja se isplaćuje radniku koji putuje zbog posla. U upravljanju troškovima možete stvoriti pravila za dnevnice za različite situacije putovanja. Cijene dnevnica mogu se temeljiti na dobu godine, mjestu putovanja ili oboje. Kada stvarate pravilo za dnevnice, možete odrediti da se od dnevnice odbija postotak ako radnik prima besplatne obroke ili usluge. Također možete postaviti minimalni i maksimalni broj sati za koji se dnevnica može primijeniti kada je radnik na putu.
 

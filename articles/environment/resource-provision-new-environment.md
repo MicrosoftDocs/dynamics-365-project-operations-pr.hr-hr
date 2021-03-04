@@ -3,17 +3,18 @@ title: Priprema novog okruženja
 description: U ovoj temi nalaze se informacije o načinu pripreme novog okruženja aplikacije Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642953"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727781"
 ---
 # <a name="provision-a-new-environment"></a>Priprema novog okruženja
 
@@ -60,17 +61,15 @@ Poduzmite sljedeće korake kako biste omogućili automatizirani tijek pripreme z
 
 ![Pristanak za implementaciju](./media/2DeploymentConsent.png)
 
-7. Ispunite preostala potrebna polja u čarobnjaku i potvrdite implementaciju. Vrijeme pripreme okruženja razlikuje se ovisno o vrsti okruženja. Priprema može potrajati do šest sati.
+7. Neobvezno – Primijenite pokazne podatke na okruženje. Idite na **Napredne postavke**, odaberite **Prilagodi konfiguraciju baze podataka SQL** i postavite mogućnost **Navedi skup podataka za bazu podataka aplikacije** na **Pokazno**.
+
+8. Ispunite preostala potrebna polja u čarobnjaku i potvrdite implementaciju. Vrijeme pripreme okruženja razlikuje se ovisno o vrsti okruženja. Priprema može potrajati do šest sati.
 
   Nakon što se implementacija uspješno dovrši, okruženje će se prikazati kao **Implementirano**.
 
-8. Kako biste potvrdili da je okruženje uspješno implementirano, odaberite mogućnost **Prijava** i prijavite se u okruženje kako biste to potvrdili.
+9. Kako biste potvrdili da se okruženje uspješno implementiralo, odaberite **Prijava** i prijavite se u okruženje radi potvrde.
 
 ![Pojedinosti  okruženja](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Primjena pokaznih podataka aplikacije Project Operations Finance (neobvezni korak)
-
-Primijenite pokazne podatke aplikacije Project Operations Finance na izdanje usluge Okruženje hostirano u oblaku 10.0.13 na način opisan u [ovom članku](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Primjena ažuriranja na okruženje aplikacije Finance.
 
@@ -151,6 +150,21 @@ Nakon primjene entiteta, sva raspoloživa mapiranja navedena su u okruženju.
 Osvježavanje će potrajati otprilike 20 minuta. Kada bude dovršeno dobit ćete upozorenje.
 
 ![Potvrda osvježavanja](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Ažuriranje sigurnosnih postavki aplikacije Project Operations na platformi Dataverse
+
+1. Idite na aplikaciju Project Operations u okruženju svoje platforme Dataverse. 
+2. Idite na **Postavke** > **Sigurnost** > **Sigurnosne uloge**. 
+3. S popisa uloga na stranici **Sigurnosne uloge**, odaberite **korisnik aplikacije dvostrukog ispisa** i odaberite karticu **Prilagođeni entiteti**.  
+4. Provjerite ima li uloga dozvole **Čitanje** i **Dodaj na** za:
+      
+      - **Vrstu deviznog tečaja valute**
+      - **Grafikon računa**
+      - **Fiskalni kalendar**
+      - **Knjiga**
+
+5. Nakon ažuriranja sigurnosne uloge idite na **Postavke** > **Sigurnost** > **Teams** i odaberite zadani tim u timskom prikazu **Vlasnik lokalne tvrtke**.
+6. Odaberite **Upravljanje ulogama** i provjerite primjenjuje li se sigurnosna ovlast **korisnik aplikacije dvostrukog pisanja** na ovaj tim.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Pokretanje mapa dvostrukog zapisivanja aplikacije Project Operations
 

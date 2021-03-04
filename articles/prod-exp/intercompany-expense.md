@@ -1,6 +1,6 @@
 ---
-title: Međukompanijski troškovi
-description: Radnik koji je zaposlen u jednoj pravnoj osobi u tvrtki ili ustanovi može obavljati posao za drugu pravnu osobu u istoj tvrtki ili ustanovi. U ovoj situaciji možete koristiti značajku troškova unutar tvrtke kako biste troškove radnika dodijelili pravnoj osobi za koju je posao obavljen.
+title: Troškovi unutar tvrtke
+description: U ovoj temi nalaze se informacije o načinu uporabe troškova unutar tvrtke za dodjelu troškova radnika pravnoj osobi za koju je posao obavljen.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/20/2020
@@ -16,24 +16,22 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0967f23e4e1f8e0431c55d4d54554e7e90e2451c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 553ddbe622210169db8de4aa506dcf1ea1e9d5ef
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073539"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960823"
 ---
 # <a name="intercompany-expenses"></a>Međukompanijski troškovi
 
-[!include [banner](../includes/banner.md)]
+Radnik koji je zaposlen u jednoj pravnoj osobi u tvrtki ili ustanovi može obavljati posao za drugu pravnu osobu u istoj tvrtki ili ustanovi. Možete upotrijebiti troškove unutar tvrtke za dodjelu troškova radnika pravnoj osobi za koju je posao obavljen. Pravna osoba koja zapošljava radnika naziva se pravnom osobom koja posuđuje. Pravna osoba kojoj radnik stvara troškove naziva se pravnom osobom koja se zadužuje. 
 
-Radnik koji je zaposlen u jednoj pravnoj osobi u tvrtki ili ustanovi može obavljati posao za drugu pravnu osobu u istoj tvrtki ili ustanovi. U ovoj situaciji možete koristiti značajku troškova unutar tvrtke kako biste troškove radnika dodijelili pravnoj osobi za koju je posao obavljen. Pravna osoba koja zapošljava radnika naziva se pravnom osobom koja posuđuje. Pravna osoba kojoj radnik stvara troškove naziva se pravnom osobom koja se zadužuje. 
-
-Prije nego što radnik može stvoriti i poslati troškove za rad koji se obavlja za drugu pravnu osobu, u pravnoj osobi koja posuđuje, na stranici **Parametri upravljanja troškovima** odaberite mogućnost **Omogući retke troška unutar tvrtke**. 
+Prije nego što radnik može stvoriti i poslati troškove unutar tvrtke, morate omogućiti retke za troškove unutar tvrtke. U pravnoj osobi koja posuđuje, na stranici **Parametri za upravljanje troškovima**, odaberite mogućnost **Omogući redak troškova unutar tvrtke**. 
 
 ## <a name="tax-posting-for-intercompany-expenses"></a>Knjiženje poreza za troškove unutar kompanije
 
 [!include [banner](../includes/banner.md)]
 
-Ako želite upotrebljavati porezne grupe koje su povezane s pravnom osobom koja posuđuje (izvor) umjesto pravne osobe koja se zadužuje (odredište), u svom izvješću o troškovima morat ćete to konfigurirati u postavkama PDV-a u glavnoj knjizi. Kada parametar **Pravna osoba za knjiženje poreza unutar kompanije** glavne knjige postavljen na **Izvor** , a **Primijeni pravila oporezivanja PDV-om** postavljen na **Ne** , upotrijebit će se porezna kombinacija za pravnu osobu koja posuđuje. Kada je isti parametar postavljen na **Odredište** , koristit će se porezna kombinacija za zaduženu pravnu osobu. Za pravne osobe u SAD-u, kada je parametar postavljen na **Izvor** , polje **Potraživanje od poreza na promet** također mora biti konfigurirano na novoj stranici **Grupe za knjiženje u glavnu knjigu**. Računovodstveni mehanizam upotrijebit će podatke iz ovog polja za računovodstveno knjiženje u vezi s porezom.   
+Prije nego što u svom izvješću o troškovima možete upotrijebiti porezne grupe povezane s pravnom osobom koja posuđuje (izvor) umjesto pravne osobe koja se zadužuje (odredište), morate omogućiti funkciju u postavci poreza na promet Glavne knjige. Kada je parametar **Pravna osoba za knjiženje poreza unutar tvrtke** postavljen na **Izvor**, a stavka **Primijeni pravilo oporezivanja poreza na promet** postavljena na **Ne**, upotrebljava se porezna kombinacija za pravnu osobu koja posuđuje. Kada je isti parametar postavljen na **Odredište**, koristit će se porezna kombinacija za zaduženu pravnu osobu. Za pravne osobe u SAD-u, kada je parametar postavljen na **Izvor**, polje **Potraživanje od poreza na promet** također mora biti konfigurirano na novoj stranici **Grupe za knjiženje u glavnu knjigu**. Računovodstveni mehanizam upotrijebit će podatke iz ovog polja za računovodstveno knjiženje u vezi s porezom.   
 Ponašanje je u skladu s redcima troškova knjiženim s projektom ili bez njega.  

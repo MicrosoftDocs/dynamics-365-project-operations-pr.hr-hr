@@ -3,19 +3,19 @@ title: Gotovinski predujam
 description: U ovoj temi nalaze se informacije o gotovinskim predujmovima.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122740"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098875"
 ---
 # <a name="cash-advance"></a>Gotovinski predujam
 
@@ -24,8 +24,9 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 Gotovinski predujam omogućuje zaposlenicima posudbu novca od njihove tvrtke prije stvaranja bilo kakvih troškova. Kada se odobri i plati traženi gotovinski predujam, zaposlenik može novac upotrijebiti za poslovne troškove koji će možda nastati. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Stvaranje i slanje zahtjeva za gotovinski predujam
+Kako biste stvorili novi gotovinski predujam i predali zahtjev za gotovinskim predujmom, učinite sljedeće: 
 
-1. Kako biste stvorili novi gotovinski predujam, pod stavkom **Moji troškovi** odaberite **Gotovinski predujmovi** > **Novi**. 
+1. Pod stavkom **Moji troškovi** odaberite **Gotovinski predujmovi** > **Novi**. 
 2. Na stranici **Novi zahtjev za gotovinski predujam** unesite svrhu troška i odaberite mjesto na kojem će trošak nastati.
 3. Unesite traženi iznos i valutu, a zatim odaberite mogućnost **Spremi**. 
 4. Kada zahtjev za gotovinski predujam bude spreman za slanje, na stranici **Zahtjev za gotovinski predujam** odaberite **Tijek rada** > **Pošalji**.
@@ -57,7 +58,8 @@ Sljedeći postupak obično dovršava računovođa ili korisnik s računovodstven
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Pošaljite izvješće o troškovima u odnosu na plaćeni gotovinski predujam 
 
-Kada izradite i predate izvješće o trošku za gotovinski predujam koji ste već primili, troškovi će se automatski prilagoditi tom predujmu. Ako je vaš gotovinski predujam veći od utrošenog iznosa, saldo morate vratiti tvrtki s pomoću kategorije troškova **Povrat gotovine**. Ako je gotovinski predujam koji je platila tvrtka manji od iznosa koji ste potrošili, tvrtka vam mora nadoknaditi saldo. 
+Kada izradite i predate izvješće o trošku za gotovinski predujam koji ste već dobili, troškovi će se automatski prilagoditi tom predujmu. Ako je vaš gotovinski predujam veći od utrošenog iznosa, saldo morate vratiti tvrtki s pomoću kategorije troškova **Povrat gotovine**. Ako je gotovinski predujam koji je tvrtka platila manji od iznosa koji ste potrošili, tvrtka vam mora nadoknaditi saldo. 
 
 ### <a name="example"></a>Primjer
-Planirate putovati na konferenciju iz Splita u Zagreb. Stvorite zahtjev za gotovinski predujam za 5,000,00 kn jer ste procijenili da su troškovi konferencijske karte, letova, hotela, obroka i taksija približno taj iznos. Nećete biti plaćeni sve dok vaš upravitelj ne odobri ovaj zahtjev. Nakon što vaš upravitelj odobri, traženi gotovinski predujam uplaćuje se na vaš bankovni račun u obliku 5.000,00 kn. Zatim sudjelujete na konferenciji. Nakon završetka putovanja utvrdili ste da su ukupni izdaci bili samo 3.000,00 kn. Odaberite mogućnost **Gotovina** u polju **Način plaćanja** i pošaljite svoj trošak na 3.000,00 kn. Iznos vašeg prijavljenog troška automatski se prilagođava gotovinskom predujmu od 5.000,00 kn koji vam je posuđen. Sada tvrtki dugujete preostali iznos od 2.000,00 kn (5.000,00 – 3.000,00) koji tvrtki možete vratiti s pomoću kategorija troškova **Povrat gotovine**. 
+Planirate putovati na konferenciju iz Seattla u New York. Stvarate zahtjev za gotovinskim predujmom za 3000,00 USD na temelju procijenjenih troškova ulaznice za konferenciju, letova, hotela, obroka i taksija. Isplatu nećete dobiti dok vaš voditelj ne odobri ovaj zahtjev. Nakon što vaš upravitelj odobri, traženi gotovinski predujam uplaćuje se na vaš bankovni račun u obliku 5.000,00 kn. Zatim sudjelujete na konferenciji. Nakon završetka putovanja utvrdili ste da su ukupni izdaci bili samo 3.000,00 kn. Odaberite **Gotovina** u polju **Način plaćanja** i pošaljite svoj trošak od 2790,00 USD. Iznos vašeg prijavljenog troška automatski se prilagođava gotovinskom predujmu od 5.000,00 kn koji vam je posuđen. Sada dugujete saldo od 210,00 USD (3000,00 - 2790,00), koji tvrtki možete vratiti s pomoću troškovne ktegorije **Vrati gotovinu**.
+
