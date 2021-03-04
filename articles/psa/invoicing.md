@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073452"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151379"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturiranje u sustavu Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -81,14 +83,14 @@ Poduzmite ove korake za konfiguriranje automatskog pokretanja faktura u PSA-u.
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. Odaberite **ProcessRunCaller** , a zatim **Dodaj**.
+5. Odaberite **ProcessRunCaller**, a zatim **Dodaj**.
 6. U sljedećem dijaloškom okviru odaberite **U redu**. Nakon tijeka rada **Sleep** slijedi tijek rada **Process**.
 
-    U petom koraku možete odabrati i **ProcessRunner**. Zatim, kada odaberete **U redu** , nakon tijeka rada **Process** slijedi tijek rada **Sleep**.
+    U petom koraku možete odabrati i **ProcessRunner**. Zatim, kada odaberete **U redu**, nakon tijeka rada **Process** slijedi tijek rada **Sleep**.
 
 Tijekovi rada **ProcessRunCaller** i **ProcessRunner** stvaraju fakture. **ProcessRunCaller** poziva **ProcessRunner**. **ProcessRunner** jest tijek rada koji stvara fakture. Prolazi kroz sve retke ugovora za koje je potrebno stvoriti fakture i stvara fakture za te retke. Da bi se odredili reci ugovora za koje je potrebno stvoriti fakture, posao traži datume stvaranja faktura za retke ugovora. Ako reci ugovora koji pripadaju jednom ugovoru imaju isti datum stvaranja fakture, transakcije se kombiniraju u jednu fakturu koja ima dva retka fakture. Ako nema transakcija za stvaranje faktura, posao preskače stvaranje faktura.
 
-Nakon pokretanja funkcije **ProcessRunner** poziva se **ProcessRunCaller** , navodi se vrijeme završetka i funkcija se zatvara. **ProcessRunCaller** zatim pokreće mjerač vremena koji se izvodi 24 sata od navedenog vremena završetka. Po završetku izvođenja mjerača vremena funkcija **ProcessRunCaller** zatvara se.
+Nakon pokretanja funkcije **ProcessRunner** poziva se **ProcessRunCaller**, navodi se vrijeme završetka i funkcija se zatvara. **ProcessRunCaller** zatim pokreće mjerač vremena koji se izvodi 24 sata od navedenog vremena završetka. Po završetku izvođenja mjerača vremena funkcija **ProcessRunCaller** zatvara se.
 
 Skupni postupak stvaranja faktura ponavljajući je posao. Ako se taj skupni postupak izvodi više puta, stvaraju se višestruke instance posla koje uzrokuju pogreške. Stoga biste trebali pokrenuti skupni postupak samo jednom i ponovno ga pokrenuti samo ako se prestane izvoditi.
 
@@ -103,7 +105,7 @@ Kada stvorite skicu fakture projekta, sve nenaplaćene prodajne transakcije stvo
 - Uredite i prilagodite količinu i vrstu naplate.
 - Izravno dodajte vrijeme, trošak i naknade kao transakcije u fakturi. Ovu značajku možete koristiti ako je redak fakture mapiran na redak ugovora koji omogućuje navedene klase transakcija.
 
-Odaberite **Potvrdi** da biste potvrdili fakturu. Radnja potvrde jednosmjerna je radnja. Kada odaberete **Potvrdi** , sustav postavlja fakturu samo za čitanje i stvara naplaćene stvarne podatke o prodaji na temelju svake pojedinosti retka fakture za svaki redak fakture. Ako se pojedinost retka fakture poziva na nenaplaćeni stvarni podatak o prodaji, sustav također poništava nenaplaćeni stvarni podatak o prodaji. (Sve pojedinosti retka fakture stvorene na temelju unosa vremena ili troška pozivaju se na nenaplaćeni stvarni podatak o prodaji.) Sustavi integracije glavne knjige mogu koristiti to poništavanje za promjenu rada projekta u tijeku (WIP) u računovodstvene svrhe.
+Odaberite **Potvrdi** da biste potvrdili fakturu. Radnja potvrde jednosmjerna je radnja. Kada odaberete **Potvrdi**, sustav postavlja fakturu samo za čitanje i stvara naplaćene stvarne podatke o prodaji na temelju svake pojedinosti retka fakture za svaki redak fakture. Ako se pojedinost retka fakture poziva na nenaplaćeni stvarni podatak o prodaji, sustav također poništava nenaplaćeni stvarni podatak o prodaji. (Sve pojedinosti retka fakture stvorene na temelju unosa vremena ili troška pozivaju se na nenaplaćeni stvarni podatak o prodaji.) Sustavi integracije glavne knjige mogu koristiti to poništavanje za promjenu rada projekta u tijeku (WIP) u računovodstvene svrhe.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Ispravak potvrđene PSA fakture
 

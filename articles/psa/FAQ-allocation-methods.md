@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1ceb7ea5484a1d099c4709eda48d34ecd9bac2e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131338"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151604"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Načini dodjele rezervacija u aplikaciji Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Neovisno o tome dodajete li člana tima izravno projektu na kartici **Tim** ili rezervirate resurs za projekt ili zahtjev s ploče rasporeda, postoji nekoliko različitih načina dodjele rezervacija koje možete koristiti. Ova tema objašnjava kako svaki od tih načina radi i koji način može dovesti do prevelikog broja rezervacija resursa.
 
