@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32d0dbc3a69d713dcae8d27e52f2a0c6fc296127
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073494"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148454"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Dodaj prilagođena polja postavljanju cijena i transakcijskim entitetima 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Ova tema pretpostavlja da ste dovršili postupke u temi, [Izradi prilagođena polja i entitete](create-custom-fields-entities.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovu temu. 
 
 U ovoj temi, postupci će vam pokazati kako dodati potrebne reference prilagođenih polja entitetima i elementima korisničkog sučelja (UI) kao što su obrasci i prikazi.
@@ -35,11 +38,11 @@ Nakon izrade prilagođenih polja i entiteta, sljedeći je korak da entiteti post
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Dimenzije prilagođenog određivanja cijena koje se temelje na skupu mogućnosti
 Kada se dimenzija prilagođenog određivanja cijena temelji na skupu na mogućnosti, dodajte je kao polje ključnim entitetima Project Service. U sljedećem postupku, **Mjeso rada resursa** i **Radno vrijeme resursa** koriste se kao dimenzije određivanja cijena na temelju skupa mogućnosti. Oni prvo moraju biti dodani kao polja u entitete određivanja cijena, **Cijena uloge** i **Marža cijene uloge**.
 
-1. U aplikaciji Project Service Automation (PSA), kliknite **Postavke** > **Rješenja** , a zatim dvaput kliknite **\<your organization name> dimenzije određivanja cijena**. 
+1. U aplikaciji Project Service Automation (PSA), kliknite **Postavke** > **Rješenja**, a zatim dvaput kliknite **\<your organization name> dimenzije određivanja cijena**. 
 2. U istraživaču rješenja, u lijevom navigacijskom oknu odaberite **Entiteti > Cijena uloge**.
 3. Proširite entitet **Cijena uloge** i odaberite **Polja**.
 4. Kliknite **Novo** da biste izrrdili novo polje pod nazivom **Mjesto rada resursa** i odaberite **Skup mogućnosti** kao vrstu polja. 
-5. Odaberite **Koristi postojeći skup mogućnosti** , odaberite skup mogućnosti **Mjesto rada resursa** , a zatim kliknite **Spremi**.
+5. Odaberite **Koristi postojeći skup mogućnosti**, odaberite skup mogućnosti **Mjesto rada resursa**, a zatim kliknite **Spremi**.
 6. Ponovite korake 1 - 5 da biste dodali ovo polje entitetu **Marža cijene uloge**. 
 7. Ponovite korake 1 - 5 za skup mogućnosti **Radno vrijeme resursa**.
 
@@ -48,27 +51,27 @@ Kada se dimenzija prilagođenog određivanja cijena temelji na skupu na mogućno
 
 > ![Dodavanje lokacije rada resursa u cijenu uloge](media/RWL-Field.png)
 
-U fazama prodaje i procjene projekta, procjene radnih napora potrebnih za dovršetak **Terenskog** i **Uredskog** rada, u **Redoviti sati** i **Prekovremeni sati**  koriste se za procjenu vrijednosti ponude/projekta. Polja **Mjesto rada resursa** i **Radno vrijeme resursa** dodat će se entitetima procjene, **Pojedinost retka ponude** , **Pojedinost retka ugovora** , **Projektni zadatak** , **Član projektnog tima** i **Redak procjene**.
+U fazama prodaje i procjene projekta, procjene radnih napora potrebnih za dovršetak **Terenskog** i **Uredskog** rada, u **Redoviti sati** i **Prekovremeni sati**  koriste se za procjenu vrijednosti ponude/projekta. Polja **Mjesto rada resursa** i **Radno vrijeme resursa** dodat će se entitetima procjene, **Pojedinost retka ponude**, **Pojedinost retka ugovora**, **Projektni zadatak**, **Član projektnog tima** i **Redak procjene**.
 
 1. U PSA-u kliknite **Postavke** > **Rješenja** i zatim dvaput kliknite **\<your organization name> dimenzije za određivanje cijena**. 
 2. U istraživaču rješenja, u lijevom navigacijskom oknu, odaberite **Entiteti > Pojedinost retka ponude**.
 3. Proširite entitet **Pojedinost retka ponude** i odaberite **Polja**.
 4. Kliknite **Novo** da biste izradili novo polje pod nazivom **Mjesto rada resursa** i odaberite vrstu polja **Skup mogućnosti**. 
-5. Odaberite **Koristi postojeći skup mogućnosti** i **Mjesto rada resursa** , a zatim kliknite **Spremi**.
-6. Ponovite korake 1 – 5 kako biste dodali ovo polje u entitete **Pojedinost retka ugovora projekta** , **Projektni zadatak** , **Član projektnog tima** i **Redak procjene**.
+5. Odaberite **Koristi postojeći skup mogućnosti** i **Mjesto rada resursa**, a zatim kliknite **Spremi**.
+6. Ponovite korake 1 – 5 kako biste dodali ovo polje u entitete **Pojedinost retka ugovora projekta**,**Projektni zadatak**, **Član projektnog tima** i **Redak procjene**.
 7. Ponovite korake 1 - 6 za skup mogućnosti **Radno vrijeme resursa**. 
 
 > ![Dodavanje lokacije rada resursa u redak procjene](media/RWL-Default-Value.png)
 
 
-Da bi se izvršili isporuka i fakturiranje, za završeni rad mora biti precizno određena cijena da bi se moglo odabrati je li izvršen **Na terenu** ili **U uredu** te je li dovršen tijekom **Redovitih sati** ili **Prekovremenih sati** u Stvarnim vrijednostima projekta. Polja **Radno mjesto resursa** i **Radno vrijeme resursa** treba dodati u entitete **Unos vremena** , **Stvarna vrijednost** , **Pojedinost retka fakture** i **Redak u dnevniku**.
+Da bi se izvršili isporuka i fakturiranje, za završeni rad mora biti precizno određena cijena da bi se moglo odabrati je li izvršen **Na terenu** ili **U uredu** te je li dovršen tijekom **Redovitih sati** ili **Prekovremenih sati** u Stvarnim vrijednostima projekta. Polja **Radno mjesto resursa** i **Radno vrijeme resursa** treba dodati u entitete **Unos vremena**, **Stvarna vrijednost**, **Pojedinost retka fakture** i **Redak u dnevniku**.
 
 1. U PSA-u kliknite **Postavke** > **Rješenja** i zatim dvaput kliknite **\<your organization name> dimenzije za određivanje cijena**.
 2. U istraživaču rješenja, u lijevom navigacijskom oknu, odaberite  **Entiteti > Unos vremena**.
 3. Proširite entitet **Pojedinost retka ponude** i zatim odaberite **Polja**.
 4. Kliknite **Novo** da biste izrrdili novo polje pod nazivom **Mjesto rada resursa** i odaberite **Skup mogućnosti** kao vrstu polja. 
-5. Odaberite **Koristi postojeći skup mogućnosti** , odaberite skup mogućnosti **Mjesto rada resursa** , a zatim kliknite **Spremi**.
-6. Ponovite korake 1 - 5 da biste dodali ovo polje u entitete **Stvarna vrijednost** , **Pojedinost retka fakture** i **Redak u dnevniku**.
+5. Odaberite **Koristi postojeći skup mogućnosti**, odaberite skup mogućnosti **Mjesto rada resursa**, a zatim kliknite **Spremi**.
+6. Ponovite korake 1 - 5 da biste dodali ovo polje u entitete **Stvarna vrijednost**, **Pojedinost retka fakture** i **Redak u dnevniku**.
 7. Ponovite korake 1 - 6 za skup mogućnosti **Radno vrijeme resursa**. 
 
 > ![Dodavanje lokacije rada resursa u Unos vremena](media/RWL-time-entry.png)
@@ -91,7 +94,7 @@ Standardna titula također će se morati dodati entitetima određivanja cijena p
 1. U istraživaču rješenja, u lijevom navigacijskom oknu, odaberite **Entiteti > Standardna titula**.
 2. Proširite entitet **Standardna titula** i odaberite **Odnosi 1:N**.
 3. Kliknite **Novo** da biste stvorili novi odnos 1:N pod nazivom **Standardna titula prema Cijeni uloge**. Unesite potrebne informacije, a zatim kliknite **Spremi**.
-4. Ponovite korake 1 - 4 da biste stvorili odnose 1:N između entiteta **Standardna titula** i **Marža cijene uloge** ,
+4. Ponovite korake 1 - 4 da biste stvorili odnose 1:N između entiteta **Standardna titula** i **Marža cijene uloge**,
 
 U fazama prodaje i procjene za projekt, kod određivanja cijena ponude/projekta potrebne su procjene radnog napora za svaku standardnu titulu. To znači da su potrebni odnosi 1:N Standardne titule prema svakom od tih entiteta procjene u programu Project Service: 
 
@@ -101,13 +104,13 @@ U fazama prodaje i procjene za projekt, kod određivanja cijena ponude/projekta 
 - **Član projektnog tima**
 - **Redak procjene**
 
-5. Ponovite korake 1 – 5 kako biste stvorili odnose 1:N iz stavke **Standardni naslov** u stavke **Pojedinost retka ponude** , **Pojedinost retka ugovora projekta** , **Projektni zadatak** , **Član projektnog tima** i **Redak procjene**.
+5. Ponovite korake 1 – 5 kako biste stvorili odnose 1:N iz stavke **Standardni naslov** u stavke **Pojedinost retka ponude**, **Pojedinost retka ugovora projekta**, **Projektni zadatak**, **Član projektnog tima** i **Redak procjene**.
 
 > ![Dodavanje Standardne titule kao referentnog polja Retku procjene](media/ST-Estimate-Line.png)
 
-U fazama isporuke i fakturiranja, za rad dovršen od strane svake standardne titule mora biti točno određena cijena na stvarnim vrijednostima projekta. To znači da moraju postojati odnosi 1:N **Standardne titule** prema **Unosu vremena** , **Stvarnoj vrijednosti** , **Pojedinosti retka fakture** i **Entitetima retka u dnevniku**.
+U fazama isporuke i fakturiranja, za rad dovršen od strane svake standardne titule mora biti točno određena cijena na stvarnim vrijednostima projekta. To znači da moraju postojati odnosi 1:N **Standardne titule** prema **Unosu vremena**, **Stvarnoj vrijednosti**, **Pojedinosti retka fakture** i **Entitetima retka u dnevniku**.
 
-6. Ponovite korake 1 - 6 da biste stvorili odnose 1:N **Standardne titule** prema **Unosu vremena** , **Stvarnoj vrijednosti** , **Pojedinosti retka fakture** i **Entitetima retka u dnevniku**.
+6. Ponovite korake 1 - 6 da biste stvorili odnose 1:N **Standardne titule** prema **Unosu vremena**, **Stvarnoj vrijednosti**, **Pojedinosti retka fakture** i **Entitetima retka u dnevniku**.
 
 > ![Dodavanje Standardne titule kao referentnog polja Unosu vremena](media/ST-Mapping.png)
 
@@ -116,7 +119,7 @@ Za Unos vremena, bilo bi korisno da sustav standardnu titulu na Unosu vremena po
 
 1. U istraživaču rješenja, u lijevom navigacijskom oknu, odaberite **Entiteti > Standardna titula**.
 2. Proširite entitet **Standardna titula** i odaberite **Odnosi 1:N**.
-3. Kliknite dvaput **Resurs koji se može rezervirati prema unosu vremena**. Na stranici **Odnos** , kliknite **Koristi mapiranja polja**. 
+3. Kliknite dvaput **Resurs koji se može rezervirati prema unosu vremena**. Na stranici **Odnos**, kliknite **Koristi mapiranja polja**. 
 4. Kliknite **Novo** da biste izradili novo mapiranje polja između polja **Standardna titula** na entitetu **Resurs koji se može rezervirati** prema referentnom polju **Standardna titula** na entitetu **Unos vremena**. 
 
 > ![Postavljanje mapiranja polja kako bi se omogućilo da se standardna titula postavi kao zadana kod odnosa resursa koji se može rezervirati prema unosu vremena](media/ST-Mapping2.png)
@@ -129,7 +132,7 @@ Time se dovršavaju promjene sheme potrebne za prilagođene dimenzije koje se te
 Nakon što ste izvršili sve potrebne promjene sheme, sljedeći je korak omogućavanje vidljivosti polja u korisničkom sučelju dodavanjem polja obrascima i prikazima.
 
 1. Otvorite obrazac ili prikaz. U desnom navigacijskom oknu, odaberite polje i povucite ga u radno područje obrasca. 
-2. Ako uređujete prikaz, koristite desno navigacijsko okno, kliknite **Dodaj polja** , a zatim u dijaloškom okviru **Popis polja** odaberite polja koja su vam potrebna i kliknite **U redu**.
+2. Ako uređujete prikaz, koristite desno navigacijsko okno, kliknite **Dodaj polja**, a zatim u dijaloškom okviru **Popis polja** odaberite polja koja su vam potrebna i kliknite **U redu**.
 
 Sljedeća tablica prikazuje sveobuhvatan popis gotovih obrazaca i prikaza koji su navedeni po entitetu, a koji se trebaju ažurirati s novim poljima. Ako u prilagodbama tih entiteta postoje dodatni prikazi ili obrasci, njima također dodajte nova polja.
 

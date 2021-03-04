@@ -17,24 +17,26 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073603"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150344"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Postavljanje prilagođenih polja kao cjenovnih veličina 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Prije početka rada, ova tema podrazumijeva da ste dovršili postupke opisane u temama [Izrada prilagođenih polja i entiteta](create-custom-fields-entities.md) i [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](field-references.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovu temu. 
 
-Ovaj tema pruža informacije o postavljanju prilagođenih dimenzija cijena. Na web-sučelju programa Project Service, na stranici **Parametar** , na kartici **Dimenzije cijena na temelju iznosa** prikazuju se zapisi u entitetu dimenzije cijena. Prema zadanim postavkama, instalacijom programa Project Service stvaraju se 2 retka u rešetki na ovoj kartici:
+Ovaj tema pruža informacije o postavljanju prilagođenih dimenzija cijena. Na web-sučelju programa Project Service, na stranici **Parametar**, na kartici **Dimenzije cijena na temelju iznosa** prikazuju se zapisi u entitetu dimenzije cijena. Prema zadanim postavkama, instalacijom programa Project Service stvaraju se 2 retka u rešetki na ovoj kartici:
 
 - **msdyn_resourcecategory** (Uloga)
 - **msdyn_OrganizationalUnit** (Organizacijska jedinica)
 
 > [!IMPORTANT]
-> Nemojte izbrisati te retke. No, ako ih ne trebate, možete im onemogućiti primjenu u određenom kontekstu postavljanjem vrijednosti za **Primjenjivo na trošak** , **Primjenjivo na prodaju** i **Primjenjivo na kupnju** na **Ne** Postavljanje vrijednosti tih atributa na **Ne** ima isti učinak kao da nemate polje kao dimenziju cijena.
+> Nemojte izbrisati te retke. No, ako ih ne trebate, možete im onemogućiti primjenu u određenom kontekstu postavljanjem vrijednosti za **Primjenjivo na trošak**, **Primjenjivo na prodaju** i **Primjenjivo na kupnju** na **Ne** Postavljanje vrijednosti tih atributa na **Ne** ima isti učinak kao da nemate polje kao dimenziju cijena.
 
 Da bi polje postalo dimenzija cijena, ono mora biti:
 
@@ -60,8 +62,8 @@ Ova bi vrijednost trebala točno odgovarati nazivu sheme polja koje je dodano u 
 ### <a name="type-of-dimension"></a>Vrsta dimenzije
 Postoje dvije vrste dimenzija cijena:
   
-  - **Dimenzije utemeljene na iznosu** : vrijednosti dimenzije iz ulaznog konteksta podudaraju se s vrijednostima dimenzije u retku **Cijena uloge** , a cijena/trošak preuzete su kao zadane vrijednosti izravno iz tablice **Cijena uloge**.
-  - **Dimenzije utemeljene na proviziji** : ovo su dimenzije za koje se u programu Project Service uvodi sljedeći postupak u 3 koraka da bi se došlo do cijene/troška.
+  - **Dimenzije utemeljene na iznosu**: vrijednosti dimenzije iz ulaznog konteksta podudaraju se s vrijednostima dimenzije u retku **Cijena uloge**, a cijena/trošak preuzete su kao zadane vrijednosti izravno iz tablice **Cijena uloge**.
+  - **Dimenzije utemeljene na proviziji**: ovo su dimenzije za koje se u programu Project Service uvodi sljedeći postupak u 3 koraka da bi se došlo do cijene/troška.
  
     1. Project Service pronalazi vrijednosti dimenzija koje nisu utemeljene na proviziji iz ulaznog konteksta, a podudaraju se s retkom Cijena uloga da bi se dobila osnovna stopa.
     2. Project Service pronalazi sve vrijednosti dimenzija iz ulaznog konteksta koje odgovaraju retku **Provizija cijene uloge** da bi se dobio postotak provizije.
@@ -79,16 +81,16 @@ Postoje dvije vrste dimenzija cijena:
 Ako je resurs iz tvrtke Contoso, Indija čija je osnovna stopa 100 USD radi na lokaciji, a oni bilježe 8 sati uobičajenog radnog vremena i 2 sata prekovremenog rada, program za određivanje cijena Project Service upotrebljava osnovnu stopu od 100 za 8 sati kako bi se zabilježilo 800 USD. Za 2 sata prekovremenog rada na osnovnu stopu od 100 primjenjuje se provizija od 15% da bi se dobila jedinična cijena od 115 USD te se bilježi ukupni trošak od 230 USD.
 
 ### <a name="applicable-to-cost"></a>Primjenjivo na trošak 
-Ako je ovo polje postavljeno na **Da** , to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa troška i provizije.
+Ako je ovo polje postavljeno na **Da**, to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa troška i provizije.
 
 ### <a name="applicable-to-sales"></a>Primjenjivo na prodaju
-Ako je ovo polje postavljeno na **Da** , to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa naplate i provizije.
+Ako je ovo polje postavljeno na **Da**, to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa naplate i provizije.
 
 ### <a name="applicable-to-purchase"></a>Primjenjivo na kupnju
-Ako je ovo polje postavljeno na **Da** , to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja kupovne cijene. Project Service trenutačno ne podržava scenarije podugovaranja, pa da se ovo polje ne koristi. 
+Ako je ovo polje postavljeno na **Da**, to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja kupovne cijene. Project Service trenutačno ne podržava scenarije podugovaranja, pa da se ovo polje ne koristi. 
 
 ### <a name="priority"></a>Prioritet
 Postavljanje prioriteta dimenzije omogućuje određivanje cijene u programu Project Service, čak i kada ne može pronaći točno podudaranje između vrijednosti ulazne dimenzije i vrijednosti iz tablice **Cijena uloge** ili **Provizija cijene uloge**. U ovom scenariju Project Service upotrebljava vrijednosti null za vrijednosti dimenzija koje se ne podudaraju kako bi se dimenzije ponderirale po redoslijedu prioriteta.
 
-- **Prioritet troška** : vrijednost prioriteta troška dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena koštanja. Vrijednost **Prioritet troška** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na trošak**.
-- **Prioritet prodaje** : vrijednost prioriteta prodaje dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena prodaje ili stopa naplate. Vrijednost **Prioritet prodaje** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na prodaju**.
+- **Prioritet troška**: vrijednost prioriteta troška dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena koštanja. Vrijednost **Prioritet troška** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na trošak**.
+- **Prioritet prodaje**: vrijednost prioriteta prodaje dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena prodaje ili stopa naplate. Vrijednost **Prioritet prodaje** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na prodaju**.

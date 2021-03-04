@@ -2,6 +2,7 @@
 title: Nadogradnja početne stranice
 description: Ova tema pokazuje gdje pronaći važne informacije o novim i promijenjenim značajkama u sustavu Dynamics 365 Project Service Automation i procesu nadogradnje na najnoviju verziju.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121749"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150074"
 ---
 # <a name="upgrade-home-page"></a>Nadogradnja početne stranice
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Od 17. svibnja 2019. godine kada je aplikacija Project Service Automation odabra
 
 ### <a name="existing-instances"></a>Postojeće instance
 
-Klijenti koji su imali instancu PSA verzije 2.x i trebali su se nadograditi na verziju 3.x, što je verzija PSA koja je temeljena na objedinjenom klijentskom sučelju (UCI), ranije su se morali obratiti podršci i pružiti pojedinosti o svojoj instanci, tako da podrška može omogućiti instancu za nadogradnju na verziju 3.x. Od 1. ožujka 2020. klijenti koji imaju instancu PSA verzije 2.x i trebaju je nadograditi na verziju 3.x, moći će nadograditi svoje instance izravno s portala administratora bez potrebe za obraćanjem Microsoftovoj službi za podršku.  
+Ranije su se klijenti koji su imali instancu PSA verzije 2.x i trebali nadograditi na verziju 3.x, što je verzija PSA koja je temeljena na objedinjenom klijentskom sučelju (UCI), morali obratiti Microsoftovoj podršci i dostaviti pojedinosti o svojoj instanci kako bi podrška mogla omogućiti instancu za nadogradnju na verziju 3.x. Od 1. ožujka 2020. klijenti koji imaju instancu PSA verzije 2.x i trebaju nadograditi na verziju 3.x, moći će nadograditi svoje instance izravno s administrativnog portala bez potrebe da kontaktiraju Microsoftovu podršku.  
 
 > [!NOTE]
 > Verzija 3.x aplikacije PSA uključuje značajne promjene. Izgrađena je na okviru objedinjenog sučelja kako bi pomogla u pružanju poboljšanog korisničkog doživljaja. Redizajnirana aplikacija donosi dosljedno, objedinjeno korisničko sučelje (UI), a slijedi načela responzivnog dizajna za optimalan prikaz na bilo kojoj veličini zaslona ili bilo kojem uređaju. Aplikacija donosi i druge promjene. Neka od područja koja su promijenjena uključuju određivanje cijena, rezervacije i dodjeljivanje resursa, vremena, troškova i odobrenja.
@@ -58,7 +61,7 @@ Nakon što pregledate teme koje su ranije spomenute i spremni ste za nadogradnju
 
 Od 17. svibnja 2019. godine sve će nove instance imati UCI kao zadani klijent. Verzija 3.x aplikacije PSA i Field Service verzija 8.x za usklađivanje će s ovom promjenom biti dodijeljene prema zadanim postavkama jer su te verzije dizajnirane za rad s klijentskim UCI-jom.
 
-Od 1. ožujka 2020. klijenti sustava Dynamics PSA više neće moći stvarati nova okruženja sa starijim verzijama PSA, na primjer PSA verzije 2.x ili starije. Svako novo okruženje dobit će samo PSA verzije 3.x.
+Od 1. ožujka 2020. klijenti sustava Dynamics PSA više neće moći stvarati novo okruženje sa starijim verzijama PSA, na primjer PSA verzije 2.x ili starije. Svako novo okruženje dobit će samo PSA verzije 3.x.
 
 > [!NOTE]
 > Za najbolji doživljaj prilikom korištenja starijih verzija aplikacija Field service i PSA, idite na **Postavke sustava**, a za polje **Koristi samo novo objedinjeno sučelje (preporučeno)**, odaberite **Ne** jer ove verzije nisu dizajnirane da se ispravno učitavaju u UCI-ju. Nakon što ste isključili UCI, možete otvoriti i pokrenuti ove verzije aplikacija Field Service i PSA pomoću starog web-klijenta. 

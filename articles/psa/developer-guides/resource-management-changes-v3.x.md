@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073579"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148634"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Promjene upravljanja resursima (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Odjeljci ove teme sadrže informacije o promjenama koje su uvedene u području upravljanja resursima verzije 3.x aplikacije Dynamics 365 Project Service Automation.
 
 ## <a name="project-estimates"></a>Procjene projekta
 
-Umjesto entiteta **msdyn\_projecttask** ( **Projektni zadatak** ), procjene projekta temelje se na entitetu **msdyn\_resourceassignment** ( **Dodjela resursa** ). Dodjele resursa postale su "izvor podataka" za planiranje zadataka i određivanje cijena.
+Umjesto entiteta **msdyn\_projecttask** (**Projektni zadatak**), procjene projekta temelje se na entitetu **msdyn\_resourceassignment** (**Dodjela resursa**). Dodjele resursa postale su "izvor podataka" za planiranje zadataka i određivanje cijena.
 
 ## <a name="line-tasks"></a>Zadaci retka
 
@@ -65,7 +67,7 @@ U aplikaciji PSA 3. x nedodijeljena dodjela je dodjela koja je dodijeljena član
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Polja rasporeda u entitetu Projektni zadatak
 
-Polja u entitetu **msdyn\_projecttask** obustavljena su ili premještena u entitet **msdyn\_resourceassignment** ili su sada povezana referencom iz entiteta **msdyn\_projectteam** ( **Član projektnog tima** ).
+Polja u entitetu **msdyn\_projecttask** obustavljena su ili premještena u entitet **msdyn\_resourceassignment** ili su sada povezana referencom iz entiteta **msdyn\_projectteam** (**Član projektnog tima**).
 
 | Obustavljeno polje u entitetu msdyn\_projektnom zadatku (Projektni zadatak) | Novo polje u entitetu msdyn\_resourceassignment (Dodjela resursa) | Komentar |
 |---|---|---|
@@ -77,7 +79,7 @@ Polja u entitetu **msdyn\_projecttask** obustavljena su ili premještena u entit
 
 ## <a name="schedule-contour"></a>Kontura rasporeda
 
-Kontura rasporeda spremljena je u polju **Planirani rad** ( **msdyn\_plannedwork** ) svakog entiteta **Dodjela resursa** ( **msdyn\_resourceassignment** ).
+Kontura rasporeda spremljena je u polju **Planirani rad** (**msdyn\_plannedwork**) svakog entiteta **Dodjela resursa** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktura
 
@@ -139,7 +141,7 @@ U ovom primjeru zadatak je dodijeljen dvama resursima i automatski je zakazan na
 
 ## <a name="pricing-dimensions"></a>Dimenzije cijena
 
-U aplikaciji PSA 3.x polja dimenzija cijena prema resursu (kao što su **Uloga** i **Organizacijska jedinica** ) uklonjena su iz entiteta **msdyn\_projecttask**. Ta se polja sada mogu dohvatiti iz odgovarajućeg člana projektnog tima **(msdyn\_projectteam** ) dodjele resursa ( **msdyn\_resourceassignment** ) kad se generiraju procjene projekta. Novo polje **, msdyn\_organizationalunit** , dodano je u entitet **msdyn\_projectteam**.
+U aplikaciji PSA 3.x polja dimenzija cijena prema resursu (kao što su **Uloga** i **Organizacijska jedinica**) uklonjena su iz entiteta **msdyn\_projecttask**. Ta se polja sada mogu dohvatiti iz odgovarajućeg člana projektnog tima **(msdyn\_projectteam**) dodjele resursa (**msdyn\_resourceassignment**) kad se generiraju procjene projekta. Novo polje **, msdyn\_organizationalunit**, dodano je u entitet **msdyn\_projectteam**.
 
 | Obustavljeno polje u entitetu msdyn\_projektnom zadatku (Projektni zadatak) | Polje iz entiteta msdyn\_projectteam (Član projektnog tima) koje se upotrebljava umjesto njega |
 |---|---|
@@ -155,12 +157,12 @@ Polja konture cijena i procjene obustavljena su u entitetu **msdyn\_projecttask*
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Polja u nastavku dodana su u entitet **msdyn.\_resourceassignment** :
+Polja u nastavku dodana su u entitet **msdyn.\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Sljedeća polja za planirani, stvarni i preostali trošak i prodaju ostaju ista u entitetu **msdyn\_projecttask** :
+Sljedeća polja za planirani, stvarni i preostali trošak i prodaju ostaju ista u entitetu **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
