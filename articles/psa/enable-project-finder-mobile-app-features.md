@@ -3,6 +3,7 @@ title: Omogući značajke aplikacije Project Finder Mobile
 description: Kako omogućiti značajke aplikacije Project Finder Mobile za Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132954"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144539"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Omogući značajke aplikacije Project Finder Mobile (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Vaši resursi mogu koristiti aplikaciju Project Finder Mobile na svom telefonu s pomoću sustava [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] da bi pronašli nove projekte za rad i ažurirali svoje skupove vještina.  
+Vaši resursi mogu upotrebljavati aplikaciju Project Finder Mobile na svom telefonu s pomoću sustava [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] kako bi pronašli nove projekte za rad i ažurirali svoje skupove vještina.  
   
  Aplikacija je dostupna za [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] telefone i [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- Morate postaviti nekoliko mogućnosti u postavci parametara za organizacijsku jedinicu da biste dopustili korisnicima da pregledavaju zahtjeve resursa projekta i ažuriraju svoje vještine.  
+    
+ Kako biste dopustili korisnicima da pregledavaju preduvjete resursa za projekt i ažuriraju svoje vještine, u postavkama parametara vaše organizacijske jedinice morate odabrati mogućnosti.
   
 > [!NOTE]
 >  Aplikacija Project Finder Mobile radi samo sa sustavom [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], ne s lokalnim instalacijama.  
@@ -57,10 +60,10 @@ Vaši resursi mogu koristiti aplikaciju Project Finder Mobile na svom telefonu s
   
 |Primatelj|Događaj|  
 |---------------|-----------|  
-|Upravitelj projekta|-   Kada se resurs prijavi za projekt pomoću aplikacije Project Finder Mobile.|  
-|Resurs|-   Kada je zadatak projekta za koji se resurs prijavio već izvršio neki drugi resurs.<br />-   Kada je zahtjev za odobrenjem vještine odobren ili odbijen.<br />-   Kada je zahtjev za prijavom na projekt odobren ili odbijen.|  
+|Upravitelj projekta|- Kada se resurs prijavi za projekt s pomoću aplikacije Project Finder Mobile.|  
+|Resurs|- Kada je posao projekta za koji se resurs prijavio već izvršio neki drugi resurs.<br />- Kada je njihov zahtjev za odobrenjem vještine odobren ili odbijen.<br />- Kada je njihov zahtjev za prijavom na projekt odobren ili odbijen.|  
   
-## <a name="privacy-notice"></a>Napomena o zaštiti privatnosti  
+## <a name="privacy-notice"></a>Obavijest o zaštiti privatnosti  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>Pogledajte također  

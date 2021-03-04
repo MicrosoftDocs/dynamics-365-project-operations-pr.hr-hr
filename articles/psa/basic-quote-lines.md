@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129444"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145104"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponude i reci ponude
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -59,7 +61,7 @@ Redak ponude koji se temelji na projektu u PSA ima sljedeće načine naplate:
 
 ### <a name="time-and-material"></a>Vrijeme i materijal
 
-Način naplate vremena i materijala temelji se na potrošnji. Kada odaberete ovaj način naplate, klijentu se fakturira jer projekt snosi troškove. Fakture se izrađuju na periodičnoj frekvenciji koja se temelji na datumu. Tijekom procesa prodaje, navedena vrijednost komponente vremena i materijala daje samo procjenu krajnjeg troška klijentu. Dobavljač se ne obvezuje na dovršetak projekta za točno navedenu vrijednost. Komponente vremena i materijala povećavaju rizik klijenta. Klijenti bi mogli pregovarati o dodatnim klauzulama koje se ne mogu premašiti kako bi smanjio njihov rizik. PSA ne podržava postavljanje klauzula koje se ne smije prelaziti.
+Način naplate vremena i materijala temelji se na potrošnji. Kada odaberete ovaj način naplate, klijent se fakturira jer projekt snosi troškove. Fakture se izrađuju na periodičnoj frekvenciji koja se temelji na datumu. Tijekom procesa prodaje, navedena vrijednost komponente vremena i materijala daje samo procjenu krajnjeg troška klijentu. Dobavljač se ne obvezuje na dovršetak projekta za točno navedenu vrijednost. Komponente vremena i materijala povećavaju rizik klijenta. Klijenti bi mogli pregovarati o dodatnim klauzulama koje se ne mogu premašiti kako bi smanjio njihov rizik. PSA ne podržava postavljanje klauzula koje se ne smije prelaziti.
 
 ### <a name="fixed-price"></a>Fiksna cijena
 

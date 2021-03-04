@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073487"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144989"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Koristi resurs koji je moguće rezervirati kao dimenziju određivanja cijena
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Ova tema pruža informacije o korištenju resursa koji je moguće rezervirati kao dimenzije određivanja cijena. Prije nego što započnete, ako još niste izradili rješenje dimenzije cijena, morat ćete stvoriti novu. Ako već imate rješenje dimenzije cijena, možete uvesti promjene u tom rješenju. Ako niste izradili novo rješenje dimenzije cijena za svoju organizaciju, provedite postupke u temi [Stvaranje prilagođenih polja i entiteta](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Dodaj resurs koji je moguće rezervirati obrascima i prikazima
@@ -48,16 +51,16 @@ Otvorite Istraživač rješenja za rješenje dimenzije određivanja cijena, a za
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Postavi resurs koji je moguće rezervirati kao dimenziju određivanja cijena
 
-1. Na web-sučelju otvorite **Project Service** > **Postavke** > **Parametri**. Na stranici **Parametar** , na kartici **Dimenzije određivanja cijena koje se temelje na iznosu** , primijetite da rešetka na kartici prikazuje zapise u entitetu dimenzija određivanja cijena. 
+1. Na web-sučelju otvorite **Project Service** > **Postavke** > **Parametri**. Na stranici **Parametar**, na kartici **Dimenzije određivanja cijena koje se temelje na iznosu**, primijetite da rešetka na kartici prikazuje zapise u entitetu dimenzija određivanja cijena. 
 2. Dodajte **Resurs koji je moguće rezervirati** na ovaj popis dimenzija određivanja cijena kao **kao msdyn_bookableresource**. 
 3. Naznačite kontekst u kojem resurs koji je moguće rezervirati ima dimenziju određivanja cijena i postavite vrijednosti **Primjenjivo na troškove** i **Primjenjivo na prodaju**.
-4. U polju **Vrsta dimenzije** , odaberite **Koja se temelji na iznosu**. 
+4. U polju **Vrsta dimenzije**, odaberite **Koja se temelji na iznosu**. 
 5. Odaberite prioritet troškova i prodaje za resurs koji je moguće rezervirati. Obično, kada je uključen kao dimenzija određivanja cijena, resurs koji je moguće rezervirati ima najviši prioritet, tako da će postavljanje na **1** (ili **0** ovisno o tome kako računate prioritet) osigurati to ponašanje.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Postavi nazive polja dimenzije određivanja cijena
 
 Kada se naziv polja dimenzije određivanja cijena u tablici **Cijena uloge** razlikuje od naziva polja u bilo kojem od drugih entiteta gdje je nužno da postoji zadana postavka za cijene, zapis dimenzije određivanja cijena mora prepoznati različite nazive.    
-Za resurs koji je moguće rezervirati, entitet **Članovi tima projekta** ima malo drugačiji naziv polja ( **msdyn_bookableresourceid** ) od naziva na entitetu **Cijena uloga** ( **msdyn_bookableresource** ). Zapis dimenzije određivanja cijena za **msydn_bookableresource** mora to prepoznati. 
+Za resurs koji je moguće rezervirati, entitet **Članovi tima projekta** ima malo drugačiji naziv polja (**msdyn_bookableresourceid**) od naziva na entitetu **Cijena uloga** (**msdyn_bookableresource**). Zapis dimenzije određivanja cijena za **msydn_bookableresource** mora to prepoznati. 
 1. Da biste to učinili, dvaput kliknite redak u rešetki **Dimenzije određivanja cijena** da biste otvorili stranicu dimenzije **msdyn_bookableresource.**
 2. Na stranici dimenzije, na kartici **Povezano** kliknite **Nazivi polja dimenzije određivanja cijena**.
 
@@ -70,6 +73,6 @@ Za resurs koji je moguće rezervirati, entitet **Članovi tima projekta** ima ma
 
 To otvara stranicu **Novi naziv polja dimenzije određivanja cijena** za **msdyn_bookableresource**. 
 
-5. **msdyn_projectteam** dodaj polju **Logični naziv entiteta** , a **msdyn_bookableresourceid** polju **Naziv polja**. Spremite zapis.
+5. **msdyn_projectteam** dodaj polju **Logični naziv entiteta**, a **msdyn_bookableresourceid** polju **Naziv polja**. Spremite zapis.
 
  ![Obrazac novog naziva polja dimenzije određivanja cijena](media/PD-fieldname-Added.png)

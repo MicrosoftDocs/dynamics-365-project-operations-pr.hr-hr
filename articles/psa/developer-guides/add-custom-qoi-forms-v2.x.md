@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073582"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144584"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodavanje novih obrazaca prilagođenih entiteta (Project Service Automation 2. x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Polje Vrsta 
 
-Dynamics 365 Project Service Automation oslanja se na polje **Vrsta** ( **msdyn\_ordertype** ) entiteta Prilika, Ponuda, Narudžba i Fakture za raspoznavanje verzija tih entiteta **koje se temelje na radu** od verzija **koje se temelje na artiklu** i verzija koje se **temelje na usluzi**. Verzije tih entiteta koje se temelje na radu obrađuje aplikacija PSA. Mnoštvo poslovne logike rješenja na strani klijenta i na strani poslužitelja ovisi o polju **Vrsta**. Stoga je važno da se polje inicijalizira s ispravnom vrijednošću kada se izrađuju entiteti. Neispravna vrijednost može uzrokovati neispravan odaziv, a neka poslovna logika možda se neće ispravno izvoditi.
+Dynamics 365 Project Service Automation oslanja se na polje **Vrsta** (**msdyn\_ordertype**) entiteta Prilika, Ponuda, Narudžba i Fakture za raspoznavanje verzija tih entiteta **koje se temelje na radu** od verzija **koje se temelje na artiklu** i verzija koje se **temelje na usluzi**. Verzije tih entiteta koje se temelje na radu obrađuje aplikacija PSA. Mnoštvo poslovne logike rješenja na strani klijenta i na strani poslužitelja ovisi o polju **Vrsta**. Stoga je važno da se polje inicijalizira s ispravnom vrijednošću kada se izrađuju entiteti. Neispravna vrijednost može uzrokovati neispravan odaziv, a neka poslovna logika možda se neće ispravno izvoditi.
 
 ## <a name="automatic-form-switching"></a>Automatsko prebacivanje obrazaca
 
@@ -37,7 +39,7 @@ Logika automatskog prebacivanja obrazaca oslanja se na mapiranje između vrijedn
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Dodavanje prilagođenih obrazaca i uključivanje logike prebacivanja obrazaca
 
-Sljedeći primjer pokazuje kako dodati prilagođeni obrazac, **Moje informacije o projektu** , tako da radi s prilikama koje se temelje na radu. Isti se postupak koristi za dodavanje prilagođenih obrazaca tako da rade s ponudama, narudžbama i fakturama.
+Sljedeći primjer pokazuje kako dodati prilagođeni obrazac, **Moje informacije o projektu**, tako da radi s prilikama koje se temelje na radu. Isti se postupak koristi za dodavanje prilagođenih obrazaca tako da rade s ponudama, narudžbama i fakturama.
 
 Slijedite ove korake da biste izradili prilagođenu verziju obrasca **Informacije o projektu**.
 
@@ -47,7 +49,7 @@ Slijedite ove korake da biste izradili prilagođenu verziju obrasca **Informacij
     > [!IMPORTANT]
     > Nemojte ukloniti skripte. U protivnom se neki podaci mogu neispravno inicijalizirati.
 
-3. Provjerite je li polje **Vrsta** ( **msdyn\_ordertype** ) prisutno u obrascu. 
+3. Provjerite je li polje **Vrsta** (**msdyn\_ordertype**) prisutno u obrascu. 
 
     > [!IMPORTANT]
     > Nemojte ukloniti ovo polje. U protivnom skripte za inicijalizaciju neće ispuniti zadatak.
