@@ -72,3 +72,6 @@ Ako postavljanje cijene za kategoriju troška nije valjano, utvrdili ste problem
 Ako se ni nakon tri gornje provjere i dalje ne prikazuje valjana cijena stvarnih troškova prodaje, prijavite problem službi za podršku.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

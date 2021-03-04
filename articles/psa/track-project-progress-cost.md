@@ -40,3 +40,6 @@ Ponekad možda morate izmijeniti izvorne procjene za zadatak. Zadatak se može i
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

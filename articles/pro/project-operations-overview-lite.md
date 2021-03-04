@@ -37,3 +37,6 @@ Upotrijebite ovu vrstu implementacije ako od aplikacije Project Operations oček
 - Integrirani sustav koji upravlja internim i naplativim projektima za rasporede i financijska sredstva od prodaje projekata do fakturiranja.
 - Planiranje resursa poduzeća od strane trećih (ERP / sustav financijskog računovodstva za integraciju s aplikacijom Project Operations.
 - Sustav treće strane za rad s porezima na promet, tečajevima, naknadama troškova i troškovima koji se ne odnose na projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

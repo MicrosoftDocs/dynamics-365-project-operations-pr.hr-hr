@@ -62,3 +62,6 @@ Budući da Dynamics 365 Project Operations upotrebljava modul Universal Resource
 
 Za prikaz dodatnih pojedinosti o pojedinačnom resursu desnom tipkom miša kliknite resurs za otvaranje kartice resursa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

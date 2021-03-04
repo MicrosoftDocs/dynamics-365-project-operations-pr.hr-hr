@@ -74,3 +74,6 @@ Popravljeni su sljedeći problemi:
 - Pri odabiru retka koji se temelji na projektu u ponudi ili ugovoru, gumb **Prijedlog** bi trebao biti vidljiv samo pri odabiru retka koji se temelji na proizvodu povezanog s postojećim proizvodom.
 - Razdvojite ovlast **Stvori_proizvod** od **Stvori_UgovoroProjektu**.
 - Brisanje retka fakture uzrokuje neuspješnu vrijednost reference jednaku nuli na **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

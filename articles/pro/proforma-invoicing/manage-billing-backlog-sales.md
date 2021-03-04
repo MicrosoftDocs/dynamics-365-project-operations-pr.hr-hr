@@ -60,3 +60,6 @@ Nenaplaćene stvarne podatke o prodaji sa statusom **Ne smije se prekoračiti** 
 Ako redci ugovora za više klijenata imaju način naplate vremena i materijala, kada se odobre vrijeme i troškovi, stvara se jedna nefakturirana stvarna prodaja za svakog kupca u retku ugovora prema razdijeljenom postotku naplate utvrđenom za svakog klijenta. U prikazu **Zaostale naplate vremena i materijala** vidjet ćete ove pojedinačne stvarne podatke o nenaplaćenoj prodaji. Svaki od ovih zapisa stvarnih podataka o nefakturiranoj prodaji može se odvojeno od ovog prikaza označiti kao **Spremno za fakturiranje**.
 
 Nenaplaćeni stvarni podatak o prodaji koji se nalazi na nacrtu fakture prikazan je u ovom prikazu sa statusom naplate **Faktura za klijenta stvorena**. Kada se nacrt fakture potvrdi, status naplate na ovom zapisu ažurira se na **Faktura za klijenta proknjižena**. Nemojte ažurirati ovu vrijednost statusa s pomoću prilagođenog koda. Project Operations ne funkcioniraju ispravno kada se ove vrijednosti statusa ažuriraju prilagođenim kodom.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

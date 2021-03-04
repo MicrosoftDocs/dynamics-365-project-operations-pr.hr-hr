@@ -90,3 +90,6 @@ Procjena mijenja status u **Uklonjeno**.
 Ovu stranicu upotrijebite za storniranje svih uklanjanja s navedenim datumom procjene i statusom procjene **Uklonjeno**. Status transakcije mijenja se nakon što odaberete odgovarajuća polja.
 
 Ovo također automatski mijenja status projekta u **U postupku** ako je faza projekta postavljena na završeno. Status procjene projektnog razdoblja vraća se na **Proknjiženo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

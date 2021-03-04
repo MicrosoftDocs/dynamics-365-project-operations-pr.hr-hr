@@ -81,3 +81,6 @@ Ako upotrebljavate predviđanje projekata, modele možete prepoznati kao podmode
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

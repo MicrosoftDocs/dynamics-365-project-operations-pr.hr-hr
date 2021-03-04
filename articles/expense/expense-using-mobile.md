@@ -236,3 +236,6 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 22. Odaberite **Šalji**.
 23. Unesite komentare za odobravatelja.
 24. Odaberite **Gotovo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

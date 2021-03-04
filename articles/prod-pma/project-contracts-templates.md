@@ -153,3 +153,6 @@ Sljedeće slike prikazuju primjer mapiranja zadataka predloška u Integraciji po
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapiranje kontrolnih točaka retka ugovora o projektu u projektima i ugovorima (PSA 3.x za Dynamics) – predložak v2:
 
 [![Mapiranje kontrolne točke redka ugovora o projektu s pomoću verzije dva predloška](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

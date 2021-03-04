@@ -55,3 +55,6 @@ Troškovi koji još nisu poslani mogu se izbrisati. Kako biste izbrisali trošak
 ## <a name="see-also"></a>Pogledajte također
 
 - [Pregled odobrenja](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

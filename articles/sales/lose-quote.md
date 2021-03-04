@@ -45,3 +45,6 @@ Kad odaberete **U redu** na dijaloškoj stranici, sustav stvara kopiju ponude pr
 > - Referenca projekta na redcima ponude koji se temelje na projektima – Podaci o proračunu klijenta
 >
 >Budući da su ove informacije vrlo specifične za svaku ponudu, ta se polja i zapisi ne kopiraju. Kopiraju se redci ponude za projekte i proizvode, procjene pojedinosti redaka ponude i vrijednosti koje ne smiju premašiti na razini ponude. Zadane postavke cijene i troška ovise o mogućnosti **Kopiraj cijene** odabranoj na dijaloškoj stranici **Kopiraj parametre**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

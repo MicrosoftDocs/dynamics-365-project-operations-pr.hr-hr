@@ -57,3 +57,6 @@ Možete prikazati popis članova tima vašeg projekta i iz njega možete održav
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

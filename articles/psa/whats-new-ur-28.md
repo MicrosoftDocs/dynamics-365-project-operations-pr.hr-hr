@@ -55,3 +55,6 @@ Popravljeni su sljedeći problemi:
 - Iznimka nulte reference generira se kada se pozove dodatak **GetEstimatesForProject**.
 - Mogućnost **Označi spremnim za fakturiranje** na rešetki kontrolne točke samo djelomično ažurira atribute, osim atributa **Status fakture**, koji se ažurira.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

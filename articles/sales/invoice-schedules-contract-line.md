@@ -74,3 +74,6 @@ Kontrolne točke s nepromjenjivom cijenom možete generirati ručno kada se povr
 | Porez | Brzo stvaranje | Iznos poreza primijenjen na kontrolnu točku. | To se prenosi na kontrolnu točku retka ugovora o projektu i na fakturu. |
 
 3. Odaberite **Spremi i zatvori**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

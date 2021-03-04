@@ -344,3 +344,6 @@ Tijekom prvog mjeseca, savjetnici na projektu bilježe ukupno 800 sati. Cijena u
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Ako imate dodjele zadataka za resurs, ali bez rezervacija, odaberite manjak reze
 Rezervacije stvorene putem radnje **Produlji rezervaciju** povezane su s primarnim projektnim zahtjevom. Kada se pokreće produljenje, ne može se odrediti posebni zahtjev koji se mora produljiti, jer bi resurs mogao biti povezan s više zahtjeva za projekt.
 
 Voditelj projekta ili upravitelj resursa zatim može upotrijebiti ploču s rasporedom kako bi upravljao svim situacijama u kojima resurs ima prevelik broj rezervacija izvan svog kapaciteta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

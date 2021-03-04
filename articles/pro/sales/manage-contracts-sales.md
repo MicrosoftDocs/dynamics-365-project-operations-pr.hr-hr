@@ -33,3 +33,6 @@ Popis svih ugovora o projektu koji se mogu vidjeti na stranici s popisom **Ugovo
 2. Odaberite **Preklopnik prikaza** (strelica padajućeg izbornika pokraj naziva prikaza) za odabir ostalih filtriranih prikaza. Možete stvoriti vlastite prikaze s prilagođenim kriterijima filtra.
 
 Ugovori se mogu stvoriti ili izbrisati s ove stranice s popisom ili stranica s pojedinostima.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

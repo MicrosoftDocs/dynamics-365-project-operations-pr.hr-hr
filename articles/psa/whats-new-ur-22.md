@@ -72,3 +72,6 @@ Popravljeni su sljedeći problemi:
 - Zatvaranje prihvaćene ponude ne prelazi na stvoreni ugovor ako je BPF u prilogu ponude u završnoj fazi.
 - Storniranje **Nenaplaćene prodaje** povezano je s izvornim troškom kad se opozove unos vremena.
 - Nakon odabira gumba **Potvrdi**, status fakture se ne mijenja u **Potvrđen** sve dok se faktura ne osvježi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

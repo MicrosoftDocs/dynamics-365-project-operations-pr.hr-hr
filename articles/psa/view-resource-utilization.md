@@ -43,3 +43,6 @@ Iskorištenost resursa možete provjeriti da biste odredili razine iskorištenos
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič za upravitelj resursa](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

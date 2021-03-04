@@ -26,3 +26,6 @@ Alati za upravljanje projektima u Dynamics 365 Project Operations pomažu vam pr
 - Koristite procjene projekta tijekom prodajnog postupka.
 - Predvidite preduvjete resursa za projekte u kanalu.
 - Uspješno isporučite projekte praćenjem napretka i potrošnje troška.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

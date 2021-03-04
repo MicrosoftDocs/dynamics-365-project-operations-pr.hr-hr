@@ -59,3 +59,6 @@ Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji 
      - Popravljeno: Dodatni gumbi za mogućnosti **Nova prilika**, **Ponuda**, **Redak narudžbe** i **Dodaj proizvod** vidljivi su u naredbama za Prilike, Ponude, Naručivanje proizvoda i podrešetki redaka koji se temelje na projektu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

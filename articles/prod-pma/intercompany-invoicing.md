@@ -113,3 +113,6 @@ Kada pravna osoba davatelj posudbe, USSI, knjiži fakturu klijenta unutar tvrtke
 Dodatne informacija potražite u odjeljku [Konfiguriranje fakturiranja projekta unutar tvrtke](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

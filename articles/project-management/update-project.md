@@ -48,3 +48,6 @@ U nastavku je sažetak polja koja se mogu ažurirati na projektu nakon što se o
 - **Ukupni status projekta**: Ukupno stanje projekta koje osigurava voditelj projekta.
 - **Komentari**: Izvješće o trenutačnom stanju projekta koje daje voditelj projekta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

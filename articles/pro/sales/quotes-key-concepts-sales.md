@@ -89,3 +89,6 @@ Ponude iz aplikacije Project Operations grade se na ponudama iz aplikacije Dynam
 - Ponude iz aplikacije Project Operations imaju vlastiti obrazac i elemente korisničkog sučelja, poslovna pravila, poslovnu logiku u dodacima i skripte na strani klijenta što ih čini jedinstvenima u prodajnim ponudama.
 
 Iz tih razloga nije preporučljivo naizmjenično upotrebljavati ponude iz aplikacija Sales i Project Operations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

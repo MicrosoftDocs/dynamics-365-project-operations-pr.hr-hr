@@ -49,3 +49,6 @@ Moja evidencija radnog vremena (optimizirana za mobilne uređaje) i evidencija r
 - [Unos vremena za projekt]( project-time-entry-mobile-workspace.md)
 - [Evidencija radnog vremena za projekt na mobilnom uređaju](Mobile-timesheets.md)
 - [Implementacija prilagođenih polja za mobilnu aplikaciju Microsoft Dynamics 365 Project Timesheet na platformama iOS i Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

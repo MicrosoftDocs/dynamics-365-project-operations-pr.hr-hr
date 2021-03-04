@@ -55,3 +55,6 @@ Dodatne informacije potražite na [blogu](https://blogs.msdn.microsoft.com/crm/2
  [Vodič voditelja projekta](../psa/project-manager-guide.md)   
  [Vodič za upravitelj resursa](../psa/resource-manager-guide.md)   
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

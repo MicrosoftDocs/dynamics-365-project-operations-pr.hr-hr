@@ -112,3 +112,6 @@ Ne. Procjena rasporeda trenutačno je ograničena na sate i ne može se mijenjat
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Mogu li se jedinice i grupe jedinica uređivati, brisati i dodavati?
 Da. Uz iznimku grupe jedinica **Vrijeme** i jedinice **Sat**, sve jedinice mogu se brisati ili uređivati, a mogu se dodati i nove jedinice. U sustavu PSA, grupa jedinica **Vrijeme** i jedinica **Sat** ne mogu se brisati. Međutim, oni se mogu ažurirati s prevedenim tekstom za polje **Naziv**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

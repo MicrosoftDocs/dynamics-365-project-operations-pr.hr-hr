@@ -90,3 +90,6 @@ Projektnim zadacima možete i prekinuti vezu s redcima ponude iz kartice **Zadac
 
 >[!NOTE]
 > Ovim postupkom zadatak se ne briše iz projekta. Time se samo uklanja povezanost zadataka iz retka ponude koji se temelji na projektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

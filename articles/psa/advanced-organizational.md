@@ -167,3 +167,6 @@ Ako vaše poduzeće posluje kao jedna jedinica koja ima jedan cjenik troškova, 
 Kada se projekt samostalno izrađuje, zadana ugovorna jedinica projekta temelji se na korisniku koji ga izrađuje. Taj korisnik također je zadani upravitelj projekta. Ako je projekt mapiran na entitet prodaje, kao što je ponuda ili ugovor o projektu, ugovorna jedinica na projektu temelji se na entitetu prodaje. U tom slučaju, procjene projekta mogu se ponovno izračunati jer se cjenik troškova koristi za izračun promjena procjene troška ako se ugovorna jedinica promijeni. Cjenik prodaje koristi se za izračun procjena prodaje koje će se promijeniti tako da su usklađene s cjenikom projekta na ponudi.
 
 Polja **Ugovorna jedinica** i **Valuta** na projektu zaključana su za uređivanje jer moraju biti usklađena s vrijednostima na entitetu prodaje (ponuda ili ugovor o projektu) na koji je projekt mapiran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

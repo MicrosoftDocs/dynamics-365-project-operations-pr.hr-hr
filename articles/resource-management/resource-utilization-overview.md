@@ -45,3 +45,6 @@ Osim toga, svakom resursu koji se može rezervirati potrebno je dodijeliti zadan
 Na kartici **Project Service** možete postaviti i pojedinačnu ciljnu upotrebu za resurs. Izračun upotrebe zatim upotrebljava ciljnu upotrebu da bi se procijenio cilj resursa, a ne cilj zadane uloge resursa.
 
 Iskoristivost se prikazuje za resurs samo ako taj resurs ima odobreno naplativo vrijeme tijekom razdoblja prikazanog u rešetki.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

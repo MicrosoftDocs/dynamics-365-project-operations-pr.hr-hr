@@ -38,3 +38,6 @@ Ova često postavljena pitanja odnose na stvarne vrijednosti u slučajevima u ko
 Idite na povezanu stavku troškova i provjerite je li ispunjeno polje za stavku troškova. Ako za izvornu stavku troškova nije bilo ispunjeno polje iznosa, utvrdili ste problem.
  
 Da biste riješili taj problem, ponovno izradite stavku troškova s valjanim iznosom i odobrite je.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

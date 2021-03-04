@@ -34,3 +34,6 @@ Prilike za projekt mogu se lako kopirati kako bi se stvorile nove prilike za pro
     | Kopiranje cijena | Vrijednost Da/Ne koja pokazuje hoće li se cijena za priliku kopirati iz izvorne prilike. | Ako je odabrano **Da**, cjenici se kopiraju iz izvora u ciljanu priliku. Ako se odabere **Ne**, cjenici se zadaju na temelju posljednje postavljenih cjenika. |
 
 3. Odaberite **U redu**. Sustav stvara kopiju prilike za projekt na temelju odabranih parametara i otvara se nova projektna prilika.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

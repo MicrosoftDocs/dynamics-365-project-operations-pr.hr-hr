@@ -170,3 +170,6 @@ Sljedeća polja za planirani, stvarni i preostali trošak i prodaju ostaju ista 
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

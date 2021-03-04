@@ -82,3 +82,6 @@ Ovo je najoptimalnije iskustvo za prekidanje povezivanja projektnih zadataka iz 
 4. Na dijaloškoj stranici koja se otvori odaberite redak ugovora s padajućeg izbornika.
 5. Označite potvrdni okvir kako biste naznačili treba li povezanost ukloniti i iz svih podređenih zadataka odabranih zadataka. Označavanjem okvira podređenim će se zadacima odabranih zadataka također prekinuti povezanost iz retka ugovora.
 6. Odaberite **U redu**. Poruka upozorenja ukazuje kako bi uklanjanje ove povezanosti moglo dovesti do poništavanja svih stvarnih podataka koji su prethodno zabilježeni u zadatku. Odaberite **U redu** u dijaloškom okviru upozorenja kako biste uklonili povezanost između zadatka i retka ugovora koji se temelji na projektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

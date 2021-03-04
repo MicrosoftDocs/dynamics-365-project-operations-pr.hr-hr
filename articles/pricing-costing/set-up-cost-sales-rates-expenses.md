@@ -55,3 +55,6 @@ Kada je ovaj način određivanja cijene odabran na retku cijene kategorije koja 
 
 ### <a name="markup-over-cost"></a>Marža na trošak
 Kada je ovaj način određivanja cijene odabran na retku cijene kategorije koja je povezana s prodajnim cjenikom, cijena je zadana za kombinaciju kategorije i jedinice samo za stvarnu vrijednost troška. Na primjer, nenaplaćene stvarne prodajne vrijednosti za klasu transakcije troška. Ova jedinična cijena postavlja se na stvarnoj vrijednosti nenaplaćene prodaje na izračunanu vrijednost iz jedinične cijene na stvarnoj vrijednosti troška za taj trošak, nakon što se primijeni definirani postotak marže. Cijena koja je zadana na temelju troškova nije napravljena na temelju projektnih procjena za troškove ili pojedinosti retka ponude i retka ugovora za troškove.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

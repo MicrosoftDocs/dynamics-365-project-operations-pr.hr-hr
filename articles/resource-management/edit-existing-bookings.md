@@ -33,3 +33,6 @@ Iz rešetke **Član tima** voditelj projekta može označiti određeni resurs i 
 ## <a name="schedule-board"></a>Ploča s rasporedom
 
 Iz mogućnosti **Ploča s rasporedom** Upravitelj resursa dobiva prikaz portfelja svih rezervacija u tvrtki ili ustanovi. Iz ovog prikaza upravitelj resursa može proširiti, skratiti ili premjestiti postojeće rezervacije slično mogućnostima koje postoje u stavci **Održavanje rezervacija**. Upravitelj resursa također može zamijeniti postojeće resurse dodijeljene određenoj rezervaciji desnim klikom na rezervaciju i odabirom mogućnosti **Zamijeni resurs**. Upravitelji resursa također mogu uređivati konture postojećih rezervacija desnim klikom na rezervaciju i odabirom mogućnosti **Uredi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

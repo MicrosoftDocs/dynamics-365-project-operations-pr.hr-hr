@@ -35,3 +35,6 @@ Otvorite stavke projekta i pazite da su trošak i nefakturirane prodaje za razdo
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič za voditelje projekata](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

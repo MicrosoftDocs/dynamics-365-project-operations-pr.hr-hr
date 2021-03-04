@@ -74,3 +74,6 @@ Kada proširite red tog zapisa o članu tima, na tom zapisu možete vidjeti razl
 Kada prijeđete na rešetku **Procjene**, primijetit ćete kako oba zadatka za isti resurs imaju različitu cijenu.
 Cijena zadaka resursa u Zadatku A određuje se s pomoću vrijednost atributa **Uloga** stavke **Voditelj savjetovanja**. Cijena zadaka istog resursa u Zadatku B određuje se s pomoću vrijednost atributa **Uloga** stavke **Tehničar za mrežu**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Svaki redak ugovora o projektu koji ima način naplate s fiksnom cijenom mora im
 Da biste pregledali kontrolne točke naplate, otvorite **Prodaja** \> **Naplata** \> **Kontrolne točke fiksne cijene**. Odaberite kontrolne točke koje su spremne za fakturiranje, a zatim odaberite **Spremno za fakturiranje**. Status naplate tih kontrolnih točaka mijenja se u **Spremno za fakturiranje**.
 
 ![Kontrolne točke fiksne cijene](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

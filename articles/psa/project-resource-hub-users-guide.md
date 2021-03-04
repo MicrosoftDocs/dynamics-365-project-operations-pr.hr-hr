@@ -105,3 +105,6 @@ Unesite troškove najmanje tjedno ili onoliko često koliko to traže vaši upra
  [Pregled usluge Project Service](../psa/overview.md)   
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

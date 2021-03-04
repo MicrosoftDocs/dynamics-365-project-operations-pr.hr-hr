@@ -42,3 +42,6 @@ Kada izvršite odabir, resurs se dodaje projektnom timu i dodjeljuje zadatku, al
 Možete koristiti mogućnost proširenja rezervacije kartice **Usklađivanje** ili **Ploča s rasporedom** da biste rezervirali kapacitet resursa za projekt.
 
 Nakon što je član tima rezerviran za vaš projekt, za upravljanje rezervacijama možete upotrijebiti mogućnost **Održavanje rezervacija** ili izravno **Ploču s rasporedom**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

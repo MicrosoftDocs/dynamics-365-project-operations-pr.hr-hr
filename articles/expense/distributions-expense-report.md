@@ -30,3 +30,6 @@ Budući da je Nancy radila na dva odvojena projekta dok je bila u Frankfurtu, ka
 | Cijena vožnje vlakom   | DKK 578              | DKK 405                         | DKK 173                         |
 | Hoteli        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Obroci        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

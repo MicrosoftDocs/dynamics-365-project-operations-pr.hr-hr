@@ -37,3 +37,6 @@ U sljedećoj tablici navode se ažuriranja za aplikaciju Project Operations u ve
 | Vrijeme i brzi unos troška | 2047499          | Gumb **Novi** na stranici Unos vremena otvara stranicu **Novi potpis e-pošte**.                                                                                               |
 | Vrijeme i brzi unos troška | 2059859          | Neočekivani skočni prozor otvara se tijekom stvaranja unosa troška.                                                                                                                         |
 | Drugo                        | 2044181          | [Deinstalacija narudžbenice] – Pogreška, „Zapis nije dostupan” pojavljuje se kada pokušate deinstalaciju **msdyn_ProjectServiceCore_Patch** i osnovna rješenja za msdyn Project service.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Izvršite sljedeće korake za ispravljanje jednog ili više unosa troškova.
 8. Na stranici projekta, na kartici **Stvarni podaci**, pregledajte mogućnost **Stvarni pridruženi prikaz**. Navedeni su izvorni i ispravljeni unosi. Sljedeća slika prikazuje unose izvornih iznosa troškova i odgovarajuće ispravljene iznose unosa troškova. 
 
 ![Stvarni podaci o troškovima](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Prije no što možete upotrebljavati mogućnosti automatizacije sustava [!INCLUD
  [Vodič za upravitelja projekta](../psa/project-manager-guide.md)   
  [Vodič za upravitelja resursa](../psa/resource-manager-guide.md)   
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

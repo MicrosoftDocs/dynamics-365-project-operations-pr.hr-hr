@@ -45,3 +45,6 @@ U prethodnom ste koraku neke vještine već povezali s novim resursom. S vremena
   
 ### <a name="see-also"></a>Također pogledajte  
  [Postavi resurse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

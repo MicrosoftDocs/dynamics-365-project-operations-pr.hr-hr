@@ -23,3 +23,6 @@ Dynamics 365 Project Operations uključuje logiku provjere valjanosti koja osigu
 
   - Svi potporni redci stvaraju se u povezanim tablicama, poput dnevnika i stvarnih podataka.
   - Prije nego što nastavite, odobravatelj se u projektu označava kao **Odobravtelj projekta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

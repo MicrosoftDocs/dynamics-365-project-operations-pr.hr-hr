@@ -43,3 +43,6 @@ Odaberite ovu vrstu implementacije za uporabu aplikacije Dynamics 365 Project Op
 - Porez na promet u klasi poduzeća i modul deviznog tečaja za generiranje faktura za projekte za klijente.
 - Međunarodni standardi financijskog izvješćivanja (MSFI) usklađeni s računovodstvom projekta i sustavom priznavanja prihoda.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

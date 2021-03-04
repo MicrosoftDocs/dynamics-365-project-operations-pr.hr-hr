@@ -43,3 +43,5 @@ Dodavanje svojstava preduvjetima resursa omogućuje vam dokumentiranje znanja il
 3. U podrešetki **Vještine** odaberite mogućnost **+Dodaj novo svojstvo preduvjeta**
 4. U oknu za brzo stvaranje pronađite i odaberite potrebna svojstva i dodajte **Vrijednost ocjene**.
 5. Odaberite **Spremi i zatvori**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

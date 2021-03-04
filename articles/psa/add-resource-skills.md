@@ -47,3 +47,6 @@ Projekti vaših klijenata bez sumnje zahtijevaju različite vještine za dovrše
   
 ### <a name="see-also"></a>Također pogledajte  
  [Postavi resurse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ U sustavu PSA, ne možete pratiti revizije koje se provode na ponudi. Umjesto to
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Praćenje komentara i odobrenja ponuda i ugovora projekta
 Možete upravljati pregledom i odobrenjem ponuda i ugovora projekta s pomoću zida zapisa i objava. Vaša organizacija može izraditi prilagođene tijekove rada i dodatke za dodjelu, preusmjeravanje, eskalaciju i upravljanje obavijestima o radnim stavkama pregleda i odobravanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

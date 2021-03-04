@@ -47,3 +47,6 @@ Izradite račun za svakog klijenta s kojim surađujete, bez obzira izrađujete l
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za voditelja računa](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

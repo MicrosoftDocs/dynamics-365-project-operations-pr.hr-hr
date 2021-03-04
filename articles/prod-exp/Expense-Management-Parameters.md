@@ -89,3 +89,6 @@ Parametri nadziru općenito ponašanje u upravljanju troškovima.
 | <strong>Poruka o suzbijanju korupcije za podnositelja prijave</strong> |                                                                                             Unesite tekst koji će se prikazati zaposleniku tijekom izrade novog izvješća o troškovima. Za unos teksta specifičnog za jezik koji će se prikazivati na temelju jezika korisnika kliknite mogućnost <strong>Prijevodi</strong>.                                                                                             |
 | <strong>Poruka o suzbijanju korupcije za odobravatelja</strong>  |                                                                                             Unesite tekst koji će se prikazati odobravatelju tijekom izrade novog izvješća o troškovima. Za unos teksta specifičnog za jezik koji će se prikazivati na temelju jezika korisnika kliknite mogućnost <strong>Prijevodi</strong>.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

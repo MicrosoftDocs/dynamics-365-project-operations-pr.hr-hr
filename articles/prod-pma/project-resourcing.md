@@ -55,3 +55,6 @@ U sljedećoj temi nalaze se informacije o zadacima koje treba dovršiti kada rad
 - [Učinkovitost planiranja projektnih resursa](project-scheduling-performance.md)
 - [Postavljanje uloga na predlošcima strukturne analize rada](set-up-roles-wbs-template.md)
 - [Ispunjenje resursa za planirane resurse](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

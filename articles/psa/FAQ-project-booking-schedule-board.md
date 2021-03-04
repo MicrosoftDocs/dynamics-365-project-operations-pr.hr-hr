@@ -91,3 +91,6 @@ Dovršite sljedeće korake za rezervaciju iz novog zahtjeva resursa.
 
 4. Sada kad je resurs rezerviran, morate ručno dodijeliti zadatke.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

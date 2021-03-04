@@ -149,3 +149,6 @@ Prema zadanim postavkama, ako lisni čvor nema prethodnike, datum početka posta
 ### <a name="manual-scheduling"></a>Ručno zakazivanje
 
 Ako pravila automatskog zakazivanja ne ispunjavaju vaše zahtjeve, možete postaviti način zadatka za zadatak na **Ručno zakazano**. Ta postavka zaustavlja modul zakazivanja u izračunu vrijednosti za druge atribute zakazivanja. Bez obzira na način zadatka, ako postavite prethodnike za zadatke, to će se uvijek odraziti na datum početka ovisnog zadatka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

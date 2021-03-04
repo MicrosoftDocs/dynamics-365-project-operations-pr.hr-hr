@@ -342,3 +342,6 @@ Project Operations bilježi financijske transakcije koje se odvijaju tijekom pro
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

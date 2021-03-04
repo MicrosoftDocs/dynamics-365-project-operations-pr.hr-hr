@@ -35,3 +35,6 @@ Resursi su najvažnije sredstvo za tvrtke ili ustanove koje su utemeljene na usl
 
 
 Projektu u aplikaciji Project Operations može se dodijeliti tim generičkih ili imenovanih resursa. Možete koristiti različite metode za dodavanje i dodjeljivanje članova tima te upravljanje njihovim rezervacijama i dodjelama. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

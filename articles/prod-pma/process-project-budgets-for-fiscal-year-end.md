@@ -98,3 +98,6 @@ Kada obrađujete preostale proračunske iznose, možete stvoriti transakcije u g
 5. Za svaki projekt koji želite obraditi, odaberite mogućnost na početku retka za projekt. 
 6. Odaberite **Postupak** za prijenos preostalih proračunskih iznosa za odabrane projekte na odabranu poslovnu godinu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

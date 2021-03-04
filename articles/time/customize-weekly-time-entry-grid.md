@@ -144,3 +144,6 @@ Upotrijebite dodatak za provjere valjanosti za sve provjere valjanosti koje zaht
 
 ### <a name="copying-time-entries"></a>Kopiranje vremenskih unosa
 Upotrijebite prikaz **Kopiraj stupce za unos vremena** za definiranje popisa polja za kopiranje tijekom vremenskog unosa. **Datum** i **Trajanje** obvezna su polja i ne biste ih trebali ukloniti iz prikaza.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

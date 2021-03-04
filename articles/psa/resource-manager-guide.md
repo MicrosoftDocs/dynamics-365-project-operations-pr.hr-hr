@@ -73,3 +73,6 @@ Mogućnosti putem komponente [!INCLUDE[pn_project_service_auto](../includes/pn-p
  [Vodič za voditelja računa](../psa/account-manager-guide.md)   
  [Vodič voditelja projekta](../psa/project-manager-guide.md)   
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

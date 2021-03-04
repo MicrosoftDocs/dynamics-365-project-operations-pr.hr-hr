@@ -63,3 +63,6 @@ U aplikaciji Project Operations ne možete pratiti revizije koje se provode na p
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Praćenje komentara i odobrenja ponuda i ugovora o projektu
 Možete upravljati pregledom i odobrenjem ponuda i ugovora projekta s pomoću zida zapisa i objava. Vaša tvrtka ili ustanova može izraditi prilagođene tijekove rada i dodatke za dodjelu, preusmjeravanje, eskalaciju i upravljanje obavijestima o radnim stavkama pregleda i odobravanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

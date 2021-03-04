@@ -44,3 +44,6 @@ Sljedeće teme pružaju više informacija o funkciji sastavljanja ponuda, određ
 - [Grupe jedinica i jedinice](advanced-units.md)
 - [Valuta više jedinica](advanced-currency.md)
 - [Bilježenje stvarnih podataka](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

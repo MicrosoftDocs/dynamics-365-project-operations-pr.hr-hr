@@ -72,3 +72,6 @@ Kada je Arnie spreman poslati podatke izvješća o trošku neovisnom dobavljaču
 Arnie mora provjeriti jesu li transakcije izvješća o troškovima prihvatljive za povrat PDV-a i jesu li digitalni računi priloženi izvješćima. Kako bi počeo obrađivati prihvatljive troškove za domaći povrat, Arnie otvara stranicu **Povrat poreza za troškove** i odabire izvješće o troškovima koje treba provjeriti. Provjerava jesu li računi na ime tvrtke umjesto na zaposlenika. Za povrat PDV-a računi moraju biti na ime tvrtke. Arnie zatim potvrđuje da su primijenjeni ispravna grupa poreza na promet i šifra stavke poreza na promet.
 
 Kad Arnie primi račune u papirnatom obliku, mijenja status izvješća o troškovima u **Spremno za povrat**. Tada prijavu može poslati odgovarajućem poreznom tijelu. U ovom je slučaju odgovarajuće porezno tijelo u SAD-u Služba internih prihoda (IRS, Internal Revenue Service).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

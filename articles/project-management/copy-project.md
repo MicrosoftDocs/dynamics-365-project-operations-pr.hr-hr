@@ -61,3 +61,6 @@ Kada se projektni tim kopira iz izvornog projekta, kopiraju se generički resurs
 Kada se projekt kopira, iz izvornog projekta kopiraju se i redci za procjenu resursa i troška. 
 
 Za informacije o načinu programskog pristupanja aplikaciji Copy Project, pogledajte odjeljak [Razvoj predložaka projekata s pomoću aplikacije Copy Project](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

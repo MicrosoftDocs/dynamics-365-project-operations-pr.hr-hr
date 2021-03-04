@@ -55,3 +55,6 @@ Mogućnosti aplikacije [!INCLUDE[pn_project_service_auto](../includes/pn-project
  [Vodič za voditelja projekta](../psa/project-manager-guide.md)   
  [Vodič za upravitelj resursa](../psa/resource-manager-guide.md)   
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

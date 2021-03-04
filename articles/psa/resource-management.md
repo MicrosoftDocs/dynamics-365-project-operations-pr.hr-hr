@@ -53,3 +53,6 @@ Projektu se može dodijeliti tim generičkih ili imenovanih resursa u PSA-u. Mo�
 - [Rezerviranje imenovanih resursa iz preduvjeta resursa](book-named-resource.md)
 - [Slanje zahtjeva za resurs](submit-resource-request.md)
 - [Prihvaćanje ili odbijanje predloženog resursa za projekt iz zahtjeva za resurs](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

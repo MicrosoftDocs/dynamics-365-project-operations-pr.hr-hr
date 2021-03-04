@@ -32,3 +32,6 @@ Ako se troškovima iz izvješća o troškovima tereti tvrtka koja nije tvrtka ko
 Kako biste knjižili izvješće o troškovima, na stranici **Odobrena izvješća o troškovima** odaberite izvješće o troškovima, a zatim na oknu radnji odaberite **Knjiži**.
 
 Također možete istodobno knjižiti sva izvješća o troškovima na popisu. Odaberite sva izvješća o troškovima, a zatim odaberite **Knjiži**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

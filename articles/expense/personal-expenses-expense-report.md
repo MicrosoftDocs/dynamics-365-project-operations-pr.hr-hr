@@ -28,3 +28,6 @@ Dva su načina s pomoću kojih možete raditi s osobnim troškovima zaposlenika:
   - **Plaća tvrtka** : Vaša tvrtka ili ustanova plaća puni račun za korporativnu kreditnu karticu, a zatim tereti račun radnika za osobne troškove.
 
 Način koji vaša tvrtka ili ustanova upotrebljava možete odabrati na stranici **Parametri upravljanja troškovima**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

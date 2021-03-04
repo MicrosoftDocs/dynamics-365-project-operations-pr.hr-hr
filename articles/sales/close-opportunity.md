@@ -24,3 +24,6 @@ Projektne prilike mogu se zatvoriti kao ostvarene ili neostvarene. Dijaloški ok
 Nećete moći zatvoriti priliku ako su s njom povezane bilo kakve aktivne ponude. Možete istodobno zatvoriti sve aktivne ponude i skice ponuda povezane s nekom prilikom. Tada ćete moći zatvoriti priliku.
 
 Dodatne opće informacije o zatvaranju prilika potražite u članku [Zatvaranje prilika kao ostvarenih ili neostvarenih](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

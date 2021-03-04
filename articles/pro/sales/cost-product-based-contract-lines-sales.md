@@ -30,3 +30,6 @@ Kada se za proizvod iz kataloga stvori redak ugovora koji se temelji na proizvod
 Postojanje jedinične cijene u retku ugovora koji se temelji na proizvodu omogućuje različite cijene proizvoda za svaku prodaju jedinice. Iako nisu uvijek nužni, postoje određeni scenariji u kojima dobavljač može klijentu sniziti troškove proizvoda. Razmotrite sljedeći scenarij:
 
 Fabrikam Robotics instalira robotske ruke na montažne trake tvrtke A Datum. Fabrikam pruža usluge ugradnje, ali je tvrtka Robotic arms u sastavu tvrtke Trey Research. Ako instalacija robotskih ruku u tvrtki Adatum otvori novu industrijsku vertikalu za robotske ruke tvrtke Trey Research, za ovaj bi se posao mogao odobriti poseban popust tvrtki Fabrikam. U ovom slučaju, Fabrikam stvara redak ugovora koji se temelji na proizvodu za tvrtku Robotic Arms. U ovaj ugovor unosi se trošak po jedinici. Cijena se razlikuje od cijene tvrtke Robotic arms koja je u sastavu tvrtke Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

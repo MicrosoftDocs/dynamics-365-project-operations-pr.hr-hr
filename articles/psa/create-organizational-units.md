@@ -52,3 +52,6 @@ Vaše poduzeće vjerojatno organizira svoje poslovno savjetovanje prema geografs
   
 ### <a name="see-also"></a>Također pogledajte  
  [Konfiguriraj sustav Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Prilikom dodavanja uloga resursa vjerojatno ste već povezali neke vještine. S 
   
 ### <a name="see-also"></a>Također pogledajte  
  [Postavi resurse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Na primjer, razvojnom inženjeru iz tvrtke Fabrikam India, koji radi na američk
     | Razvojni programer | Fabrikam US | 150 USD |
 
 3. Priložite prodajni cjenik **Cijene naplate za Fabrikam US** cjeniku ugovora o projektu ili na određenom računu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

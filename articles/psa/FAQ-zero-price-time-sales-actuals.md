@@ -57,3 +57,6 @@ Ako rešetka cijena uloga ne sadrži redak za dimenzije određivanja cijena na s
 
 Ako nakon tri gornje provjere na stvarnoj vrijednosti vremena i prodaje i dalje nije prikazana valjana cijena, prijavite problem službi za podršku. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

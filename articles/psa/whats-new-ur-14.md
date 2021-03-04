@@ -64,3 +64,6 @@ Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji 
      - Popravljeno: Ukupna prodajna cijena se ne izračunava sve dok korisnik također ne unese cijenu koštanja procijenjenih troškova projekta.
      - Popravljano: Zatvaranje ponude kao **Ostvarena** ne uspijeva ako povezani ugovorni za projekt nije u stanju **Skice**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

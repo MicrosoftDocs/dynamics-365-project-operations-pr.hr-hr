@@ -134,3 +134,6 @@ Prije nego što započnete konfiguriranje podataka na platformi Common Data Serv
 13. Odaberite **Spremi**. 
 
 ![Ažuriranje parametara projekta](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

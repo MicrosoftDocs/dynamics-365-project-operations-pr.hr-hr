@@ -45,3 +45,6 @@ Kako biste stvorili čimbenike količine iz svojstava proizvoda, slijedite ove k
 6. Spremanje i zatvaranje obrasca. Ponovite ove korake za sva svojstva koja ćete upotrebljavati za izračunavanje količine za redak ponude koji se temelji na proizvodu.
 
 Kada stvarate redak ponude koji se temelji na proizvodu, količina retka ponude bit će zaključana. Količina će se izračunati kao umnožak vrijednosti svojstva koje ste unijeli za taj redak ponude.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

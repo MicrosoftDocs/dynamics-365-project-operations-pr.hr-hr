@@ -55,3 +55,6 @@ Na primjer, razvojnom inženjeru iz sektora Robotics tvrtke Fabrikam India, koji
     | Razvojni programer | Fabrikam US | Fabrikam US – Robotics | 150 USD |
 
 3. Priložite prodajni cjenik **Cijene naplate za Fabrikam US** cjeniku ugovora o projektu ili na određenom računu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

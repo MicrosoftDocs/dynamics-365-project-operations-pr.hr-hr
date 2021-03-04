@@ -209,3 +209,6 @@ Ako ste primijenili pokazne podatke u okruženju aplikacije Finance, pogledajte 
 
 
 Vaše okruženje Project Operations sada je pripremljeno i konfigurirano. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Budući da rezervacije i dodjele nisu usko povezane, moguće je rezervirati kont
 > [!NOTE]
 > Ako premjestite zadatak koji ste sami konturirali, te konture neće ostati. Konture se regeneriraju prema projektnom kalendaru i prilagođavaju se promjenama u radnim satima i odmorima. Ovako je prema zadanim postavkama jer sustav ne može znati namjeru izvorne konture i ne može odrediti ima li smisla zadržati određenu konturu za novo vremensko razdoblje. Budući da rezervacije i zadaci nisu povezani, rezervacije zadržavaju izvorne rezervacijske konture. U tom slučaju morat ćete otkazati i ponovno rezervirati novu konturu dodjele.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

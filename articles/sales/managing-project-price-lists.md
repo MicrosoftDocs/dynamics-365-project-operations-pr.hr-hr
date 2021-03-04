@@ -120,3 +120,6 @@ Kao što je slučaj kod stopa naplaćivanja, stope troškova za ljudske resurse 
     1. Cjenik troškova koji je priložen organizacijskoj jedinici.
     2. Cjenik troškova koji je priložen parametrima aplikacije Project Operations. Budući da se cjenik troškova u mnogim različitim valutama može priložiti parametrima, dovršavanje usklađivanja valute između valute ugovorne organizacijske jedinice projekta, ugovora ili ponude te valute cjenika troškova.
     3. Za troškove, načini određivanja cijena po troškovima i marži troškova ne primjenjuju se za cjenik troškova. Čak i ako se ti načini određivanja cijena koriste u recima cjenika troškova za postavljanje troškova po kategoriji transakcije, sustav ih ignorira i ne unosi se zadana cijena troška.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

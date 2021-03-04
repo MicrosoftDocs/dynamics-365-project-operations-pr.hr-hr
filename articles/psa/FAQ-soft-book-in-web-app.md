@@ -87,3 +87,6 @@ Kada budete spremni za promjenu promjenjivo rezerviranog resursa člana tima u f
 2. Kada se ploča s rasporedom otvori, proširite resurs za prikaz njegovih rezervacija. Rezervacija će biti označena kao Promjenjiva.
 3. Desnom klikom kliknite na rezervaciju pod stavkom Promijeni status, a zatim odaberite Fiksna rezervacija, te Fiksna. Status rezervacije je sada Fiksna.
 4. Nakon zatvaranja ploče s rasporedom, vidjet ćete da su se na rešetki članova tima sati resursa promijenili sa Promjenjivi u Fiksni. Sada možete dodijeliti resurs zadacima (pod uvjetom da su fiksno rezervirani sati usklađeni s satima rada zadatka za dodjelu). Imajte na umu da ako ste slijedili korake generičkog resursa iz 3. stavke koja je navedena ranije, kada promjenite status resursa kojeg je moguće rezervirati sa promjenjivog u fiksni, generički član tima će biti uklonjen iz tima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

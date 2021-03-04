@@ -41,3 +41,6 @@ Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Pro
 | **Upravljanje prilikama** | 2040713 | Ispravljena je pogreška skripte koja se događala tijekom stvaranja fakture iz ugovora kada se instalirala aplikacija Field Service. |
 | **Planiranje i praćenje projekta** | 2090202 | Poslovna pravila koja se više ne upotrebljavaju označena su kao **Zastarjelo**. |
 | **Vrijeme i trošak** | 2091249 | Postrožene su kontrole tako da korisnici ne mogu promijeniti zadatak na poslanom ili odobrenom vremenskom unosu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

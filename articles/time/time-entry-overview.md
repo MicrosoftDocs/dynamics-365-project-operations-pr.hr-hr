@@ -27,3 +27,6 @@ Tijekom bilježenja vremena u aplikaciji Project Operations, korisnici mogu prat
 
 Informacije o načinu stvaranja, slanja ili opozivanja unosa i drugim alatima koji će vam pomoći u dovršavanju izvješća potražite u odjeljku [Ponašanje korisnika unosa vremena](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

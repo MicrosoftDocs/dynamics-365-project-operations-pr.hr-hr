@@ -33,3 +33,6 @@ Postoje dvije metode za rješavanje osobnih troškova radnika:
 - **Plaća tvrtka** – Vaša tvrtka ili ustanova plaća cijelu fakturu za kreditnu karticu poduzeća, a zatim za osobne troškove tereti račun radnika.
 
 Način koji vaša tvrtka ili ustanova upotrebljava možete odabrati na stranici **Parametri upravljanja troškovima**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

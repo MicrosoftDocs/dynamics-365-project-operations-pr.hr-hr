@@ -69,3 +69,6 @@ Kako biste omogućili poboljšanje učinkovitosti planiranja resursa, poduzmite 
 
 > [!NOTE]
 > Ovim će se u tablicu **ResRollup** opći podaci distribuirati u sve tvrtke vašeg okruženja, tako da skupni posao treba izvoditi samo u jednoj pravnoj osobi. Ovaj skupni posao potreban je svim prikazima **Dostupnost resursa**. Ako se ovaj skupni posao ne pokrene, podaci **ResRollup** generirat će se u hodu, što može potrajati.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Da bi se osigurala uspješna nadogradnja, sljedeći se odnosi moraju pravilno od
 
 - Sve ovisnosti projektnih zadataka moraju biti povezane s istim projektom.
 - Zadatak ne može imati istu ovisnost koja se spominje više puta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ U sljedećoj tablici navode se ažuriranja za aplikaciju Project Operations u ve
 | Vrijeme i trošak | 2034882 | Gumb **Novo** prikazuje se dvaput na naredbenoj traci za vremenske unose nakon instalacije aplikacije Dynamics 365 Field Service. |
 | Vrijeme i trošak | 2056028 | Ažuriranje stranice **Uređivanje vremena** kako bi uključila vremensku traku. |
 | Vrijeme i trošak | 1983747 | Grafikon vremenskog unosa prikazuje dodatne podatke. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

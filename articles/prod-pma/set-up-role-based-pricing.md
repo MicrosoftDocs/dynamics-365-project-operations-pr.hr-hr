@@ -34,3 +34,6 @@ Za uloge se mogu postaviti sve cijene troška, prodaje i prijenosa. Poduzmite sl
 1. Na stranici **Prodajna cijena (sat)** odaberite **Novo** i unesite datum stupanja na snagu.
 2. U stupcu **Uloga** odaberite ulogu.
 3. U stupcu **Određivanje cijena** unesite cijenu za odabranu ulogu resursa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

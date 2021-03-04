@@ -48,3 +48,6 @@ Tablica u nastavku definira ključne koncepte koji se koriste u aplikaciji Dynam
 | Kontura                    | Zadatak, preduvjet ili dodijeljeni sati razvrstani po dnevnoj distribuciji. Na primjer, petodnevni zadatak od 40 sati može biti raspodijeljen na osam sati dnevno tijekom pet dana. |
 | Prikaz usklađivanja        | Prikaz koji predstavlja rezervacije i dodjele za svakog člana projektnog tima. U ovom prikazu voditelj projekta može provjeriti ima li nepodudaranja između rezervacija i dodjela te poduzeti korektivne radnje ako ih ima. |
 | Radno vrijeme                 | Entitet koji služi za identifikaciju kapaciteta resursa te radnih i neradnih sati. Ovaj se entitet naziva i kalendarom resursa. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

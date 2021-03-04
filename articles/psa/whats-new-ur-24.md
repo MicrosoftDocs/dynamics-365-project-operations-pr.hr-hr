@@ -81,3 +81,6 @@ Popravljeni su sljedeći problemi:
 - Gumb **Osvježi stvarne podatke** pogrešno izračunava sažetke zadataka.
 - Dodatak za aplikaciju Microsoft Project: Ispravite pogrešku reference nule ako neki član tima ima praznu jedinicu resursa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

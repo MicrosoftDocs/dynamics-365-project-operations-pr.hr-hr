@@ -297,3 +297,6 @@ Odaberite korisnika (na primjer, Spencer Low) i promijenite radne sate za Spence
 
 > [!div class="mx-imgBorder"]
 > ![Snimka zaslona aktivnih resursa koje je moguće rezervirati](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

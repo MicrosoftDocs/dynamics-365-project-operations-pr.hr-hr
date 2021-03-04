@@ -54,3 +54,6 @@ Dodatne informacije o upravljanju projektima i računovodstvu u aplikaciji Dynam
 ## <a name="regulatory-updates"></a>Ažuriranja propisa
 
 Za informacije o ažuriranjima propisa za aplikacije Finance and Operations, pogledajte članak [Ažuriranja propisa](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ažuriranjima jest prijava na Lifecycle Services (LCS) i pregledavanje planiranih regulatornih ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

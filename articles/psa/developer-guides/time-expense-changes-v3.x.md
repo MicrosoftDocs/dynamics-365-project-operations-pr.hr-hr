@@ -32,3 +32,6 @@ U verziji 3.0 programa Dynamics 365 Project Service Automation prikazi Vrijeme i
 Prije toga su prikazi kalendara i rešetke za vrijeme i trošak su implementirani kao DHTMLX kontrole. Artefakti koji su povezani s tom implementacijom prikaza kalendara i rešetke sada su zastarjeli (obustavljeni).
 
 Cijeli popis obustavljenih resursa potražite u odjeljku [Zastarjeli web-resursi u aplikaciji Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

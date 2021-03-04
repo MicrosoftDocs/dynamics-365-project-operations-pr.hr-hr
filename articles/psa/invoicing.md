@@ -117,3 +117,6 @@ Kada potvrdite ispravljenu fakturu, izvorni naplaćeni stvarni podatak o prodaji
 
 - Naplaćeni stvarni podatak o prodaji za šest sati.
 - Nenaplaćeni stvarni podatak o prodaji za preostala dva sata. Ova transakcija može biti naplaćena kasnije ili označena kao nenaplativa, ovisno o pregovorima s klijentom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

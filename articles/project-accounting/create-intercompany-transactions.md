@@ -113,3 +113,6 @@ Molly Clark, razvojna inženjerka zaposlena u GBPM, bilježi 10 sati rada na pro
     - Kredit: Projekt – Obračunani prihod 120 USD
 
     Sustav je sada spreman za stvaranje fakture za klijenta unutar tvrtke.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Možete istodobno stvoriti više faktura unutar tvrtke za sve pravne osobe koje 
 ## <a name="post-the-intercompany-vendor-invoice"></a>Knjiženje računa dobavljača unutar tvrtke
 
 Računovođa projekta u pravnoj osobi koja se zadužuje može pregledati fakture dobavljača na čekanju unutar tvrtke kada se knjiži odgovarajuća faktura klijenta unutar tvrtke. U aplikaciji Finance, u pravnoj osobi koja se zadužuje, idite na **Dugovanja** > **Fakture** > **Faktura dobavljača na čekanju**. Broj fakture na čekanju podudarat će se s brojem fakture za klijenta unutar tvrtke. Provjerite je li faktura točna, a zatim je proknjižite. Knjiženjem fakture dobavljača unutar tvrtke stvara se sporedna knjiga projekta i transakcija glavne knjige koja odražava troškove transakcije u pravnoj osobi koja se zadužuje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

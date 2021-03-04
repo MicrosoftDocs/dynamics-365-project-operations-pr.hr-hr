@@ -43,3 +43,6 @@ Svaki resurs koji se može rezervirati, a radi na projektu, mora imati kalendar 
 2. U prikazu rešetke odaberite do 25 **Resursa koji se mogu rezervirati** kako biste ih ažurirali.
 3. Odaberite mogućnost **Postavi kalendar** i dijaloški okvir će vam osigurati popis dostupnih predložaka radnog vremena.
 4. Odaberite predložak koji želite upotrebljavati, a zatim odaberite mogućnost **Primijeni**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

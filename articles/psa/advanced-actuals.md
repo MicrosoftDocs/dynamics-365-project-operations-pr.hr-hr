@@ -34,3 +34,6 @@ ms.locfileid: "5145709"
 Zapisuju se sve financijske transakcije koje se odvijaju za vrijeme projekta. Te se transakcije zapisuju kao **stvarne vrijednosti**. Sljedeća tablica prikazuje različite vrste stvarnih vrijednosti koji se izrađuju, ovisno o tome radi li se o projektu s vremenom i materijalima, projektu s fiksnom cijenom, o internom projektu ili o projektu u fazi pretprodaje.
 
 > ![Tablica s prikazom načina zapisa stvarnih vrijednosti](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

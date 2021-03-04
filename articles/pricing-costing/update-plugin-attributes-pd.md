@@ -52,3 +52,6 @@ Za ažuriranje i ponovnu registraciju programskih dodataka poduzmite sljedeće k
 7. Odaberite **U redu** kako biste zatvorili stranicu, a zatim odaberite **Ažuriraj korak**.
 8. Ponovite korake od 2 do 7 za drugi programski dodatak, **PreOperationQuoteLineDetail**. Za ovaj programski dodatak, morate ažurirati korak **Ažuriranje msdyn_quotelinetransaction**.
 9. Zatvorite **Alat za registraciju programskih dodataka**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

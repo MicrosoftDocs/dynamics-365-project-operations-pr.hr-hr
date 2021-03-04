@@ -55,3 +55,6 @@ Postupak izrade ponude sličan je postupku izrade prilike. Dok je prilika intern
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za voditelja računa](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

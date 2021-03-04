@@ -37,3 +37,5 @@ Kao voditelj projekta, poduzmite sljedeće korake za uređivanje preduvjeta resu
 ## <a name="edit-resource-assignment-contours"></a>Uređivanje kontura dodjele resursa
 
 Uz uređivanje pojedinosti zahtjeva za resursima, voditelj projekta može ažurirati pojedinačne konture preduvjeta resursa s pomoću funkcionalnost **Navedi uzorak**. Kada se odabere mogućnost **Navedi uzorak**, otvara se stranica i možete pregledavati konture na vremenskoj ljestvici dana, tjedna ili mjeseca. Svaka se kontura može prilagoditi vremenu početka, vremenu završetka i ukupnom radu u određenom razdoblju.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Pomoću iste metode možete otkazati fiksnu rezervaciju ili promjenjivu rezervac
 Da biste promjenjivo rezervirani resurs pretvorili u fiksno rezervirani resurs na kartici **Tim** projekta, odaberite resurs, a zatim **Potvrdi**.
 
 ![Potvrda naredbe](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

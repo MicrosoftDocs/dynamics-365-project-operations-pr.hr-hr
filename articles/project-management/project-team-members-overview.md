@@ -60,3 +60,6 @@ Iz rešetke člana tima mogu se poduzeti sljedeće radnje:
 
 - **Novi**: Osim dodavanja resursa izravno iz rasporeda, voditelji projekata mogu dodati nove imenovane ili generičke članove tima iz rešetke članova tima.
 - **Izbriši**: Odabirom jednog ili više članova tima, voditelj projekta može izbrisati resurse koji više neće sudjelovati u projektu. Brisanje člana tima također će izbrisati sve pridružene dodjele resursa i otkazati sve postojeće rezervacije.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

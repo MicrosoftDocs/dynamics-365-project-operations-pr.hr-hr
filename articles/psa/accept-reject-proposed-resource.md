@@ -45,3 +45,6 @@ Da biste odbili prijedlog, kliknite **Odbij resurs**.
 ![Prihvaćanje prijedloga resursa](media/RM-how-to-20.png) 
 
 Slično izravnom ispunjavanju zahtjeva za generičkim resursom s imenovanim resursom, generički resurs zamijenit će se i dodijeljeni zadaci ažurirat će se s imenovanim članom tima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

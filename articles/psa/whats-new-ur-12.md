@@ -61,3 +61,6 @@ Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji 
     - Popravljeno: Dvostruki ID-i objekata pronađeni na obrascu **Glavni ugovor**.
     - Popravljeno: Ažurirana je logika tako da kartica **Analiza ponude** bude vidljiva i prikazuje postavke metapodataka kartice.
     - Popravljeno: Datum obračuna na stvarnoj evidenciji sada potječe od datuma unosa vremena/troška, a ne od datuma odobrenja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

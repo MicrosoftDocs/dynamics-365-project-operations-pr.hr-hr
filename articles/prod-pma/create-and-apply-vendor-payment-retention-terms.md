@@ -65,3 +65,6 @@ Nakon što stvorite uvjete zadržavanja plaćanja dobavljaču, možete ih primij
 6. Ako projekt za dobavljača ima postavljene i uvjete „plati kad bude plaćeno” (PWP, pay-when-paid), unesite postotak praga za projekt u polje **Postotak praga PWP-a**.
 
 Uvjeti zadržavanja plaćanja dobavljaču prikazuju se i na narudžbenicama koje stvarate za dobavljača.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

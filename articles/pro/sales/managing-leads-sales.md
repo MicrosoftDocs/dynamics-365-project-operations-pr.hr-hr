@@ -72,3 +72,6 @@ Poslovni proces od potencijalnog klijenta do prilike podržava sljedeće faze:
 | Razvij | Prilika | Pripremite priliku za dodavanje više podataka o uključenom poslu, ključnim dionicima i konkurenciji. |
 | Predloži | Prilika | Pripremite prijedlog i nabavite odobrenje od internog tima za pregled. |
 | Zatvaranje | Prilika | Osvojite priliku kako biste okončali posao. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

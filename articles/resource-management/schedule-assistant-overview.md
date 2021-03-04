@@ -57,3 +57,6 @@ Okno filtra prikazuje mogućnosti povezane s radom, uključujući:
 -   Tvrtka resursa
 -   Vrste resursa
 -   Željeni resursi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji 
   - Popravljeno: Više se ne prikazuje poruka o pogrešci u stavci **Pretraživanje projekta** u obrascu **Redak ponude** kada ima više od 1000 projekata.
   - Popravljeno: Rešetka za procjenu rada i troškova **Procjene** sada prikazuje točan simbol valute.
   - Popravljeno: Nakon što tvrtka ili ustanova ažurira PSA s izdanja ažuriranja 14 u izdanje ažuriranja 15, kartica **Raspored** više se ne prikazuje prazna u obrascu **Projekt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

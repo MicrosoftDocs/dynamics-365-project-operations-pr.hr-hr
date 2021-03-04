@@ -42,3 +42,6 @@ Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji 
 Popravljeni su sljedeći problemi:
 
 - Pomoć za planiranje pretraživanja pogoršanja performansi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

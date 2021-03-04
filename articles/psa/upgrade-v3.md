@@ -110,3 +110,6 @@ Za zadatke koji su dodijeljeni ulozi s jedinicom tvrtke ili ustanove koja se raz
  
 Promjena zadanih postavki različitih resursa u organizacijskim jedinicama članova tima koji se nisu generirali razlog je što preporučujemo da generirate ili ponovno generirate tim na svakom projektu koji sadrži generičke resurse prije nadogradnje tako da se dodjele organizacijskih jedinica ne izgube.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

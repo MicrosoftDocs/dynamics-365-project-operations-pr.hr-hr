@@ -344,3 +344,6 @@ Ako imate dodjele zadataka za resurs, ali bez rezervacija, na stranici **Projekt
 ![Dijaloški okvir Produlji rezervaciju](media/Resource-Management-image58.png)
 
 Upravitelj projekta ili upravitelj resursa zatim može koristiti ploču s rasporedom kako bi upravljao svim situacijama u kojima je resurs prebukiran izvan svog kapaciteta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

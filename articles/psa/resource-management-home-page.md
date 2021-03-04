@@ -41,3 +41,6 @@ Resursi su najvažnije sredstvo za tvrtke ili ustanove koje su utemeljene na usl
 - [Promjenjivo rezerviranje preduvjeta](resource-management-softbook-requirements.md)
 - [Modeli vještina i stručnosti](resource-management-skills-proficiency.md)
 - [Najčešća pitanja o upravljanju resursima](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

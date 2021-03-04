@@ -42,3 +42,6 @@ Možete upotrijebiti okvir za pretraživanje u **Biraču resursa** za pretraživ
 1. Iz rešetke zadatka, ploče ili vremenske trake pomaknite se na stranicu **Dodijeljeno za**.
 2. U okvir za pretraživanje počnite upisivati naziv. Rezultati pretraživanja za naziv prikazuju se u **Biraču resursa** pod stavkom **Ostali resursi**.
 3. Odaberite resurs koji želite dodijeliti zadatku ili odaberite naziv resursa pod stavkom **Ostali resursi tima**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

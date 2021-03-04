@@ -123,3 +123,6 @@ Kada radite s entitetom **Stvarno**, važno je da imate uvid u to koja se transa
 Entitet **Izvor transakcije** bilježi izvor zapisa **Stvarno**, a entitet **Veza transakcije** bilježi povezane zapise za zapis **Stvarno**. Osim toga, zapis **Stvarno** sadrži reference za projekt, ugovor o projektu (nalog), resurs koji se može rezervirati i klijenta.
 
 ![Dijagram prikazuje odnose transakcijske veze, podrijetla i ostvarenja](media/PS-Reporting-image6.png "Dijagram prikazuje odnose transakcijske veze, podrijetla i ostvarenja")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

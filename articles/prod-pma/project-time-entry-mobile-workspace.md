@@ -113,3 +113,6 @@ Preuzimanje i instaliranje mobilne aplikacije Finance and Operations:
 11. Odaberite svojstvo retka.
 12. Neobvezno: Unesite neke vanjske ili interne komentare.
 13. Odaberite **Gotovo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

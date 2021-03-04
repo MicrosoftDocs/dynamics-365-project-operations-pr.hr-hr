@@ -35,3 +35,6 @@ Faze projekta mogu poslužiti kao vodič kroz životni ciklus projekta. Faze pro
 4. Na popisu odaberite unaprijed definiranu ili korisnički definiranu fazu koju želite izmijeniti. 
 5. U polju Faza projekta unesite novi naziv.
 6. Kliknite Spremi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

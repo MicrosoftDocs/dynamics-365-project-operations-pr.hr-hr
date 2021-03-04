@@ -47,3 +47,6 @@ Postavljanje stopa ciljnog korištenja za svaku ulogu. Ove postavke određuju ra
   
 ### <a name="see-also"></a>Također pogledajte  
  [Postavi resurse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

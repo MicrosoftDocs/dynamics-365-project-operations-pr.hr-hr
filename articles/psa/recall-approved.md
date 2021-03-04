@@ -107,3 +107,6 @@ Sljedeća ilustracija prikazuje promjene do kojih dolazi prilikom opoziva odobre
 Sljedeća ilustracija prikazuje promjene do kojih dolazi prilikom opoziva odobrenih unosa troškova.
 
 ![Prijelazi stanja unosa troškova](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

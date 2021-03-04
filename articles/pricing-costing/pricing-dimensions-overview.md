@@ -71,3 +71,6 @@ Sljedeći primjer prikazuje stope naplate postavljene na temelju uloge i organiz
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour | 145|USD     |
 | My company_Band2 | Contoso, Indija |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

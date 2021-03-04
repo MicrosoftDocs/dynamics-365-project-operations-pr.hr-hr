@@ -20,3 +20,6 @@ ms.locfileid: "4514502"
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Možete upotrebljavati funkcije omogućene u aplikaciji Dynamics 365 Field Service kako biste odredili uloge u svojem okruženju splikacije Dynamics 365 Project Operations. Kako biste dovršili ovo postavljanje, pogledajte članak [Postavljanje kategorija resursa koji se mogu rezervirati](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

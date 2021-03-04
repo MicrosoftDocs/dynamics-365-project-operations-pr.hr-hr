@@ -45,3 +45,6 @@ Kada želite vidjeti na čemu radite tijekom tjedna, pogledajte raspored.
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

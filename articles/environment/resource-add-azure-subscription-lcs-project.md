@@ -70,3 +70,6 @@ Sada je autorizacija završena.
 Uspješno ste povezali svoju pretplatu za platformu Azure. Sada možete implementirati okruženja aplikacije Dynamics 365 Finance u oblaku.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Trebalo bi odabrati ovu implementaciju ako se od aplikacije Project Operations o
 - Zahtijevajte sveobuhvatni poreza na promet u klasi poduzeća i modul deviznog tečaja za generiranje faktura za projekte za klijente.
 - Međunarodni standardi financijskog izvješćivanja (MSFI) usklađeni s računovodstvom projekta i sustavom priznavanja prihoda.
 - Aplikaciju Financije ili Supply Chain Management i integraciju transakcija koje se temelje na projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

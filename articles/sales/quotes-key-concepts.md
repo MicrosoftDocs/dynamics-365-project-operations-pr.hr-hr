@@ -128,3 +128,6 @@ Za redak ponude fiksne cijene možete koristiti rešetku **Raspored faktura** da
 - Da biste izradili ključne točke za naplatu koje su podjednako podijeljene, odaberite učestalost fakture, unesite početni datum naplate u redak ponude i odaberite **Traženi datum dovršetka** za ponudu u odjeljku **Sažetak** u zaglavlju ponude. Zatim odaberite **Generiraj periodične ključne točke** za izradu podjednako podijeljenih ključnih točaka na temelju odabrane frekvencije fakture. 
 - Da biste izradili ključnu točku naplate u paušalnom iznosu, izradite ključnu točku, a zatim unesite vrijednost retka ponude kao iznos ključne točke.
 - Da biste izradili ključne točke za naplatu koje se temelje na određenim zadacima u planu projekta, izradite ključnu točku i mapirajte ju u element rasporeda projekta u korisničkom sučelju ključne točke za naplatu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

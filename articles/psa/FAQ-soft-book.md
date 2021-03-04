@@ -67,3 +67,6 @@ Kada budete spremni za promjenu promjenjivo rezerviranog resursa člana tima u f
 2. Desnim klikom kliknite na rezervaciju i pod stavkom **Promijeni status** odaberite **Fiksna rezervacija** \> **Fiksna**. Status rezervacije je sada **Fiksna**.
 3. Nakon zatvaranja ploče s rasporedom, vratite se na projekt i otvorite karticu **Tim**, kada ste u prikazu **Imenovani članovi tima**, vidjet ćete da su sati resursa premješteni iz stupca **Promjenjivo rezervirani sati** u stupac **Fiksno rezervirani sati** na kartici **Tim**. Ako je resurs dodijeljen zadacima, više neće prikazivati manjak rezervacija na kartici **Usklađivanje** budući da su njegove rezervacije postale fiksne.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Sada kada ste osvojili ponudu za projekt, vrijeme je za izradu ugovora s klijent
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za voditelja računa](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

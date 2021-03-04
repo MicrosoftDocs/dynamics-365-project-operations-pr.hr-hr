@@ -47,3 +47,6 @@ Klijenta ugovora možete stvoriti, ažurirati ili izbrisati na kartici **Klijent
 Postotke raspodjele naplate možete uređivati u rešetki. Kada postoci raspodjele naplate ne dosegnu 100 posto, prikazuje se pogreška. Nakon što uredite postotak raspodjele naplate, osvježite stranicu **Ugovor o projektu** kako biste uklonili pogrešku.
 
 Možete odabrati i mogućnost **Ravnomjerno raspodijeli** na podrešetki klijenata ugovora o projektu. Raspodjele naplate ravnomjerno su raspoređene na sve klijente ugovora o projektu. Ako postoji neki čimbenik zaokruživanja, on će se dodati klijentu za zaokruživanje. Jedan od klijenata ugovora uvijek ima zastavicu **Zaokruživanje** postavljenu na **Da**. Taj je klijent, klijent za zaokruživanje. Obično je klijent za zaokruživanje ujedno i primarni klijent ugovora, ali to nije uvjet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

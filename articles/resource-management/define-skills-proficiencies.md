@@ -42,3 +42,6 @@ Vještine za resurse ocjenjuju se prema modelima stručnosti. Model stručnosti 
 
 
 Ove vrijednosti ocjena prikazane su u filtrima **Preduvjeti resursa**, **Ploča s rasporedom** i **Pomoćnik za raspored**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

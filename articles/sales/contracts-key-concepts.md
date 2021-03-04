@@ -88,3 +88,6 @@ Rasporedi faktura specifični su za svaki redak ugovora i potrebni su za rad aut
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Promjene iz aplikacije Dynamics 365 Sales Orders
 
 Ugovori u aplikaciji Project Operations grade se na narudžbama iz aplikacije Dynamics 365 Sales. Međutim, postoje bitna odstupanja i razlike u funkcionalnosti. Ugovori imaju vlastiti obrazac i elemente korisničkog sučelja, poslovna pravila, poslovnu logiku u dodacima i skripte na strani klijenta što ih čini jedinstvenima iz narudžbi. Iz tih razloga ne trebate naizmjenično upotrebljavati prodajni nalog i ugovor aplikacije Project Operations.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

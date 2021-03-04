@@ -34,3 +34,6 @@ Kako biste stvorili vrste razdoblja i radili s njima, poduzmite sljedeće korake
 4. Odaberite zapis vrste razdoblja, a zatim **Generiraj razdoblja** kako biste stvorili razdoblja za vrstu razdoblja. Na temelju učestalosti razdoblja koje ste odabrali, možda ćete moći odrediti datum početka ili broj razdoblja koja treba generirati.
 5. Za pregled generiranih razdoblja odaberite **Razdoblja**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Kliknite **Pošalji** za slanje evidencije radnog vremena u tijek rada za odobre
 ## <a name="review-timesheets"></a>Pregledavanje evidencija radnog vremena
 
 Popis evidencija radnog vremena koje treba pregledati dostupan je u izborniku. Ova je mogućnost dostupna samo ako ste određeni za odobravatelja tijeka rada. Podržani su i zaglavlje i redak odobrenja. Odobrenje na razini retka nudi mogućnost označavanja jednog ili više redaka za odobrenje. Nakon pregleda podataka iz evidencije o radnom vremenu, kliknite **Odobri** , **Delegiraj** ili **Povratak** kako biste nastavili tijeka rada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

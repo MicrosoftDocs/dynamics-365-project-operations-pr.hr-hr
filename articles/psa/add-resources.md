@@ -55,3 +55,6 @@ Možete dodijeliti resurse organizacijskim jedinicama ako trebate različito odr
   
 ### <a name="see-also"></a>Također pogledajte  
  [Postavi resurse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

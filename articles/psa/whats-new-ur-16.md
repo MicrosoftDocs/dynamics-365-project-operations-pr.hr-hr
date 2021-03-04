@@ -64,3 +64,6 @@ Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji 
 
     -   Popravljeno: Kada korisnici izvrše nadogradnju s verzije 2.X na verziju 3.X, za naziv projekta dopušteni su projekti s vrijednošću NULL.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Dodatne informacije potražite u odjeljku [Unos troška (jednostavno)](basic-exp
 
 ## <a name="determine-your-expense-deployment"></a>Određivanje implementacije troška
 Kako biste utvrdili upotrebljavate li implementaciju upravljanja osnovnim troškovima, provjerite završava li URL adresa sljedećim izrazom **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

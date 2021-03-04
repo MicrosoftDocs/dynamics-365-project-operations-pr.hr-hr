@@ -127,3 +127,6 @@ Kako biste stvorili novu strukturnu analizu rada s pomoću programa Microsoft Pr
 8.  Odaberite **Kalendar** koji će se upotrebljavati za raspodjelu resursa.
 
 11. Kliknite **U redu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

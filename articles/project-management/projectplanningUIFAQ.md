@@ -106,3 +106,6 @@ Kada se izvrši jedno ili više ažuriranja strukturne analize rada, promjene na
   - Sustav aplikacije Project Operations
   - Sustav projekta
   - Sustav dvostrukog pisanja aplikacije Project Operations (ova je uloga potrebna ako za aplikaciju Project Operations postavljate scenarij temeljen na resursima / bez zaliha.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

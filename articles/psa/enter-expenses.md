@@ -59,3 +59,6 @@ Unesite troškove najmanje tjedno ili onoliko često koliko to traže vaši upra
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

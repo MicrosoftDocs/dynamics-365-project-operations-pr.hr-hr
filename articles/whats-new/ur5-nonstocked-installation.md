@@ -125,3 +125,6 @@ Sljedeća ažuriranja sigurnosnih ovlasti za entitete potrebna su kao dio ažuri
  
  ![Sinkronizacija karte knjige](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

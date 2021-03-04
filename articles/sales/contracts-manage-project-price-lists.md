@@ -72,3 +72,6 @@ Možete postaviti i cjenike za projekt specifične za klijenta kada ste sa svoji
 ## <a name="custom-pricing-on-a-project-contract"></a>Prilagođeno određivanje cijena za ugovor o projektu
 
 Nakon što ste dobili cjenike za projekt zadane organizacijski i za specifičnog klijenta, ugovori o projektu automatski će se stvoriti s tim vezama cjenika za projekt. Međutim, cjenici za projekt na ugovoru o projektu uvijek se kopiraju s datumom i nazivom ugovora koji im je dodan. Voditelji računa i projekata tada mogu početi uređivati cijene na tim kopijama. Ove izmijenjene cijene primjenjivat će se samo na ovaj ugovor o projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

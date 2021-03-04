@@ -52,3 +52,6 @@ Dodatne informacije o izvješćivanju u PSA-u potražite u sljedećim temama:
 - [Rad s podatkovnim modelom Project Service](reports-working-project-service-data-model.md)
 - [Nadzorne ploče](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

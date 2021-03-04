@@ -79,3 +79,6 @@ To traje nekoliko minuta. Trebali biste primiti poruku s potvrdom kako je korisn
 18. Zatvorite sesiju udaljene radne površine i upotrijebite LCS stranicu **Pojedinosti okruženja** za prijavu u okruženje kako biste potvrdili da radi onako kako se očekivalo.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

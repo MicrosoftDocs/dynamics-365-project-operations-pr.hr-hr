@@ -52,3 +52,6 @@ Ovaj vodič vodi vas kroz postupak instalacije i konfiguracije:
  [Vodič za voditelja računa](../psa/account-manager-guide.md) [Vodič za voditelja projekta](../psa/project-manager-guide.md)   
  [Vodič za upravitelja resursa](../psa/resource-manager-guide.md)   
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

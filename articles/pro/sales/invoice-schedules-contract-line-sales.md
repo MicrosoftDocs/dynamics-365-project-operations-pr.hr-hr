@@ -74,3 +74,6 @@ Kontrolne točke s fiksnom cijenom mogu se generirati ručno kada se povremeno n
 | Porez | Brzo stvaranje | Iznos poreza primijenjen na kontrolnu točku. | Ovo je uključeno u kontrolnu točku retka ugovora o projektu i fakture. |
 
 4. Odaberite **Spremi i zatvori**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Svaka tvrtka ili ustanova mora postaviti te uloge na stranici **Kategorije aktiv
 ## <a name="price-lists"></a>Cjenici
 
 Cjenici vam omogućuju da odredite trošak i prodajne cijene za uloge resursa u organizaciji, kategorije troškova, proizvode i druge elemente u tvrtki ili ustanovi. Prije nego što postavite financijske procjene za isporučeni rad u projektu, trebate stvoriti sigurnosni trošak i prodajni cjenik. U odjeljku parametara također trebate postaviti zadani trošak i prodajni cjenik koji se primjenjuje na sve projekte koji su stvoreni u tvrtki ili ustanovi. Na stranici **Parametri aktivnog projekta** provjerite jeste li postavili zadani trošak i prodajni cjenik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

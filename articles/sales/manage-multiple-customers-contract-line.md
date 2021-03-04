@@ -44,3 +44,6 @@ U nastavku se nalaze polja na zapisu klijenta u retku Ugovora, retka ugovora koj
 Postoci raspodjele naplate mogu se uređivati u rešetki. Kada postoci raspodjele naplate ne dosegnu 100 posto, prikazat će se pogreška. Nakon što uredite postotke raspodjele naplate, osvježite stranicu kako biste uklonili pogrešku.
 
 Možete pokušati i odabirom mogućnosti **Ravnomjerno raspodijeli** na podrešetki klijenta retka ugovora. Ova radnja ravnomjerno raspoređuje naplate na sve klijente retka ugovora. Ako postoji neki čimbenik zaokruživanja, on će se dodati klijentu za zaokruživanje. Jedan klijent retka ugovora uvijek se označava kao klijent za **Zaokruživanje** sa zastavicom **Zaokruživanje** postavljenom na **Da**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

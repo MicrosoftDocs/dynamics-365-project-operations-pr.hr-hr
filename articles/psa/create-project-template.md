@@ -62,3 +62,6 @@ Predlošci projekta štede vrijeme ako se vaše poduzeće redovito prijavljuje n
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

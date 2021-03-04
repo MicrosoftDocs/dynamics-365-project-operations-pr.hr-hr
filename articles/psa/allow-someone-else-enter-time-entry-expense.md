@@ -93,3 +93,6 @@ Postavite delegat da biste drugima dopustili unos stavke vremena ili troškova u
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

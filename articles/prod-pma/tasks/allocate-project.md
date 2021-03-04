@@ -44,3 +44,6 @@ Nakon raspoređivanja proračuna ili revizije proračuna, možete pregledati ras
 10. Kada je raspored napravljen onako kako želite, kliknite mogućnost Pošalji na stranici Proračun projekta kako biste proračun ili revizije proračuna poslali u tijek rada odobrenja.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

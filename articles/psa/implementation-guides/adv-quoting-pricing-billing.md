@@ -52,3 +52,6 @@ PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premješ
 
 > [!NOTE]
 > Ova će se tema ukloniti u budućem ažuriranju dokumentacije. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

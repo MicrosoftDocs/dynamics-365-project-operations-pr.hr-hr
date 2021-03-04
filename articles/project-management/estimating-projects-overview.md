@@ -79,3 +79,6 @@ Ako ste dodali prilagođeno polje u pojedinost retka ponude i želite da sustav 
 7. Odaberite **U redu** da biste zatvorili dijaloški okvir, a zatim odaberite **Ažuriraj korak**.
 8. Ponovite korake od 1 do 7 za drugi dodatak.
 9. Zatvorite dodatak **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

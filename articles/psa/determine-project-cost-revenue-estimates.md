@@ -81,3 +81,6 @@ Svaki trošak koji će nastati u projektu koji nije izravno povezan s radnom sn
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

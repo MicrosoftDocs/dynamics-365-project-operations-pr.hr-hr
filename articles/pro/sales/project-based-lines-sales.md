@@ -32,3 +32,6 @@ Ispod su polja na retku prilike koji se temelji na projektu:
 | Ime | Kartica Općenito | Ovo tekstno polje koje se može uređivati može se upotrebljavati za davanje kratkog identiteta stavci retka. | Ova se vrijednost prenosi na redak ponude kada iz ove prilike stvarate ponudu. |
 | Proračun klijenta | Kartica Općenito | Ovo polje valute koje se može uređivati može se upotrebljavati za praćenje iznosa kojeg je klijent spreman potrošiti za ovu stavku retka. | Ova se vrijednost prenosi na odgovarajuće polje na retku ponude kada iz ove prilike stvarate ponudu. |
 | Način naplate | Kartica Općenito | To polje koje se može uređivati ima sljedeće vrijednosti:</br>– Vrijeme i materijal</br>– Fiksnu cijenu | Ova se vrijednost prenosi na odgovarajuće polje na retku ponude kada iz ove prilike stvarate ponudu. Nakon stvaranja retka ponude, polje se zaključa i ne može se mijenjati. Dodijelite vrijednost ovom polju što je moguće točnije. Ako trebate promijeniti vrijednost ovog polja na retku ponude, izbrišite i ponovno stvorite redak ponude. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

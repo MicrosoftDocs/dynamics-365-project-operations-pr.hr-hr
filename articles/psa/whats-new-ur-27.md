@@ -81,3 +81,6 @@ Popravljeni su sljedeći problemi:
 - Kada su aplikacije Dynamics 365 Field Service i Project Service Automation instalirane, mogućnosti **Zaključaj cijene** i **Upotrijebi trenutačnu cijenu** ne prikazuju se istodobno na stranici **Faktura**.
 - Za japanski jezik postoji nesklad prijevoda s ostalim stranicama koje se temelje na kalendaru.
 - Mogućnosti **Aktiviraj** i **Deaktivira** uklonjene su iz entiteta **Povezani cjenici** u aplikaciji Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

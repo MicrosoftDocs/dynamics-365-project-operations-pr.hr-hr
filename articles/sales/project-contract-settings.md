@@ -58,3 +58,6 @@ Sljedeći su KPI-jevi dostupni na kartici **Izvršenje ugovora** ugovora o proje
 | Nastao trošak | Redci utemeljeni na proizvodu | Zbroj svih stvarnih troškova evidentiranih za redak ugovora koji se temelji na proizvodu. |
 | Bruto marža | Redci utemeljeni na projektu | Naplaćeni iznos – Trošak nastao do datuma / Naplaćeni iznos |
 | Očekivana marža | Redci utemeljeni na proizvodu | (Vrijednost retka ugovora – Procijenjeni troškovi za redak ugovora) / Vrijednost retka ugovora |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

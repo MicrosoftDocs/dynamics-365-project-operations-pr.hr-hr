@@ -66,3 +66,6 @@ Kao voditelj projekta, možda ćete trebati rezervirati resurs za projekt, ali z
 
 > [!NOTE]
 > Ova metoda ne stvara nikakve rezervacije za resurs. Umjesto toga, ona resurs dodaje timu. Nakon što je član tima dodan u projekt, voditelj projekta može upotrijebiti održavanje rezervacija ili produžiti rezervacije kako bi potrebne resurse dodao resursu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

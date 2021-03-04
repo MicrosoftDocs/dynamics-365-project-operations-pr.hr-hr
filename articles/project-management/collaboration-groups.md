@@ -26,3 +26,6 @@ Grupe programa Office omogućuju vam dijeljenje projekta s ostalim članovima ti
 > [!NOTE] 
 > Korisnici se dodaju u grupu samo ako pritisnete mogućnost **Grupe** i dodate ih. To se razlikuje od ponašanja Projekta za mrežu. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

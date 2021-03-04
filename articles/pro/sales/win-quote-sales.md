@@ -40,3 +40,6 @@ Ako se ponuda projekta koja je zatvorena kao Izgubljena odnosi na neki od redaka
 
 > [!NOTE]
 > U aplikaciji Project Operations zatvaranje ponude kao Ostvarene ili Neostvarene neće utjecati na status Prilike, koji će ostati otvoren sve dok se ručno ne zatvori.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

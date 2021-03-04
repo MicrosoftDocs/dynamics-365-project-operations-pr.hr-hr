@@ -51,3 +51,6 @@ Evo nekoliko prijedloga koji vam mogu pomoći pri stvaranju novih pravila za upr
 ## <a name="when-to-evaluate-policies"></a>Vrijeme za procjenu pravila
 
 U parametrima upravljanja troškovima postoji mogućnost procjene pravila upravljanja troškovima ili kada se spremi redak ili kada se pošalje izvješće o troškovima. Ako se odlučite na procjenu kada se spremi redak to će korisnicima omogućiti da imaju raniji uvid u ono što trebaju učiniti kako bi odjednom dovršili svoje izvješće o troškovima. U suprotnom, možete odgoditi procjenu pravila i uštedjeti vrijeme ako do provjere valjanosti dolazi na kraju, tijekom slanja u tijek rada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

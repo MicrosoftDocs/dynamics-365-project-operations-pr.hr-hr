@@ -46,3 +46,6 @@ Kada se redak ponude temelji na katalogu proizvoda, prodajnu cijenu možete nadj
 Ako odaberete mogućnost **Nadjačaj cijenu**, zadana se cijena ne postavlja. Umjesto toga, cijenu proizvoda morate unijeti u redak ponude. Ako odaberete **Upotrijebi zadano**, upotrebljava se zadana prodajna cijena i polje se zaključava za uređivanje.
 
 Zadane prodajne cijene unose se u retke ponude koji se temelje na proizvodu u ponudi. Polje **Cijene** zatim se postavlja na **Nadjačaj cijene** kako biste mogli urediti zadanu cijenu u redcima ponude. Ovo nadjačavanje ponašanja redaka koji se temelje na proizvodima u aplikaciji Dynamics 365 Sales, specifično je za aplikaciju Project Operations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

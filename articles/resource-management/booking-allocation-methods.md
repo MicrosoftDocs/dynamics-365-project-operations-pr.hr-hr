@@ -81,3 +81,6 @@ Da sumiramo, sljedeće metode dodjeljivanja dovode do prebukiranja ako je resurs
 - Ravnomjerno raspodijeli sate
 
 Kada koristite bilo koju od ove tri metode dodjeljivanja, nećete biti obaviješteni da je resurs prebukiran. Da biste riješili problem prevelikog broja rezervacija, morat ćete koristiti ploču s rasporedom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Vještine za resurse ocjenjuju se prema modelima stručnosti. Model stručnosti 
 > ![Definirane najniže i najviše ocjene](media/Resource-Management-image85.png)
 
 Ove vrijednosti ocjena prikazane su u filtrima **Preduvjeti resursa**, **Ploča s rasporedom** i **Pomoćnik za raspored**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

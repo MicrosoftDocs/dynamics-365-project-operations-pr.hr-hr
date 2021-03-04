@@ -36,3 +36,6 @@ Upotrijebite portal Lifecycle Services (LCS) za upravljanje okruženjima aplikac
 
 Upotrijebite ovaj LCS projekt za postavljanje vašeg okruženja aplikacije Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

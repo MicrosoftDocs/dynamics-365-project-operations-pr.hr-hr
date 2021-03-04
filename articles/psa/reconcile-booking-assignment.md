@@ -101,3 +101,6 @@ Nakon što se funkcionalnost značajke Produlji rezervaciju izvrši na svakom re
 
 Međutim, pobliži uvid u pojedinosti rezervacija pokazao je razlike u vremenu početka rezervacija. Rezervacije neće započeti prije vremena početka konture dodjele i dostupnog vremena početka resursa.
  ![Nove rezervacije resursa u ploči s rasporedom](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Načela priznavanja prihoda u aplikaciji Dynamics 365 Project Operations razliku
 [Upravljanje procjenama prihoda](rev-rec-completed-contract-method.md)
 
 [Načini troškova do završetka](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Procijenjeni ili stvarno stvoreni trošak smatrat će se naplativim samo ako je 
 | No            | Jest              | Cijeli projekt | Nije moguće postaviti   | Nenaplativo | Naplata stvarnih podataka o Vremenu: **Nenaplativo**</br> Vrsta naplate stvarnih podataka o Trošku: **Nenaplativo**     |
 | Jest           | No               | Cijeli projekt | Naplativo     | Nije moguće postaviti   | Naplata stvarnih podataka o Vremenu: **Naplativo** </br> Vrsta naplate stvarnih podataka o Trošku: **Nenaplativo**        |
 | Jest           | No               | Cijeli projekt | Nenaplativo | Nije moguće postaviti   | Naplata stvarnih podataka o Vremenu: **Nenaplativo** </br>Vrsta naplate stvarnih podataka o Trošku: **Nenaplativo**   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Kako bi se uklonio projekt procjene, on mora biti dovršen. Sljedeći koraci obj
 5. Nakon završetka postupka uklanjanja, uklonjeni projekt procjene prikazuje se s negativnom vrijednošću. 
 
 Ako niste namjeravali ukloniti procjenu, možete odabrati uklonjenu procjenu i odabrati **Poništi uklanjanje**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

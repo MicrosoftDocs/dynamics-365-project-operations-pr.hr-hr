@@ -70,3 +70,6 @@ Popravljeni su sljedeći problemi:
 - Poboljšano rukovanje pogreškama za rješavanje iznimki reference koja ima vrijednost jednaku nuli generiranih iz **Kopiraj projekt: Upravljanje procjenama pomoćnih resursa**.
 - **Nije spremno za fakturiranje** na **Zaostatak naplate vremena i materijala** ne čisti status naplate.
 - Ispravljeno pogrešno označavanje gumba **Cijene** na karticama **Cijena uloge** i **Predmeti iz kataloga**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ Ako imate stvarne podatke koje ste dobili nakon stvaranja fakture, možete ih uk
 2. Otvorite skicu predračuna i na vrpci **Radnje** kliknite **Osvježi transakcije retka fakture**.
 
   Ovo stvara pojedinosti retka fakture za sve stvarne podatke koji kasne, a označeni su kao **Spremno za fakturiranje**; ali nisu uključeni u fakturu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

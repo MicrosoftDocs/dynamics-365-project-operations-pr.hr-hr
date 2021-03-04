@@ -103,3 +103,6 @@ Proračunske kategorije upotrebljavaju se za automatski izračun iznosa računa 
 8. Izborno: Dodijelite pravilo naplate dodatnim projektima. Na Brzoj kartici **Projekt** , u odjeljku **Dostupni projekti** , odaberite projekt, a zatim odaberite gumb sa strelicom udesno kako biste projekt dodali odjeljku **Odabrani projekti**.
 9. Neobvezno: Izračunajte postotni iznos koji kupac usteže kada plaća fakturu. Na Brzoj kartici **Uvjeti ustezanja plaćanja** odaberite izvor financiranja, a zatim u polju **Postotak ustezanja** unesite postotak ustezanja.
 10. Ponovite ove korake za stvaranje dodatnih pravila naplate za ugovor o projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

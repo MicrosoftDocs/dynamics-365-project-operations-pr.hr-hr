@@ -32,3 +32,6 @@ Rasporedi akontacija postavljeni su na stranici **Ugovor o projektu** u aplikaci
 | Broj akontacija koje treba stvoriti | Kada unesete broj akontacija koje treba stvoriti, za stvaranje broja u ovom polju sustav upotrebljava datum početka i učestalost. | Kada se ovo polje ručno ažurira, sustav zanemaruje vrijednost u polju **Kraj rasporeda akontacija** i umjesto toga stvara određeni broj akontacija ili predujmova. |
 | Učestalost fakturiranja | Koliko će često aplikacija stvoriti akontacije i predujmove? | Ova vrijednost izravno utječe na broj akontacija i predujmova te na stvorene datume. |
 | Ukupni iznos | Ukupni iznos je iznos koji se dijeli na plaćanja pojedine akontacije ili predujma koji će se stvoriti. | Ovo polje ne utječe na niže razine. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

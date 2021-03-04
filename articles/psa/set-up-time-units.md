@@ -47,3 +47,6 @@ Konfigurirajte vremenske jedinice u katalogu proizvoda koji ćete koristiti kao 
   
 ### <a name="see-also"></a>Pogledajte također  
  [Konfiguracija programa Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

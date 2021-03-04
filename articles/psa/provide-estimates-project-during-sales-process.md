@@ -54,3 +54,6 @@ Tijekom prodajnog procesa možete izraditi procjenu prodaje na temelju redaka po
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

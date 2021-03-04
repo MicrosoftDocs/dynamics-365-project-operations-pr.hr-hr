@@ -47,3 +47,6 @@ Nakon što savjetnici unesu vrijeme i troškove za projekt, morate ih odobriti t
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

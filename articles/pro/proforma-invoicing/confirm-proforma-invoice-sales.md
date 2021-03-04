@@ -273,3 +273,6 @@ Stvarni podatak naplaćene prodaje za redak proizvoda s količinom i iznosom koj
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

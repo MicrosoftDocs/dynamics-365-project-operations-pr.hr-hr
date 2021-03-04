@@ -67,3 +67,6 @@ Popravljeni su sljedeći problemi:
 Popravljeni su sljedeći problemi:
 
 - Dvostrukim klikom mogućnosti **Dohvati sve kategorije transakcija** stvara se više redaka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

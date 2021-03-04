@@ -55,3 +55,6 @@ Sljedeći je postupak primjer tijeka rada upravljanja troškovima za izvješće 
 Nakon provjere ovih preduvjeta knjiži se izvješće o troškovima.
 
 Nakon što se proknjiži izvješće o troškovima, autorizira se plaćanje izvješća o troškovima, a zaposleniku se vraća naknada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

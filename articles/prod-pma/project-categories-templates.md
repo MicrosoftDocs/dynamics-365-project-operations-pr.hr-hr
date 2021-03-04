@@ -124,3 +124,6 @@ Sljedeća slika prikazuje primjer mapiranja zadataka predloška u Integraciji po
 > Mapiranje prikazuje podatke polja koji će se sinkronizirati iz aplikacije Project Service Automation u Financije.
 
 [![Mapiranje predloška iz aplikacije Project Service Automation u aplikaciju Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

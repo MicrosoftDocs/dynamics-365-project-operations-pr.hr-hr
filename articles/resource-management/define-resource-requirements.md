@@ -26,3 +26,5 @@ Preduvjete resursa definira voditelj projekta kako bi utvrdio resurse potrebne z
 3.  Na kartici **Član tima** odaberite člana tima, a zatim odaberite **Generiraj zahtjev**.
 
 Informacije o načinu izmjene zahtjeva za resursom potražite u odjeljku [Ažuriranje pojedinosti zahtjeva za resursom](define-resource-requirements.md) kako biste izmijenili preduvjete resursa.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

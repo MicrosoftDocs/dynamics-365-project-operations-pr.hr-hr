@@ -62,3 +62,6 @@ Projekti se stvaraju i održavaju na platformi CDS. Atributi računovodstva za p
 4. Postavite zadane postavke financijske veličine. Primjećujete kako se financijske veličine zadaju iz korisničkog računa. Ako je projekt povezan s retkom ugovora koji ima više klijenata ugovora o projektu, za zadane financijske veličine upotrebljava se primarni klijent.
 
 Zadane financijske veličine projekta upotrebljavaju se za postavljanje zadanih vrijednosti retka dnevnika za vrijeme, troškove i transakcije naknada u **Dnevniku integracije aplikacije Project Operations** i na povezanim redcima fakture za projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

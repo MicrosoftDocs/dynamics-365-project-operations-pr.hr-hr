@@ -83,3 +83,6 @@ Ako morate upotrijebiti modul Power Query, slijedite ovu smjernicu:
 Sljedeća slika prikazuje primjer mapiranja zadataka predloška u Integraciji podataka. Mapiranje prikazuje podatke polja koji će se sinkronizirati iz aplikacije Project Service Automation u Financije.
 
 [![Mapiranje predloška](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

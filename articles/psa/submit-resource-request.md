@@ -41,3 +41,6 @@ Možete poslati generirani preduvjet resursa kao zahtjev za resurs. Zahtjev se z
 Status zahtjeva generičkog člana tima promijenit će se u **Poslano**.
 
 Nakon što upravitelj resursa ispuni zahtjev, generički resurs zamijenit će se imenovanim resursom ako upravitelj resursa ispuni zahtjev rezerviranjem imenovanog resursa. U suprotnom generički resurs ostaje u timu, a status zahtjeva mijenja se u **Potreban pregled** ako je upravitelj resursa predložio imenovani resurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

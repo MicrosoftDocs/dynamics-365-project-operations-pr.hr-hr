@@ -93,3 +93,6 @@ Ugovori u aplikaciji Project Operations grade se na ugovorima iz aplikacije Dyna
 - Ugovori iz aplikacije Project Operations imaju vlastiti obrazac i elemente korisničkog sučelja, poslovna pravila, poslovnu logiku u dodacima i skripte na strani klijenta što ih čini jedinstvenima u ugovorima o prodaji.
 
 Iz tih razloga ne biste trebali upotrebljavati ugovor o prodaji i ugovor o projektu naizmjenično.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

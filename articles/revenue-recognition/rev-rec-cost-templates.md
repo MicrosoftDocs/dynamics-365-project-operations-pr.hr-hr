@@ -79,3 +79,6 @@ Kako biste stvorili predložak troška, poduzmite ove korake:
 7. Na kartici **Kategorije** odaberite kategorije projekata koje će biti uključene u redak predloška troškova.
 8. Na kartici **Općenito** odaberite hoće li taj redak biti uključen u izračun postotka dovršenosti.
 9. Odaberite način troškova do završetka koji će se upotrebljavati pri izračunu postotka dovršenosti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

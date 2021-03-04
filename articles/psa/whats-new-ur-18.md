@@ -63,3 +63,6 @@ Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji 
 **Sales**
 
 - Riješeno: Kada se vremenski unosi ponovno odobre (**Odobri > Odustani >** odobri ponovno), stvara se dvostruki nenaplativi trenutak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

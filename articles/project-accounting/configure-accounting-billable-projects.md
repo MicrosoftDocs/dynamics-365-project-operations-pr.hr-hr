@@ -125,3 +125,6 @@ Nepromjenjiva cijena – postotak dovršenosti
 Pravila profila troškova i prihoda projekta određuju profil troškova i prihoda projekta koji se moraju upotrebljavati tijekom obrade svih naplativih projektnih transakcija. Definirajte pravila odlaskom na postavku **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Knjiženje** \> **Pravila profila troškova i prihoda projekta**.
 
 Pravila se mogu definirati ugovorom o projektu, projektnom grupom ili putem određenog projekta. Sustav će uvijek prvo odabrati najpodrobnije pravilo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

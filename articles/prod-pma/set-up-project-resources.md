@@ -75,3 +75,6 @@ Nakon dovršenja prethodnih zadataka, prema potrebi možete izvršiti sljedeće 
 - Ispuniti zahtjev za resurse.
 - Zatražiti resurs osoblja iz WBS-a.
 - Rezervirajte resurse za projekt bez zahtjeva za resursom osoblja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

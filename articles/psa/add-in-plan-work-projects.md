@@ -242,3 +242,6 @@ Sljedeća tablica opisuje način sinkronizacije podataka entiteta Ovisnosti proj
 
 ### <a name="additional-resources"></a>Dodatni resursi
  [Vodič voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

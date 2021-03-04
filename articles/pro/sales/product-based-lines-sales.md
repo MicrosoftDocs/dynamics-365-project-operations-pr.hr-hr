@@ -28,3 +28,6 @@ Redci koji se temelje na proizvodu mogu biti stavke iz kataloga ili proizvodi ko
 
 Kada je metoda prihoda sažetka Prilike **Izračunao sustav**, vrijednosti proračuna klijenta u redcima prilika zbrojene su kako bi se izračunao procijenjeni prihod. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

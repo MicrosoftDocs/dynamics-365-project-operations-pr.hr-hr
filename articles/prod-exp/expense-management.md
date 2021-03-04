@@ -58,3 +58,6 @@ Dodatna pomoć dostupna je kao vodiči zadataka. Kako biste pristupili vodičima
 ### <a name="videos"></a>Videozapisi
 
 Pogledajte videozapise s uputama koji su sada dostupni na [Microsoft Dynamics 365 YouTube kanalu](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

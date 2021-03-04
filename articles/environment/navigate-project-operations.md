@@ -38,3 +38,6 @@ Odaberite **Prijavi se** > **Prijavi se u okruženje** za navigaciju do modula *
 
 > [!NOTE]
 > Možete izravno pristupiti aplikaciji Project Operations na platformi Common Data Service i modulu **Upravljanje projektom i računovodstvo** s pomoćui njihove odgovarajuće URL-adrese. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

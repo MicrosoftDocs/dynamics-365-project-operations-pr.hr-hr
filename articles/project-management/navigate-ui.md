@@ -102,3 +102,6 @@ Slijedi kratki pregled standardnih kontrola koje se nalaze na različitim kartic
 **Dodaj stupac**: Omogućuje korisniku definiranje vidljivih stupaca u rešetki. Rešetkama u obrascu **Planiranje projekta** mogu se dodati samo gotovi stupci.
 
 ![Gumb Dodaj stupac](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Postojeća ponuda može se povezati s prilikom. Poduzmite sljedeće korake za a�
    Kada premjestite priliku u ovu fazu, možete odabrati ovu ponudu s popisa ponuda povezanih s tom prilikom. Odabir ove ponude označava da s njom napredujete.
 
    Sve ostale ponude povezane s prilikom i dalje će biti dostupne i aktivne dok se jedna od njih ne prihvati. Postupak prodaje možete vratiti u prethodnu fazu **Kvalificiraj** i odabrati još jednu ponudu s kojom ćete krenuti dalje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

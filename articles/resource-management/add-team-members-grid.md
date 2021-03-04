@@ -200,3 +200,6 @@ Kada pogledate vrijeme na višim razinama, ćelije na kartici **Usklađivanje** 
 Ako imate dodjele zadataka za resurs, ali bez rezervacija, na obrascu **Projekti**, na kartici **Usklađivanje**, odaberite manjak rezervacija, a zatim odaberite **Produlji rezervaciju**. Prikazat će se dijaloški okvir **Produlji rezervaciju** produljivanje rezervacije i rezervacija koju je potrebna za rješavanje manjka resursa. Dijaloški okvir prikazuje i postojeće rezervacije resursa diljem projekata ili drugih entiteta koji se mogu planirati. Ako odaberete **U redu** da biste izradili rezervaciju za resurs, bez obzira na dostupnost tog resursa, može doći do prebukiranosti.
 
 Upravitelj projekta ili upravitelj resursa zatim može upotrijebiti ploču s rasporedom kako bi upravljao svim situacijama u kojima resurs ima prevelik broj rezervacija izvan svog kapaciteta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

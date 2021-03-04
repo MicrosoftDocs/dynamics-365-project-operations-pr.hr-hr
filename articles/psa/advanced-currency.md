@@ -105,3 +105,6 @@ Dynamics 365 automatski obrađuje zbrojeve iznosa u različitim valutama. Evo pr
 | Trošak           | Nenaplaćena prodaja   | 17. lip. | Ivan  | Najam automobila           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 Da biste izračunali ukupnu vrijednost nenaplaćene prodaje na projektu, možete izraditi polje zbroja za polje **Iznos** na svim povezanim stvarnim vrijednostima nenaplaćene prodaje. Polje zbroja konstrukt je sustava Dynamics 365 koji omogućuje brze formule na povezanim zapisima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Nakon što se za svaki resurs upotrijebi funkcija produljenog rezerviranja, reze
 Vidjet ćete kako podrobniji uvid u pojedinosti rezervacije pokazuje razlike u vremenu početka rezervacija. Rezervacije započinju najranije s vremenom početka kontura dodjele i ne prije dostupnog vremena početka resursa.
 
 ![Nove rezervacije resursa u ploči s rasporedom](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

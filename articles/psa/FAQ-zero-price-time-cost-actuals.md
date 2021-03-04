@@ -66,3 +66,6 @@ Ako nakon tri gornje provjere u stvarnim podacima vrijeme – trošak i dalje 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

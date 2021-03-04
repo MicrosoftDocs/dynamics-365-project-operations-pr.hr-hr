@@ -113,3 +113,6 @@ Budući da Dynamics 365 Project Service Automation upotrebljava modul Universal 
 Za prikaz dodatnih pojedinosti o pojedinačnom resursu desnom tipkom miša kliknite resurs za otvaranje kartice resursa.
 
 ![Kartica resursa](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

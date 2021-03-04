@@ -59,3 +59,6 @@ Na ugovoru o projektu, sljedeći redoslijed prvenstva upotrebljava se za automat
 Ako je cjenik projekta unesen po zadanim postavkama, sustav provjerava odgovara li valuta valuti klijenta i imaju li zadani cjenici koji su uneseni kontekst **Prodaja**.
 
 Entitete Klijent, Prilika, Ponuda i Ugovor o projektu možete povezati s nekoliko cjenika za projekt. Ova mogućnost podržava zadane cijene za određeni datum za ugovor o dugoročnom projektu, u kojem bi moglo biti potrebno više od jednog cjenika za ažuriranje cijena koje se pojavljuju zbog inflacije. Međutim, ako cjenici koje pridružujete entitetu Klijent, Prilika, Ponuda ili Ugovor o projektu imaju preklapajući datum stupanja na snagu, zadane cijene možda nisu točne. Stoga biste trebali osigurati da cjenici za projekt koji imaju preklapajući datum stupanja na snagu nisu povezani s tim entitetima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

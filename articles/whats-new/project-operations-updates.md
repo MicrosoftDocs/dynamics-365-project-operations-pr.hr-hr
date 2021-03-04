@@ -77,3 +77,6 @@ Ciljani datumi izdanja podložni su promjenama. Dodatne informacije potražite u
 | --- | --- |
 | 10.0.17 | 19. ožujka 2021. |
 | 10.0.18 | 16. travnja 2021. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

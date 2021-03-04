@@ -97,3 +97,6 @@ U prikazu rešetke i prikazu s vremenskim fazama možete odabrati koja će se po
 ## <a name="expense-estimates"></a>Procjena troška
 
 Gumb **Dodaj novu procjenu troška** u prikazu rešetke omogućuje vam bilježenje svih troškova nastalih u projektu, no onih koji nisu izravno povezani s radom. Procjene troškova možete bilježiti za određeni zadatak ili za cijeli projekt. Odaberite kategorije troškova i uvjetni datum kada se trošak očekuje. Ako povezani cjenik troškova i prodajni cjenik imaju zadane cijene (ili definiranu profitnu maržu za kategorije troškova), one se automatski unose u retku procjene kod povezivanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

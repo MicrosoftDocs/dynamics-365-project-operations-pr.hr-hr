@@ -43,3 +43,6 @@ Sljedeći dijagram ilustrira fakturiranje unutar tvrtke koje se odnosi na račun
 - [Konfiguriranje fakturiranja unutar tvrtke](configure-intercompany-invoicing.md)
 - [Bilježenje transakcija unutar tvrtke](create-intercompany-transactions.md)
 - [Stvaranje faktura klijenta i dobavljača unutar tvrtke](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

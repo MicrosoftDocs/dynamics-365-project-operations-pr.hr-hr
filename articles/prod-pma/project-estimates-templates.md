@@ -170,3 +170,6 @@ Sljedeće slike prikazuju primjer mapiranja zadataka predloška u Integraciji po
 [![Mapiranje predloška transakcija procjene troškova](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mapiranje predloška procjene troškova](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

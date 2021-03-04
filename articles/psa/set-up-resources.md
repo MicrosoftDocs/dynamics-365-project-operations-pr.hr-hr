@@ -55,3 +55,6 @@ Da biste mogli slati zahtjeve za resurse ili ih dodjeljivati u komponenti [!INCL
   
 ### <a name="see-also"></a>Pogledajte također  
  [Konfiguracija programa Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

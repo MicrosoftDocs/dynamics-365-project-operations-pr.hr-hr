@@ -41,3 +41,6 @@ Kada je omogućen ključ za upravljanje značajkama **Omogući stranicu s popiso
 Delegirani korisnik može brzo filtrirati i pretraživati postojeća izvješća o troškovima koji su mu delegirani. Također mogu stvoriti novo izvješće o troškovima za druge korisnike odabirom mogućnosti **Novo izvješće o troškovima**.
 
 Delegirani korisnici također mogu stvoriti i upravljati izvješćima o troškovima za druge zaposlenike odlaskom na mogućnost **Upravljanje troškovima** > **Moji troškovi** > **Izvješća o troškovima** i odabirom stavke **Otvori troškove drugih korisnika**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

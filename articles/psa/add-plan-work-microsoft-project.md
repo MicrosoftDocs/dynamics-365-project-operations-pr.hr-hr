@@ -231,3 +231,6 @@ Sljedeća tablica opisuje kako se podaci sinkroniziraju između aplikacije Proje
 
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

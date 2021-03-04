@@ -35,3 +35,6 @@ Ako se ugovor o projektu koji je zatvoren kao izgubljen u svojim redcima poziva 
 
 > [!NOTE]
 > Zatvaranje ugovora o projektu kao izgubljenog u aplikaciji Dynamics 365 Project Operations, neće utjecati na taj status povezane prilike. Prilika će ostati otvorena i mora se ručno zatvoriti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

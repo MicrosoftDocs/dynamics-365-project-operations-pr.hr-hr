@@ -76,3 +76,6 @@ To otvara stranicu **Novi naziv polja dimenzije određivanja cijena** za **msdyn
 5. **msdyn_projectteam** dodaj polju **Logični naziv entiteta**, a **msdyn_bookableresourceid** polju **Naziv polja**. Spremite zapis.
 
  ![Obrazac novog naziva polja dimenzije određivanja cijena](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

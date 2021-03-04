@@ -43,3 +43,6 @@ Kako biste kopirali cjenik, poduzmite sljedeće korake.
 1. Na karticama cjenika **Uloga**, **Kategorija** i **Stavka cjenika** možete odabrati **Ažuriraj cijene** kako biste primijenili maržu na sve cijene u podrešetki. 
 2. Otvara se dijaloška stranica na kojoj unesite maržu. Također možete unijeti postotak negativne marže kako biste smanjili cijene za određeni postotak. 
 3. Odaberite **U redu** na dijaloškoj stranici, a zatim provjerite podudaraju li se cijene u podrešetki s promjenama koje ste napravili.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

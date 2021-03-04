@@ -60,3 +60,6 @@ Možete analizirati ponude i generirati grafikone za očekivanja klijenta o rasp
 Analiza očekivanja klijenta o rasporedu provodi se uspoređivanjem najnovijeg datuma završetka detalja retka ponude s traženim datumom isporuke u svim recima ponude u ponudi.
 
 Analiza očekivanja klijenta o proračunu provodi se uspoređivanjem zbroja ukupnog proračuna klijenta s navedenim iznosom u svim recima ponude.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

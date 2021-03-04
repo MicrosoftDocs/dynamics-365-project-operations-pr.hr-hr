@@ -140,3 +140,6 @@ Sljedeće slike prikazuju primjer mapiranja zadataka predloška u Integraciji po
 [![Mapiranje predloška – Ažuriranje stvarnih podataka](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mapiranje predloška – Ažuriranje transakcije](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

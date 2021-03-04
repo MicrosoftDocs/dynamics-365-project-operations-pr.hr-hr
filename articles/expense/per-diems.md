@@ -31,3 +31,6 @@ Dnevnica je naknada koja se isplaćuje radniku koji putuje zbog posla. U upravlj
     
 ## <a name="submit-expenses-using-per-diem"></a>Slanje troškova s pomoću dnevnice
 Kako biste poslali troškove korištenja dnevnica, kada stvarate izvješće o troškovima upotrijebite kategoriju troška **Dnevnice**. Unesite podatke **Dnevnica od datuma**, **Dnevnica do datuma** i **Dnevnica za mjesto**. Iznos će se izračunati na temelju iznosa dnevnice za odabranu lokaciju, a smanjenje obroka na temelju razina dnevnica.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

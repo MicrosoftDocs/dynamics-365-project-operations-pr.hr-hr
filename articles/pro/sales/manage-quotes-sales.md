@@ -33,3 +33,6 @@ Popis svih ponuda projekta mogu se vidjeti na stranici s popisom **Ponude**.
 2. Upotrijebite **Preklopnik prikaza** za odabir ostalih filtriranih prikaza ponuda. S pomoću prilagođenih kriterija filtra možete konfigurirati vlastite prikaze i mogućnosti navigacije.
 
 Ponude se mogu stvoriti ili izbrisati s ove stranice s popisom ili stranica s pojedinostima.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

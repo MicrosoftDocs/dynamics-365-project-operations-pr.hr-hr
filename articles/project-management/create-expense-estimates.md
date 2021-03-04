@@ -38,3 +38,6 @@ Sljedeći atributi definirani su za svaku stavku retka troška:
 - **Jedinična cijena koštanja**: Jedinična cijena koja se upotrebljava za izračun koštanja troška.
 - **Jedinična prodajna cijena**: Jedinična cijena koja se upotrebljava za izračun prodajne cijene troška.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

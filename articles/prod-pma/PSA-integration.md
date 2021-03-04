@@ -75,3 +75,6 @@ Kako biste upotrebljavali rješenje za integraciju usluge Project Service Automa
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Instalirajte rješenje za integraciju usluge Project Service Automation u Financije u svojoj instanci Project Service Automation
 
 Preuzmite rješenje za integraciju usluge Project Service Automation u Financije u [Microsoftovu centru za preuzimanje](https://www.microsoft.com/download/details.aspx?id=57016) i slijedite upute koje ste dobili uz rješenje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

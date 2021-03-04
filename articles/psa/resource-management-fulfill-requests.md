@@ -46,3 +46,6 @@ Prikazuje se pomoćnik za raspored koji se filtrira prema preduvjetima. Odaberit
 > ![Odabrani resurs](media/Resource-Management-image61.png)
 
 Član generičkog tima zamijenjen je fiksno rezerviranim imenovanim resursima u projektnom timu i dodjelama zadataka u rasporedu projekta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

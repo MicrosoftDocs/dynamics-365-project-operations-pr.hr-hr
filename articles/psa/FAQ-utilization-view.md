@@ -101,3 +101,6 @@ Ako nije prikazano naplativo korištenje, evo nekih stvari koje možete provjeri
   - je li uloga na retku ugovora projekta koja podržava projekt postavljena na nenaplativa;
   - je li projektu pridružen redak ugovora.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Možete izvršiti skupnu ponovnu procjenu vrijednosti statusa koji se ne smije p
 Kako biste ponovno procijenili vrijednost statusa koji se ne smije prekoračiti, odaberite jedan ili više stvarnih podataka iz prikaza **Zaostala naplata vremena i materijala** ili **Stvarni podaci** i odaberite **Ponovno procijeni vrijednost statusa koji se ne smije prekoračiti**.
 
 Svim će se relevantnim odabranim stvarnim podacima s ograničenjem koje se ne smije prekoračiti ponovno procijeniti vrijednost u odnosu na postavke ograničenja koje se ne smiju prekoračiti. Stvarni podaci koji su relevantni za ponovnu procjenu vrijednosti statusa koji se ne smije prekoračiti su stvarne nenaplaćene prodaje koje još nisu fakturirane, nisu na skici fakture i označene su kao naplative. Odabiru se svi drugi odabrani stvarni podaci.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

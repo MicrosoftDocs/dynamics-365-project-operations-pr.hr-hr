@@ -53,3 +53,6 @@ Prije rezervacije na ploči s rasporedom morate izraditi ili generirati preduvje
 Preduvjet je ispunjen upotrebom odabranog resursa. U oknu **Preduvjeti rezervacije** možete vidjeti da je preduvjet ažuriran, a resurs se prikazuje kao rezerviran u projektu.
 
 ![Resurs rezerviran za projekt](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

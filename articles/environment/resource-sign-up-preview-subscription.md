@@ -98,3 +98,6 @@ Slijedite smjernice u temi [Dodjela novog okruženja](resource-provision-new-env
 
 Instalirajte podatke o postavljanju i konfiguraciji CDS-a na način opisan u temi [Postavljanje i primjena konfiguracijskih podataka na platformi Common Data Service](resource-apply-pro-setup-config-data.md).
 Dovršite ovaj korak tek nakon što se implementira pokazna verzija okruženja aplikacije Finance i budu spremni pokazni podaci u FO.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

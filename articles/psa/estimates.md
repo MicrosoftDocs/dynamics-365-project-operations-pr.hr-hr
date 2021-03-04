@@ -106,3 +106,6 @@ Ako ste dodali prilagođeno polje u pojedinost retka ponude i želite da sustav 
 
 8. Ponovite korake od 1 do 7 za drugi dodatak.
 9. Zatvorite alat za registraciju dodataka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

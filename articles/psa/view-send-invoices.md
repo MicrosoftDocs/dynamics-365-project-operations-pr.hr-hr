@@ -58,3 +58,6 @@ Prilikom stvaranja projekta postavlja se učestalost generiranja faktura. Faktur
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

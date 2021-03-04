@@ -48,3 +48,6 @@ Zatim ćete izraditi strukturnu analizu rada za projekt da biste definirali zada
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

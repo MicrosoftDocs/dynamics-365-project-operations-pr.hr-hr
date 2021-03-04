@@ -116,3 +116,6 @@ Odaberite **Rezerviraj** za generički resurs, a zatim možete koristiti ploču 
 Kada se generički resurs ispuni imenovanim resursom, tada se uklanja iz tima i dodjele zadataka generičkog resursa se dodjeljuju imenovanom resursu koji je ispunio preduvjet generičkog resursa za resursom.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Kako biste izmijenili postojeću ponudu projekta, status ponude mora biti **Stvo
 
 > [!NOTE]
 > Ne možete mijenjati ponudu projekta nakon što promijeni status u **Poslano**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

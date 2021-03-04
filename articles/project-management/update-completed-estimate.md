@@ -36,3 +36,6 @@ Postoje dva načina na koja upravitelj projekta može ponovno predvidjeti rad na
 - Nadjačajte zadani postotak napretka novom procjenom stvarnog napretka zadatka.
 
 Svaki od tih pristupa uzrokuje ponovno izračunavanje ETC-a, procijene dovršetka (EAC) i postotka napretka zadatka te predviđena odstupanja rada na zadatku. EAC, ETC i postotak napretka na zadacima sažetka ponovno se izračunavaju i stvara se novo predviđanje odstupanja rada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

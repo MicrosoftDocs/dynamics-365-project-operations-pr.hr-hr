@@ -39,3 +39,6 @@ ms.locfileid: "4073365"
 10. Kliknite U redu. 
 
 Nakon ovog koraka, Kreditna će bilješka biti dostupna za Prijedlog fakture.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Nakon što ste dobili cjenike za projekt zadane organizacijski i za specifičnog
 
 1. Na stavci **Ponuda projekta**, na kartici **Cjenik projekta**, provjerite u podrešetki da nije odabran posebni zapis cjenika.
 2. Odaberite **Stvori prilagođene cijene**. Time će se napraviti kopije svih standardnih cjenika trenutačno povezanih s ponudom i povezati te primjerke s ponudom. Uklonit će se postojeća povezanost sa standardnim cjenicima. Tada prodajni predstavnik može započeti s uređivanjem cijena na tim primjercima. Promijenjene cijene primjenjivat će se samo na cijene ponude za ovaj projekt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

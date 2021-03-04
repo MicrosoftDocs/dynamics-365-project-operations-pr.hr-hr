@@ -68,3 +68,6 @@ Vaši resursi mogu upotrebljavati aplikaciju Project Finder Mobile na svom telef
   
 ### <a name="see-also"></a>Pogledajte također  
  [Postavljanje resursa](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

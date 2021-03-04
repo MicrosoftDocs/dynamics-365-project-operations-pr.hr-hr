@@ -55,3 +55,6 @@ Nakon što ste dobili ugovor projekta, morat ćete projektu dodijeliti djelatnik
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

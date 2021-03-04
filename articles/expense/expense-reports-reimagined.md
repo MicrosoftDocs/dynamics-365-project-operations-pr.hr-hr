@@ -78,3 +78,6 @@ Sljedeće značajke postoje na postojećoj stranici, ali ih još nema na novoj. 
 - Tijek rada na razini retka
 - Privremena podrška odobravatelja
 - Napredno specificiranje
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

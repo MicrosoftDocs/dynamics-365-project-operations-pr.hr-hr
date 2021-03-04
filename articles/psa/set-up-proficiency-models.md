@@ -53,3 +53,6 @@ Nakon što ste dodali vještine za projekte klijenata, potreban je način za ocj
   
 ### <a name="see-also"></a>Pogledajte također  
  [Postavljanje resursa](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

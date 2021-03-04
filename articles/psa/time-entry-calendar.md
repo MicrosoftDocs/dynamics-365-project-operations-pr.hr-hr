@@ -42,3 +42,6 @@ Kalendar ne podržava radnje na pojedinačnim stavkama kalendara i ne možete od
 ## <a name="extensibility"></a>Proširivost
 
 Na stranici **Unos vremenai** koja ima rešetku vremenskih unosa možete dodati prilagođena polja, postaviti polja za pretraživanje i stvarati prilagođene prikaze. Možete i postaviti prilagođenu poslovnu logiku koja se temelji na vrijednostima koje su odabrane u prilagođenim poljima ili unesene u njih.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

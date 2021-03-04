@@ -57,3 +57,6 @@ Zakažite godišnji odmor ili odsutnost na približno isti način kao da unosite
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

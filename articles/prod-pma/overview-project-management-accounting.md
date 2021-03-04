@@ -440,3 +440,6 @@ Nakon izračuna izvoda, na raznim karticama na stranici **Projektni izvodi** mo�
 -   **Potrošnja** – Informacije o potrošenim satima, predmetima, izdacima i transakcijama platnog spiska.
 -   **Faktura** – Podaci o fakturama i djelomičnom fakturiranju.
 -   **Satnica** – Satnice za sate rada koji se knjiže na račune prihoda i troška.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

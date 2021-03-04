@@ -46,3 +46,6 @@ Kako biste stvorili čimbenike količine iz svojstava proizvoda, poduzmite sljed
 7. Ponovite korake 2 – 6 za sva svojstva koja će zajedno činiti količinu za redak ugovora koji se temelji na proizvodu.
 
 S postavljenim čimbenicima količine, kada korisnik stvara redak ugovora za ovaj proizvod, količina retka ugovora zaključava se. Količina se zatim izračunava kao umnožak vrijednosti svojstva za taj redak ugovora.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

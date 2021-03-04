@@ -31,3 +31,6 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 Entitet **Stvarni podaci** ima mnoga polja koja se mogu upotrijebiti kao cjenovne veličine za cijene utemeljene na resursima. Na primjer, uobičajeno je polje **Resurs koji se može rezervirati**. Manje tvrtke koje imaju manje od 20 do 30 naplativih resursa mogu otkriti da je korištenje računa i stopa troškova specifičnih za svaki resurs jednostavniji pristup. Međutim, kako raste naplativa radna snaga, održavanje cijena specifičnih za resurse može postati nerealno. Trošak resursa i cijene računa počinju se mijenjati kako se resursi unaprjeđuju, stječu više iskustva ili drugačiji skup vještina. 
 
 Drugi je primjer kategorija transakcije. Klijenti i implementatori upotrebljavali su kategoriju transakcije kako bi klasificirali rad i upotrijebili polje za cijenu i trošak na temelju kategorije rada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

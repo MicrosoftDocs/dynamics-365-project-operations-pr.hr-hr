@@ -40,3 +40,6 @@ Voditelj projekta može planirati potrebne uloge resursa za projekt. Voditelj re
 7. Odaberite radnika, a zatim odaberite **Dodijeli**.
 8. Provjerite je li redak za **Razvojni inženjer softvera 1** uklonjen za projekt **2. faza nadogradnje projekta**.
 9. Na kartici **Projektni tim i planiranje** za projekt **2. faza nadogradnje XYZ** , provjerite je li radnik kojeg ste odabrali u prethodnom koraku dodan kao **Razvojni inženjer softvera**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

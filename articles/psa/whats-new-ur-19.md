@@ -66,3 +66,6 @@ Popravljeni su sljedeći problemi:
 - Klijenti mogu imati smanjene performanse pri stvaranju projekta jer **GetBookableResourceIdFromUser** dohvaća sve stupce resursa koji se mogu rezervirati, a ne samo primarnog ID-a.
 - Entitetu **Vrsta transakcije** nedostaje dodatak za ažuriranje prethodne provjere valjanosti kako bi se spriječilo korisnike da uđu u **Jedinice** i **Grupe jedinica** koji nisu valjani za vrste transakcija.
 - Korak **Ukloni** ne funkcionira za uvoz unosa vremena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Dodajte sljedeće entitete aplikacije Project Service u svoje rješenje za odre�
 5.  Kada se od vas zatraži da uključite bilo koji ovisni entitet za odabrane entitete, odaberite **Nemoj uključivati potrebne komponente.**
 
     ![Uključivanje ovisnih entiteta](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

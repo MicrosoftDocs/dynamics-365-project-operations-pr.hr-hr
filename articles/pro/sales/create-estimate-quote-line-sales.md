@@ -67,3 +67,6 @@ Valuta pojedinosti retka ponude za zadane vrijednosti troška iz cjenika ugovorn
 Izračuni profitabilnosti pretvaraju iznos pojedinosti retka ponude za troškove i prodaju u osnovnu valutu okruženja kako bi se prijavila ukupna procijenjena marža ponude.
 
 To bi moglo rezultirati pogreškama pri zaokruživanju valute i promjenom marži zbog nedostatka tečajeva koji vrijede na određeni datum. Ove izračune upotrijebite na ponudama projekta samo kao približne vrijednosti, a ne stvarno zakonsko ili drugo izvješćivanje koje zahtijeva veću preciznost zaokruživanja i saznanje o tečajevima koji vrijede na određeni datum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

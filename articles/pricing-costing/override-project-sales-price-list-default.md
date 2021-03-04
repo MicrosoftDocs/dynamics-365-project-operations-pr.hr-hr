@@ -52,3 +52,6 @@ Možete upotrijebiti svaki od tih cjenika i ažurirati cijene rada (cijena uloge
 Na ugovoru o projektu, cijene za projekt uvijek su zadane kao prilagođeni cjenik s nazivom ugovora i stvorenom oznakom datuma i vremena koja se dodaje nazivu. To vrijedi bez obzira je li ugovor stvoren kada je prihvaćena ponuda ili je ugovor stvoren od početka. Ako je potrebno, možete ukloniti ovu povezanost s prilagođenim cjenikom i umjesto toga s ugovorom o projektu povezati standardni cjenik.
 
 Kada standardni cjenik povežete s projektnim cjenicima na ponudi ili ugovoru, sve promjene cijena u cjeniku utjecat će na sve ponude i ugovore koji upotrebljavaju cjenik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

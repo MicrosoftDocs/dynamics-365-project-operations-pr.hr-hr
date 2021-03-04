@@ -146,3 +146,6 @@ Sljedeća tablica prikazuje sveobuhvatan popis gotovih obrazaca i prikaza koji s
 |  Stvarna vrijednost|• Informacije<br>• Aktivni stvarni podaci|• Pridruženi prikaz stvarnih podataka|
 
 Prilagođena polja potencijalno se također moraju dodati na poslovna pravila, ovisno o tome što ste definirali. Jedan gotovi primjer je za poslovno pravilo **Uređivanje unosa vremena na temelju statusa**. Ovo pravilo definira koja je polja potrebno zaključati kada se Unos vremena nalazi u statusu nemogućnosti uređivanja, kao što je **Odobreno**. Dodajte polja ovom poslovnom pravilu tako da su polja zaključana za uređivanje kada je Unos vremena u statusu koji nije **Skica** ili **Vraćeno**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

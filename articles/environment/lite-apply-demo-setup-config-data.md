@@ -74,3 +74,6 @@ Prije nego započnete konfiguriranje, morate imati okruženje platforme Common D
     -   Značajka kategorije resursa koji je moguće rezervirati
 
     ![Dovrši uvoz](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

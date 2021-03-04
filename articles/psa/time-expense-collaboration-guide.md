@@ -73,3 +73,6 @@ Kliknite na vezu u nastavku da biste saznali više o tome što možete učiniti 
  [Vodič za voditelja računa](../psa/account-manager-guide.md)   
  [Vodič voditelja projekta](../psa/project-manager-guide.md)   
  [Vodič za upravitelj resursa](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

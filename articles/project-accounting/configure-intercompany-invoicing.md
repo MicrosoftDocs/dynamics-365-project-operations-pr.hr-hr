@@ -101,3 +101,6 @@ U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadu�
           - **Tvrtka za resurse** = **Contoso Robotics UK**
           - **Cijena naplate** = **200 USD**
       9. Idite na **Prodaja** > **Ugovori o projektu** i priložite cjenik **Cijene naplate za Adventure Works** cjeniku projekta Adventure Works ugovora o projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

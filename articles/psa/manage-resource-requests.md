@@ -51,3 +51,6 @@ Upravitelji računa i upravitelji projekta redovito zahtijevaju resurse za proje
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič za upravitelj resursa](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Organizirajte dokumente koji su povezani s projektom dodavanjem istih projektu.
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

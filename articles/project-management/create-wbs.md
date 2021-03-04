@@ -116,3 +116,6 @@ Način zadatka ne utječe na ažuriranja izvršena na datum početka i datum zav
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Tipkovni prečaci i pristupačnost
 
 Rešetka **Raspored** potpuno je dostupna i može se koristiti s čitačima zaslona kao što su Narrator, JAWS ili NVDA. Možete se kretati područjem rešetke s pomoću tipki sa strelicama (kao u programu Microsoft Excel), možete upotrebljavati tipku Tab za kretanje interaktivnim elementima korisničkog sučelja i možete upotrebljavati tipku sa strelicom dolje, tipku Unos ili razmaknicu za odabir i otvaranje padajućih izbornika.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

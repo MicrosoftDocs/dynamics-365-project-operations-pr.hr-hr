@@ -32,3 +32,6 @@ Za izvješća o troškovima pretraživati kroz razine naniže možete vršiti od
 Za pretraživati kroz razine naniže izvornog izvješća o troškovima na kojem se transakcija pojavila odaberite transakciju, a zatim odaberite **Izvorni dokument**.
 
 Kada prikazujete pojedinačne transakcije, možete pregledati i sve dodatne podatke koji su priloženi transakciji. Na primjer, u specificiranom hotelskom trošku možete pogledati podroban popis troškova kao što su pristup internetu, telefonski pozivi i sobna usluga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

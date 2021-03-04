@@ -65,3 +65,6 @@ Kada se posao projekta dovrši, upravitelj projekta može ažurirati fazu na **D
 ## <a name="close"></a>Zatvori
 
 Kada se zabilježe sve transakcije za projekt, upravitelj projekta može ažurirati fazu na **Zatvaranje**. U tom trenutku nije moguće bilježiti transakcije, a projekt je postavljen samo za čitanje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Odaberite putni nalog koji želite odobriti, a zatim odaberite **Tijek rada** > 
 
 > [!NOTE]
 > Kada mapirate izvješće o troškovima u odobreni putni nalog, iznos transakcije ne može biti veći od autoriziranog iznosa. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

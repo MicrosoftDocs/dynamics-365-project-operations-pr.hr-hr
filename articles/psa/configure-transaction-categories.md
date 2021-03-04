@@ -43,3 +43,6 @@ Postavite kategorije transakcija da biste odredili nadskup kategorija troškova.
   
 ### <a name="see-also"></a>Također pogledajte  
  [Konfiguriraj program Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

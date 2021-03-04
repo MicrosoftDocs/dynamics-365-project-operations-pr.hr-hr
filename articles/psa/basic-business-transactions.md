@@ -149,3 +149,6 @@ Sljedeća tablica prikazuje zapise u entitetu Transakcijska veza za prethodni ti
 | Nacrt ispravka fakture       | GUID transakcija retka fakture | Zamjena          | msdyn_invoicelinetransaction | Naplaćena prodaja GUID            | Izvorna           | msdyn_actual       |
 | Potvrdi ispravak fakture     | Storniranje naplaćene prodaje GUID    | Storniranje          | msdyn_actual                 | Naplaćena prodaja GUID            | Izvorna           | msdyn_actual       |
 | Novi GUID stvarni podaci nenaplaćene prodaje | Zamjena                     | msdyn_actual       | Naplaćena prodaja GUID            | Izvorna                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

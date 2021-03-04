@@ -62,3 +62,6 @@ U sljedećem postupku objašnjava se način stvaranja projektnog tima.
 ## <a name="monitor-project-teams"></a>Nadzirite projektne timove
 1. Na stranici **Svi projekti** odaberite vezu **Projekt ID** za projekt **2. faza nadogradnje XYZ**.
 2. Na Brzoj kartici **Projektni tim i planiranje** provjerite jesu li navedeni resursi projekta točni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

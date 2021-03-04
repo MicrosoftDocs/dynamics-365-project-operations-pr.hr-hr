@@ -57,3 +57,6 @@ U ovoj temi opisan je način stvaranja modela predviđanja za proračunske iznos
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

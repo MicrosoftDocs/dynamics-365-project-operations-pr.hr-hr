@@ -32,3 +32,6 @@ Vaša tvrtka ili ustanova može zahtijevati da se putni nalog preda prije nego �
 Putni nalog i pravila mogu se upotrebljavati za pomoć pri upravljanju proračunom. Na primjer, ako vaša tvrtka ili ustanova radi na projektu s fiksnom cijenom koji zahtijeva putovanje, putni troškovi članova projektnog tima moraju se uklapati u proračun za projekt. Zahtijevajući da se putni troškovi odobre prije nego što nastanu, tvrtka ili ustanova može pomoći da projekt ostane u okviru proračuna.
 
 Možete postaviti pravila za putne naloge sa stranice **Putni nalozi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

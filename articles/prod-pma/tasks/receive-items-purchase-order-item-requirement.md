@@ -56,3 +56,6 @@ Ovaj zadatak upotrebljava skup podataka USSI.
 21. U polju **Primitak proizvoda** upišite vrijednost.
 22. Odaberite **U redu**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

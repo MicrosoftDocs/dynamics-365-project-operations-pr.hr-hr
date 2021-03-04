@@ -85,3 +85,6 @@ Nakon stvaranja nekoliko unosa vremena, korisnici mogu istodobno stvoriti više 
 
 ## <a name="import"></a>Uvezi
 Isti osnovni postupak koristi se za uvoz iz rezervacija, dodjela i razmjena. Možete navesti raspon datuma iz kojeg se vrši uvoz rezervacija, a zatim izričito odabrati rezervacije koje treba kopirati u skice unosa vremena. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

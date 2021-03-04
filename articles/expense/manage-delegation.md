@@ -39,3 +39,6 @@ Ako je omogućen ključ za upravljanje značajkama **Omogući stranicu s popisom
 Delegat može brzo filtrirati i pretraživati postojeća izvješća o troškovima koja su im delegirana. Delegat također može brzo stvoriti novo izvješće o troškovima za druge korisnike odabirom mogućnosti **Novo izvješće o troškovima**.
 
 Delegati mogu stvoriti i upravljati izvješćima o troškovima za ostale zaposlenike odlaskom na **Upravljanje troškovima** > **Moji troškovi** > **Izvješća o troškovima** i odabirom mogućnosti **Otvori troškove drugih korisnika**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

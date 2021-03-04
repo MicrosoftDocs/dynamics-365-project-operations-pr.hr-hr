@@ -124,3 +124,6 @@ Na primjer, ako postoje sljedeća svojstva:
 - **SKU proizvoda** 
 
 Svojstva **Broj korisnika** i **Broj mjeseci** mogu se označiti kao čimbenici količine uređivanjem svojstava retka proizvoda. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Ako imate stvarne podatke koje ste dobili nakon stvaranja fakture, možete ih uk
 U aplikaciji Project Operations možete stvoriti retke fakture za proizvode koji se ne primjenjuju ni za jedan projekt ili se primjenjuju za sve projekte, zajedno s redcima fakture koji se na temelje na projektu. Ti se redci fakture stvaraju kao redci ugovora koji se temelje na proizvodu i nakon što se označe kao spremni za fakturiranje, dodaju se kao redci fakture koja se temelji na proizvodu.
 
 Nakon što dodate retke fakture koji se temelje na proizvodu, one se ne mogu mijenjati. Međutim, oni se mogu izbrisati iz skice predračuna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ ms.locfileid: "4960013"
 *Dnevnica* je naknada koja se isplaćuje radniku koji putuje zbog posla. U upravljanju troškovima možete stvoriti pravila za dnevnice za različite situacije putovanja. Cijene dnevnica mogu se temeljiti na dobu godine, mjestu putovanja ili oboje. Kada stvarate pravilo za dnevnice, možete odrediti da se od dnevnice odbija postotak ako radnik prima besplatne obroke ili usluge. Također možete postaviti minimalni i maksimalni broj sati za koji se dnevnica može primijeniti kada je radnik na putu.
 
 Izračun ukupnog iznosa dnevnice temelji se na datumima početka i završetka koje možete postaviti na stranici **Dnevnice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Prije nego što započnete postupak postavljanja, za svaku kategoriju troškova 
 
     - Je li neka od potkategorija izuzeta iz povrata poreza?
     - Koja je stavka grupe poreza na promet potkategorija?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

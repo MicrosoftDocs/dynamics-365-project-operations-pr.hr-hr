@@ -37,3 +37,6 @@ Akontacija u aplikaciji Project Operations nije dostupna za uporabu dok se ne fa
 | --- | --- | --- |
 | Dostupni iznos | Iznos koji je dostupan za uporabu na zapisu akontacije ili predujma. | Dok se predujam ili akontacija ne fakturiraju, nisu dostupni za uporabu, što znači da će dostupni iznos biti nula. |
 | Iskorišteni iznos | Iznos koji je već upotrijebljen u akontaciji ili predujmu. | Predujam ili akontacija mogu se djelomično uskladiti na računu s pomoću stvarnih troškova koji će imati neki dio označen kao već upotrijebljen ili potrošen. Ostatak iznosa predujma ili akontacije dostupan je za usklađivanje na budućoj fakturi sa stvarnim troškovima. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

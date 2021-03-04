@@ -257,3 +257,6 @@ Sljedeća je grafika nakon stvaranja prilagođenih cjenika.
 
 > [!NOTE]
 > Može se pojaviti kratko vrijeme odgode između vremena kada kliknete **Stvori prilagođeno određivanje cijena** i vremena kada će se stvoriti prilagođeni cjenik. Preporučujemo osvježavanje rešetke umjesto višestrukog klikanja. Prilagođeni je cjenik stvoren ako naziv pridruženog cjenika ima naziv ponude ili naziv ugovora o projektu koji mu se dodaje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

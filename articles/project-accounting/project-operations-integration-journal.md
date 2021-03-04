@@ -55,3 +55,6 @@ Samo se sljedeći računovodstveni atributi mogu ažurirati u redcima dnevnika i
 Redci dnevnika integracije mogu se izbrisati, no svi redci koji nisu proknjiženi bit će ponovno umetnuti u dnevnik nakon što ponovno pokrenete povremeni postupak **Uvoza iz faza**.
 
 Kada proknjižite dnevnik integracije, stvaraju se transakcije sporedne knjige i glavne knjige. Koriste se za fakturiranje klijentu, priznavanju prihoda i financijsko izvješćivanje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

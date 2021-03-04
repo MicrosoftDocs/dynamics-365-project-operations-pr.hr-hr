@@ -95,3 +95,6 @@ Trenutačno je podržan SAD.
 Financije će kontaktirati uslugu Cognitive Services radi izdvajanja podataka s terena. Cognitive Services zadržat će kopiju vašeg računa do 24 sata dok traje obrada. Nakon završetka obrade, Cognitive Services uklonit će račun. Računi se i dalje čuvaju u Financijama.
 
 Dodatne informacije potražite u članku [Omogućivanje razumijevanja računa s novom mogućnosti prepoznavanja obrazaca](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

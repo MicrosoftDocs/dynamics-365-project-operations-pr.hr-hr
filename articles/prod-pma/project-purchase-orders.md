@@ -76,3 +76,6 @@ Za stvaranje narudžbenice u Upravljanju projektima i računovodstvu možete upo
 
 Dodatne informacija potražite u odjeljku [Primanje stavki na narudžbenicu iz zahtjeva za stavkom](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

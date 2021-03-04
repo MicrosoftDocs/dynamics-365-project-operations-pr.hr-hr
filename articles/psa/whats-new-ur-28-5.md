@@ -42,3 +42,6 @@ Popravljeni su sljedeći problemi:
 
 - Pomoć za planiranje pretraživanja pogoršanja performansi
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

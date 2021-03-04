@@ -79,3 +79,6 @@ Potporu možete stvoriti unosom svih pojedinosti u novi zapis ili možete kopira
 2. Odaberite potporu za izmjenu.
 3. U Oknu radnje, na kartici **Potpora** , u grupi **Održavaj** , kliknite mogućnost **Uredi**.
 4. Pregledajte pojedinosti potpore i unesite sve potrebne promjene.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

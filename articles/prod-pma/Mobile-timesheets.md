@@ -62,3 +62,6 @@ Android će biti kompatibilan s ažuriranjem platforme 16, kada postane dostupno
 13. Neobvezno: Unesite dodatne retke evidencije radnog vremena.
 
 14. Nakon što dovršite unos redaka evidencije radnog vremena, odaberite radnju **Tijek rada** \> **Pošalji** kako biste evidencije radnog vremena poslali u tijeka rada postupka odobravanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

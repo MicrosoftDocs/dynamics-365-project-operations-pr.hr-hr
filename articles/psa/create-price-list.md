@@ -71,3 +71,6 @@ Cjenici ovise o ulogama i kategorijama troškova, tako da prije no što izradite
   
 ### <a name="see-also"></a>Također pogledajte  
  [Konfiguriraj sustav Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

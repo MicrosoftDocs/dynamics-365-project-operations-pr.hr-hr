@@ -40,3 +40,6 @@ Nadzorna ploča **Upravitelj prakse** pruža upraviteljima prakse grafički prik
 ## <a name="resource-manager"></a>Upravitelj resursa 
 
 Nadzorna ploča **Upravitelj resursa** pruža upraviteljima resursa grafički prikaz nadzorne ploče za nadzor zahtjeva za resurse te potražnje i upotrebe resursa. Na njoj je upraviteljima resursa omogućena i raščlamba praćenih podataka po različitim dimenzijama.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

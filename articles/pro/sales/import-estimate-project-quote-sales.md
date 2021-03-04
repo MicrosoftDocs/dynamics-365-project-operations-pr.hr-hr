@@ -68,3 +68,6 @@ Kada korisnik odluči sažeti po klasi transakcije, kategoriji i zadatku lisnog 
 | Zadatak A | Zrakoplovne karte | 10. 1. 2020. | 4 | 400 | 1600 |
 | Zadatak B | Hoteli | 10. 1. 2020. | 4 | 200 | 800 |
 | Zadatak C | Hoteli | 11. 1. 2020. | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

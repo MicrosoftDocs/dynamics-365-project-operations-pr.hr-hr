@@ -41,3 +41,6 @@ Ispod su kartice i KPI-ji dostupni na ponudi projekta koji su jedinstveni za apl
 | Analiza profitabilnosti | Kartica na ponudi | Kartica prikazuje sljedeće mjerne podatke:</br>- Ukupan naplativi trošak</br></br>- Ukupan nenaplativi trošak</br>- Ukupni prihod</br>- Ukupan prihod (osnovni)</br>- Bruto maržu</br>- Prilagođenu bruto maržu|
 | Usporedba s očekivanjima klijenta | Kartica na ponudi | Ova kartica prikazuje sljedeće mjerne podatke:</br>- Očekivani rok završetka</br>- Traženi rok završetka</br>- Proračun klijenta</br>- Vrijednost ponude |
 | Analiza ponude | Kartica na ponudi | Ova kartica sažima sljedeće najvažnije KPI-je za ponudu projekta</br>- Usporedba s očekivanjima klijenta za proračun i raspored</br>- Bruto maržu</br>- Prilagođenu bruto maržu |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Otvorite redak ponude s nepromjenjivom cijenom u kojem trebate stvoriti kontroln
 | Stanje fakturiranja | Brzo stvaranje | Kad se stvori kontrolna točka, taj se status uvijek postavi na **Nije spremno za fakturiranje**. | To se prenosi na kontrolnu točku retka ugovora o projektu i na fakturu. |
 | Iznos retka | Brzo stvaranje | Iznos ili vrijednost kontrolne točke koja će se fakturirati klijentu. | To se prenosi na kontrolnu točku retka ugovora o projektu i na fakturu. |
 | Porez | Brzo stvaranje | Iznos poreza koji će se primijeniti na kontrolnu točku. | To se prenosi na kontrolnu točku retka ugovora o projektu i na fakturu. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

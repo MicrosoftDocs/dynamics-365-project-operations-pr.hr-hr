@@ -64,3 +64,6 @@ Entiteti Prilika, Ponuda i Ugovor o projektu koriste sljedeću ponudu za unos za
 Prema zadanim postavkama polje **Proizvod** u retku ponude popisuje sve aktivne proizvode u cjeniku proizvoda ponude. Ako je proizvod neaktivan ili je skica proizvoda, ne navodi se na popisu, čak i ako je naveden u cjeniku. 
 
 Reci kataloga proizvoda dodaju se kao reci fakture u prvoj fakturi koja se izrađuje za ugovor o projektu. U skici fakture ti se reci fakture mogu izbrisati. U tom će se slučaju reci prikazati u sljedećoj fakturi dok se ne fakturiraju ili dok se faktura ne pošalje klijentu. U PSA-u ne možete fakturirati djelomičnu količinu retka fakture za proizvod. Kada se reci proizvoda iz ugovora o projektu fakturiraju, izrađuju se stvarni podaci. Međutim, ti stvarni podaci ne povezuju se s povezanim entitetom projekta. Drugim riječima, reci projekta temeljeni na proizvodu neovisni su o bilo kakvoj upotrebi temeljenoj na projektu. PSA ne prati potrošnju materijala u projektima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

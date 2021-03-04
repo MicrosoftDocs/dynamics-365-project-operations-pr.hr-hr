@@ -77,3 +77,6 @@ Podatke za dimenzije koje se temeljene na entitetu možete izraditi ručno ili s
 5. Ponovite korake 1 - 3 za izradu drugog standardnog naslova za "Viši inženjer sustava".
 
 > ![Uzorak podataka za entitet Standardni naslov](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

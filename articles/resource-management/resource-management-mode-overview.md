@@ -48,3 +48,6 @@ Rezervirajte resurs izravno projektu:
 Rezervirajte resurs iz preduvjeta resursa:
 - [Dodjeljivanje zadatku generičkih resursa koji se mogu rezervirati i generiranje preduvjeta resursa](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Rezerviranje imenovanih resursa iz preduvjeta resursa](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

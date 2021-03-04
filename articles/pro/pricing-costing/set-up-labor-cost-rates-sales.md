@@ -82,3 +82,6 @@ U cjeniku troškova za tvrtku Fabrikam UK-Robotics cijene troška mogu se izrazi
 | Razvojni programer | Fabrikam UK | 115 GBP |
 
 Cjenik troškova može osigurati cijene radne snage u više valuta. Pri generiranju procjene troškova na projektu, Project Operations pretvorit će ove cijene troškova u valutu projekta i prikazati ih korisniku. Kada se odobri unos vremena i stvori stvarni trošak, cijena stvarnog troška određuje se u valuti retka cijene odgovarajuće uloge na cjeniku troškova. Stvarni troškovi vremena u pojedinom projektu mogu se evidentirati u više valuta. Međutim, prilikom kumuliranja ili sažimanja stvarnih troškova radne snage na razini projekta, Project Operations pretvorit će sve iznose troškova radne snage u valutu projekta, koju korisnik može vidjeti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

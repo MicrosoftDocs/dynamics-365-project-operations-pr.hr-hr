@@ -35,3 +35,6 @@ Sve stvorene fakture za projekt dostupne su na stranici **Faktura** u odjeljku *
 Predračun se također može stvoriti sa stranice s pojedinostima **Ugovor o projektu**. Sustav provjerava ima li ugovor o projektu zaostalih nefakturiranih zadataka sa statusom **Spremni za fakturiranje** datiranih prije današnjeg datuma. Iz tih ugovora sustav stvara nacrt predračuna na temelju broja klijenata u svakom retku ugovora.
 
 Kada se stvori jedan predračun, otvara se stranica **Račun**. Ako se stvori više računa za taj ugovor o projektu, otvara se stranica s popisom **Fakture** kako bi se prikazale sve stvorene fakture.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

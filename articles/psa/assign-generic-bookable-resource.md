@@ -59,3 +59,6 @@ Možete kliknuti i vezu **Zahtjev resursa** u rešetki tima da biste otvorili za
 
 ![Zahtjev resursa](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

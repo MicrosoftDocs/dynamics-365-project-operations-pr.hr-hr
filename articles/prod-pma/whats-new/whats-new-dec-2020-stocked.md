@@ -142,3 +142,6 @@ Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Pro
 ## <a name="regulatory-updates"></a>Ažuriranja propisa
 
 Za informacije o ažuriranjima propisa za aplikaciju Dynamics 365 Finance, pogledajte članak [Ažuriranja propisa](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ažuriranjima jest prijava na Lifecycle Services (LCS) i pregledavanje planiranih regulatornih ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

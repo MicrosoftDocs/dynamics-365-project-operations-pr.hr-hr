@@ -46,3 +46,6 @@ Ako se redak ugovora temelji na katalogu proizvoda, prodajnu cijenu možete izra
 Ako polje **Određivanje cijene** postavite na **Zamjensko određivanje cijene**, zadana se cijena ne postavlja. Unesite cijenu za proizvod u redak ugovora. Ako polje postavite na **Upotrijebi zadano**, upotrebljava se zadana prodajna cijena i polje se ne može uređivati.
 
 Nakon instaliranja aplikacije Project Operations, zadane prodajne cijene unose se u retke koji se temelje na proizvodu u ugovoru. Polje **Određivanje cijena** postavlja se na **Zamijeni cijene** kako biste mogli urediti zadanu cijenu u redcima ugovora. Ova je zamjena za ponašanje redaka koji se temelje na proizvodu u aplikaciji Dynamics 365 Sales specifična za aplikaciju Project Operations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

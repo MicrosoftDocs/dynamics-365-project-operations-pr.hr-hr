@@ -45,3 +45,6 @@ Sljedeće se informacije ne kopiraju iz **Izvora** u **Ciljani ugovor**:
   - Podaci o proračunu klijenta
 
 Budući da su ovi podaci vrlo specifični za svaki ugovor, ta se polja i zapisi ne kopiraju. Kopiraju se redci ugovora za projekte i proizvode, procjene za pojedinosti redaka ugovora i vrijednosti koje ne smiju premašiti na razini ugovora. Zadavanje cijene i koštanja troška ovise o odabiru u polju **Kopiraj cijene** na dijaloškoj stranici **Kopiraj parametre**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

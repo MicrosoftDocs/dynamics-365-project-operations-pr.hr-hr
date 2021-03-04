@@ -56,3 +56,6 @@ Kada se prijavite u aplikacije sustava Dynamics 365, morate imati sljedeće info
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

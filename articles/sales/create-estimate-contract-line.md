@@ -69,3 +69,6 @@ Izračuni isplativosti pretvaraju iznose za pojedinosti retka ugovora za **Troš
 
 > [!NOTE]
 > Pogreške u zaokruživanju valuta i izmjena marži mogli bi se dogoditi zbog nedostatka tečajeva koji su na snazi na određeni datum. Upotrijebite ove izračune na ugovorima o projektu samo kao približne vrijednosti, a ne za stvarno zakonsko ili drugo izvješćivanje koje zahtijeva veću preciznost zaokruživanja i saznanje o datumu stupanja na snagu tečajeva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Moguća je provjera raspoloživosti resursa da biste dobili opći pregled o tome
 
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič za upravitelj resursa](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

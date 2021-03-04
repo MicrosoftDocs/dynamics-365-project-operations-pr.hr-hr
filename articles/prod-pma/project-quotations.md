@@ -41,3 +41,6 @@ Ako klijent odobri ponudu projekta, iz nje možete kopirati podatke u projekt. T
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

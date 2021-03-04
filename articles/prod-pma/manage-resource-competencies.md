@@ -53,3 +53,6 @@ Kako biste postavili kompetencije za radnika, možete upotrijebiti bilo stranicu
 5. U polju **Datum razine** odaberite **1.14.2014.**.
 6. U polje **Godine iskustva** unesite **10**.
 7. Odaberite **Spremi** i zatvorite stranicu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

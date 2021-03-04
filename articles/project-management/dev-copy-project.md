@@ -112,3 +112,6 @@ Sljedeći primjer prikazuje način pozivanja prilagođene radnje **CopyProject**
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

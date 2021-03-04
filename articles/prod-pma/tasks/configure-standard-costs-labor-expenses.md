@@ -54,3 +54,6 @@ U ovoj temi objašnjava se način postavljanja standardnih troškova rada i izda
 22. U polje **Određivanje cijene** unesite broj. Stvarna prodajna cijena koja se primjenjuje kada radnik unosi transakcije u Dnevnik izdataka, prodajna je cijena s najvišom razinom pojedinosti. Na primjer, ako su postavljene i opća prodajna cijena i prodajna cijena specifična za radnika, upotrebljava se prodajna cijena specifična za radnika.  
 23. Odaberite **Spremi**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

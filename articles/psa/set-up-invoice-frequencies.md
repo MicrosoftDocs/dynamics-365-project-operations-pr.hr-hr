@@ -51,3 +51,6 @@ Učestalosti fakturiranja [!INCLUDE[pn_project_service_auto](../includes/pn-proj
   
 ### <a name="see-also"></a>Pogledajte također  
  [Konfiguracija programa Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

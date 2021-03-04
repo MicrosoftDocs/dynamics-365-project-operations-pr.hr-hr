@@ -106,3 +106,6 @@ Kada proširite redak za taj zapis člana tima, na zapisu člana tima možete vi
 ### <a name="estimates-grid"></a>Rešetka procjena 
 
 U rešetki **Procjene** oba zadatka za isti resurs imaju različite cijene. Cijena zadaka resursa u **Zadatku A** određuje se s pomoću vrijednost atributa **Uloga** stavke **Voditelj savjetovanja**. Cijena zadaka istog resursa u **Zadatku B** određuje se s pomoću vrijednost atributa **Uloga** stavke **Tehničar za mrežu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

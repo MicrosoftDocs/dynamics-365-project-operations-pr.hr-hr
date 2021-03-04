@@ -47,3 +47,6 @@ Kako biste otvorili stranicu **Parametri integracije usluge Project Service Auto
 | Zadane postavke vrste naplate  | Vrsta naplate         | Kliknite **Novo** za dodavanje retka u kojem možete odabrati vrstu naplate za koju ćete postaviti zadano svojstvo retka. Određena se vrsta naplate u konfiguraciji može odabrati samo jednom. |
 |                        | Svojstvo retka        | Odaberite zadano svojstvo retka za odabranu vrstu naplate. Kada se nove procjene sati i izdataka ili novi stvarni podaci sinkroniziraju iz usluge Project Service Automation, polje **Svojstvo retka** postavlja se na zadanu vrijednost za vrstu naplate. |
 | Zaključavanje funkcija  | Nije primjenjivo       | Odaberite funkciju koju ćete onemogućiti u Financijama za projekte i ugovore koji potječu iz usluge Project Service Automation. Na primjer, možete isključiti mogućnost uređivanja ugovora i projekata, stvoriti strukturnu analizu rada i u Financije unijeti evidenciju radnog vremena. Polja koja se odnose na računovodstvo i dalje će biti omogućena, čak i ako zbog postavke parametra postanu nedostupna. Prema zadanim postavkama omogućene su sve funkcije. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

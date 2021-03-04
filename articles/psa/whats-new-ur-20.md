@@ -62,3 +62,6 @@ Popravljeni su sljedeći problemi:
 - Popisi **Cijena koštanja OrgUnit** dopuštaju preklapanje u efektivnosti datuma.
 - Korisnicima nije dopušteno mijenjati **OrgUnit** kada vrsta narudžbe nije zasnovana na radu jer će dovesti do pogreške iznimke prazne reference.
 - Pri pokušaju navigacije s obrasca **Pojedinosti retka ponude** natrag na karticu **Ponuda**, obrazac se osvježava i prikazuje karticu **Sažetak**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

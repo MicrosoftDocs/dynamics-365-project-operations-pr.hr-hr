@@ -32,3 +32,6 @@ Svaki projekt koji nije povezan s ugovorom u programu Dynamics 365 Project Opera
 Nakon što su transakcije knjižene u projekt, ako je projekt povezan s ugovorom o projektu, sustav poništava sve nakupljene transakcije i stvara nove naplative transakcije. Transakcije koje se naplaćuju slijede računovodstvena pravila definirana u odgovarajućem profilu troškova i prihoda projekta.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

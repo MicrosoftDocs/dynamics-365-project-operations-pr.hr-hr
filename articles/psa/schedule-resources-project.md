@@ -83,3 +83,6 @@ Ako koristite stariju verziju, za dostupnost resursa pogledajte članak [Prikaz 
   
 ### <a name="additional-resources"></a>Dodatni resursi  
  [Vodič za upravitelje resursa](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

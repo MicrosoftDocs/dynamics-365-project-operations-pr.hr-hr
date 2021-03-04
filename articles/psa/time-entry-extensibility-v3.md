@@ -132,3 +132,6 @@ Provjere valjanosti dodatka trebate upotrebljavati za sve provjere valjanosti ko
 
 > [!IMPORTANT] 
 > Trenutačno poznati problem na TBX stranicama korisnicima onemogućuje ispravljanje podataka i ponovni odabir naredbe Gotovo kada ažuriranje ne uspije provjeriti valjanost dodatka. Zaobilazno je rješenje postavljanje provjere valjanosti poslovnog pravila kako bi se to što je više moguće izbjeglo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

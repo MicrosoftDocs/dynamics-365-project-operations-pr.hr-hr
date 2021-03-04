@@ -107,3 +107,6 @@ Dodatne mogućnosti dodane su u WBS radi bolje uporabe funkcionalnosti resursa.
     > Nećete dobiti upozorenje da je navedeni resurs sada 2, jer broj resursa ostaje 1.
 
 14. Na stranici **Strukturna analiza rada** potvrdite dodjelu resursa na WBS-u, a zatim odaberite **Spremi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

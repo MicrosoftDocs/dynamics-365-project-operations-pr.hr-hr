@@ -143,3 +143,6 @@ Kako biste pregledali fakturu prije knjiženja, očistite potvrdni okvir **Knji�
 Osim na stranici **Prijedlog fakture**, prijedlozi faktura mogu se knjižiti i pokretanjem povremenog posla **Knjiženje prijedloga faktura**. Kako biste pronašli ovaj posao, idite na **Upravljanje projektima i računovodstvo** > **Povremeno** > **Fakture za projekt** > **Knjiženje prijedloga faktura**.
 
 Ova stranica prikazuje sve prijedloge faktura koji su spremni za knjiženje. Možete planirati knjiženje prijedloga faktura odabirom **Serija**. Postavite **Parametar serijske obrade** na **Da** i postavite ponavljanje serijske obrade odabirom **Ponavljanje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

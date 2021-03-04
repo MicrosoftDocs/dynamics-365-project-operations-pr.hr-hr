@@ -45,3 +45,6 @@ U tim dokumentima možete pronaći detaljne informacije o značajci project serv
 
 ### <a name="see-also"></a>Pogledajte također
  [Pregled programa Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

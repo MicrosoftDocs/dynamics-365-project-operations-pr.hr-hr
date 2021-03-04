@@ -49,3 +49,6 @@ Nadzorne ploče i izvješća nude vam razumijevanje kako stoji vaše poslovanje.
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič voditelja projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

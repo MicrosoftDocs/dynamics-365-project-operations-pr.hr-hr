@@ -54,3 +54,6 @@ Procjene rada i rasporeda možete definirati pomoću polja na kartici **Raspored
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Uvoz procjena iz projekta u ponudu
 
 Nakon što definirate procjene projekta, možete ih uvesti u redak ponude. Na stranici **Pojedinosti retka ponude** odaberite **Uvezi iz procjene** na vrpci da biste saželi procjene projekta po vrsti transakcije, ulozi ili razini zadatka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

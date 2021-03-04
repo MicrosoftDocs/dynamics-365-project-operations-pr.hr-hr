@@ -46,3 +46,6 @@ Kako biste dovršili korake iz ove teme, provjerite jeste li dodijeljeni ulozi a
 3. U polje **Količina** unesite količinu koju će jedinica sadržavati. Na primjer, ako kutija sadrži dva komada, unesite „2”. 
 4. U polju **Osnovna jedinica** odaberite osnovnu jedinicu kako biste za jedinicu postavili najnižu mjernu jedinicu. Na primjer, možete odabrati „Komad”.
 5. Odaberite **Spremi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

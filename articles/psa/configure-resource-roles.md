@@ -59,3 +59,6 @@ Uloge imaju važnu ulogu u planiranju projekta prilikom određivanja zahtjeva re
   
 ### <a name="see-also"></a>Također pogledajte  
  [Postavi resurse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

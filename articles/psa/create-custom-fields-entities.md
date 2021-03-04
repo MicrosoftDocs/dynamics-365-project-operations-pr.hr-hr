@@ -73,3 +73,6 @@ Podatke za dimenzije koje se temeljene na entitetu možete izraditi ručno ili s
 > ![Ogledni podaci za entitet Standardni naslov ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

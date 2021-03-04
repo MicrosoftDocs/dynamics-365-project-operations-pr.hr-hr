@@ -40,3 +40,6 @@ Ako odlučite tražiti više odobravatelja izvješća o troškovima, elemente ti
 
     1. Izvješće o troškovima odobrava rukovoditelj zaposlenika.
     2. Izvješće o troškovima odobrava vlasnik proračuna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

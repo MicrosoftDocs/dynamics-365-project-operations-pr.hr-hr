@@ -50,3 +50,6 @@ U sljedećoj se tablici navode svi gotovi obrasci i prikazi po entitetu. Novo ć
 2. Na stranici **Parametri**, na kartici **Veličine za određivanje cijena koje se temelje na iznosu**, potvrdite da rešetka prikazuje zapise u entitetu **Veličine za određivanje cijena**.
 3. Dodajte **Kategorija transakcije** na ovaj popis i postavite polja **Primjenjivo na trošak** i **Primjenjivo na prodaju** na **Da**.
 4. U polju **Vrsta veličine** odaberite **Utemeljeno na iznosu**, a zatim odaberite prioritet za **Kategoriju transakcije** jer je povezana s troškom i prodajom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Možete koristiti mogućnost proširenja rezervacije kartice **Usklađivanje** i
 ![Proširivanje rezervacija za člana tima na kartici usklađivanja resursa](media/RM-how-to-7.png)
 
 Nakon što je član tima rezerviran za vaš projekt, možete koristiti održavanje rezervacija ili izravno koristiti Ploču s rasporedom za upravljanje rezervacijama.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

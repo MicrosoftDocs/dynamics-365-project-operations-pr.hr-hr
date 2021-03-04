@@ -43,3 +43,6 @@ Uz to, ako imate neki prilagođeni modul aplikacije koji uključuje sve obrasce 
 
 ### <a name="currently-extended-time-entry-changes"></a>Trenutačno proširene promjene vremenskog unosa
 Kako bi se umanjio utjecaj trenutačnih korisnika vremenskog unosa, ova promjena uloge jedini je osnovni zahtjev koji je potreban za nastavak uporabe vremenskog unosa. Ako ste stvorili prilagođene prikaze ili zasebna iskustva unosa vremena, morate postaviti polja **Postavljanje unosa vremena** na ispravnu vrijednost PSA.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

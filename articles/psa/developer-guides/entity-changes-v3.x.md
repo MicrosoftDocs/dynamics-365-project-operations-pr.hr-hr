@@ -84,3 +84,6 @@ Zastarjeli su sljedeći web-resursi:
 > Cijeli popis zastarjelih resursa potražite u odjeljku [Zastarjeli web-resursi u aplikaciji Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

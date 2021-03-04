@@ -49,3 +49,6 @@ Preporučujemo da upotrijebite skupinu. Tijekom sinkronizacije rezervacija kapac
     | Datum završetka    | Unesite datum završetka postupka sinkronizacije skupnih vrijednosti kapaciteta resursa. |
 
 [![Postupak sinkronizacije](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

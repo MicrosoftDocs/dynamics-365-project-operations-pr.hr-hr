@@ -429,3 +429,6 @@ Unos zadane kategorije projekta u unose evidencije radnog vremena događa se na 
 1. Aplikacija pokušava staviti zadanu kategoriju iz resursa projekta. Ova zadana kategorija postavljena je u načine **getCurrentUserResource** i **getDelegatedResourcesForCurrentUser** u klasu **TSTimesheetSettingsService**.
 2. Ako zadana kategorija nije navedena na razini resursa projekta, aplikacija je pokušava povući iz aktivnosti projekta. Ova zadana kategorija postavljena je u način **getActivitiesForProject** u klasu **TSTimesheetProjectService**.
 3. Ako zadana kategorija nije navedena na razini aktivnosti projekta, aplikacija je pokušava uzeti iz parametara projekta. Ova zadana kategorija postavljena je u način **getProjectDetailsbyRule** u klasu **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Za razliku od rezervacija, dodjele predstavljaju zaduženje resursa zadacima pro
 Uobičajeno je zbroj rezervacija za resurs jednak zbroju dodjela resursa jednom ili većem broju zadataka. Međutim, Project Operations ne nameće takvu podudarnost. U prikazu **Usklađivanje** možete vidjeti mjesta voditelja projekta gdje se rezervacija i dodjele resursa ne podudaraju.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

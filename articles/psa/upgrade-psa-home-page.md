@@ -65,3 +65,6 @@ Od 1. ožujka 2020. klijenti sustava Dynamics PSA više neće moći stvarati nov
 
 > [!NOTE]
 > Za najbolji doživljaj prilikom korištenja starijih verzija aplikacija Field service i PSA, idite na **Postavke sustava**, a za polje **Koristi samo novo objedinjeno sučelje (preporučeno)**, odaberite **Ne** jer ove verzije nisu dizajnirane da se ispravno učitavaju u UCI-ju. Nakon što ste isključili UCI, možete otvoriti i pokrenuti ove verzije aplikacija Field Service i PSA pomoću starog web-klijenta. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

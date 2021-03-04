@@ -44,3 +44,6 @@ Ovaj vodič za zadatke pokazuje vam način na koji se transakcija prilagođava p
 13. Na popisu označite odabrani redak. 
 14. U polje Cijena koštanja unesite broj. 
 15. Kliknite mogućnost Objavi. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

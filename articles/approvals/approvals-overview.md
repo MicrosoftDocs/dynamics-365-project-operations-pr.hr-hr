@@ -59,3 +59,6 @@ Svaki projekt ima određeni broj članova projektnog tima. Možete odrediti koji
 3. Odaberite **Spremi**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

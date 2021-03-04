@@ -48,3 +48,6 @@ Sljedeća tablica navodi vrste tijekova rada u kojima možete stvoriti u mogućn
 |       <strong>Putni nalog</strong>       |          Stvorite tijekove rada odobrenja za putne naloge.           |
 |      <strong>Zahtjev za gotovinski predujam</strong>      |         Stvorite tijekove rada odobrenja zahtjeva za gotovinski predujam.          |
 |        <strong>Povrat PDV-a</strong>        | Stvorite tijekove rada odobrenja za povrat poreza na dodanu vrijednost (PDV).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

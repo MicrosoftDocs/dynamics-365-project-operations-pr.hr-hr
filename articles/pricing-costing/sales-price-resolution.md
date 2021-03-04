@@ -54,3 +54,6 @@ Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zada
     | &nbsp; | Marža na trošak | Primjena oznake definirane retkom cjenovne kategorije na jediničnu cijenu troška povezanog stvarnog troška |
 
 4. Ako sustav ne može podudarati vrijednosti polja **Kategorija** i **Jedinica**, prodajna cijena zadana je na nulu (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

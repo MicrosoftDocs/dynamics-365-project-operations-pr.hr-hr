@@ -198,3 +198,6 @@ Stvarni podatak naplaćene prodaje za iznos kontrolne točke na izvornoj kontrol
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

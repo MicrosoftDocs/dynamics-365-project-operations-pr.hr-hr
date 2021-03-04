@@ -43,3 +43,6 @@ Da biste stvorili ponude i izdali fakture klijentima u [!INCLUDE[pn_project_serv
   
 ### <a name="see-also"></a>Pogledajte također  
  [Konfiguracija programa Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

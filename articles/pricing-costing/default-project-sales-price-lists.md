@@ -57,3 +57,6 @@ Cjenici troškova ne zadaju nijedan entitet u aplikaciji Project Operations. Utv
 5. Nadalje, sustav pregledava datum mjerodavnosti cjenika koji se podudaraju s datumom retka ulazne procjene ili stvarnih podataka. 
 6. Ako postoji više cjenika koji vrijede za datum na ulaznoj procjeni ili stvarnim podacima, odabire se najnoviji izrađeni cjenik.
 7. Ako uz parametre projekta nisu priloženi cjenici troškova koji se podudaraju s valutom i datumom stupanja na snagu, sustav za redak ulazne procjene ili stvarnog podatka zadaje cijene koštanja na nulu (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

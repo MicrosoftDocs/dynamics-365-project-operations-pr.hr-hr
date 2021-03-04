@@ -68,3 +68,6 @@ Koraci u nastavku objašnjavaju vam postupak registracije dodataka.
 
 9. Zatvorite alat za registraciju dodataka.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

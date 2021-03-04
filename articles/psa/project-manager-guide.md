@@ -95,3 +95,6 @@ Ovaj vodič nudi informacije potrebne za stvaranje i upravljanje projektima:
  [Vodič za upravitelj resursa](../psa/resource-manager-guide.md)   
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -29,3 +29,6 @@ U odjeljku **Status** na stranici **Entitet projekta** nalazi se sažetak stanja
 - Polje **Komentari** omogućuje upravitelju projekta da unese određene komentare o statusu. 
 - Polje **Status ažuriran dana** nije moguće uređivati. Vrijednost u ovom polju vremenska je oznaka koja pokazuje kada je status zadnji put ažuriran.
 - Polja **Uspješnost rasporeda** i **Uspješnost troška** postavljaju se na temelju rešetke praćenja. Kada je odstupanje rasporeda i troškova za korijenski čvor u prikazu **Praćenje rada** pozitivno, ta se polja ažuriraju na **Ispred**. Kada je odstupanje rasporeda i troška za korijenski čvor negativno, ta se polja postavljaju na **Iza**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Raspored izdataka upita za savezne nagrade uključuje sljedeće stupce:
 - Katalog savezne domaće pomoći
 - Potvrde
 - Izdaci
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

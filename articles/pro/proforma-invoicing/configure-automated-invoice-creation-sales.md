@@ -91,3 +91,6 @@ Skupni postupak stvaranja faktura ponavljajući je posao. Ako se taj skupni post
 
 > [!NOTE]
 > Skupno fakturiranje u aplikaciji Project Operations izvršava se samo za retke ugovora o projektu koji su konfigurirani prema rasporedu faktura. Ugovorni redci s načinom naplate fiksne cijene moraju imati konfigurirane prekretnice. Redak projektnog ugovora s vremenskim i materijalnim načinom naplate treba imati postavku rasporeda računa na temelju datuma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

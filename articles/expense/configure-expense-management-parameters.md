@@ -83,3 +83,6 @@ U ovoj temi opisani su parametri kontrole općeg ponašanja u upravljanju trošk
 | Prikaži potvrdu o suzbijanju korupcije   | Odaberite ovu mogućnost kako biste tijekom stvaranja izvješća o troškovima prikazali tekst o suzbijanju korupcije. Tada se mogu omogućiti određene kategorije troškova zbog kojih će se u izvješću o troškovima odabrati potvrda o suzbijanju korupcije. Na primjer, kategorija poklona koja se odnosi na trošak državnog službenika može zahtijevati da zaposlenik potvrdi da je trošak u skladu s pravilima tvrtke koja se odnose na državne službenike. |
 | Poruka o suzbijanju korupcije za podnositelja prijave | Unesite tekst koji bi trebao biti prikazan zaposleniku koji stvara izvješće o troškovima. Za unos teksta specifičnog za jezik koji će se prikazivati na temelju jezika korisnika odaberite mogućnost **Prijevodi**. |
 | Poruka o suzbijanju korupcije za odobravatelja  | Unesite tekst koji bi trebao biti prikazan odobravatelju tijekom stvaranja izvješća o troškovima. Za unos teksta specifičnog za jezik koji će se prikazivati na temelju jezika korisnika odaberite mogućnost **Prijevodi**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

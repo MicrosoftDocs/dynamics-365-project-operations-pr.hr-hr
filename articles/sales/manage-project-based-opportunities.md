@@ -65,3 +65,6 @@ Postupak Prodajne prilike u aplikaciji Project Operations proširenje je poslovn
 > Ako je vaš projektni posao započeo s Prilikom, prednost ima postupak Prodaje prilike.
 
 Možete urediti tijek poslovnog procesa proizvoda ili stvoriti vlastite tijekove poslovnog procesa kako biste, po potrebi, pratili svoj prodajni postupak. Dodatne informacije o tijekovima poslovnog procesa potražite u članku [Pregled tijekova poslovnog procesa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

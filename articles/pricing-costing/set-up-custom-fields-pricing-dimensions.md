@@ -96,3 +96,6 @@ Postavljanje prioriteta veličine omogućuje alatu za određivanje cijene da nap
 
 - **Prioritet troška**: vrijednost prioriteta troška dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena koštanja. Vrijednost **Prioritet troška** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na trošak**.
 - **Prioritet prodaje**: vrijednost prioriteta prodaje dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena prodaje ili stopa naplate. Vrijednost **Prioritet prodaje** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na prodaju**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

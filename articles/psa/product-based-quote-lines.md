@@ -82,3 +82,6 @@ Svojstva **Broj korisnika** i **Broj mjeseci** mogu se označiti kao čimbenici 
 
 > ![Označavanje broja korisnika i mjeseci kao čimbenika kvalitete](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

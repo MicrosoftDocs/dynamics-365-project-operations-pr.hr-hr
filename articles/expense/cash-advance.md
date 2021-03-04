@@ -63,3 +63,6 @@ Kada izradite i predate izvješće o trošku za gotovinski predujam koji ste ve�
 ### <a name="example"></a>Primjer
 Planirate putovati na konferenciju iz Seattla u New York. Stvarate zahtjev za gotovinskim predujmom za 3000,00 USD na temelju procijenjenih troškova ulaznice za konferenciju, letova, hotela, obroka i taksija. Isplatu nećete dobiti dok vaš voditelj ne odobri ovaj zahtjev. Nakon što vaš upravitelj odobri, traženi gotovinski predujam uplaćuje se na vaš bankovni račun u obliku 5.000,00 kn. Zatim sudjelujete na konferenciji. Nakon završetka putovanja utvrdili ste da su ukupni izdaci bili samo 3.000,00 kn. Odaberite **Gotovina** u polju **Način plaćanja** i pošaljite svoj trošak od 2790,00 USD. Iznos vašeg prijavljenog troška automatski se prilagođava gotovinskom predujmu od 5.000,00 kn koji vam je posuđen. Sada dugujete saldo od 210,00 USD (3000,00 - 2790,00), koji tvrtki možete vratiti s pomoću troškovne ktegorije **Vrati gotovinu**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

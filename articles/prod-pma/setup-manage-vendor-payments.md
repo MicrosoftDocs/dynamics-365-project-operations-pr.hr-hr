@@ -80,3 +80,6 @@ Kada dobavljač dovrši svoj posao na projektu i pošalje vam fakturu, morate pr
 2. U polje za pretraživanje na stranici **Račun dobavljača s načelom „plati kad bude plaćeno”** , unesite vrijednosti kako biste pronašli fakturu dobavljača koju želite pregledati, a zatim odaberite **Traži**.
 3. Na Brzoj kartici **Redci fakture dobavljača** odaberite retke koje želite promijeniti.
 4. Ako se uvjeti **Plati kad bude plaćeno** za redak računa ispune, odaberite **Pusti uplatu dobavljaču**. Mogućnost **Plati kad bude plaćeno** je obrisana, a vrijednost polja **Spremno za plaćanje** mijenja se u **Da**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

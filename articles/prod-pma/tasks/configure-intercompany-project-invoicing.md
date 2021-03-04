@@ -64,3 +64,6 @@ U ovoj temi opisuje se način postavljanja fakturiranja projekata između dviju 
 32. U polje **Određivanje cijene** unesite broj.
 33. Odaberite **Spremi**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

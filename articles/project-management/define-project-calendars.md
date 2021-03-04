@@ -49,3 +49,6 @@ Da biste stvorili raspored projekta, stvorite predložak kalendara projekta koji
 8. U dijaloškom okviru **Radni predložak** unesite naziv radnog predloška, a zatim odaberite **Primijeni**. 
 
 Sada možete povezati predložak rada s predloškom kalendara projekta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

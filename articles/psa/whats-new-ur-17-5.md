@@ -44,3 +44,6 @@ Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji 
 - Popravljeno: Uklonjeni su 24-satni predlošci radnog vremena koji su neprecizno dodavali dodatni dan zadacima.
 - Popravljeno: Uklonjeni su predlošci radnog vremena +13 GMT koji su neprecizno prebacivali zadatke za jedan dan unaprijed.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

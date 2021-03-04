@@ -160,3 +160,6 @@ Stvaranjem pravila za izvješćivanje o troškovima možete pomoći svojoj tvrtk
 - Kada pravilnik prestaje vrijediti?
 - Što je pravilo iz pravilnika?
 - Koji je ishod pravila iz pravilnika?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
