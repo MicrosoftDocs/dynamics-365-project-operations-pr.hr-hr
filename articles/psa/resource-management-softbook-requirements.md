@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124089"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147374"
 ---
 # <a name="soft-book-requirements"></a>Promjenjivo rezerviranje preduvjeta
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Preduvjet resursa može biti fiksno rezerviran. Fiksno rezerviranje stvara prijedlog koji iskorištava kapacitet resursa. Prijedlog se zatim šalje natrag podnositelju zahtjeva na odobrenje. Promjenjivo rezerviranje uvjetno dodaje resurs u projektni tim i ima drugačiji status na ploči s rasporedom, ali ne iskorištava kapacitet resursa. Za promjenjivo rezerviranje resursa na ploči s rasporedom postavite polje **Status rezervacije** na **Promjenjivo**.
 
