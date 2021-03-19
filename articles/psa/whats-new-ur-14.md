@@ -17,50 +17,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9347741d8dae2c9a810bb5b3a32d4d6c0a628ed
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e19c8ffe7d92ab7ec9eb46aff8f944c62b0bb4bc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147149"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280974"
 ---
-# <a name="project-service-automation-update-release-14-v3"></a><span data-ttu-id="374b2-103">Project Service Automation, izdanje ažuriranja 14, V3</span><span class="sxs-lookup"><span data-stu-id="374b2-103">Project Service Automation Update Release 14, V3</span></span>
+# <a name="project-service-automation-update-release-14-v3"></a><span data-ttu-id="6753d-103">Project Service Automation, izdanje ažuriranja 14, V3</span><span class="sxs-lookup"><span data-stu-id="6753d-103">Project Service Automation Update Release 14, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="374b2-104">Zadovoljstvo nam je najaviti najnovije ažuriranje za aplikaciju Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="374b2-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="374b2-105">Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti.</span><span class="sxs-lookup"><span data-stu-id="374b2-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="374b2-106">Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="374b2-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="374b2-107">Kako biste ažurirali ovo izdanje, posjetite Centar za administratore sustava Dynamics 365 na mreži i idite na stranicu s rješenjima kako biste instalirali ažuriranje.</span><span class="sxs-lookup"><span data-stu-id="374b2-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="374b2-108">Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="374b2-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="6753d-104">Zadovoljstvo nam je najaviti najnovije ažuriranje za aplikaciju Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="6753d-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="6753d-105">Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti.</span><span class="sxs-lookup"><span data-stu-id="6753d-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="6753d-106">Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="6753d-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="6753d-107">Kako biste ažurirali ovo izdanje, posjetite Centar za administratore sustava Dynamics 365 na mreži i idite na stranicu s rješenjima kako biste instalirali ažuriranje.</span><span class="sxs-lookup"><span data-stu-id="6753d-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="6753d-108">Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="6753d-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="374b2-109">Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji PSA V3, izdanje ažuriranja 14.</span><span class="sxs-lookup"><span data-stu-id="374b2-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 14.</span></span> <span data-ttu-id="374b2-110">Broj izrade ove verzije jest V3.10.4.21, a ona je dostupna na sljedećem rasporedu:</span><span class="sxs-lookup"><span data-stu-id="374b2-110">This version has a build number of V3.10.4.21 and is available on the following schedule:</span></span>
+<span data-ttu-id="6753d-109">Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji PSA V3, izdanje ažuriranja 14.</span><span class="sxs-lookup"><span data-stu-id="6753d-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 14.</span></span> <span data-ttu-id="6753d-110">Broj izrade ove verzije jest V3.10.4.21, a ona je dostupna na sljedećem rasporedu:</span><span class="sxs-lookup"><span data-stu-id="6753d-110">This version has a build number of V3.10.4.21 and is available on the following schedule:</span></span>
 
-- <span data-ttu-id="374b2-111">**Opća dostupnost (samostalno ažuriranje):** siječanj 2020.</span><span class="sxs-lookup"><span data-stu-id="374b2-111">**General availability (self-update):** January 2020</span></span>
-- <span data-ttu-id="374b2-112">**Automatsko ažuriranje:** veljača 2020.</span><span class="sxs-lookup"><span data-stu-id="374b2-112">**Auto-update:** February 2020</span></span>
+- <span data-ttu-id="6753d-111">**Opća dostupnost (samostalno ažuriranje):** siječanj 2020.</span><span class="sxs-lookup"><span data-stu-id="6753d-111">**General availability (self-update):** January 2020</span></span>
+- <span data-ttu-id="6753d-112">**Automatsko ažuriranje:** veljača 2020.</span><span class="sxs-lookup"><span data-stu-id="6753d-112">**Auto-update:** February 2020</span></span>
 
-## <a name="update-release-14"></a><span data-ttu-id="374b2-113">Izdanje ažuriranja 14</span><span class="sxs-lookup"><span data-stu-id="374b2-113">Update Release 14</span></span>
+## <a name="update-release-14"></a><span data-ttu-id="6753d-113">Izdanje ažuriranja 14</span><span class="sxs-lookup"><span data-stu-id="6753d-113">Update Release 14</span></span>
 
-### <a name="enhancements"></a><span data-ttu-id="374b2-114">Poboljšanja</span><span class="sxs-lookup"><span data-stu-id="374b2-114">Enhancements</span></span>
+### <a name="enhancements"></a><span data-ttu-id="6753d-114">Poboljšanja</span><span class="sxs-lookup"><span data-stu-id="6753d-114">Enhancements</span></span>
 
-- <span data-ttu-id="374b2-115">Sales</span><span class="sxs-lookup"><span data-stu-id="374b2-115">Sales</span></span>
+- <span data-ttu-id="6753d-115">Sales</span><span class="sxs-lookup"><span data-stu-id="6753d-115">Sales</span></span>
 
-     - <span data-ttu-id="374b2-116">Prilagođene vrijednosti polja iz mogućnosti **Pojedinosti retka ponude** kopiraju se u mogućnost **Pojedinosti retka ugovora o projektu** kada se ponuda ažurirala na mogućnost **Zatvorena kao ostvarena**.</span><span class="sxs-lookup"><span data-stu-id="374b2-116">Custom field values from **Quote Line Details** are copied to **Project Contract Line Details** when a quote is updated to **Closed as won**.</span></span>
-     - <span data-ttu-id="374b2-117">Potvrđeni projekti mogu biti **Zatvoreni kao izgubljeni**.</span><span class="sxs-lookup"><span data-stu-id="374b2-117">Confirmed projects can be **Closed as lost**.</span></span>
+     - <span data-ttu-id="6753d-116">Prilagođene vrijednosti polja iz mogućnosti **Pojedinosti retka ponude** kopiraju se u mogućnost **Pojedinosti retka ugovora o projektu** kada se ponuda ažurirala na mogućnost **Zatvorena kao ostvarena**.</span><span class="sxs-lookup"><span data-stu-id="6753d-116">Custom field values from **Quote Line Details** are copied to **Project Contract Line Details** when a quote is updated to **Closed as won**.</span></span>
+     - <span data-ttu-id="6753d-117">Potvrđeni projekti mogu biti **Zatvoreni kao izgubljeni**.</span><span class="sxs-lookup"><span data-stu-id="6753d-117">Confirmed projects can be **Closed as lost**.</span></span>
 
-- <span data-ttu-id="374b2-118">Upravljanje resursima</span><span class="sxs-lookup"><span data-stu-id="374b2-118">Resource Management</span></span>
+- <span data-ttu-id="6753d-118">Upravljanje resursima</span><span class="sxs-lookup"><span data-stu-id="6753d-118">Resource Management</span></span>
 
-     - <span data-ttu-id="374b2-119">Kada produžite rezervacije, od korisnika će se zatražiti s pomoću dijaloškog okvira za potvrdu da sažmu rezultate rezervacija i osiguraju vezu do mogućnosti Održavanje rezervacija.</span><span class="sxs-lookup"><span data-stu-id="374b2-119">When extending bookings, users will be prompted with a confirmation dialog box to summarize booking results and provide a link to Maintain Bookings.</span></span>
+     - <span data-ttu-id="6753d-119">Kada produžite rezervacije, od korisnika će se zatražiti s pomoću dijaloškog okvira za potvrdu da sažmu rezultate rezervacija i osiguraju vezu do mogućnosti Održavanje rezervacija.</span><span class="sxs-lookup"><span data-stu-id="6753d-119">When extending bookings, users will be prompted with a confirmation dialog box to summarize booking results and provide a link to Maintain Bookings.</span></span>
 
 
-### <a name="bug-fixes"></a><span data-ttu-id="374b2-120">Ispravke pogrešaka</span><span class="sxs-lookup"><span data-stu-id="374b2-120">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="6753d-120">Ispravke pogrešaka</span><span class="sxs-lookup"><span data-stu-id="6753d-120">Bug fixes</span></span>
 
-- <span data-ttu-id="374b2-121">Vrijeme i trošak</span><span class="sxs-lookup"><span data-stu-id="374b2-121">Time and Expense</span></span>
+- <span data-ttu-id="6753d-121">Vrijeme i trošak</span><span class="sxs-lookup"><span data-stu-id="6753d-121">Time and Expense</span></span>
 
-     - <span data-ttu-id="374b2-122">Popravljeno: Poboljšano korisničko iskustvo kada korisnik nije odabrao nijednu stavku koju treba ispraviti.</span><span class="sxs-lookup"><span data-stu-id="374b2-122">Fixed: Improved the user experience when the user has not selected any entries to be corrected.</span></span>
+     - <span data-ttu-id="6753d-122">Popravljeno: Poboljšano korisničko iskustvo kada korisnik nije odabrao nijednu stavku koju treba ispraviti.</span><span class="sxs-lookup"><span data-stu-id="6753d-122">Fixed: Improved the user experience when the user has not selected any entries to be corrected.</span></span>
 
-- <span data-ttu-id="374b2-123">Upravljanje resursima</span><span class="sxs-lookup"><span data-stu-id="374b2-123">Resource Management</span></span>
+- <span data-ttu-id="6753d-123">Upravljanje resursima</span><span class="sxs-lookup"><span data-stu-id="6753d-123">Resource Management</span></span>
 
-     - <span data-ttu-id="374b2-124">Popravljeno: Višekratna rezervacija resursa preplavljuje ime resursa koji se može rezervirati.</span><span class="sxs-lookup"><span data-stu-id="374b2-124">Fixed: Booking a resource multiple times overflows the name of the bookable resource.</span></span>
+     - <span data-ttu-id="6753d-124">Popravljeno: Višekratna rezervacija resursa preplavljuje ime resursa koji se može rezervirati.</span><span class="sxs-lookup"><span data-stu-id="6753d-124">Fixed: Booking a resource multiple times overflows the name of the bookable resource.</span></span>
 
-- <span data-ttu-id="374b2-125">Sales</span><span class="sxs-lookup"><span data-stu-id="374b2-125">Sales</span></span>
+- <span data-ttu-id="6753d-125">Sales</span><span class="sxs-lookup"><span data-stu-id="6753d-125">Sales</span></span>
 
-     - <span data-ttu-id="374b2-126">Popravljeno: Ukupna prodajna cijena se ne izračunava sve dok korisnik također ne unese cijenu koštanja procijenjenih troškova projekta.</span><span class="sxs-lookup"><span data-stu-id="374b2-126">Fixed: The total sales price is not calculated until the user also inputs a cost price for expense estimates on a project.</span></span>
-     - <span data-ttu-id="374b2-127">Popravljano: Zatvaranje ponude kao **Ostvarena** ne uspijeva ako povezani ugovorni za projekt nije u stanju **Skice**.</span><span class="sxs-lookup"><span data-stu-id="374b2-127">Fixed: Closing a quote as **Won** fails if the associated project contract is not in a **Draft** state.</span></span>
+     - <span data-ttu-id="6753d-126">Popravljeno: Ukupna prodajna cijena se ne izračunava sve dok korisnik također ne unese cijenu koštanja procijenjenih troškova projekta.</span><span class="sxs-lookup"><span data-stu-id="6753d-126">Fixed: The total sales price is not calculated until the user also inputs a cost price for expense estimates on a project.</span></span>
+     - <span data-ttu-id="6753d-127">Popravljano: Zatvaranje ponude kao **Ostvarena** ne uspijeva ako povezani ugovorni za projekt nije u stanju **Skice**.</span><span class="sxs-lookup"><span data-stu-id="6753d-127">Fixed: Closing a quote as **Won** fails if the associated project contract is not in a **Draft** state.</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
