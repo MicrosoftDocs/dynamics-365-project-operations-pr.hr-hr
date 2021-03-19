@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073521"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289720"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Prijenos proračuna projekata na kraju poslovne godine
 
@@ -36,9 +36,9 @@ Kada radite na višegodišnjem projektu, možda ćete na kraju poslovne godine i
 Dovršite sljedeće korake kako biste pregledali proračunske iznose za projekte na kraju godine, ali nemojte iznose prenositi dalje.
 
 1. Idite na stavku **Upravljanje projektima i računovodstvo** > **Povremeno** > **Proračuni** > **Prenesi proračune**. 
-2. Na stranici **Postupak prijenosa proračuna projekta** , na kartici **Mogućnosti na kraju godine** , provjerite da mogućnost **Prenesi preostale proračunske iznose projekta** nije omogućena.
-3. Na kartici **Parametri** , u polju **Proračunska godina projekta** , odaberite poslovnu godinu za koji želite prikazati preostali proračunski iznos. 
-4. U polju **Proračunska godina projekta** , odaberite poslovnu godinu za koji želite prikazati preostali proračunski iznos. 
+2. Na stranici **Postupak prijenosa proračuna projekta**, na kartici **Mogućnosti na kraju godine**, provjerite da mogućnost **Prenesi preostale proračunske iznose projekta** nije omogućena.
+3. Na kartici **Parametri**, u polju **Proračunska godina projekta**, odaberite poslovnu godinu za koji želite prikazati preostali proračunski iznos. 
+4. U polju **Proračunska godina projekta**, odaberite poslovnu godinu za koji želite prikazati preostali proračunski iznos. 
 5. U polju **Iz modela predviđanja** odaberite **Preostali proračun**. 
 6. Kako biste uključili projekte koji ispunjavaju odabrane kriterije i nemaju preostali proračun, odaberite **Prikaži bez preostalog iznosa**.  
 7. Na kartici **Odaberi proračune** odaberite **Dohvati sve proračune** kako biste učitali sve proračune koji se podudaraju s odabranim kriterijima, a zatim odaberite **Postupak**. 
@@ -56,13 +56,13 @@ Kada obrađujete preostale proračunske iznose, možete stvoriti transakcije u g
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Prijenos proračunskih iznosa i stvaranje transakcija glavne knjige
 
 1.  Odaberite **Upravljanje projektima i računovodstvo** > **Povremeno** > **Proračuni** > **Prenesi proračune**. 
-2. Na stranici **Postupak prijenosa proračuna projekta** odaberite **Kraj godine** , a zatim omogućite **Prijenos preostalog proračunskog iznosa projekta** i **Stvaranje unosa u registar proračuna u glavnoj knjizi**. 
-3. Na kartici **Parametri** , u grupi polja **Parametri projekta** , odaberite sljedeće:
+2. Na stranici **Postupak prijenosa proračuna projekta** odaberite **Kraj godine**, a zatim omogućite **Prijenos preostalog proračunskog iznosa projekta** i **Stvaranje unosa u registar proračuna u glavnoj knjizi**. 
+3. Na kartici **Parametri**, u grupi polja **Parametri projekta**, odaberite sljedeće:
 
-   - **Proračunska godina projekta** : Odaberite početak poslovne godine za koji želite prikazati preostale iznose proračuna. 
-   - **Dobit i gubitak** : Stvorite transakcija dobiti i gubitka u glavnoj knjizi. 
-   -  **WIP** : Stvorite transakcije Rada u tijeku (WIP) u glavnoj knjizi.
-   -  **Plaća** : Stvorite transakcije raspodjele plaća u glavnoj knjizi. 
+   - **Proračunska godina projekta**: Odaberite početak poslovne godine za koji želite prikazati preostale iznose proračuna. 
+   - **Dobit i gubitak**: Stvorite transakcija dobiti i gubitka u glavnoj knjizi. 
+   -  **WIP**: Stvorite transakcije Rada u tijeku (WIP) u glavnoj knjizi.
+   -  **Plaća**: Stvorite transakcije raspodjele plaća u glavnoj knjizi. 
 
 5. U grupi polja **Glavna knjiga** navedite sljedeće informacije: 
 
@@ -87,8 +87,8 @@ Kada obrađujete preostale proračunske iznose, možete stvoriti transakcije u g
 ## <a name="carry-forward-budget-amounts-without-creating-general-ledger-transactions"></a>Prijenos proračunskih iznosa bez stvaranja transakcija glavne knjige
 
 1. Idite na stavku **Upravljanje projektima i računovodstvo** > **Povremeno** > **Proračuni** > **Prenesi proračune**.
-2. Na stranici **Postupak prijenosa proračuna projekta** , u polju **Mogućnosti na kraju godine** , odaberite mogućnost **Prenesi preostale iznose proračuna projekta**.
-3. U grupi **Parametri** , u polju **Proračunska godina projekta** , odaberite poslovnu godinu za koju želite prikazati preostale iznose proračuna.
+2. Na stranici **Postupak prijenosa proračuna projekta**, u polju **Mogućnosti na kraju godine**, odaberite mogućnost **Prenesi preostale iznose proračuna projekta**.
+3. U grupi **Parametri**, u polju **Proračunska godina projekta**, odaberite poslovnu godinu za koju želite prikazati preostale iznose proračuna.
 4. U grupi **Kopiraj iz/na** navedite sljedeće podatke:
 
    - U polju **Iz modela predviđanja** odaberite model predviđanja proračuna projekta koji je povezan s preostalim proračunskim iznosima koje želite prenijeti za projekte. 

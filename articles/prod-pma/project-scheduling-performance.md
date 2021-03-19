@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073371"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289000"
 ---
 # <a name="project-resource-scheduling-performance"></a>Učinkovitost planiranja projektnih resursa
 
@@ -34,7 +34,7 @@ ms.locfileid: "4073371"
 Problemi učinkovitosti koji se odnose na planiranje resursa mogu se pojaviti kada broj projekata dosegne tisuće. Kako biste poboljšali učinkovitost planiranja resursa, dostupna je značajka koja omogućuje korisnicima da smanje vrijeme potrebno za pokretanje obrasca dostupnosti resursa. Točnije, ovo uklanja postupak skupnog usklađivanja kapaciteta resursa i upotrebljava tablicu **ResProjectResource** za ubrzavanje pretraživanja resursa. Imajte na umu kako se tablica **ResRollup** više neće upotrebljavati.
 
 > [!IMPORTANT]
-> Ako postoji ovisnost ili o procesu skupne sinkronizacije kapaciteta resursa ili o tablici **ResProjectResource** , nemojte upotrebljavati ovu značajku.
+> Ako postoji ovisnost ili o procesu skupne sinkronizacije kapaciteta resursa ili o tablici **ResProjectResource**, nemojte upotrebljavati ovu značajku.
 
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Omogućivanje poboljšanje učinkovitosti planiranja resursa
 Kako biste omogućili poboljšanje učinkovitosti planiranja resursa, poduzmite sljedeće korake.
@@ -54,7 +54,7 @@ Kako biste omogućili poboljšanje učinkovitosti planiranja resursa, poduzmite 
  > [!NOTE]
  > Ovim će se u tablicu **ResCalendarCapacity** opći podaci distribuirati u sve tvrtke vašeg okruženja, tako da skupni posao treba izvoditi samo u jednoj pravnoj osobi. Podaci u ovom skupnom poslu potrebni su za izračunavanje kapaciteta resursa putem povezanog kalendara.
 
-8. Idite na **Upravljanje projektima i računovodstvo** > **Povremeno** > **Resursi projekta** > **Popuni projektne resurse u svim tvrtkama** , a zatim odaberite **U redu**. Ovo je skripta za nadogradnju podataka za opće podatke u tablicama **ResProjectResource** , **ResCalendarDateTimeRange** i **ResEffectiveDateTimeRange**. Vrijednosti polja **PSAPRojSchedRole.RootActivity** također se ažuriraju. Ako se ovo ne pokrene, primit ćete upozorenje kada pokušate izvršiti operacije planiranja resursa.
+8. Idite na **Upravljanje projektima i računovodstvo** > **Povremeno** > **Resursi projekta** > **Popuni projektne resurse u svim tvrtkama**, a zatim odaberite **U redu**. Ovo je skripta za nadogradnju podataka za opće podatke u tablicama **ResProjectResource**, **ResCalendarDateTimeRange** i **ResEffectiveDateTimeRange**. Vrijednosti polja **PSAPRojSchedRole.RootActivity** također se ažuriraju. Ako se ovo ne pokrene, primit ćete upozorenje kada pokušate izvršiti operacije planiranja resursa.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Isključivanje poboljšanja učinkovitosti planiranja resursa
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073520"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289675"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinkronizacija stvarnih podataka o projektu izravno iz aplikacije Project Service Automation u dnevnik integracije projekta za objavljivanje na usluzi Finance and Operations
 
@@ -50,7 +50,7 @@ Na slijedećoj slici prikazan je način na koji se podaci sinkroniziraju između
 
 ### <a name="template-and-tasks"></a>Predlošci i zadaci
 
-Kako biste pristupili dostupnim predlošcima, u centru za administratore platforme Microsoft Power Apps odaberite **Projekti** , a zatim u gornjem desnom kutu odaberite **Novi projekt** za odabir javnih predložaka.
+Kako biste pristupili dostupnim predlošcima, u centru za administratore platforme Microsoft Power Apps odaberite **Projekti**, a zatim u gornjem desnom kutu odaberite **Novi projekt** za odabir javnih predložaka.
 
 Predložak u nastavku i temeljni zadaci upotrebljavaju se za sinkronizaciju stvarnih podataka o projektu iz usluge Project Service Automation u Financije:
 

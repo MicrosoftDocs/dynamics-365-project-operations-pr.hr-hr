@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073368"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288640"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Postavljanje uloga na predlošcima strukturne analize rada
 
@@ -33,7 +33,7 @@ Upravitelji projekata mogu postaviti predloške strukturne analize rada (WBS, Wo
 
 1. Odaberite **Upravljanje projektima i računovodstvo** > **Postavke** > **Projekti** > **Predlošci strukturne analize rada**.
 2. Odaberite **Pojedinosti** za odabrani WBS predložak.
-3. Na popisu odaberite zadatak, a zatim u polju **Uloga** , odaberite ulogu koju ćete dodijeliti zadatku.
+3. Na popisu odaberite zadatak, a zatim u polju **Uloga**, odaberite ulogu koju ćete dodijeliti zadatku.
 
 ## <a name="work-with-a-wbs"></a>Rad s WBS-om
 
@@ -93,14 +93,14 @@ Dodatne mogućnosti dodane su u WBS radi bolje uporabe funkcionalnosti resursa.
 
     [![Postavljanje datuma i rada](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Odaberite redak zadatka **Pokretanje** , a zatim u polju **Uloga** odaberite **Voditelj projekta višeg ranga**.
+5. Odaberite redak zadatka **Pokretanje**, a zatim u polju **Uloga** odaberite **Voditelj projekta višeg ranga**.
 6. Odaberite **Objavi**.
-7. U istom retku, u polju **Resurs** odaberite **Daniel Petek** , a zatim odaberite **Prihvati**.
-8. Odaberite redak zadatka **Planiranje** , a zatim u polju **Uloga** odaberite **Poslovni analitičar**.
-9. Odaberite **Objavi** , a zatim odaberite **Automatski generiraj tim**.
+7. U istom retku, u polju **Resurs** odaberite **Daniel Petek**, a zatim odaberite **Prihvati**.
+8. Odaberite redak zadatka **Planiranje**, a zatim u polju **Uloga** odaberite **Poslovni analitičar**.
+9. Odaberite **Objavi**, a zatim odaberite **Automatski generiraj tim**.
 10. U okviru poruke koji se prikazuje odaberite **Da**.
 11. U polju **Resurs** provjerite postoji li vrijednost **Poslovni analitičar 1**.
-12. Za resurs **Poslovni analitičar 1** , otvorite pretragu i odaberite **Pokreni dodjele resursa**. Zatim odaberite radnika za zadatak.
+12. Za resurs **Poslovni analitičar 1**, otvorite pretragu i odaberite **Pokreni dodjele resursa**. Zatim odaberite radnika za zadatak.
 13. Odaberite **Uvjetna dodjela** &gt; **Puni kapacitet**.
 
     > [!NOTE] 

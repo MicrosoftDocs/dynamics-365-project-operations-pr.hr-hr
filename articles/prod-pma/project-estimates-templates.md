@@ -1,6 +1,6 @@
 ---
 title: Sinkronizacija procjena projekta izravno iz usluge Project Service Automation na uslugu Finance and Operations
-description: U ovoj se temi opisuju predlošci i temeljni zadaci koji se upotrebljavaju za sinkronizaciju procjena radnih sati na projektu i izdataka za projekt izravno iz sustava Microsofta Dynamics 365 Project Service Automation u uslugu Dynamics 365 Finance.
+description: U ovoj se temi opisuju predlošci i temeljni zadaci koji se upotrebljavaju za sinkronizaciju procjena radnih sati na projektu i procjena izdataka za projekt izravno iz sustava Microsoft Dynamics 365 Project Service Automation u uslugu Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
 ms.date: 07/20/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073516"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289450"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizacija procjena projekta izravno iz usluge Project Service Automation na uslugu Finance and Operations
 
@@ -46,7 +46,7 @@ Na slijedećoj slici prikazan je način na koji se podaci sinkroniziraju između
 
 ### <a name="template-and-tasks"></a>Predlošci i zadaci
 
-Kako biste pristupili dostupnim predlošcima, u centru za administratore platforme Microsoft Power Apps odaberite **Projekti** , a zatim u gornjem desnom kutu odaberite **Novi projekt** za odabir javnih predložaka.
+Kako biste pristupili dostupnim predlošcima, u centru za administratore platforme Microsoft Power Apps odaberite **Projekti**, a zatim u gornjem desnom kutu odaberite **Novi projekt** za odabir javnih predložaka.
 
 Predložak u nastavku i temeljni zadaci upotrebljavaju se za sinkronizaciju procjena radnih sati za projekt iz usluge Project Service Automation u Financije:
 
@@ -137,7 +137,7 @@ U predlošku procjene izdataka za projekt morate upotrijebiti modul Power Query 
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filtriranje kako bi se uključili samo redci procjene izdataka
 
-Predložak procjena izdataka za projekt (PSA u Fin i Ops) ima zadani filtar koji pri integraciji uključuje samo retke izdataka. Ako stvorite vlastiti predložak, morate dodati ovaj filtar. Odaberite zadatak **Odnosi transakcije** , a zatim kliknite strelicu **Mapiraj** kako biste otvorili mapiranje. Odaberite vezu **Napredni upit i filtriranje**. Filtrirajte stupac **msdyn\_transactiontype1** tako da uključuje samo **msdyn\_estimateline**.
+Predložak procjena izdataka za projekt (PSA u Fin i Ops) ima zadani filtar koji pri integraciji uključuje samo retke izdataka. Ako stvorite vlastiti predložak, morate dodati ovaj filtar. Odaberite zadatak **Odnosi transakcije**, a zatim kliknite strelicu **Mapiraj** kako biste otvorili mapiranje. Odaberite vezu **Napredni upit i filtriranje**. Filtrirajte stupac **msdyn\_transactiontype1** tako da uključuje samo **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Postavljanje zadanog ID-a modela predviđanja
 
@@ -148,7 +148,7 @@ Kako biste u predlošku ažurirali zadani ID modela predviđanja, odaberite zada
 
 #### <a name="transform-the-billing-types"></a>Pretvaranje vrsta naplata
 
-Predložak procjene izdataka za projekt (PSA u Fin i Ops) uključuje uvjetni stupac koji se upotrebljava za pretvaranje vrsta naplate primljenih iz usluge Project Service Automation tijekom integracije. Ako stvorite vlastiti predložak, morate dodati ovaj uvjetni stupac. Odaberite vezu **Napredni upit i filtriranje** , a zatim odaberite **Dodaj uvjetni stupac**. Unesite naziv novog stupca, kao što je **Vrsta naplate**. Zatim unesite sljedeći uvjet:
+Predložak procjene izdataka za projekt (PSA u Fin i Ops) uključuje uvjetni stupac koji se upotrebljava za pretvaranje vrsta naplate primljenih iz usluge Project Service Automation tijekom integracije. Ako stvorite vlastiti predložak, morate dodati ovaj uvjetni stupac. Odaberite vezu **Napredni upit i filtriranje**, a zatim odaberite **Dodaj uvjetni stupac**. Unesite naziv novog stupca, kao što je **Vrsta naplate**. Zatim unesite sljedeći uvjet:
 
 If **msdyn\_billingtype** = 192350000, then **NonChargeable**  
 else if **msdyn\_billingtype** = 192350001, then **Chargeable**  
@@ -157,7 +157,7 @@ else **NotAvailable**
 
 #### <a name="transform-the-transaction-types"></a>Pretvaranje vrsta transakcija
 
-Predložak procjene izdataka za projekt (PSA u Fin i Ops) uključuje uvjetni stupac koji se upotrebljava za pretvaranje vrsta transakcija primljenih iz usluge Project Service Automation tijekom integracije. Ako stvorite vlastiti predložak, morate dodati ovaj uvjetni stupac. Odaberite vezu **Napredni upit i filtriranje** , a zatim odaberite **Dodaj uvjetni stupac**. Unesite naziv novog stupca, kao što je **Vrsta transakcije**. Zatim unesite sljedeći uvjet:
+Predložak procjene izdataka za projekt (PSA u Fin i Ops) uključuje uvjetni stupac koji se upotrebljava za pretvaranje vrsta transakcija primljenih iz usluge Project Service Automation tijekom integracije. Ako stvorite vlastiti predložak, morate dodati ovaj uvjetni stupac. Odaberite vezu **Napredni upit i filtriranje**, a zatim odaberite **Dodaj uvjetni stupac**. Unesite naziv novog stupca, kao što je **Vrsta transakcije**. Zatim unesite sljedeći uvjet:
 
 If **msdyn\_transactiontypecode** = 192350000, then **Cost**  
 else if **msdyn\_transactiontypecode** = 192350005, then **Sales**  

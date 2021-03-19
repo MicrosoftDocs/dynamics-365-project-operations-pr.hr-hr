@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288578"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Postavljanje i uporaba plaćanja dobavljača po načelu „plati kad bude plaćeno”
 
@@ -56,7 +56,7 @@ Kada postavljate uvjete PWP-a za projekt, morate odrediti, u postocima, minimaln
     - **Grupa** – Uvjeti PWP-a primjenjuju se na sve dobavljače u grupi dobavljača.
     - **Svi** – Uvjete PWP-a primjenjuju se na sve dobavljače.
 
-4. Ako ste u prethodnom koraku odabrali **Tablica** ili **Grupa** , u polju **Dobavljač / Grupa dobavljača** odaberite dobavljača ili grupu dobavljača na koje se primjenjuju uvjeti PWP-a. Ako ste u prethodnom koraku odabrali **Svi** , polje **Dobavljač / Grupa dobavljača** ne može se uređivati.
+4. Ako ste u prethodnom koraku odabrali **Tablica** ili **Grupa**, u polju **Dobavljač / Grupa dobavljača** odaberite dobavljača ili grupu dobavljača na koje se primjenjuju uvjeti PWP-a. Ako ste u prethodnom koraku odabrali **Svi**, polje **Dobavljač / Grupa dobavljača** ne može se uređivati.
 5. Ako su uvjeti zadržavanja plaćanja dobavljaču postavljeni za dobavljača u projektu, u polju **Uvjeti zadržavanja plaćanja dobavljaču** odaberite ID pravila za uvjete zadržavanja.
 6. U polju **Postotak praga PWP-a** unesite postotak praga za projekt. Postotak koji unesete za projekt definira minimalni iznos koji vam kupac mora platiti prije nego što vi platite dobavljaču.
 
@@ -69,7 +69,7 @@ Kada knjižite račun dobavljača, ako dobavljač podliježe uvjetima PWP-a, ti 
 
     Alternativno, otvorite postojeću narudžbenicu na stranici s popisom **Sve narudžbenice**.
 
-4. Na stranici **Narudžbenica** , na Brzoj kartici **Redci narudžbenice** , pregledajte pojedinosti retka narudžbenice za dobavljača. Mogućnost **Plati kad bude plaćeno** automatski se odabire, a vrijednost u polju **Postotak praga PWP-a** automatski se kopira iz polja **Postotak praga PWP-a** na stranicu **Projekti**.
+4. Na stranici **Narudžbenica**, na Brzoj kartici **Redci narudžbenice**, pregledajte pojedinosti retka narudžbenice za dobavljača. Mogućnost **Plati kad bude plaćeno** automatski se odabire, a vrijednost u polju **Postotak praga PWP-a** automatski se kopira iz polja **Postotak praga PWP-a** na stranicu **Projekti**.
 6. Ako ne želite primijeniti uvjete PWP-a na dobavljača za redak narudžbe, očistite mogućnost **Plati kad bude plaćeno**. U ovom slučaju, polje **Postotak praga PWP-a** za redak narudžbenice vratit će se na 0 (nula).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Ažuriranje uplate klijenta i plaćanje dobavljaču
@@ -77,7 +77,7 @@ Kada knjižite račun dobavljača, ako dobavljač podliježe uvjetima PWP-a, ti 
 Kada dobavljač dovrši svoj posao na projektu i pošalje vam fakturu, morate pregledati status projekta i fakture klijenta kako biste utvrdili jesu li za projekt ispunjeni uvjeti PWP-a. Ako su ispunjeni uvjeti PWP-a za dobavljača, možete odrediti koje ćete retke na fakturi dobavljača platiti na temelju uplate klijenta za projekt. Ako odlučite platiti dobavljaču iako uvjeti PWP-a nisu ispunjeni, možete poništiti uvjete PWP-a na stranici **Račun dobavljača s načelom „plati kad bude plaćeno”**.
 
 1. Idite na **Upravljanje projektima i računovodstvo** \> **Upiti i izvješća** \> **Upiti za zadržavanje** \> **Račun dobavljača s načelom „plati kad bude plaćeno”**.
-2. U polje za pretraživanje na stranici **Račun dobavljača s načelom „plati kad bude plaćeno”** , unesite vrijednosti kako biste pronašli fakturu dobavljača koju želite pregledati, a zatim odaberite **Traži**.
+2. U polje za pretraživanje na stranici **Račun dobavljača s načelom „plati kad bude plaćeno”**, unesite vrijednosti kako biste pronašli fakturu dobavljača koju želite pregledati, a zatim odaberite **Traži**.
 3. Na Brzoj kartici **Redci fakture dobavljača** odaberite retke koje želite promijeniti.
 4. Ako se uvjeti **Plati kad bude plaćeno** za redak računa ispune, odaberite **Pusti uplatu dobavljaču**. Mogućnost **Plati kad bude plaćeno** je obrisana, a vrijednost polja **Spremno za plaćanje** mijenja se u **Da**.
 

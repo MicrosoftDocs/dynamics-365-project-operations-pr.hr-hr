@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073517"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289495"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Stvaranje predugovora za naplatu na temelju napretka
 [!include [banner](../includes/banner.md)]
@@ -51,7 +51,7 @@ Upravitelj proračuna stvara proračun za kategorije projekta. Količina dovrše
 Prije stvaranja projekta koji upotrebljava pravila naplate, morate postaviti brojčane nizove za pravila naplate i dnevnik naknada koji se upotrebljava za knjiženje naplate napretka.
 
 1. Idite na **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Parametri upravljanja projektom i računovodstva**.
-2. Na stranici **Parametri upravljanja projektom i računovodstva** , na kartici **Brojčani nizovi** , postavite brojčani niz koji želite upotrebljavati tijekom izrade pravila naplate.
+2. Na stranici **Parametri upravljanja projektom i računovodstva**, na kartici **Brojčani nizovi**, postavite brojčani niz koji želite upotrebljavati tijekom izrade pravila naplate.
 3. Idite na **Upravljanje projektima i računovodstvo** \> **Dnevnici** \> **Naknada**.
 4. Na stranici **Dnevnik naknada** odaberite **Novi** i unesite naziv dnevnika.
 
@@ -77,7 +77,7 @@ Slijedite ove korake za stvaranje projekta i svih potprojekata koji su povezani 
 
 1. Idite na mogućnost **Upravljanje projektima i računovodstvo** \> **Projekti** \> **Svi projekti**.
 2. Na stranici **Svi projekti** odaberite **Novi**.
-3. U dijaloškom okviru **Novi projekt** , u polju **Vrsta projekta** , odaberite **Vrijeme i materijal**.
+3. U dijaloškom okviru **Novi projekt**, u polju **Vrsta projekta**, odaberite **Vrijeme i materijal**.
 4. Odaberite projektnu grupu. Projektna grupa definira podatke o knjiženju za projekte koji su dodijeljeni grupi.
 5. Odaberite **Stvori projekt**.
 6. Nakon stvaranja projekta, postavite fazu projekta na **U postupku**.
@@ -88,19 +88,19 @@ Proračunske kategorije upotrebljavaju se za automatski izračun iznosa računa 
 
 1. Idite na mogućnost **Upravljanje projektima i računovodstvo** \> **Projekti** \> **Svi projekti**.
 2. Na stranici **Svi projekti** odaberite i otvorite projekt koji želite.
-3. Na stranici **Projekti** , u oknu Radnje, na kartici **Planiranje** , u grupi **Proračun** , odaberite **Proračun projekta**.
+3. Na stranici **Projekti**, u oknu Radnje, na kartici **Planiranje**, u grupi **Proračun**, odaberite **Proračun projekta**.
 4. Na stranici **Proračun projekta** unesite procijenjeni trošak za svaku kategoriju projekta.
 
 ## <a name="create-billing-rules-for-progress-billings"></a>Stvorite pravila naplate za napredovanje naplate
 
 1. Idite na **Upravljanje projektom i računovodstvo** \> **Projekti** \> **Ugovori o projektu**.
 2. Na stranici **Ugovori o projektima** odaberite i otvorite ugovor o projektu.
-3. Na stranici ugovora o projektu, na Brzoj kartici **Pravila naplate** , odaberite **Dodaj**.
-4. Na stranici **Pravilo naplate** , u polju **Vrsta retka** , odaberite **Napredak**.
-5. Na Brzoj kartici **Pojedinosti retka pravila naplate** , u polju **Vrijednost ugovora** , unesite ukupnu vrijednost ugovora.
+3. Na stranici ugovora o projektu, na Brzoj kartici **Pravila naplate**, odaberite **Dodaj**.
+4. Na stranici **Pravilo naplate**, u polju **Vrsta retka**, odaberite **Napredak**.
+5. Na Brzoj kartici **Pojedinosti retka pravila naplate**, u polju **Vrijednost ugovora**, unesite ukupnu vrijednost ugovora.
 6. U polju **Kategorija** odaberite kategoriju u koju ćete knjižiti transakciju naknade.
 7. U polju **Projekt** odaberite projekt koji upotrebljava ovo pravilo naplate.
-8. Izborno: Dodijelite pravilo naplate dodatnim projektima. Na Brzoj kartici **Projekt** , u odjeljku **Dostupni projekti** , odaberite projekt, a zatim odaberite gumb sa strelicom udesno kako biste projekt dodali odjeljku **Odabrani projekti**.
+8. Izborno: Dodijelite pravilo naplate dodatnim projektima. Na Brzoj kartici **Projekt**, u odjeljku **Dostupni projekti**, odaberite projekt, a zatim odaberite gumb sa strelicom udesno kako biste projekt dodali odjeljku **Odabrani projekti**.
 9. Neobvezno: Izračunajte postotni iznos koji kupac usteže kada plaća fakturu. Na Brzoj kartici **Uvjeti ustezanja plaćanja** odaberite izvor financiranja, a zatim u polju **Postotak ustezanja** unesite postotak ustezanja.
 10. Ponovite ove korake za stvaranje dodatnih pravila naplate za ugovor o projektu.
 

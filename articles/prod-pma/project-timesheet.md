@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073561"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288820"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilna aplikacija Project Timesheet
 
@@ -76,13 +76,13 @@ U polju **Projekt** odaberite projekt za koji unosite vrijeme. Polje **Klijent**
 
 Pretraživanja klijenata i projekata omogućuju pretraživanje i klijenata i projekata.
 
-Odaberite podatke u poljima **Kategorija** , **Aktivnost** , **Svojstvo retka** , **Grupa PDV-a** i **Grupa PDV-a na predmet** , ako je potrebno. Ta se polja mogu prebrisati.
+Odaberite podatke u poljima **Kategorija**, **Aktivnost**, **Svojstvo retka**, **Grupa PDV-a** i **Grupa PDV-a na predmet**, ako je potrebno. Ta se polja mogu prebrisati.
 
 Polje **Svojstvo retka** postavit će se na zadanu vrijednost, na temelju parametara za upravljanje projektom i računovodstvenih parametara. Kada su omogućeni parametri projekta/kategorije i kategorije/resursa, vrijednost **Svojstvo retka** postavit će se na zadanu vrijednost koju ste definirali za ovu provjeru valjanosti. Kada parametri projekta/kategorije i kategorije/resursa nisu omogućeni, vrijednost postavke **Svojstvo retka** zadat će se prema polju **Omogući zadano svojstvo retka** na stranici **Parametri za upravljanje projektom i računovodstveni parametri**. Vrijednost **Svojstvo retka** može se prebrisati.
 
 Odaberite dan za dodavanje vremena. Unesite broj svakodnevno odrađenih sati.
 
-Kako biste dodali komentare o satima koje unosite, kliknite **Dodaj komentare** , a zatim unesite komentare za internu ciljnu skupinu, ciljnu skupinu klijenata ili za oboje.
+Kako biste dodali komentare o satima koje unosite, kliknite **Dodaj komentare**, a zatim unesite komentare za internu ciljnu skupinu, ciljnu skupinu klijenata ili za oboje.
 Interne komentare mogu pregledati voditelji projekata. Komentari klijenata uključeni su u fakture.
 
 Kako biste redak spremili kao favorit, označite potvrdni okvir, a zatim kliknite **Spremi kao favorit**.
@@ -95,7 +95,7 @@ Kliknite **Pošalji** za slanje evidencije radnog vremena u tijek rada za odobre
 
 ## <a name="review-timesheets"></a>Pregledavanje evidencija radnog vremena
 
-Popis evidencija radnog vremena koje treba pregledati dostupan je u izborniku. Ova je mogućnost dostupna samo ako ste određeni za odobravatelja tijeka rada. Podržani su i zaglavlje i redak odobrenja. Odobrenje na razini retka nudi mogućnost označavanja jednog ili više redaka za odobrenje. Nakon pregleda podataka iz evidencije o radnom vremenu, kliknite **Odobri** , **Delegiraj** ili **Povratak** kako biste nastavili tijeka rada.
+Popis evidencija radnog vremena koje treba pregledati dostupan je u izborniku. Ova je mogućnost dostupna samo ako ste određeni za odobravatelja tijeka rada. Podržani su i zaglavlje i redak odobrenja. Odobrenje na razini retka nudi mogućnost označavanja jednog ili više redaka za odobrenje. Nakon pregleda podataka iz evidencije o radnom vremenu, kliknite **Odobri**, **Delegiraj** ili **Povratak** kako biste nastavili tijeka rada.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

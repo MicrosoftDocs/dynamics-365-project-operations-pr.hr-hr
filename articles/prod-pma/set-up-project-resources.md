@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073560"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288730"
 ---
 # <a name="set-up-project-resources"></a>Postavljanje resursa projekta
 
@@ -37,11 +37,11 @@ U slijedećim se postupcima objašnjava način za postavljanje radnika kao resur
 
 ## <a name="set-up-a-worker-as-a-project-resource"></a>Postavljanje radnika kao resursa projekta
 
-1. Na stranici **Radnici** , na popisu **Radnici** , odaberite radnika kojeg dodajete kao resurs projekta i otvorite zapis za radnika.
+1. Na stranici **Radnici**, na popisu **Radnici**, odaberite radnika kojeg dodajete kao resurs projekta i otvorite zapis za radnika.
 2. U oknu radnji odaberite **Projekt** &gt; **Postavljanje** &gt; **Postavljanje projekta**.
 3. Odaberite kalendar, a zatim zatvorite stranicu.
 
-Također možete odrediti zadane projekte za resurs kao vrstu prethodne dodjele. Prethodne dodjele mogu se upotrebljavati kada voditelj resursa ili voditelj projekata unaprijed zna na kojim će projektima resurs raditi. Prethodne dodjele također se mogu temeljiti na zahtjevu sponzora projekta ili klijenta. Kako biste unaprijed dodijelili projekt, odaberite odgovarajući projekt na stranici **Dodijeli projekte** , na kartici **Projekti** s popisa **Preostali projekti**.
+Također možete odrediti zadane projekte za resurs kao vrstu prethodne dodjele. Prethodne dodjele mogu se upotrebljavati kada voditelj resursa ili voditelj projekata unaprijed zna na kojim će projektima resurs raditi. Prethodne dodjele također se mogu temeljiti na zahtjevu sponzora projekta ili klijenta. Kako biste unaprijed dodijelili projekt, odaberite odgovarajući projekt na stranici **Dodijeli projekte**, na kartici **Projekti** s popisa **Preostali projekti**.
 
 ## <a name="set-up-an-intercompany-resource"></a>Postavljanje resursa unutar tvrtke
 
@@ -51,11 +51,11 @@ Kada radnika postavite kao resurs unutar tvrtke, morate dovršiti postavljanje i
 
 1. U Financijama provjerite je li odabrana tvrtka davateljica posudbe, a zatim dovršite postupak iz prethodnog odjeljka „Postavljanje radnika kao resursa projekta”.
 2. Na stranici **Računovodstvo unutar tvrtke** odaberite mogućnost **Novo**.
-3. U polju **ID pravne osobe** , odaberite tvrtku davateljicu posudbe. Prema potrebi popunite preostala polja, a zatim odaberite **Spremi**.
+3. U polju **ID pravne osobe**, odaberite tvrtku davateljicu posudbe. Prema potrebi popunite preostala polja, a zatim odaberite **Spremi**.
 4. Na stranici **Cijena prijenosa** odaberite **Novo**.
 5. U polju **Pravna osoba koja prima posudbu** odaberite odgovarajuću tvrtku.
-6. Kako biste posudili tvrtki primateljici posudbe samo one resurse koje ste stvorili na početku ovog odjeljka u polju **Resurs** , odaberite naziv resursa koji ste stvorili. Kako biste tvrtki primateljici posudbe omogućili sve resurse tvrtke davateljice posudbe, polje **Resurs** ostavite prazno.
-7. Na stranici **Parametri upravljanja projektom i računovodstveni parametri** , na kartici **Unutar tvrtke** , postavite mogućnost **Omogući raspoređivanje resursa i evidencija radnog vremena unutar tvrtke** na **Da**.
+6. Kako biste posudili tvrtki primateljici posudbe samo one resurse koje ste stvorili na početku ovog odjeljka u polju **Resurs**, odaberite naziv resursa koji ste stvorili. Kako biste tvrtki primateljici posudbe omogućili sve resurse tvrtke davateljice posudbe, polje **Resurs** ostavite prazno.
+7. Na stranici **Parametri upravljanja projektom i računovodstveni parametri**, na kartici **Unutar tvrtke**, postavite mogućnost **Omogući raspoređivanje resursa i evidencija radnog vremena unutar tvrtke** na **Da**.
 
 ### <a name="in-the-borrowing-company"></a>U tvrtki primateljici posudbe
 

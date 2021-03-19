@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073449"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289315"
 ---
 # <a name="microsoft-project-client-integration"></a>Integracija programa Microsoft Project Client
 
@@ -39,10 +39,10 @@ Kako biste omogućili integraciju s programom Microsoft Project Client, potrebno
 
 •   Kliknite **Konfiguriraj dodatak za klijenta** iz odjeljka radnog prostora **Veze** > **Postavljanje**.
 
-•   Kliknite **Otvori** , a zatim, kad se od vas to zatraži, kliknite **Pokreni**.
+•   Kliknite **Otvori**, a zatim, kad se od vas to zatraži, kliknite **Pokreni**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Otvaranje i uređivanje postojećeg nacrta strukturne analize rada u programu Microsoft Project Client
-Ako projekt u aplikaciji Dynamics 365 Finance već ima stvorenu strukturnu analizu rada, ona se može otvoriti u programu Microsoft Project Client ako je strukturna analiza rada u stanju skice. Za otvaranje sa stranice **Projekt** , kliknite vezu **Otvori u aplikaciji Microsoft Project** na kartici **Plan**. Ova se stranica također može otvoriti iz programa Microsoft Project Client klikom mogućnosti **Otvori** na kartici **Microsoft Dynamics 365**. S popisa odaberite **Pravna osoba** i **Projekt**.
+Ako projekt u aplikaciji Dynamics 365 Finance već ima stvorenu strukturnu analizu rada, ona se može otvoriti u programu Microsoft Project Client ako je strukturna analiza rada u stanju skice. Za otvaranje sa stranice **Projekt**, kliknite vezu **Otvori u aplikaciji Microsoft Project** na kartici **Plan**. Ova se stranica također može otvoriti iz programa Microsoft Project Client klikom mogućnosti **Otvori** na kartici **Microsoft Dynamics 365**. S popisa odaberite **Pravna osoba** i **Projekt**.
 
 > [!NOTE]
 > Ako upotrebljavate preglednik Internet Explorer, morat ćete kliknuti **Spremi** za ručno otvaranje s mjesta na kojem se nalazi preuzeta datoteka. Ili kliknite **Spremi i otvori** kako biste datoteku otvorili u programu Microsoft Project Client. Nemojte preimenovati naziv datoteke tijekom spremanja.
@@ -118,11 +118,11 @@ Kako biste stvorili novu strukturnu analizu rada s pomoću programa Microsoft Pr
 
 4.  Odaberite mogućnost **Pravna osoba** za projekt.
 
-5.  Unesite **ID projekta** , ako je potrebno.
+5.  Unesite **ID projekta**, ako je potrebno.
 
 6.  Unesite **Naziv proizvoda**.
 
-7.  Odaberite mogućnost **Vrsta projekta** , **Grupa projekta** i **ID ugovora o projektu**. Alternativno, klikom mogućnosti **Novo** možete stvoriti novi ugovor o projektu.
+7.  Odaberite mogućnost **Vrsta projekta**, **Grupa projekta** i **ID ugovora o projektu**. Alternativno, klikom mogućnosti **Novo** možete stvoriti novi ugovor o projektu.
 
 8.  Odaberite **Kalendar** koji će se upotrebljavati za raspodjelu resursa.
 

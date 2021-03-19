@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073372"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288955"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Raspored izdataka upita za savezne nagrade
 
@@ -62,13 +62,13 @@ Morate postaviti CFDA brojeve koji se mogu dodati potporama i uključiti u Raspo
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Postavljanje potpora na izvješće za Raspored izdataka upita za savezne nagrade
 
 1. Idite na **Upravljanje projektima i računovodstvo \> Potpore \> Potpore** i odaberite postojeću potporu.
-2. Na Brzoj kartici **Postavljanje** , u polju **Katalog savezne domaće pomoći** , dodijelite CFDA broj. CFDA broj na potpori određuje CFDA klaster za izvješćivanje.
+2. Na Brzoj kartici **Postavljanje**, u polju **Katalog savezne domaće pomoći**, dodijelite CFDA broj. CFDA broj na potpori određuje CFDA klaster za izvješćivanje.
 3. Na Brzoj kartici **Podaci za kontakt** unesite podatke o davatelju potpore slijedeći ove korake:
 
     1. U polje **Klijent potpore** unesite klijenta koji je odgovoran za potporu. Za postojeću potporu ovi su podaci možda već unijeti.
     2. Navedite je li klijent potpore donator. Ako je klijent potpore donator, potvrdni okvir **Prolazni** ostavite prazan. Ako je drugi klijent donator, a klijent potpore odgovoran je za trošenje i praćenje novca, odaberite potvrdni okvir **Prolazni**.
 
-4. Ako ste u prethodnom koraku odabrali potvrdni okvir **Prolazni** , u polju **Agencija za davanje potpore** unesite klijenta koji je dao potporu. Agencija za davanje potpore i klijent ne mogu biti isti klijent.
+4. Ako ste u prethodnom koraku odabrali potvrdni okvir **Prolazni**, u polju **Agencija za davanje potpore** unesite klijenta koji je dao potporu. Agencija za davanje potpore i klijent ne mogu biti isti klijent.
 
 Evo primjera prolazne potpore:
 
@@ -79,8 +79,8 @@ Savezna vlada financirala je infrastrukturni projekt za državu. Savezna vlada d
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Isključite potpore iz SEFA izvješća koje se temelji na vrsti potpore
 
-1. Idite na **Upravljanje projektima i računovodstvo \> Postavljanje \> Potpore \> Vrste potpora**.
-2. Na Brzoj kartici **Zadane informacije** odaberite potvrdni okvir **Izuzeti iz rasporeda izdataka za savezne nagrade**.
+1. Idite na **Upravljanje projektima i računovodstvo \> Postavljanje \> Potpore \> Vrste potpora**.
+2. Na Brzoj kartici **Zadane informacije** odaberite potvrdni okvir **Izuzeti iz rasporeda izdataka za savezne nagrade**.
 3. Odaberite **Spremi** da biste spremili izmjene.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Pokretanje Rasporeda izdataka upita za savezne nagrade

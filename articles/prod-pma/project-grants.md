@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073569"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289360"
 ---
 # <a name="project-grants"></a>Projektne potpore
 
@@ -42,7 +42,7 @@ Potporu možete stvoriti unosom svih pojedinosti u novi zapis ili možete kopira
 
 1. Idite na **Upravljanje projektima i računovodstvo** \> **Potpore** \> **Potpore**.
 2. Odaberite **Novo** \> **Potpora**.
-3. Na stranici s pojedinostima potpore, na Brzoj kartici **Općenito** , u polje **ID potpora** , unesite alfanumerički identifikator za potporu.
+3. Na stranici s pojedinostima potpore, na Brzoj kartici **Općenito**, u polje **ID potpora**, unesite alfanumerički identifikator za potporu.
 4. U polje **Naziv potpore** unesite naziv potpore.
 5. U polje **Opis** dodajte pojedinosti o novoj potpori.
 
@@ -77,7 +77,7 @@ Potporu možete stvoriti unosom svih pojedinosti u novi zapis ili možete kopira
 
 1. Idite na **Upravljanje projektima i računovodstvo** \> **Potpore** \> **Potpore**.
 2. Odaberite potporu za izmjenu.
-3. U Oknu radnje, na kartici **Potpora** , u grupi **Održavaj** , kliknite mogućnost **Uredi**.
+3. U Oknu radnje, na kartici **Potpora**, u grupi **Održavaj**, kliknite mogućnost **Uredi**.
 4. Pregledajte pojedinosti potpore i unesite sve potrebne promjene.
 
 
