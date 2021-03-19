@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118464"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277824"
 ---
 # <a name="manage-project-based-opportunities"></a>Upravljanje projektnim prilikama
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Projektne tvrtke obično imaju svoje načine funkcioniranja pri isporuci u više zemalja i zemljopisnih područja. Troškovi izvršenja i isporuke projekta mogu se razlikovati ovisno o tome koje zemljopisno područje ili sektor upravlja isporukom. Zauzvrat, to može utjecati na marže posla. Dostava projektnih usluga obično uključuje velike količine vremena koje troše ljudski resursi, značajne troškove putovanja, materijalne troškove i druge troškove.
 
-Projektne prilike u aplikaciji Dynamics 365 Project Operations oblikovane su s pomoću proširenja za aplikaciju Dynamics 365 Sales. Ova tema donosi pojedinosti o različitim poljima i poslovnoj logici koja je uključena u dodatnu funkcionalnost koja je potrebna projektnim tvrtkama za upravljanje projektnim mogućnostima.
+Prilike koje se temelje na projektu u aplikaciji Dynamics 365 Project Operations dizajnirane su s proširenjima za aplikaciju Dynamics 365 Sales. Ova tema donosi pojedinosti o različitim poljima i poslovnoj logici koja je uključena u dodatnu funkcionalnost koja je potrebna projektnim tvrtkama za upravljanje projektnim mogućnostima.
 
 ## <a name="view-all-project-based-opportunities"></a>Prikaz svih projektnih prilika
 

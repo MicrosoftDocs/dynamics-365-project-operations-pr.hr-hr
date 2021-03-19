@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176557"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274314"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Konfiguriranje automatskog stvaranja fakture – jednostavno
  
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Možete konfigurirati automatsko stvaranje faktura u programu Dynamics 365 Project Operations. Sustav stvara nacrt predračuna na temelju rasporeda faktura za svaki ugovor o projektu i redak ugovora. Rasporedi faktura konfigurirani su na razini retka ugovora. Svaki redak ugovora može imati različit raspored faktura ili isti raspored faktura može biti uključen u svaki redak ugovora.
+Možete konfigurirati automatsko stvaranje fakture u aplikaciji Dynamics 365 Project Operations. Sustav stvara nacrt predračuna na temelju rasporeda faktura za svaki ugovor o projektu i redak ugovora. Rasporedi faktura konfigurirani su na razini retka ugovora. Svaki redak ugovora može imati različit raspored faktura ili isti raspored faktura može biti uključen u svaki redak ugovora.
 
 Kada stvarate fakturu, sustav uvijek stvara barem jednu fakturu po ugovoru o projektu. U nekim slučajevima može biti stvoreno više faktura.
 

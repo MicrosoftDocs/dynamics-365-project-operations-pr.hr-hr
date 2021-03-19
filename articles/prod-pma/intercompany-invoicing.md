@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073414"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270759"
 ---
 # <a name="intercompany-invoicing"></a>Fakturiranje unutar tvrtke
 
@@ -31,7 +31,7 @@ ms.locfileid: "4073414"
 
 Ovaj članak sadrži podatke i primjere o fakturiranju projekata unutar tvrtke.
 
-Vaša tvrtka ili ustanova može imati više sektora, podružnica i drugih pravnih osoba koje međusobno prenose proizvode i usluge za projekte. Pravna osoba koja isporučuje uslugu ili proizvod naziva se *pravna osoba davatelj posudbe* , a pravna osoba koja prima uslugu ili proizvod naziva se *pravna osoba primatelj posudbe*. 
+Vaša tvrtka ili ustanova može imati više sektora, podružnica i drugih pravnih osoba koje međusobno prenose proizvode i usluge za projekte. Pravna osoba koja isporučuje uslugu ili proizvod naziva se *pravna osoba davatelj posudbe*, a pravna osoba koja prima uslugu ili proizvod naziva se *pravna osoba primatelj posudbe*. 
 
 Na sljedećoj slici prikazan je uobičajen scenarij u kojem dvije pravne osobe, SI FR (pravna osoba primatelj posudbe) i SI USA (pravna osoba davatelj posudbe) dijele resurse kako bi isporučili projekt klijentu A. Za ovaj scenarij, SI FR ugovorom se obvezala isporučiti posao klijentu A. 
 
@@ -65,7 +65,7 @@ U ovom primjeru, FRSI mora biti klijent pravne osobe USSI, a USSI mora biti doba
    |  C   |                                  U tvrtki FRSI otvorite zapis dobavljača koji ste upravo stvorili.                                  | U Oknu radnji, na kartici <strong>Općenito</strong>, u grupi <strong>Postavljanje</strong>, kliknite mogućnost <strong>Unutar tvrtke</strong>. Na stranici <strong>Unutar tvrtke</strong>, na kartici <strong>Trgovački odnos</strong>, postavite klizač <strong>Aktivan</strong> na <strong>Da</strong>. U polju <strong>Tvrtka klijent</strong>, odaberite zapis klijenta koji ste stvorili u koraku A. |
 
 
-2. Kliknite **Upravljanje projektima i računovodstvo** &gt; **Postavljanje** &gt; **Računovodstveni parametri upravljanja projektom** , a zatim kliknite karticu **Unutar tvrtke**. Način postavljanja parametara ovisi o tome jeste li pravna osoba koja primatelj posudbe ili pravna osoba davatelj posudbe.
+2. Kliknite **Upravljanje projektima i računovodstvo** &gt; **Postavljanje** &gt; **Računovodstveni parametri upravljanja projektom**, a zatim kliknite karticu **Unutar tvrtke**. Način postavljanja parametara ovisi o tome jeste li pravna osoba koja primatelj posudbe ili pravna osoba davatelj posudbe.
    -   Ako ste pravna osoba primatelj posudbe, odaberite kategoriju nabave koja će se upotrebljavati za podudaranje fakture dobavljača koji se automatski generiraju.
    -   Ako ste pravna osoba davatelj posudbe, za svaki pozajmljeni entitet odaberite zadanu kategoriju projekta za svaku vrstu transakcije. Kategorije projekata upotrebljavaju se za konfiguraciju poreza kada fakturirana kategorija u transakcijama unutar tvrtke postoji samo u pravnoj osobi primatelju posudbe. Možete odabrati obračun prihoda od transakcija unutar tvrtke. Ovo obračunavanje vrši se kada se transakcije knjiže, a zatim se stornira kada se knjiži faktura unutar tvrtke.
 
@@ -78,7 +78,7 @@ USSI, pravna osoba davatelj posudbe, mora stvoriti i proknjižiti evidenciju rad
 
 | Korak | Točka unosa                                                                       | Opis                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Upravljanje projektima i računovodstvo** &gt; **Evidencije radnog vremena** &gt; **Sve evidencije radnog vremena** | Stvorite novu evidenciju radnog vremena. U retku evidencije radnog vremena, u polju **Pravna osoba** , odaberite **FRSI**. U polju **ID projekta** odaberite projekt u tvrtki FRSI. Unesite sate rada za svaki dan u tjednu. |
+| A    | **Upravljanje projektima i računovodstvo** &gt; **Evidencije radnog vremena** &gt; **Sve evidencije radnog vremena** | Stvorite novu evidenciju radnog vremena. U retku evidencije radnog vremena, u polju **Pravna osoba**, odaberite **FRSI**. U polju **ID projekta** odaberite projekt u tvrtki FRSI. Unesite sate rada za svaki dan u tjednu. |
 | B    | Stranica **Evidencija radnog vremena**                                                                | Nakon što se tijek rada pokrene, proknjižite evidenciju radnog vremena i zabilježite broj kupona.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Primjer 3: Stvaranje i knjiženje fakture dobavljača unutar tvrtke
@@ -87,7 +87,7 @@ USSI, pravna osoba davatelj posudbe, mora stvoriti i proknjižiti fakturu dobavl
 | Korak | Točka unosa                                                                                      | Opis                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Dugovanja** &gt; **Fakture** &gt; **Otvori fakture dobavljača** &gt; **Nova faktura dobavljača** | Stvorite novu fakturu dobavljača i unesite usluge koje su nabavljene u ime projekta tvrtke FRSI.                                                                                                                                                                                  |
-| B    | Stranica **Faktura dobavljača**                                                                      | Unesite retke koji predstavljaju usluge prepuštene vanjskim tvrtkama u ime tvrtke FRSI. Na Brzoj kartici **Pojedinosti redaka** , na kartici **Projekt** za redak fakture u polju **Projektna tvrtka** , unesite **FRSI**. Unesite projekt i odgovarajuće podatke. Zatim proknjižite fakturu dobavljača. |
+| B    | Stranica **Faktura dobavljača**                                                                      | Unesite retke koji predstavljaju usluge prepuštene vanjskim tvrtkama u ime tvrtke FRSI. Na Brzoj kartici **Pojedinosti redaka**, na kartici **Projekt** za redak fakture u polju **Projektna tvrtka**, unesite **FRSI**. Unesite projekt i odgovarajuće podatke. Zatim proknjižite fakturu dobavljača. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Primjer 4: Stvaranje i knjiženje fakture unutar tvrtke
 USSI, pravna osoba davatelj posudbe, mora stvoriti i proknjižiti fakturu unutar tvrtke. Postoje dvije ulazne točke za korake potrebne za ovaj zadatak.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181983"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277869"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Upravljanje s više klijenata u ponudi projekta
 
@@ -23,7 +23,7 @@ Ponude projekata podržavaju scenarij u kojem prijedlog uključuje više klijena
 
 Svi klijenti ponude na kartici **Klijenti** ponude projekta zadani su kao klijenti retka ponude na svakom **novom** retku ponude koji se temelji na projektu, a stvoren je za ponudu. Svaki postojeći redak ponude koji se temelji na projektu neće naslijediti nove zapise o klijentima stvorene nakon njih.
 
-Klijenti ponude i klijenti retka ponude mogu se dodati, ažurirati ili izbrisati u bilo kojem trenutku prije prihvaćanja ponude. Valjani klijent na ponudi mora biti postavljen kao klijent u tvrtki vlasnici ili pravnoj osobi na stranici **Klijenti**. Pravne osobe postavljene su u modul **Upravljanje projektima i računovodstvo** aplikacije Dynamics 365 Project Operations i dostupne su kao tvrtke u modulima **Prodaja i dostava projekta** aplikacije Project Operations.
+Klijenti ponude i klijenti retka ponude mogu se dodati, ažurirati ili izbrisati u bilo kojem trenutku prije prihvaćanja ponude. Valjani klijent na ponudi mora biti postavljen kao klijent u tvrtki vlasnici ili pravnoj osobi na stranici **Klijenti**. Pravne su osobe postavljene u modul **Upravljanje projektima i računovodstvo** aplikacije Dynamics 365 Project Operations i dostupne su kao tvrtke u modulima **Prodaja i isporuka projekata** aplikacije Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Koncept primarnog klijenta
 

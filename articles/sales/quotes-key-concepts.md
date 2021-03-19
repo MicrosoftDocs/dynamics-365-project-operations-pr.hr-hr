@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121299"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277509"
 ---
 # <a name="quotes---key-concepts"></a>Ponude – Osnovni koncepti
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-U aplikaciji Dynamics 365 Project Operations, postoje dvije vrste ponuda: za projekt i prodaju. Te dvije vrste ponuda razlikuju se na sljedeće načine:
+U aplikaciji Dynamics 365 Project Operations, postoje dvije vrste ponuda: projektne i prodajne. Te dvije vrste ponuda razlikuju se na sljedeće načine:
 
 - **Rešetke za stavke retka**: Na ponudi prodaje postoji samo jedna rešetka za stavke retka. Ponuda projekta ima dvije rešetke za stavke redaka. Jedna je rešetka za retke projekta, a druga za retke proizvoda.
 - **Aktivacija i revizije**: Ponude prodaje podržavaju aktivaciju i revizije. Ovi procesi nisu podržani u ponudi projekta.

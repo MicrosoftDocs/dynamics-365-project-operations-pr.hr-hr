@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073442"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270984"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Uvođenje prilagođenih polja za mobilnu aplikaciju Microsoft Dynamics 365 Project Timesheet na platformama iOS i Android
 
@@ -61,11 +61,11 @@ Svojstvo **FieldBaseType** na objektu **TsTimesheetCustom** određuje vrstu polj
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Ako svojstvo **stringOptions** nije osigurano objektu **TSTimesheetCustomField** , korisniku se omogućuje polje slobodnog teksta.
+- Ako svojstvo **stringOptions** nije osigurano objektu **TSTimesheetCustomField**, korisniku se omogućuje polje slobodnog teksta.
 
     Svojstvo **stringLength** može se upotrebljavati za postavljanje maksimalne duljine niza koju korisnici mogu unijeti.
 
-- Ako je svojstvo **stringOptions** osigurano objektu **TSTimesheetCustomField** , ti su elementi popisa jedine vrijednosti koje korisnici mogu odabrati s pomoću gumba s mogućnostima (gumbi za odabir).
+- Ako je svojstvo **stringOptions** osigurano objektu **TSTimesheetCustomField**, ti su elementi popisa jedine vrijednosti koje korisnici mogu odabrati s pomoću gumba s mogućnostima (gumbi za odabir).
 
     U ovom slučaju polje niza može djelovati kao vrijednost nabrajanja u svrhu korisničkog unosa. Kako biste vrijednost spremili u bazu podataka kao nabrajanje, ručno mapirajte vrijednost niza natrag u vrijednost nabrajanja prije spremanja u bazu podataka s pomoću lanca naredbi (kao primjer pogledajte odjeljak „Uporaba lanca naredbe na klasi TSTimesheetEntryService za spremanje unosa evidencije radnog vremena iz aplikacija natrag u bazu podataka” u nastavku ove teme).
 
@@ -125,31 +125,31 @@ Ovo svojstvo nadzire redoslijed prikazivanja prilagođenih polja u aplikaciji ka
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Za polja vrste **Boole** , ovo svojstvo prenosi Booleovu vrijednost polja između poslužitelja i aplikacije.
+Za polja vrste **Boole**, ovo svojstvo prenosi Booleovu vrijednost polja između poslužitelja i aplikacije.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Za polja vrste **GUID** , ovo svojstvo prenosi vrijednost globalno jedinstvenog identifikatora (GUID) polja između poslužitelja i aplikacije.
+Za polja vrste **GUID**, ovo svojstvo prenosi vrijednost globalno jedinstvenog identifikatora (GUID) polja između poslužitelja i aplikacije.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Za polja vrste **Int64** , ovo svojstvo prenosi Int64 vrijednost polja između poslužitelja i aplikacije.
+Za polja vrste **Int64**, ovo svojstvo prenosi Int64 vrijednost polja između poslužitelja i aplikacije.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Za polja vrste **Int** , ovo svojstvo prenosi int vrijednost polja između poslužitelja i aplikacije.
+Za polja vrste **Int**, ovo svojstvo prenosi int vrijednost polja između poslužitelja i aplikacije.
 
 ### <a name="realvalue-real"></a>realValue (stvarno)
 
-Za polja vrste **Stvarno** , ovo svojstvo prenosi stvarnu vrijednost polja između poslužitelja i aplikacije.
+Za polja vrste **Stvarno**, ovo svojstvo prenosi stvarnu vrijednost polja između poslužitelja i aplikacije.
 
 ### <a name="stringvalue-str"></a>stringValue (niz)
 
-Za polja vrste **Niz** , ovo svojstvo prenosi vrijednost niza u polju između poslužitelja i aplikacije. Također se upotrebljava za polja vrste **Stvarno** koja su formatirana kao valuta. Za ta polja svojstvo se upotrebljava za prosljeđivanje koda valute aplikaciji.
+Za polja vrste **Niz**, ovo svojstvo prenosi vrijednost niza u polju između poslužitelja i aplikacije. Također se upotrebljava za polja vrste **Stvarno** koja su formatirana kao valuta. Za ta polja svojstvo se upotrebljava za prosljeđivanje koda valute aplikaciji.
 
 ### <a name="datevalue-date"></a>dateValue (datum)
 
-Za polja vrste **Datum** , ovo svojstvo prenosi vrijednost datuma u polju između poslužitelja i aplikacije.
+Za polja vrste **Datum**, ovo svojstvo prenosi vrijednost datuma u polju između poslužitelja i aplikacije.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Prikaz i spremanje prilagođenog polja u odjeljku unosa evidencije radnog vremena
 
@@ -179,9 +179,9 @@ U nastavku se nalazi snimka zaslona aplikacije Visual Studio na kojem se nalazi 
 
 Ovaj kôd regulira postavke zaslona za polje u aplikaciji. Na primjer, regulira vrstu polja, oznaku, je li polje obavezno i u kojem se odjeljku polje prikazuje.
 
-Sljedeći primjer prikazuje polje niza za unose vremena. Ovo polje ima dvije mogućnosti, **Prva mogućnost** i **Druga mogućnost** , koje su dostupne putem gumba mogućnosti (gumbi za odabir). Polje u aplikaciji povezano je s poljem **TestLineString** koje se dodaje tablici TSTimesheetLine.
+Sljedeći primjer prikazuje polje niza za unose vremena. Ovo polje ima dvije mogućnosti, **Prva mogućnost** i **Druga mogućnost**, koje su dostupne putem gumba mogućnosti (gumbi za odabir). Polje u aplikaciji povezano je s poljem **TestLineString** koje se dodaje tablici TSTimesheetLine.
 
-Obratite pažnju na uporabu načina **TSTimesheetCustomField::newFromMetatdata()** za pojednostavljivanje inicijalizacije svojstava prilagođenog polja: **fieldBaseType** , **tableName** , **fieldname** , **oznaka** , **isEditable** , **isMandatory** , **stringLength** i **numberOfDecimals**. Te parametre možete postaviti i ručno, ako želite.
+Obratite pažnju na uporabu načina **TSTimesheetCustomField::newFromMetatdata()** za pojednostavljivanje inicijalizacije svojstava prilagođenog polja: **fieldBaseType**, **tableName**, **fieldname**, **oznaka**, **isEditable**, **isMandatory**, **stringLength** i **numberOfDecimals**. Te parametre možete postaviti i ručno, ako želite.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Kako biste spremili prilagođeno polje natrag u bazu podataka uobičajenom upora
 - Način **populateTimesheetWeekFromEntry** također se može proširiti ako se prilagođeno polje mapira na objekt **TSTimesheetEntry** mora upisati natrag u tablicu baze podataka TSTimesheetLineweek.
 
 > [!NOTE]
-> U sljedećem primjeru, vrijednost **firstOption** ili **secondOption** koju korisnik odabire sprema se u bazu podataka kao sirova vrijednost niza. Ako je polje baze podataka polje vrste **Nabrajanje** , te se vrijednosti mogu ručno preslikati na vrijednost nabrajanja, a zatim spremiti u polje nabrajanja u tablici baze podataka.
+> U sljedećem primjeru, vrijednost **firstOption** ili **secondOption** koju korisnik odabire sprema se u bazu podataka kao sirova vrijednost niza. Ako je polje baze podataka polje vrste **Nabrajanje**, te se vrijednosti mogu ručno preslikati na vrijednost nabrajanja, a zatim spremiti u polje nabrajanja u tablici baze podataka.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Postojeća logika funkcionalnosti evidencije radnog vremena na razini baze podat
 
 - Ako **validateWrite** u tablici TSTimesheetLine vraća vrijednost **netočno** tijekom operacije spremanja retka evidencije radnog vremena, u mobilnoj se aplikaciji prikazuje poruka o pogrešci.
 - Ako **validateSubmit** u tablici TSTimesheetTable vraća vrijednost **netočno** tijekom operacije slanja retka evidencije radnog vremena u aplikaciju, korisniku se prikazuje poruka o pogrešci.
-- Logika koja popunjava polja (na primjer, **Svojstvo retka** ) tijekom načina **umetni** na tablici TSTimesheetLine i dalje će se izvršavati.
+- Logika koja popunjava polja (na primjer, **Svojstvo retka**) tijekom načina **umetni** na tablici TSTimesheetLine i dalje će se izvršavati.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Sakrivanje i označavanje gotovih polja kao polja samo za čitanje putem konfiguracije
 

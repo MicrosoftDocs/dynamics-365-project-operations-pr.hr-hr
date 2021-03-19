@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 55d1310de4338e50a1fc7d0af8cd83e63856db61
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643029"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273774"
 ---
 # <a name="project-contracts---key-concepts---lite"></a>Ugovori o projektu – Osnovni koncepti – jednostavno
 
@@ -50,7 +50,7 @@ Obično postoje dvije vrste modela ugovaranja projekata, fiksna naknada i na tem
 
 ## <a name="project-price-lists"></a>Cjenici za projekt
 
-Cjenici za projekt upotrebljavaju se za zadane cijene, a ne cijene troška, za vrijeme, trošak i ostale komponente povezane s projektom. Može postojati više cjenika. Svaki cjenik ima svoj datum stupanja na snagu za svaki ugovor o projektu. Project Operations ne podržava preklapanje datuma stupanja na snagu cjenika za projekt.
+Cjenici za projekt upotrebljavaju se za zadane cijene, a ne cijene koštanja, za vrijeme, trošak i ostale komponente povezane s projektom. Može postojati više cjenika. Svaki cjenik ima svoj datum stupanja na snagu za svaki ugovor o projektu. Project Operations ne podržava preklapanje datuma stupanja na snagu cjenika za projekt.
 
 Kada se ugovor o projektu stvara prihvaćanjem ponude projekta, cjenici za projekt kopiraju se s uključenim nazivom i datumom ugovora. Kopiranje ovih podataka formira prilagođenu cijenu za komponente projekta na ovom ugovoru o projektu.
 

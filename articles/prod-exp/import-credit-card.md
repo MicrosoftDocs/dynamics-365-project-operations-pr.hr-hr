@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7bf75c13bb190c7b992aa516f1593d886dfa604d
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960418"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271569"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Uvoz i održavanje transakcija kreditnim karticama
 

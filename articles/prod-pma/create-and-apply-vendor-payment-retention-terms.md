@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073525"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270939"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Stvaranje i primjena uvjeta zadržanog plaćanja dobavljaču
 
@@ -41,9 +41,9 @@ Upotrijebite sljedeće korake za postavljanje i održavanje uvjeta zadržavanja 
 2. Odaberite **Novo** kako biste dodali novi uvjet za zadržavanje plaćanja dobavljaču. Vrijednost **ID pravila** za novi uvjet unosi se automatski. 
 3. U polje **Opis** unesite kratki opis i na Brzoj kartici **Uvjeti** odaberite **Dodaj redak** za unos vrijednosti uvjeta za sljedeće:
 
-   - **Postotak isporučenih jedinica** : Unesite postotak završetka za uvjet. Iznosi se automatski zadržavaju od faktura dobavljača sve dok se stanje završenosti ne izjednači s navedenim postotkom. Na primjer, ako unesete 50,00, iznosi se zadržavaju sve dok projekt ne bude završen 50 posto.
-   - **Postotak zadržavanja** : Unesite postotak iznosa fakture dobavljača koji će se zadržati. Na primjer, ako unesete 10,00, tada se zadržava 10 posto iznosa od fakture dobavljača dok projekt ne dosegne postotak dovršenosti kako je postavljeno u polju **Postotak isporučenih jedinica**.
-   - **Postotak za oslobađanje** : Odaberite **Dodaj redak** za unos postotka svih prethodno zadržanih iznosa koji se oslobađaju na odabranoj razini dovršenosti projekta.
+   - **Postotak isporučenih jedinica**: Unesite postotak završetka za uvjet. Iznosi se automatski zadržavaju od faktura dobavljača sve dok se stanje završenosti ne izjednači s navedenim postotkom. Na primjer, ako unesete 50,00, iznosi se zadržavaju sve dok projekt ne bude završen 50 posto.
+   - **Postotak zadržavanja**: Unesite postotak iznosa fakture dobavljača koji će se zadržati. Na primjer, ako unesete 10,00, tada se zadržava 10 posto iznosa od fakture dobavljača dok projekt ne dosegne postotak dovršenosti kako je postavljeno u polju **Postotak isporučenih jedinica**.
+   - **Postotak za oslobađanje**: Odaberite **Dodaj redak** za unos postotka svih prethodno zadržanih iznosa koji se oslobađaju na odabranoj razini dovršenosti projekta.
 
 > [!NOTE]
 > Ako imate više od jedne kontrolne točke za različite razine dovršenosti projekta, unesite zasebni redak zadržavanja plaćanja dobavljaču za svako pravilo zadržavanja. Svaki redak može odrediti različiti postotak zadržavanja i različiti postotak oslobađanja za svaku naznačenu razinu dovršenosti projekta.
@@ -56,11 +56,11 @@ Nakon što stvorite uvjete zadržavanja plaćanja dobavljaču, možete ih primij
 2. Na Brzoj kartici **Ugovori s dobavljačima** odaberite **Dodaj redak**.
 3. U polju **koda računa** odaberite jednu od sljedećih mogućnosti: 
 
-   - **Tablica** : Uvjeti zadržavanja plaćanja dobavljaču primjenjuju se na pojedinog dobavljača.
-   - **Grupa** : Uvjeti zadržavanja plaćanja dobavljaču primjenjuju se na sve dobavljače u grupi dobavljača.
-   - **Svi** : Uvjeti zadržavanja plaćanja dobavljaču primjenjuju se na sve dobavljače.
+   - **Tablica**: Uvjeti zadržavanja plaćanja dobavljaču primjenjuju se na pojedinog dobavljača.
+   - **Grupa**: Uvjeti zadržavanja plaćanja dobavljaču primjenjuju se na sve dobavljače u grupi dobavljača.
+   - **Svi**: Uvjeti zadržavanja plaćanja dobavljaču primjenjuju se na sve dobavljače.
 
-4. U polju **Dobavljač /grupa dobavljača** odaberite dobavljača ili grupu dobavljača na koje se primjenjuju uvjeti zadržavanja plaćanja. Ako ste u prethodnom koraku odabrali **Svi** , ovo polje nije dostupno.
+4. U polju **Dobavljač /grupa dobavljača** odaberite dobavljača ili grupu dobavljača na koje se primjenjuju uvjeti zadržavanja plaćanja. Ako ste u prethodnom koraku odabrali **Svi**, ovo polje nije dostupno.
 5. U polju **Uvjeti zadržavanja plaćanja dobavljaču** odaberite uvjete zadržavanja koje ste stvorili u prethodnom postupku.
 6. Ako projekt za dobavljača ima postavljene i uvjete „plati kad bude plaćeno” (PWP, pay-when-paid), unesite postotak praga za projekt u polje **Postotak praga PWP-a**.
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180588"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274764"
 ---
 # <a name="set-up-labor-cost-rates"></a>Postavljanje troškova radne snage
 
@@ -40,7 +40,7 @@ Sljedeća tablica uključuje neka polja koja su bitna za stvaranje cijena radne 
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Prijenos cijene i troškova za resurse izvan svojeg sektora ili pravne osobe
 
-U projektnim je tvrtkama uobičajena uporaba zaposlenika iz različitih pravnih osoba ili sektora za rad na projektima. Projekt može izvršiti jedna pravna osoba, ali zaposlenici ili savjetnici koji rade na projektu mogu dolaziti iz iste pravne osobe ili iz neke druge tj. može se raditi o kombinacije obje. U aplikaciji Dynamics 365 Project Operations, pravna osoba koja je vlasnik isporuke projekta je **Tvrtka vlasnik**, a sektor koji je vlasnik isporuke je **Ugovorna jedinica**. Ostale pravne osobe koje osiguravaju resurse su **Tvrtke za raspodjelu resursa**, a sektori koji osiguravaju resurse su **Jedinice za raspodjelu resursa**. U većini zemalja tvrtke su dužne osigurati da pravna osoba ili sektor za raspodjelu resursa naplaćuju uporabu resursa tvrtki vlasnici i ugovornoj jedinici.
+U projektnim je tvrtkama uobičajena uporaba zaposlenika iz različitih pravnih osoba ili sektora za rad na projektima. Projekt može izvršiti jedna pravna osoba, ali zaposlenici ili savjetnici koji rade na projektu mogu dolaziti iz iste pravne osobe ili iz neke druge tj. može se raditi o kombinacije obje. Pravna osoba koja je u aplikaciji Dynamics 365 Project Operations vlasnik isporuke projekta predstavlja **Tvrtku vlasnicu**, a sektor koji je vlasnik isporuke predstavlja **Jedinicu za ugovaranje**. Ostale pravne osobe koje osiguravaju resurse su **Tvrtke za raspodjelu resursa**, a sektori koji osiguravaju resurse su **Jedinice za raspodjelu resursa**. U većini zemalja tvrtke su dužne osigurati da pravna osoba ili sektor za raspodjelu resursa naplaćuju uporabu resursa tvrtki vlasnici i ugovornoj jedinici.
 
 Na primjer, tvrtka Fabrikam mora osigurati da Fabrikam India-Robotics pregovara o kartici cijene troška s Fabrikam US-Robotics ili Fabrikam UK-Robotics.
 

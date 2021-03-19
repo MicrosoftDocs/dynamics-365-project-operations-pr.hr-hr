@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365425"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273954"
 ---
 # <a name="lite-deployment-overview"></a>Pregled osnovne implementacije
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Vrsta osnovne implementacije aplikacije Dynamics 365 Project Operations ima sljedeće mogućnosti za tvrtke koje se temelje na projektima:
+Vrsta osnovne implementacije aplikacije Dynamics 365 Project Operations ima sljedeće mogućnosti za tvrtke koje se temelje na projektu:
 
 - Planiranje projekta s pomoću aplikacije Microsoft Project za mrežu
 - Višedimenzionalno određivanje cijena i troškova za radne resurse

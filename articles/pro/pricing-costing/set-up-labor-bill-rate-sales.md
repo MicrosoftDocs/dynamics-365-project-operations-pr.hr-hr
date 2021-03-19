@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181170"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274404"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Postavljanje cijena za naplatu rada – jednostavno
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Svaki cjenik ima skup cijena uloga ili cijena radne snage koje su na snazi u kontekstu, a datumu stupanja na snagu uključen u zaglavlje cjenika. Cijene naplate za vrijeme u aplikaciji Dynamics 365 Project Operations mogu se postaviti u samo jednoj valuti, koja je valuta u zaglavlju Cjenika.
+Svaki cjenik ima skup cijena uloga ili cijena radne snage koje su na snazi u kontekstu, a datumu stupanja na snagu uključen u zaglavlje cjenika. Cijene naplate vremena u aplikaciji Dynamics 365 Project Operations mogu se postaviti u samo jednoj valuti, koja je navedena u zaglavlju Cjenika.
 
 1. Kako biste postavili cijene naplate za radnu snagu za prodajni cjenik, stvorite cjenik na temelju zaglavlja cjenika. 
 2. Na kartici **Cijene uloga**, u podrešetki, odaberite **+ Nova cijena uloge**. 

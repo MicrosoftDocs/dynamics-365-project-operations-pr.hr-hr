@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280074"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Dodavanje članova tima iz rešetke članova tima
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Dynamics 365 Project Operations uključuje nadzornu ploču upravitelja resursa koja pruža vizualni pregled potražnje resursa i iskoristivosti na svim razinama tvrtke ili ustanove. Grafikone na toj nadzornoj ploči možete koristiti za vizualizaciju sljedećih informacija:
+Dynamics 365 Project Operations uključuje nadzornu ploču upravitelja resursa koja pruža vizualni pregled potražnje resursa i korištenja na svim razinama ustanove. Grafikone na toj nadzornoj ploči možete koristiti za vizualizaciju sljedećih informacija:
 
 - **Potražnja za resursima**: Grafikon **Zahtjevi za aktivne resurse** prikazuje poslane resurse. Resursi se agregiraju prema ulozi ili projektu.
 - **Potražnja za neposlanim resursima**: Grafikon **Potražnja za resursima koji nisu dodijeljeni** prikazuje sve preduvjete resursa koji nisu poslani. Taj grafikon pomaže upraviteljima resursa da pregledaju potražnju koja nije utvrđena i može se poslati putem zahtjeva za resurs.

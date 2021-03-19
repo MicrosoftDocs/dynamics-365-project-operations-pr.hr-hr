@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270714"
 ---
 # <a name="create-a-new-project"></a>Stvaranje novog projekta
 
@@ -42,9 +42,9 @@ Poduzmite sljedeće korake za stvaranje novog projekta.
 
 ## <a name="assign-a-resource-to-a-project"></a>Dodjela resursa projektu
 
-1. Na stranici **Radnici** , na popisu **Radnici** , odaberite zapis za radnika za kojeg ste prethodno postavili kompetencije i otvorite zapis za radnika.
-2. U Oknu radnji na kartici **Projekt** u grupi **Postavljanje** , kliknite mogućnost **Dodjeli projekte**.
-3. Na stranici **Projektni zadaci za provjeru valjanosti resursa** , na kartici **Projekti** u polju **Dodajte projekt odabranim projektima** , filtrirajte na projekt **XYZ nadogradnja 2. faze**.
+1. Na stranici **Radnici**, na popisu **Radnici**, odaberite zapis za radnika za kojeg ste prethodno postavili kompetencije i otvorite zapis za radnika.
+2. U Oknu radnji na kartici **Projekt** u grupi **Postavljanje**, kliknite mogućnost **Dodjeli projekte**.
+3. Na stranici **Projektni zadaci za provjeru valjanosti resursa**, na kartici **Projekti** u polju **Dodajte projekt odabranim projektima**, filtrirajte na projekt **XYZ nadogradnja 2. faze**.
 4. U oknu **Preostali projekti** odaberite projekt, a zatim odaberite gumb sa strelicom kako biste ga dodali u okno **Odabrani projekti**.
 
 Prema potrebi možete dodijeliti i kategorije za resurs. Ta je vrsta kategorije ili **Trošak** ili **Prihod**. Vrstu kategorije određuje vaša tvrtka ili ustanova. Ako za resurs nisu dodijeljene kategorije, Financije pretražuju zadanu kategoriju cijena radnih sati za trošak i prihod.
@@ -65,7 +65,7 @@ U sljedećim koracima pokazan je način na koji upravitelj resursa može postavi
     - **ID uloge:** Voditelj projekta višeg ranga
 
 2. Kliknite **Stvori**.
-3. Odaberite ulogu **Voditelj projekta višeg ranga** , a zatim odaberite **Konfiguriraj svojstva**.
+3. Odaberite ulogu **Voditelj projekta višeg ranga**, a zatim odaberite **Konfiguriraj svojstva**.
 4. U polju **Vrste svojstava** odaberite **Vještina**.
 5. U polju **Dostupna svojstva** unesite vještinu koja se traži.
 6. U polju **Vrsta svojstva** odaberite **Certifikat**.

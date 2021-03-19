@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ccdbdce6b7d006adc9be2b5f3573dd8e79dd2b8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122874"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276969"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfiguriranje integracije aplikacije Project Operations po pravnoj osobi 
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovoj temi upoznat ćete se s koracima potrebnim za konfiguriranje aplikacije Dynamics 365 Project Operations po pravnoj osobi.
+U ovoj temi prolazite korake potrebne za konfiguriranje aplikacije Dynamics 365 Project Operations po pravnoj osobi.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Omogućivanje tipki značajki u aplikaciji Dynamics 365 Finance
 

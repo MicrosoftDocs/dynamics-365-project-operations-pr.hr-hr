@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181218"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277689"
 ---
 # <a name="opportunity-settings"></a>Postavke prilike
 
@@ -22,7 +22,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Zaglavlje Prilike, ili sažetak, dohvaća ukupne podatke o poslu koji se temelji na projektu i primjenjuje se na sve retke prilike koja se temelji na projektu.
 
-Prilike koje se temelje na projektu u aplikaciji Dynamics 365 Project Operations proširenja su prilika aplikacije Dynamics 365 Sales. Ova proširenja pružaju dodatnu funkcionalnost koja je specifična i potrebna za prilike koje se temelje na projektu. Ta proširenja mogu uključivati nova polja i radnje vrpce dostupne u prilikama koje se temelje na projektu. Možda ćete pronaći neka polja, funkcionalnost i zadanu logiku koja je dostupna u aplikaciji Sales, ali ne i u aplikaciji Project Operations.
+Prilike koje se temelje na projektu u aplikaciji Dynamics 365 Project Operations proširenja su mogućnosti u aplikaciji Dynamics 365 Sales. Ova proširenja pružaju dodatnu funkcionalnost koja je specifična i potrebna za prilike koje se temelje na projektu. Ta proširenja mogu uključivati nova polja i radnje vrpce dostupne u prilikama koje se temelje na projektu. Možda ćete pronaći neka polja, funkcionalnost i zadanu logiku koja je dostupna u aplikaciji Sales, ali ne i u aplikaciji Project Operations.
 
 Sljedeća tablica uključuje polja u prilici koji se temelji na projektu koja su jedinstvena za aplikaciju Project Operations ili imaju neke bitne promjene u ponašanju iz Prilika u aplikaciji Sales.
 

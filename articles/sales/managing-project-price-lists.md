@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 4bd4e9cb22bfd6a86fd86e5fc403cb185aab140a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177187"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277734"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Upravljanje cjenicima za projekt u ponudi
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Dynamics 365 Project Operations proširuje entitet cjenika u aplikaciji Dynamics 365 Sales. 
+Dynamics 365 Project Operations proširuje entitet Cjenik u sustavu Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Ključni entiteti
 

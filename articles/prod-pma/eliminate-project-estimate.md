@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073441"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270669"
 ---
 # <a name="eliminate-a-project-estimate"></a>Uklanjanje procjene projekta
 
@@ -34,18 +34,18 @@ Procjena projekta daje financijski prikaz za procijenjeni i raspoređeni rad za 
 Kako bi se uklonio projekt procjene, on mora biti dovršen. Sljedeći koraci objašnjavaju način uklanjanja procjene.
 
 1. Idite na mogućnost **Upravljanje projektima i računovodstvo** > **Svi projekti** i otvorite projekt. 
-2. Na kartici **Upravljanje** , odaberite **Procjene** i na stranici **Procjena** odaberite **Ukloni**.
-3. Na stranici **Ukloni procjenu** , na kartici **Općenito** , postavite sljedeće mogućnosti:
+2. Na kartici **Upravljanje**, odaberite **Procjene** i na stranici **Procjena** odaberite **Ukloni**.
+3. Na stranici **Ukloni procjenu**, na kartici **Općenito**, postavite sljedeće mogućnosti:
 
-   - **Kod razdoblja** : Odaberite kod razdoblja kako biste odabrali odgovarajuće projekte procjene. 
-   - **Datum procjene** : Odaberite odgovarajući datum procjene za uklanjanje.
-   - **Ukloni s pomoću WIP upozorenja** : Omogućite ovu mogućnost za pružanje obavijesti kada će procjena koja je povezana s radom u tijeku (WIP) biti uklonjena. Kada ova mogućnost nije omogućena, uklanjanje se ne može nastaviti ako postoji neka transakcija koja nije procijenjena. 
+   - **Kod razdoblja**: Odaberite kod razdoblja kako biste odabrali odgovarajuće projekte procjene. 
+   - **Datum procjene**: Odaberite odgovarajući datum procjene za uklanjanje.
+   - **Ukloni s pomoću WIP upozorenja**: Omogućite ovu mogućnost za pružanje obavijesti kada će procjena koja je povezana s radom u tijeku (WIP) biti uklonjena. Kada ova mogućnost nije omogućena, uklanjanje se ne može nastaviti ako postoji neka transakcija koja nije procijenjena. 
    > [!NOTE]
-   > Ova je mogućnost dostupna samo kada se uklanjanje primjenjuje na projekt procjene. Nije dostupno ako upotrebljavate periodična knjiženja. Ova postavka radi s postavkama na kartici **Procjena** , na stranici **Parametri projekta** , u grupi polja **Dopusti eliminaciju kada postoje transakcije koje nisu procijenjene**.
-   - **Postavljanje faze na Završeno** : Omogućite ovu mogućnost kako biste postavili fazu projekta procjene na **Završeno** nakon što pokrenete uklanjanje.
-   - **Ispis popisa procjena** : Odaberite podatke koji će se uključiti pri ispisu popisa procjena.
-   - **Prikaži dnevnik s informacijama** : Omogućite ovu mogućnost za prikaz dnevnika s informacijama.
-   - **Datum knjiženja** : Odaberite datum knjiženja procjene u glavnu knjigu.
+   > Ova je mogućnost dostupna samo kada se uklanjanje primjenjuje na projekt procjene. Nije dostupno ako upotrebljavate periodična knjiženja. Ova postavka radi s postavkama na kartici **Procjena**, na stranici **Parametri projekta**, u grupi polja **Dopusti eliminaciju kada postoje transakcije koje nisu procijenjene**.
+   - **Postavljanje faze na Završeno**: Omogućite ovu mogućnost kako biste postavili fazu projekta procjene na **Završeno** nakon što pokrenete uklanjanje.
+   - **Ispis popisa procjena**: Odaberite podatke koji će se uključiti pri ispisu popisa procjena.
+   - **Prikaži dnevnik s informacijama**: Omogućite ovu mogućnost za prikaz dnevnika s informacijama.
+   - **Datum knjiženja**: Odaberite datum knjiženja procjene u glavnu knjigu.
 
 4.  Odaberite **U redu**.
 5. Nakon završetka postupka uklanjanja, uklonjeni projekt procjene prikazuje se s negativnom vrijednošću. 

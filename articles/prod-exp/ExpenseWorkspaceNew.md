@@ -1,6 +1,6 @@
 ---
 title: Izmijenjena izvješća o troškovima
-description: U ovoj temi nalaze se informacije o izmijenjenom i ponovno osmišljenom iskustvu za unos izvješća o troškovima u aplikaciji Microsoft Dynamics 365 Finance. Novo iskustvo pojednostavljuje postupak popunjavanja izvješća o troškovima i smanjuje potrebno vrijeme.
+description: U ovoj temi nalaze se informacije o redizajniranom i ponovno osmišljenom iskustvu za unos izvješća o troškovima.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960238"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271974"
 ---
 # <a name="redesigned-expense-reports"></a>Izmijenjena izvješća o troškovima
 
@@ -40,12 +40,6 @@ Kako biste uključili novo iskustvo, upotrijebite radni prostor **Upravljanje zn
 - Dodana je nova stavka izbornika za vidljivost polja troška.
 - Ne uklanjaju se postojeće stavke izbornika za izvješća o troškovima (postojeća stranica) ili polja izvješća o troškovima.
 - Tijekovi rada i sva odobrenja i dalje vas vode na postojeću stranicu izvješća o troškovima.
-
-## <a name="getting-started-video-for-new-users"></a>Videozapis za početnike za nove korisnike
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Iskustvo troškova u videozapisu Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (prikazan gore) uključen je u [popis za reprodukciju aplikacija Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) dostupno na platformi YouTube.
 
 ## <a name="new-features"></a>Nove značajke
 

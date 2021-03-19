@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123864"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279489"
 ---
 # <a name="resource-management-key-concepts"></a>Ključni koncepti upravljanja resursima
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Resursi su najvažnije sredstvo za tvrtke ili ustanove koje su utemeljene na uslugama. Mogućnost pronalaženja pravih resursa u pravo vrijeme, rezerviranje tih resursa u projektima i iskorištavanje tih resursa omogućuju da tvrtka ili ustanova ostvari ciljeve prihoda i zadovoljstva klijenata. Funkciju raspodjele resursa za projekt u aplikaciji Dynamics 365 Project Operations možete upotrijebiti za sljedeće zadatke:
+Resursi su najvažnije sredstvo za tvrtke ili ustanove koje su utemeljene na uslugama. Mogućnost pronalaženja pravih resursa u pravo vrijeme, rezerviranje tih resursa u projektima i iskorištavanje tih resursa omogućuju da tvrtka ili ustanova ostvari ciljeve prihoda i zadovoljstva klijenata. Funkcionalnost raspodjele resursa na projektu u aplikaciji Dynamics 365 Project Operations možete upotrebljavati za sljedeće zadatke:
 
 - Formiranje projektnih timova rezerviranjem dostupnih i kvalificiranih resursa.
 - Stvaranje zapisa o članu generičkog tima i definiranje uloga i organizacijske jedinice resursa.

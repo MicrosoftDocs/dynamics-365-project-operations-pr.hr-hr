@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073413"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270624"
 ---
 # <a name="manage-resource-competencies"></a>Upravljanje kompetencijama resursa
 
@@ -40,13 +40,13 @@ Kako biste postavili kompetencije za radnika, možete upotrijebiti bilo stranicu
 ## <a name="set-up-competencies-certificates"></a>Postavljanje kompetencija: Certifikati
 
 1. Na stranici s popisom **Radnici** odaberite redak za radnika za kojeg želite dodati podatke o certifikatu.
-2. U Oknu radnji na kartici **Radnik** , u grupi **Kompetencije** , kliknite mogućnost **Certifikati**.
+2. U Oknu radnji na kartici **Radnik**, u grupi **Kompetencije**, kliknite mogućnost **Certifikati**.
 3. Odaberite **Novo** i zatim u polju **Vrsta certifikata** odaberite **PMP**.
 4. U polju **Datum početka** odaberite **1.10.2015.** i odaberite **Spremi**.
 
 ## <a name="set-up-competencies-skills"></a>Postavljanje kompetencija: Vještine
 
-1. Na stranici s popisom **Radnici** provjerite je li radnik kojeg ste upotrebljavali u prethodnom postupku i dalje odabran. Zatim u Oknu radnji na kartici **Radnik** , u grupi **Kompetencije** , kliknite mogućnost **Vještine**.
+1. Na stranici s popisom **Radnici** provjerite je li radnik kojeg ste upotrebljavali u prethodnom postupku i dalje odabran. Zatim u Oknu radnji na kartici **Radnik**, u grupi **Kompetencije**, kliknite mogućnost **Vještine**.
 2. Odaberite **Novo**.
 3. U polju **Vještina** odaberite **Upravljanje projektom**.
 4. U polju **Razina** odaberite **5 Stručnjak**.

@@ -1,6 +1,6 @@
 ---
 title: Polja aplikacije Project Operations kao cjenovne veličine
-description: U ovoj se temi nalaze informacije o uporabi polja kao cjenovnih veličina u aplikaciji Dynamics 365 Project Operations.
+description: U ovoj temi nalaze se informacije o uporabi polja kao veličinama za određivanje cijena u aplikaciji Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 59367b35f15f806b109f606e912edc487d9e7685
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04b823e8237590a294ed0706e64d0ecb9d2cf56f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119229"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274629"
 ---
-# <a name="project-operations-fields-as-pricing-dimensions"></a>Polja aplikacije Project Operations kao cjenovne veličine
+# <a name="project-operations-fields-as-pricing-dimensions"></a>Polja aplikacije Project Operations kao veličine za određivanje cijena
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 

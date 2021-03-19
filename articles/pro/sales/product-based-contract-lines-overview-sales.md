@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177862"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272649"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Pregled redaka ugovora koji se temelje na proizvodu – jednostavno
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-U aplikaciji Dynamics 365 Project Operations možete stvoriti retke ugovora koji se temelje na proizvodu. Redci ugovora koji se temelje na proizvodu mogu biti ručno stvoreni redci ili stavke iz kataloga proizvoda.
+Možete stvoriti retke ugovora koji se temelje na proizvodu u aplikaciji Dynamics 365 Project Operations. Redci ugovora koji se temelje na proizvodu mogu biti ručno stvoreni redci ili stavke iz kataloga proizvoda.
 
 ## <a name="product-catalog"></a>Katalog proizvoda
 

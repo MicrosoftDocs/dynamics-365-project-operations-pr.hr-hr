@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401164"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279264"
 ---
 # <a name="review-proposed-resources"></a>Pregledavanje predloženih resursa
 
@@ -58,7 +58,7 @@ Na ploči s rasporedom boje i sjenčanje označavaju rezervacije, dostupnost i p
 
 Ako se strelica udesno prikazuje pokraj pojedinačnog resursa koji se može rezervirati na ploči s rasporedom, resurs se može proširiti da bi se prikazale pojedinosti posla za koji je resurs rezerviran.
 
-Budući da Dynamics 365 Project Operations upotrebljava modul Universal Resource Scheduling, ako imate instaliranu uslugu Dynamics 365 Field Service, možete pregledati pojedinosti o rezervacijama resursa za projekte, radne naloge i sve druge entitete na koje ste proširili planiranje.
+Budući da Dynamics 365 Project Operations upotrebljava modul Universal Resource Scheduling, a ako imate instaliranu značajku Dynamics 365 Field Service, možete pregledati pojedinosti o rezervacijama resursa za projekte, radne naloge i sve druge entitete na koje ste proširili zakazivanje.
 
 Za prikaz dodatnih pojedinosti o pojedinačnom resursu desnom tipkom miša kliknite resurs za otvaranje kartice resursa.
 

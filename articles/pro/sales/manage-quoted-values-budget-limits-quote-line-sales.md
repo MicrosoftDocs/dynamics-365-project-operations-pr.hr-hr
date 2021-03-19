@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181083"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272964"
 ---
 # <a name="project-based-quote-lines-overview---lite"></a>Pregled redaka ponude koji se temelje na projektu – jednostavno
 
@@ -34,7 +34,7 @@ Tablica u nastavku pruža informacije o poljima na kartici **Općenito** retka p
 | **Polje** | **Opis** | **Utjecaj prema dolje** |
 | --- | --- | --- |
 | Ime | Naziv retka ponude koji bi vam trebao pomoći pri prepoznavanju diskretne komponente ponude koja se procjenjuje. | Kopira se u redak ugovora o projektu koji se stvara iz ovog retka ponude kad se prihvati ponuda. |
-| Način naplate | U ponudi stvorenoj iz prilike, ova se vrijednost kopira iz odgovarajućeg polja u retku prilike. Ovo polje uključuje dva glavna načina ugovaranja koje podržava aplikacija Dynamics 365 Project Operations:</br>- Fiksna cijena</br>- Vrijeme i materijal.| Ta se vrijednost polja kopira u redak ugovora o projektu koji se stvara iz ovog retka ponude kad se prihvati ponuda. |
+| Način naplate | U ponudi stvorenoj iz prilike, ova se vrijednost kopira iz odgovarajućeg polja u retku prilike. Ovo polje uključuje dva glavna modela ugovaranja koja podržava aplikacija Dynamics 365 Project Operations:</br>- Fiksna cijena</br>- Vrijeme i materijal.| Ta se vrijednost polja kopira u redak ugovora o projektu koji se stvara iz ovog retka ponude kad se prihvati ponuda. |
 | Project | Upotrijebite ovo neobvezno polje za identifikaciju projekta koji će se upotrebljavati za izvođenje radova na ovom angažmanu. Kada se projekt preslika u redak ponude, to pomaže pri postavljanju naplativih zadataka, a također i pri donošenju procjene koji se temelji na projektu za redak ponude kao pojedinosti retka ponude. Kada projekt nije mapiran u redak ponude koji se temelji na projektu, procjenu treba stvoriti ručno stvaranjem svake pojedinosti retka ponude. | Ta se vrijednost polja kopira u redak ugovora o projektu koji se stvara iz ovog retka ponude kad se prihvati ponuda.|
 | Uključeni zadaci | Označava upotrebljava li se ovaj redak ponude za sve ili samo neke projektne zadatke odabranog projekta. Polje ima sljedeće moguće vrijednosti:</br>- Svi projektni zadaci</br>- Samo odabrani projektni zadaci</br>Nepostojanje vrijednosti u ovom polju jednako je mogućnosti **Svi projektni zadaci**. | Kada se odabere mogućnost **Samo odabrani projektni zadaci** na stranici projekta, kartica **Postavljanje naplate zadataka** omogućuje vam odabir određenih zadataka kako biste ih povezali s ovim retkom ponude. Ta se vrijednost polja kopira u redak ugovora o projektu koji se stvara iz ovog retka ponude kad se prihvati ponuda. |
 | Uvrsti vrijeme | Zastavica **Da**/**Ne** označava hoće li vremenske transakcije ili troškovi rada na odabranom projektu biti uključeni u procjenu u ovom retku ponude. Vrijednost **Ne** označava da vremenske transakcije ili trošak rada neće biti uključeni u procjenu u ovom retku ponude. Vrijednost **Da** označava da će vremenske transakcije ili trošak rada biti uključeni u procjenu u ovom retku ponude. | Ta se vrijednost polja kopira u redak ugovora o projektu koji se stvara iz ovog retka ponude kad se prihvati ponuda. |

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073528"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270894"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parametri integracije usluge Project Service Automation
 
@@ -30,7 +30,7 @@ ms.locfileid: "4073528"
 
 Na stranici **Parametri integracije usluge Project Service Automation** možete konfigurirati način unosa zadanih podataka tijekom integracije usluge Dynamics 365 Project Service Automation s aplikacijom Dynamics 365 Finance. Kako bi se projekti uspješno sinkronizirali iz usluge Project Service Automation u Financije, morate postaviti sljedeća polja.
 
-Kako biste otvorili stranicu **Parametri integracije usluge Project Service Automation** , idite na **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Parametri integracije usluge Dynamics 365 for Project Service Automation**. 
+Kako biste otvorili stranicu **Parametri integracije usluge Project Service Automation**, idite na **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Parametri integracije usluge Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - Integracija projektnog zadatka, kategorije transakcija izdataka, procjene sati, procjene izdataka i zaključavanje funkcionalnosti dostupni su u verziji 8.0.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bc97af1ec90e60417c502eb329a85004e769e05b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128814"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279129"
 ---
 # <a name="submit-a-resource-request"></a>Slanje zahtjeva za resurs
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Možete poslati generirani preduvjet resursa kao zahtjev za resurs. Zahtjev se zatim šalje upravitelju resursa kako bi ga ispunio.
 
-1. Na stranici **Projekti** aplikacije Dynamics 365 Project Operations, kliknite karticu **Tim** kako biste pregledali popis resursa koji se mogu rezervirati. 
+1. U aplikaciji Dynamics 365 Project Operations, na stranici **Projekti**, odaberite karticu **Tim** kako biste pregledali popis resursa koje je moguće rezervirati. 
 2. Odaberite generički resurs koji ima preduvjet resursa s popisa, a zatim kliknite **Pošalji zahtjev**.
 
 Status zahtjeva generičkog člana tima promijenit će se u **Poslano**.

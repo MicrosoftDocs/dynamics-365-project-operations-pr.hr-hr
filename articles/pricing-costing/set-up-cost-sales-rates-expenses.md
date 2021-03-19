@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180273"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274899"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Postavljanje troškova i prodajnih cijena za troškove
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Cijene koštanja i prodajne cijene za kategorije transakcija možete postaviti u aplikaciji Dynamics 365 Project Operations. Budući da su cijene koštanja i prodajne cijene oblikovane za troškove, svaka kategorija transakcije koja ih uključuje također mora biti postavljena kao kategorija troškova. Ova postavka osigurava točnost u nizvodnoj funkcionalnosti. Cijene koštanja i prodajne cijene za kategorije transakcija mogu se navesti samo u jednoj valuti, koja mora biti valuta u zaglavlju cjenika.
+U aplikaciji Dynamics 365 Project Operations možete postaviti cijene i prodajne cijene za kategorije transakcija. Budući da su cijene koštanja i prodajne cijene oblikovane za troškove, svaka kategorija transakcije koja ih uključuje također mora biti postavljena kao kategorija troškova. Ova postavka osigurava točnost u nizvodnoj funkcionalnosti. Cijene koštanja i prodajne cijene za kategorije transakcija mogu se navesti samo u jednoj valuti, koja mora biti valuta u zaglavlju cjenika.
 
 Kako biste postavili cijene koštanja i prodajne cijene za kategorije transakcija, poduzmite sljedeće korake. 
 

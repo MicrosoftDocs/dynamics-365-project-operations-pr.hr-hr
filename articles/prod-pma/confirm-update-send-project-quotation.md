@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073526"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270804"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Potvrda, ažuriranje i slanje ponude za projekt
 
@@ -37,9 +37,9 @@ Postojeću ponudu projekta možete poslati na potvrdu putem e-pošte ili u ispis
 
 1. Idite na mogućnost **Upravljanje projektima i računovodstvo** > **Ponude** > **Ponude projekta**. 
 2. Na stranici **Ponuda projekta** odaberite ponudu koju želite poslati na potvrdu. 
-3. Na kartici **Daljnje praćenje** , u grupi **Generiraj** , odaberite **Potvrdi**. 
-4. Na stranici **Potvrdi ponudu** postavite potrebne parametre. Na primjer, za ispis potvrde pod mogućnostima **Ispis** uključite **Ispis potvrde** , a zatim odaberite **U redu**.
-5. Na stranici **Pošalji ponudu** odaberite **Mogućnosti** i na stranici **Postavke odredišta ispisa** odaberite želite li poslati ponudu na **Zaslon** , **E-poštu** , **Datoteku** , **Ispis arhive** ili **Pisač** , a zatim izvršite sve prilagodbe koje želite u području **Specifikacija** za usmjeravanje ponude.
+3. Na kartici **Daljnje praćenje**, u grupi **Generiraj**, odaberite **Potvrdi**. 
+4. Na stranici **Potvrdi ponudu** postavite potrebne parametre. Na primjer, za ispis potvrde pod mogućnostima **Ispis** uključite **Ispis potvrde**, a zatim odaberite **U redu**.
+5. Na stranici **Pošalji ponudu** odaberite **Mogućnosti** i na stranici **Postavke odredišta ispisa** odaberite želite li poslati ponudu na **Zaslon**, **E-poštu**, **Datoteku**, **Ispis arhive** ili **Pisač**, a zatim izvršite sve prilagodbe koje želite u području **Specifikacija** za usmjeravanje ponude.
 6. Na stranici **Postavke odredišta ispisa** odaberite **U redu**.  
 
 ## <a name="update-a-project-quotation"></a>Ažuriranje ponude projekta
@@ -53,7 +53,7 @@ Kako biste izmijenili postojeću ponudu projekta, status ponude mora biti **Stvo
 ## <a name="send-a-project-quotation-to-a-customer"></a>Slanje ponude projekta klijentu 
 
 1. Idite na **Upravljanje projektima i računovodstvo** > **Ponude** > **Ponude projekata** i odaberite ponudu projekta koju želite poslati.
-2. Na stranici **Ponude projekata** , na kartici **Ponuda** u grupi **Postupak** , odaberite **Pošalji ponudu**. Status ponude ažurira se na **Poslano**.
+2. Na stranici **Ponude projekata**, na kartici **Ponuda** u grupi **Postupak**, odaberite **Pošalji ponudu**. Status ponude ažurira se na **Poslano**.
 
 > [!NOTE]
 > Ne možete mijenjati ponudu projekta nakon što promijeni status u **Poslano**.

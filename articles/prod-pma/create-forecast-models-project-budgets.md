@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271029"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Stvaranje modela predviđanja za proračune projekata 
 
@@ -41,9 +41,9 @@ U ovoj temi opisan je način stvaranja modela predviđanja za proračunske iznos
 5. Kako biste datum projekta upotrijebili kao datum fakture, mogućnost **Datum predviđanja fakture** na **Da**. 
 6. U polju **Vrsta proračuna** odaberite jednu od sljedećih vrsta modela:
 
-   - **Izvorni proračun** : Upotrijebite izvorne proračunske iznose koji su dodijeljeni tijekom stvaranja i odobravanja početnog proračuna.
-   - **Preostali proračun** : Upotrijebite proračunske iznose koji su preostali tijekom trajanja projekta. Salda u ovom modelu predviđanja smanjuju se stvarnim transakcijama, a povećavaju ili smanjuju revizijama proračuna.
-   - **Preneseni** : Upotrijebite prenesene proračunske iznose za projekt. Prijenos je neobvezan postupak koji se može pokrenuti za prijenos neupotrijebljenih proračunskih iznosa s jedne poslovne godine u drugu.
+   - **Izvorni proračun**: Upotrijebite izvorne proračunske iznose koji su dodijeljeni tijekom stvaranja i odobravanja početnog proračuna.
+   - **Preostali proračun**: Upotrijebite proračunske iznose koji su preostali tijekom trajanja projekta. Salda u ovom modelu predviđanja smanjuju se stvarnim transakcijama, a povećavaju ili smanjuju revizijama proračuna.
+   - **Preneseni**: Upotrijebite prenesene proračunske iznose za projekt. Prijenos je neobvezan postupak koji se može pokrenuti za prijenos neupotrijebljenih proračunskih iznosa s jedne poslovne godine u drugu.
 
 7. Prema potrebi, postavite sljedeće mogućnosti:
 

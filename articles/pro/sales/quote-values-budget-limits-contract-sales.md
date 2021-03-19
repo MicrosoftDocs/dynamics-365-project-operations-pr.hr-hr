@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180935"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272424"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Sažeti podaci i ponuda projekta – jednostavno
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predrač
 
 Ovaj članak pojašnjava informacije koje se primjenjuju na ponudu projekta. To uključuje postavke koje utječu na sve retke ponude i informacije o ponudi koje su sažete u svim stavkama retka za pokretanje KPI-jeva ponude projekta.
 
-Sljedeća tablica navodi sažeta informacijska polja na ponudi projekta koja su jedinstvena za aplikaciju Dynamics 365 Project Operations ili imaju neke važne promjene u ponašanju iz ponuda u aplikaciji Dynamics 365 Sales.
+Tablica u nastavku navodi polja sažetih podataka u ponudi za projekt koja su jedinstvena za aplikaciju Dynamics 365 Project Operations ili imaju neke značajne promjene u ponašanju iz ponuda u aplikaciji Dynamics 365 Sales.
 
 | **Polje** | **Mjesto** | **Opis** | **Utjecaj prema dolje** |
 | --- | --- | --- | --- |

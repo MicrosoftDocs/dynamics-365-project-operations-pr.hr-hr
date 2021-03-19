@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 870a583a4f7c9ed461207f65f267b529580cf02b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180903"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272469"
 ---
 # <a name="project-contract-settings---lite"></a>Postavke ugovora o projektu – jednostavno
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predrač
 
 U ovoj temi nalaze se informacije o poljima koja se primjenjuju na cjelokupni ugovor o projektu, uključujući postavke koje utječu na sve retke ugovora. Uključene su i informacije o ugovoru koje su sažete u svim stavkama retka za pokretanje KPI-jeva ugovora o projektu.
 
-Sljedeća tablica navodi polja na ugovoru o projektu koja su jedinstvena za aplikaciju Dynamics 365 Project Operations ili imaju neke bitne promjene u ponašanju iz ponuda za prodaju u aplikaciji Dynamics 365 Sales.
+Tablica u nastavku prikazuje polja u ugovoru o projektu koja su jedinstvena za aplikaciju Dynamics 365 Project Operations ili imaju neke značajne promjene u ponašanju iz prodajnih naloga u aplikaciji Dynamics 365 Sales.
 
 | Polje | Lokacija | Opis | Utjecaj na niže razine |
 | --- | --- | --- | --- |
