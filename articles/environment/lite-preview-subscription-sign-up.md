@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175882"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290035"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Prijava za pretplatu na pretpregled – jednostavno 
 
-U ovoj temi pojašnjava se način pretplate na pretpregled ponude partnera i implementacije jednostavne aplikacije Dynamics 365 Project Operations – od sklapanja posla do predračuna.
+U ovoj temi objašnjava se način za pretplatu na pretpregled ponude partnera i implementaciju osnovne aplikacije Dynamics 365 Project Operations – od sklapanja posla do predračuna.
 
 > [!NOTE]
 > Ovaj će se postupak promijeniti u predstojećim izdanjima aplikacije Project Operations.
@@ -32,17 +32,17 @@ U ovoj temi pojašnjava se način pretplate na pretpregled ponude partnera i imp
 
 Kada primite odobrenje [zahtjeva za pretpregled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), e-poštom ćete primiti dvije ponude od tvrtke Microsoft. Te ponude omogućuju vam postavljanje pretpregleda aplikacije Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – Probni pretpregled
+- Dynamics 365 Project Operations (CRM) – probni pretpregled
 - Office 365 Project Operations –Probni pretpregled
 
 > [!IMPORTANT]
 > Samo jedna osoba u tvrtki ili ustanovi, administrator klijenta, mora izvršiti ovaj zadatak. Ako niste pretplatnik na ovo izdanje, pričekajte dok se vaša tvrtka ili ustanova ne prijavi i ne dobijete svoje vjerodajnice.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Probni pretpregled 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – probni pretpregled 
 
 Prije nego što započnete, provjerite jeste li prijavljeni u preglednik s korisničkim radnim računom na klijentu u kojem želite pretpregled aplikacije Project Operations.
 
-1. Iskoristite kod iz prvu ponude, **Dynamics 365 Project Operations (CRM) – Probni pretpregled** tako da ga zalijepite u URL-adresu preglednika.
+1. Iskoristite kod prve ponude, **Dynamics 365 Project Operations (CRM) – Pretpregled probe** tako da ga zalijepite na URL-adresu preglednika.
 
 ![Korištenje ponude](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Ponovite iste korake kao i s prvim kodom ponude. Obvezno dodajte kod iz druge po
 
 ![Dodjela licenci](./media/15AssignLicenses.png)
 
-3. Provjerite jesu li odabrane licence **Pretpregled aplikacije Dynamics 365 Project Operations (CRM)** i **Office 365 Projektne operacije – Pretpregled**. 
+3. Provjerite jesu li odabrane licence za **Pretpregled aplikacije Dynamics 365 Project Operations (CRM)** i **Office 365 Project Operations – pretpregled**. 
 4. Odaberite **Spremi promjene**.
 
 ## <a name="create-a-new-cds-environment"></a>Stvaranje novog CDS okruženja
@@ -84,7 +84,7 @@ Ponovite iste korake kao i s prvim kodom ponude. Obvezno dodajte kod iz druge po
 
 ![Dodaj bazu podataka](./media/20CreateEnvironment1.png)
 
-4. Nakon stvaranja okruženja, instalirajte rješenje **Microsoft Dynamics 365 Project Operations** . 
+4. Nakon stvaranja okruženja, instalirajte rješenje **Microsoft Dynamics 365 Project Operations**. 
 
 ![Instalacija rješenja](./media/21InstallSolution.png)
 

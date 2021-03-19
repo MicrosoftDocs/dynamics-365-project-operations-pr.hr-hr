@@ -1,6 +1,6 @@
 ---
 title: Stvarni podaci
-description: U ovoj temi nalaze se informacije o načinu rada sa stvarnim podacima u aplikaciji Microsoft Dynamics 365 Project Operations.
+description: U ovoj temi nalaze se informacije o radu sa stvarnim podacima u aplikaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126294"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291790"
 ---
 # <a name="actuals"></a>Stvarni podaci 
 
@@ -70,7 +70,7 @@ Unosi zadanih cijena troška po jedinici koji se temelje na unosu na temelju kat
 Temeljnice za unos možete upotrebljavati za bilježenje troška ili prihoda u razredima materijala, naknade, vremena, troška ili porezne transakcije. Temeljnice se mogu upotrebljavati u sljedeće svrhe:
 
 - Bilježite stvarni trošak materijala i prodaje na projektu.
-- Premještajte stvarne vrijednosti transakcije iz drugog sustava u aplikaciju Microsoft Dynamics 365 Project Operations.
+- Premjestite stvarne vrijednosti transakcije iz drugog sustava u aplikaciju Microsoft Dynamics 365 Project Operations.
 - Bilježite troškove koji su se dogodili u drugom sustavu. Ti troškovi mogu uključivati troškove nabave ili podugovaranja.
 
 > [!IMPORTANT]
