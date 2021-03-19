@@ -3,17 +3,17 @@ title: Ponašanje korisničkog sučelja za unos vremena
 description: U ovoj temi nalaze se informacije o ponašanju korisničkog sučelja za unos vremena.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124494"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499605"
 ---
 # <a name="time-entry-ui-behavior"></a>Ponašanje korisničkog sučelja za unos vremena
 
@@ -21,6 +21,19 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 
 Rešetka **Tjedni unos vremena** prilagođena je kontrola koja ima dva glavna odjeljka, **Dimenzije** i **Trajanje**.
+
+## <a name="keyboard-shortcuts"></a>Tipkovni prečaci
+| Akcija        | Prečac                  |
+|------------   |------------------------   |
+| Novo           | Alt + Shift + n           |
+| Kopiraj redak      | Alt + Shift + c           |
+| Uredi unos    | Alt + Shift + e           |
+| Uredi redak      | Alt + Shift + Ctrl + e    |
+| Otvori unos    | Alt + Shift + o           |
+| Slanje        | Alt + Shift + s           |
+| Opoziv        | Alt + Shift + r           |
+| Izbriši        | Alt + Shift + d           |
+| Kopiraj tjedan     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimenzije
 U odjeljku **Dimenzije** prikazuju se sve dimenzije prema kojima se može unijeti vrijeme. Sljedeće dimenzije podržane su kao gotova rješenja:

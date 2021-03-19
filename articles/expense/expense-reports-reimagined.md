@@ -1,9 +1,9 @@
 ---
-title: Izmijenjena izvješća o izdacima
-description: U ovoj temi nalaze se informacije o redizajniranom i ponovno osmišljenom iskustvu za unos izvješća o troškovima.
+title: Izmijenjena izvješća o troškovima
+description: U ovoj temi objašnjava se redizajnirano i ponovno zamišljeno iskustvo za unos izvješća o troškovima.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122784"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499707"
 ---
 # <a name="expense-reports-reimagined"></a>Izmijenjena izvješća o izdacima
 
@@ -59,25 +59,22 @@ Kako biste uključili novo iskustvo, upotrijebite radni prostor **Upravljanje zn
 | Smanjivanje broja poruka na traci s porukama| Smanjen je broj poruka informativnog dnevnika, a u mnogim se slučajevima nastojalo spriječiti prikazivanje dupliciranih poruka. |
 | Grupirane uobičajenih radnji | Sučelje je očišćeno dodavanjem novog gumba za radnje za većinu uobičajenih radnji na razini retka i dodavanjem gumba s tri točke (...) za zaglavlje i druge rjeđe radnje. |
 | Novi radni prostor za povećanje vidljivosti | Novi radni prostor objedinjuje značajke i veze koje korisnicima omogućuju kretanje različitim područjima. |
-| Dodavanje postojećih troškova i računa tijekom stvaranja troškova | Kada izrađujete izvješća o troškovima, možete dodati sve ili odabrane troškove i račune. |
+| Dodavanje postojećih troškova i računa tijekom stvaranja troškova | Kada stvarate izvješća o troškovima, možete dodati sve troškove ili odabrati nevezane troškove. Neraspoređeni troškovi su troškovi uvezeni iz izdataka po kreditnoj kartici poduzeća ili troškovi koje je korisnik ručno stvorio, ali nisu priloženi izvješću o troškovima.|
 | Kalkulator tečaja | Dodan je kalkulator tečaja koji vam omogućuje izračun deviznog tečaja za viševalutne transakcije neposrednih troškova. |
 | Spremanje i dodavanje novih redaka troškova | Gumbi **Spremi** i **Novo** dostupni su kada se unose novi troškovi, što vam pomaže pri brzom unosu redaka troškova. |
 | Bolja vidljivost unutar razdvojenih i specificiranih redaka | Specificirani i razdvojeni redci dodaju se izravno na popis troškova kako bi se povećala vidljivost i olakšalo utvrđivanje postojanja pogrešaka. |
 | Prikaz računa tijekom specificiranja | Tijekom specificiranja mogu se prikazati računi. |
+| Odabir gotovinskog predujma | Odaberite jedan ili više gotovinskih predujmova za ispunjenje jedne transakcije troškova. |
+| Saldo gotovinskog predujma | Pregledajte saldo gotovinskog predujma u stvarnom vremenu kada stvarate unos troška u odnosu na odobrene i plaćene gotovinske predujmove. |
 
 Početno izdanje usredotočeno je na scenarije unosa troškova. Svaki scenarij pregleda ili odobrenja izvješća o troškovima i dalje će upotrebljavati postojeću stranicu unosa troškova.
 
-Sljedeće značajke postoje na postojećoj stranici, ali ih još nema na novoj. Te će se značajke ponovno uvesti tijekom sljedećih nekoliko izdanja:
+Sljedeće značajke nisu podržane u aplikaciji Ponovno osmišljen radni prostor za trošak:
 
-- Odobrenja
-- Odobrenja dugovanja i mogućnost uređivanja računovodstva
-- Više točki unosa
 - Integracija putnog naloga
-- Entitet podataka za vidljivost polja troškova
-- Ulaz za troškove dnevnice
-- Tijek rada na razini retka
+- Unos troška dnevnice
 - Privremena podrška odobravatelja
-- Napredno specificiranje
+- Mogućnost pregleda povijesti tijeka rada
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
