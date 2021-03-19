@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147689"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283269"
 ---
 # <a name="reporting-home-page"></a>Početna stranica izvješćivanja
 
@@ -43,7 +43,7 @@ Ako vaše poslovanje zahtijeva određeno izvješće koje se ne može izraditi po
 
 ## <a name="power-bi-insights-apps"></a>Aplikacije za uvide Power BI
 
-Microsoft Power BI i Dynamics 365 vam omogućuju napredan način rada s podacima, i to u obliku aplikacija za uvide. Informacije o raspoloživosti aplikacija za uvide potražite na [stranici s aplikacijama za uvide Power BI](https://powerbi.microsoft.com/power-bi-insights-apps/).
+Microsoft Power BI i Dynamics 365 zajedno, omogućuju vam napredan način rada s podacima, i to u obliku aplikacija za uvide. Informacije o raspoloživosti aplikacija za uvide potražite na [stranici s aplikacijama za uvide Power BI](https://powerbi.microsoft.com/power-bi-insights-apps/).
 
 
 ## <a name="additional-resources"></a>Dodatni resursi
