@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131964"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287634"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfiguracija računovodstva za naplative projekte
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Dynamics 365 Project Operations podržava razne mogućnosti računovodstva za naplative projekte koji uključuju vrijeme i materijal te transakcije s nepromjenjivom cijenom.
+Dynamics 365 Project Operations podržava razne računovodstvene mogućnosti za naplative projekte koji uključuju vrijeme i materijal i transakcije s fiksnom cijenom.
 
 - **Vremenske i materijalne transakcije**: Ove transakcije fakturiraju se tijekom rada na temelju potrošnje sati, troškova, predmeta ili naknada na projektu. Ovi transakcijski troškovi mogu se uskladiti s prihodom od svake transakcije, a projekt se fakturira tijekom rada. Prihod od projekta također može biti obračunan u trenutku kada se transakcija dogodi. Tijekom fakturiranja prihod se priznaje i, ako je primjenjivo, obračunani se prihod stornira.
 - **Transakcije s nepromjenjivom cijenom**: Te se transakcije fakturiraju prema rasporedu naplate koji se temelji na ugovoru o projektu. Prihod za transakcije s nepromjenjivom cijenom može se priznati na fakturiranju ili izračunati i knjižiti periodično, u skladu s načinom **Završen ugovor** ili **Postotak dovršenosti**.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131514"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286824"
 ---
 # <a name="maintain-team-members"></a>Održavanje članova tima
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Možete dodati imenovani resurs projektnom timu tako da ga izravno rezervirate za tim.
 
-1. U aplikaciji Dynamics 365 Project Operations, idite na **Projekti** i odaberite otvori projekt za koji rezerviraš.
+1. U programu Dynamics 365 Project Operations, idite na **Projekti** i odaberite otvaranje projekta za koji rezervirate.
 2. Na stranici **Projekt**, na kartici **Tim**, odaberite **Novo**. 
 3. U dijaloškom okviru **Brza izrada člana projektnog tima** odaberite resurs koji se može rezervirati. Polje **Uloga** popunit će se zadanom ulogom resursa ako mu je dodijeljena jedna. Ulogu možete promijeniti. 
 4. Odaberite početni i završni datum koji će biti potrebni za resurs i odaberite način dodjele kapaciteta resursa. 

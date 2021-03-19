@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131694"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287049"
 ---
 # <a name="expense-estimates"></a>Procjena troška
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Uz definiranje procjena koje se temelje na resursu, Dynamics 365 Project Operations omogućuje voditeljima projekata definiranje troškova koji se temelje na projektu za svaki projekt. Svaka stavka troška može se povezati s određenim projektnim zadatkom ili kategorijom troška. Kategorije troškova obično se definiraju na organizacijskoj razini. Određivanje cijene za svaku kategoriju troška obično su definirane u sljedećoj hijerarhiji:
+Uz definiranje procjena na temelju resursa, Dynamics 365 Project Operations omogućuje Voditeljima projekata da definiraju troškove koji se temelje na projektu za svaki projekt. Svaka stavka troška može se povezati s određenim projektnim zadatkom ili kategorijom troška. Kategorije troškova obično se definiraju na organizacijskoj razini. Određivanje cijene za svaku kategoriju troška obično su definirane u sljedećoj hijerarhiji:
 
 - Organizacija
 - Klijent

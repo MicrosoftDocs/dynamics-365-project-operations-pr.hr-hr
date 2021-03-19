@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ea04178d4327ccd701ab431f172463a13a55154e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132369"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287589"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Konfiguracija računovodstva za interne projekte
 
@@ -24,7 +24,7 @@ Interni projekti omogućuju tvrtkama praćenje troškova povezanih s aktivnostim
 - Razvoj proizvoda, poput mobilne aplikacije, i praćenje troškova povezanih s razvojem.
 - Upravljanje vremenom i troškovima pretprodaje. Ovaj pretprodajni interni projekt može se kasnije pretvoriti u projekt koji se može naplatiti ako se prihvati ponuda.
 
-Svaki projekt koji nije povezan s ugovorom u programu Dynamics 365 Project Operations tretira se kao interni. Profili troškova i prihoda projekta ne upotrebljavaju se za određivanje računovodstvenih pravila za projektne. Interni trošak projekta uvijek se knjiži s pomoću načela dobiti i gubitka. Računi glavne knjige za knjiženja definirani su na stranici **Postavljanje knjiženja u Glavnoj knjizi**.
+Svaki projekt koji u aplikaciji Dynamics 365 Project Operations nije povezan s ugovorom, tretira se kao interni. Profili troškova i prihoda projekta ne upotrebljavaju se za određivanje računovodstvenih pravila za projektne. Interni trošak projekta uvijek se knjiži s pomoću načela dobiti i gubitka. Računi glavne knjige za knjiženja definirani su na stranici **Postavljanje knjiženja u Glavnoj knjizi**.
 
 - Vremenske transakcije knjiže se terećenjem računa **Trošak** i kreditiranjem računa **Raspodjela plaća**.
 - Troškovne transakcije knjiže se terećenjem računa **Trošak** i kreditiranjem računa **Račun poravnanja za troškove**.
