@@ -1,26 +1,26 @@
 ---
-title: Potvrda predračuna – jednostavno
-description: U ovoj temi nalaze se informacije o potvrđivanju predračuna u rješenju Project Operations.
+title: Potvrda predračuna za projekt
+description: U ovoj temi nalaze se informacije o potvrđivanju predračuna za projekt u aplikaciji Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274269"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867077"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Potvrda predračuna – jednostavno
+# <a name="confirm-a-proforma-project-invoice"></a>Potvrda predračuna za projekt 
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 
-Nakon potvrde predračuna status fakture za projekt ažurira se na **Potvrđeno**. Kad se faktura potvrdi, postaje samo za čitanje. Ubuduće se faktura može ispraviti samo ako postoje ispravke ili dugovanja koje je pokrenuo klijent, ako je faktura označena kao plaćena.
+Nakon potvrde predračuna status fakture za projekt ažurira se na **Potvrđeno**. Kad se faktura potvrdi, postaje samo za čitanje. Ubuduće se faktura može ispraviti samo ako postoje ispravke ili krediti koje je pokrenuo klijent.
 
 Sljedeća tablica navodi stvarne podatke koje je stvorio sustav. Ti se stvarni podaci stvaraju kada se izvrše određene radnje na nacrtu fakture za projekt prije nego što se ona potvrdi.
 
@@ -225,6 +225,70 @@ Storniranje nenaplaćene prodaje za količinu i iznos na izvornom odobrenju tro�
             <td width="408" valign="top">
                 <p>
 Novi stvarni podatak o nenaplaćenoj prodaji koji se naplaćuje za količinu i iznos za pojedinosti retka uređene fakture, storniranje stvarnog podatka o nenaplaćenoj prodaji i ekvivalent stvarnom podatku naplaćene prodaje. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturiranje transakcije materijala bez ikakvih izmjena na skici fakture.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje nenaplaćene prodaje za količinu i iznos na originalnom odobrenju za utrošeni materijal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Naplaćena stvarna prodaja za količinu i iznos na originalnom odobrenju za utrošeni materijal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturiranje transakcije materijala koja je uređena kako bi se smanjila količina.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje nenaplaćene prodaje za količinu i iznos na originalnom odobrenju vremena.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi stvarni podatak o nenaplaćenoj prodaji koji se naplaćuje za količinu i iznos za pojedinosti retka uređene fakture, storniranje stvarnog podatka o nenaplaćenoj prodaji i ekvivalent stvarnom podatku naplaćene prodaje.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi stvarni podatak o nenaplaćenoj prodaji koji se ne naplaćuje za preostalu količinu i iznos nakon odbijanja ispravljenih brojki u pojedinosti retka uređene fakture, storniranje stvarnog podatka o nenaplaćenoj prodaji i ekvivalent stvarnom podatku naplaćene prodaje.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturiranje transakcije materijala koja je uređena kako bi se povećala količina.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje nenaplaćene prodaje za količinu i iznos na originalnom odobrenju za utrošeni materijal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi stvarni podatak o nenaplaćenoj prodaji koji se naplaćuje za količinu i iznos za pojedinosti retka uređene fakture, storniranje stvarnog podatka o nenaplaćenoj prodaji i ekvivalent stvarnom podatku naplaćene prodaje.
                 </p>
             </td>
         </tr>

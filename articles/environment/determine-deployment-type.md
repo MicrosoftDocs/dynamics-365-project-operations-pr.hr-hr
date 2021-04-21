@@ -3,17 +3,17 @@ title: Odredite vrstu implementacije
 description: U ovoj temi nalaze se informacije koje vam pomažu pri određivanju ispravne vrste implementacije projektnih operacija za vašu tvrtku.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479555"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663585"
 ---
 # <a name="determine-your-deployment-type"></a>Odredite vrstu implementacije
 
@@ -44,9 +44,9 @@ Naš [Upitnik za raspoređivanje](https://aka.ms/provisionprojectoperations) pom
 - [Project Operations za scenarije temeljene na resursima / bez zaliha](#integrated)
 - [Project Operations za scenarije temeljene na zalihama / radnim nalozima](#pma)
 
-Project Operations podržava scenarije sa zalihama / proizvodnim nalozima i scenarije bez zaliha / na temelju resursa u istom okruženju putem konfiguracija na razini pravne osobe. Na primjer, Contoso može upotrebljavati mogućnosti skladištenja/narudžbe u svom američkom proizvodnom pogonu (pravna osoba = Contoso Manufacturing United States). Contoso može upotrebljavati mogućnosti koje nisu skladišne / koje su zasnovane na resursima u svojem servisnom pogonu Contoso Robotics Arms u Velikoj Britaniji (pravna osoba = Contoso Robotics Ujedinjeno Kraljevstvo).
+Project Operations podržava scenarije sa zalihama / proizvodnim nalozima i scenarije bez zaliha / na temelju resursa u istom okruženju putem konfiguracija na razini pravne osobe. Na primjer, Contoso može upotrebljavati mogućnosti narudžbe iz skladišta/proizvodnje u svom američkom proizvodnom pogonu (pravna osoba = Contoso proizvodnja Sjedinjene Države). Contoso može upotrebljavati mogućnosti bez zaliha / na temelju resursa u svojem servisnom objektu Contoso Robotics Arms u Velikoj Britaniji (pravna osoba = Contoso Robotics Ujedinjeno Kraljevstvo).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Jednostavna implementacija – od sklapanja dogovora do predračuna
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Osnovna implementacija – od sklapanja posla do predračuna
 
 Jednostavna implementacija uključuje sljedeće mogućnosti:
 
@@ -56,7 +56,7 @@ Jednostavna implementacija uključuje sljedeće mogućnosti:
 - Objedinjeno upravljanje resursima
 - Praćenje vremena
 - Osnovni trošak
-- Predračun i fakturiranje prema klijentima 
+- Predračun za pregled i uređivanje od strane voditelja projekta 
 
 #### <a name="deployment-steps"></a>Koraci implementacije
 Odredite najbolji model implementacije aplikacije Project Operations s pomoću odjeljka [Upitnik za implementaciju](https://aka.ms/provisionprojectoperations).
@@ -89,12 +89,12 @@ Za ovu implementaciju pogledajte odjeljke [Prijava za pretplate na pretpregled](
 - Planiranje projekta s pomoću WBS-a
 - Upravljanje resursima
 - Praćenje vremena
-- Puni izdatak
+- Puni trošak
 - OCR računa
 - Potpuno fakturiranje
 - Priznavanje prihoda
 - Proizvodni nalozi
-- Podrška za materijale
+- Podrška materijalima na zalihi s inventarom
 
 #### <a name="deployment-steps"></a>Koraci implementacije
 Odredite najbolji model implementacije aplikacije Project Operations s pomoću odjeljka [Upitnik za implementaciju](https://aka.ms/provisionprojectoperations).

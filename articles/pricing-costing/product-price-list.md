@@ -3,7 +3,7 @@ title: Cjenici proizvoda
 description: U ovoj se temi nalaze informacije o cjenicima u određivanju kataloških cijena koje se upotrebljavaju u ponudama za projekt i ugovore o projektu.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275349"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877481"
 ---
 # <a name="product-price-lists"></a>Cjenici proizvoda
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Cjenici i entiteti stavki cjenika podržavaju određivanje cijena kataloga proizvoda. Ova se funkcija uglavnom upotrebljava za retke temeljene na katalogu u ponudama projekata i ugovorima o projektu.
-
-Za retke temeljene na projektu ugovor nakon sklapanja predstavlja dogovor. Budući da sklapanju ugovora obično prethodi postupak pregovoranja, cijena pridružena ponudi uvijek se kopira kakva jest u novi cjenik i prilaže se ugovoru. Taj novi cjenik ne može se promijeniti izvan opsega ugovora. To ograničenje pomaže zaštititi ispregovaranu cijenu od promjena cijena koje se pojavljuju u glavnom cjeniku.
+ **Cjenici proizvoda** u aplikaciji Project Operations i povezani entiteti stavke cjenika podržavaju funkcionalnost za određivanje cijena proizvoda na ponudama i redcima ugovora koji se temelje na proizvodu. Za proizvode koji se upotrebljavaju na projektima upotrebljavaju se zapisi stavki cjenika za cjenike projekata. 
 
 Proizvodi se trebaju postaviti tako da sadrže zadani trošak i cjenike u katalogu proizvoda. Upotrebljavajte kataloške cijena, standardni trošak i trenutačni trošak kako biste konfigurirali zadani trošak i kataloških cijena. Zadane kataloške cijene koriste se u retku ponude ili u retku ugovora o projektu samo ako sustav ne može pronaći redak cjenika za taj proizvod u cjeniku proizvoda za ponudu ili ugovor o projektu.
 
@@ -40,9 +38,7 @@ Cijena koštanja redaka kataloga proizvoda može se promijeniti između ponuda. 
 
 Proizvode iz kataloga proizvoda možete dodavati na različite cjenike. Reci cjenika za proizvode uvijek upućuju na određenu jedinicu. Cijena za proizvod u stavkama cjenika može se konfigurirati kao iznos valute. Ili se može konfigurirati kao funkcija kataloške cijene, trenutačnog troška ili standardnog troška.
 
-PSA podržava različite mogućnosti zaokruživanja kada su cijene konfigurirane kao funkcija kataloške cijene, trenutačnog troška ili standardnog troška. Uz iskorištavanje prednosti više načina određivanja cijena i mogućnosti zaokruživanja, popise popusta možete povezati sa stavkama cjenika. 
-
-Kada stvarate novi prilagođeni cjenik za ponudu odabirom mogućnosti **Stvori prilagođeno određivanje cijena** na stranici **Ponuda za projekt**, napravljena je kopija cjenika, a polje **Entitet** u zaglavlju novog cjenika postavlja se na **Prodajni entitet**. Naziv novog cjenika dodaje se s nazivom ponude i vremenskom oznakom. Također možete koristiti naziv novog cjenika i naziv ponude u prilagođenim tijekovima rada za pokretanje dodatnog pregleda i odobrenja za ponude koje koriste prilagođeno određivanje cijena.
+Funkcionalnost određivanja cijena podržava različite mogućnosti zaokruživanja kada su cijene proizvoda konfigurirane kao funkcija kataloške cijene, standardnog ili trenutačnog troška. Uz iskorištavanje prednosti više načina određivanja cijena i mogućnosti zaokruživanja, popise popusta možete povezati sa stavkama cjenika. 
 
  
 ## <a name="default-product-price-list"></a>Zadani cjenik proizvoda
@@ -57,7 +53,7 @@ Entiteti Prilika, Ponuda i Ugovor o projektu koriste sljedeću ponudu za unos za
 
 Prema zadanim postavkama polje **Proizvod** u retku ponude popisuje sve aktivne proizvode u cjeniku proizvoda ponude. Ako je proizvod neaktivan ili je skica proizvoda, ne navodi se na popisu, čak i ako je naveden u cjeniku. 
 
-Reci kataloga proizvoda dodaju se kao reci fakture u prvoj fakturi koja se izrađuje za ugovor o projektu. U skici fakture ti se reci fakture mogu izbrisati. U tom će se slučaju reci prikazati u sljedećoj fakturi dok se ne fakturiraju ili dok se faktura ne pošalje klijentu. Ne možete fakturirati djelomičnu količinu retka fakture za proizvod. Kada se reci proizvoda iz ugovora o projektu fakturiraju, izrađuju se stvarni podaci. Međutim, ti stvarni podaci ne povezuju se s povezanim entitetom projekta. Drugim riječima, reci projekta temeljeni na proizvodu neovisni su o bilo kakvoj upotrebi temeljenoj na projektu. Potrošnju materijala u projektima se ne prati.
+Reci kataloga proizvoda dodaju se kao reci fakture u prvoj fakturi koja se izrađuje za ugovor o projektu. U skici fakture ti se reci fakture mogu izbrisati. U tom će se slučaju reci prikazati u sljedećoj fakturi dok se ne fakturiraju ili dok se faktura ne pošalje klijentu. Ne možete fakturirati djelomičnu količinu retka fakture za proizvod. Kada se reci proizvoda iz ugovora o projektu fakturiraju, izrađuju se stvarni podaci. Međutim, ti stvarni podaci ne povezuju se s povezanim entitetom projekta. Drugim riječima, reci projekta temeljeni na proizvodu neovisni su o bilo kakvoj upotrebi temeljenoj na projektu. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

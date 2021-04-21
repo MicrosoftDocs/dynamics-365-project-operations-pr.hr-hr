@@ -1,21 +1,21 @@
 ---
-title: Pregled praćenja projekta
-description: Ova tema pruža informacije o tome kako pratiti napredak projekta i potrošnju troškova.
+title: Praćenje rada na projektu
+description: U ovoj temi nalaze se informacije o načinu praćenja rada na projektu i napretka posla.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286599"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710931"
 ---
-# <a name="project-tracking-overview"></a>Pregled praćenja projekta
+# <a name="project-effort-tracking"></a>Praćenje rada na projektu
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
@@ -26,50 +26,28 @@ Potreba praćenja napretka u odnosu na raspored razlikuje se ovisno o djelatnost
 Prikaz **Praćenje rada** prati napredak zadataka u rasporedu uspoređujući stvarne radne sate utrošene na zadatak s planiranim radnim satima za zadatak. Dynamics 365 Project Operations upotrebljava sljedeće formule za izračun mjernih podataka o praćenju:
 
 - **Postotak dovršenosti**: stvarni rad utrošen do datuma ÷ predviđen za dovršetak (EAC, Estimate at complete) 
-- **Predviđen za dovršetak (ETC)**: planirani rad – stvarni rad utrošen do datuma 
+- **Preostali rad**: Procijenjeni rad po završetku – stvarni rad izvršen do danas 
 - **EAC**: preostali rad + stvarni rad do datuma 
 - **Predviđeno odstupanje rada**: planirani rad – EAC
 
 Project Operations prikazuje predviđanje odstupanja rada u zadatku. Ako je EAC veći od planiranog rada, predviđa se da će zadatak potrajati dulje nego što je prvotno planirano i da zaostaje za rasporedom. Ako je EAC manji od planiranog rada, predviđa se da će zadatak potrajati kraće nego što je prvotno planirano i da je ispred roka.
 
-## <a name="reprojecting-effort"></a>Ponovno predviđanje rada
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Ponovno projektiranje rada na zadacima lisnih čvorova
 
-Upravitelji projekta često revidiraju izvorne procjene o zadatku. Ponovna predviđanja projekta proizlaze iz procjena upravitelja projekta s obzirom na trenutačno stanje projekta. Međutim, ne preporučujemo da voditelji projekata mijenjaju osnovne brojeve. To je zbog toga što osnova projekta predstavlja utvrđeni izvor podataka za raspored projekta i procjenu troškova oko koje su se sve zainteresirane strane dogovorile.
+Upravitelji projekta često revidiraju izvorne procjene o zadatku. Ponovna predviđanja projekta proizlaze iz procjena upravitelja projekta s obzirom na trenutačno stanje projekta. Međutim, ne preporučujemo da voditelji projekata mijenjaju planirane količine rada. To je zbog toga što planirani rad na projektu predstavlja utvrđeni izvor istine za raspored projekta i procjenu troška, a svi su se dionici projekta složili s tim.
 
-Postoje dva načina na koja upravitelj projekta može ponovno predvidjeti rad na zadacima:
-
-- Nadjačajte zadani ETC novom procjenom stvarnog preostalog rada zadatka. 
-- Nadjačajte zadani postotak napretka novom procjenom stvarnog napretka zadatka.
-
-Svaki pristup uzrokuje ponovno izračunavanje ETC-a, EAC-a i postotka napretka zadatka te predviđena odstupanja rada na zadatku. EAC, ETC i postotak napretka na zadacima sažetka također se ponovno izračunavaju i stvara se novo predviđanje odstupanja rada.
+Voditelj projekta može ponoviti projektiranje rada na zadacima ažuriranjem zadanog **Preostalog rada** s novom procjenom zadatka. Ovo ažuriranje uzrokuje ponovno izračunavanje procjene po završetku zadatka (EAC, estimate at complete), postotka napretka i odstupanje projektnog rada na zadatku. EAC, ETC i postotak napretka na zadacima sažetka također se ponovno izračunavaju i stvara se novo predviđanje odstupanja rada.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Ponovno predviđanje rada na zadacima sažetka
 
-Rad na zadacima sažetka ili zadacima spremnika može se ponovno predvidjeti. Bez obzira na to hoće li korisnik izvršiti ponovno predviđanje pomoću preostalog rada ili postotka napretka na zadacima sažetka, pokreće se sljedeći skup izračuna:
+Rad na zadacima sažetka ili zadacima spremnika može se ponovno predvidjeti. Voditelji projekata mogu ažurirati preostali rad na zadacima sažetaka. Ažuriranje preostalog rada pokreće sljedeći skup izračuna u aplikaciji:
 
-- Izračunačava se EAC, ETC i postotak napretka na zadatku.
+- Izračunava se EAC i postotak napretka na zadatku.
 - Novi EAC distribuira se na podređene zadatke u istom omjeru kao izvorni EAC na zadatku.
 - Izračunava se novi EAC za svaki od pojedinačnih zadataka lisnih čvorova. 
-- ETC i postotak napretka za zahvaćene podređene zadatke lisnih čvorova ponovno se izračunavaju na temelju vrijednosti EAC-a. To rezultira novim predviđanjem za odstupanje rada zadatka. 
+- Preostali rad i postotak napretka zahvaćenih podređenih zadataka niz lisne čvorove ponovno se izračunavaju na temelju vrijednosti EAC-a. To rezultira novim predviđanjem za odstupanje rada zadatka. 
 - Ponovno se izračunavaju EAC-ovi zadataka sažetka sve do korijenskog čvora.
 
-### <a name="cost-tracking-view"></a>Prikaz praćenja troškova 
-
-Prikaz **Praćenje troškova** uspoređuje stvarni trošak koji je potrošen na zadatak s planiranim troškom zadatka. 
-
-> [!NOTE]
-> Ovaj prikaz prikazuje samo troškove rada i ne uključuje troškove iz procjena troškova. Project Operations upotrebljava sljedeće formule za izračun mjernih podataka o praćenju:
-
-- **Postotak utrošenog troška**: stvarni trošak utrošen do datuma ÷ procijenjeni trošak na završetku zadatka
-- **Trošak za dovršetak (CTC)**: planirani trošak – stvarni trošak do datuma
-- **EAC**: preostali troškovi + stvarni troškovi potrošeni do datuma
-- **Predviđeno odstupanje troškova**: planirani trošak – EAC
-
-Predviđanje odstupanja troškova prikazuje se u zadatku. Ako je EAC veći od planiranog troška, predviđa se da će zadatak imati veći trošak nego što je izvorno planirano. Stoga postoji tendencija premašivanja proračuna. Ako je EAC manji od planiranog troška, predviđa se da će zadatak imati manji trošak nego što je izvorno planirano. Stoga postoji tendencija neiskorištavanja proračuna.
-
-## <a name="project-managers-reprojection-of-cost"></a>Ponovno predvđanje troškova od strane upravitelja projekta
-
-Kada se rad ponovno predvidi, CTC, EAC, postotak potrošenog troška i predviđeno odstupanje troška ponovno se izračunavaju u prikazu **Praćenje troškova**.
 
 ## <a name="project-status-summary"></a>Sažetak statusa projekta
 

@@ -1,23 +1,23 @@
 ---
-title: Konfiguriranje naplative komponente retka ponude – jednostavno
+title: Konfiguriranje naplative komponente retka ponude
 description: U ovoj temi nalaze se informacije o postavljanju naplativih i nenaplativih komponenti na retku ponude koji se temelji na projektu.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273864"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858284"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfiguriranje naplative komponente retka ponude – jednostavno
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfiguriranje naplative komponente retka ponude 
 
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Primjenjuje se na:** Osnovna implementacija – od dogovora do predračuna, Project Operations za scenarije koji se temelje na resursima / bez zaliha_
 
 Redak ponude koji se temelji na projektu ima koncept *uključenih* komponenti i *naplativih* komponenti.
 
@@ -42,7 +42,7 @@ Mogućnost naplate definirana je u kategorijama transakcije za redak ponude i pr
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Ažuriranje projektnog zadatka kako bi bio naplativ ili nenaplativ
 
-Projektni zadatak može biti naplativ ili nenaplativ u kontekstu određenog retka ponude koji se temelji na projektu, što omogućuje sljedeće postavljanje:
+Projektni zadatak može biti naplativ ili nenaplativ u kontekstu određenog retka ponude koji se temelji na projektu, što omogućuje sljedeće postavljanje.
 
 Ako redak ponude koji se temelji na projektu uključuje **Vrijeme** i zadatak **T1**, zadatak je povezan s retkom ponude kao naplativ. Ako postoji drugi redak ponude koji uključuje stavku **Troškovi**, možete povezati zadatak **T1** s retkom ponude kao nenaplativ. Rezultat je da se svo vrijeme zabilježeno na zadatku naplaćuje, dok se svi troškovi zabilježeni na zadatku ne naplaćuju.
 
@@ -61,22 +61,575 @@ Kategorije transakcije može biti naplativa ili nenaplativa na određenom retku 
 Vrsta naplate transakcije može se konfigurirati na kartici **Naplative kategorije** retka ponude ažuriranjem polja **Vrsta naplate** u podrešetki **Naplative kategorije**.
 
 ### <a name="resolve-chargeability"></a>Rješavanje naplativosti
-Procijenjeno ili stvarno stvoreno vrijeme smatrat će se naplativima samo ako je **Vrijeme** uključeno u redak ponude i ako su **Zadatak** i **Uloga** konfigurirani kao naplativi u retku ponude.
+Procjena ili stvarni podatak stvoren za vrijeme smatrat će se naplativim samo ako je:
 
-Procijenjen ili stvarno stvoren trošak smatrat će se naplativim samo ako je **Trošak** uključen u redak ponude i ako su **Zadatak** i **Kategorija transakcije** konfigurirani kao naplativi u retku ponude.
+   - **Vrijeme** uključeno u redak ponude.
+   - **Uloga** konfigurirana kao naplativa u retku ponude.
+   - Mogućnost **Uključeni zadaci** postavljena na **Odabrani zadaci** u retku ponude. 
 
-| Uključuje Vrijeme | Uključuje Trošak | Uključeni zadaci | Uloga | Kategorija | Zadatak | Naplata |
-| --- | --- | --- | --- | --- | --- | --- |
-| Jest | Jest | Cijeli projekt | Naplativo | Naplativo | Nije moguće postaviti | Naplata za stvarno vrijeme: Naplativo </br>Vrsta naplate na stvarnom trošku: Naplativo |
-| Jest | Jest | Samo odabrani zadaci | Naplativo | Naplativo | Naplativo | Naplata za stvarno vrijeme: Naplativo</br>Vrsta naplate na stvarnom trošku: Naplativo |
-| Jest | Jest | Samo odabrani zadaci | Nenaplativo | Naplativo | Naplativo | Naplata za stvarno vrijeme: Nenaplativo</br>Vrsta naplate na stvarnom trošku: Naplativo |
-| Jest | Jest | Samo odabrani zadaci | Naplativo | Naplativo | Nenaplativo | Naplata za stvarno vrijeme: Nenaplativo</br> Vrsta naplate na stvarnom trošku: Naplativo |
-| Jest | Jest | Samo odabrani zadaci | Nenaplativo | Naplativo | Nenaplativo | Naplata za stvarno vrijeme: Nenaplativo</br> Vrsta naplate na stvarnom trošku: Naplativo |
-| Jest | Jest | Samo odabrani zadaci | Nenaplativo | Nenaplativo | Naplativo | Naplata za stvarno vrijeme: Nenaplativo</br> Vrsta naplate na stvarnom trošku: Naplativo |
-| No | Jest | Cijeli projekt | Nije moguće postaviti | Naplativo | Nije moguće postaviti | Naplata za stvarno vrijeme: Nenaplativo </br>Vrsta naplate na stvarnom trošku: Naplativo |
-| No | Jest | Cijeli projekt | Nije moguće postaviti | Nenaplativo | Nije moguće postaviti | Naplata za stvarno vrijeme: Nenaplativo </br>Vrsta naplate na stvarnom trošku: Nenaplativo |
-| Jest | No | Cijeli projekt | Naplativo | Nije moguće postaviti | Nije moguće postaviti | Naplata za stvarno vrijeme: Naplativo</br>Vrsta naplate na stvarnom trošku: Nenaplativo |
-| Jest | No | Cijeli projekt | Nenaplativo | Nije moguće postaviti | Nije moguće postaviti | Naplata za stvarno vrijeme: Nenaplativo </br>Vrsta naplate na stvarnom trošku: Nenaplativo |
+Ako su ove tri stvari točne, **Zadatak** je također konfiguriran kao naplativ. 
+
+Procjena ili stvarni podatak stvoren za trošak smatra se naplativim samo ako je: 
+
+   - **Trošak** uključen u redak ponude.
+   - **Kategorija transakcije** konfigurirana kao naplativa u retku ponude.
+   - Mogućnost **Uključeni zadaci** postavljena na **Odabrani zadaci** u retku ponude.
+
+Ako su ove tri stvari točne, **Zadatak** je također konfiguriran kao naplativ. 
+
+Procjena ili stvarni podatak stvoren za materijal smatrat će se naplativim samo ako je:
+
+   - **Materijal** uključen u redak ponude.
+   - Mogućnost **Uključeni zadaci** postavljena na **Odabrani zadaci** u retku ponude.
+
+Ako su ove dvije stvari točne, **Zadatak** bi također trebao biti konfiguriran kao naplativ. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Uključuje Vrijeme</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Uključuje Trošak</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Obuhvaća materijale</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Uključeni zadaci</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Uloga</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategorija</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Zadatak</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Učinak naplativosti</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cijeli projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata za stvarno vrijeme: Naplativo </p>
+                <p>
+Vrsta naplate na stvarnom trošku: Naplativo </p>
+                <p>
+Vrsta naplate stvarnog materijala: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo odabrani zadaci </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata za stvarno vrijeme: Naplativo </p>
+                <p>
+Vrsta naplate na stvarnom trošku: Naplativo </p>
+                <p>
+Vrsta naplate stvarnog materijala: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo odabrani zadaci </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata stvarnog vremena: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate na stvarnom trošku: Naplativo </p>
+                <p>
+Vrsta naplate stvarnog materijala: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo odabrani zadaci </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata stvarnog vremena: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog troška: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog materijala: <strong>Nenaplativo</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo odabrani zadaci </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata stvarnog vremena: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog troška: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog materijala: <strong> Nenaplativo</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo odabrani zadaci </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata stvarnog vremena: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog troška: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog materijala: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cijeli projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Naplativo</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata stvarnog vremena: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate na stvarnom trošku: Naplativo </p>
+                <p>
+Vrsta naplate stvarnog materijala: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cijeli projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata stvarnog vremena: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog troška: <strong> Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog materijala: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cijeli projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata za stvarno vrijeme: Naplativo </p>
+                <p>
+Vrsta naplate stvarnog troška:<strong> Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog materijala: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cijeli projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata stvarnog vremena: <strong>Nenaplativo </strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog troška:<strong> Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog materijala: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cijeli projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata za stvarno vrijeme: Naplativo </p>
+                <p>
+Vrsta naplate na stvarnom trošku: Naplativo </p>
+                <p>
+Vrsta naplate stvarnog materijala: <strong> Nenaplativo</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Jest </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cijeli projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće postaviti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Naplata stvarnog vremena: <strong>Nenaplativo </strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog troška: <strong> Nenaplativo</strong>
+                </p>
+                <p>
+Vrsta naplate stvarnog materijala: <strong> Nenaplativo</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

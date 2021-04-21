@@ -3,19 +3,19 @@ title: Gotovinski predujam
 description: U ovoj temi nalaze se informacije o gotovinskim predujmovima.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276699"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715551"
 ---
 # <a name="cash-advance"></a>Gotovinski predujam
 
@@ -60,7 +60,22 @@ Sljedeći postupak obično dovršava računovođa ili korisnik s računovodstven
 
 Kada izradite i predate izvješće o trošku za gotovinski predujam koji ste već dobili, troškovi će se automatski prilagoditi tom predujmu. Ako je vaš gotovinski predujam veći od utrošenog iznosa, saldo morate vratiti tvrtki s pomoću kategorije troškova **Povrat gotovine**. Ako je gotovinski predujam koji je tvrtka platila manji od iznosa koji ste potrošili, tvrtka vam mora nadoknaditi saldo. 
 
-### <a name="example"></a>Primjer
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Odabir gotovinskih predujmova koji se odnose na troškove
+Prije nego što pošaljete izvješće o troškovima, možete odabrati gotovinski predujam koji je usklađen s transakcijama troškova u izvješću. Kako biste upotrijebili ovu funkciju, sljedeće dvije značajke moraju biti omogućene iz radnog prostora **Upravljanje značajkama**:
+
+  - Izmijenjena izvješća o trošku
+  - Mogućnost mapiranja gotovinskih predujmova u retke troškova
+ 
+ Kad su ove značajke omogućene:
+ 
+  - Možete dodati jedan ili više gotovinskih predujmova za svaki redak troškova.
+  - Dostupni saldo gotovinskog predujma vidljiv je u stvarnom vremenu kada se spremi izvješće o troškovima. To vam omogućuje istodobno obrađivanje transakcija troškova i vraćanje gotovinskih transakcija.
+  - Možete odabrati više gotovinskih predujmova za jednu transakciju troškova.
+  - Podaci za usklađivanje gotovinskog predujma dostupni su s pomoću upita. 
+ 
+Ako ne upotrebljavate ove značajke, funkcionalnost će ostati ista, s postojećim gotovinskim predujmovima koji se automatski smanjuju nakon slanja troškova.
+
+### <a name="example"></a>Primjer 
 Planirate putovati na konferenciju iz Seattla u New York. Stvarate zahtjev za gotovinskim predujmom za 3000,00 USD na temelju procijenjenih troškova ulaznice za konferenciju, letova, hotela, obroka i taksija. Isplatu nećete dobiti dok vaš voditelj ne odobri ovaj zahtjev. Nakon što vaš upravitelj odobri, traženi gotovinski predujam uplaćuje se na vaš bankovni račun u obliku 5.000,00 kn. Zatim sudjelujete na konferenciji. Nakon završetka putovanja utvrdili ste da su ukupni izdaci bili samo 3.000,00 kn. Odaberite **Gotovina** u polju **Način plaćanja** i pošaljite svoj trošak od 2790,00 USD. Iznos vašeg prijavljenog troška automatski se prilagođava gotovinskom predujmu od 5.000,00 kn koji vam je posuđen. Sada dugujete saldo od 210,00 USD (3000,00 - 2790,00), koji tvrtki možete vratiti s pomoću troškovne ktegorije **Vrati gotovinu**.
 
 

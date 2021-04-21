@@ -3,7 +3,7 @@ title: Izmijenjena izvješća o troškovima
 description: U ovoj temi objašnjava se redizajnirano i ponovno zamišljeno iskustvo za unos izvješća o troškovima.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499707"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717686"
 ---
 # <a name="expense-reports-reimagined"></a>Izmijenjena izvješća o izdacima
 
@@ -41,11 +41,7 @@ Kako biste uključili novo iskustvo, upotrijebite radni prostor **Upravljanje zn
 - Ne uklanjaju se postojeće stavke izbornika za izvješća o troškovima (postojeća stranica) ili polja izvješća o troškovima.
 - Tijekovi rada i sva odobrenja i dalje vas vode na postojeću stranicu izvješća o troškovima.
 
-## <a name="getting-started-video-for-new-users"></a>Videozapis za početnike za nove korisnike
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Iskustvo troškova u videozapisu Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (prikazan gore) uključen je u [popis za reprodukciju aplikacija Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) dostupno na platformi YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Nove značajke
 

@@ -3,50 +3,53 @@ title: Pregled odobrenja
 description: U ovoj temi nalaze se informacije o radu s odobrenjima u aplikaciji Project Operations.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290349"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852490"
 ---
 # <a name="approvals-overview"></a>Pregled odobrenja
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Slanja vremena i troška kreću se kroz tijek rada odobrenja. Nakon odobrenja unosa, transakcije se bilježe u stvarnim podacima ili se vrijeme rezervira u rasporedu.
+Prijave vremena, troškova i utrošenog materijala kreću se kroz radni tijek odobrenja. Nakon odobrenja unosa, transakcije se bilježe u stvarnim podacima ili se vrijeme rezervira u rasporedu.
 
 ## <a name="approvals-workflow"></a>Tijek rada odobrenja
-Kada stvarate i šaljete unos vremena ili troška, stvara se unos odobrenja. Odobravatelj projekta ili vaš upravitelj pregledava i odobrava vaš unos. Ako se unos odnosi na projekt, kada se odobri, stvorit će se stvarni podaci. To omogućuje praćenje troškova i naplate. 
+Kada stvorite i pošaljete unos vremena, troška ili utrošenog materijala, stvara se zapis o odobrenju. Odobravatelji ili voditelj projekta pregledava i odobrava unos. Ako je unos povezan s projektom, stvarni podaci stvorit će se kada bude odobren. To omogućuje praćenje troškova i naplate.
 
 ## <a name="approve-an-entry"></a>Odobravanje unosa
-Obrazac **Odobrenja** omogućuje vam prebacivanje između različitih prikaza kako biste mogli vidjeti različite vrste odobrenja.
+Stranica **Odobrenja** omogućuje vam prebacivanje između različitih prikaza kako biste mogli pregledavati različite vrste odobrenja.
   
-1. Idite na obrazac **Odobrenja** i odaberite mogućnost **Troškovi**, **Vrijeme** ili **Storniranja**.
+1. Idite na stranicu **Odobrenja** i odaberite **Troškovi**, **Vrijeme**, **Utrošeni materijal** ili **Opozivi**.
 2. Pregledajte svako odobrenje i odaberite ona koja želite odobriti.
 3. Odaberite mogućnost **Odobri** kako bite odobrili odabrane unose.
-Sustav će obraditi te unose i stvoriti stvarne podatke ili rezervaciju.
+Sustav obrađuje ove unose i stvara stvarne podatke.
 
 ## <a name="reject-an-entry"></a>Odbacivanje unosa
 Kao odobravatelj projekta, možda ćete korisniku morati vratiti unos na ispravak.
   
-1. Idite na obrazac **Odobrenja** i odaberite unos koji želite odbaciti. 
+1. Idite na stranicu **Odobrenja** i odaberite unos koji želite odbiti. 
 2. Odaberite **Odbaci**.
-3. Neobvezno – Dodajte komentar u dijaloški okvir **Komentari odbacivanja** kako biste obavijestili korisnika zašto se unos odbacuje.
+3. Neobvezno, dodajte komentar u dijaloški okvir **Komentari odbijanja** za obavještavanje korisnika zašto se unos odbija.
 4. Odaberite **U redu**. Unos će se vratiti korisniku.
   
-## <a name="recall-entries"></a>Storniranje unosa
-U jednom trenutku, možda ćete morati stornirati poslani unos. Ako unos nije odobren, odmah će se vratiti. No, odobreni unos može imati materijalni utjecaj. Odobravatelj projekta mora odobriti storniranje kako bi se poništila transakcija u stvarnim podacima.
+## <a name="cancel-approval"></a>Otkazivanje odobrenja
+U nekim slučajevima možda ćete trebati otkazati prethodno odobreni unos. Otkazivanje prethodno odobrenog unosa imat će financijski učinak. 
+
+## <a name="approving-recall-requests"></a>Zahtjevi za opoziv odobrenja
+U nekim slučajevima savjetnik će možda morati opozvati prethodno odobreni unos. Otkazivanje prethodno odobrenog unosa imat će financijski učinak. Odobritelj projekta mora odobriti opoziv radi poništavanja transakcije u Stvarnim podacima.
 
 ## <a name="specify-project-approvers"></a>Određivanje odobravatelja projekta
 Svaki projekt ima određeni broj članova projektnog tima. Možete odrediti koji su članovi tima ujedno i odobravatelji projekta.
 
-1. Idite na obrazac **Projekti** i otvorite projekt s popisa.
+1. Idite na stranicu **Projekti** i s popisa otvorite projekt.
 2. Na kartici **Tim** odaberite člana tima koji će biti odobravatelj projekta, a zatim odaberite **Uredi**.
 3. Postavite polje **Odobravatelj projekta** na **Da**.
 4. Odaberite **Spremi**.

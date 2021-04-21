@@ -1,29 +1,27 @@
 ---
-title: Konfiguriranje automatskog stvaranja fakture – jednostavno
-description: U ovoj temi nalaze se informacije o konfiguriranju automatskog stvaranja predračuna.
+title: Postavljanje automatskog stvaranja fakture
+description: U ovoj temi nalaze se informacije o postavljanju i konfiguriranju automatskog stvaranja predračuna.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274314"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866808"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfiguriranje automatskog stvaranja fakture – jednostavno
+# <a name="set-up-automatic-invoice-creation"></a>Postavljanje automatskog stvaranja fakture 
  
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Primjenjuje se na:** Osnovna implementacija – od dogovora do predračuna, Project Operations za scenarije koji se temelje na resursima / bez zaliha_
 
 Možete konfigurirati automatsko stvaranje fakture u aplikaciji Dynamics 365 Project Operations. Sustav stvara nacrt predračuna na temelju rasporeda faktura za svaki ugovor o projektu i redak ugovora. Rasporedi faktura konfigurirani su na razini retka ugovora. Svaki redak ugovora može imati različit raspored faktura ili isti raspored faktura može biti uključen u svaki redak ugovora.
 
-Kada stvarate fakturu, sustav uvijek stvara barem jednu fakturu po ugovoru o projektu. U nekim slučajevima može biti stvoreno više faktura.
-
-Na primjer, ako ugovor ima više klijenata, stvorit će se onoliki broj računa koliko ima klijenata koji imaju naplative transakcije za fakturiranje na tom ugovoru o projektu.
+Kada stvarate fakturu, sustav uvijek stvara barem jednu fakturu po ugovoru o projektu. U nekim slučajevima može biti stvoreno više faktura. Na primjer, ako ugovor ima više klijenata, stvorit će se onoliki broj računa koliko ima klijenata koji imaju naplative transakcije za fakturiranje na tom ugovoru o projektu.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Razumijevanje načina uključivanja transakcija u račun 
 

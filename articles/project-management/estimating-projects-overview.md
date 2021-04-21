@@ -1,31 +1,41 @@
 ---
-title: Pregled procjene projekata
-description: Ova tema sadrži informacije o procjenama u aplikaciji Dynamics 365 Project Operations.
-author: ruhercul
+title: Koncepti financijske procjene
+description: U ovoj temi nalaze se informacije o financijskim procjenama projekata u aplikaciji Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286869"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701727"
 ---
-# <a name="estimate-projects-overview"></a>Pregled procjene projekata
+# <a name="financial-estimation-concepts"></a>Koncepti financijske procjene
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
+Financijska procjena projekta u aplikaciji Dynamics 365 Project Operations odvija se u dvije faze: 
+1. Tijekom faze pretprodaje, prije dobivanja posla. 
+2. Tijekom faze izvršenja, nakon izrade ugovora o projektu. 
+
+Možete stvoriti financijsku procjenu za rad na projektu s pomoću neke od sljedeće 3 stranice:
+- Stranice **Ponuda**, s pomoću pojedinosti retka ponude.  
+- Stranice **Redak ugovora o projektu**, s pomoću pojedinosti retka ugovora. 
+- Stranice **Projekt**, s pomoću stranica kartice **Zadaci** ili **Procjene troškova**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Uporaba ponude za projekt za stvaranje procjene
 U ponudi koja se temelji na projektu možete upotrebljavati entitet **Pojedinost retka ponude** za procjenu rada potrebnog za isporuku projekta. Tu procjenu zatim možete podijeliti s klijentom.
 
 Redci ponude koja se temelji na projektu ne moraju imati nijednu pojedinost retka ponude, a mogu ih imati puno. Pojedinosti retka ponude koriste se za procjenu vremena, troškova ili naknada. Microsoft Dynamics 365 Project Operations ne dopušta materijalne procjene na pojedinostima retka ponude. Oni se zovu razredi transakcije. Procijenjeni iznosi poreza također se mogu unijeti na razred transakcije.
 
 Uz razrede transakcija, pojedinosti retka ponude imaju vrstu transakcije. Za pojedinosti retka ponude podržane su dvije vrste transakcija: **Trošak** i **Ugovor o projektu**.
 
-## <a name="estimate-by-using-a-contract"></a>Procjena korištenjem ugovora
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Uporaba ugovora o projektu za stvaranje procjene
 
 Ako ste tijekom stvaranja ugovora koji se temelji na projektu upotrijebili ponudu, procjena koju ste izvršili za svaki redak ponude kopira se u ugovor o projektu. Struktura ugovora projekta je kao struktura ponude projekta koja ima retke, pojedinosti retka i rasporede faktura.
 
@@ -35,27 +45,21 @@ Pojedinosti retka ugovora mogu se koristiti za procjenu vremena, troškova ili n
 
 U pojedinostima retka ugovora nisu dozvoljene procjene materijala.
 
-Procesi koji su podržani u ugovoru projekta su izrada fakture i potvrda. Izrada fakture izrađuje skicu fakture koja se temelji na projektu koja uključuje sve stvarne vrijednosti nenaplaćene prodajne do trenutačnog datuma.
+## <a name="use-a-project-to-create-an-estimate"></a>Uporaba projekta za stvaranje procjene 
 
-Potvrdom se dobiva verzija ugovora koja je samo za čitanje i njezin se status mijenja iz **Skica** u **Potvrđeno**. Nakon što poduzmete ovu radnju, ne možete ju poništiti. Budući da je ova radnja trajna, najbolja je praksa održati ugovor u statusu **Skica**.
-
-Jedine razlike između ugovora sa statusom skice i potvrđenih ugovora jesu njihov status i činjenica da se ugovori sa statusom skice mogu uređivati, dok potvrđeni ugovori ne mogu. Izrada fakture i praćenje stvarnih vrijednosti mogu se izvršiti na ugovorima sa statusom skice i potvrđenim ugovorima.
-
-Project Operations ne podržava promjene narudžbi u ugovorima ili projektima.
-
-## <a name="estimating-projects"></a>Procjena projekata
-
-Možete procijeniti vrijeme i troškove projekata. Project Operations ne dozvoljava \procjenu materijala ili naknada na projektima.
+Možete procijeniti vrijeme i troškove projekata. Project Operations ne podržava procjene materijala ili naknada za projekte.
 
 Procjene vremena generiraju se kada izradite zadatak i identificirate atribute generičkog resursa potrebnog za izvršavanje zadatka. Procjene vremena generiraju se iz zadataka rasporeda. Procjene vremena ne izrađuju se ako izradite generičke članove tima izvan konteksta rasporeda.
 
-Procjene troškova unose se u rešetku na stranici **Procjene**.
+Procjene troškova unose se u rešetku na stranici **Procjene troškova**.
 
-## <a name="understanding-estimation"></a>Razumijevanje procjene
+Stvaranje procjene za projekt smatra se najboljom praksom, jer možete izraditi podrobne procjene rada ili vremena i troškova od dna naviše za svaki zadatak u projektnom planu. Zatim ovu podrobnu procjenu možete upotrijebiti za izradu procjena za svaki redak ponude i za klijenta izraditi vjerodostojniju ponudu. Kada uvozite ili stvarate podrobnu procjenu na retku ponude s pomoću projektnog plana, Project Operations uvozi prodajne vrijednosti i vrijednosti troška iz tih procjena. Nakon uvoza možete vidjeti mjerne podatke profitabilnosti, marže i izvedivosti na ponudi projekta.
 
-Sljedeću tablicu koristite kao vodič za razumijevanje poslovne logike u fazi procjene.
+## <a name="understanding-estimates"></a>Razumijevanje procjena
 
-| Situacija                                                                                                                                                                                                                                                                                                                                          | Zapis entiteta                                                                                                                                                                                                       | Vrsta transakcije | Razred transakcije | Dodatne informacije                                                            |
+Tablicu u nastavku upotrebljavajte kao vodič za razumijevanje poslovne logike u fazi procjene.
+
+| Scenarij                                                                                                                                                                                                                                                                                                                                          | Zapis entiteta                                                                                                                                                                                                       | Vrsta transakcije | Razred transakcije | Dodatne informacije                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
 | Kada trebate procijeniti prodajnu vrijednost vremena na ponudi                                                                                                                                                                                                                                                                                    | Izrađena je pojedinost retka ponude (QLD)                                                                                                                                                                               | Ugovor projekta | Time        | Polje porijeklo transakcije u pojedinosti retka ponude na strani prodaje upućuje na pojedinost retka ponude na strani troškova |
 |                                                                                                                                                                                                                                                                                     | Drugi zapis pojedinosti retka ponude izrađuje se s pomoću sustava za pohranjivanje odgovarajućih vrijednosti troškova. Sva polja koja nisu novac kopiraju se iz pojedinosti retka ponude za prodaju u pojedinost retka ponude za troškove od strane sustava.                                                                                                                                                                               | Trošak | Time        | Polje porijeklo transakcije u pojedinosti retka ponude na strani prodaje upućuje na pojedinost retka ponude na strani troškova |

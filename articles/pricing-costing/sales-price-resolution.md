@@ -3,17 +3,17 @@ title: Rješavanje prodajnih cijena za procjene i stvarne podatke
 description: U ovoj temi nalaze se informacije o načinu rješavanja prodajnih cijena za procijenjene i stvarne podatke.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274944"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877436"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Rješavanje prodajnih cijena za procjene i stvarne podatke
 
@@ -54,6 +54,17 @@ Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zada
     | &nbsp; | Marža na trošak | Primjena oznake definirane retkom cjenovne kategorije na jediničnu cijenu troška povezanog stvarnog troška |
 
 4. Ako sustav ne može podudarati vrijednosti polja **Kategorija** i **Jedinica**, prodajna cijena zadana je na nulu (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Rješavanje prodajnih cijena na stvarnim i procijenjenim redcima za materijal
+
+Redci procjene materijala u aplikaciji Project Operations upotrebljavaju se za označavanje pojedinosti na pojedinosti retka ponude i retka ugovora za materijale i retke procjene materijala za projekt.
+
+Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zadavanje jedinične prodajne cijene.
+
+1. Sustav upotrebljava kombinaciju polja **Proizvod** i **Jedinica** na retku procjene za materijal za podudaranje s redcima stavki cjenika u cjeniku koji je riješen.
+2. Ako sustav pronađe redak stavke cjenika koji ima prodajnu cijenu za kombinaciju polja **Proizvod** i **Jedinica**, a način određivanja cijena je **Iznos valute**, upotrebljava se prodajna cijena navedena u retku cjenika.
+3. Ako se vrijednosti polja **Proizvod** i **Jedinica** ne podudaraju, prodajna cijena zadaje se na nulu.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

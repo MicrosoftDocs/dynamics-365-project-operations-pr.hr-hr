@@ -1,21 +1,21 @@
 ---
-title: Rješavanje prodajnih cijena za procjene i stvarne podatke – jednostavno
-description: U ovoj temi nalaze se informacije o načinu rješavanja prodajnih cijena za procjene i stvarne podatke.
+title: Rješavanje prodajnih cijena za procjene i stvarne podatke projekta
+description: U ovoj temi nalaze se informacije o načinu rješavanja prodajnih cijena na procijenjenim i stvarnim podacima za projekt.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274494"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877347"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Rješavanje prodajnih cijena za procjene i stvarne podatke – jednostavno
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Rješavanje prodajnih cijena za procjene i stvarne podatke projekta
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
@@ -55,5 +55,14 @@ Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zada
 
 4. Ako sustav ne može podudarati vrijednosti polja **Kategorija** i **Jedinica**, prodajna cijena zadana je na nulu (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Rješavanje prodajnih cijena na stvarnim i procijenjenim redcima za materijal
+
+Redci procjene materijala u aplikaciji Project Operations upotrebljavaju se za označavanje pojedinosti na pojedinosti retka ponude i retka ugovora za materijale i retke procjene materijala za projekt.
+
+Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zadavanje jedinične prodajne cijene.
+
+1. Sustav upotrebljava kombinaciju polja **Proizvod** i **Jedinica** na retku procjene za materijal za podudaranje s redcima stavki cjenika u cjeniku koji je riješen.
+2. Ako sustav pronađe redak stavke cjenika koji ima prodajnu cijenu za kombinaciju polja **Proizvod** i **Jedinica**, a način određivanja cijena je **Iznos valute**, upotrebljava se prodajna cijena navedena u retku cjenika.
+3. Ako se vrijednosti polja **Proizvod** i **Jedinica** ne podudaraju, prodajna cijena zadaje se na nulu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

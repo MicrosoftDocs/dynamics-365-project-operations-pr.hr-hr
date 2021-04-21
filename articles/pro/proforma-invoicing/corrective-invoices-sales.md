@@ -1,21 +1,21 @@
 ---
-title: Ispravljene fakture – jednostavno
-description: U ovoj temi nalaze se informacije o ispravljenim fakturama u rješenju Project Operations
+title: Korektivne fakture za projekt
+description: U ovoj temi nalaze se informacije o načinu stvaranja i potvrđivanja korektivnih faktura u aplikaciji Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274224"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866582"
 ---
-# <a name="corrected-invoices---lite"></a>Ispravljene fakture – jednostavno
+# <a name="corrective-project-invoices"></a>Korektivne fakture za projekt
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
@@ -37,9 +37,9 @@ Iz potvrđene fakture stvara se novi nacrt fakture. Sve pojedinosti retka faktur
 > [!IMPORTANT]
 > Pojedinosti retka fakture koje predstavljaju ispravke za ostale već fakturirane troškove imaju polje **Ispravak** postavljeno na **Da**. Fakture koje su ispravile pojedinosti retka fakture imaju polje koje se naziva **Ima ispravaka** koje je također postavljeno na **Da**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Stvarni podaci stvoreni na potvrdi korektivne fakture:
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Stvarni podaci koji su stvoreni kada se potvrdi korektivna faktura
 
-Ispod su stvarni podaci koje je stvorila aplikacija za potvrdu ispravka na temelju operacija izvršenih na nacrtu korektivne fakture prije potvrde.
+Tablica u nastavku navodi stvarne podatke koji se stvaraju nakon potvrde korektivne fakture.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ Novi stvarni podatak o nenaplaćenoj prodaji koji se naplaćuje za preostalu kol
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Fakturiranje punog kredita prethodno fakturirane transakcije materijala.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplate prodaje za količinu i iznos na originalnoj pojedinosti retka fakture za materijal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi stvarni podatak o naplati prodaje za količinu i iznos na originalnoj pojedinosti retka fakture za materijal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturiranje djelomičnog kredita za transakciju materijala.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplate prodaje za količinu i iznos fakturirane na originalnoj pojedinosti retka fakture za materijal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi stvarni podatak o nenaplaćenoj prodaji koji se može naplatiti za količinu i iznos na pojedinosti uređenog retka fakture, storniranje istog i ekvivalentni stvarni podatak o naplaćenoj prodaji.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi stvarni podatak o nenaplaćenoj prodaji koji se naplaćuje za preostalu količinu i iznos nakon odbijanja ispravljenih podataka u pojedinosti retka računa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Fakturiranje cjelokupnog duga prethodno fakturirane transakcije naknade.
                 </p>
             </td>
@@ -260,7 +305,7 @@ Fakturiranje cjelokupnog duga prethodno fakturirane kontrolne točke.
 Storniranje naplaćene prodaje za sate i iznos na izvornoj pojedinosti retka za kontrolnu točku.
                 </p>
                 <p>
-Status fakture za kontrolnu točku ili naplate za redak ugovora o projektu ažurira se na **Spremno za fakturiranje**.
+Stanje fakture kontrolne točke ažurira se sa <b>Faktura za klijenta proknjižena</b> na <b>Spremno za fakturiranje</b>.
                 </p>
             </td>
         </tr>

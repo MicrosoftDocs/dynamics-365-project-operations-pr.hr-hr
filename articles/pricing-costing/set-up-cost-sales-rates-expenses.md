@@ -3,17 +3,17 @@ title: Postavljanje troškova i prodajnih cijena za troškove
 description: U ovoj temi nalaze se informacije o načinu postavljanja troškova i prodajnih cijena za kategorije transakcije i troškova.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274899"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877211"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Postavljanje troškova i prodajnih cijena za troškove
 
@@ -23,9 +23,10 @@ U aplikaciji Dynamics 365 Project Operations možete postaviti cijene i prodajne
 
 Kako biste postavili cijene koštanja i prodajne cijene za kategorije transakcija, poduzmite sljedeće korake. 
 
-1. Stvorite cjenik na temelju zaglavlja cjenika. 
-2. U mogućnosti **Cijene kategorije**, na izborniku podrešetke, odaberite **+ Nova cijena kategorije**. 
-3. Na stranici **Brzo stvaranje** unesite kategoriju transakcije i jedinicu za koju stvarate novu cijenu.
+1. Idite na **Prodaja** > **Klijenti** > **Cjenici**.
+2. Za stvaranje novog cjenika odaberite **Novi**. 
+3. U mogućnosti **Cijene kategorije**, na izborniku podrešetke, odaberite **Nova cijena kategorije**. 
+4. Na stranici **Brzo stvaranje** unesite kategoriju transakcije i jedinicu za koju stvarate novu cijenu.
 
 Sljedeća tablica prikazuje polja na kartici **Općenito** i stranici **Brzo stvaranje** retka cjenovne kategorije koju biste trebali imati na umu tijekom izrade cijena kategorija na prodajnom cjeniku ili cjeniku koštanja.
 

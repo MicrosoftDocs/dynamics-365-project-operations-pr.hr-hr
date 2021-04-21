@@ -1,22 +1,22 @@
 ---
-title: Rješavanje cijena koštanja na procjenama i stvarnim podacima – jednostavno
-description: U ovoj temi nalaze se informacije o načinu rješavanja cijena troškova na procijenjenim i stvarnim podacima.
+title: Rješavanje cijena koštanja na procijenjenim i stvarnim podacima za projekt
+description: U ovoj temi nalaze se informacije o tome kako se rješavaju cijene koštanja na procijenjenim i stvarnim podacima za projekt.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274540"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877256"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Rješavanje cijena koštanja na procjenama i stvarnim podacima – jednostavno
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Rješavanje cijena koštanja na procijenjenim i stvarnim podacima za projekt 
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
@@ -36,6 +36,12 @@ Nakon rješavanja cjenika troškova, polja **Uloga** i **Jedinica resursa** u re
 Redci s procijenjenim podacima za Trošak odnose se na pojedinosti redaka ponude i ugovora za troškove i retke troškova za projekt.
 
 Nakon rješavanja cjenika troškova, sustav upotrebljava kombinaciju polja **Kategorija** i **Jedinica** u retku procjene troškova kako bi se podudarila s redcima **Cijena kategorije** na riješenom cjeniku. Ako sustav pronađe redak cijene kategorije koja ima cijenu troška za kombinaciju polja **Kategorija** i **Jedinica**, cijena troška je zadana. Ako se sustav ne može podudariti s vrijednostima **Kategorija** i **Jedinica** ili ako je u mogućnosti pronaći podudarni redak cijene, ali metoda određivanja cijene nije **Cijena po jedinici**, cijena troška zadaje se na nulu (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Rješavanje cijena troška na stvarnim i procijenjenim redcima za materijal
+
+Redci procjene materijala odnose se na pojedinosti ponude i retka ugovora za materijale i retke procjene materijala za projekt.
+
+Nakon rješavanja troškovnika, sustav upotrebljava kombinaciju polja **Proizvod** i **Jedinica** na retku procjene za procjenu materijala koja se podudara s redcima **Stavki cjenika** na riješenom cjeniku. Ako sustav pronađe redak cijene proizvoda koja ima cijenu troška za kombinaciju polja **Proizvod** i **Jedinica**, cijena troška je zadana. Ako se sustav ne može podudarati s vrijednostima **Proizvod** i **Jedinica** ili ako je u mogućnosti pronaći podudarni redak stavke cjenika, ali metoda određivanja cijene temelji se na Standardnom ili Trenutačnom trošku i nijedna nije definirana na proizvodu, jedinični trošak zadan je na nulu.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: Konfiguracija računovodstva za naplative projekte
 description: U ovoj temi nalaze se informacije o računovodstvenim mogućnostima za naplative projekte.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287634"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858644"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfiguracija računovodstva za naplative projekte
 
@@ -58,13 +58,25 @@ Izvršite sljedeće korake za stvaranje novog profila troškova i prihoda projek
 
          - **Saldo**: Tijekom knjiženja temeljnice integracije aplikacije Project Operations, trošak transakcije izdatka tereti se vrstom računa glavne knjige *WIP – Vrijednost troška* kako je definirano na kartici **Trošak** na stranici **Postavljanje knjiženja glavne knjige** i pripisuje se računu za poravnanje u retku temeljnice. Zadani računi za naknadu troškova definirani su u postavci **Upravljanje projektima i računovodstvo** > **Postavljanje** \> **Knjiženje** \> **Zadani račun poravnanja za troškove**. Računovođa će upotrijebiti funkciju **Knjiži troškove** kako bi taj trošak povremeno premještao s računa salda na račun dobiti i gubitka.
         - **Dobit i gubitak**: Tijekom knjiženja temeljnice integracije aplikacije Project Operations, trošak transakcije izdatka tereti se vrstom računa glavne knjige *Trošak* kako je definirano na kartici **Trošak** na stranici **Postavljanje knjiženja glavne knjige** i pripisuje se računu za poravnanje u retku temeljnice. Zadani računi za naknadu troškova definirani su u postavci **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Knjiženje** \> **Zadani račun poravnanja za troškove**.
+      
+    - **Knjiženje troškova – stavka**:
+
+         - **Saldo**: Tijekom knjiženja dnevnika integracije aplikacije Project Operations, trošak transakcije stavke teretit će vrstu računa Glavne knjige *WIP – Vrijednost troška – stavka* kako je definirano na kartici **Trošak** na stranici **Postavljanje knjiženja Glavne knjige**, a ići će u korist sljedećeg:
+    
+              - Za uporabu vrste dokumenta: Račun **Trošak – stavka** na **Postavljanje knjiženja Glavne knjige**.  
+              - Za vrstu dokumenta o kupnji: **Račun za integraciju nabave** na **Upravljanje projektom i računovodstveni parametri**.
+           Računovođa će upotrijebiti funkciju **Knjiži troškove** kako bi taj trošak povremeno premještao s računa salda na račun dobiti i gubitka.
+        - **Dobit i gubitak**: Tijekom knjiženja dnevnika integracije aplikacije Project Operations, trošak transakcije stavke teretit će vrstu računa Glavne knjige *Trošak* kako je definirano na kartici **Trošak** na stranici **Postavljanje knjiženja Glavne knjige**, a ići će u korist sljedećeg:
+         
+             - Za uporabu vrste dokumenta: Račun **Trošak – stavka** na **Postavljanje knjiženja Glavne knjige**.  
+             - Za vrstu dokumenta o kupnji: **Račun za integraciju nabave** na **Upravljanje projektom i računovodstveni parametri**.
        
     - **Fakturiranje na računu**:
 
         - **Saldo**: Tijekom knjiženja prijedloga fakture za projekt, djelomična transakcija (kontrolna točka za naplatu) pripisuje se vrsti računa glavne knjige *WIP fakturiran – djelomično* kako je definirano na kartici **Prihod** na stranici **Postavljanje knjiženja glavne knjige** i tereti račun salda klijenta.
          - **Dobit i gubitak**: Tijekom knjiženja prijedloga fakture za projekt, djelomična transakcija (kontrolna točka za naplatu) pripisuje se vrsti računa glavne knjige *Fakturirani prihod – djelomično* kako je definirano na kartici **Prihod** na stranici **Postavljanje knjiženja glavne knjige** i tereti račun salda klijenta. Računi salda klijenta definirani su u stavci **Potraživanja** \> **Postavljanje** \> **Profili knjiženja klijenta**.
 
-   Kada definirate profile knjiženja za načine naplate vremena i materijala, imate mogućnost obračunati prihod po vrsti transakcije (sat, trošak i naknada). Ako je mogućnost **Obračunani prihod** postavljena na **Da**, nefakturirane prodajne transakcije u temeljnici integracije aplikacije Project Operations evidentirat će se u glavnu knjigu. Prodajna vrijednost tereti se stavkom **WIP – račun vrijednosti prodaje** i pripisuje se računu **Obračunani prihod – prodajna vrijednost** koji je postavljen na stranici **Postavljanje knjiženja glavne knjige** na kartici **Prihod**. 
+   Kada definirate profile knjiženja za načine naplate vremena i materijala, imate mogućnost obračuna prihoda po vrsti transakcije (sat, trošak, stavka i naknada). Ako je mogućnost **Obračunani prihod** postavljena na **Da**, nefakturirane prodajne transakcije u temeljnici integracije aplikacije Project Operations evidentirat će se u glavnu knjigu. Prodajna vrijednost tereti se stavkom **WIP – račun vrijednosti prodaje** i pripisuje se računu **Obračunani prihod – prodajna vrijednost** koji je postavljen na stranici **Postavljanje knjiženja glavne knjige** na kartici **Prihod**. 
   
   > [!NOTE]
   > Mogućnost **Obračunani prihod** dostupan je samo kada se odgovarajuća vrsta transakcije **Trošak** knjiži na račun dobiti i gubitka.

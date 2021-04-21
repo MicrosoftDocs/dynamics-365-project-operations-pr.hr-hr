@@ -1,27 +1,27 @@
 ---
-title: Upravljanje cjenicima za projekt u ponudama projekta – jednostavno
-description: U ovoj temi nalaze se informacije o radu s cjenicima za projekt u ponudama. (Sales)
+title: Upravljanje cjenicima projekta u ponudama projekta
+description: U ovoj temi nalaze se informacije o radu s cjenicima za projekt u ponudama.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273009"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858599"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Upravljanje cjenicima za projekt u ponudama projekta – jednostavno
+# <a name="manage-project-price-lists-on-project-quotes"></a>Upravljanje cjenicima projekta u projektnim ponudama 
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Cjenici projekata osmišljeni su kako bi podržali prodajne cjenike koji su na snazi s višestrukim datumima. Uz Dynamics 365 Project Operations dodaje se novi povezani entitet pod nazivom **Cjenici za projekt**. Ovaj entitet u odnosu je 1 prema više s ponudom projekta.
 
-Cjenici za projekt upotrebljavaju se za određivanje cijena transakcija vremena i troškova na projektu. Kada ponuda ima jedan ili više cjenika za projekt, ti se cjenici upotrebljavaju za procjenu cijene vremena i troškova, kao i stvarnih podataka na projektima koji su povezani s ponudom preko retka ponude.
+Cjenici za projekte upotrebljavaju se za određivanje cijene vremena, materijala i transakcija troškova na projektu. Kada ponuda ima jedan ili više cjenika za projekt, ti se cjenici upotrebljavaju za cijenu procijenjenih vremena, materijala, troškova i stvarnih podataka na projektima koji su povezani s ponudom putem retka ponude.
 
 Kada na ponudi projekta ne postoje cjenici za projekt, primit ćete poruku upozorenja. U poruci se navodi da, budući da ne postoje cjenici za projekt, vaš procijenjeni i stvarni rad na projektu i troškovi neće imati cijenu. Umjesto toga, imat će nultu (0) cijenu za vrijednosti prodaje.
 

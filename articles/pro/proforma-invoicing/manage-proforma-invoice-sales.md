@@ -1,21 +1,21 @@
 ---
-title: Upravljanje predračunom – jednostavno
-description: U ovoj temi nalaze se informacije o načinu rada s predračunima.
+title: Upravljanje predračunom za projekt
+description: U ovoj temi nalaze se informacije o načinu rada s predračunima za projekt.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274013"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866897"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Upravljanje predračunom – jednostavno
+# <a name="manage-a-proforma-project-invoice"></a>Upravljanje predračunom za projekt 
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
@@ -69,9 +69,9 @@ U aplikaciji Project Operations uvijek postoji jedan redak fakture za svaki reda
 
 Svaki redak fakture u fakturi za projekt sadrži pojedinosti retka fakture. Te se pojedinosti retka odnose na nenaplaćene stvarne prodaje i kontrolne točke koje se odnose na redak ugovora na koji se poziva redak fakture. Sve ove transakcije označene su kao **Spremno za fakturiranje**.
 
-Za redak **Faktura za vrijeme i materijal**, pojedinosti retka fakture grupirani su u **Naplativo**, **Nenaplativo** i **Besplatno** na stranici **Redak fakture**. Pojedinosti **Naplativog retka fakture** dodaju se u ukupnom zbroju retka fakture. **Besplatno** i **Nenaplativi stvarni podaci** ne dodaju se ukupnom zbroju retka fakture.
+Za redak **Faktura za vrijeme i materijal**, pojedinosti retka fakture grupirani su u stavke **Naplativo**, **Nenaplativo** i **Besplatno** na stranici **Redak fakture**. Pojedinosti **Naplativog retka fakture** dodaju se u ukupnom zbroju retka fakture. **Besplatno** i **Nenaplativi stvarni podaci** ne pribrajaju se u ukupnom iznosu retka fakture.
 
-Za redak **Faktura s fiksnom cijenom**, pojedinosti retka fakture stvaraju se iz kontrolnih točaka koje su na povezanom retku ugovora označene kao **Spremno za fakturiranje**. Nakon što se iz kontrolne točke stvori pojedinost retka fakture, status naplate na kontrolnoj točki ažurira se na **Faktura za klijenta stvorena**.
+Za redak **Faktura s fiksnom cijenom**, pojedinosti retka fakture stvaraju se iz kontrolnih točki koje su označene kao **Spremno za fakturiranje** na povezanom retku ugovora. Nakon što se iz kontrolne točke stvori pojedinost retka fakture, status naplate na kontrolnoj točki ažurira se na **Faktura za klijenta stvorena**.
 
 ### <a name="edit-invoice-line-details"></a>Uređivanje pojedinosti retka fakture
 
@@ -98,8 +98,12 @@ Sljedeća su polja dostupna na pojedinostima retka fakture iza kojih stoji nefak
 | **Porez** | Postavljeno prema zadanim postavkama iz stvarnog izvora. Polje korisnik može uređivati | Korisnik može uređivati polje tijekom izrade nove pojedinosti retka fakture iza koje ne stoji stvarni podatak. |
 | **Prošireni iznos** | Izračunano polje, izračunano kao **Iznos + porez**. Polje samo za čitanje koje je zaključano za uređivanje. | &nbsp; |
 | **Vrsta naplate** | Postavljeno prema zadanim postavkama iz stvarnog izvora. Polje korisnik može uređivati. | Odabirom mogućnosti **Naplativo** dodaje se redak ukupnom zbroju redaka fakture. **Besplatno** i **Nenaplativo** isključit će ga iz ukupnog zbroja redaka fakture. |
+| **Odabir proizvoda** | Postavljeno prema zadanim postavkama iz stvarnog izvora, ovo je polje samo za čitanje. | Kada stvorite novu pojedinost retka fakture bez podloge u stvarnim podacima, ovo se polje može uređivati. |
+| **Proizvod** | Postavljeno prema zadanim postavkama iz stvarnog izvora, ovo je polje samo za čitanje. | Kada stvorite novu pojedinost retka fakture bez podloge u stvarnim podacima, ovo se polje može uređivati ako je polje **Odaberi proizvod** postavljeno na **Postojeći proizvod**. |
+| **Naziv proizvoda** | Postavljeno prema zadanim postavkama iz stvarnog izvora, ovo je polje samo za čitanje. | Na novoj pojedinosti retka fakture, na kojoj je ID proizvoda odabran iz kataloga, ovo je polje postavljeno na naziv proizvoda. Za umetnuti proizvod, polje je postavljeno na umetnuti naziv. |
+| **Opis umetnute stavke** | Postavljeno prema zadanim postavkama iz stvarnog izvora, ovo je polje samo za čitanje. | Kada stvorite novu pojedinost retka fakture bez podloge u stvarnim podacima, možete dodati opis umetnute stavke u opis proizvoda. |
 | **Vrsta transakcije** | Postavljeno prema zadanim postavkama iz stvarnog izvora. Polje samo za čitanje koje je zaključano za uređivanje. | Prema zadanim postavkama postavljeno na **Naplaćena prodaja** i zaključano pri stvaranju nove **Pojedinosti retka fakture** iza koje ne stoji stvarni podatak.  |
-| **Razred transakcije** | Postavljeno prema zadanim postavkama iz stvarnog izvora. Polje samo za čitanje koje je zaključano za uređivanje. | Postavlja se prema zadanim postavkama na temelju odluke korisnika hoće li stvoriti pojedinost retka fakture **Vrijeme**, **Trošak** ili **Naknada**, dok istodobno stvara i novu **Pojedinost retka fakture** iza koje ne stoji stvarni podatak. Zaključano za uređivanje. |
+| **Razred transakcije** | Postavljeno prema zadanim postavkama iz stvarnog izvora. Polje samo za čitanje koje je zaključano za uređivanje. | Postavlja se prema zadanim postavkama na temelju toga odlučuje li korisnik stvoriti pojedinost retka fakture za **Vrijeme**, **Trošak**, **Materijal** ili **Naknadu**, dok istovremeno stvara i novu **Pojedinost retka fakture** bez podloge u stvarnim podacima. Zaključano za uređivanje. |
 
 Sljedeća su polja dostupna na pojedinosti retka fakture iza koje stoji kontrolna točka:
 
