@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278049"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947870"
 ---
 # <a name="manage-leads"></a>Upravljanje potencijalnim klijentima
 
@@ -55,11 +55,11 @@ Potencijalni klijenti koji vrijednost **Vrsta** imaju postavljenu na **Na temelj
 - Zapis kontakata povezan s računom koji se temelji na vrijednostima u poljima **Ime** i **Prezime** potencijalnog klijenta.
 - Prilika koji se temelji na projektu koja ima polje **Vrsta** postavljeno na **Na temelju rada**.
 
-Podrobnije informacije o kvalificiranim potencijalnim klijentima potražite u članku [Kvalificiranje ili pretvaranje potencijalnih klijenata](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Podrobnije informacije o kvalificiranim potencijalnim klijentima potražite u članku [Kvalificiranje ili pretvaranje potencijalnih klijenata](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Kvalifikacija potencijalnog klijenta i podaci o pravnoj osobi 
 
-Kada pokrenete Projektne operacije s pomoću načina implementacije, Project Operations za scenarije koji se temelje na resursima / bez zaliha, svaki klijent i prilika zahtijevat će postavljanje polja **Tvrtka vlasnica**. Tvrtka vlasnica pravna je osoba u vašoj tvrtki ili ustanovi koja je vlasnik isporuke projekta. Svaki klijent ili račun s vrstom odnosa klijenta mora u polju **Tvrtka vlasnica** imati vrijednost postavljenu za pravnu osobu koja ugovara i pregovara s ovim klijentom. Klijent može biti samo u jednoj pravnoj osobi.
+Kada aplikaciju Project Operations pokrenete s pomoću načina implementacije, Project Operations za scenarije koji se temelje na resursima / bez zaliha, svaki klijent i prilika zahtijevat će postavljanje polja **Tvrtka vlasnica**. Tvrtka vlasnica pravna je osoba u vašoj tvrtki ili ustanovi koja je vlasnik isporuke projekta. Svaki klijent ili račun s vrstom odnosa klijenta mora u polju **Tvrtka vlasnica** imati vrijednost postavljenu za pravnu osobu koja ugovara i pregovara s ovim klijentom. Klijent može biti samo u jednoj pravnoj osobi.
 
 Kad se potencijalni klijent kvalificira, stvoreni zapisi o klijentima i prilikama imat će polje **Tvrtka vlasnica** postavljeno na tvrtku trenutačnog korisničkog zapisa resursa koji se može rezervirati.
 

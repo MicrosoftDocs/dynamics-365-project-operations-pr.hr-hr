@@ -3,18 +3,18 @@ title: Novosti u travnju 2021. – Project Operations za scenarije temeljene na 
 description: U ovoj temi nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju rješenja Project Operations u travnu 2021. godine za scenarije koji se temelje na resursu / bez zaliha.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867984"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935465"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u travnju 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
 
@@ -22,7 +22,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
-- Project Operations na verziji 4.9.0.221 okruženja platforme Dataverse
+- Project Operations u verziji 4.9.0.221 okruženja platforme Dataverse
 - Upravljanje projektima i računovodstvo u okruženju aplikacije Dynamics 365 Finance verzije 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
@@ -33,8 +33,26 @@ U ovo izdanje uključene su sljedeće značajke:
   - Procjena i određivanje cijene materijala koji nije na zalihama tijekom prodajnog ciklusa za projekt. Dodatne informacije potražite u odjeljku [Postavljanje cijena koštanja i prodaje za kataloške proizvode – osnovno](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Praćenje uporabe materijala koji nisu na zalihama tijekom isporuke projekta. Dodatne informacije potražite u odjeljku [Bilježenje uporabe materijala na projektima i projektnim zadacima](../material/material-usage-log.md).
   - Fakturiranje troškova za upotrijebljen materijal koji nije na zalihama. Dodatne informacije potražite u odjeljku [Upravljanje zaostalim naplatama](../proforma-invoicing/manage-billing-backlog.md).
+  - Informacije o načinu konfiguriranja ove značajke potražite u članku [Konfiguriranje materijala koji nije na zalihi i faktura dobavljača na čekanju](../procurement/configure-materials-nonstocked.md)
 - Naplata temeljena na zadatku: Dodana je mogućnost povezivanja projektnih zadataka s redcima ugovora o projektu, podvrgavajući ih istom načinu naplate, učestalosti faktura i istim klijentima kao što su oni iz retka ugovora. Ovo pridruživanje osigurava točno fakturiranje, računovodstvo, procjenu prihoda i priznanje za rad u skladu s ovom postavkom na projektnim zadacima.
 - Novi API-ji u aplikaciji Dynamics 365 Dataverse omogućuju stvaranje, ažuriranje i brisanje operacija s pomoću značajke **Entiteta za planiranje**. Dodatne informacije potražite u odjeljku [Uporaba API-ja rasporeda za izvođenje operacija s pomoću entiteta planiranja](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Ažuriranja karata s dvostrukim pisanjem u aplikaciji Project Operations
+
+Sljedeći popis prikazuje karte s dvostrukim pisanjem koje su izmijenjene ili dodane u izdanje aplikacije Project Operations za travanj 2021. godine.
+
+| **Karta entiteta** | **Ažurirana verzija** | **Komentari** |
+| --- | --- | --- |
+| Stvarni podaci o integraciji aplikacije Project Operations (msdyn\_actuals) | 1.0.0.14 | Karta izmijenjena za sinkronizaciju stvarnih podataka o materijalu za projekt. |
+| Entitet za integraciju aplikacije Project Operations za procjene troškova (msdyn\_estimateslines) | 1.0.0.2 | Dodana je sinkronizacija retka ugovora o projektu s aplikacijama Finance and Operations za podršku naplate koja se temelji na zadacima. |
+| Entitet za integraciju aplikacije Project Operations za procjene sati (msdyn\_resourceassignments) | 1.0.0.5 | Dodana je sinkronizacija retka ugovora o projektu s aplikacijama Finance and Operations za podršku naplate koja se temelji na zadacima. |
+| Tablica integracije aplikacije Project Operations za procjene materijala (msdyn\_estimatelines) | 1.0.0.0 | Nova karta tablice za sinkronizaciju procjena materijala s platforme Dataverse u aplikacije Finance and Operations. |
+| Entitet izvoza fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova karta tablice za sinkronizaciju zaglavlja faktura dobavljača iz aplikacija Finance and Operations na platformu Dataverse. |
+| Entitet izvoza retka fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nova karta tablice za sinkronizaciju redaka fakture dobavljača iz aplikacija Finance and Operations na platformu Dataverse. |
+
+Uvijek trebate pokrenuti najnoviju verziju karte u svom okruženju i omogućiti sve povezane karte tablice dok ažurirate svoje verzije rješenja aplikacije Project Operations platforme Dataverse i aplikacija Finance and Operations. Određene značajke i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija karte. Aktivnu verziju karte možete vidjeti u stupcu **Verzija** na stranici **Dvostruko pisanje**. Novu verziju karte možete aktivirati odabirom **Verzije karte tablice**, odabirom najnovije verzije, a zatim spremanjem odabrane verzije. Ako ste prilagodili gotovu kartu tablice, ponovite promjene. Dodatne informacije potražite u članku [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Ako naiđete na problem s pokretanjem karte, slijedite upute u odjeljku [Problem nedostatka stupaca tablice na kartama](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) vodiča za rješavanje poteškoća s dvostrukim pisanjem.
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
@@ -67,7 +85,7 @@ U ovo izdanje uključene su sljedeće značajke:
 
 | **Područje značajke** | **Broj reference** | **Ažuriranja kvalitete** |
 | --- | --- | --- |
-| Upravljanje projektom i računovodstvo | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Uklanjanje stornirane procjene ne funkcionira u značajci **Povremeno**.  |
+| Upravljanje projektom i računovodstvo | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Eliminacija stornirane procjene ne radi u odjeljku **Povremeno**.  |
 | Upravljanje projektom i računovodstvo | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Značajke **Računovodstvena prilagodba** stvara problem s računima glavne knjige za koje je odabrana značajka **Nemoj dozvoliti ručni unos**. |
 | Upravljanje projektom i računovodstvo | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Dodana je poslovna logika za obradu korektivnih faktura, uključujući iznos zadržanja ili primijenjeni iznos zadržanja. |
 | Upravljanje projektom i računovodstvo | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Knjiženje vrijednosti WIP-prodaje u fakturiranju projekata unutar tvrtke odabire neočekivani račun. |

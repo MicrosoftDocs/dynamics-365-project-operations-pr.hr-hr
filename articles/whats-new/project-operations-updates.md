@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877526"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948230"
 ---
 # <a name="project-operations-updates"></a>Ažuriranja aplikacije Project Operations
 
@@ -49,23 +49,23 @@ Ažuriranja za aplikaciju Project Operations u okruženju platforme Dataverse do
 | Stanica   | Regija        | Trenutačna verzija | Sljedeća verzija | Javno dostupno |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Položaj 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Prvo izdanje |  4.9.0.221       | TBD     | 23-tra-21           |
+|   &nbsp;  | Prvo izdanje |  4.9.0.221       | TBD     | 30-tra-21           |
 | Položaj 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Južna Amerika |  4.9.0.221       | TBD     | 23-tra-21           |
-|    &nbsp; | Kanada        |  4.9.0.221       | TBD     | 23-tra-21           |
-|   &nbsp;  | Indija         |  4.9.0.221       | TBD     | 23-tra-21           |
-|   &nbsp;  | Francuska         |  4.9.0.221       | TBD     | 23-tra-21           |
-|   &nbsp;  | Ujedinjeni Arapski Emirati         |  4.9.0.221       | TBD     | 23-tra-21           |
-|   &nbsp;  | Južnoafrička Republika         |  4.9.0.221       | TBD     | 23-tra-21           |
+|   &nbsp;  | Južna Amerika |  4.9.0.221       | TBD     | 30-tra-21           |
+|    &nbsp; | Kanada        |  4.9.0.221       | TBD     | 30-tra-21           |
+|   &nbsp;  | Indija         |  4.9.0.221       | TBD     | 30-tra-21           |
+|   &nbsp;  | Francuska         |  4.9.0.221       | TBD     | 30-tra-21           |
+|   &nbsp;  | Ujedinjeni Arapski Emirati         |  4.9.0.221       | TBD     | 30-tra-21           |
+|   &nbsp;  | Južnoafrička Republika         |  4.9.0.221       | TBD     | 30-tra-21           |
 | Položaj 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.9.0.221       | TBD     | 30-tra-21           |
-|   &nbsp;  | Azijsko-pacifička regija  |  4.9.0.221       | TBD     | 30-tra-21           |
-|   &nbsp;  | Velika Britanija |  4.9.0.221       | TBD     | 30-tra-21           |
-|   &nbsp;  | Oceanija       |  4.9.0.221       | TBD     | 30-tra-21           |
+|   &nbsp;  | Japan         |  4.9.0.221       | TBD     | 07-svi-21           |
+|   &nbsp;  | Azijsko-pacifička regija  |  4.9.0.221       | TBD     | 07-svi-21           |
+|   &nbsp;  | Velika Britanija |  4.9.0.221       | TBD     | 07-svi-21           |
+|   &nbsp;  | Oceanija       |  4.9.0.221       | TBD     | 07-svi-21           |
 | Položaj 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.8.0.92       | 4.9.0.221     | 16-tra-21           |
+|   &nbsp;  | Europa        |  4.9.0.221       | TBD     | 14-svi-21           |
 | Položaj 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Sjeverna Amerika |  4.8.0.92       | 4.9.0.221     | 23-tra-21           |
+|   &nbsp;  | Sjeverna Amerika |  4.9.0.221       | TBD     | 21-svi-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Raspored izdanja za Upravljanje projektom i računovodstvo u okruženju aplikacija Finance and Operations
 
@@ -73,15 +73,15 @@ Ažuriranja za Upravljanje projektom i računovodstvo objavljuju se osam puta go
 
 | Podržano izdanje | Javno dostupno (samostalno ažuriranje) |
 | --- | --- |
+| 10.0.18 | 16. travnja 2021. |
 | 10.0.17 | 19. ožujka 2021. |
 | 10.0.16 | 22. siječnja 2021. |
 
 
-Ciljani datumi izdanja podložni su promjenama. Dodatne informacije potražite u odjeljku [Dostupnost ažuriranja usluge](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Ciljani datumi izdanja podložni su promjenama. Dodatne informacije potražite u odjeljku [Dostupnost ažuriranja usluge](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Ciljani datum izdanja | Javno dostupno (samostalno ažurirano) |
 | --- | --- |
-| 10.0.18 | 16. travnja 2021. |
 | 10.0.19 | 18. lipnja 2021. |
 | 10.0.20 | 16. srpnja 2021. |
 

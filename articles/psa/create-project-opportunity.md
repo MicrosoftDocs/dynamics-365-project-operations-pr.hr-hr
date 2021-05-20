@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285204"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948185"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Izradi priliku projekta (Project Service)
 
@@ -39,7 +39,7 @@ Prilike su potencijalni klijenti koji žele ugovoriti vaše usluge. Mogućnosti 
   
 3.  U dijelu **Sažetak**, unesite poduzeće prilike i druge informacije.  
   
-4.  Dodajte bilješke i aktivnosti (na primjer, telefonske pozive ili poruke e-pošte) povezane s ovim potencijalnim klijentom. Da biste saznali više o dodavanju bilješki i aktivnosti, pogledajte [Prati bilješke, zadatake, pozive ili e-poštu s pomoću aktivnosti](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Dodajte bilješke i aktivnosti (na primjer, telefonske pozive ili poruke e-pošte) povezane s ovim potencijalnim klijentom. Da biste saznali više o dodavanju bilješki i aktivnosti, pogledajte [Prati bilješke, zadatake, pozive ili e-poštu s pomoću aktivnosti](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Da biste dodali dionike, u dijelu **Dionici** kliknite **+**.  
   

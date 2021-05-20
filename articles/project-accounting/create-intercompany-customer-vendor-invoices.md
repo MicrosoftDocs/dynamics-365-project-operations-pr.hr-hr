@@ -3,17 +3,17 @@ title: Stvaranje faktura za klijenta i dobavljača unutar tvrtke
 description: U ovoj temi nalaze se informacije o načinu stvaranja faktura za klijenta i dobavljače unutar tvrtke.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287454"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948380"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Stvaranje faktura za klijenta i dobavljača unutar tvrtke
 
@@ -25,7 +25,9 @@ Računovođa projekta pravne osobe koja kreditira može postaviti skupni postupa
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Ručno stvaranje fakture za klijenta unutar tvrtke za projektne transakcije 
 
-Ovaj postupak upotrijebite za ručno stvaranje fakture za klijenta unutar tvrtke za projektne transakcije. Potražite radno vrijeme koje su radnici prijavili za rad na projektima u pravnim osobama koje se zadužuju i za troškove koje je vaša pravna osoba napravila u ime pravnih osoba koje se zadužuju. Možete pretraživati prema nazivu pravne osobe, broju ugovora o projektu, broju projekta, rasponu datuma ili bilo kojoj kombinaciji ovih mogućnosti. U rezultatima pretraživanja odaberite transakcije koje ćete dodati fakturi unutar tvrtke.
+Ovaj postupak upotrijebite za ručno stvaranje fakture za klijenta unutar tvrtke za projektne transakcije. Potražite radno vrijeme koje su radnici prijavili za rad na projektima u pravnim osobama koje se zadužuju i za troškove koje je vaša pravna osoba napravila u ime pravnih osoba koje se zadužuju. Možete pretraživati prema nazivu pravne osobe, broju ugovora o projektu, broju projekta, rasponu datuma ili bilo kojoj kombinaciji ovih mogućnosti. U rezultatima pretraživanja odaberite transakcije koje ćete dodati fakturi unutar tvrtke. 
+
+Sljedeći koraci moraju se poduzeti u pravnoj osobi koja daje kredit. 
 
 1. U aplikaciji Dynamics 365 Finance, idite na **Upravljanje projektima i računovodstvo** > **Fakture za projekt** > **Fakture za klijenta unutar tvrtke**. Na stranici s popisom **Fakture za klijenta unutar tvrtke**, u Oknu radnji, odaberite **Nova.**
 2. Na stranici **Stvori fakturu unutar tvrtke**, u polju **Pravna osoba**, odaberite pravnu osobu koja se zadužuje.
@@ -35,9 +37,9 @@ Ovaj postupak upotrijebite za ručno stvaranje fakture za klijenta unutar tvrtke
 6. U rezultatima pretraživanja odaberite transakcije koje ćete uključiti u prijedlog fakture unutar tvrtke, a zatim odaberite **U redu**.
 7. Na stranici **Faktura za klijenta unutar tvrtke** prikazuju se transakcije projekta unutar tvrtke koje ste odabrali iz rezultata pretraživanja. Kako biste izmijenili transakcije prije nego što fakturu pošaljete pravnoj osobi koja se zadužuje, učinite sljedeće:
   
-    1. Otvorite stranicu **Stvaranje prijedloga fakture**. Odaberite dodatne transakcije unutar tvrtke za trenutačnu fakturu, a zatim **Dodaj redak**.
+    1. Na stranici **Račun za klijenta među poduzećima unutar tvrtke** otvorite pojedinosti fakture, a zatim odaberite **Dodaj redak**.
     2. Kako biste uklonili redak, kliknite ga i odaberite **Ukloni**.
-    3. Pogledajte komentare, razloge, financijske veličine i ostale podatke o odabranom retku na BrzojKartici **Redci fakture**.
+    3. Pregledajte komentare, razloge, financijske veličine i ostale podatke o odabranom retku na pojedinostima retka fakture.
     
 8. Za knjiženje fakture za klijenta unutar tvrtke, u Oknu radnje odaberite **Knjiži**.
 
@@ -52,7 +54,7 @@ Možete istodobno stvoriti više faktura unutar tvrtke za sve pravne osobe koje 
 2. Na stranici **Stvaranje faktura za klijenta unutar tvrtke**, u polju **Tvrtka**, odaberite pravnu osobu kojoj se fakturira. Ako ne odaberete tvrtku, prikazuju se sve transakcije koje zadovoljavaju kriterije pretraživanja za sve pravne osobe koje se zadužuju.
 3. U stavci **Stvori fakturu po** odaberite želite li stvoriti fakturu za transakcije unutar tvrtke koje se temelje na projektu ili pravnoj osobi koja se zadužuje.
 4. Neobvezno: Kako biste odabrali određeni projekt i ugovor o projektu za koji će se stvoriti fakture unutar tvrtke, kliknite **Odaberi**. Na stranici **Upit**, u polju **Kriteriji**, odaberite ugovor o projektu, broj projekta ili oboje, a zatim odaberite **U redu**.
-5. Na kartici **Skupina** postavite skupni postupak za stvaranje ponavljajućih faktura unutar tvrtke. Dodatne informacije potražite u članku [Slanje posla skupne obrade iz obrasca](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Na kartici **Skupina** postavite skupni postupak za stvaranje ponavljajućih faktura unutar tvrtke. Dodatne informacije potražite u članku [Slanje posla skupne obrade iz obrasca](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Za knjiženje fakture unutar tvrtke, u Oknu radnje odaberite **Knjiži**.
 
 > [!NOTE]

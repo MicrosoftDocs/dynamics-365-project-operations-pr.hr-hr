@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 1aae04230104d27db2f62db8e674697fd83460ac
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663585"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948095"
 ---
 # <a name="determine-your-deployment-type"></a>Odredite vrstu implementacije
 
@@ -51,7 +51,7 @@ Project Operations podržava scenarije sa zalihama / proizvodnim nalozima i scen
 Jednostavna implementacija uključuje sljedeće mogućnosti:
 
 - Postupak prodaje za projekte koji proširuju iskustva s aplikacijom Dynamics 365 Sales
-- Planiranje projekta s pomoću aplikacije Microsoft Project za mrežu
+- Planiranje projekta s pomoću aplikacije Microsoft Project for the Web
 - Višedimenzionalno određivanje cijena
 - Objedinjeno upravljanje resursima
 - Praćenje vremena
@@ -68,7 +68,7 @@ Za ovu implementaciju pogledajte odjeljke [Prijava za pretplate na pretpregled](
 Project Operations za scenarije s resursom / bez zaliha uključuju sljedeće mogućnosti:
  
 - Postupak prodaje za projekte koji proširuju aplikaciju Dynamics 365 Sales
-- Planiranje projekta s pomoću aplikacije Microsoft Project za mrežu
+- Planiranje projekta s pomoću aplikacije Microsoft Project for the Web
 - Višedimenzionalno određivanje cijena
 - Objedinjeno upravljanje resursima
 - Praćenje vremena
@@ -99,7 +99,7 @@ Za ovu implementaciju pogledajte odjeljke [Prijava za pretplate na pretpregled](
 #### <a name="deployment-steps"></a>Koraci implementacije
 Odredite najbolji model implementacije aplikacije Project Operations s pomoću odjeljka [Upitnik za implementaciju](https://aka.ms/provisionprojectoperations).
 
-Za ovu implementaciju pogledajte odjeljke [Prijava za pretplate na pretpregled](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) i [Priprema novog okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
+Za ovu implementaciju pogledajte odjeljke [Prijava za pretplate na pretpregled](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) i [Priprema novog okruženja](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
 
 
