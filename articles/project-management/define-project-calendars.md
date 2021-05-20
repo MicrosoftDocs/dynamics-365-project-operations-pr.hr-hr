@@ -1,9 +1,9 @@
 ---
 title: Definiranje kalendara projekata
-description: U ovoj se temi nalaze informacije o načinu uporabe kalendara projekta za praćenje rasporeda projekata.
+description: U ovoj temi nalaze se informacije o tome kako primijeniti predložak kalendara na projekt kako bi se pratio raspored projekta.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286959"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981291"
 ---
-# <a name="define-project-calendars"></a><span data-ttu-id="1be72-103">Definiranje kalendara projekata</span><span class="sxs-lookup"><span data-stu-id="1be72-103">Define project calendars</span></span>
+# <a name="define-project-calendars"></a><span data-ttu-id="cb297-103">Definiranje kalendara projekata</span><span class="sxs-lookup"><span data-stu-id="cb297-103">Define project calendars</span></span>
 
-<span data-ttu-id="1be72-104">_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_</span><span class="sxs-lookup"><span data-stu-id="1be72-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="cb297-104">_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_</span><span class="sxs-lookup"><span data-stu-id="cb297-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="1be72-105">Da biste stvorili raspored projekta, stvorite predložak kalendara projekta koji definira radno vrijeme po danu i neradno vrijeme.</span><span class="sxs-lookup"><span data-stu-id="1be72-105">To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures.</span></span> <span data-ttu-id="1be72-106">Da biste stvorili predložak kalendara projekta, povežite radni predložak s poljem **Predložak kalendara** za projekt.</span><span class="sxs-lookup"><span data-stu-id="1be72-106">To create a project calendar template, you associate a work template with the **Calendar template** field for the project.</span></span> <span data-ttu-id="1be72-107">Poduzmite ove korake da biste stvorili radni predložak.</span><span class="sxs-lookup"><span data-stu-id="1be72-107">Follow these steps to create a work template.</span></span>
+<span data-ttu-id="cb297-105">Kako biste stvorili projekt i upravljali njime, na projekt morate primijeniti predložak kalendara.</span><span class="sxs-lookup"><span data-stu-id="cb297-105">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="cb297-106">Predložak kalendara definira sljedeće atribute projekta:</span><span class="sxs-lookup"><span data-stu-id="cb297-106">The calendar template defines the following project attributes:</span></span>
 
-1. <span data-ttu-id="1be72-108">U lijevom navigacijskom oknu odaberite **Resursi**.</span><span class="sxs-lookup"><span data-stu-id="1be72-108">In the left navigation pane, select **Resources**.</span></span> 
-2. <span data-ttu-id="1be72-109">Na stranici popisa **Resursi** otvorite zapis korisnika, a zatim odaberite **Prikaži radno vrijeme**.</span><span class="sxs-lookup"><span data-stu-id="1be72-109">On the **Resources** list page, open a user record, and then select **Show Work Hours**.</span></span>
+- <span data-ttu-id="cb297-107">Radno vrijeme, uključujući vrijeme početka i završetka</span><span class="sxs-lookup"><span data-stu-id="cb297-107">Working hours, including start and end time</span></span>
+- <span data-ttu-id="cb297-108">Radni dani</span><span class="sxs-lookup"><span data-stu-id="cb297-108">Working days</span></span>
+- <span data-ttu-id="cb297-109">Iznimke kalendara poput neradnih dana</span><span class="sxs-lookup"><span data-stu-id="cb297-109">Calendar exceptions such as non-working days</span></span>
 
-  > [!NOTE]
-  > <span data-ttu-id="1be72-110">Provjerite jeste li omogućili skočne prozore na stranici preglednika.</span><span class="sxs-lookup"><span data-stu-id="1be72-110">Make sure that you allow pop-ups on the browser page.</span></span> <span data-ttu-id="1be72-111">To vam omogućuje da vidite radno vrijeme postavljeno za resurs.</span><span class="sxs-lookup"><span data-stu-id="1be72-111">This lets you see the work hours set for the resource.</span></span>
-  
-3. <span data-ttu-id="1be72-112">Na kartici **Mjesečni prikaz** odaberite **Postavi**.</span><span class="sxs-lookup"><span data-stu-id="1be72-112">On the **Monthly View** tab, select **Set Up**.</span></span> <span data-ttu-id="1be72-113">Prikazat će se popis s tri mogućnosti:</span><span class="sxs-lookup"><span data-stu-id="1be72-113">A list of three options appears:</span></span> 
+<span data-ttu-id="cb297-110">Predložak kalendara koji se primjenjuje na projekt kopija je predloška kalendara definiranog u postavkama vaše tvrtke ili ustanove.</span><span class="sxs-lookup"><span data-stu-id="cb297-110">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
 
-  - <span data-ttu-id="1be72-114">Novi tjedni raspored</span><span class="sxs-lookup"><span data-stu-id="1be72-114">New Weekly Schedule</span></span>
-  - <span data-ttu-id="1be72-115">Radni raspored za jedan dan</span><span class="sxs-lookup"><span data-stu-id="1be72-115">Work Schedule for One Day</span></span>
-  - <span data-ttu-id="1be72-116">Slobodno vrijeme</span><span class="sxs-lookup"><span data-stu-id="1be72-116">Time Off</span></span>
+> [!NOTE]
+> <span data-ttu-id="cb297-111">Ako promijenite predložak kalendara, te se promjene neće proširiti na radno vrijeme projekta.</span><span class="sxs-lookup"><span data-stu-id="cb297-111">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="cb297-112">Kako biste promijenili radno vrijeme projekta, morate primijeniti novi obrazac.</span><span class="sxs-lookup"><span data-stu-id="cb297-112">To change the working hours of the project, a new template must be applied.</span></span>
 
-4. <span data-ttu-id="1be72-117">Odaberite **Novi tjedni raspored**, a zatim postavite mogućnosti za ovaj raspored resursa.</span><span class="sxs-lookup"><span data-stu-id="1be72-117">Select **New Weekly Schedule**, and then set the options for this resource schedule.</span></span> <span data-ttu-id="1be72-118">Možete postaviti tjedni raspored s ponavljanjem, parametre dnevnih sati, neradno vrijeme itd.</span><span class="sxs-lookup"><span data-stu-id="1be72-118">You can set a recurring weekly schedule, daily hour parameters, business closures, and more.</span></span>
-5. <span data-ttu-id="1be72-119">Postavite datumski raspon, odaberite **Spremi**, a zatim odaberite **Zatvori**.</span><span class="sxs-lookup"><span data-stu-id="1be72-119">Set the date range, select **Save**, and then select **Close**.</span></span> 
-6. <span data-ttu-id="1be72-120">Vratite se na stranicu popisa **Resursi** i odaberite resurs za koji ste postavili radno vrijeme.</span><span class="sxs-lookup"><span data-stu-id="1be72-120">Go back to the **Resources** list page, and select the resource that you set the work hours for.</span></span> 
-7. <span data-ttu-id="1be72-121">Odaberite **Postavi kalendar kao** da biste postavili predložak rada.</span><span class="sxs-lookup"><span data-stu-id="1be72-121">Select **Set Calendar As** to set the work template.</span></span> 
-8. <span data-ttu-id="1be72-122">U dijaloškom okviru **Radni predložak** unesite naziv radnog predloška, a zatim odaberite **Primijeni**.</span><span class="sxs-lookup"><span data-stu-id="1be72-122">In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**.</span></span> 
+<span data-ttu-id="cb297-113">Dva su osnovna zahtjeva za stvaranje predloška kalendara za vašu tvrtku ili ustanovu:</span><span class="sxs-lookup"><span data-stu-id="cb297-113">To create a calendar template for your organization, there are two key requirements:</span></span>
 
-<span data-ttu-id="1be72-123">Sada možete povezati predložak rada s predloškom kalendara projekta.</span><span class="sxs-lookup"><span data-stu-id="1be72-123">You can now associate the work template with a project calendar template.</span></span>
+- <span data-ttu-id="cb297-114">Definirajte željeno radno vrijeme predloška s pomoću novog ili postojećeg resursa koji se može rezervirati.</span><span class="sxs-lookup"><span data-stu-id="cb297-114">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="cb297-115">Stvorite novi predložak kalendara i povežite ga s resursom koji se može rezervirati.</span><span class="sxs-lookup"><span data-stu-id="cb297-115">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="cb297-116">**Definiranje radnog vremena predloška**</span><span class="sxs-lookup"><span data-stu-id="cb297-116">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="cb297-117">Otvorite **Resursi** \> **Resursi**.</span><span class="sxs-lookup"><span data-stu-id="cb297-117">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="cb297-118">Stvorite novi resurs za referencu u predlošku kalendara ili odaberite postojeći.</span><span class="sxs-lookup"><span data-stu-id="cb297-118">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="cb297-119">Odaberite karticu **Radno vrijeme** resursa i dovršite upute iz članka [Postavljanje radnog vremena za resurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) kako biste konfigurirali pravila kalendara.</span><span class="sxs-lookup"><span data-stu-id="cb297-119">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="cb297-120">**Stvaranje novog predloška kalendara**</span><span class="sxs-lookup"><span data-stu-id="cb297-120">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="cb297-121">Idite na **Postavke** \> **Predložak kalendara**.</span><span class="sxs-lookup"><span data-stu-id="cb297-121">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="cb297-122">Odaberite **Novi** i unesite naziv, opis i resurs predloška.</span><span class="sxs-lookup"><span data-stu-id="cb297-122">Select **New**, and enter a name, description, and template resource.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="cb297-123">Kada se u predlošku kalendara upućuje na resurs, kopija kalendara resursa povezuje se s predloškom kalendara.</span><span class="sxs-lookup"><span data-stu-id="cb297-123">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="cb297-124">Ako se promijeni radno vrijeme kopiranog predloška, te se promjene neće proširiti na predložak kalendara.</span><span class="sxs-lookup"><span data-stu-id="cb297-124">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+<span data-ttu-id="cb297-125">Sada možete povezati predložak rada s predloškom kalendara projekta.</span><span class="sxs-lookup"><span data-stu-id="cb297-125">You can now associate the work template with a project calendar template.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
