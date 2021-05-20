@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e5bfd3c790dac51895cde04e08d1fa62f4457e8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ece05f1f551b18a5b30610af57d68baa120948fb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292060"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950975"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u siječnju 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
 
@@ -23,7 +23,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
-  - Project Operations na verziji 4.6.0.154 okruženja platforme Dataverse
+  - Project Operations u verziji 4.6.0.154 okruženja platforme Dataverse
   - Upravljanje projektima i računovodstvo u okruženju aplikacije Dynamics 365 Finance verzije 10.0.16
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
@@ -88,7 +88,7 @@ Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Pro
 
 ## <a name="regulatory-updates"></a>Ažuriranja propisa
 
-Za informacije o ažuriranjima propisa za aplikacije Finance and Operations, pogledajte članak [Ažuriranja propisa](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+Za informacije o ažuriranjima propisa za aplikacije Finance and Operations, pogledajte članak [Ažuriranja propisa](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

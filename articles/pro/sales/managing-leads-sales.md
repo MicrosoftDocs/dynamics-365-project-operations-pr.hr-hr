@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272829"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949715"
 ---
 # <a name="manage-leads---lite"></a>Upravljanje potencijalnim klijentima – jednostavno
 
@@ -55,7 +55,7 @@ Potencijalni klijenti koji vrijednost **Vrsta** imaju postavljenu na **Na temelj
 - Zapis kontakata povezan s računom koji se temelji na vrijednostima u poljima **Ime** i **Prezime** potencijalnog klijenta.
 - Prilika koji se temelji na projektu koja ima polje **Vrsta** postavljeno na **Na temelju rada**.
 
-Podrobnije informacije o kvalificiranim potencijalnim klijentima potražite u članku [Kvalificiranje ili pretvaranje potencijalnih klijenata](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Podrobnije informacije o kvalificiranim potencijalnim klijentima potražite u članku [Kvalificiranje ili pretvaranje potencijalnih klijenata](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Tijek poslovnog procesa za poslove temeljene na projektima
 

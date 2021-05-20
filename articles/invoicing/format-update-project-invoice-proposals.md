@@ -3,17 +3,17 @@ title: Upravljanje prijedlozima faktura za projekt
 description: U ovoj temi nalaze se pojedinosti o izradi faktura za klijenta s pomoću aplikacije Project Operations za scenarije temeljene na resursima / bez zaliha.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275844"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950705"
 ---
 # <a name="manage-project-invoice-proposals"></a>Upravljanje prijedlozima faktura za projekt
 
@@ -80,7 +80,8 @@ Vrijednosti **Grupa poreza na promet** i **Grupa poreza na promet stavke** zadan
     - **Klijent**: Uvijek će zadati grupu poreza na promet za naplatu iz klijenta.
     - **Pretraži**: Pretražit će sve entitete navedene u tom popisu i odabrati prvu dostupnu vrijednost. Pretraživanje započinje s entitetom **Projekt**, zatim entitetom **Ugovor o projektu** i zatim entitetom **Klijent**.
 
-- **Grupa poreza na promet stavke za kontrolnu točku s fiksnom cijenom** upotrebljava se za zadavanje vrijednosti u polju **Grupa poreza na promet stavke**.
+- **Grupa poreza na promet stavki s nepromjenjivim cijenama na kontrolnim točkama** upotrebljava se kao zadana vrijednost u polju **Grupa poreza na promet stavke** za kontrolnu točku za naplatu. Računovođa može pregledati i izmijeniti ovu vrijednost na stranici **Transakcije po obračunu**. Pri stvaranju retka prijedloga fakture za projekt sustav upotrebljava vrijednost iz transakcije po obračunu.
+ 
 
 ### <a name="financial-dimensions"></a>Financijske dimenzije
 
@@ -104,7 +105,7 @@ Zaglavlje prijedloga fakture za projekt stvara se u aplikaciji Financije kada je
     - **Dopusti korisničke promjene: na niži broj** = **Da**
     - **Dopusti korisničke promjene: na viši broj** = **Da**
 
-Retke prijedloga fakture za projekt sustav dodaje periodičkim postupkom **Uvoz iz pripremne tablice** (**Upravljanje projektima i računovodstvo** > **Povremeno** > **Integracija aplikacije Project Operations** > **Uvoz iz pripremne tablice**). Ovaj se postupak može pokrenuti ručno ili s pomoću povremenog rasporeda. Sustav neće dodavati retke u dokument prijedloga fakture dok svi redci ne budu spremni za fakturiranje. Transakcije vremena i materijala spremne su za fakturiranje samo kada su knjižene s pomoću dnevnika **Integracija aplikacije Project Operations**.
+Retke prijedloga fakture za projekt sustav dodaje s pomoću povremenog postupka **Uvoz iz pripremne tablice** (**Upravljanje projektima i računovodstvo** > **Povremeno** > **Integracija aplikacije Project Operations** > **Uvoz iz pripremne tablice**). Ovaj se postupak može pokrenuti ručno ili s pomoću povremenog rasporeda. Sustav neće dodavati retke u dokument prijedloga fakture dok svi redci ne budu spremni za fakturiranje. Transakcije vremena i materijala spremne su za fakturiranje samo kada su knjižene s pomoću dnevnika **Integracija aplikacije Project Operations**.
 
 ## <a name="format-and-print-invoice-proposals"></a>Oblikovanje i ispis prijedloga faktura
 
@@ -132,7 +133,7 @@ Stranica **Oblikovanje prijedloge faktura** omogućuje prilagođeno grupiranje t
 
 Upravljanje ispisom upotrebljava različite datoteke izvješća za ispis, određivanje odredišta i prilagodbu teksta podnožja za fakturu. Upravljanje ispisom može se postaviti na razini modula, no te se postavke mogu nadjačati za određenog kupca, ugovor ili prijedlog fakture. Kako biste pristupili ovoj funkciji na stranici **Prijedlog fakture za projekt**, odaberite **Ispis** > **Upravljanje ispisom**.
 
-Postavljanje upravljanja ispisom prikazuje se u obliku stabla, gdje svaka razina čvora prikazuje dostupne dokumente za prilagodbu. Možete dodijeliti prilagođene ispise na razini modula, klijenta, ugovora ili dokumenta s prijedlogom fakture. Kako biste izmijenili ispis izvornog dokumenta, proširite željeni čvor i odaberite **Izvorna stavka**. U polju **Oblik izvješća** odaberite oblik izvješća koji će se upotrebljavati za ispis. Možete upotrebljavati prilagođene oblike izvješća s pomoću [okvira za Upravljanje poslovnim dokumentima](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Postavljanje upravljanja ispisom prikazuje se u obliku stabla, gdje svaka razina čvora prikazuje dostupne dokumente za prilagodbu. Možete dodijeliti prilagođene ispise na razini modula, klijenta, ugovora ili dokumenta s prijedlogom fakture. Kako biste izmijenili ispis izvornog dokumenta, proširite željeni čvor i odaberite **Izvorna stavka**. U polju **Oblik izvješća** odaberite oblik izvješća koji će se upotrebljavati za ispis. Možete upotrebljavati prilagođene oblike izvješća s pomoću [okvira za Upravljanje poslovnim dokumentima](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Knjiženje prijedloga faktura
 

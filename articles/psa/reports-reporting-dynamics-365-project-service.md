@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32b504a862f98dac4b1d9b54289476026d988c13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283269"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951470"
 ---
 # <a name="reporting-home-page"></a>Početna stranica izvješćivanja
 
@@ -31,15 +31,15 @@ ms.locfileid: "5283269"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation tvrtkama ili ustanovama koje se temelje na projektima omogućuje učinkovito upravljaju poslovanjem. Članovi tima na bilo kojem projektu moraju upravljati prilikama i ponudama, planirati rad, raspodijeliti resurse za projekte, upravljati poslom prema planu, provesti naplatu za rad, a zatim napraviti posao da bi dovršili projekt. Mogućnost izvješćivanja o operacijama ključna je za utvrđivanje stanja tvrtke ili ustanove i poduzimanje potrebnih korektivnih radnji. PSA upotrebljava metode i tehnologije izvješćivanja sustava Microsoft Dynamics 365 za sva izvješća. Dodatne informacije o mogućnostima izvješćivanja potražite u [Vodiču za pisanje izvješća za aplikaciju Dynamics 365 Customer Engagement (on-premises), verzija 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation tvrtkama ili ustanovama koje se temelje na projektima omogućuje učinkovito upravljaju poslovanjem. Članovi tima na bilo kojem projektu moraju upravljati prilikama i ponudama, planirati rad, raspodijeliti resurse za projekte, upravljati poslom prema planu, provesti naplatu za rad, a zatim napraviti posao da bi dovršili projekt. Mogućnost izvješćivanja o operacijama ključna je za utvrđivanje stanja tvrtke ili ustanove i poduzimanje potrebnih korektivnih radnji. PSA upotrebljava metode i tehnologije izvješćivanja sustava Microsoft Dynamics 365 za sva izvješća. Dodatne informacije o mogućnostima izvješćivanja potražite u [Vodiču za pisanje izvješća za aplikaciju Dynamics 365 Customer Engagement (on-premises), verzija 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Čarobnjak za izvješća
 
-Čarobnjak za izvješća omogućuje izradu jednostavnih izvješća korisnicima koji nisu razvojni inženjeri. Kako je aplikacija izgrađena na postojećoj platformi, postupak se ne razlikuje od postupka navedenog u odjeljku [Stvaranje ili uređivanje izvješća pomoću čarobnjaka za izvješća](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). No, upotrebljavat ćete entitete za Project Service Automation.
+Čarobnjak za izvješća omogućuje izradu jednostavnih izvješća korisnicima koji nisu razvojni inženjeri. Kako je aplikacija izgrađena na postojećoj platformi, postupak se ne razlikuje od postupka navedenog u odjeljku [Stvaranje ili uređivanje izvješća pomoću čarobnjaka za izvješća](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). No, upotrebljavat ćete entitete za Project Service Automation.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Prilagođena izvješća usluge SQL Server Reporting Services
 
-Ako vaše poslovanje zahtijeva određeno izvješće koje se ne može izraditi pomoću čarobnjaka za izvješća, možete izraditi prilagođeno izvješće. Morate imati instaliran program Microsoft Visual Studio, kao i odgovarajuću značajku Microsoft SQL Server Data Tools i dodatke za stvaranje izvješća. Dodatne informacije o alatima i verzijama potražite u odjeljku [Okruženje za pisanje izvješća s pomoću aplikacije SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Informacije o stvaranju prilagođenog izvješća potražite u odjeljku [Stvaranje novog izvješća s pomoću aplikacije SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools)
+Ako vaše poslovanje zahtijeva određeno izvješće koje se ne može izraditi pomoću čarobnjaka za izvješća, možete izraditi prilagođeno izvješće. Morate imati instaliran program Microsoft Visual Studio, kao i odgovarajuću značajku Microsoft SQL Server Data Tools i dodatke za stvaranje izvješća. Dodatne informacije o alatima i verzijama potražite u odjeljku [Okruženje za pisanje izvješća s pomoću aplikacije SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Informacije o stvaranju prilagođenog izvješća potražite u odjeljku [Stvaranje novog izvješća s pomoću aplikacije SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools)
 
 ## <a name="power-bi-insights-apps"></a>Aplikacije za uvide Power BI
 

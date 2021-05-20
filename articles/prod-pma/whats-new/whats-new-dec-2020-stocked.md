@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288129"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950210"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novosti i izmjene u aplikaciji Project Operations u prosincu 2020. – za scenarije koji se temelje na zalihama/proizvodnji
 
@@ -141,7 +141,7 @@ Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Pro
 
 ## <a name="regulatory-updates"></a>Ažuriranja propisa
 
-Za informacije o ažuriranjima propisa za aplikaciju Dynamics 365 Finance, pogledajte članak [Ažuriranja propisa](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ažuriranjima jest prijava na Lifecycle Services (LCS) i pregledavanje planiranih regulatornih ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+Za informacije o ažuriranjima propisa za aplikaciju Dynamics 365 Finance, pogledajte članak [Ažuriranja propisa](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ažuriranjima jest prijava na Lifecycle Services (LCS) i pregledavanje planiranih regulatornih ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

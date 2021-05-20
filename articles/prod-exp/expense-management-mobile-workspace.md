@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272019"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950470"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilni radni prostor upravljanja troškovima
 
@@ -58,7 +58,7 @@ Ove značajke možete upotrebljavati i za sljedeće:
 Preduvjeti se razlikuju, ovisno o verziji koja je postavljena za vašu tvrtku ili ustanovu.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Preduvjeti ako upotrebljavate aplikaciju Dynamics 365 Finance 
-Ako su Financije postavljene za vašu tvrtku ili ustanovu, administrator sustava mora objaviti mobilni radni prostor **Upravljanje troškovima**. Upute potražite u odjeljku [Objavljivanje mobilnih radnih prostora](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Ako su Financije postavljene za vašu tvrtku ili ustanovu, administrator sustava mora objaviti mobilni radni prostor **Upravljanje troškovima**. Upute potražite u odjeljku [Objavljivanje mobilnih radnih prostora](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Preduvjeti ako upotrebljavate verziju 1611 s ažuriranjem platforme 3 ili novijim
 Ako je za vašu tvrtku ii ustanovu postavljena verzija 1611 s ažuriranjem platforme 3 ili novijim, administrator sustava mora ispuniti sljedeće preduvjete. 
@@ -77,16 +77,16 @@ Ako je za vašu tvrtku ii ustanovu postavljena verzija 1611 s ažuriranjem platf
 <td>Administrator sustava</td>
 <td>Zakrpa KB 4019015 ažuriranje je za X++ ili hitni popravak metapodataka koji sadrži mobilni radni prostor <strong>Upravljanje troškovima</strong>. Kako biste implementirali zakrpu KB 4019015, vaš administrator sustava mora slijediti ove korake.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Preuzeti hitni popravak metapodataka s usluge Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Instalirati hitni popravak metapodataka</a>,</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Stvoriti paket za raspoređivanje</a> koji sadrži modele <strong>ApplicationSuite</strong> i <strong>ExpenseMobile</strong>, a zatim na LCS prenijeti paket koji se može rasporediti.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Primijeniti paket koji se može rasporediti</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Preuzeti hitni popravak metapodataka s usluge Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Instalirati hitni popravak metapodataka</a>,</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Stvoriti paket za raspoređivanje</a> koji sadrži modele <strong>ApplicationSuite</strong> i <strong>ExpenseMobile</strong>, a zatim na LCS prenijeti paket koji se može rasporediti.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Primijeniti paket koji se može rasporediti</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Objaviti mobilni radni prostor <strong>Upravljanje troškovima</strong>.</td>
 <td>Administrator sustava</td>
-<td>Pogledajte <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objavljivanje mobilnog radnog prostora</a>.</td>
+<td>Pogledajte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objavljivanje mobilnog radnog prostora</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Brzi unos troškova s pomoću mobilnog radnog prostora Upravljanje troškovima
 1. Na mobilnom uređaju otvorite radni prostor **Upravljanje troškovima**.
 2. Odaberite **Brzi unos troškova**.
-3. Odaberite kategoriju troška. Prikazuje se popis kategorija troškova koji su preneseni u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaša kategorija nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po kategoriji troška ili se prebacite na pretraživanje po vrsti troška.
+3. Odaberite kategoriju troška. Prikazuje se popis kategorija troškova koji su preneseni u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaša kategorija nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po kategoriji troška ili se prebacite na pretraživanje po vrsti troška.
 4. Unesite datum transakcije troškova.
 5. Neobvezno: Unesite trgovca radi troškova.
 6. Unesite iznos troška.
-7. Odaberite valutu troška. Prikazuje se popis šifri valuta koje su prenesene u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama prenosi se 400 valuta, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaša valuta nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po valuti ili se prebacite na pretraživanje po nazivu.
+7. Odaberite valutu troška. Prikazuje se popis šifri valuta koje su prenesene u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama prenosi se 400 valuta, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaša valuta nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po valuti ili se prebacite na pretraživanje po nazivu.
 8. Odaberite **Fotografiraj** ili **Odaberi sliku**.
 9. Slijedite jedan od ovih koraka:
 
@@ -163,11 +163,11 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 7. Na popisu odaberite jedan trošak ili više njih.
 8. Odaberite **Gotovo**.
 9. Kako biste dodali novi trošak u izvješće o troškovima, odaberite **Novi trošak**.
-10. Odaberite kategoriju troška. Prikazuje se popis kategorija troškova koji su preneseni u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaša kategorija nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po kategoriji troška ili se prebacite na pretraživanje po vrsti troška.
+10. Odaberite kategoriju troška. Prikazuje se popis kategorija troškova koji su preneseni u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaša kategorija nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po kategoriji troška ili se prebacite na pretraživanje po vrsti troška.
 11. Neobvezno: Unesite trgovca radi troškova.
 12. Unesite datum transakcije troškova.
 13. Unesite iznos troška.
-14. Odaberite valutu troška. Prikazuje se popis šifri valuta koje su prenesene u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama prenosi se 400 valuta, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaša valuta nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po valuti ili se prebacite na pretraživanje po nazivu.
+14. Odaberite valutu troška. Prikazuje se popis šifri valuta koje su prenesene u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama prenosi se 400 valuta, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaša valuta nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po valuti ili se prebacite na pretraživanje po nazivu.
 15. Odaberite **Gotovo**.
 16. Kako biste trošku dodali više pojedinosti, odaberite **Dodaj više pojedinosti**. Dostupna polja ovise o konfiguraciji upravljanja troškovima za vašu tvrtku.
 17. Ako je prema pravilima tvrtke potreban račun o trošku, odaberite **Računi**, a zatim slijedite ove korake:
@@ -213,12 +213,12 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 
         - Ako ste odabrali mogućnost **Prethodni gosti**, slijedite ove korake:
 
-            1. Na popisu odaberite jednog prethodnog gosta ili više njih. Prikazuje se popis prethodnih gostiju koje ste dodali u prethodna izvješća o troškovima koja su prenesena u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaš prethodni gost nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po imenu ili se prebacite na pretraživanje po tvrtki ili ustanovi, državi ili stručnom naslovu.
+            1. Na popisu odaberite jednog prethodnog gosta ili više njih. Prikazuje se popis prethodnih gostiju koje ste dodali u prethodna izvješća o troškovima koja su prenesena u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaš prethodni gost nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po imenu ili se prebacite na pretraživanje po tvrtki ili ustanovi, državi ili stručnom naslovu.
             2. Odaberite **Gotovo**.
 
         - Ako ste odabrali mogućnost **Suradnici**, slijedite ove korake:
 
-            1. Na popisu odaberite jednog suradnika ili više njih. Prikazuje se popis suradnika koji su preneseni u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaši suradnici nisu na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po imenu ili se prebacite na pretraživanje po tvrtki ili stručnom naslovu.
+            1. Na popisu odaberite jednog suradnika ili više njih. Prikazuje se popis suradnika koji su preneseni u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaši suradnici nisu na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražujte po imenu ili se prebacite na pretraživanje po tvrtki ili stručnom naslovu.
             2. Odaberite **Gotovo**.
 
     3. Odaberite gumb **Povratak** za povratak na pojedinosti o troškovima.
@@ -227,7 +227,7 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 
     1. Odaberite prvi datum za specifikaciju.
     2. Odaberite **Dodaj specifikaciju**.
-    3. Odaberite potkategoriju specifikacije troška. Prikazuje se popis potkategorija troškova koji su preneseni u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaša potkategorija nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražite po nazivu potkategorije troška.
+    3. Odaberite potkategoriju specifikacije troška. Prikazuje se popis potkategorija troškova koji su preneseni u vašu aplikaciju za izvanmrežnu uporabu. Prema zadanim postavkama učitano je 50 stavki, ali razvojni inženjer može promijeniti taj broj. Razvojni inženjeri bi dodatne informacije trebali potražiti u članku [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Ako vaša potkategorija nije na popisu, odaberite **Pretraži** kako biste pretražili na mreži. Pretražite po nazivu potkategorije troška.
     4. Unesite iznos transakcije za specifikaciju.
     5. Uredite datum transakcije, ako je to potrebno.
     6. Odaberite **Gotovo**.

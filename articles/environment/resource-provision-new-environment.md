@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276879"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950525"
 ---
 # <a name="provision-a-new-environment"></a>Priprema novog okruženja
 
@@ -36,7 +36,7 @@ Poduzmite sljedeće korake kako biste omogućili automatizirani tijek pripreme z
 
 ## <a name="provision-a-project-operations-environment"></a>Priprema okruženja aplikacije Project Operations
 
-1. Otvorite novo Dynamics 365 Finance [probno okruženje](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ili implementaciju [sigurnosne ograde / proizvodnog okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otvorite novo Dynamics 365 Finance [probno okruženje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ili implementaciju [sigurnosne ograde / proizvodnog okruženja](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Upoznajte se s radom čarobnjaka **Priprema okruženja**. 
 
 > [!IMPORTANT]
@@ -155,7 +155,7 @@ Osvježavanje će potrajati otprilike 20 minuta. Kada bude dovršeno dobit ćete
 
 1. Idite na aplikaciju Project Operations u okruženju svoje platforme Dataverse. 
 2. Idite na **Postavke** > **Sigurnost** > **Sigurnosne uloge**. 
-3. S popisa uloga na stranici **Sigurnosne uloge**, odaberite **korisnik aplikacije dvostrukog ispisa** i odaberite karticu **Prilagođeni entiteti**.  
+3. S popisa uloga na stranici **Sigurnosne uloge**, odaberite **korisnik aplikacije za dvostruko pisanje** i odaberite karticu **Prilagođeni entiteti**.  
 4. Provjerite ima li uloga dozvole **Čitanje** i **Dodaj na** za:
       
       - **Vrstu deviznog tečaja valute**
@@ -164,7 +164,7 @@ Osvježavanje će potrajati otprilike 20 minuta. Kada bude dovršeno dobit ćete
       - **Knjiga**
 
 5. Nakon ažuriranja sigurnosne uloge idite na **Postavke** > **Sigurnost** > **Teams** i odaberite zadani tim u timskom prikazu **Vlasnik lokalne tvrtke**.
-6. Odaberite **Upravljanje ulogama** i provjerite primjenjuje li se sigurnosna ovlast **korisnik aplikacije dvostrukog pisanja** na ovaj tim.
+6. Odaberite **Upravljanje ulogama** i provjerite primjenjuje li se sigurnosna ovlast **korisnik aplikacije za dvostruko pisanje** na ovaj tim.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Pokretanje mapa dvostrukog zapisivanja aplikacije Project Operations
 

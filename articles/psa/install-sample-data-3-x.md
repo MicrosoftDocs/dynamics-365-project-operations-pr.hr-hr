@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275079"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950570"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalacija oglednih podataka za aplikaciju Project Service
 
@@ -136,7 +136,7 @@ Za paket pokaznih podataka potrebno je šest korisnika. Da bi se paket pravilno 
     - Ime i prezime korisnika = „Molly Clark” kao Upraviteljica računa   
     - Ime i prezime korisnika = „Spencer Low” kao Upravitelj vježbi i Voditelj projekta  
     - Ime i prezime korisnika = „Veronica Quek” kao član tima   
-    - Ime i prezime korisnika = „William Contoso”
+    - Ime i prezime korisnika=„William Contoso”
   
 2. U svrhe uvoza pokaznih podataka dodijelite šest korisnika s ulogom iznad uloge administratora da bi se uzorci zapisa pravilno uvezli. 
 
@@ -149,7 +149,7 @@ Za paket pokaznih podataka potrebno je šest korisnika. Da bi se paket pravilno 
 
 5. Kalendar prvog korisnika (u oznaci **userstocreateandconfigure**) upotrebljava se za ispunjavanje radnog vremena za sve resurse koje je moguće rezervirati pri uvozu pokaznih podataka. Idite na **Postavke** > **Sigurnost** > **Korisnici**, pronađite svojeg korisnika „Spencer Low” i otvorite mogućnost „Radno vrijeme”. Uredite postojeće radno vrijeme uz odabir mogućnosti **Cijeli tjedni raspored koji se ponavlja od početka do kraja**. Provjerite je li **radno vrijeme postavljeno na 8 – 17 sati (9 sati), od ponedjeljka do petka, s vremenskom zonom Pacifičko vrijeme (SAD i Kanada)**. To je potrebno kako biste osigurali pravilan prikaz ploče projekta i rasporeda.
 
-**Preporuka:** bilo bi dobro da odmah stvorite sigurnosnu kopiju svoje organizacije u slučaju da se morate vratiti na početnu točku ako nešto ne bude u redu tijekom instalacije oglednih podataka. Dodatne informacije potražite u članku [Sigurnosno kopiranje i vraćanje instanci](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Preporuka:** bilo bi dobro da odmah stvorite sigurnosnu kopiju svoje organizacije u slučaju da se morate vratiti na početnu točku ako nešto ne bude u redu tijekom instalacije oglednih podataka. Dodatne informacije potražite u članku [Sigurnosno kopiranje i vraćanje instanci](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Pokrenite Package Deployer
 

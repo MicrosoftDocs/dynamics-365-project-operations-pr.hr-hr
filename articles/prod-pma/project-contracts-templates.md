@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289585"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950390"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinkroniziranje ugovora o projektu i projekata izravno iz aplikacije Project Service Automation u aplikaciju Financije 
 
@@ -109,8 +109,8 @@ Kada se primijeni rješenje integracije aplikacije Project Service Automation u 
 ## <a name="prerequisites-and-mapping-setup"></a>Preduvjeti i postavljanje mapiranja
 
 - Prije nego što dođe do sinkronizacije ugovora o projektu i projekata, morate sinkronizirati račune.
-- U svoj skup za povezivanje dodajte mapiranje polja integracijskog ključa za **msdyn\_organizationalunits** na **msdyn\_name \[Name\]**. Najprije ćete možda trebati dodati projekt u skup veza. Dodatne informacije potražite u članku [Integriranje podataka s platformom Common Data Service za aplikacije](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- U svoj skup za povezivanje dodajte mapiranje polja integracijskog ključa za **msdyn\_projects** na **msdynce\_projectnumber \[Project Number\]**. Najprije ćete možda trebati dodati projekt u skup veza. Dodatne informacije potražite u članku [Integriranje podataka s platformom Common Data Service za aplikacije](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- U svoj skup za povezivanje dodajte mapiranje polja integracijskog ključa za **msdyn\_organizationalunits** na **msdyn\_name \[Name\]**. Najprije ćete možda trebati dodati projekt u skup veza. Dodatne informacije potražite u članku [Integriranje podataka s platformom Common Data Service za aplikacije](/powerapps/administrator/data-integrator).
+- U svoj skup za povezivanje dodajte mapiranje polja integracijskog ključa za **msdyn\_projects** na **msdynce\_projectnumber \[Project Number\]**. Najprije ćete možda trebati dodati projekt u skup veza. Dodatne informacije potražite u članku [Integriranje podataka s platformom Common Data Service za aplikacije](/powerapps/administrator/data-integrator).
 - **SourceDataID** za ugovore o projektu i projekte se može se ažurirati na drugu vrijednost ili ukloniti iz mapiranja. Zadana vrijednost predloška je **Project Service Automation**.
 - Mapiranje stavke **Uvjeti plaćanja** mora se ažurirati tako da u Financijama odražava valjane uvjete plaćanja. Također možete ukloniti mapiranje iz projektnog zadatka. Zadana karta vrijednosti ima zadane vrijednosti za pokazne podatke. Sljedeća tablica prikazuje vrijednosti u aplikaciji Project Service Automation.
 
@@ -131,7 +131,7 @@ Upotrijebite aplikaciju Microsoft Power Query za Excel kako biste filtrirali pod
 Ako morate upotrijebiti modul Power Query, slijedite ove smjernice:
 
 - Predložak Projekti i ugovori (PSA u Fin i Ops) ima zadani filtar koji uključuje samo prodajne naloge vrste **Stavka posla (msdyn\_ordertype = 192350001)**. Ovaj filtar jamči da se ugovori o projektu ne stvaraju za prodajne naloge u Financijama. Ako stvorite vlastiti predložak, morate dodati ovaj filtar.
-- Stvorite filtar aplikacije Power Query koji uključuje samo ugovorne tvrtke ili ustanove koje bi trebale biti sinkronizirane s pravnom osobom skupa integracijskih veza. Na primjer, ugovori o projektu koje imate s ugovornom organizacijskom jedinicom Contoso US trebali bi se sinkronizirati s pravnom osobom USSI, ali ugovori o projektu koje imate s ugovornom organizacijskom jedinicom Contoso Global trebali bi se sinkronizirati s pravnom osobom USMF. Ako ne dodate ovaj filtar u mapiranje zadataka, svi ugovori o projektu sinkronizirat će se s pravnom osobom koja je definirana za skup veza, bez obzira na organizacijsku jedinicu iz ugovora.
+- Stvorite filtar aplikacije Power Query koji uključuje samo ugovorne tvrtke ili ustanove koje bi trebale biti sinkronizirane s pravnom osobom skupa integracijskih veza. Na primjer, ugovori o projektu koje imate s ugovornom organizacijskom jedinicom tvrtke Contoso US trebali bi se sinkronizirati s pravnom osobom USSI, ali ugovori o projektu koje imate s ugovornom organizacijskom jedinicom tvrtke Contoso Global trebali bi se sinkronizirati s pravnom osobom USMF. Ako ne dodate ovaj filtar u mapiranje zadataka, svi ugovori o projektu sinkronizirat će se s pravnom osobom koja je definirana za skup veza, bez obzira na organizacijsku jedinicu iz ugovora.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapiranje predloška u integraciji podataka
 
