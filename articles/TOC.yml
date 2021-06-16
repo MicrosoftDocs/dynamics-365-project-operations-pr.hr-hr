@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novosti
       items:
+        - name: Svibanj 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Travanj 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Ožujak 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
@@ -372,13 +374,15 @@
               href: expense/configure-expense-management-parameters.md
             - name: Postavljanje integracije kreditne kartice
               href: expense/set-up-credit-card-integration.md
-            - name: Postavljanje kategorija troška
+            - name: Postavljanje kategorija troškova
               href: expense/set-up-expense-categories.md
+            - name: Postavljanje kilometraže s pomoću tarifnih razreda kilometraže
+              href: expense/set-up-mileage.md
         - name: Osobni troškovi
           href: expense/personal-expenses-expense-report.md
         - name: Troškovi unutar tvrtke
           href: prod-exp/intercompany-expense.md
-        - name: Stvaranje izvješća o trošku
+        - name: Stvaranje izvješća o troškovima
           items:
             - name: Raspodjele u izvješću o trošku
               href: expense/distributions-expense-report.md
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Novosti
       items:
+        - name: Novosti u svibnju 2021. – osnovna implementacija
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Novosti u travnju 2021. – osnovna implementacija
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Novosti u ožujku 2021. – osnovna implementacija
@@ -992,13 +998,13 @@
           href: expense/configure-expense-management-parameters.md
         - name: Postavljanje integracije kreditne kartice
           href: expense/set-up-credit-card-integration.md
-        - name: Postavljanje kategorija troška
+        - name: Postavljanje kategorija troškova
           href: expense/set-up-expense-categories.md
     - name: Osobni troškovi
       href: expense/personal-expenses-expense-report.md
     - name: Troškovi unutar tvrtke
       href: prod-exp/intercompany-expense.md
-    - name: Stvaranje izvješća o trošku
+    - name: Stvaranje izvješća o troškovima
       items:
         - name: Raspodjele u izvješću o trošku
           href: expense/distributions-expense-report.md
@@ -1028,6 +1034,8 @@
       items:
         - name: Ažuriranje rasporeda izdanja za aplikaciju Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 30, V3'
@@ -1258,17 +1266,19 @@
               href: psa/reports-dashboards.md
             - name: Modul podataka za aplikaciju Project Service Automation
               href: psa/reports-working-project-service-data-model.md
-        - name: Vremenski unosi
+        - name: Unosi vremena
           items:
             - name: Stvaranje unosa vremena
               href: psa/time-entries.md
             - name: Kalendar unosa vremena
               href: psa/time-entry-calendar.md
-            - name: Prilagođeni tjedni unos vremena
+            - name: Prilagodba tjednog unosa vremena
               href: psa/time-entry-extensibility-v3.md
+            - name: Skupovi odobrenja
+              href: psa/approval-set.md
     - name: Najčešća pitanja i rješavanje problema (3.x)
       items:
-        - name: Zašto je zadana cijena u stvarnim troškovima koštanja nula?
+        - name: Zašto je zadana cijena u stvarnim podacima o cijeni troškova nula?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Zašto je cijena vraćena na nulu u stvarnim troškovima prodaje?
           href: psa/FAQ-zero-price-expense-sales-actuals.md
