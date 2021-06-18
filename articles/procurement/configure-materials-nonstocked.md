@@ -2,19 +2,17 @@
 title: Konfiguriranje materijala koji nisu na zalihi i faktura dobavljača na čekanju
 description: U ovoj temi objašnjava se način omogućivanja materijala koji nije na zalihi i faktura dobavljača na čekanju.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880629"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993902"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfiguriranje materijala koji nisu na zalihi i faktura dobavljača na čekanju
 
@@ -61,11 +59,11 @@ Ako upotrebljavate standardne pokazne podatke, možda ćete također trebati zau
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktivirajte tijek rada za stvaranje računa na temelju entiteta dobavljača
 
-Rješenje združenog dvostrukog pisanja osigurava [Glavnu integraciju dobavljača](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Kao preduvjet za ovu značajku, podaci o dobavljaču moraju se stvoriti u entitetu **Računi**. Aktivirajte postupak tijeka rada predloška za stvaranje dobavljača u tablici **Računi** kako je opisano u članku [Prebacivanje između dizajna dobavljača](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Rješenje združenog dvostrukog pisanja osigurava [Glavnu integraciju dobavljača](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Kao preduvjet za ovu značajku, podaci o dobavljaču moraju se stvoriti u entitetu **Računi**. Aktivirajte postupak tijeka rada predloška za stvaranje dobavljača u tablici **Računi** kako je opisano u članku [Prebacivanje između dizajna dobavljača](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Postavljanje proizvoda koji će se stvoriti kao aktivni
 
-Materijali koji nisu na zalihi u aplikaciji Financije moraju biti konfigurirani kao **Objavljeni proizvodi**. Rješenje združenog dvostrukog pisanja osigurava gotovu [Integraciju proizvoda objavljenih u katalogu proizvoda platforme Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Prema zadanim postavkama, proizvodi iz aplikacije Financije sinkroniziraju se s platformom Dataverse u stanju skice. Kako biste proizvod sinkronizirali u aktivno stanje, tako da se može izravno upotrebljavati u dokumentima o uporabi materijala ili na fakturama dobavljača na čekanju, idite na **Sustav** > **Administracija** > **Administracija sustava** > **Postavke sustava** i na kartici **Prodaja** mogućnost **Stvori proizvode u aktivnom stanju** postavite na **Da**.
+Materijali koji nisu na zalihi u aplikaciji Financije moraju biti konfigurirani kao **Objavljeni proizvodi**. Rješenje združenog dvostrukog pisanja osigurava gotovu [Integraciju proizvoda objavljenih u katalogu proizvoda platforme Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Prema zadanim postavkama, proizvodi iz aplikacije Financije sinkroniziraju se s platformom Dataverse u stanju skice. Kako biste proizvod sinkronizirali u aktivno stanje, tako da se može izravno upotrebljavati u dokumentima o uporabi materijala ili na fakturama dobavljača na čekanju, idite na **Sustav** > **Administracija** > **Administracija sustava** > **Postavke sustava** i na kartici **Prodaja** mogućnost **Stvori proizvode u aktivnom stanju** postavite na **Da**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfiguriranje preduvjeta u aplikaciji Financije
 

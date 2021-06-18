@@ -2,11 +2,9 @@
 title: Povrat PDV-a
 description: U ovoj temi objašnjava se način povrata poreza iz transakcija s porezom na dodanu vrijednost (PDV).
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 187532281f6aba3cc3fb03428d93c8ebc4cf4a3d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 20e29a47d73d28c0bf8dbb3495ad301481c529cd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271885"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993587"
 ---
 # <a name="vat-recovery"></a>Povrat PDV-a 
 
@@ -41,25 +39,25 @@ Nakon što se ispune preduvjeti, zaposlenici slijede ove korake za traženje pov
 4. Pošaljite podatke o povratu PDV-a neovisnom dobavljaču kako bi podnio međunarodne prijave povrata.
 5. Troškovi postupka za povrat domaćeg PDV-a.
 
-Sljedeći odjeljci pružaju primjere koji pokazuju kako zaposlenici tvrtke Contoso-a dovršavaju svaki korak.
+Sljedeći odjeljci daju primjere koji pokazuju kako zaposlenici tvrtke Contoso dovršavaju svaki korak.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>U izvješće o troškovima unesite porezne podatke o transakcijama kreditnom karticom kako biste identificirali prihvatljivi povrat PDV-a
 
-Nancy, prodajna predstavnica tvrtke Contoso sa sjedištem u SAD-u, nedavno se vratila s prodajnog putovanja u Ujedinjenom Kraljevstvu. Tijekom putovanja imala je nekih osobnih troškova za obroke koji su plaćeni kreditnom karticom. Nancy sada mora izraditi izvješće o troškovima kako bi uskladila svoje troškove.
+Irena, prodajna predstavnica tvrtke Contoso sa sjedištem u SAD-u, nedavno se vratila s prodajnog putovanja u Ujedinjenom Kraljevstvu. Tijekom putovanja imala je nekih osobnih troškova za obroke koji su plaćeni kreditnom karticom. Nancy sada mora izraditi izvješće o troškovima kako bi uskladila svoje troškove.
 
 Kad Nancy unese podatke u izvješće o svojim troškovima, ona odabire **Ujedinjeno Kraljevstvo** u polju **Država/regija** na stranici **Uredi izvješće o troškovima**. Popis grupa poreza na promet zatim se filtrira tako da prikazuje samo grupe koje se odnose na Ujedinjeno Kraljevstvo. Nancy odabire grupu poreza na promet **Ujedinjeno Kraljevstvo 001** a zatim odabire stavku grupe poreza na promet **Obroci**. Nadalje, ona dodaje novu transakciju za svoj smještaj. Budući da u Ujedinjenom Kraljevstvu postoji samo jedna grupa poreza na promet i stavka grupe poreza na promet za smještaj, ti se podaci automatski popunjavaju u Nancynom izvješću o troškovima.
 
-Prema pravilniku tvrtke Contoso, svi troškovi moraju imati odgovarajuće račune. Stoga, kada Nancy spremi izvješće o svojim troškovima, ona dobiva poruku u kojoj stoji da mora priložiti račun za svaku transakciju koju je navela u svom izvješću o troškovima. Nancy provjerava je li svom izvješću o troškovima dodala digitalnu sliku svakog računa o transakciji, a zatim svoje izvješće podnosi na odobrenje. Zatim šalje račune u papirnatom obliku pozadinskom timu za obradu. Ovaj će tim poslati podatke o povratu PDV-a neovisnom dobavljaču koji podnosi međunarodne prijave za povrat PDV-a za tvrtku Contoso.
+Prema pravilima tvrtke Contoso, svi troškovi moraju imati odgovarajuću potvrdu. Stoga, kada Nancy spremi izvješće o svojim troškovima, ona dobiva poruku u kojoj stoji da mora priložiti račun za svaku transakciju koju je navela u svom izvješću o troškovima. Nancy provjerava je li svom izvješću o troškovima dodala digitalnu sliku svakog računa o transakciji, a zatim svoje izvješće podnosi na odobrenje. Zatim šalje račune u papirnatom obliku pozadinskom timu za obradu. Ovaj će tim poslati podatke o povratu PDV-a nezavisnom dobavljaču koji podnosi međunarodne prijave za povrat PDV-a za tvrtku Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Uvjerite se kako su svi porezni podaci potpuni, a zatim proknjižite izvješće o troškovima
 
-April, koja je koordinator dugovanja tvrtke Contoso, mora unijeti sve porezne podatke koji joj nedostaju u izvješću o troškovima prije nego što se izvješće o troškovima može knjižiti. Ona otvara stranicu **Pojedinosti izvješća o troškovima** i vidi Nancyino odobreno izvješće o troškovima. April tada otvara izvješće o troškovima kako bi pregledala pojedinosti transakcija. Vidi da Nancy nije unijela stavku grupe poreza na promet niti za jednu transakciju. Budući da ove informacije nisu dostavljene, April ne može proknjižiti izvješće o troškovima. Stoga, ona gleda na stranicu **Porezne konfiguracije** u Upravljanju troškovima i pronalazi odgovarajuću grupu poreza na promet stavki za zemlju/regiju i vrstu transakcije. April sada može knjižiti izvješće o troškovima u glavnu knjigu.
+April, koordinatorica za obveze tvrtke Contoso, mora, prije objave izvješće o troškovima, unijeti sve porezne podatke koji u izvješću o troškovima nedostaju. Ona otvara stranicu **Pojedinosti izvješća o troškovima** i vidi Nancyino odobreno izvješće o troškovima. April tada otvara izvješće o troškovima kako bi pregledala pojedinosti transakcija. Vidi da Nancy nije unijela stavku grupe poreza na promet niti za jednu transakciju. Budući da ove informacije nisu dostavljene, April ne može proknjižiti izvješće o troškovima. Stoga, ona gleda na stranicu **Porezne konfiguracije** u Upravljanju troškovima i pronalazi odgovarajuću grupu poreza na promet stavki za zemlju/regiju i vrstu transakcije. April sada može knjižiti izvješće o troškovima u glavnu knjigu.
 
 Kada April proknjiži izvješće o troškovima, stvara se radna stavka povrata PDV-a. Ova radna stavka dodjeljuje se članu pozadinskog tima za obradu. April prima poruku koja potvrđuje da je knjiženje bilo uspješno. U ovoj se poruci također navodi broj transakcija s PDV-om koje su identificirane za povrat.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Obrađivanje troškova koji ispunjavaju uvjete za međunarodni povrat PDV-a
 
-Arnie, član pozadinskog tima tvrtke Contoso za obradu, odgovoran je za potvrdu da su svi potrebni podaci za povrat PDV-a uključeni u izvješća o troškovima. Otvara stranicu **Povrat poreza za troškove** i odabire izvješće o troškovima koje je Nancy poslala. Zatim Arnie provjerava jesu li priloženi svi potrebni računi te jesu li unijete ispravne grupe poreza na promet i stavka broja poreza na promet.
+Arnie je član tima za pozadinsku obradu tvrtke Contoso i odgovoran je za potvrdu da su svi potrebni podaci za povrat PDV-a uključeni u izvješća o troškovima. Otvara stranicu **Povrat poreza za troškove** i odabire izvješće o troškovima koje je Nancy poslala. Zatim Arnie provjerava jesu li priloženi svi potrebni računi te jesu li unijete ispravne grupe poreza na promet i stavka broja poreza na promet.
 
 Kada Arnie dobije papirnate račune od Nancy, provjerava papirnate u odnosu na digitalne račune, a zatim mijenja status izvješća o troškovima u **Spreman za povrat**.
 
