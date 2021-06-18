@@ -2,8 +2,6 @@
 title: Izradi priliku projekta
 description: Kako izraditi priliku projekta u programu Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,43 +16,43 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9d8a879df6fc1b1c85ba5d856ab1df02ae55cec1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948185"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997322"
 ---
-# <a name="create-a-project-opportunity-project-service"></a><span data-ttu-id="11077-103">Izradi priliku projekta (Project Service)</span><span class="sxs-lookup"><span data-stu-id="11077-103">Create a project opportunity (Project Service)</span></span>
+# <a name="create-a-project-opportunity-project-service"></a><span data-ttu-id="274be-103">Izradi priliku projekta (Project Service)</span><span class="sxs-lookup"><span data-stu-id="274be-103">Create a project opportunity (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="11077-104">Prilike su potencijalni klijenti koji žele ugovoriti vaše usluge.</span><span class="sxs-lookup"><span data-stu-id="11077-104">Opportunities are warm leads from customers who are interested in contracting your services.</span></span> <span data-ttu-id="11077-105">Mogućnosti komponente [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u sustavu [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] vode vas kroz korake otvaranja prilike za neki od vaših računa, pripreme ponude projekta i izrade ugovora projekta s klijentom.</span><span class="sxs-lookup"><span data-stu-id="11077-105">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the steps for opening an opportunity for one of your accounts, preparing a project quote, and working out a project contract with your customer.</span></span> <span data-ttu-id="11077-106">Započnite dodavanjem prilike.</span><span class="sxs-lookup"><span data-stu-id="11077-106">Start by adding an opportunity.</span></span> <span data-ttu-id="11077-107">Vi također možete prilici dodavati procjene za usluge i proizvode.</span><span class="sxs-lookup"><span data-stu-id="11077-107">You can add estimates for services and products to the opportunity, as well.</span></span> <span data-ttu-id="11077-108">Prilikom dodavanja prilike, nalazite se u fazi projekta **Kvalifikacija**.</span><span class="sxs-lookup"><span data-stu-id="11077-108">When you add an opportunity, you’re in the **Qualify** phase of your project.</span></span>  
+<span data-ttu-id="274be-104">Prilike su potencijalni klijenti koji žele ugovoriti vaše usluge.</span><span class="sxs-lookup"><span data-stu-id="274be-104">Opportunities are warm leads from customers who are interested in contracting your services.</span></span> <span data-ttu-id="274be-105">Mogućnosti komponente [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u sustavu [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] vode vas kroz korake otvaranja prilike za neki od vaših računa, pripreme ponude projekta i izrade ugovora projekta s klijentom.</span><span class="sxs-lookup"><span data-stu-id="274be-105">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the steps for opening an opportunity for one of your accounts, preparing a project quote, and working out a project contract with your customer.</span></span> <span data-ttu-id="274be-106">Započnite dodavanjem prilike.</span><span class="sxs-lookup"><span data-stu-id="274be-106">Start by adding an opportunity.</span></span> <span data-ttu-id="274be-107">Vi također možete prilici dodavati procjene za usluge i proizvode.</span><span class="sxs-lookup"><span data-stu-id="274be-107">You can add estimates for services and products to the opportunity, as well.</span></span> <span data-ttu-id="274be-108">Prilikom dodavanja prilike, nalazite se u fazi projekta **Kvalifikacija**.</span><span class="sxs-lookup"><span data-stu-id="274be-108">When you add an opportunity, you’re in the **Qualify** phase of your project.</span></span>  
   
-1.  <span data-ttu-id="11077-109">Idite na **Project Service > Prilike**.</span><span class="sxs-lookup"><span data-stu-id="11077-109">Go to **Project Service > Opportunities**.</span></span>  
+1.  <span data-ttu-id="274be-109">Idite na **Project Service > Prilike**.</span><span class="sxs-lookup"><span data-stu-id="274be-109">Go to **Project Service > Opportunities**.</span></span>  
   
-2.  <span data-ttu-id="11077-110">Kliknite **Novo**.</span><span class="sxs-lookup"><span data-stu-id="11077-110">Click **New**.</span></span>  
+2.  <span data-ttu-id="274be-110">Kliknite **Novo**.</span><span class="sxs-lookup"><span data-stu-id="274be-110">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="11077-111">U dijelu **Sažetak**, unesite poduzeće prilike i druge informacije.</span><span class="sxs-lookup"><span data-stu-id="11077-111">In the **Summary** area, enter your opportunity's company and other information.</span></span>  
+3.  <span data-ttu-id="274be-111">U dijelu **Sažetak**, unesite poduzeće prilike i druge informacije.</span><span class="sxs-lookup"><span data-stu-id="274be-111">In the **Summary** area, enter your opportunity's company and other information.</span></span>  
   
-4.  <span data-ttu-id="11077-112">Dodajte bilješke i aktivnosti (na primjer, telefonske pozive ili poruke e-pošte) povezane s ovim potencijalnim klijentom.</span><span class="sxs-lookup"><span data-stu-id="11077-112">Add any notes and activities (for example, phone calls or emails) related to this lead.</span></span> <span data-ttu-id="11077-113">Da biste saznali više o dodavanju bilješki i aktivnosti, pogledajte [Prati bilješke, zadatake, pozive ili e-poštu s pomoću aktivnosti](/dynamics365/customerengagement/on-premises/basics/work-with-activities).</span><span class="sxs-lookup"><span data-stu-id="11077-113">To learn more about adding notes and activities, see [Keep track of notes, tasks, calls, or email with activities](/dynamics365/customerengagement/on-premises/basics/work-with-activities).</span></span>  
+4.  <span data-ttu-id="274be-112">Dodajte bilješke i aktivnosti (na primjer, telefonske pozive ili poruke e-pošte) povezane s ovim potencijalnim klijentom.</span><span class="sxs-lookup"><span data-stu-id="274be-112">Add any notes and activities (for example, phone calls or emails) related to this lead.</span></span> <span data-ttu-id="274be-113">Da biste saznali više o dodavanju bilješki i aktivnosti, pogledajte [Prati bilješke, zadatake, pozive ili e-poštu s pomoću aktivnosti](/dynamics365/customerengagement/on-premises/basics/work-with-activities).</span><span class="sxs-lookup"><span data-stu-id="274be-113">To learn more about adding notes and activities, see [Keep track of notes, tasks, calls, or email with activities](/dynamics365/customerengagement/on-premises/basics/work-with-activities).</span></span>  
   
-5.  <span data-ttu-id="11077-114">Da biste dodali dionike, u dijelu **Dionici** kliknite **+**.</span><span class="sxs-lookup"><span data-stu-id="11077-114">To add stakeholders, in the **Stakeholders** area, click **+**.</span></span>  
+5.  <span data-ttu-id="274be-114">Da biste dodali dionike, u dijelu **Dionici** kliknite **+**.</span><span class="sxs-lookup"><span data-stu-id="274be-114">To add stakeholders, in the **Stakeholders** area, click **+**.</span></span>  
   
-6.  <span data-ttu-id="11077-115">Da biste dodali članove prodajnog tima, u dijelu **Prodajni tim** kliknite **+**.</span><span class="sxs-lookup"><span data-stu-id="11077-115">To add sales team members, in the **Sales Team** area, click **+**.</span></span>  
+6.  <span data-ttu-id="274be-115">Da biste dodali članove prodajnog tima, u dijelu **Prodajni tim** kliknite **+**.</span><span class="sxs-lookup"><span data-stu-id="274be-115">To add sales team members, in the **Sales Team** area, click **+**.</span></span>  
   
-7.  <span data-ttu-id="11077-116">Da biste dodali konkurente, u dijelu **Konkurenti** kliknite **+**.</span><span class="sxs-lookup"><span data-stu-id="11077-116">To add competitors, in the **Competitors** area, click **+**.</span></span>  
+7.  <span data-ttu-id="274be-116">Da biste dodali konkurente, u dijelu **Konkurenti** kliknite **+**.</span><span class="sxs-lookup"><span data-stu-id="274be-116">To add competitors, in the **Competitors** area, click **+**.</span></span>  
   
-8.  <span data-ttu-id="11077-117">Da biste prilici dodali proizvod, kliknite **Novo** pod **Reci koji se temelje na proizvodu** u dijelu **Reci prilike**.</span><span class="sxs-lookup"><span data-stu-id="11077-117">To add a product to the opportunity, click **New** under **Product-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="11077-118">Odaberite stavku pod **Naziv proizvoda**, a zatim unesite količinu, prodajnu cijenu i proračun klijenta.</span><span class="sxs-lookup"><span data-stu-id="11077-118">Select an item under **Product Name**, and then specify the quantity, sales price, and customer budget.</span></span>  
+8.  <span data-ttu-id="274be-117">Da biste prilici dodali proizvod, kliknite **Novo** pod **Reci koji se temelje na proizvodu** u dijelu **Reci prilike**.</span><span class="sxs-lookup"><span data-stu-id="274be-117">To add a product to the opportunity, click **New** under **Product-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="274be-118">Odaberite stavku pod **Naziv proizvoda**, a zatim unesite količinu, prodajnu cijenu i proračun klijenta.</span><span class="sxs-lookup"><span data-stu-id="274be-118">Select an item under **Product Name**, and then specify the quantity, sales price, and customer budget.</span></span>  
   
-9. <span data-ttu-id="11077-119">Da biste prilici dodali procjenu projekta, kliknite **+** pod **Reci koji se temelje na projektu** u dijelu **Reci prilike**.</span><span class="sxs-lookup"><span data-stu-id="11077-119">To add a project estimate to the opportunity, click **+** under **Project-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="11077-120">Unesite naziv, proračunski iznos i projekt, ako je dostupan.</span><span class="sxs-lookup"><span data-stu-id="11077-120">Enter the name, budget amount, and project, if available.</span></span> <span data-ttu-id="11077-121">Ako je potrebno izraditi projekt sa strukturnom analizom rada za dobivanje procjene, pogledajte [Izradi projekt](../psa/create-project.md).</span><span class="sxs-lookup"><span data-stu-id="11077-121">If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).</span></span>  
+9. <span data-ttu-id="274be-119">Da biste prilici dodali procjenu projekta, kliknite **+** pod **Reci koji se temelje na projektu** u dijelu **Reci prilike**.</span><span class="sxs-lookup"><span data-stu-id="274be-119">To add a project estimate to the opportunity, click **+** under **Project-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="274be-120">Unesite naziv, proračunski iznos i projekt, ako je dostupan.</span><span class="sxs-lookup"><span data-stu-id="274be-120">Enter the name, budget amount, and project, if available.</span></span> <span data-ttu-id="274be-121">Ako je potrebno izraditi projekt sa strukturnom analizom rada za dobivanje procjene, pogledajte [Izradi projekt](../psa/create-project.md).</span><span class="sxs-lookup"><span data-stu-id="274be-121">If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).</span></span>  
   
-10. <span data-ttu-id="11077-122">Kada ste završili s uređivanjem, kliknite gumb **Spremi** u donjem desnom kutu zaslona.</span><span class="sxs-lookup"><span data-stu-id="11077-122">When you’re done editing, click the **Save** button at the bottom right of the screen.</span></span>  
+10. <span data-ttu-id="274be-122">Kada ste završili s uređivanjem, kliknite gumb **Spremi** u donjem desnom kutu zaslona.</span><span class="sxs-lookup"><span data-stu-id="274be-122">When you’re done editing, click the **Save** button at the bottom right of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="11077-123">Također pogledajte</span><span class="sxs-lookup"><span data-stu-id="11077-123">See Also</span></span>  
- [<span data-ttu-id="11077-124">Vodič za voditelja računa</span><span class="sxs-lookup"><span data-stu-id="11077-124">Account Manager Guide</span></span>](../psa/account-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="274be-123">Također pogledajte</span><span class="sxs-lookup"><span data-stu-id="274be-123">See Also</span></span>  
+ [<span data-ttu-id="274be-124">Vodič za voditelja računa</span><span class="sxs-lookup"><span data-stu-id="274be-124">Account Manager Guide</span></span>](../psa/account-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
