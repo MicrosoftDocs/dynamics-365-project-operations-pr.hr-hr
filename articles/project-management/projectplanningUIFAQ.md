@@ -2,19 +2,17 @@
 title: Rješavanje problema s radom u rešetki sa zadacima
 description: U ovoj temi nalaze se informacije o rješavanju problema potrebne za rad u rešetki sa zadacima.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286554"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213391"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rješavanje problema s radom u rešetki sa zadacima 
 
@@ -57,7 +55,7 @@ Project Operations zahtijeva da parametar projekta upućuje na krajnju točku PE
  ![Polje krajnje točke PEX na parametru projekta](media/projectparameter.png)
 
 1. Dodajte polje **Krajnja točka PEX** na stranicu **Parametri projekta**.
-2. Ažurirajte polje sljedećim vrijednostima: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Ažurirajte polje sljedećim vrijednostima: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Uklonite polje sa stranice **Parametri projekta**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Ovlasti za projekt za web

@@ -2,18 +2,16 @@
 title: Načini planiranja
 description: U ovoj temi nalaze se informacije o načinima planiranja.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981426"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116698"
 ---
 # <a name="scheduling-modes"></a>Načini planiranja
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations pruža tvrtkama i ustanovama mogućnost definira
 U aplikaciji Project Operations dostupna su tri načina planiranja:
 
   - Nepromjenjivo trajanje (ovo je zadani način)
-  - Fiksni rad
+  - Fiksni napor (*Rad*)
   - Fiksne jedinice
 
 Vrijednosti na koje utječe definicija određenog načina planiranja određuju se prema sljedećoj formuli:
 
-  Napor (*Rad*) = Trajanje x Jedinice
+  Napor = Trajanje x Jedinice
 
 Kada definirate način planiranja projekta, postavljate jednu od ovih vrijednosti koje se potom ne mogu mijenjati. Držanje ove vrijednosti kao konstante stavlja prioritet na tu vrijednost, što izvješćuje sustav da je ne mijenja kada se promijene druge dvije vrijednosti. Sljedeća tablica pruža informacije o utjecajima odabira određenog načina.
 

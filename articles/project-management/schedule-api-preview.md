@@ -2,18 +2,16 @@
 title: Uporaba API-jeva rasporeda za izvođenje operacija s pomoću entiteta planiranja
 description: U ovoj temi nalaze se informacije i uzorci za uporabu API-jeva rasporeda.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950795"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116788"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Uporaba API-jeva rasporeda za izvođenje operacija s pomoću entiteta planiranja
 
@@ -268,7 +266,6 @@ Slijedi popis ograničenja i poznatih problema:
 - Svaki korisnik može imati najviše 10 otvorenih **Skupova operacija**.
 - Project Operations trenutačno podržava maksimalno 500 ukupnih zadataka na projektu.
 - Stanje neuspjeha i dnevnici stanja značajke **Skup operacija** trenutačno nisu dostupni.
-- API-ji rasporeda u javnom su pretpregledu. Microsoft ne podržava uporabu ovih API-ja u radnom okruženju.
 - [Ograničenja i granice projekata i zadataka](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Rukovanje pogreškama
