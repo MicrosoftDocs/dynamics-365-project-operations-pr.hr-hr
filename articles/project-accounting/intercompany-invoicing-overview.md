@@ -2,18 +2,16 @@
 title: Pregled fakturiranja unutar tvrtke
 description: U ovoj temi nalaze se informacije i primjeri o načinu fakturiranja projekata unutar tvrtke.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287319"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002632"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled fakturiranja unutar tvrtke
 
@@ -21,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Vaša tvrtka ili ustanova može imati više sektora, podružnica i drugih pravnih osoba koje međusobno prenose proizvode i usluge za projekte. Pravna osoba koja osigurava uslugu ili proizvod naziva se *pravna osoba koja kreditira*. Pravna osoba koja prima uslugu ili proizvod naziva se *pravna osoba koja se zadužuje*.
 
-Sljedeća ilustracija prikazuje uobičajeni scenarij u kojem dvije pravne osobe, Contoso Robotics USA (pravna osoba koja se zadužuje) i Contoso Robotics UK (pravna osoba koja kreditira) dijele resurse kako bi se isporučio projekt kupcu, Adventure works. Za ovaj scenarij unajmljena je tvrtka Contoso Robotics USA da posao isporuči tvrtki Adventure Works.
+Na sljedećoj se ilustraciji prikazuje tipični scenarij kada dvije pravne osobe, Contoso Robotics SAD (pravna osoba koja se zadužuje) i Contoso Robotics UK (pravna osoba koja pozajmljuje), dijele resurse za isporuku projekta za klijenta Adventure works. Za ovaj scenarij, Contoso Robotics SAD unajmljen je za isporuku posla tvrtki Adventure Works.
 
 ![Fakturiranje unutar tvrtke](./media/IntercompanyScenario.png) 
 

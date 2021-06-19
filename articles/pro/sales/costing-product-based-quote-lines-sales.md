@@ -2,18 +2,16 @@
 title: Određivanje cijene redaka ponude utemeljenih na proizvodu
 description: U ovoj temi nalaze se informacije o primjeni cijene koštanja na redak ponude koji se temelji na proizvodu.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c08ac3b0f24dda19489bad6e667a50b67b8ce3ec
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1fa7896e249abfefd3e93cba4bad789e67e14f31
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273639"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003442"
 ---
 # <a name="costing-product-based-quote-lines"></a>Određivanje cijene redaka ponude utemeljenih na proizvodu
 

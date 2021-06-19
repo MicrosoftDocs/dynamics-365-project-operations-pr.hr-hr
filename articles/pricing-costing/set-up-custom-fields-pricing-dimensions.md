@@ -2,11 +2,9 @@
 title: Postavljanje prilagođenih polja kao cjenovnih veličina
 description: U ovoj se temi nalaze informacije o načinu postavljanja cjenovnih veličina s pomoću prilagođenih polja.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274854"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004702"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Postavljanje prilagođenih polja kao cjenovnih veličina
 
@@ -73,14 +71,14 @@ Postoje dvije vrste dimenzija cijena:
    
    U sljedećoj tablici prikazan je izračun provizija cijena.
   
-| Uloga        | Org. jedinica    |Radno mjesto      |Radno mjesto – standardno      |Radno vrijeme resursa      |  Provizija|
+| Uloga        | Organizacijska jedinica    |Mjesto rada      |Radno mjesto – standardno      |Radno vrijeme resursa      |  Provizija|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso, Indija|Na lokaciji            |                    |Prekovremeni rad                 |15     |
-|             | Contoso, Indija|Lokalno             |                    |Prekovremeni rad                 |10     |
+|             | Contoso Indija|Na lokaciji            |                    |Prekovremeni rad                 |15     |
+|             | Contoso Indija|Lokalno             |                    |Prekovremeni rad                 |10     |
 |             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20     |
 
 
-Ako je resurs iz tvrtke Contoso Indija čija je osnovna stopa za rad na lokaciji 600,00 kn, a oni na unosu radnog vremena bilježe 8 sati redovitog i 2 sata prekovremenog rada, modul za određivanje cijena upotrebljava osnovnu cijenu od 600,00 kn za 8 sati kako bi se zabilježilo 4.800,00 kn. Za 2 sata prekovremenog rada na osnovnu stopu od 100 primjenjuje se provizija od 15% da bi se dobila jedinična cijena od 115 USD te se bilježi ukupni trošak od 230 USD.
+Ako resurs iz tvrtke Contoso Indija, čija je osnovna cijena 100 USD, radi na licu mjesta, a oni bilježe 8 sati redovnog radnog vremena i 2 sata prekovremenog rada na unosu vremena, modul za određivanje cijena upotrebljava osnovnu cijenu od 100 za 8 sati kako bi se zabilježilo 800 USD. Za 2 sata prekovremenog rada na osnovnu stopu od 100 primjenjuje se provizija od 15% da bi se dobila jedinična cijena od 115 USD te se bilježi ukupni trošak od 230 USD.
 
 ### <a name="applicable-to-cost"></a>Primjenjivo na trošak 
 Ako je ovo polje postavljeno na **Da**, to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa troška i provizije.
