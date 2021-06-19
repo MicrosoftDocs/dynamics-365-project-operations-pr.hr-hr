@@ -2,18 +2,16 @@
 title: Vještine i certificiranje
 description: U ovoj temi nalaze se informacije o dodavanju svojstava vještina i certificiranja resursima.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 68675ca95f78382e7a3702805da840a5c8ef2f50
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 966db35a4af55665105518b51e90a494db199397
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279174"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014062"
 ---
 # <a name="skills-and-certifications"></a>Vještine i certificiranje
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_

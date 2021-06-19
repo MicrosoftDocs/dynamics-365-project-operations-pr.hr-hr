@@ -2,12 +2,10 @@
 title: Isključivanje dimenzije cijena
 description: Ova tema pokazuje kako postaviti dimenzije cijena u rješenju Project Service.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6e4b80b9c4b1b0f57d04079c9d2f84051b451d29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281829"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014287"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Isključivanje dimenzije cijena
 
@@ -39,13 +37,13 @@ No, kada to učinite, možda ćete primiti sljedeću poruku o pogrešci.
 
 Ta poruka o pogrešci ukazuje na to da postoje zapisi cijena koji su prethodno postavljeni za dimenziju koja se isključuje. Svi zapisi u recima **Cijena uloge** i **Provizija cijene uloge** koji se odnose na dimenziju moraju se izbrisati prije postavljanja primjenjivosti dimenzije na **Ne**. Ovo se pravilo odnosi na unaprijed pripremljene dimenzije cijena i na prilagođene dimenzije cijena koje ste izradili. Ova provjera valjanosti provodi se zbog toga što Project Service ima ograničenje da svaki zapis retka **Cijena uloge** mora imati jedinstvenu kombinaciju dimenzija. Na primjer, u cjeniku pod nazivom **Cijene koštanja za SAD, 2018.**, imate sljedeće retke **Cijena uloge**. 
 
-| Radno mjesto – standardno         | Org. jedinica    |Jedinica   |Cijena  |Valuta  |
+| Radno mjesto – standardno         | Organizacijska jedinica    |Jedinica   |Cijena  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Inženjer sustava|Contoso US|Hour| 100|USD|
-| Viši inženjer sustava|Contoso US|Hour| 150| USD|
+| Inženjer sustava|Contoso US|h| 100|USD|
+| Viši inženjer sustava|Contoso US|h| 150| USD|
 
 
-Kada isključite **Radno mjesto – standardno** kao dimenziju cijena, a modul za određivanje cijena Project Service pretražuje cijenu, upotrebljava se samo vrijednost **Org. jedinica** iz ulaznog konteksta. Ako je **Org. jedinica** ulaznog konteksta „Contoso US”, rezultat će biti neodređen jer se oba retka podudaraju. Da biste to izbjegli, kada stvorite zapise **Cijena uloge**, Project Service provjerava je li kombinacija dimenzija jedinstvena. Ako je dimenzija isključena nakon stvaranja zapisa **Cijena uloge**, ovo ograničenje može biti prekršeno. Stoga je potrebno da prije nego što isključite dimenziju izbrišete sve retke **Cijena uloge** i **Provizija cijene uloge** koji imaju tu vrijednost dimenzije.
+Kada isključite **Radno mjesto – standardno** kao dimenziju cijena, a modul za određivanje cijena Project Service pretražuje cijenu, upotrebljava se samo vrijednost **Org. jedinica** iz ulaznog konteksta. Ako je **Org. jedinica** ulaznog konteksta „Contoso SAD”, rezultat će biti neodređen jer se oba retka podudaraju. Da biste to izbjegli, kada stvorite zapise **Cijena uloge**, Project Service provjerava je li kombinacija dimenzija jedinstvena. Ako je dimenzija isključena nakon stvaranja zapisa **Cijena uloge**, ovo ograničenje može biti prekršeno. Stoga je potrebno da prije nego što isključite dimenziju izbrišete sve retke **Cijena uloge** i **Provizija cijene uloge** koji imaju tu vrijednost dimenzije.
 
 
 
