@@ -2,11 +2,9 @@
 title: Stvaranje novog projekta
 description: U ovoj temi nalaze se informacije o načinu stvaranja novog projekta.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270714"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006232"
 ---
 # <a name="create-a-new-project"></a>Stvaranje novog projekta
 
@@ -55,7 +53,7 @@ Voditelj projekta može upotrijebiti funkcionalnost projektnih resursa za stvara
 
 [![Primjer uloge](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenarij:** Contoso je angažiran da dovrši projekt Vrijeme i materijal koji ima odobren ugovor o projektu. Voditelj projekta nižeg ranga još uvijek dovršava djelokrug projekta. Voditelj resursa trenutačno identificira određene resurse koji će se rezervirati za rad na novom projektu. Zbog kritične naravi projekta, sponzor projekta zatražio je ulogu voditelja projekta višeg ranga kao jednu od uloga. Voditelj resursa mora nabaviti novi resurs i definirati ulogu u sustavu u slučaju da voditelj projekta nižeg ranga tijekom planiranja projekta zatraži podatke o resursima.
+**Scenarij:** Contoso je angažiran da završi projekt Vrijeme i materijal koji ima odobreni ugovor o projektu. Voditelj projekta nižeg ranga još uvijek dovršava djelokrug projekta. Voditelj resursa trenutačno identificira određene resurse koji će se rezervirati za rad na novom projektu. Zbog kritične naravi projekta, sponzor projekta zatražio je ulogu voditelja projekta višeg ranga kao jednu od uloga. Voditelj resursa mora nabaviti novi resurs i definirati ulogu u sustavu u slučaju da voditelj projekta nižeg ranga tijekom planiranja projekta zatraži podatke o resursima.
 
 U sljedećim koracima pokazan je način na koji upravitelj resursa može postaviti ulogu voditelja projekta višeg ranga i s njom povezati svojstva resursa. Kasnije se uloga može upotrijebiti za traženje dostupnih resursa koji se podudaraju s potrebnim kompetencijama resursa.
 
