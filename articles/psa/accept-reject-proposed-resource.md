@@ -1,8 +1,6 @@
 ---
 title: Prihvati ili odbij predloženi resurs projekta
 description: Ova tema pruža informacije o tome kako odobriti ili odbiti predloženi resurs projekta.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -18,33 +16,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 895712a4c6bed38c41d880e46922ea4fea739a8f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7cc49a846c98c0359ce4cd681c42ff57e16dc9bd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285699"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011587"
 ---
-# <a name="accept-or-reject-a-proposed-project-resource"></a><span data-ttu-id="e2ad5-103">Prihvati ili odbij predloženi resurs projekta</span><span class="sxs-lookup"><span data-stu-id="e2ad5-103">Accept or reject a proposed project resource</span></span>
+# <a name="accept-or-reject-a-proposed-project-resource"></a><span data-ttu-id="54d41-103">Prihvati ili odbij predloženi resurs projekta</span><span class="sxs-lookup"><span data-stu-id="54d41-103">Accept or reject a proposed project resource</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="e2ad5-104">Ova tema pruža informacije o tome kako odobriti ili odbiti predloženi resurs projekta.</span><span class="sxs-lookup"><span data-stu-id="e2ad5-104">This topic provides information about how to approve or reject a proposed project resource.</span></span>
+<span data-ttu-id="54d41-104">Ova tema pruža informacije o tome kako odobriti ili odbiti predloženi resurs projekta.</span><span class="sxs-lookup"><span data-stu-id="54d41-104">This topic provides information about how to approve or reject a proposed project resource.</span></span>
 
-<span data-ttu-id="e2ad5-105">Kada upravitelj resursa predloži imenovani resurs za ispunjavanje zahtjeva za generičkim resursom za projekt, polje **Status zahtjeva** za člana generičkog tima ažurirat će se u **Pregled potreba**.</span><span class="sxs-lookup"><span data-stu-id="e2ad5-105">When a resource manager proposes a named resource to fill the generic resource request for a project, the **Request Status** field for the generic team member will be updated to **Needs Review**.</span></span> <span data-ttu-id="e2ad5-106">Zahtjev će se poslati upravitelju projekta na odobrenje ili odbijanje.</span><span class="sxs-lookup"><span data-stu-id="e2ad5-106">The request will be sent to the project manager for approval or rejection.</span></span>
+<span data-ttu-id="54d41-105">Kada upravitelj resursa predloži imenovani resurs za ispunjavanje zahtjeva za generičkim resursom za projekt, polje **Status zahtjeva** za člana generičkog tima ažurirat će se u **Pregled potreba**.</span><span class="sxs-lookup"><span data-stu-id="54d41-105">When a resource manager proposes a named resource to fill the generic resource request for a project, the **Request Status** field for the generic team member will be updated to **Needs Review**.</span></span> <span data-ttu-id="54d41-106">Zahtjev će se poslati upravitelju projekta na odobrenje ili odbijanje.</span><span class="sxs-lookup"><span data-stu-id="54d41-106">The request will be sent to the project manager for approval or rejection.</span></span>
 
 ![Član generičkog tima s prijedlogom](media/RM-how-to-19.png)
 
-<span data-ttu-id="e2ad5-108">Rešetka na kartici **Predloženi resursi** na stranici **Član projektnog tima** prikazuje trenutačne rezervacije predloženih resursa.</span><span class="sxs-lookup"><span data-stu-id="e2ad5-108">The grid on the **Proposed Resources** tab on the **Project Team Member** page shows the proposed resource’s current bookings.</span></span> <span data-ttu-id="e2ad5-109">Nakon prihvaćanja prijedloga, rešetka se ažurira da bi prikazala rezervaciju.</span><span class="sxs-lookup"><span data-stu-id="e2ad5-109">After the proposal is accepted, the grid is updated to reflect that booking.</span></span> 
+<span data-ttu-id="54d41-108">Rešetka na kartici **Predloženi resursi** na stranici **Član projektnog tima** prikazuje trenutačne rezervacije predloženih resursa.</span><span class="sxs-lookup"><span data-stu-id="54d41-108">The grid on the **Proposed Resources** tab on the **Project Team Member** page shows the proposed resource’s current bookings.</span></span> <span data-ttu-id="54d41-109">Nakon prihvaćanja prijedloga, rešetka se ažurira da bi prikazala rezervaciju.</span><span class="sxs-lookup"><span data-stu-id="54d41-109">After the proposal is accepted, the grid is updated to reflect that booking.</span></span> 
 
-<span data-ttu-id="e2ad5-110">Da biste prihvatili predloženi resurs i rezervirali resurs u vašem timu, kliknite **Prihvati prijedloge**.</span><span class="sxs-lookup"><span data-stu-id="e2ad5-110">To accept the proposed resource and book that resource on your team, click **Accept Proposals**.</span></span>  
-<span data-ttu-id="e2ad5-111">Da biste odbili prijedlog, kliknite **Odbij resurs**.</span><span class="sxs-lookup"><span data-stu-id="e2ad5-111">To reject the proposal, click **Reject Resource**.</span></span>
+<span data-ttu-id="54d41-110">Da biste prihvatili predloženi resurs i rezervirali resurs u vašem timu, kliknite **Prihvati prijedloge**.</span><span class="sxs-lookup"><span data-stu-id="54d41-110">To accept the proposed resource and book that resource on your team, click **Accept Proposals**.</span></span>  
+<span data-ttu-id="54d41-111">Da biste odbili prijedlog, kliknite **Odbij resurs**.</span><span class="sxs-lookup"><span data-stu-id="54d41-111">To reject the proposal, click **Reject Resource**.</span></span>
 
 ![Prihvaćanje prijedloga resursa](media/RM-how-to-20.png) 
 
-<span data-ttu-id="e2ad5-113">Slično izravnom ispunjavanju zahtjeva za generičkim resursom s imenovanim resursom, generički resurs zamijenit će se i dodijeljeni zadaci ažurirat će se s imenovanim članom tima.</span><span class="sxs-lookup"><span data-stu-id="e2ad5-113">Similar to directly fulfilling a generic resource request with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.</span></span>
+<span data-ttu-id="54d41-113">Slično izravnom ispunjavanju zahtjeva za generičkim resursom s imenovanim resursom, generički resurs zamijenit će se i dodijeljeni zadaci ažurirat će se s imenovanim članom tima.</span><span class="sxs-lookup"><span data-stu-id="54d41-113">Similar to directly fulfilling a generic resource request with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
