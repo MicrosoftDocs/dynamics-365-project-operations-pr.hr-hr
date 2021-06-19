@@ -2,8 +2,6 @@
 title: Novosti ili izmjene u aplikaciji Project Service Automation, val ranog pristupa 1 za 2021, V3
 description: U ovoj se temi navode značajke i ispravke koje su dostupne u aplikaciji Project Service Automation, val ranog pristupa 1 za 2021, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
 ms.topic: article
@@ -17,32 +15,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ceba31934f021b4a18766eca314d68b69dd6a8ff
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 3a11c5a033c6b7f1f4d7b5146dc8695c9e017d6e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949580"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002374"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="91807-103">Novosti ili izmjene u aplikaciji Project Service Automation, val ranog pristupa 1 za 2021, V3</span><span class="sxs-lookup"><span data-stu-id="91807-103">What's new or changed in Project Service Automation Early Access Wave 1 2021, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="4acd6-103">Novosti ili izmjene u aplikaciji Project Service Automation, val ranog pristupa 1 za 2021, V3</span><span class="sxs-lookup"><span data-stu-id="4acd6-103">What's new or changed in Project Service Automation Early Access Wave 1 2021, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-## <a name="project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="91807-104">Project Service Automation val ranog pristupa 1 za 2021, V3</span><span class="sxs-lookup"><span data-stu-id="91807-104">Project Service Automation Early Access Wave 1 2021, V3</span></span>
+## <a name="project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="4acd6-104">Project Service Automation val ranog pristupa 1 za 2021, V3</span><span class="sxs-lookup"><span data-stu-id="4acd6-104">Project Service Automation Early Access Wave 1 2021, V3</span></span>
 
-<span data-ttu-id="91807-105">Zadovoljstvo nam je najaviti najnovije ažuriranje aplikacije Project Service Automation za sustav Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="91807-105">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="91807-106">Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti.</span><span class="sxs-lookup"><span data-stu-id="91807-106">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="91807-107">Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="91807-107">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="91807-108">Kako biste ažurirali ovo izdanje, posjetite stranicu Centra za administratore za sustav Dynamics 365 s rješenjima na mreži, kako biste instalirali ažuriranje.</span><span class="sxs-lookup"><span data-stu-id="91807-108">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="91807-109">Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="91807-109">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="4acd6-105">Zadovoljstvo nam je najaviti najnovije ažuriranje aplikacije Project Service Automation za sustav Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="4acd6-105">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="4acd6-106">Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti.</span><span class="sxs-lookup"><span data-stu-id="4acd6-106">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="4acd6-107">Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="4acd6-107">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="4acd6-108">Kako biste ažurirali ovo izdanje, posjetite stranicu Centra za administratore za sustav Dynamics 365 s rješenjima na mreži, kako biste instalirali ažuriranje.</span><span class="sxs-lookup"><span data-stu-id="4acd6-108">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="4acd6-109">Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="4acd6-109">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="91807-110">U ovoj se temi navode značajke i ispravke koje su nove ili izmijenjene za aplikaciju Project Service Automation V3, val ranog pristupa 1 za 2021.</span><span class="sxs-lookup"><span data-stu-id="91807-110">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Early Access Wave 1 2021.</span></span> <span data-ttu-id="91807-111">Ova verzija ima broj izrade V3.10.49.3 i općenito je dostupna putem samostalnog ažuriranja u veljači 2021.</span><span class="sxs-lookup"><span data-stu-id="91807-111">This version has a build number of V3.10.49.3 and is generally available through a self-update in February 2021.</span></span>
+<span data-ttu-id="4acd6-110">U ovoj se temi navode značajke i ispravke koje su nove ili izmijenjene za aplikaciju Project Service Automation V3, val ranog pristupa 1 za 2021.</span><span class="sxs-lookup"><span data-stu-id="4acd6-110">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Early Access Wave 1 2021.</span></span> <span data-ttu-id="4acd6-111">Ova verzija ima broj izrade V3.10.49.3 i općenito je dostupna putem samostalnog ažuriranja u veljači 2021.</span><span class="sxs-lookup"><span data-stu-id="4acd6-111">This version has a build number of V3.10.49.3 and is generally available through a self-update in February 2021.</span></span>
 
 
-### <a name="bug-fixes"></a><span data-ttu-id="91807-112">Ispravke pogrešaka</span><span class="sxs-lookup"><span data-stu-id="91807-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="4acd6-112">Ispravke pogrešaka</span><span class="sxs-lookup"><span data-stu-id="4acd6-112">Bug fixes</span></span>
 
-<span data-ttu-id="91807-113">**Vrijeme i trošak**</span><span class="sxs-lookup"><span data-stu-id="91807-113">**Time and Expense**</span></span>
+<span data-ttu-id="4acd6-113">**Vrijeme i trošak**</span><span class="sxs-lookup"><span data-stu-id="4acd6-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="91807-114">Popravljeni su sljedeći problemi:</span><span class="sxs-lookup"><span data-stu-id="91807-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="4acd6-114">Popravljeni su sljedeći problemi:</span><span class="sxs-lookup"><span data-stu-id="4acd6-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="91807-115">Datumi završetka automatski se popunjavaju kada se stvara unos vremena ako je trajanje nula.</span><span class="sxs-lookup"><span data-stu-id="91807-115">End dates auto-populate when a time entry is created if the duration is null.</span></span>
-- <span data-ttu-id="91807-116">Korisnici mogu promijeniti zadatak na unosu vremena koji je odobren ili poslan.</span><span class="sxs-lookup"><span data-stu-id="91807-116">Users can change the task on a time entry that has been approved or submitted.</span></span>
+- <span data-ttu-id="4acd6-115">Datumi završetka automatski se popunjavaju kada se stvara unos vremena ako je trajanje nula.</span><span class="sxs-lookup"><span data-stu-id="4acd6-115">End dates auto-populate when a time entry is created if the duration is null.</span></span>
+- <span data-ttu-id="4acd6-116">Korisnici mogu promijeniti zadatak na unosu vremena koji je odobren ili poslan.</span><span class="sxs-lookup"><span data-stu-id="4acd6-116">Users can change the task on a time entry that has been approved or submitted.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
