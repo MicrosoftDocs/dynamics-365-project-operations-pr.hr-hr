@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Implementacija okruženja
           items:
+            - name: Ručna implementacija aplikacije Project Operations Dataverse s podrškom za dvostruko pisanje
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Priprema novog okruženja
               href: environment/resource-provision-new-environment.md
             - name: Sigurnosni model
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novosti
       items:
+        - name: Srpanj 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Lipanj 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Svibanj 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: Travanj 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
@@ -282,7 +288,7 @@
           items:
             - name: Razvoj predložaka projekata s pomoću mogućnosti Kopiranja projekta
               href: project-management/dev-copy-project.md
-            - name: Uporaba API-ja rasporeda (javni pretpregled)
+            - name: Uporaba API-ja rasporeda projekta (javni pretpregled)
               href: project-management/schedule-api-preview.md
     - name: Upravljanje resursima
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Pregled postupka fakturiranja
           href: invoicing/post-project-invoices.md
-        - name: Upravljanje prijedlozima faktura za projekt
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Predračun
           items:
             - name: Upravljanje zaostalim naplatama koje se temelje na projektu
@@ -456,20 +460,12 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfiguriranje automatske fakture koja se temelji na projektu
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Upravljanje prijedlozima faktura za projekt
-          href: invoicing/format-update-project-invoice-proposals.md
-    - name: Projektno računovodstvo
-      items:
-        - name: Zadane postavke financijske dimenzije
-          href: project-accounting/financial-dimension-defaults.md
-        - name: Konfiguriranje kategorija projekta
-          href: project-accounting/configure-project-categories.md
-        - name: Konfiguriranje računovodstva za interne projekte
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: Konfiguriranje računovodstva za naplative projekte
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: Dnevnik integracije u aplikaciji Project Operations
-          href: project-accounting/project-operations-integration-journal.md
+        - name: Fakturiranje klijentu
+          items:
+            - name: Upravljanje prijedlozima faktura za projekt
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Ispravno računovodstvo za skice prijedloga faktura za projekt
+              href: invoicing/correct-project-invoice-proposals.md
         - name: Fakturiranje unutar tvrtke
           items:
             - name: Pregled fakturiranja unutar tvrtke
@@ -480,6 +476,18 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Stvaranje faktura klijenta i dobavljača unutar tvrtke
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: Projektno računovodstvo
+      items:
+        - name: Zadane postavke financijske dimenzije
+          href: project-accounting/financial-dimension-defaults.md
+        - name: Konfiguracija kategorija projekta
+          href: project-accounting/configure-project-categories.md
+        - name: Konfiguriranje računovodstva za interne projekte
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Konfiguriranje računovodstva za naplative projekte
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: Dnevnik integracije u aplikaciji Project Operations
+          href: project-accounting/project-operations-integration-journal.md
     - name: Priznavanje prihoda
       items:
         - name: Pregled priznavanja prihoda
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Novosti
       items:
+        - name: Novosti u srpnju 2021. – osnovna implementacija
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Novosti u lipnju 2021. – osnovna implementacija
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Novosti u svibnju 2021. – osnovna implementacija
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Novosti u travnju 2021. – osnovna implementacija
@@ -762,7 +774,7 @@
           items:
             - name: Razvoj predložaka projekata s pomoću mogućnosti Kopiranja projekta
               href: project-management/dev-copy-project.md
-            - name: Uporaba API-ja rasporeda (javni pretpregled)
+            - name: Uporaba API-ja rasporeda projekta (javni pretpregled)
               href: project-management/schedule-api-preview.md
     - name: Upravljanje resursima
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Novosti
       items:
+        - name: Novosti u srpnju 2021. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Novosti u svibnju 2021. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Novosti u travnju 2021. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Novosti u ožujku 2021. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
@@ -1034,6 +1050,10 @@
       items:
         - name: Ažuriranje rasporeda izdanja za aplikaciju Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 31, V3'
