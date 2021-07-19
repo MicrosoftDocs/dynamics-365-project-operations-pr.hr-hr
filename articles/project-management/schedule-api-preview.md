@@ -1,19 +1,19 @@
 ---
-title: Uporaba API-jeva rasporeda za izvođenje operacija s pomoću entiteta planiranja
-description: U ovoj temi nalaze se informacije i uzorci za uporabu API-jeva rasporeda.
+title: Uporaba API-ja rasporeda projekta za izvođenje operacija s entitetima planiranja
+description: U ovoj temi nalaze se informacije i primjeri za uporabu API-ja rasporeda projekta.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116788"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293218"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Uporaba API-jeva rasporeda za izvođenje operacija s pomoću entiteta planiranja
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Uporaba API-ja rasporeda projekta za izvođenje operacija s entitetima planiranja
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
@@ -22,9 +22,9 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 ## <a name="scheduling-entities"></a>Entiteti planiranja
 
-API-ji rasporeda pružaju mogućnost izvršenja operacija stvaranja, ažuriranja i brisanja s pomoću **Entiteta planiranja**. Tim se entitetima upravlja putem mehanizma za planiranje u aplikaciji Project for the Web. Operacije stvaranja, ažuriranja i brisanja s pomoću značajke **Entiteti planiranja** bile su ograničene u ranijim verzijama aplikacije Dynamics 365 Project Operations.
+API-ji rasporeda projekta pružaju mogućnost izvođenja operacija stvaranja, ažuriranja i brisanja s pomoću **Entiteta planiranja**. Tim se entitetima upravlja putem mehanizma za planiranje u aplikaciji Project for the Web. Operacije stvaranja, ažuriranja i brisanja s pomoću značajke **Entiteti planiranja** bile su ograničene u ranijim verzijama aplikacije Dynamics 365 Project Operations.
 
-Sljedeća tablica daje cjelovit popis **Entiteta planiranja**.
+Sljedeća tablica pruža cjelovit popis entiteta rasporeda projekta.
 
 | Naziv entiteta  | Logički naziv entiteta |
 | --- | --- |
@@ -39,19 +39,19 @@ Sljedeća tablica daje cjelovit popis **Entiteta planiranja**.
 
 OperationSet obrazac je jedinice rada koji se može upotrebljavati kada se u transakciji mora obraditi nekoliko zahtjeva koji utječu na raspored.
 
-## <a name="schedule-apis"></a>API-ji rasporeda
+## <a name="project-schedule-apis"></a>API-ji rasporeda projekta
 
-Slijedi popis trenutačnih API-ja rasporeda.
+Slijedi popis trenutačnih API-ja rasporeda projekta.
 
 - **msdyn_CreateProjectV1**: Ovaj se API može upotrebljavati za stvaranje projekta. Projekt i zadani skup projekata stvaraju se odmah.
 - **msdyn_CreateTeamMemberV1**: Ovaj se API može upotrebljavati za stvaranje člana projektnog tima. Zapis člana tima stvara se odmah.
 - **msdyn_CreateOperationSetV1**: Ovaj se API može upotrebljavati za raspored nekoliko zahtjeva koji se moraju izvršiti unutar transakcije.
-- **msdyn_PSSCreateV1**: Ovaj se API može upotrebljavati za stvaranje entiteta. Entitet može biti bilo koji entitet planiranja koji podržava operaciju stvaranja.
-- **msdyn_PSSCreateV1**: Ovaj se API može upotrebljavati za ažuriranje entiteta. Entitet može biti bilo koji entitet planiranja koji podržava operaciju ažuriranja.
-- **msdyn_PSSDeleteV1**: Ovaj se API može upotrebljavati za brisanje entiteta. Entitet može biti bilo koji entitet planiranja koji podržava operaciju brisanja.
+- **msdyn_PSSCreateV1**: Ovaj se API može upotrebljavati za stvaranje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju stvaranja.
+- **msdyn_PSSCreateV1**: Ovaj se API može upotrebljavati za ažuriranje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju ažuriranja.
+- **msdyn_PSSDeleteV1**: Ovaj se API može upotrebljavati za brisanje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju brisanja.
 - **msdyn_ExecuteOperationSetV1**: Ovaj se API upotrebljava za izvršavanje svih operacija unutar zadanog skupa operacija.
 
-## <a name="using-schedule-apis-with-operationset"></a>Uporaba API-jeva rasporeda sa značajkom Skup operacija
+## <a name="using-project-schedule-apis-with-operationset"></a>Uporaba API-ja rasporeda projekta s pomoću OperationSet
 
 Kako se oba zapisa, i **CreateProjectV1** i **reateTeamMemberV1**, stvaraju odmah, ti se API-ji ne mogu izravno upotrebljavati u značajci **Skup operacija**. Međutim, možete upotrebljavati API za stvaranje potrebnih zapisa, stvaranje značajke **Skup operacija**, a zatim upotrijebite ove unaprijed stvorene zapise u značajci **Skup operacija**.
 
@@ -257,7 +257,7 @@ Sljedeće tablice definiraju polja koja su ograničena za **Stvaranje** i **Ure�
 ## <a name="limitations-and-known-issues"></a>Ograničenja i poznati problemi
 Slijedi popis ograničenja i poznatih problema:
 
-- API-je rasporeda mogu upotrebljavati samo **Korisnici s licencom za Microsoft Project.** Ne mogu ih upotrebljavati:
+- API-je rasporeda projekta mogu upotrebljavati samo **Korisnici s licencom za aplikaciju Microsoft Project.** Ne mogu ih upotrebljavati:
     - Korisnici aplikacije
     - Korisnici sustava
     - Korisnici integracije
@@ -271,7 +271,7 @@ Slijedi popis ograničenja i poznatih problema:
 ## <a name="error-handling"></a>Rukovanje pogreškama
 
    - Kako biste pregledali pogreške generirane iz skupova operacija, idite na **Postavke** \> **Raspored integracije** \> **Skupovi operacija**.
-   - Kako biste pregledali pogreške generirane uslugom planiranja projekata, idite na **Postavke** \> **Raspored integracije** \> **Zapisnici pogrešaka PSS-a**.
+   - Kako biste pregledali pogreške generirane iz Usluge rasporeda projekta, idite na **Postavke** \> **Integracija rasporeda** \> **Dnevnici pogrešaka PSS-a**.
 
 ## <a name="sample-scenario"></a>Primjer scenarija
 

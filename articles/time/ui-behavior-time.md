@@ -6,12 +6,12 @@ ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0cb62231eb3b387b610b7510023994dce66b1cc9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd62fb1d8e0b2d859cb7da8b99cb725af587ff2f
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995882"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304292"
 ---
 # <a name="time-entry-ui-behavior"></a>Ponašanje korisničkog sučelja za unos vremena
 
@@ -23,9 +23,9 @@ Rešetka **Tjedni unos vremena** prilagođena je kontrola koja ima dva glavna od
 ## <a name="keyboard-shortcuts"></a>Tipkovni prečaci
 | Akcija        | Prečac                  |
 |------------   |------------------------   |
-| Novo           | Alt + Shift + n           |
+| Nova           | Alt + Shift + n           |
 | Kopiraj redak      | Alt + Shift + c           |
-| Uredi unos    | Alt + Shift + e           |
+| Uredi vremenski unosa    | Alt + Shift + e           |
 | Uredi redak      | Alt + Shift + Ctrl + e    |
 | Otvori unos    | Alt + Shift + o           |
 | Slanje        | Alt + Shift + s           |

@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007132"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304247"
 ---
 # <a name="integration-journal-in-project-operations"></a>Dnevnik integracije u aplikaciji Project Operations
 
@@ -26,7 +26,7 @@ Unosi vremena i troškova stvaraju **Stvarne** transakcije koje predstavljaju op
 Zapisi u dnevniku integracije aplikacije Project Operations stvaraju se povremenim postupkom, **Uvoz iz pripremne tablice**. Ovaj postupak možete pokrenuti odlaskom na **Dynamics 365 Finance** > **Upravljanje projektom i računovodstvo** > **Povremeno** > **Integracija aplikacije Project Operations** > **Uvoz iz pripremne tablice**. Postupak možete pokrenuti interaktivno ili ga prema potrebi konfigurirati tako da se pokreće u pozadini.
 
 Kada se povremeni postupak pokrene, pronalaze se svi stvarni podaci koji još nisu dodani u dnevnik integracije aplikacije Project Operations. Stvara se redak dnevnika za svaku stvarnu transakciju.
-Sustav grupira retke dnevnika u zasebne dnevnike na temelju vrijednosti odabrane u polju **Jedinica razdoblja u dnevniku integracije aplikacije Project Operations** (**Financije** > **Upravljanje projektom i računovodstvo** > **Postavljanje** > **Upravljanje projektom i računovodstveni parametri**, kartica **Project Operations u sustavu Dynamics 365 Customer Engagement**). Moguće vrijednosti za ovo polje uključuju:
+Sustav grupira retke dnevnika u zasebne dnevnike na temelju vrijednosti odabrane u polju **Jedinica razdoblja u dnevniku integracije aplikacije Project Operations** (**Finance** > **Upravljanje projektom i računovodstvo** > **Postavljanje** > **Upravljanje projektom i računovodstveni parametri**, kartica **Project Operations u sustavu Dynamics 365 Customer Engagement**). Moguće vrijednosti za ovo polje uključuju:
 
   - **Dani**: Stvarni su podaci grupirani po datumu transakcije. Za svaki dan izrađuje se zaseban dnevnik.
   - **Mjeseci**: Stvarni su podaci grupirani prema kalendarskom mjesecu. Za svaki mjesec izrađuje se zaseban dnevnik.
