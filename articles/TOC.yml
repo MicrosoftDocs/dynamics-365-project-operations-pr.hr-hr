@@ -832,6 +832,16 @@
           items:
             - name: Prikaz korištenja resursa
               href: resource-management/resource-utilization-overview.md
+    - name: Upravljanje podugovorima u aplikaciji Project Operations
+      items:
+        - name: Pregled upravljanja podugovorima
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Ključni koncepti u podugovaranju
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Upravljanje dobavljačima i cjenicima projekata
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Podizvođači kao resursi koji se mogu rezervirati
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Vrijeme
       items:
         - name: Pregled vremena
@@ -1050,6 +1060,8 @@
       items:
         - name: Ažuriranje rasporeda izdanja za aplikaciju Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 32.5, V3'
