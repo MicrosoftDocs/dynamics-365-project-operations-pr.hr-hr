@@ -6,12 +6,12 @@ ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7ef9765b7db1c6650fb0599bf5fb4b4b6304be69
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013657"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990127"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Procjena prodaje i troškova projekta kada resurs koji se bože rezervirati ispunjava više uloga na projektu 
 
@@ -97,7 +97,7 @@ Kako biste razumjeli ponašanje u rešetki **Član tima** i procjene, poduzmite 
 
 ### <a name="team-member-grid"></a>Rešetka člana tima 
 
-U rešetki **Član tima** dva generička zapisa člana tima brišu se i zamjenjuju sa samo jednim resursom. Postoji jedan skup vrijednosti za taj resurs, koji je zadani skup vrijednosti za stavke **Uloga** i **Organizacijska jedinica**.
+U rešetki **Član tima** dva zapisa generičkog člana tima brišu se i zamjenjuju sa samo jednim resursom. Postoji jedan skup vrijednosti za taj resurs, koji je zadani skup vrijednosti za stavke **Uloga** i **Organizacijska jedinica**.
 
 Kada proširite redak za taj zapis člana tima, na zapisu člana tima možete vidjeti različite zadatke za oba zadatka. Svaki redak zadatka ima vrijednosti specifične za mogućnosti **Uloga** i **Organizacijska jedinica**. 
 

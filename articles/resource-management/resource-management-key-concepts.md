@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6362daab7e2e01c7b7b2c2b801fe7e258b21ef16
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000967"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994807"
 ---
 # <a name="resource-management-key-concepts"></a>Ključni koncepti upravljanja resursima
 
@@ -20,8 +20,8 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 Resursi su najvažnije sredstvo za tvrtke ili ustanove koje su utemeljene na uslugama. Mogućnost pronalaženja pravih resursa u pravo vrijeme, rezerviranje tih resursa u projektima i iskorištavanje tih resursa omogućuju da tvrtka ili ustanova ostvari ciljeve prihoda i zadovoljstva klijenata. Funkcionalnost raspodjele resursa na projektu u aplikaciji Dynamics 365 Project Operations možete upotrebljavati za sljedeće zadatke:
 
 - Formiranje projektnih timova rezerviranjem dostupnih i kvalificiranih resursa.
-- Stvaranje zapisa o članu generičkog tima i definiranje uloga i organizacijske jedinice resursa.
-- Generiranje preduvjeta resursa za članove generičkog tima iz njihove dodjele zadataka.
+- Stvaranje zapisa o generičkom članu tima i definiranje uloga i organizacijske jedinice resursa.
+- Generiranje preduvjeta resursa za generičke članove tima iz njihove dodjele zadataka.
 - Usporedba vještina identificiranjem vještina definiranih u potražnji resursa u odnosu na vještine dostupnog resursa.
 - Zamjena resursa.
 - Poravnavanje dodjele rasporeda projekta i rezervacije resursa.

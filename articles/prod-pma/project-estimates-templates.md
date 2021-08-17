@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: a6955dcd1ebe494e0171c30ac4384089da6a8745
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999707"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988192"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizacija procjena projekta izravno iz usluge Project Service Automation na uslugu Finance and Operations
 
@@ -38,7 +38,7 @@ Rješenje za integraciju usluge Project Service Automation u Financije upotreblj
 
 Na slijedećoj slici prikazan je način na koji se podaci sinkroniziraju između usluge Project Service Automation i Financija.
 
-[![Tijek podataka za integraciju usluge Project Service Automation s Financijama](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Tijek podataka za integraciju usluge Project Service Automation s aplikacijom Finance.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Procjene sati rada na projektu
 
@@ -95,7 +95,7 @@ Morate dodati filtar kako biste uklonili sve retke koji imaju prazne kategorije 
 
 Sljedeća slika prikazuje primjer mapiranja zadataka predloška u Integraciji podataka. Mapiranje prikazuje podatke polja koji će se sinkronizirati iz aplikacije Project Service Automation u Financije.
 
-[![Mapiranje zadatka predloška u integraciji podataka](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Mapiranje zadatka predloška u integraciji podataka.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Procjene izdataka za projekt
 
@@ -165,9 +165,9 @@ else **null**
 
 Sljedeće slike prikazuju primjer mapiranja zadataka predloška u Integraciji podataka. Mapiranje prikazuje podatke polja koji će se sinkronizirati iz aplikacije Project Service Automation u Financije.
 
-[![Mapiranje predloška transakcija procjene troškova](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Mapiranje predloška transakcija procjene troškova.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Mapiranje predloška procjene troškova](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+[![Mapiranje predloška procjene troškova.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

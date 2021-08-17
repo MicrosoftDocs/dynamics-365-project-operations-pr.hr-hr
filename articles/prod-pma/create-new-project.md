@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006232"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985942"
 ---
 # <a name="create-a-new-project"></a>Stvaranje novog projekta
 
@@ -51,7 +51,7 @@ Prema potrebi možete dodijeliti i kategorije za resurs. Ta je vrsta kategorije 
 
 Voditelj projekta može upotrijebiti funkcionalnost projektnih resursa za stvaranje uloga potrebnih za projekt. Uloge se mogu upotrebljavati ako su potvrđeni resursi i dalje nepoznati u vrijeme rezerviranja resursa. Uloge se mogu privremeno rezervirati kao planirani resursi, tako da možete nastaviti faze planiranja projekta.
 
-[![Primjer uloge](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Primjer uloge.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Scenarij:** Contoso je angažiran da završi projekt Vrijeme i materijal koji ima odobreni ugovor o projektu. Voditelj projekta nižeg ranga još uvijek dovršava djelokrug projekta. Voditelj resursa trenutačno identificira određene resurse koji će se rezervirati za rad na novom projektu. Zbog kritične naravi projekta, sponzor projekta zatražio je ulogu voditelja projekta višeg ranga kao jednu od uloga. Voditelj resursa mora nabaviti novi resurs i definirati ulogu u sustavu u slučaju da voditelj projekta nižeg ranga tijekom planiranja projekta zatraži podatke o resursima.
 

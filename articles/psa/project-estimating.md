@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009157"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002547"
 ---
 # <a name="project-costs-and-revenue"></a>Troškovi i prihod projekta
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009157"
 
 Procjena projekta daje financijski prikaz za procijenjeni i raspoređeni rad u rasporedu projekta. Kartica **Procjene** na stranici **Projekti** prikazuje učinak troška i prihoda rada koji planirate. Također pruža informacije o brojnim unaprijed definiranim dimenzijama. 
 
-> ![Kartica Procjene](media/project-5.png)
+> ![Kartica Procjene.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Trošak i prodajne vrijednosti projekta
 
@@ -66,13 +66,13 @@ Ako sustav ne pronađe cijenu za ulogu, prodajna cijena u retku procjene postavl
 
 Kartica **Procjene** ima prikaz rešetke koji prikazuje retke procjene. Rešetka uključuje stupce za jedinicu, ukupnu cijenu troškova i ukupnu prodajnu cijenu, kao što je prikazano na sljedećoj ilustraciji. 
 
-> ![Prikaz rešetke na kartici Procjene](media/project-6.png)
+> ![Prikaz rešetke na kartici Procjene.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Prikaz procjene projekta s vremenskim fazama
 
 Prikaz s vremenskim fazama procjene projekta prikazuje podatke procjene iz prikaza rešetke na vremenskoj crti u vremenskom mjerilu koje odaberete. Prema zadanim postavkama podaci procjene zaokreću se po dimenziji **Uloga**.
 
-> ![Prikaz procjena projekta s vremenskim fazama](media/project-7.png)
+> ![Prikaz vremenskih faza procjena projekta.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Dodjela procijenjenog rada na temelju načina zadatka
 

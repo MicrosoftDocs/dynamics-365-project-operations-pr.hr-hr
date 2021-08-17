@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999887"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988102"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinkronizacija stvarnih podataka o projektu izravno iz aplikacije Project Service Automation u dnevnik integracije projekta za objavljivanje na usluzi Finance and Operations
 
@@ -42,7 +42,7 @@ Rješenje za integraciju usluge Project Service Automation u Financije upotreblj
 
 Na slijedećoj slici prikazan je način na koji se podaci sinkroniziraju između usluge Project Service Automation i Financija.
 
-[![Tijek podataka za integraciju usluge Project Service Automation s aplikacijom Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Tijek podataka za integraciju usluge Project Service Automation s aplikacijom Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Stvarni podaci o projektu iz aplikacije Project Service Automation
 
@@ -93,9 +93,9 @@ Kako biste u predlošku ažurirali umetnuti uvjetni stupac, kliknite strelicu **
 
 Sljedeće slike prikazuju primjer mapiranja zadataka predloška u Integraciji podataka. Mapiranje prikazuje podatke polja koji će se sinkronizirati iz aplikacije Project Service Automation u Financije.
 
-[![Mapiranje predloška – Stvarni podaci](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Mapiranje predloška – Stvarni podaci.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Mapiranje predloška – Transakcijske veze](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Mapiranje predloška – Transakcijske veze.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Uvoz iz izvedbene tablice nakon integracije iz aplikacije Project Service Automation
 
@@ -135,9 +135,9 @@ U predlošku za ažuriranje stvarnih podataka o projektu morate upotrijebiti mod
 
 Sljedeće slike prikazuju primjer mapiranja zadataka predloška u Integraciji podataka. Mapiranje prikazuje podatke polja koji će se sinkronizirati iz Financija u aplikaciju Project Service Automation.
 
-[![Mapiranje predloška – Ažuriranje stvarnih podataka](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Mapiranje predloška – Ažuriranje stvarnih podataka.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Mapiranje predloška – Ažuriranje transakcije](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Mapiranje predloška – Ažuriranje transakcije.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011182"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996247"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Uporaba resursa koji se može rezervirati kao veličine za određivanje cijene
 
@@ -64,18 +64,18 @@ Zapis veličine za određivanje cijena za **msydn_bookableresource** mora imati 
 1. Dvaput kliknite redak u rešetki **Veličine za određivanje cijena** kako biste otvorili stranicu veličine **msdyn_bookableresource**.
 2. Na stranici dimenzije, na kartici **Povezano** odaberite **Nazivi polja veličine za određivanje cijena**.
 
-  ![Kartica Nazivi polja dimenzije određivanja cijena](media/PD-fieldname.png)
+  ![Kartica Nazivi polja veličina za određivanje cijena.](media/PD-fieldname.png)
 
 3. Na povezanom prikazu koji se otvori, odaberite **Dodaj novi naziv polja veličine za određivanje cijena**.
 
-  ![Dodaj nove nazive polja dimenzije određivanja cijena](media/Add-NewPD-fieldname.png)
+  ![Dodajte nove nazive polja veličina za određivanja cijena.](media/Add-NewPD-fieldname.png)
 
   To otvara stranicu **Novi naziv polja dimenzije određivanja cijena** za **msdyn_bookableresource**. 
 
 4. Na stranici **Novi naziv polja veličine za određivanje cijena** dodajte **msdyn_projectteam** u **Logični naziv entiteta**.
 5. Dodajte **msdyn_bookableresourceid** u **Naziv polja**.
 
- ![Obrazac novog naziva polja dimenzije određivanja cijena](media/PD-fieldname-Added.png)
+ ![Obrazac novog naziva polja veličine za određivanje cijena.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

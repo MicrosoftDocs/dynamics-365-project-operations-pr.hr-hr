@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7cc49a846c98c0359ce4cd681c42ff57e16dc9bd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992512"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Prihvati ili odbij predloženi resurs projekta
 
@@ -31,16 +31,16 @@ ms.locfileid: "6011587"
 
 Ova tema pruža informacije o tome kako odobriti ili odbiti predloženi resurs projekta.
 
-Kada upravitelj resursa predloži imenovani resurs za ispunjavanje zahtjeva za generičkim resursom za projekt, polje **Status zahtjeva** za člana generičkog tima ažurirat će se u **Pregled potreba**. Zahtjev će se poslati upravitelju projekta na odobrenje ili odbijanje.
+Kada upravitelj resursa predloži imenovani resurs za ispunjavanje zahtjeva za generičkim resursom za projekt, polje **Status zahtjeva** za generičkog člana tima ažurirat će se u **Pregled potreba**. Zahtjev će se poslati upravitelju projekta na odobrenje ili odbijanje.
 
-![Član generičkog tima s prijedlogom](media/RM-how-to-19.png)
+![Generički član tima s prijedlogom.](media/RM-how-to-19.png)
 
 Rešetka na kartici **Predloženi resursi** na stranici **Član projektnog tima** prikazuje trenutačne rezervacije predloženih resursa. Nakon prihvaćanja prijedloga, rešetka se ažurira da bi prikazala rezervaciju. 
 
 Da biste prihvatili predloženi resurs i rezervirali resurs u vašem timu, kliknite **Prihvati prijedloge**.  
 Da biste odbili prijedlog, kliknite **Odbij resurs**.
 
-![Prihvaćanje prijedloga resursa](media/RM-how-to-20.png) 
+![Prihvaćanje prijedloga resursa.](media/RM-how-to-20.png) 
 
 Slično izravnom ispunjavanju zahtjeva za generičkim resursom s imenovanim resursom, generički resurs zamijenit će se i dodijeljeni zadaci ažurirat će se s imenovanim članom tima.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009202"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000162"
 ---
 # <a name="product-catalog-pricing"></a>Određivanje cijena kataloga proizvoda 
 
@@ -44,7 +44,7 @@ Proizvode iz kataloga proizvoda možete dodavati na različite cjenike. Reci cje
 
 PSA podržava različite mogućnosti zaokruživanja kada su cijene konfigurirane kao funkcija kataloške cijene, trenutačnog troška ili standardnog troška. Uz iskorištavanje prednosti više načina određivanja cijena i mogućnosti zaokruživanja, popise popusta možete povezati sa stavkama cjenika. 
 
-> ![Dodavanje proizvoda iz kataloga u različite cjenike](media/basic-guide-16.png)
+> ![Dodavanje proizvoda iz kataloga u različite cjenike.](media/basic-guide-16.png)
 
 Kada izradite novi prilagođeni cjenik za ponudu odabirom mogućnosti **Izradi prilagođeno određivanje cijena** na stranici **Ponuda projekta**, PSA izrađuje kopiju cjenika, a polje **Entitet** u zaglavlju novog cjenika postavlja se na **Prodajni entitet**. Naziv novog cjenika dodaje se s nazivom ponude i vremenskom oznakom. Također možete koristiti naziv novog cjenika i naziv ponude u prilagođenim tijekovima rada za pokretanje dodatnog pregleda i odobrenja za ponude koje koriste prilagođeno određivanje cijena.
 

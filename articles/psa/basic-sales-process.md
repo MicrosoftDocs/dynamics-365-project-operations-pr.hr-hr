@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014197"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000522"
 ---
 # <a name="sales-processes"></a>Prodajni procesi
 
@@ -39,7 +39,7 @@ Prodajni procesi koji se koriste u organizaciji koja se temelji na projektu razl
 
 Sljedeća ilustracija prikazuje tipičan prodajni proces u organizaciji koja se temelji na projektu.
 
-> ![Prodajni proces u organizaciji koja se temelji na projektu](media/basic-guide-1.png)
+> ![Prodajni proces u organizaciji koja se temelji na projektu.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Procjena prodaje
 Vrijednost prodaje može se procijeniti na temelju projekata koji su prethodno bili isporučeni i složenosti projekata. Za projekte koji uključuju proširenja na prethodne projekte ili projekte u kojima je stručno znanje dobavljača visoko i gdje se koriste dobro poznati radni predlošci, možete koristiti jednostavniji proces procjene. Složeniji projekti obično imaju dulji postupak kupnje. Stoga postoji više faza u procesu procjene prodaje. U ranoj fazi, prodajni tim koristi unos upravitelja računa i stručnjaka za predmet (MSP) da bi počeo izrađivati procjenu visoke razine za svaku različitu komponentu rada koji se navodi u ponudi. Ove komponente rada predstavljene su recima ponude. 
@@ -50,7 +50,7 @@ Možete izraditi više ponuda za projekt i grupirati ih pod vrstom entiteta poje
 
 Možete izraditi i alternativne ponude pod jednom vrstom entiteta prilike ili postaviti sustav tako da se ugovor projekta izradi kada se osvoji ponuda. U tom slučaju možete Wordov dokument koji predstavlja SOW priložiti zapisu ugovora projekta.
 
-![Zatvaranje ponude za izradu ugovora projekta](media/basic-guide-2.png)
+![Zatvaranje ponude za izradu ugovora projekta.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Konfiguriranje prodajnog procesa
 Možete koristiti tijekove poslovnih procesa (BPFs) u Microsoft Dynamics 365 da biste konfigurirali svoj prodajni proces. Tijekovi poslovnih procesa daju vašem prodajnom osoblju vođeno vizualno sučelje koje mogu koristiti za vođenje dogovora kroz faze koje su uobičajene za vaše poduzeće.
@@ -66,7 +66,7 @@ Na primjer, vaše poduzeće može imati sljedećih šest faza u prodajnom proces
 
 Tih šest faza predstavljaju ševroni (\>) koje odaberete za proširenje u svakoj vrsti entiteta prilike koji izradite.
 
-![Konfiguracija poslovnog procesa u sustavu Dynamics 365](media/basic-guide-3.png)
+![Konfiguracija poslovnog procesa u sustavu Dynamics 365.](media/basic-guide-3.png)
  
 Vaša organizacija može koristiti različite entitete da bi predstavljala isti dogovor kako se ona razvija. Početkom prodajnog procesa ugovor predstavlja entitet Prilika. Kako vrijeme prolazi i pojavljuje se više detalja, možda ćete koristiti procjene visoke razine za izradu jedne ili više ponuda. Ako se jedna od tih ponuda revidira od strane internih dionika i klijenata dionika, entitet Ponuda predstavlja dogovor. Nakon što klijent prihvati ponudu, ugovor projekta ili SOW predstavlja dogovor. Da biste podržali to ponašanje, BPFs strukturirani su tako da je svaka faza u procesu povezana s drugom tablicom baze podataka.
 
@@ -77,7 +77,7 @@ Dok vodite dogovore kroz faze, od vas će se zatražiti da izradite odgovarajuć
 > [!NOTE]
 > PSA ima određene stranice za entitete Prilika, Ponuda, Narudžba i Faktura. Za te entitete morate izraditi prilike, ponude, narudžbe i fakture za projektne usluge s pomoću stranica s informacijama o projektu. Ako koristite drugu stranicu za izradu zapisa, nećete moći otvoriti zapis sa stranice **Informacije o projektu**. Ako želite otvoriti zapis sa stranice **Informacije o projektu**, morate izbrisati zapis i ponovno ga izraditi s pomoću stranice **Informacije o projektu**. Na stranici **Informacije o projektu**, poslovna logika za svaku od tih vrsta entiteta osigurava ispravno postavljanje polja **Vrste** zapisa i pravilnu inicijalizaciju svih obaveznih pojmova.
 
-> ![Informacije o projektu za novu narudžbu](media/basic-guide-4.png)
+> ![Informacije o projektu za novu narudžbu.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Razlike između Project Service Automation i Prodaje
 Iako prodajni proces u sustavu PSA koristi osnovne mogućnosti prodajnog procesa u Prodaji, on ima neke ključne razlike zbog varijacija u poslovnim praksama organizacija koje se temelje na projektu. Evo nekoliko primjera:

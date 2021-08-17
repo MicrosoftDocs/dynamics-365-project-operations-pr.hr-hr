@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cb44f10e2ce02ce57a44252fd99ce769f20d5cb7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011362"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996337"
 ---
 # <a name="project-based-opportunity-lines"></a>Redci prilike utemeljeni na projektu
 
@@ -30,7 +30,7 @@ Ispod su polja na retku prilike koji se temelji na projektu:
 | Prilika | Kartica Općenito | Ovo je polje samo za čitanje i odnosi se na zapis nadređene Prilike kojem pripada ova stavka retka. | Nema utjecaja ovog polja na niže razine. |
 | Ime | Kartica Općenito | Ovo je tekstno polje koje se može uređivati i može se upotrebljavati za davanje kratkog identiteta toj stavci retka | Ova se vrijednost prenosi na redak ponude kada iz ove prilike stvarate ponudu |
 | Proračun klijenta | Kartica Općenito | Ovo polje valute koje se može uređivati može se upotrebljavati za praćenje iznosa kojeg je klijent spreman potrošiti za ovu stavku retka. | Ova se vrijednost prenosi na odgovarajuće polje na retku ponude kada iz ove prilike stvarate ponudu |
-| Način naplate | Kartica Općenito | To polje koje se može uređivati ima sljedeće vrijednosti:</br>– Vrijeme i materijal</br>– Fiksnu cijenu | Ova se vrijednost prenosi na odgovarajuće polje na retku ponude kada iz ove prilike stvarate ponudu. Nakon stvaranja retka ponude, polje se zaključa i ne može se mijenjati. Dodijelite vrijednost ovom polju što je moguće točnije. Ako trebate promijeniti vrijednost ovog polja na retku ponude, izbrišite i ponovno stvorite redak ponude. |
+| Način naplate | Kartica Općenito | To polje koje se može uređivati ima sljedeće vrijednosti:</br>- Vrijeme i materijal</br>- Fiksnu cijenu | Ova se vrijednost prenosi na odgovarajuće polje na retku ponude kada iz ove prilike stvarate ponudu. Nakon stvaranja retka ponude, polje se zaključa i ne može se mijenjati. Dodijelite vrijednost ovom polju što je moguće točnije. Ako trebate promijeniti vrijednost ovog polja na retku ponude, izbrišite i ponovno stvorite redak ponude. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

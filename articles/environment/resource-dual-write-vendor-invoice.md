@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002247"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986482"
 ---
 # <a name="vendor-invoice-integration"></a>Integracija fakture dobavljača
 
@@ -36,7 +36,7 @@ Fakture dobavljača u aplikaciji Project Operations, koje se odnose na projekt, 
 
 Sporedne računovodstvene knjige za porez, dobavljača i ostala financijska knjiženja evidentiraju se prema potrebi u aplikaciji Dynamics 365 Finance nakon knjiženja fakture dobavljača.
 
-![Integracija fakture dobavljača](media/DW7VendorInvoice.png)
+![Integracija fakture dobavljača.](media/DW7VendorInvoice.png)
 
 Kada se zapisi upišu u entitet **Faktura dobavljača** na platformi Dataverse započinje postupak automatskog odobravanja zapisa. Ako je potrebno, stanje postupka automatskog odobrenja može se pregledati na platformi Dataverse tako da se ode na **Napredne postavke** > **Sustav** > **Poslovi sustava**. Nakon dovršetka postupka odobravanja, sustav stvara zapise klase transakcija materijala u entitetu **Stvarni podaci**.
 

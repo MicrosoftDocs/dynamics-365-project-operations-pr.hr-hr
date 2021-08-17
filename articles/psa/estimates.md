@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007582"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992377"
 ---
 # <a name="estimates"></a>Procjene
 
@@ -83,16 +83,16 @@ Ako ste dodali prilagođeno polje u pojedinost retka ponude i želite da sustav 
 1. Otvorite PluginRegistrationTool i povežite se s mrežnom instancom.
 2. Odaberite **Pretraži** i potražite dodatak za ažuriranje.
 
-    ![Pretraži stablasti dijaloški ovir](media/basic-guide-19.png)
+    ![Pretraži stablasti dijaloški ovir.](media/basic-guide-19.png)
 
 3. Odaberite dodatak, a zatim na glavnoj stranici odaberite **Odaberi**.
 4. Odaberite korak dodatka za ažuriranje, kliknite desnom tipkom miša, a zatim odaberite **Ažuriraj**.
 
-    ![Odabir koraka u dodatku](media/basic-guide-20.png)
+    ![Odabir koraka u dodatku.](media/basic-guide-20.png)
 
 5. U dijaloškom okviru **Ažuriraj postojeći korak** u polju **Atributi filtriranja** odaberite gumb trotočke (**...**):
  
-    ![Dijaloški okvir Ažuriranje postojećeg koraka](media/basic-guide-21.png)
+    ![Dijaloški okvir Ažuriranje postojećeg koraka.](media/basic-guide-21.png)
 
 6. U dijaloškom okviru **Odaberi atribute** odaberite potvrdne okvire za prilagođene atribute.
 
@@ -100,7 +100,7 @@ Ako ste dodali prilagođeno polje u pojedinost retka ponude i želite da sustav 
 
 7. Odaberite **U redu** da biste zatvorili dijaloški okvir, a zatim odaberite **Ažuriraj korak**.
  
-    ![Gumb Ažuriraj korak](media/basic-guide-23.png)
+    ![Gumb Ažuriraj korak.](media/basic-guide-23.png)
 
 8. Ponovite korake od 1 do 7 za drugi dodatak.
 9. Zatvorite alat za registraciju dodataka.

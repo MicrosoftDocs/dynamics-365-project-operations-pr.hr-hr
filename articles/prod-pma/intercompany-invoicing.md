@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002767"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995797"
 ---
 # <a name="intercompany-invoicing"></a>Fakturiranje unutar tvrtke
 
@@ -33,7 +33,7 @@ Vaša tvrtka ili ustanova može imati više sektora, podružnica i drugih pravni
 
 Na sljedećoj slici prikazan je uobičajen scenarij u kojem dvije pravne osobe, SI FR (pravna osoba primatelj posudbe) i SI USA (pravna osoba davatelj posudbe) dijele resurse kako bi isporučili projekt klijentu A. Za ovaj scenarij, SI FR ugovorom se obvezala isporučiti posao klijentu A. 
 
-[![Primjer fakturiranja unutar tvrtke](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Primjer fakturiranja unutar tvrtke.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Cilj je kontrolu troškova, priznavanje prihoda, poreze i cijenu prijenosa za transakcije projekata unutar tvrtke učiniti fleksibilnijim i snažnijim. Osim toga, pružaju se sljedeće mogućnosti:
 

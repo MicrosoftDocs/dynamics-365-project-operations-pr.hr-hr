@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015052"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985492"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturiranje u sustavu Project Service Automation
 
@@ -50,7 +50,7 @@ Poduzmite ovaj korak da biste stvorili fakturu za određeni ugovor projekta.
 
 - Na stranici popisa **Ugovori projekta** otvorite ugovor o projektu, a zatim odaberite **Stvori fakturu.**
 
-    ![Stvaranje faktura projekta za određeni ugovor projekta](media/CreateProjectInvoicesOneByOne.png)
+    ![Stvaranje faktura projekta za određeni ugovor projekta.](media/CreateProjectInvoicesOneByOne.png)
 
     Faktura se generira za sve transakcije za odabrani ugovor projekta koje imaju status **Spremno za fakturiranje**. Te transakcije uključuju vrijeme, troškove, kontrolne točke i retke ugovora temeljene na proizvodu.
 
@@ -58,7 +58,7 @@ Poduzmite ove korake da biste skupno stvorili fakture.
 
 1. Na stranici popisa **Ugovori projekta** odaberite jedan ili više ugovora projekta za koje morate stvoriti fakturu, a zatim odaberite **Stvori fakture projekta**.
 
-    ![Skupno stvaranje faktura projekta](media/CreateProjectInvoicesBulk.png)
+    ![Skupno stvaranje faktura projekta.](media/CreateProjectInvoicesBulk.png)
 
     Poruka upozorenja obavještava vas da je moguća odgoda prije stvaranja faktura. Prikazan je i postupak.
 

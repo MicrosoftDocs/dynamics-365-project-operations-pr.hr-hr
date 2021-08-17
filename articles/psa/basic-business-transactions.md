@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011542"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987517"
 ---
 # <a name="business-transactions"></a>Poslovne transakcije
 
@@ -88,7 +88,7 @@ Zajedno, entiteti Porijeklo transakcije i Veza transakcije pomažu vam da pratit
 
 Sljedeći primjer prikazuje tipičnu obradu unosa vremena u životnom ciklusu projekta sustava PSA.
 
-> ![Vrijeme obrade u životnom ciklusu Project Service](media/basic-guide-17.png)
+> ![Vrijeme obrade u životnom ciklusu Project Service.](media/basic-guide-17.png)
  
 1. Slanje unosa vremena uzrokuje izradu dvaju redaka u dnevniku: jedan za trošak i jedan za nenaplaćene prodaje.
 2. Eventualno odobrenje unosa vremena uzrokuje izradu dvaju stvarnih podataka: jedan za trošak i jedan za nenaplaćene prodaje.

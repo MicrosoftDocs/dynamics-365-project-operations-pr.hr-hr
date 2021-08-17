@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014872"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000072"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Razmatranja nadogradnje – PSA verzija 2.x ili 1.x na verziju 3.x
 
@@ -35,7 +35,7 @@ Aplikacije Dynamics 365 Project Service Automation i Dynamics 365 Field Service 
 ## <a name="resource-assignments"></a>Dodjele resursa
 U aplikaciji Project Service Automation, verzija 2 i verzija 1, dodjele zadataka pohranjene su kao podređeni zadaci (također zadaci redaka) u **Entitet zadatka** i neizravno povezani s entitetom **Dodjela resursa**. Zadatak retka bio je vidljiv u skočnom prozoru dodjele na strukturnoj analizi rada (WBS).
 
-![Zadaci retka na WBS-u u aplikaciji Project Service Automation, verzije 2 i 1](media/upgrade-line-task-01.png)
+![Zadaci retka na WBS-u u aplikaciji Project Service Automation, verzije 2 i 1.](media/upgrade-line-task-01.png)
 
 U verziji 3 aplikacije Project Service Automation promijenila se pozadinska shema dodjele resursa koje je moguće rezervirati za zadatke. Zadatak je retka zastario i postoji izravni odnos 1:1 između zadatka u **Entitetu zadatka** i članu tima u entitetu **Dodjela resursa**. Zadaci koji su dodijeljeni članu projektnog tima sada se pohranjuju izravno u entitet Dodjela resursa.  
 
@@ -46,26 +46,26 @@ Korištenjem pozadinskog entiteta zadatka, zadaci u verziji 2 i verziji 1 omogu�
 
 Ako ste resurs dodijelili zadatku izvan njegove zadane uloge u verziji 2 i verziji 1, kada nadogradite, imenovanom će se resursu dodijeliti zadana uloga za sve dodjele zadataka, bez obzira na dodjelu uloga u verziji 2. Ta dodjela rezultira razlikama u izračunanim procjenama iz verzije 2 ili verzije 1 na verziju 3 jer se procjene izračunavaju na temelju uloge resursa, a ne dodjele zadatka retka. Na primjer, u verziji 2 dva su zadatka dodijeljena Dragici Čeh. Uloga u zadatku retka za zadatak 1 je razvojni inženjer, a za zadatak 2 upravitelj programa. Dragica Čeh ima zadanu ulogu upravitelja programa.
 
-![Više uloga dodijeljenih jednom resursu](media/upgrade-multiple-roles-02.png)
+![Više uloga dodijeljenih jednom resursu.](media/upgrade-multiple-roles-02.png)
 
 Budući da se uloge razvojnog inženjera i upravitelja programa razlikuju, procjene troška i prodaje su sljedeće:
 
-![Procjene troškova za uloge resursa](media/upggrade-cost-estimates-03.png)
+![Procjene troškova za uloge resursa.](media/upggrade-cost-estimates-03.png)
 
-![Procjene prodaje za uloge resursa](media/upgrade-sales-estimates-04.png)
+![Procjene prodaje za uloge resursa.](media/upgrade-sales-estimates-04.png)
 
 Kada nadogradite na verziju 3, zadaci retka zamjenjuju se dodjeljivanjem resursa na zadatku člana tima resursa koji je moguće rezervirati. Dodjela će koristiti zadanu ulogu resursa koji je moguće rezervirati. Na sljedećoj je grafici Dragica Čeh koja ima ulogu upravitelja programa resurs.
 
-![Dodjele resursa](media/resource-assignment-v2-05.png)
+![Dodjele resursa.](media/resource-assignment-v2-05.png)
 
 Budući da se procjene temelje na zadanoj ulozi za resurs, procjene prodaje i troška mogu se promijeniti. U sljedećoj grafici više ne vidite ulogu **Razvojni inženjer** jer je uloga sada uzeta iz zadane uloge resursa koji je moguće rezervirati.
 
 ![Cost estimates for default roles](media/resource-assignment-cost-estimate-06.png)
-![Procjene troškova za zadane uloge](media/resource-assignment-sales-estimate-07.png)
+![Procjene troškova za zadane uloge.](media/resource-assignment-sales-estimate-07.png)
 
 Nakon dovršetka nadogradnje možete urediti ulogu člana tima da bude drugačija od one dodijeljene prema zadanim postavkama. Međutim, ako promijenite ulogu članova tima, promijenit će se na svim dodijeljenim zadacima jer se članovima tima ne može dodijeliti više uloga u verziji 3.
 
-![Ažuriranje uloge resursa](media/resource-role-assignment-08.png)
+![Ažuriranje uloge resursa.](media/resource-role-assignment-08.png)
 
 To vrijedi i za zadatke retka koji su dodijeljeni imenovanim resursima kada promijenite jedinicu tvrtke ili ustanove resursa iz zadane u drugu jedinicu tvrtke ili ustanove. Nakon dovršetka nadogradnje verzije 3, dodjela će koristiti zadanu jedinicu tvrtke ili ustanove resursa umjesto one postavljene u zadatku retka.
 
@@ -75,32 +75,32 @@ U verziji 2 i verziji 1 možete postaviti ulogu i jedinicu tvrtke ili ustanove n
 U verziji 2 i verziji 1 projekti s generičkim resursima mogu biti u dva stanja ili mješavina obaju na razini zadatka. Na primjer, možete imati sljedeće scenarije:
 
 - Zadaci s ulogama i jedinicama tvrtke ili ustanove su postavljeni, ali nije generirano nijedno pridruženo dodjeljivanje resursa.
-- Zadaci s generičkim dodjeljivanjem resursa članovima tima koji su dodijeljeni stvaranjem generičkog resursa pomoću značajke **Generiraj tim**.
+- Zadaci s dodjeljivanjima resursa generičkim članovima tima koji su dodijeljeni stvaranjem generičkog resursa s pomoću značajke **Generiraj tim**.
 
 Prije nego što započnete nadogradnju, preporučujemo da ponovno generirate tim za svaki projekt koji ima zadatke dodijeljene generičkim resursima ili još nije imao pokrenut postupak generiranja tima.
 
-Za zadatke koji su dodijeljeni generičkim članovima tima koji su generirani pomoću značajke **Generiraj tim**, nadogradnja će ostaviti generički resurs u timu i ostaviti dodjelu tom generičkom članu tima. Preporučujemo da generirate uvjet resursa za generičkog člana tima nakon nadogradnje, ali prije nego što rezervirate ili pošaljete zahtjev za resursima. Time će se očuvati sve dodjele jedinica tvrtke ili ustanove za generičke članove tima koje su različite od projektne ugovorene jedinice tvrtke ili ustanove.
+Za zadatke koji su dodijeljeni generičkim članovima tima koji su generirani s pomoću značajke **Generiraj tim**, nadogradnja će ostaviti generički resurs u timu i ostaviti dodjelu tom generičkom članu tima. Preporučujemo da generirate uvjet resursa za generičkog člana tima nakon nadogradnje, ali prije nego što rezervirate ili pošaljete zahtjev za resursima. Time će se očuvati sve dodjele jedinica tvrtke ili ustanove za generičke članove tima koje su različite od projektne ugovorene jedinice tvrtke ili ustanove.
 
 Na primjer, u projektu Projekt Z ugovorena je jedinica tvrtke ili ustanove Contoso SAD. U planu projekta zadaci testiranja u fazi implementacije dodijeljeni su ulozi tehničkog savjetnika, a dodijeljena je jedinica tvrtke ili ustanove Contoso India.
 
-![Dodjela faze organizacije tvrtke ili ustanove](media/org-unit-assignment-09.png)
+![Dodjela organizacije faze implementacije.](media/org-unit-assignment-09.png)
 
 Nakon faze implementacije zadatak testiranja integracije dodijeljen je ulozi tehničkog savjetnika, ali tvrtka ili ustanova je postavljena na Contoso SAD.  
 
-![Dodjela zadatka testiranja integracije tvrtke ili ustanove](media/org-unit-generate-team-10.png)
+![Dodjela organizacije integracijskih testnih zadataka.](media/org-unit-generate-team-10.png)
 
 Kada generirate tim za projekt, dva generička člana tima stvaraju se zbog različitih jedinica tvrtke ili ustanove na zadacima. Tehničkom savjetniku 1 dodijelit će se zadaci Contoso India, a tehnički će savjetnik 2 imati zadatke Contoso SAD.  
 
-![Generirani generički članovi tima](media/org-unit-assignments-multiple-resources-11.png)
+![Generirani generički članovi tima.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > U verziji 2 i verziji 1 aplikacije Project Service Automation član tima ne drži jedinicu tvrtke ili ustanove koja se održava na zadatku retka.
 
-![Verzije 2 i 1 zadataka retka u aplikaciji Project Service Automation](media/line-tasks-12.png)
+![Verzije 2 i 1 zadataka retka u aplikaciji Project Service Automation.](media/line-tasks-12.png)
 
 Jedinicu tvrtke ili ustanove možete vidjeti u prikazu procjena. 
 
-![Procjene jedinice tvrtke ili ustanove](media/org-unit-estimates-view-13.png)
+![Procjene organizacijske jedinice.](media/org-unit-estimates-view-13.png)
  
 Kada se nadogradnja dovrši, jedinica tvrtke ili ustanove u zadatku retka koja odgovara generičkom članu tima dodaje se generičkom članu tima, a zadatak retka se uklanja. Stoga preporučujemo da prije nadogradnje generirate ili ponovno generirate tim na svakom projektu koji sadrži generičke resurse.
 

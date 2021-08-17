@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998402"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995167"
 ---
 # <a name="sales-estimates-and-projects"></a>Procjene prodaje i projekti
 
@@ -35,11 +35,11 @@ Tijekom prodajnog postupka možete stvoriti procjenu prodaje povezivanjem projek
 
 Kada stvorite redak ponude temeljen na projektu, možete stvoriti novi projekt ili povezati postojeći projekt na stranici **Redak ponude**. 
 
-> ![Obrazac retka ponude](media/project-8.png)
+> ![Obrazac retka ponude.](media/project-8.png)
  
 Kada stvorite novi projekt na temelju pojedinosti retka ponude, možete iskoristiti prednosti predložaka projekta. Predlošci projekata modeli su projekata koji predstavljaju standardne projektne planove i financijske procjene koje su uobičajene u tvrtki li ustanovi. Također mogu predstavljati kopije projektnih planova i procjena iz prethodnih projekata.
 
-> ![Detalji retka ponude](media/project-9.png)
+> ![Pojedinosti retka ponude.](media/project-9.png)
   
 Kada stvorite projekt na temelju ponude, projekt se automatski povezuje s retkom ponude.
 

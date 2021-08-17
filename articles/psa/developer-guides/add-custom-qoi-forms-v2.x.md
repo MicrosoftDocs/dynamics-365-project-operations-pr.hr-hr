@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007987"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995212"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodavanje novih obrazaca prilagođenih entiteta (Project Service Automation 2. x)
 
@@ -57,7 +57,7 @@ Slijedite ove korake da biste izradili prilagođenu verziju obrasca **Informacij
     - Izvezite obrazac **Moje informacije o projektu** kao dio neupravljanog rješenja, a zatim potražite vrijednost **formId** u datoteci customization.xml izvezenog rješenja.
     - Otvorite obrazac **Moje infomacije o projektu** u uređivaču obrazaca, a zatim potražite globalni jedinstveni identifikator (GUID) pored parametra **fromId** u URL-u, kao što je prikazano na sljedećoj ilustraciji.
 
-    ![Vrijednost formId novog obrasca u URL-u](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Vrijednost formId novog obrasca u URL-adresi.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Izradite mapiranje **msdyn\_ordertype** za vrijednost **formId** uređivanjem web-resursa msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Uklonite kȏd iz resursa i zamijenite ga sljedećim kȏdom.
 

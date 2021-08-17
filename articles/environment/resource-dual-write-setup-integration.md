@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001057"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986527"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Postavljanje i integracija konfiguracijskih podataka aplikacije Project Operations
 
@@ -24,7 +24,7 @@ U ovoj temi nalaze se informacije o integraciji s dvostrukim pisanjem u aplikaci
 
 Ugovori o projektima, redci ugovora i projekti stvaraju se na platformi Dataverse i sinkroniziraju s aplikacijama Finance and Operations za dodatno računovodstvo. Zapisi u tim entitetima mogu se stvarati i brisati samo na platformi Dataverse. Međutim, računovodstveni atributi kao što su zadane vrijednosti grupe poreza na promet i financijske veličine mogu se dodati tim evidencijama u aplikacijama Finance and Operations.
 
-  ![Koncepti integracije ugovora o projektu](./media/1ProjectContract.jpg)
+  ![Koncepti integracije ugovora o projektu.](./media/1ProjectContract.jpg)
 
 Prati se aktivnost prodaje za potencijalne kupce, prilike i ponude na platformi Dataverse, ali se ne sinkronizira s aplikacijama Finance and Operations, jer uz ovu aktivnost nije povezano nizvodno računovodstvo.
 
@@ -51,7 +51,7 @@ Retke ugovora o projektu može pregledati knjigovođa projekta u aplikacijama Fi
 
 Redci ugovora o projektu koji upotrebljavaju način naplate s nepromjenjivom cijenom fakturiraju se putem kontrolnih točaka za naplatu. Kontrolne točke za naplatu sinkroniziraju se s djelomično plaćenim transakcijama projekta u aplikacijama Finance and Operations s pomoću karte tablice **Kontrolne točke retka ugovora za integraciju aplikacije Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integracija kontrolnih točaka naplate](./media/2Milestones.jpg)
+  ![Integracija kontrolnih točaka naplate.](./media/2Milestones.jpg)
 
 Računovođa može pregledati djelomično plaćene transakcije i prilagoditi računovodstvene atribute tim transakcijama tako da ode na **Upravljanje projektima i računovodstvo** > **Ugovori o projektu** > **Održavanje** > **Transakcije djelomičnog plaćanja** ili **Upravljanje projektima i računovodstvo** > **Svi projekti** > **Održavanje** > **Transakcije djelomičnog plaćanja**.
 
@@ -61,13 +61,13 @@ Kada prvi put stvorite kontrolnu točku za naplatu za određeni redak ugovora o 
 
 Projektni zadaci sinkroniziraju se s aplikacijama Finance and Operations putem karte tablice **Projektni zadaci (msdyn\_projecttasks)** samo za referencu. Operacije stvaranja, ažuriranja i brisanja nisu podržane putem aplikacija Finance and Operations.
 
-  ![Integracija projektnih zadataka](./media/3Tasks.jpg)
+  ![Integracija projektnih zadataka.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projektni resursi
 
 Entitet **Uloge projektnih resursa** sinkronizira se s aplikacijama Finance and Operations s pomoću karte tablice **Uloge projektnih resursa za sve tvrtke (kategorije koje se mogu rezervirati)** samo za referencu. Budući da uloge resursa na platformi Dataverse nisu specifične za tvrtku, sustav automatski stvara odgovarajuće zapise o ulogama resursa specifične za tvrtku u aplikacijama Finance and Operations i to automatski za sve pravne osobe uključene u raspon integracije s dvostrukim pisanjem.
 
-![Integracija uloga resursa](./media/5Resources.jpg)
+![Integracija uloga resursa.](./media/5Resources.jpg)
 
 Projektni resursi u aplikaciji Project Operations održavaju se na platformi Dataverse i ne sinkroniziraju se s aplikacijama Finance and Operations.
 
@@ -75,6 +75,6 @@ Projektni resursi u aplikaciji Project Operations održavaju se na platformi Dat
 
 Kategorije transakcija održavaju se na platformi Dataverse i sinkroniziraju s aplikacijama Finance and Operations s pomoću karte tablice **Kategorije projektnih transakcija (msdyn\_transactioncategories)**. Nakon sinkronizacije zapisa kategorije transakcije, sustav automatski stvara četiri dijeljena zapisa kategorije. Svaki se zapis podudara s vrstom transakcije u aplikacijama Finance and Operations i povezuje ih sa zapisom kategorije transakcije.
 
-![Integracija kategorija transakcije](./media/4TransactionCategories.jpg)
+![Integracija kategorija transakcije.](./media/4TransactionCategories.jpg)
 
 Uporaba kategorija transakcija za procjene i stvarne podatke zahtijeva od knjigovođe projekta ili administratora sustava da stvori odgovarajuće kategorije projekata u svakoj pravnoj osobi. Dodatne informacije potražite u članku [Konfiguracija kategorija projekata](../project-accounting/configure-project-categories.md).

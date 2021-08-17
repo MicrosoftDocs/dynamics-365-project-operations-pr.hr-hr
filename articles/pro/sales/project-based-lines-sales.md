@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 90b1b078d51c2842f6406c4455188a4433820a77
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1978b452b84486cabd5b6b4e550261e2c8f76cd89a140709b137ac184c8967c1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994397"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998992"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Redci prilike koji se temelje na projektu – jednostavno
 
@@ -25,11 +25,11 @@ Ispod su polja na retku prilike koji se temelji na projektu:
 
 | **Polje** | **Mjesto** | **Opis** | **Utjecaj prema dolje** |
 | --- | --- | --- | --- |
-| Vrsta proizvoda | Kartica općenito (skrivena) | Možete odabrati jednu od sljedećih mogućnosti:</br>- Usluga koja se temelji na projektu (dostupna samo kada se instalira aplikacija Dynamics 365 Project Operations)</br>– Proizvod (dostupno samo kada su instalirane aplikacije Project Operations i Dynamics 365 Sales) | Vrijednost ovog polja postavljena je na **Usluga koja se temelji na projektu** kada se redak prilike koji se temelji na projektu stvara iz rešetke redaka koji se temelje na projektu na prilici. <br> Ako promijenite ili poništite ovu vrijednost, funkcionalnost projekta neće biti omogućena na stavkama retka koji se temelji na projektu. |
+| Vrsta proizvoda | Kartica općenito (skrivena) | Možete odabrati jednu od sljedećih mogućnosti:</br>- Usluga koja se temelji na projektu (dostupna samo kada se instalira aplikacija Dynamics 365 Project Operations)</br>- Proizvod (dostupno samo kada su instalirane aplikacije Project Operations i Dynamics 365 Sales) | Vrijednost ovog polja postavljena je na **Usluga koja se temelji na projektu** kada se redak prilike koji se temelji na projektu stvara iz rešetke redaka koji se temelje na projektu na prilici. <br> Ako promijenite ili poništite ovu vrijednost, funkcionalnost projekta neće biti omogućena na stavkama retka koji se temelji na projektu. |
 | Prilika | Kartica Općenito | Ovo je polje samo za čitanje i odnosi se na zapis nadređene Prilike kojem pripada ova stavka retka. | Iz ovog polja nema utjecaja na niže razine. |
 | Ime | Kartica Općenito | Ovo tekstno polje koje se može uređivati može se upotrebljavati za davanje kratkog identiteta stavci retka. | Ova se vrijednost prenosi na redak ponude kada iz ove prilike stvarate ponudu. |
 | Proračun klijenta | Kartica Općenito | Ovo polje valute koje se može uređivati može se upotrebljavati za praćenje iznosa kojeg je klijent spreman potrošiti za ovu stavku retka. | Ova se vrijednost prenosi na odgovarajuće polje na retku ponude kada iz ove prilike stvarate ponudu. |
-| Način naplate | Kartica Općenito | To polje koje se može uređivati ima sljedeće vrijednosti:</br>– Vrijeme i materijal</br>– Fiksnu cijenu | Ova se vrijednost prenosi na odgovarajuće polje na retku ponude kada iz ove prilike stvarate ponudu. Nakon stvaranja retka ponude, polje se zaključa i ne može se mijenjati. Dodijelite vrijednost ovom polju što je moguće točnije. Ako trebate promijeniti vrijednost ovog polja na retku ponude, izbrišite i ponovno stvorite redak ponude. |
+| Način naplate | Kartica Općenito | To polje koje se može uređivati ima sljedeće vrijednosti:</br>- Vrijeme i materijal</br>- Fiksnu cijenu | Ova se vrijednost prenosi na odgovarajuće polje na retku ponude kada iz ove prilike stvarate ponudu. Nakon stvaranja retka ponude, polje se zaključa i ne može se mijenjati. Dodijelite vrijednost ovom polju što je moguće točnije. Ako trebate promijeniti vrijednost ovog polja na retku ponude, izbrišite i ponovno stvorite redak ponude. |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

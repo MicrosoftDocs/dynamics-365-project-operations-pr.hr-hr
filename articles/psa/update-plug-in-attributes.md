@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012802"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988777"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Ažuriranje atributa dodatka za uključivanje novih dimenzija cijena
 
@@ -42,25 +42,25 @@ Koraci u nastavku objašnjavaju vam postupak registracije dodataka.
 1. Otvorite **PluginRegistrationTool** i povežite se s mrežnom instancom.
 2. Kliknite **Pretraži** i potražite dodatak za ažuriranje.
 
- ![Snimka zaslona stabla pretraživanja](media/PRT-1.png)
+ ![Snimka zaslona s prikazom stabla pretraživanja.](media/PRT-1.png)
 
 3. Nakon što pronađete dodatak, odaberite ga, a zatim kliknite **Odaberi u glavnom obrascu**.
 
 4. Odaberite korak dodatka za ažuriranje, kliknite desnom tipkom miša, a zatim odaberite **Ažuriraj**.
 
- ![Snimka zaslona dodatka koji se ažurira](media/PRT-2.png)
+ ![Snimka zaslona s prikazom dodatka koji se ažurira.](media/PRT-2.png)
  
 5. U prozoru za ažuriranje kliknite tri točke (**...**) u atributima filtriranja.
 
- ![Snimka zaslona informacija o konfiguraciji ažuriranja postojećeg koraka](media/PRT-3.png)
+ ![Snimka zaslona s prikazom informacija o konfiguraciji ažuriranja postojećeg koraka.](media/PRT-3.png)
  
 6. Odaberite potvrdne okvire atributa cijena.
 
- ![Snimka zaslona s prikazom odabranog potvrdnog okvira za atribute cijena](media/PRT-4.png)
+ ![Snimka zaslona s prikazom odabranog potvrdnog okvira za atribute cijena.](media/PRT-4.png)
 
 7. Kliknite **U redu** da biste zatvorili stranicu, a zatim odaberite **Ažuriraj korak**.
 
- ![Snimka zaslona s prikazom gumba „Ažuriraj korak”](media/PRT-5.png)
+ ![Snimka zaslona s prikazom gumba „Ažuriraj korak”.](media/PRT-5.png)
  
 8. Ponovite ovaj postupak za drugi dodatak, **PreOperationQuoteLineDetail – Ažuriranje msdyn_quotelinetransaction**.
 

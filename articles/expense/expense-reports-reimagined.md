@@ -2,7 +2,7 @@
 title: Izmijenjena izvješća o troškovima
 description: U ovoj temi objašnjava se redizajnirano i ponovno zamišljeno iskustvo za unos izvješća o troškovima.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6250995"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997822"
 ---
 # <a name="expense-reports-reimagined"></a>Izmijenjena izvješća o izdacima
 
@@ -57,12 +57,13 @@ Kako biste uključili novo iskustvo, upotrijebite radni prostor **Upravljanje zn
 | Kalkulator tečaja | Dodan je kalkulator tečaja koji vam omogućuje izračun deviznog tečaja za viševalutne transakcije neposrednih troškova. |
 | Spremanje i dodavanje novih redaka troškova | Gumbi **Spremi** i **Novo** dostupni su kada se unose novi troškovi, što vam pomaže pri brzom unosu redaka troškova. |
 | Bolja vidljivost unutar razdvojenih i specificiranih redaka | Specificirani i razdvojeni redci dodaju se izravno na popis troškova kako bi se povećala vidljivost i olakšalo utvrđivanje postojanja pogrešaka. |
-| Pregled pojedinosti o podkategorijama u redcima s pojedinostima | Redci s pojedinostima nadređenog troška prikazuju oznake potkategorija u izvješću o troškovima, što vam pomaže da na brzinu pregledate najsitnije pojedinosti.|
+| Pregled pojedinosti o podkategorijama u redcima s pojedinostima | Redci s pojedinostima nadređenog troška prikazuju oznake podkategorija u izvješću o trošku. Specificiranje vam omogućuje da letimičnim pregledom uočite najsitnije pojedinosti.|
 | Prikaz računa tijekom specificiranja | Tijekom specificiranja mogu se prikazati računi. |
 | Odabir gotovinskog predujma | Odaberite jedan ili više gotovinskih predujmova za ispunjenje jedne transakcije troškova. |
 | Saldo gotovinskog predujma | Pregledajte saldo gotovinskog predujma u stvarnom vremenu kada stvarate unos troška u odnosu na odobrene i plaćene gotovinske predujmove. |
 
 Početno izdanje usredotočeno je na scenarije unosa troškova. Svaki scenarij pregleda ili odobrenja izvješća o troškovima i dalje će upotrebljavati postojeću stranicu unosa troškova.
+
 
 Sljedeće značajke nisu podržane u radnom prostoru izmijenjenog izvješća o troškovima, ali planirane su za buduća izdanja: 
 

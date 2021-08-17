@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998312"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996922"
 ---
 # <a name="project-settings"></a>Postavke projekta
 
@@ -47,7 +47,7 @@ Da biste stvorili raspored projekta, stvorite predložak kalendara projekta koji
   - Radni raspored za jedan dan
   - Slobodno vrijeme
 
-> ![Postavljanje mogućnosti](media/project-13.png)
+> ![Postavite mogućnosti.](media/project-13.png)
 
 4. Odaberite **Novi tjedni raspored**, a zatim postavite mogućnosti za ovaj raspored resursa. Možete postaviti tjedni raspored s ponavljanjem, parametre dnevnih sati, neradno vrijeme itd.
 5. Postavite datumski raspon, odaberite **Spremi**, a zatim kliknite **Zatvori**. 

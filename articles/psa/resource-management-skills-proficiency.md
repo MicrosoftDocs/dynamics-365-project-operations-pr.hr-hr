@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008662"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990487"
 ---
 # <a name="skills-and-proficiency-models"></a>Modeli vještina i stručnosti
 
@@ -33,7 +33,7 @@ Vještine su značajke resursa koje se dijele između aplikacije Dynamics 365 Pr
 
 Da biste zadržali spremište vještina u aplikaciji Project Service Automation, otvorite **Resursi** \> **Vještine resursa**. 
 
-> ![Vještine resursa](media/Resource-Management-image84.png)
+> ![Vještine resursa.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Upotreba modela stručnosti za ocjenjivanje resursa
 
@@ -43,7 +43,7 @@ Vještine za resurse ocjenjuju se prema modelima stručnosti. Model stručnosti 
 2. U novom modelu ocjenjivanja navedite vrijednost najniže ocjene, vrijednost najviše ocjene i entitet koji se ocjenjuje.
 3. Na podrešetki **Vrijednosti ocjene** možete definirati različite vrijednosti ocjene, od najniže do najviše.
 
-> ![Definirane najniže i najviše ocjene](media/Resource-Management-image85.png)
+> ![Definirane najniže i najviše ocjene.](media/Resource-Management-image85.png)
 
 Ove vrijednosti ocjena prikazane su u filtrima **Preduvjeti resursa**, **Ploča s rasporedom** i **Pomoćnik za raspored**.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014904"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995437"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponude i reci ponude
 
@@ -84,7 +84,7 @@ Organizacije za profesionalne usluge obično sastavljaju ponude i izdaju fakture
 
 Jedna ili više tih klasifikacija transakcije može se pridružiti svakom retku ponude. Nakon što se dobije ponuda, mapiranje između klasifikacije transakcija i retka ponude prenosi se u redak ugovora.
  
-> ![Snimka zaslona mapiranja vrsta transakcije u retke ponude i ugovora](media/basic-guide-5.png)
+> ![Snimka zaslona mapiranja vrsta transakcije u retke ponude i ugovora.](media/basic-guide-5.png)
   
 Na primjer, ponuda može sadržavati sljedeće dvije retke ponude: 
 - Savjetovanje koji koriste način naplate vremena i materijala u kojima se primjenjuju klasifikacije transakcija s vremenom i naknadama. Na primjer, sve transakcije s vremenom i naknadama za primjer **Implementacije AX Dynamics** sustava fakturiraju se klijentu na temelju vremena i materijala koji se koriste. 
