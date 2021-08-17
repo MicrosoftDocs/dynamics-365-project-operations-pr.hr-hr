@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998492"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008577"
 ---
 # <a name="product-based-quote-lines"></a>Reci ponude temeljeni na proizvodu
 
@@ -58,7 +58,7 @@ Ako ovo polje postavite na **Zamijeni cijene**, Dynamics 365 ne postavlja zadanu
 
 Nakon instaliranja PSA-a zadane prodajne cijene unose se u retke temeljene na proizvodu u ponudi. Polje **Određivanje cijena** zatim se postavlja na **Zamijeni cijene** kako biste mogli urediti zadanu cijenu u recima ponude.
 
-> ![Postavljanje zamjene cijena](media/basic-guide-10.png)
+> ![Postavljanje zamjene cijena.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Čimbenici količine za proizvode
 
@@ -78,7 +78,7 @@ Na primjer, Dynamics 365 može imati sljedeća svojstva:
 
 Svojstva **Broj korisnika** i **Broj mjeseci** mogu se označiti kao čimbenici količine uređivanjem svojstava retka proizvoda. 
 
-> ![Označavanje broja korisnika i mjeseci kao čimbenika kvalitete](media/basic-guide-11.png)
+> ![Označavanje broja korisnika i mjeseci kao čimbenika kvalitete.](media/basic-guide-11.png)
  
 
 

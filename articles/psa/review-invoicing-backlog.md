@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008527"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006956"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Pregled zaostalih faktura u projektima i ugovorima o projektima
 
@@ -40,7 +40,7 @@ Stvarni podaci o nenaplaćenim prodajama predstavljaju zaostale naplate, a njiho
 
 Da biste pregledali zaostale naplate za vrijeme i materijale, otvorite **Prodaja** \> **Naplata** \> **Zaostale naplate za vrijeme i materijal**. Odaberite sve nenaplaćene stvarne podatke o prodaji koji su spremni za fakturiranje, a zatim odaberite **Spremno za fakturiranje**. Status naplate tih stvarnih podataka mijenja se u **Spremno za fakturiranje**.
 
-![Zaostale naplate za vrijeme i materijal](media/TMBacklog.png)
+![Zaostale naplate za vrijeme i materijal.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Pregled zaostalih naplata za proizvod
 
@@ -48,7 +48,7 @@ Kada ugovor o projektu ima retke ugovora temeljene na proizvodu, ti se reci uzim
 
 Da biste pregledali zaostale naplate za proizvode, otvorite **Prodaja** \> **Naplata** \> **Zaostale naplate za proizvod**. Odaberite sve retke ugovora temeljene na proizvodu koji su spremni za fakturiranje, a zatim odaberite **Spremno za fakturiranje**. Status naplate tih redaka mijenja se u **Spremno za fakturiranje**.
 
-![Zaostale naplate za proizvod](media/ProductBacklog.png)
+![Zaostale naplate za proizvod.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Pregled kontrolnih točaka naplate u ugovorima s fiksnom cijenom
 
@@ -56,7 +56,7 @@ Svaki redak ugovora o projektu koji ima način naplate s fiksnom cijenom mora im
 
 Da biste pregledali kontrolne točke naplate, otvorite **Prodaja** \> **Naplata** \> **Kontrolne točke fiksne cijene**. Odaberite kontrolne točke koje su spremne za fakturiranje, a zatim odaberite **Spremno za fakturiranje**. Status naplate tih kontrolnih točaka mijenja se u **Spremno za fakturiranje**.
 
-![Kontrolne točke fiksne cijene](media/FPBacklog.png)
+![Kontrolne točke fiksne cijene.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

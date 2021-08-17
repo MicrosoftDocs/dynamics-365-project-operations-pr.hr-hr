@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997502"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005607"
 ---
 # <a name="synchronize-resource-capacity"></a>Sinkroniziranje kapaciteta resursa
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997502"
 
 Postupci sinkronizacije resursa pomažu kako bi se zajamčilo da se informacije za kalendar i osnovni kalendar slijevaju u planiranje resursa projekta. Ako se kalendar promijeni, postupci izvršavaju potrebna ažuriranja u planiranju projektnih resursa. Postupci također pomažu pri poboljšanju izvedbe jer se podaci o resursima kalendara unaprijed sinkroniziraju. Stoga se ažuriranja podataka o rasporedu resursa događaju brže. Preporučujemo da postupke planirate kao skupne, umjesto jednog po jednog. U suprotnom postoji opasnost da će netko zaboraviti uključene datume nakon posljednjeg sinkroniziranja podataka. Ako se ne upotrebljavaju uključeni datumi, može doći do praznina tijekom sinkronizacije datuma.
 
-![Sinkronizacijski kalendara](./media/projectresourcing04-1024x471.jpg)
+![Sinkronizacijski kalendara.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sinkronizacija skupnih vrijednosti kapaciteta resursa
 
@@ -46,7 +46,7 @@ Preporučujemo da upotrijebite skupinu. Tijekom sinkronizacije rezervacija kapac
     | Datum početka  | Unesite datum početka postupka sinkronizacije skupnih vrijednosti kapaciteta resursa. |
     | Datum završetka    | Unesite datum završetka postupka sinkronizacije skupnih vrijednosti kapaciteta resursa. |
 
-[![Postupak sinkronizacije](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Postupak sinkronizacije.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

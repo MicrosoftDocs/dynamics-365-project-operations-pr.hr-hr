@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367882"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008217"
 ---
 # <a name="resource-management-modes-overview"></a>Pregled načina upravljanja resursima
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations podržava dva načina kako biste izvršili cjelo
 ## <a name="central-mode"></a>Središnji način rada
 Za tvrtke ili ustanove koje centraliziraju dodjelu resursa projektima, središnji način omogućuje način da menadžeri projekata mogu definirati preduvjete resursa na razini projekta. Ispunjavanje preduvjeta resursa delegira se upravitelju resursa. Upravitelji projekata mogu prihvatiti ili odbaciti resurse koje predloži upravitelj resursa.
 
-![Središnji način](./media/resource-management-central.png)
+![Središnji način.](./media/resource-management-central.png)
 
 Kako biste upravljali resursima s pomoću Središnjeg načina, pogledajte sljedeće:
 
@@ -37,7 +37,7 @@ Kako biste upravljali resursima s pomoću Središnjeg načina, pogledajte sljede
 ## <a name="hybrid-mode"></a>Hibridni način
 Za tvrtke ili ustanove kojima je potrebna fleksibilnost u raspodjeli resursa, hibridni način pruža upraviteljima projekata i upraviteljima resursa mogućnost rezerviranja resursa.
 
-![Hibridni način](./media/resource-management-hybrid.png)
+![Hibridni način.](./media/resource-management-hybrid.png)
 
 Uz podržani postupak Središnjeg načina, pogledajte sljedeće teme za upravljanje svim ostalim podržanim tijekovima rezervacije u hibridnom načinu:
 

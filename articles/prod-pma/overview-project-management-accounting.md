@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369682"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007497"
 ---
 # <a name="project-management-and-accounting-overview"></a>Upravljanje projektom i pregled računovodstva
 
@@ -34,14 +34,14 @@ Projekt čini grupa aktivnosti koja je oblikovana za pružanje usluge, proizvodn
 ## <a name="projects-across-industries"></a>Projekti u različitim industrijama
 Funkcije upravljanja projektima i računovodstva mogu se upotrebljavati u više industrija, kao što je prikazano na sljedećoj slici.
 
-[![Projekti u različitim industrijama](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekti u različitim industrijama.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Karta se u pozivnom centru može upotrebljavati za opisivanje skupa radnji koje su potrebne za rješavanje poziva. Savjetodavne tvrtke, poput organizacija za upravljanje ili tehničko savjetovanje ili reklamnih agencija, svoje aktivnosti nazivaju projektima. U marketingu kampanja predstavlja skup poslova koji se moraju obaviti. U proizvodnji koja se temelji na projektu, proizvodni nalog odnosi se na različite poslove koji se moraju obaviti za proizvodnju nekih gotovih proizvoda. Bez obzira na naziv koji se za njih upotrebljava, ti projekti uključuju resurse, rasporede i troškove, a funkcije upravljanja projektima i računovodstva mogu pomoći u planiranju, izvršenju i analizi tih projekata.
 
 ## <a name="project-phases"></a>Faze projekta
 Iako je sljedeći tijek procesa usmjeren prema vanjskim projektima ili projektima koji su dovršeni za jednog ili više klijenata, funkcionalnost se također odnosi na interne projekte koji su samo trošak. 
 
-![Tri faze projekta](./media/3-stages-of-a-project.png) 
+![Tri faze projekta.](./media/3-stages-of-a-project.png) 
 
 Kako je prikazano na prethodnoj slici, upravljanje projektima i računovodstvo mogu se podijeliti u tri faze:
 
@@ -50,7 +50,7 @@ Kako je prikazano na prethodnoj slici, upravljanje projektima i računovodstvo m
 3.  Analiziranje
 
 ## <a name="initiate-the-project"></a>Pokretanje projekta
-Tijekom pokretanja projekta događa se nekoliko ključnih procesa. Ponudu projekata možete upotrijebiti kako biste klijentu priopćili procijenjeni rad, izdatke i materijale. Uvjete naplate, ograničenja i ugovore možete zabilježiti u ugovoru o projektu. Za planiranje i procjenu posla možete upotrijebiti strukturnu analizu rada (WBS, Work Breakdown Structure). Možete postaviti predviđanja i proračune koji će voditi izvršenju projekta. Sljedeća slika prikazuje strukturu projekta. [![struktura projekta](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Tijekom pokretanja projekta događa se nekoliko ključnih procesa. Ponudu projekata možete upotrijebiti kako biste klijentu priopćili procijenjeni rad, izdatke i materijale. Uvjete naplate, ograničenja i ugovore možete zabilježiti u ugovoru o projektu. Za planiranje i procjenu posla možete upotrijebiti strukturnu analizu rada (WBS, Work Breakdown Structure). Možete postaviti predviđanja i proračune koji će voditi izvršenju projekta. Sljedeća slika prikazuje strukturu projekta.[![struktura projekta.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Stvaranje ponuda projekta
 

@@ -2,7 +2,7 @@
 title: Ažurirajte raspored izdanja za Project Service 3.x
 description: U ovoj se temi nalaze informacije o dostupnim i nadolazećim izdanjima aplikacije Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.reviewer: kfend
 ms.prod: ''
 ms.suite: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 332e1f97816145da00e1fcff9c293414578d6b29
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334863"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024819"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Ažurirajte raspored izdanja za Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "6334863"
 
 | Rješenje  | Najnovija verzija |
 |-------|----|
-| Project Service Automation    | 3.10.54.98 |
+| Project Service Automation    | 3.10.55.38 |
 | Dodatak za radnu površinu aplikacije Project Service Automation                | 3.15          |
 
 Informacije o ažuriranjima usluge Project Service potražite u članku [Planovi izdanja sustava Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ Informacije o ažuriranjima usluge Project Service potražite u članku [Planovi
 | Stanica  | Regija | Trenutačna verzija | Sljedeća verzija |  Zakazani datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stanica 1</strong> | |  |  | |
-| | <i>Prvo izdanje</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | 28. srpnja 2021.
+| | <i>Prvo izdanje</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 27. kolovoza 2021.
 |<strong>Stanica 2</strong> | |  |  | |
-| | <i>Južna Amerika</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. srpnja 2021.
-| | <i>Kanada</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. srpnja 2021.
-| | <i>Indija</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. srpnja 2021.
-| | <i>Francuska</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. srpnja 2021.
-| | <i>Ujedinjeni Arapski Emirati</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. srpnja 2021.
-| | <i>Južnoafrička Republika</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. srpnja 2021.
-| | <i>Njemačka</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. srpnja 2021.
-| | <i>Švicarska</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09. srpnja 2021.
+| | <i>Južna Amerika</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. rujna 2021.
+| | <i>Kanada</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. rujna 2021.
+| | <i>Indija</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. rujna 2021.
+| | <i>Francuska</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. rujna 2021.
+| | <i>Ujedinjeni Arapski Emirati</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. rujna 2021.
+| | <i>Južnoafrička Republika</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. rujna 2021.
+| | <i>Njemačka</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. rujna 2021.
+| | <i>Švicarska</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. rujna 2021.
 |<strong>Stanica 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16. srpnja 2021.
-| | <i>Azija Pacifik</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16. srpnja 2021.
-| | <i>Velika Britanija</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16. srpnja 2021.
-| | <i>Oceanija</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16. srpnja 2021.
+| | <i>Japan</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13. kolovoza 2021.
+| | <i>Azija Pacifik</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13. kolovoza 2021.
+| | <i>Velika Britanija</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13. kolovoza 2021.
+| | <i>Oceanija</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13. kolovoza 2021.
 |<strong>Stanica 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 23. srpnja 2021.
+| | <i>Europa</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 20. kolovoza 2021.
 |<strong>Stanica 5</strong> | |  |  | |
-| | <i>Sjeverna Amerika</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30. srpnja 2021.
+| | <i>Sjeverna Amerika</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27. kolovoza 2021.
 |<strong>Stanica 6</strong> | |  |  | |
-| | <i>Zajednica državnih ustanova u oblaku</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30. srpnja 2021.
-| | <i>Namjenske grupe ljestvica</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 06. kolovoza 2021.
+| | <i>Zajednica državnih ustanova u oblaku</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27. kolovoza 2021.
+| | <i>Namjenske grupe ljestvica</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 03. rujna 2021.
 
 >[!Note]
 > - Datumi u svim regijama, izuzev Oblaka zajednice državne uprave (GCC, Government Community Cloud), pokazuju vrijeme sljedećeg automatskog ažuriranja. Datumi u GCC-u pokazuju dostupnost verzije; u ovom trenutku ne postoji automatsko ažuriranje za ove regije.

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bc58c805bfe1a3087600b8d4a6be2d1bcdd18188
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 95f064e0f83d2052ac4ae9673b4fcdcd16a2574246d3320e1ed3798cd6ff062b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997907"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007002"
 ---
 # <a name="soft-book-requirements"></a>Promjenjivo rezerviranje preduvjeta
 
@@ -29,30 +29,30 @@ ms.locfileid: "5997907"
 
 Preduvjet resursa može biti fiksno rezerviran. Fiksno rezerviranje stvara prijedlog koji iskorištava kapacitet resursa. Prijedlog se zatim šalje natrag podnositelju zahtjeva na odobrenje. Promjenjivo rezerviranje uvjetno dodaje resurs u projektni tim i ima drugačiji status na ploči s rasporedom, ali ne iskorištava kapacitet resursa. Za promjenjivo rezerviranje resursa na ploči s rasporedom postavite polje **Status rezervacije** na **Promjenjivo**.
 
-![Status rezervacije postavljen je na Promjenjivo](media/Resource-Management-image77.png)
+![Status rezervacije postavljen je na Promjenjivo.](media/Resource-Management-image77.png)
 
 Kada je kartica **Tim** u prikazu **Imenovani članovi tima**, resurs se prikazuje tamo. Promjenjivo rezervirani sati zabilježeni su u stupcu **Promjenjivo rezervirani sati**.
 
-![Promjenjivo rezervirani sati u prikazu Imenovani članovi tima](media/Resource-Management-image78.png)
+![Promjenjivo rezervirani sati u prikazu Imenovani članovi tima.](media/Resource-Management-image78.png)
 
 Promjenjivo rezervirani članovi tima ne mogu biti dodijeljeni zadacima.
 
-![Promjenjivo rezervirani član tima dodijeljen zadatku](media/Resource-Management-image79.png)
+![Promjenjivo rezervirani član tima dodijeljen zadatku.](media/Resource-Management-image79.png)
 
 Na kartici **Usklađivanje** nema prikazanih rezervacija za promjenjivo rezervirani resurs jer se na kartici **Usklađivanje** bilježe samo fiksne rezervacije.
 
-![Promjenjivo rezervirani resurs bez rezervacija na kartici Usklađivanje](media/Resource-Management-image80.png)
+![Promjenjivo rezervirani resurs bez rezervacija na kartici Usklađivanje.](media/Resource-Management-image80.png)
 
 > [!NOTE]
 > Ne možete promjenjivo rezervirati resurs iz preduvjeta koji je generiran iz generičkog člana tima.
 
 Na ploči s rasporedom promjenjive rezervacije za resurs označene su drugom bojom.
 
-![Promjenjive rezervacije na ploči s rasporedom](media/Resource-Management-image81.png)
+![Promjenjive rezervacije na Ploči s rasporedom.](media/Resource-Management-image81.png)
 
 Da biste promjenjivu rezervaciju pretvorili u fiksnu rezervaciju, na ploči s rasporedom kliknite desnom tipkom miša na promjenjivu rezervaciju, a zatim odaberite **Promjena statusa** \> **Fiksna rezervacija** \> **Fiksno**.
 
-![Promjena statusa rezervacije u Fiksno](media/Resource-Management-image82.png)
+![Promjena statusa rezervacije u Fiksno.](media/Resource-Management-image82.png)
 
 Rezervacija je promijenjena, a status se mijenja na ploči s rasporedom. Budući da je status rezervacije sada **Fiksno**, resurs se prikazuje kao rezerviran, a njegov kapacitet i dostupnost su prilagođeni.
 
@@ -60,7 +60,7 @@ Pomoću iste metode možete otkazati fiksnu rezervaciju ili promjenjivu rezervac
 
 Da biste promjenjivo rezervirani resurs pretvorili u fiksno rezervirani resurs na kartici **Tim** projekta, odaberite resurs, a zatim **Potvrdi**.
 
-![Potvrda naredbe](media/Resource-Management-image83.png)
+![Potvrda naredbe.](media/Resource-Management-image83.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

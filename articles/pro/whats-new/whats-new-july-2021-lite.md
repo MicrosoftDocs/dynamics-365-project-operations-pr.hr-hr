@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433644"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009207"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Što je novo u srpnju 2021. – implementacija osnovne aplikacije Project Operations
 
@@ -20,7 +20,7 @@ _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
 Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
-  - Project Operations na verziji 4.12.0.148 okruženja platforme Dataverse.
+  - Project Operations u okruženju platforme Dataverse verzije 4.12.0.148 ili 4.12.0.152.
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 | **Područje značajke**              | **Broj reference** | **Ažuriranja kvalitete**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Pro
 | Općenito                       | 2296857              | Praćenje napretka za dugotrajne poslove.                                                                                                                                                                        |
 | Općenito                       | 2253682              | Rješenje dvostrukog pisanja u aplikaciji Project Operations ne bi trebalo instalirati kada je jezgra dvostrukog pisanja instalirana u okruženje bez rješenja za organizaciju dvostrukog pisanja.                                                |
 | Općenito                       | 2316420              | Priprema jezgre aplikacije Project Service ne uspijeva ako se promijeni poslovna jedinica korisnika aplikacije.                                                                                                                     |
+| Općenito                       | 2376405              | Riješen je problem s ažuriranjem koje je proveo izdavač (ažuriranje kvalitete dostupno je u verziji 4.12.0.152)                                                                                                                     |
