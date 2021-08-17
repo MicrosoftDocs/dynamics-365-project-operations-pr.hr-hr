@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369367"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005382"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled fakturiranja unutar tvrtke
 
@@ -22,7 +22,7 @@ Vaša tvrtka ili ustanova može imati više sektora, podružnica i drugih pravni
 
 Na sljedećoj se ilustraciji prikazuje tipični scenarij kada dvije pravne osobe, Contoso Robotics SAD (pravna osoba koja se zadužuje) i Contoso Robotics UK (pravna osoba koja pozajmljuje), dijele resurse za isporuku projekta za klijenta Adventure works. Za ovaj scenarij, Contoso Robotics SAD unajmljen je za isporuku posla tvrtki Adventure Works.
 
-![Fakturiranje unutar tvrtke](./media/IntercompanyScenario.png) 
+![Fakturiranje unutar tvrtke.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations upotrebljava sljedeći tijek za obradu transakcija unutar tvrtke:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations upotrebljava sljedeći tijek za obradu transakci
 
 Sljedeći dijagram ilustrira fakturiranje unutar tvrtke koje se odnosi na računovodstvene događaje i očekivana knjiženja u glavnu knjigu.
 
-![Tijek rada unutar tvrtke](./media/IntercompanyFlow.png)
+![Tijek rada unutar tvrtke.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Dodatni resursi
 

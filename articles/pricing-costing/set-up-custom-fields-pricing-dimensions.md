@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004702"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003582"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Postavljanje prilagođenih polja kao cjenovnih veličina
 
@@ -42,11 +42,11 @@ Da bi polje postalo dimenzija cijena, ono mora biti:
 
 - Stvoreno kao redak u tablici **Dimenzija cijena**. Na primjer, dodajte retke dimenzije cijena kao što je prikazano na slici u nastavku. 
 
-![Dimenzije cijena utemeljene na iznosu](media/Amt-based-PD.png)
+![Redci veličine za određivanje cijena koji se temelje na iznosu.](media/Amt-based-PD.png)
 
 Radno vrijeme resursa (**msdyn_resourceworkhours**) dodano je kao veličina utemeljena na proviziji i dodana je u rešetku na kartici **Cjenovna veličina utemeljena na proviziji**.
 
-![Reci dimenzije cijena utemeljene na proviziji](media/Markup-based-PD.png)
+![Redci veličine za određivanje cijena koji se temelje na proviziji.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]

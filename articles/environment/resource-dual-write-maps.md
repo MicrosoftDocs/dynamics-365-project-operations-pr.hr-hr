@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025765"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003807"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verzije karte s dvostrukim pisanjem u aplikaciji Project Operations
 
@@ -32,7 +32,7 @@ Sljedeće su karte preduvjeti rješenje aplikacije Project Operations. Obavezno 
 
 1. S popisa karata odaberite kartu Glavna knjiga **(msdyn\_ledgers)** sa svim preduvjetima i odaberite potvrdni okvir **Početna sinkronizacija**. U polju **Glavni za početnu sinkronizaciju** odaberite **Aplikacije Finance and Operations** i za kartu glavne knjige i za sve karte preduvjeta. Odaberite **Pokretanje**.
 
-![Sinkronizacija karte knjige](media/DW6.png)
+![Sinkronizacija karte knjige.](media/DW6.png)
 
 2. Slijedite iste korake za sve preostale karte tablice navedene u gornjoj tablici. Pri pokretanju tih karata nemojte odabrati potvrdni okvir **Početna sinkronizacija**.
 
@@ -65,7 +65,7 @@ Poduzmite sljedeće korake za pokretanje navedenih karata.
 
 1. Omogućite uloge resursa projekta za kartu tablice **sve tvrtke (kategorije resursa koji se mogu rezervirati)** jer ova karta zahtijeva početnu sinkronizaciju. U polju **Glavni za početnu sinkronizaciju** odaberite **Common data service**. 
 
- ![Sinkronizacija karte tablice uloge resursa](media/6ResourceInitialSync.jpg)
+ ![Sinkronizacija karte tablice uloge resursa.](media/6ResourceInitialSync.jpg)
 
  Pričekajte dok stanje karte ne postane **Izvršava se** prije nego što prijeđete na sljedeći korak.
 

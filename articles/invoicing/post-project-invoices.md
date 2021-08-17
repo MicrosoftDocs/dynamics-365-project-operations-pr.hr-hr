@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369007"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003762"
 ---
 # <a name="invoicing-process-overview"></a>Pregled postupka fakturiranja
 
@@ -20,7 +20,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Scenariji aplikacije Project Operations koji se temelje na resursima /bez zaliha nude sveobuhvatne mogućnosti prilagođene potrebama i voditelja projekta i službenika za potraživanja / računovođe projekta. Za postupak fakturiranja, voditelj projekta upravlja zaostalom naplatom projekta, a službenik za potraživanja / računovođa projekta stvara sukladan i točan dokument fakture za slanje kupcima.
 
-![Dijagram tijeka fakturiranja](./media/invoicing-flow.png)
+![Dijagram tijeka fakturiranja.](./media/invoicing-flow.png)
 
 Redak ugovora o projektu određuje način naplate za povezane projektne transakcije. Kada voditelj projekta odobri transakcije vremena i troškova, sustav bilježi transakcije u entitetu **Stvarni podaci o projektu** i podatke šalje modulu **Upravljanje projektima i računovodstvo** u aplikaciji Dynamics 365 Finance. Računovođa projekta pregledava i knjiži zapise s pomoću [dnevnika integracije aplikacije Project Operations](../project-accounting/project-operations-integration-journal.md). Ovaj dnevnik uključuje bitne računovodstvene pojedinosti o stvarnim podacima u projektu, poput naplate, grupe poreza na promet, grupe poreza na promet stavki za naplatu i financijskih veličina.
 

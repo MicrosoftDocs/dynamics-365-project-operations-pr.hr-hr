@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009607"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005067"
 ---
 # <a name="organizational-units"></a>Organizacijske jedinice 
 
@@ -53,7 +53,7 @@ Organizacijska jedinica igra dvije uloge u sustavu PSA:
 - **Ugovorna jedinica** – Organizacijska jedinica koja predstavlja grupu ili odjel poduzeća koja je prvenstveno odgovorna za ostvarivanje prodaje i upravljanje isporukom rada i usluga klijentu. Ugovorna jedinica identificira se poljem **Ugovorna jedinica** u odjeljku zaglavlja stranica **Prilika**, **Ponuda**, **Ugovor o projektu** i **Projekt**.
 - **Jedinica resursa** – Organizacijska jedinica kojoj resurs pripada ili je dodijeljen. Ova organizacijska jedinica može osigurati svoje resurse za neke uloge na izjavama o radu (svo) i projektima koji su u vlasništvu ugovorne jedinice.
 
-> ![Ugovorne jedinice i jedinice resursa](media/advanced-1.png)
+> ![Ugovorne jedinice i jedinice resursa.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Često postavljena pitanja o Organizacijskim jedinicama
 
