@@ -4,6 +4,8 @@
   items:
     - name: Odredite vrstu implementacije
       href: environment/determine-deployment-type.md
+    - name: Prijava za probnu verziju aplikacije Project Operations
+      href: environment/admin-trials.md
     - name: Ažuriranja aplikacije Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations za scenarije temeljene na resursima / bez zaliha
@@ -48,12 +50,14 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: Integracija fakture za projekt
               href: environment/resource-dual-write-project-invoice.md
-            - name: Integracija upravljanja troškovima
+            - name: Integracija upravljanja troškom
               href: environment/resource-dual-write-expense.md
             - name: Integracija fakture dobavljača
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novosti
       items:
+        - name: Kolovoz 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Srpanj 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Lipanj 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
@@ -350,7 +354,7 @@
       items:
         - name: Pregled vremena
           href: time/time-entry-overview.md
-        - name: Stvaranje unosa vremena
+        - name: Stvaranje vremenskih unosa
           items:
             - name: Korisničko sučelje za unos vremena
               href: time/ui-behavior-time.md
@@ -418,6 +422,8 @@
       items:
         - name: Pregled odobrenja
           href: approvals/approvals-overview.md
+        - name: Skupovi odobrenja
+          href: approvals/approval-sets.md
         - name: Bilješke razvojnog inženjera
           items:
             - name: Bilješke razvojnog inženjera za odobrenja
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Novosti
       items:
+        - name: Novosti u valu 2 ranom pristupu u 2021. – osnovna implementacija
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novosti u kolovozu 2021. – osnovna implementacija
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Novosti u srpnju 2021. – osnovna implementacija
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Novosti u lipnju 2021. – osnovna implementacija
@@ -834,19 +844,33 @@
               href: resource-management/resource-utilization-overview.md
     - name: Upravljanje podugovorima u aplikaciji Project Operations
       items:
-        - name: Pregled upravljanja podugovorima
+        - name: Upravljanje podugovorima u aplikaciji Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Podugovaranje u listopadu 2021. Rani pristup
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Ključni koncepti u podugovaranju
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Upravljanje dobavljačima i cjenicima projekata
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Podizvođači kao resursi koji se mogu rezervirati
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Pojedinosti zaglavlja za podugovaratelje
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Redci za vrijeme u podugovoru
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Redci za trošak u podugovoru
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Redci za proizvode u podugovoru
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Resursi retka podugovora
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Kontrolne točke retka podugovora
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Vrijeme
       items:
         - name: Pregled vremena
           href: time/time-entry-overview.md
-        - name: Stvaranje unosa vremena
+        - name: Stvaranje vremenskih unosa
           items:
             - name: Korisničko sučelje za unos vremena
               href: time/ui-behavior-time.md
@@ -868,6 +892,8 @@
       items:
         - name: Pregled odobrenja
           href: approvals/approvals-overview.md
+        - name: Skupovi odobrenja
+          href: approvals/approval-sets.md
         - name: Bilješke razvojnog inženjera
           items:
             - name: Bilješke razvojnog inženjera za odobrenja
@@ -1060,6 +1086,8 @@
       items:
         - name: Ažuriranje rasporeda izdanja za aplikaciju Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 33, V3'
@@ -1300,17 +1328,17 @@
               href: psa/reports-working-project-service-data-model.md
         - name: Unosi vremena
           items:
-            - name: Stvaranje unosa vremena
+            - name: Stvaranje vremenskih unosa
               href: psa/time-entries.md
-            - name: Kalendar unosa vremena
+            - name: Kalendar vremenskog unosa
               href: psa/time-entry-calendar.md
-            - name: Prilagodba tjednog unosa vremena
+            - name: Prilagodba tjednog vremenskog unosa
               href: psa/time-entry-extensibility-v3.md
-            - name: Skupovi odobrenja
+            - name: Skupovi odobrenja u aplikaciji Project Service Automation
               href: psa/approval-set.md
     - name: Najčešća pitanja i rješavanje problema (3.x)
       items:
-        - name: Zašto je zadana cijena u stvarnim podacima o cijeni troškova nula?
+        - name: Zašto je cijena u stvarnim podacima o cijeni troška zadana na nulu?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Zašto je cijena vraćena na nulu u stvarnim troškovima prodaje?
           href: psa/FAQ-zero-price-expense-sales-actuals.md
