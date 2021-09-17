@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001647"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440768"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Upravljanje s više klijenata u projektnim ponudama – jednostavno
 
@@ -37,7 +37,7 @@ Klijent ponude može se stvoriti, ažurirati ili izbrisati iz kartice **Klijenti
 
 | **Polje** | **Mjesto** | **Opis** | **Utjecaj prema dolje** |
 | --- | --- | --- | --- |
-| Poslovni subjekt | Rešetka koja se može uređivati na kartici **Klijenti ponude** te obrasci **Glavni** i **Brzo stvaranje** za klijenta ponude. | Navodi sve aktivne račune. Ovo je polje zaključano nakon stvaranja zapisa. Ako ga želite ažurirati, izbrišite zapis i ponovo ga stvorite. Ako ste zabilježili bilo koje stvarne podatke ili ako je zapis klijenta ponude primarni klijent, moći ćete ga izbrisati. | Kada se stvori redak ponude, klijenti ponude kopiraju se kao klijenti retka ugovora. Kada se prihvati ponuda, klijenti ponude kopiraju se također u klijente ugovora. o projektu |
+| Poslovni subjekt | Rešetka koja se može uređivati na kartici **Klijenti ponude** te obrasci **Glavni** i **Brzo stvaranje** za klijenta ponude. | Navodi sve aktivne račune. Ovo je polje zaključano nakon stvaranja zapisa. Ako ga želite ažurirati, izbrišite zapis i ponovo ga stvorite. Ako ste zabilježili neke stvarne podatke ili ako je zapis klijenta ponude primarni klijent, neće vam biti dopušteno brisanje zapisa. | Kada se stvori redak ponude, klijenti ponude kopiraju se kao klijenti retka ugovora. Kada se prihvati ponuda, klijenti ponude kopiraju se također u klijente ugovora. o projektu |
 | Postotak podjele naplate | Rešetka koja se može uređivati na kartici **Klijenti ponude** te obrasci **Glavni** i **Brzo stvaranje** za klijenta ponude. | Predstavlja postotak svake nenaplaćene prodajne transakcije koja će se pripisati ovom klijentu ponude. | Kopira se u nove retke ponude i klijente ugovora o projektu. |
 | Naziv kontakta za naplatu | Rešetka koja se može uređivati na kartici **Klijenti ponude** te obrasci **Glavni** i **Brzo stvaranje** za klijenta ponude. | Ovo je tekstno polje i trebalo bi se upotrebljavati za identifikaciju osobe za kontakt na fakturi za ovog klijenta. One su zadane iz povezanog zapisa računa | Kopira se u klijente ugovora o projektu kada se ponuda prihvati i povratno u polje Naziv ugovora za naplatu na fakturi koja se generira za tog klijenta. |
 | Naziv za naplatu | Rešetka koja se može uređivati na kartici **Klijenti ponude** te obrasci **Glavni** i **Brzo stvaranje** za klijenta ponude. | Ovo tekstno polje trebalo bi se upotrebljavati za identifikaciju osobe za kontakt na fakturi za ovog klijenta. | Kopira se u klijente ugovora o projektu kada se ponuda prihvati i povratno u polje **Naziv ugovora za naplatu** na fakturi koje se generira za tog klijenta. |

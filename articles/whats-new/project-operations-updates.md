@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024774"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474483"
 ---
 # <a name="project-operations-updates"></a>Ažuriranja aplikacije Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations sastoji se od dvije komponente:
 - Upravljanje projektom i računovodstvo u okruženju aplikacije Dynamics 365 Finance pokriva mogućnosti upravljanja troškovima, računovodstvo projekta i priznavanje prihoda. Okruženje aplikacije Finance and Operations upotrebljava se u aplikaciji Project Operations za scenarije koji se temelje na resursima / bez zaliha i Project Operations za scenarije koji se temelje na zalihama / proizvodnji.
 
 ## <a name="project-operations-release-notes"></a>Napomene uz izdanje aplikacije Project Operations
-- Najnovije napomene uz izdanje aplikacije Project Operations za scenarij [Resurs / bez zaliha](whats-new-july-2021-resource-based.md).
-- Najnovije napomene uz izdanje aplikacije Project Operations za scenarij [Osnovne implementacije](../pro/whats-new/whats-new-july-2021-lite.md).
+- Najnovije napomene uz izdanje aplikacije Project Operations za scenarij [Resurs / bez zaliha](whats-new-august-2021-resource-based.md).
+- Najnovije napomene uz izdanje aplikacije Project Operations za scenarij [Osnovne implementacije](../pro/whats-new/whats-new-august-2021-lite.md).
 - Najnovije napomene uz izdanje aplikacije Project Operations za scenarij [na zalihama / proizvodnja](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Najnovija verzija aplikacije Project Operations
 
 | Project Operations u okruženju platforme Dataverse | Upravljanje projektima i računovodstvo u okruženju aplikacija Finance and Operations | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 Za scenarij Resursa rješenja Project Operations / bez zaliha, preporučujemo uporabu verzije rješenja Dual Write Orchestration 2.2.2.83 ili noviju.
 
@@ -47,27 +47,24 @@ Ažuriranja za aplikaciju Project Operations u okruženju platforme Dataverse do
 | Stanica | Regija | Broj trenutačne verzije | Automatska ažuriranja za implementaciju osnovne verzije | Automatska ažuriranja za implementaciju resursa / bez zaliha | Broj sljedeće verzije | Sljedeća verzija općenito dostupna |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Položaj 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvo izdanje         |  4.13.0.152     | Dovršeno           | 13. kolovoza 2021.     | TBD                 | 27. kolovoza 2021.     |
+|   &nbsp;  | Prvo izdanje         |  4.14.0.99      | Dovršeno           | 10. rujna 2021.  | TBD                 | 01. listopada 2021.    |
 | Položaj 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južna Amerika         |  4.13.0.152     | 13. kolovoza 2021.    | 20. kolovoza 2021.     | TBD                 | 27. kolovoza 2021.     |
-|    &nbsp; | Kanada                |  4.13.0.152     | 13. kolovoza 2021.    | 20. kolovoza 2021.     | TBD                 | 27. kolovoza 2021.     |
-|   &nbsp;  | Indija                 |  4.13.0.152     | 13. kolovoza 2021.    | 20. kolovoza 2021.     | TBD                 | 27. kolovoza 2021.     |
-|   &nbsp;  | Francuska                |  4.13.0.152     | 13. kolovoza 2021.    | 20. kolovoza 2021.     | TBD                 | 27. kolovoza 2021.     |
-|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.13.0.152     | 13. kolovoza 2021.    | 20. kolovoza 2021.     | TBD                 | 27. kolovoza 2021.     |
-|   &nbsp;  | Južnoafrička Republika          |  4.13.0.152     | 13. kolovoza 2021.    | 20. kolovoza 2021.     | TBD                 | 27. kolovoza 2021.     |
+|   &nbsp;  | Južna Amerika         |  4.14.0.152     | 10. rujna 2021. | 17. rujna 2021.  | TBD                 | 01. listopada 2021.    |
+|    &nbsp; | Kanada                |  4.14.0.152     | 10. rujna 2021. | 17. rujna 2021.  | TBD                 | 01. listopada 2021.    |
+|   &nbsp;  | Indija                 |  4.14.0.152     | 10. rujna 2021. | 17. rujna 2021.  | TBD                 | 01. listopada 2021.    |
+|   &nbsp;  | Francuska                |  4.14.0.152     | 10. rujna 2021. | 17. rujna 2021.  | TBD                 | 01. listopada 2021.    |
+|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.14.0.152     | 10. rujna 2021. | 17. rujna 2021.  | TBD                 | 01. listopada 2021.    |
+|   &nbsp;  | Južnoafrička Republika          |  4.14.0.152     | 10. rujna 2021. | 17. rujna 2021.  | TBD                 | 01. listopada 2021.    |
 | Položaj 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.12.0.152     | Dovršeno*          | Dovršeno            | 4.13.0.152          | 13. kolovoza 2021.     |
-|   &nbsp;  | Azijsko-pacifička regija          |  4.12.0.152     | Dovršeno*          | Dovršeno            | 4.13.0.152          | 13. kolovoza 2021.     |
-|   &nbsp;  | Velika Britanija         |  4.12.0.152     | Dovršeno*          | Dovršeno            | 4.13.0.152          | 13. kolovoza 2021.     |
-|   &nbsp;  | Oceanija               |  4.12.0.152     | Dovršeno*          | Dovršeno            | 4.13.0.152          | 13. kolovoza 2021.     |
+|   &nbsp;  | Japan                 |  4.13.0.152     | Dovršeno           | Dovršeno            | 4.14.0.152          | 10. rujna 2021.  |
+|   &nbsp;  | Azijsko-pacifička regija          |  4.13.0.152     | Dovršeno           | Dovršeno            | 4.14.0.152          | 10. rujna 2021.  |
+|   &nbsp;  | Velika Britanija         |  4.13.0.152     | Dovršeno           | Dovršeno            | 4.14.0.152          | 10. rujna 2021.  |
+|   &nbsp;  | Oceanija               |  4.13.0.152     | Dovršeno           | Dovršeno            | 4.14.0.152          | 10. rujna 2021.  |
 | Položaj 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.12.0.152     | Dovršeno           | Dovršeno            | 4.13.0.152          | 20. kolovoza 2021.     |
+|   &nbsp;  | Europa                |  4.13.0.152     | Dovršeno           | 03. rujna 2021.  | 4.14.0.152          | 17. rujna 2021.  |
 | Položaj 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sjeverna Amerika         |  4.12.0.152     | 13. kolovoza 2021.    | 20. kolovoza 2021.     | 4.13.0.152          | 27. kolovoza 2021.     |
+|   &nbsp;  | Sjeverna Amerika         |  4.13.0.152     | 03. rujna 2021. | 10. rujna 2021.  | 4.14.0.152          | 24. rujna 2021.  |
 
-
-> [!NOTE]
-> Automatsko uvođenje dovršeno je za verziju 4.12.0.148. Za ažuriranu verziju izdanja za srpanj 2021 nije planirano automatsko uvođenje.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Raspored izdanja za Upravljanje projektom i računovodstvo u okruženju aplikacija Finance and Operations
 
