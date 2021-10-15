@@ -50,12 +50,16 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: Integracija fakture za projekt
               href: environment/resource-dual-write-project-invoice.md
-            - name: Integracija upravljanja troškom
+            - name: Integracija upravljanja troškovima
               href: environment/resource-dual-write-expense.md
             - name: Integracija fakture dobavljača
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novosti
       items:
+        - name: Listopad 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Studeni 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Kolovoz 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Srpanj 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
@@ -292,7 +296,7 @@
           items:
             - name: Razvoj predložaka projekata s pomoću mogućnosti Kopiranja projekta
               href: project-management/dev-copy-project.md
-            - name: Uporaba API-ja rasporeda projekta (javni pretpregled)
+            - name: Uporaba API-ja rasporeda projekta
               href: project-management/schedule-api-preview.md
     - name: Upravljanje resursima
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Nabava materijala koji nisu na zalihama za projekte s pomoću faktura dobavljača na čekanju
           href: procurement/pending-vendor-invoices.md
+        - name: Naručivanje materijala koji nisu na zalihama za projekte s pomoću narudžbenica za projekt
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Zadržavanje dobavljača
+          items:
+            - name: Pregled zadržavanja dobavljača
+              href: procurement/vendor-retention-overview.md
+            - name: Postavljanje zadržavanja dobavljača
+              href: procurement/set-up-vendor-retention.md
     - name: Fakturiranje
       items:
         - name: Pregled postupka fakturiranja
@@ -528,6 +540,10 @@
       items:
         - name: Novosti u valu 2 ranom pristupu u 2021. – osnovna implementacija
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novosti u listopadu 2021. – osnovna implementacija
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Novosti u rujnu 2021. – osnovna implementacija
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Novosti u kolovozu 2021. – osnovna implementacija
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Novosti u srpnju 2021. – osnovna implementacija
@@ -784,7 +800,7 @@
           items:
             - name: Razvoj predložaka projekata s pomoću mogućnosti Kopiranja projekta
               href: project-management/dev-copy-project.md
-            - name: Uporaba API-ja rasporeda projekta (javni pretpregled)
+            - name: Uporaba API-ja rasporeda projekta
               href: project-management/schedule-api-preview.md
     - name: Upravljanje resursima
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Redci za vrijeme u podugovoru
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Redci za trošak u podugovoru
+        - name: Redci za kategorije troška u podugovoru
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Redci za proizvode u podugovoru
           href: pro/subcontracting/subcontract-line-products.md
@@ -1084,8 +1100,10 @@
       href: psa/overview.md
     - name: Novosti
       items:
-        - name: Ažuriranje rasporeda izdanja za aplikaciju Project Service 3.x
+        - name: Ažuriranje rasporeda izdanja aplikacije Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 34, V3'
