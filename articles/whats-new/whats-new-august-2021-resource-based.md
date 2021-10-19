@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323452"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501362"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u kolovozu 2021. – Project Operations za scenarije koji se temelje na resursu / bez zaliha
 
@@ -31,7 +31,7 @@ U ovo izdanje uključene su sljedeće značajke:
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Ažuriranja karata s dvostrukim pisanjem u aplikaciji Project Operations
 
-U ovom izdanju nema ažuriranja za karte s dvostrukim pisanjem aplikacije Project Operations. 
+U ovom izdanju nema ažuriranja za karte s dvostrukim pisanjem aplikacije Project Operations.
 
 Za trenutačni popis i verzije karata s dvostrukim pisanjem aplikacije Project Operations pogledajte [Verzije karte s dvostrukim pisanjem aplikacije Project Operations](../environment/resource-dual-write-maps.md).
 

@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323857"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547235"
 ---
 # <a name="subcontract-lines-for-time"></a>Redci podugovora za vrijeme
 
@@ -30,23 +30,22 @@ Kako biste stvorili redak podugovora za vrijeme u aplikaciji Project Operations,
 
   U tablici u nastavku nalaze se podaci o poljima na stranicama **Redak podugovora** i **Brzo stvaranje**.
 
-| **Polje** | **Opis** |
-| --- | --- |
-| Ime/naziv | Naziv retka podugovora. |
-| Opis | Kratak opis usluga koje se kupuju na retku podugovora. | 
-| Vrsta retka | Ovo je polje zadana vrijednost.  |
-| Način naplate | Odaberite način naplate. Na temelju načina naplate referentnog retka podugovora, raspored faktura koji se temelji na kontrolnim točkama dostupan je za način naplate s fiksnom cijenom. |
-| Razred transakcije | Ovo je polje zadana vrijednost koja označava upotrebljava li se redak podugovora za bilježenje kupnje vremena podizvođača. |
-| Uloga | Uloga resursa podugovora čije se vrijeme kupuje. Uloga dodijeljena resursima podugovora određuje cijenu kupnje. |
-| Zatraženi početak | Datum kada je potrebno da resursi podizvođača započnu rad. Traženi početak upotrebljava se za odabir cjenika projekta iz cjenika projekta priloženih podugovoru. Cijena uloge na retku podugovora tada se zadaje iz tog cjenika. |
-| Zatraženi završetak | Datum kada završava zadatak resursa podizvođača. Ovaj se datum upotrebljava za prikaz upozorenja kada voditelj projekta crpi ovaj kapacitet za potrebe resursa koje se javljaju nakon tog datuma. |
-| Naručena količina | Broj sati uloge koji se kupuju od dobavljača. Vrijednost se upotrebljava za prikaz upozorenja kada voditelj projekta prekomjerno crpi ovaj kapacitet za potrebe resursa. |
-| Grupa jedinica | Ova vrijednost polja zadana je za grupu jedinica Vrijeme i ne može se promijeniti.  |
-| Jedinica | Ovo je polje zadano za osnovnu jedinicu sata iz grupe jedinica za vrijeme. Ovu vrijednost možete promijeniti kako biste kupili bilo koju jedinicu grupe jedinica vremena, kao što je dan ili tjedan. Kombinacija Uloge i Jedinice upotrebljava se za izračun jedinične cijene retka podugovora. |
-| Jedinična cijena | Jedinična cijena zadana je iz kombinacije Uloge i Jedinice iz cjenika projekta koja se primjenjuje na traženi datum početka retka podugovora. Kada je u mjerodavnom cjeniku projekta cijena postavljena u drugoj jedinici različitoj od jedinice na retku podugovora, sustav upotrebljava pretvaranje jedinice za izračun jedinične cijene. |
-| Podzbroj | Ovo je polje samo za čitanje koje se automatski izračunava kao **Količina x Jedinična cijena**, ako su unesene vrijednosti i količine i jedinične cijene. Ako su količina, jedinična cijena ili oboje prazni, možete unijeti vrijednost u polje. |
-| Porez na promet |  Unesite iznos poreza na prodaju. |
-| Ukupni iznos | Ukupni iznos retka podugovora nakon poreza uključen je. |
-
+| **Polje** | **Opis** | **Funkcionalni utjecaj** |
+| --- | --- | --- |
+| Ime/naziv | Naziv retka podugovora za pomoć pri identifikaciji. | To će se prikazati kao prvi stupac u svim pretraživanjima koja se temelje na redcima podugovara. |
+| Opis | Kratak opis usluga koje se kupuju na retku podugovora. |Nijedno |
+| Vrsta retka |   Ovo polje ima zadanu vrijednost stavke **Na temelju količine**.| Nijedno |
+| Način naplate | Ovo je skup mogućnosti koji predstavlja dva glavna modela ugovaranja podržana aplikacijom Project Operations: **Fiksna cijena** i **Vrijeme i materijal**. | Na temelju odabranog načina naplate, raspored faktura koji se temelji na kontrolnim točkama dostupan je za retke podugovora koji imaju način naplate s fiksnom cijenom. |
+| Razred transakcije | Zadana vrijednost je **Vrijeme**. | To ukazuje da se redak podugovora upotrebljava za evidentiranje kupnje vremena podizvođača. |
+| Uloga | Odaberite ulogu resursa podugovora čije se vrijeme kupuje. | Uloga koju obavljaju resursi podugovora određuje cijenu kupnje. |
+| Zatraženi početak | Unesite datum kada resursi podugovora trebaju početi raditi. | To se upotrebljava za odabir cjenika projekta iz cjenika projekta priloženog podugovoru. Trošak uloge na retku podugovora dolazi iz tog cjenika. |
+| Traženi završetak | Unesite datum završetka zadatka resursa podizvođača. | To će se upotrebljavati za prikazivanje upozorenja kada voditelj projekta crpi kapacitete za zahtjeve za resurse koji se javljaju nakon tog datuma. |
+| Naručena količina | Unesite broj sati uloge koja se kupuje od dobavljača. | To će se upotrebljavati za prikazivanje upozorenja kada voditelj projekta prekomjerno crpi taj kapacitet za zahtjeve za resurse. |
+| Grupa jedinica | Zadana vrijednost je **Grupa vremenskih jedinica**, koja se ne može promijeniti. | Nijedno|
+| Jedinica | Zadana vrijednost za ovo polje osnovna je jedinica sata od stavke **Grupa vremenske jedinice**. Ovu vrijednost možete promijeniti kako biste kupili bilo koju jedinicu **Grupe jedinica vremena**, kao što je dan ili tjedan. | Kombinacija **Uloga** i **Jedinica** upotrebljavat će se kao zadana vrijednost ili će se izračunati za jediničnu cijenu retka podugovora. |
+| Jedinična cijena | Zadana cijena jedinice upotrebljava kombinaciju **Uloga** i **Jedinica** iz cjenika projekta koji se primjenjuje za datum **Traženi početak** retka podugovora. | Kada je u mjerodavnom cjeniku projekta cijena postavljena u drugoj jedinici različitoj od jedinice na retku podugovora, sustav upotrebljava pretvaranje jedinice za izračun jedinične cijene. |
+| Podzbroj |    Ovo je polje samo za čitanje koje se izračunava kao Količina x Jedinična cijena, ako se unesu vrijednosti i količine i jedinične cijene. Ako su količina, jedinična cijena ili oboje prazni, možete unijeti vrijednost u polje. | Nijedno|
+| Porez na promet |   Unesite iznos poreza na prodaju. |Nijedno |
+| Ukupni iznos | Ukupni iznos retka podugovora, uključujući porez. Ovo polje izračunava se kao međuzbroj + porez na promet.|Nijedno |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

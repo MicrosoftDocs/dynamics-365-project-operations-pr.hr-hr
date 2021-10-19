@@ -2,16 +2,16 @@
 title: Prijava za probnu verziju aplikacije Project Operations
 description: U ovoj temi nalaze se informacije o načinu implementacije probne verzije aplikacije Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418448"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599204"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Prijava za probnu verziju aplikacije Project Operations 
 
@@ -85,15 +85,9 @@ Prije nego što započnete, prijavite se u preglednik s korisničkim radnim rač
 
    Nakon pokretanja dodjele resursa bit ćete preusmjereni na popis okruženja u centru za administratore aplikacije Power Platform. Dok je dodjela resursa u tijeku, vaše je okruženje u stanju **PreparingInstance**.
  
-  Nakon dovršetka dodjele resursa, vaše je okruženje u stanju **Spremno**.
+  Kad je dodjela resursa dovršena, stanje vašeg okruženja je **Spremno**. Dodjela resursa okruženja uključuje uvođenje pokaznih podataka.
  
-4.  Kad je dodjela resursa dovršena, odaberite odgovarajuću URL-adresu aplikacije Microsoft Dataverse i URL-adrese aplikacija sustava Finance and Operations za provjeru implementacije.
-
-## <a name="demo-data-installation"></a>Instalacija pokaznih podataka
-
-Upotrijebite sljedeće veze za pristup paketima pokaznih podataka za scenarije i materijala koji nije na zalihama i implementacije osnovne verzije. 
-- [Pokazni podaci za materijale koji nisu na zalihi](resource-apply-pro-setup-config-data.md)
-- [Osnovna verzija pokaznih podataka](lite-apply-demo-setup-config-data.md)
+4.  Odaberite odgovarajuće URL-adrese aplikacija Microsoft Dataverse i Finance and Operations za provjeru uvođenja.
 
 ## <a name="configuring-dual-write"></a>Konfiguriranje dvostrukog pisanja
 Mapiranje s dvostrukim upisivanjem konfigurirajte samo za implementaciju materijala koji nije na zalihama. Dodatne informacija potražite u odjeljku [Verzije karte s dvostrukim upisivanjem aplikacije Project Operations](resource-dual-write-maps.md).
