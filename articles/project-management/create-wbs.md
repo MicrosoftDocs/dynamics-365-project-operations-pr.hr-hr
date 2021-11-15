@@ -2,16 +2,16 @@
 title: Stvaranje strukturne analize rada
 description: U ovoj se temi objašnjava način stvaranja strukturna analize rada (WBS, work breakdown structure) koja uključuje osnovne kontrole u novom sučelju za planiranje.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998722"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655408"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Stvaranje strukturne analize rada (WBS)
 
@@ -117,5 +117,26 @@ Način zadatka ne utječe na ažuriranja izvršena na datum početka i datum zav
 
 Rešetka **Raspored** potpuno je dostupna i može se koristiti s čitačima zaslona kao što su Narrator, JAWS ili NVDA. Možete se kretati područjem rešetke s pomoću tipki sa strelicama (kao u programu Microsoft Excel), možete upotrebljavati tipku Tab za kretanje interaktivnim elementima korisničkog sučelja i možete upotrebljavati tipku sa strelicom dolje, tipku Unos ili razmaknicu za odabir i otvaranje padajućih izbornika.
 
+## <a name="project-limitations"></a>Ograničenja projekta 
+Ako upotrebljavate strukturna analizu rada u aplikaciji Project Operations, trebali biste biti svjesni ograničenja u nastavku. Ova ograničenja vrijede za projekte i zadatke. Dodatne informacija potražite u odjeljku [Project for the web – ograničenja i granice](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Polje**                                          |  **Ograničenje**           |
+|----------------------------------------------------|----------------------|
+| Maksimalan ukupan broj zadataka projekta                  | 500                  |
+| Maksimalno ukupno trajanje projekta               | 3650 dana (10 godina) |
+| Maksimalni ukupni resursi projekta              | 150                  |
+| Maksimalan broj veza (samo slijednik) za projekt | 600                  |
+| Maksimalna ukupna prilagođena polja za projekt          | 10                   |
+
+**Ograničenja zadatka**
+
+| **Polje**                               |   **Ograničenje**           |
+|-----------------------------------------|-----------------------|
+| Maksimalna razina hijerarhije                 | 10 razina             |
+| Maksimalan broj veza (slijednik + prednik) | 20                    |
+| Maksimalno trajanje zadatka lista           | 1250 dana             |
+| Maksimalno trajanje sažetog zadatka      | 3650 dana (10 godina)  |
+| Maksimalni resursi dodijeljeni zadatku    | 20 resursa          |
+| Podržani datumski raspon za zadatak         | 01. 01. 2000. – 31. 12. 2149. |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

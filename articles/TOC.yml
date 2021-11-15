@@ -50,10 +50,12 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: Integracija fakture za projekt
               href: environment/resource-dual-write-project-invoice.md
-            - name: Integracija upravljanja troškovima
+            - name: Integracija upravljanja troškom
               href: environment/resource-dual-write-expense.md
             - name: Integracija fakture dobavljača
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Deinstaliranje aplikacije Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
         - name: Listopad 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Uporaba API-ja rasporeda projekta
               href: project-management/schedule-api-preview.md
+            - name: Izvedba API-ja rasporeda projekta
+              href: project-management/project-schedule-api-performance.md
     - name: Upravljanje resursima
       items:
         - name: Osnovni koncepti
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Uporaba API-ja rasporeda projekta
               href: project-management/schedule-api-preview.md
+            - name: Izvedba API-ja rasporeda projekta
+              href: project-management/project-schedule-api-performance.md
     - name: Upravljanje resursima
       items:
         - name: Osnovni koncepti
@@ -1102,6 +1108,8 @@
       items:
         - name: Ažuriranje rasporeda izdanja aplikacije Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 35, V3'
