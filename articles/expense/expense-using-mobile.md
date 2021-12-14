@@ -2,7 +2,7 @@
 title: Aplikacija Trošak za mobilni uređaj
 description: U ovoj se temi nalaze informacije o mobilnom radnom prostoru za upravljanje troškovima.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993187"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818174"
 ---
 # <a name="mobile-expense-app"></a>Aplikacija Trošak za mobilni uređaj
 
@@ -47,47 +47,14 @@ Ove značajke možete upotrebljavati i za sljedeće:
 - Podnošenje izvješća o troškovima na odobrenje i nadoknadu.
 - Odobravanje ili odbijanje izvješća o troškovima kojima ste dodijeljeni kao odobritelj.
 
-## <a name="prerequisites"></a>Preduvjeti
-Preduvjeti se razlikuju, ovisno o verziji koja je postavljena za vašu tvrtku ili ustanovu.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Preduvjeti ako koristite Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Preduvjeti ako upotrebljavate aplikaciju Dynamics 365 Finance 
 Ako su Financije postavljene za vašu tvrtku ili ustanovu, administrator sustava mora objaviti mobilni radni prostor **Upravljanje troškovima**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Preduvjeti ako upotrebljavate verziju 1611 s ažuriranjem platforme 3 ili novijim
-Ako je za vašu tvrtku ii ustanovu postavljena verzija 1611 s ažuriranjem platforme 3 ili novijim, administrator sustava mora ispuniti sljedeće preduvjete. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Preduvjet</th>
-<th>Uloga</th>
-<th>Opis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implementirati zakrpu KB 4019015.</td>
-<td>Administrator sustava</td>
-<td>Zakrpa KB 4019015 ažuriranje je za X++ ili hitni popravak metapodataka koji sadrži mobilni radni prostor <strong>Upravljanje troškovima</strong>. Kako biste implementirali zakrpu KB 4019015, vaš administrator sustava mora slijediti ove korake.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Preuzeti ažuriranja s portala Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalirati hitni popravak metapodataka</a>,</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Stvoriti paket za raspoređivanje</a> koji sadrži modele <strong>ApplicationSuite</strong> i <strong>ExpenseMobile</strong>, a zatim na LCS prenijeti paket koji se može rasporediti.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Primijeniti paket koji se može rasporediti</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Objaviti mobilni radni prostor <strong>Upravljanje troškovima</strong>.</td>
-<td>Administrator sustava</td>
-<td>Pogledajte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objavljivanje mobilnog radnog prostora</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops
 Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 
-- [Za telefone s operacijskim sustavom Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Za Android telefone](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Za iPhon uređaje](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Prijava u mobilnu aplikaciju
@@ -103,11 +70,11 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 3. Odaberite **Fotografiraj** ili **Odaberi sliku**.
 4. Slijedite jedan od ovih koraka:
 
-   - Ako ste odabrali **Fotografiraj**, slijedite ove korake:
+    - Ako ste odabrali **Fotografiraj**, slijedite ove korake:
 
-      1. Preusmjereni ste na kameru svojeg mobilnog uređaja kako biste mogli fotografirati račun. 
-      2. Kada završite s fotografiranjem, odaberite **U redu** kako biste prihvatili fotografiju.
-      3. Neobvezno: Unesite naziv fotografije i sve bilješke.
+        1. Preusmjereni ste na kameru svojeg mobilnog uređaja kako biste mogli fotografirati račun. 
+        2. Kada završite s fotografiranjem, odaberite **U redu** kako biste prihvatili fotografiju.
+        3. Neobvezno: Unesite naziv fotografije i sve bilješke.
 
     - Ako ste odabrali mogućnost **Odaberi sliku**, slijedite ove korake:
 
@@ -133,20 +100,20 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 
 10. Odaberite **Gotovo**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Odobravanje izvješća o troškovima s pomoću mobilnog radnog prostora Upravljanje troškovima (ako upotrebljavate ažuriranje iz srpnja 2017.)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Odobravanje izvješća o troškovima pomoću mobilnog radnog prostora za upravljanje troškovima
 
 1. Na mobilnom uređaju otvorite radni prostor **Upravljanje troškovima**.
 2. Mogućnost **Odobrenja troškova** prikazuje broj izvješća o troškovima koja su vam dodijeljena na odobrenje. Broj se ažurira otprilike svakih 30 minuta. Odaberite **Odobrenja troškova**.
 
     Prikazuje se popis izvješća o troškovima koja su vam dodijeljena na odobrenje.
-    
+
 3. Odaberite izvješće o troškovima kako biste vidjeli pojedinosti o troškovima.
 4. Odaberite trošak kako biste vidjeli njegove pojedinosti. Podaci koji se prikazuju za trošak obuhvaćaju sve pojedinosti o računu, gostu i specifikaciji.
 5. Povratkom na stranicu **Izvješće o troškovima** odaberite odobravate li ili odbacujete izvješće o troškovima.
 6. Unesite komentare za radnju odobrenja.
 7. Odaberite **Gotovo**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Stvaranje novog izvješća o troškovima i njegovo slanje na odobrenje s pomoću mobilnog radnog prostora Upravljanje troškovima (ako upotrebljavate ažuriranje iz srpnja 2017.)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Stvaranje novog izvješća o troškovima i slanje na odobrenje pomoću mobilnog radnog prostora za upravljanje troškovima
 
 1. Na mobilnom uređaju otvorite radni prostor **Upravljanje troškovima**.
 2. Odaberite **Unos troškova**.
@@ -184,12 +151,12 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
                     1. Odaberite sliku s popisa.
                     2. Neobvezno: Unesite naziv slike i sve bilješke.
 
-            3.  Odaberite **Gotovo**.
+            3. Odaberite **Gotovo**.
 
         - Ako ste odabrali mogućnost **Priloži račun**, slijedite ove korake:
 
-            1.  Na popisu odaberite jednu sliku ili više njih.
-            2.  Odaberite **Gotovo**.
+            1. Na popisu odaberite jednu sliku ili više njih.
+            2. Odaberite **Gotovo**.
 
     3. Odaberite gumb **Povratak** za povratak na pojedinosti o troškovima.
 
@@ -235,5 +202,30 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 23. Unesite komentare za odobravatelja.
 24. Odaberite **Gotovo**.
 
+## <a name="frequently-asked-questions"></a>Najčešća pitanja
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zašto mobilna aplikacija Trošak ne ulazi u način plaćanja prema zadanim postavkama?
+
+Organizacije mogu prilagoditi **zadanu postavku načina plaćanja** za svaku kategoriju troška prilikom stvaranja. Uz to, kada postavljate načine plaćanja, polje Zadani način plaćanja možete **postaviti** samo na **Uvoz**.
+
+Kada **je samo uvoz omogućen za način** plaćanja, način plaćanja ne unosi se prema zadanim postavkama. Bit će prazan u kategorijama troškova u kojima je postavljen ovaj način plaćanja. Takvo je ponašanje dosljedno i u web iskustvu i u mobilnom iskustvu.
+    
+Ako **samo uvoz nije omogućen za način** plaćanja, zadana vrijednost unosi se prema zadanim postavkama za kategorije troškova u kojima je postavljen ovaj način plaćanja. Međutim, postoji poznati problem u kojem zadana vrijednost nije unesena u mobilnu aplikaciju Trošak. Da biste zaobišli taj problem, prije spremanja izvješća o troškovima ručno odaberite način plaćanja. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Zašto ne mogu dodati ili urediti financijske dimenzije u mobilnoj aplikaciji Trošak?
+
+Unos dimenzija i distribucija nije podržan. Da biste zaobišli to ograničenje, ta polja možete postaviti prema zadanim postavkama u mobilnoj aplikaciji postavljanjem zadanih financijskih dimenzija po projektu ili zaposleniku.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Zašto se u mobilnoj aplikaciji Trošak ponekad pojavljuje pogreška pri sinkronizaciji?
+
+Ako reci troškova ne zadovoljavaju zahtjeve pravila, a korisnik pošalje izvješće o troškovima bez adresiranja upozorenja o pravilima, mobilni podaci se ne sinkroniziraju s poslužiteljem i dolazi do pogreške pri sinkronizaciji. Sva izvješća o troškovima koja se šalju nakon neuspjeha sinkronizacije ostat će u neuspjelom stanju i uzrokovati više neuspjeha sinkronizacije. Jedini način da popravite ovu situaciju je ručno brisanje obavijesti o sinkronizaciji. Taj je problem riješen zaustavljanjem slanja izvješća o troškovima kada upozorenja o pravilima nisu riješena, tako da se izbjegnu pogreške pri sinkronizaciji.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zašto se provjera valjanosti projekta i kategorije ne odražava ispravno u mobilnoj aplikaciji Trošak?
+
+Ova provjera valjanosti trenutno nije podržana. Međutim, potpora bi mogla biti dodana u budućnosti. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Koje su vrste dokumenata podržane u mobilnoj aplikaciji Trošak?
+
+Mobilna aplikacija Trošak podržava samo slike. Trenutno ne podržava PDF-ove ili druge dokumente.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

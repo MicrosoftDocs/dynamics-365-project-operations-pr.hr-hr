@@ -54,11 +54,13 @@
               href: environment/resource-dual-write-expense.md
             - name: Integracija fakture dobavljača
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Deinstaliranje aplikacije Dynamics 365 Project Operations
+        - name: Deinstalacija aplikacije Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
-        - name: Listopad 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
+        - name: Studeni 2021. – Project Operations za scenarije koji se temelje na resursima / bez zaliha
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: Listopad 2021. – Project Operations za scenarije koji se temelje na resursima / bez zaliha
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Studeni 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
           href: whats-new/whats-new-sept-2021-resource-based.md
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Izvedba API-ja rasporeda projekta
               href: project-management/project-schedule-api-performance.md
+            - name: Dnevnici planiranja projekta
+              href: project-management/schedule-api-logs.md
     - name: Upravljanje resursima
       items:
         - name: Osnovni koncepti
@@ -544,6 +548,8 @@
       items:
         - name: Novosti u valu 2 ranom pristupu u 2021. – osnovna implementacija
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novosti u studenom 2021. – osnovna implementacija
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Novosti u listopadu 2021. – osnovna implementacija
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Novosti u rujnu 2021. – osnovna implementacija
@@ -952,6 +958,10 @@
   items:
     - name: Novosti
       items:
+        - name: Novosti u listopadu 2021. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Novosti u rujnu 2021. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Novosti u srpnju 2021. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Novosti u svibnju 2021. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
@@ -1106,8 +1116,10 @@
       href: psa/overview.md
     - name: Novosti
       items:
-        - name: Ažuriranje rasporeda izdanja aplikacije Project Service 3.x
+        - name: Raspored izdanja ažuriranja aplikacije Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 36, V3'
