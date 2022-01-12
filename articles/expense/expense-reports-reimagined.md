@@ -1,8 +1,8 @@
 ---
-title: Izmijenjena izvješća o troškovima
+title: Ponovno osmišljena izvješća o troškovima (sadrži videozapis)
 description: U ovoj temi objašnjava se redizajnirano i ponovno zamišljeno iskustvo za unos izvješća o troškovima.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997822"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941047"
 ---
 # <a name="expense-reports-reimagined"></a>Izmijenjena izvješća o izdacima
 
@@ -58,6 +58,7 @@ Kako biste uključili novo iskustvo, upotrijebite radni prostor **Upravljanje zn
 | Spremanje i dodavanje novih redaka troškova | Gumbi **Spremi** i **Novo** dostupni su kada se unose novi troškovi, što vam pomaže pri brzom unosu redaka troškova. |
 | Bolja vidljivost unutar razdvojenih i specificiranih redaka | Specificirani i razdvojeni redci dodaju se izravno na popis troškova kako bi se povećala vidljivost i olakšalo utvrđivanje postojanja pogrešaka. |
 | Pregled pojedinosti o podkategorijama u redcima s pojedinostima | Redci s pojedinostima nadređenog troška prikazuju oznake podkategorija u izvješću o trošku. Specificiranje vam omogućuje da letimičnim pregledom uočite najsitnije pojedinosti.|
+|Brzo stavka ponavljajućih troškova | Obnovljeni radni prostor troškova omogućuje brzo zbrajanje ponavljajućih troškova dodavanjem potkategorije, početnog datuma i količine. Količina se odnosi na broj ponavljanja terećenja tijekom neprekidnog razdoblja. |
 | Prikaz računa tijekom specificiranja | Tijekom specificiranja mogu se prikazati računi. |
 | Odabir gotovinskog predujma | Odaberite jedan ili više gotovinskih predujmova za ispunjenje jedne transakcije troškova. |
 | Saldo gotovinskog predujma | Pregledajte saldo gotovinskog predujma u stvarnom vremenu kada stvarate unos troška u odnosu na odobrene i plaćene gotovinske predujmove. |

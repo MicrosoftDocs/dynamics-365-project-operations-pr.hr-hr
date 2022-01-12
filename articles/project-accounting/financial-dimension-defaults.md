@@ -2,16 +2,16 @@
 title: Zadane postavke financijske dimenzije
 description: U ovoj temi nalaze se informacije o načinu postavljanja zadanih financijskih veličina.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005427"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922929"
 ---
 # <a name="financial-dimension-defaults"></a>Zadane postavke financijske dimenzije
 
@@ -60,6 +60,15 @@ Projekti se stvaraju i održavaju na platformi CDS. Atributi računovodstva za p
 4. Postavite zadane postavke financijske veličine. Primjećujete kako se financijske veličine zadaju iz korisničkog računa. Ako je projekt povezan s retkom ugovora koji ima više klijenata ugovora o projektu, za zadane financijske veličine upotrebljava se primarni klijent.
 
 Zadane financijske veličine projekta upotrebljavaju se za postavljanje zadanih vrijednosti retka dnevnika za vrijeme, troškove i transakcije naknada u **Dnevniku integracije aplikacije Project Operations** i na povezanim redcima fakture za projekt.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Zatvaranje financijskih dimenzija za stavke vremena projekta
+Da biste primijenili financijske dimenzije za stavke vremena projekta, imajte na umu da se zadana vrijednost dimenzije temelji na sljedećem redoslijedu:
+
+1. Resurs
+2. Project
+3. Izvor financiranja
+
+Na primjer, ako je zadana dimenzija navedena na resursu, primijenit će se na zadanu vrijednost navedenu u projektu. Slično tome, zadana dimenzija projekta primijenit će se na zadanu vrijednost navedenu u izvoru financiranja.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

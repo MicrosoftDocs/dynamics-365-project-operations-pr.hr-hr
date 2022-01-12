@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827316"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942876"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u studenom 2021. – Project Operations za scenarije koji se temelje na resursu / bez zaliha
 
 *Odnosi se na: Project Operations za scenarije temeljene na resursu / bez zaliha*
 
-Ovaj se tema primjenjuje na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
+Ovaj tema primjenjuje se na sljedeće Microsoftove komponente i verzije Dynamics 365 Project Operations:
 
-- Projektne operacije u Dataverse okruženju verzije 4.26.0.145, 4.26.0.148, ili 4.26.0.150
+- Projektne operacije u Dataverse okruženju verzije 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
@@ -33,13 +33,13 @@ U ovo izdanje uključene su sljedeće značajke:
 
 U ovom izdanju nema ažuriranja za karte s dvostrukim pisanjem aplikacije Project Operations. Za trenutačni popis i verzije karata s dvostrukim pisanjem aplikacije Project Operations pogledajte [Verzije karte s dvostrukim pisanjem aplikacije Project Operations](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Uvijek pokrenite najnoviju verziju karte u okruženju i omogućite sve povezane karte tablica dok ažurirate project operations Dataverse rješenje i verziju financijskog rješenja. Neke značajke i mogućnosti možda neće ispravno funkcionirati ako najnovija verzija karte nije aktivirana. Aktivnu verziju karte možete vidjeti u stupcu **Verzija** na stranici **Dvostruko pisanje**. Kako biste aktivirali novu verziju karte, odaberite **Verzije karte tablice**, zatim odaberite najnoviju verziju, a zatim spremite odabranu verziju. Ako ste prilagodili gotovu kartu tablice, ponovno primijenite promjene. Dodatne informacije potražite u članku [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Uvijek pokrenite najnoviju verziju karte u okruženju i omogućite sve povezane karte tablica prilikom ažuriranja rješenja Operacije projekta Dataverse i verzije financijskog rješenja. Neke značajke i mogućnosti možda neće ispravno funkcionirati ako najnovija verzija karte nije aktivirana. Aktivnu verziju karte možete vidjeti u stupcu **Verzija** na stranici **Dvostruko pisanje**. Kako biste aktivirali novu verziju karte, odaberite **Verzije karte tablice**, zatim odaberite najnoviju verziju, a zatim spremite odabranu verziju. Ako ste prilagodili gotovu kartu tablice, ponovno primijenite promjene. Dodatne informacije potražite u članku [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ako prilikom pokretanja karte naiđete na problem, slijedite upute u [odjeljku Stupci tablice koji nedostaju u odjeljku Karte](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) u vodiču za otklanjanje poteškoća s dvostrukim pisanjem.
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
-### <a name="project-operations-in-dataverse"></a>Projektne operacije u Dataverse
+### <a name="project-operations-in-dataverse"></a>Projektne operacije u programu Dataverse
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Ako prilikom pokretanja karte naiđete na problem, slijedite upute u [odjeljku S
 | Upravljanje projektom i računovodstvo | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Kada se oslobodi zadržavanje dobavljača, knjiženje vaučera ima dodatne retke koji nisu točni. |
 | Upravljanje projektom i računovodstvo | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Kada se proknjiži temeljnica integracije operacija projekata, ona ne uspijeva zbog nedostajućih dimenzija za račun na koji se ne knjiži. |
 | Upravljanje projektom i računovodstvo | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | **Karticu Projekt** nije moguće uređivati na fakturi dobavljača na čekanju kada je kategorija nabave dodijeljena artiklu. |
-| Upravljanje projektom i računovodstvo | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Navigacijsko okno nedostaje ako niste prijavljeni u project operations Dataverse. |
+| Upravljanje projektom i računovodstvo | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Navigacijsko okno nedostaje ako niste prijavljeni u projektne operacije Dataverse. |
 | Upravljanje projektom i računovodstvo | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Kada knjižite prihod od projektne fakture u slučaju zatvorenog držača, pojavljuje se problem jer transakcije na vaučeru ne saldo. |
 | Upravljanje projektom i računovodstvo | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Kreiranje procjene nakon knjiženja prijedloga fakture blokira retke ispravka od uvoza. |
 | Upravljanje projektom i računovodstvo | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Izmjena potpuno fakturiranog zapisa o prekretnici ne bi trebala biti moguća. |
