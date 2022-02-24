@@ -2,6 +2,8 @@
 title: Određivanje cijene projekta
 description: Ova tema sadrži informacije o tome kako funkcionira određivanje cijene u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000567"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148904"
 ---
 # <a name="project-pricing"></a>Određivanje cijene projekta 
 
@@ -46,7 +48,7 @@ Entitet Cjenik ima tri povezane tablice koje pohranjuju cijene:
   - **Cijena po kategoriji transakcije** -Ova tablica pohranjuje cijene po kategoriji transakcije i koristi se za postavljanje cijena po kategoriji troška.
   - **Stavke cjenika** - Ova tablica pohranjuje cijene za kataloške proizvode.
 
-> ![Konfiguriranje cijena s pomoću cjenika.](media/basic-guide-12.png)
+> ![Konfiguriranje cijena koristeći cjenik](media/basic-guide-12.png)
  
 Cjenik je službena cijena. Službena cijena je kombinacija entiteta Cjenik i povezanih redaka u tablicama Cijena na temelju uloge, Cijena po kategoriji transakcije i Stavke cjenika.
 
@@ -58,7 +60,7 @@ Vrijeme ljudskog resursa obično se navodi na temelju uloge koju resurs ispunjav
 
 Grupa jedinica **Vrijeme** izrađuje se prilikom instalacije PSA. Ima zadanu jedinicu **Sat**. Ne možete brisati, preimenovati ili uređivati atribute grupe jedinica **Vrijeme** ili jedinice **Sat**. Međutim, možete dodati druge jedinice u grupu jedinica **Vrijeme**. Ako pokušate izbrisati grupu jedinica **Vrijeme** ili jedinicu **Sat**, mogli biste uzrokovati greške u poslovnoj logici sustava PSA.
 
-> ![Konfiguriranje cijena po ulozi.](media/basic-guide-13.png)
+> ![Konfiguriranje cijena po ulozi](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorije transakcija i kategorije troškova
 
@@ -68,7 +70,7 @@ Putni i ostali troškovi koje snose projektni savjetnici obično se naplaćuju k
 - **Postotak marže** - Postotak izvan stvarnih troškova naplaćuje se klijentu. 
 - **Cijena po jedinici** - Cijena naplate postavljena je za svaku jedinicu kategorije troškova. Iznos koji se naplaćuje klijentu izračunava se na temelju broja jedinica troškova koje savjetnik prijavljuje. Kilometraža koristi metodu određivanja cijena po jedinici. Na primjer, kategorija troškova kilometraže može se konfigurirati za 30 američkih dolara (USD) dnevno ili 2 USD po milji. Kada savjetnik prijavi kilometražu na projektu, iznos računa izračunava se na temelju broja milja koje je savjetnik prijavio.
 
-> ![Konfiguriranje cijena za kategorije troškova.](media/basic-guide-14.png)
+> ![Konfiguriranje cijena za kategorije troškova](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Određivanje cijena prodaje projekta i otpisi
 
@@ -114,7 +116,7 @@ Međutim, u ponudi možete koristiti glavni cjenik. Alternativno, možete kopira
 
 Kada izrađujete prilagođeni cjenik projekta, kopiraju se samo komponente cjenika. Drugim riječima, novi cjenik izrađen kao kopija postojećeg cjenika projekta koji je priložen u ponudi, a ovaj novi cjenik ima samo povezane cijene na temelju uloge i cijene po kategoriji transakcije.
 
-> ![Pregledavanje i konfiguriranje prilagođenih određivanja cijena za ugovor o projektu.](media/basic-guide-15.png)
+> ![Pregledavanje i konfiguriranje prilagođenih određivanja cijena za ugovor o projektu](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Praćenje troškova
 
@@ -129,6 +131,3 @@ Kao što je slučaj kod stopa naplaćivanja, stope troškova za ljudske resurse 
     1. Cjenik troškova koji je priložen organizacijskoj jedinici.
     2. Cjenik troškova koji je priložen parametrima usluge projekta. Budući da se cjenik troškova u mnogim različitim valutama može priložiti parametrima usluge projekta, PSA provodi podudarnost valuta između valute ugovorne organizacijske jedinice projekta, ugovora ili ponude te valute cjenika troškova.
     3. Za troškove, načini određivanja cijena po troškovima i marži troškova ne primjenjuju se za cjenik troškova. Čak i ako se ti načini određivanja cijena koriste u recima cjenika troškova za postavljanje troškova po kategoriji transakcije, sustav ih ignorira i ne unosi se zadana cijena troška.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

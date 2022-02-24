@@ -2,6 +2,8 @@
 title: Poništi prethodno odobrene unose vremena i troškova
 description: Ova tema pruža informacije o tome kako poništiti odobreno vrijeme projekta i transakciju troškova.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987427"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150569"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Poništi prethodno odobrene unose vremena ili troškova
 
@@ -60,6 +62,3 @@ Projekt je također zahvaćen financijski kada se poništava odobrenje. Najprije
 Zatim, izrađuju se unosi preokreta u tablici Stvarne vrijednosti. Da biste izradili unose preokreta, sustav kopira vrijednosti polja iz izvornih stvarnih vrijednosti. Jedine vrijednosti koje se ne kopiraju su vrijednosti količine. Te su vrijednosti umjesto toga preokreću. Preokrenute stvarne vrijednosti izrađuju se za stvarne vrijednosti **Troškova** i **Nenaplaćene prodaje**. Polje **Status prilagodbe** na preokrenutim stvarnim vrijednostima postavlja se na **Nepodesivo**, a status naplate postavlja se na **Poništeno**.
 
 Nakon što su te promjene izvršene, iznos koji je zapisan kao potrošen na projektu i zaostatak prihoda na projektu duže će pravdati iznose koje te stvarne vrijednosti predstavljaju.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

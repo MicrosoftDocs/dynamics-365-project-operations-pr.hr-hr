@@ -2,11 +2,12 @@
 title: Početna stranica Dimenzije cijena i troškova
 description: Ova tema pruža pregled dimenzija cijena.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998452"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151289"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Početna stranica Dimenzije cijena i troškova
 
@@ -41,7 +42,7 @@ S obzirom na tipičnu prirodu ovih atributa posla i ljudi koji su potrebni za ob
 
 PSA se isporučuje sa zadanim skupom dimenzija cijena. Možete ih pregledati tako da idete na **Project Service** > **Parametri**. U zapisu parametra na kartici **Dimenzije cijena temeljene na iznosu** potvrdite da uloga **msdyn_resourcecategory** i organizacijska jedinica za resurse **msdyn_organizationalunit** sadrže polja **Primjenjivo na prodaju** i **Primjenjivo na trošak** postavljena na **Da**. To će vam omogućiti da postavite cijenu i trošak za svaku kombinaciju uloge i organizacijske jedinice.
 
-![Snimka zaslona parametara rješenja Project Service s istaknutom mogućnosti „Primjenjivo na prodaju”.](media/PS-OOB-parameters.png)
+![Snimka zaslona parametara sustava Project Service s istaknutom mogućnosti "Primjenjivo na prodaju"](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Ako ste upotrebljavali gotova polja uloge i organizacijske jedinice kao dimenzije cijena prije verzije 3 sustava PSA, neće biti vidljivih promjena. Možete nastaviti uobičajeno koristiti aplikaciju Project Service. 
@@ -66,16 +67,13 @@ Sljedeći primjer prikazuje stope naplate postavljene na temelju uloge i organiz
 
 | Uloga        | Organizacijska jedinica    |Jedinica      |Cijena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Razvojni inženjer   | Contoso US  |h | 200|USD     |
-| Razvojni inženjer   | Contoso Indija |h|   112|USD     |
+| Razvojni inženjer   | Contoso US  |Hour | 200|USD     |
+| Razvojni inženjer   | Contoso, Indija |Hour|   112|USD     |
 
 
 **Primjeri stopa troškova**
 
 | Platni razred     | Organizacijska jedinica    |Jedinica      |Cijena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |h | 145|USD     |
-| My company_Band2 | Contoso Indija |h|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso US  |Hour | 145|USD     |
+| My company_Band2 | Contoso, Indija |Hour|   67|USD     |

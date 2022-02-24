@@ -2,16 +2,18 @@
 title: Postavljanje cjenika
 description: U ovoj temi nalaze se informacije o načinu postavljanja cjenika koštanja i prodaje.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009477"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180183"
 ---
 # <a name="set-up-price-lists"></a>Postavljanje cjenika
 
@@ -38,6 +40,3 @@ Sljedeća tablica uključuje polja na kartici **Općenito** cjenika koja su jedi
 | Valuta | Kartica **Općenito** i obrasci **Brzo stvaranje** | Ovo se polje upotrebljava za zadavanje valute u retku svake uloge, kategorije ili stavke cjenika povezanom s ovim cjenikom. | U cjenicima, ulogama, kategorijama ili stavki cjenika **Prodaja** redci se ne mogu stvarati ni u jednoj valuti osim ove valute. U cjenicima **Trošak** možete stvoriti redak cijene uloge u svakoj valuti. Ovdje definirana valuta upotrebljava se kao zadana. Korisničko postavljanje koje je povezano s cijenama uloga može nadjačati ovu vrijednost kako bi omogućilo postavljanje cijene troška radne snage u svakoj valuti. Cijene kategorije troškova i troškovi stavki cjenika mogu se postaviti samo u ovdje definiranoj valuti. |
 | Jedinica vremena | Kartica **Općenito** i obrasci **Brzo stvaranje** | Ovo se polje upotrebljava za zadavanje vremenske jedinice u retku svake uloge povezane s ovim cjenikom. | Ova vrijednost polja upotrebljava se samo za postavljanje cijene povezane uloge. U cjenicima **Trošak** i **Prodaja** možete stvoriti redak cijene uloge u svakoj jedinici vremena. Ovdje definirana jedinica vremena upotrebljava se kao zadana. Korisničko postavljanje koje je povezano s cijenama uloga može nadjačati ovu vrijednost kako bi omogućilo postavljanje cijene troška radne snage i naplate u svakoj jedinici vremena. |
 | Opis | Kartica **Općenito** i obrasci **Brzo stvaranje** | Ovo tekstno polje omogućuje vam da osigurate opis cjenika u više redaka. | Ovo se polje prikazuje u prikazu **Pridružen** na cjeniku različitih entiteta koji imaju povezane cjenike. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

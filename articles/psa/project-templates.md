@@ -2,6 +2,8 @@
 title: Predlošci projekta
 description: Ova tema pruža informacije o tome kako upotrebljavati predloške projekta za brzo postavljanje projekta.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002502"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148049"
 ---
 # <a name="project-templates"></a>Predlošci projekta 
 
@@ -47,7 +49,7 @@ Postoji nekoliko načina stvaranja projekta na temelju predloška projekta:
 
 - Kada stvorite projekt na temelju ponude, možete odabrati predložak projekta u dijaloškom okviru **Brza izrada: projekt**.
 
-> ![Brza izrada: Dijaloški okvir projekta.](media/project-11.png)
+> ![Dijaloški okvir Brza izrada: projekt](media/project-11.png)
 
 - Prilikom stvaranja projekta odabirom mogućnosti **Novi projekt** stranica **Projekt** prikazat će se prije spremanja zapisa. U polju **Odaberi predložak** odaberite jedan od unaprijed definiranih predložaka projekta u tvrtki ili ustanovi.
 - Upotrijebite mogućnost **Stvori projekt na temelju predloška** na stranici **Entitet predloška**.
@@ -67,6 +69,3 @@ Prilikom kopiranja u retke procjene projekta cjenici se ažuriraju. Za cjenik s 
 ### <a name="copying-a-project-team"></a>Kopiranje projektnog tima
 
 Kada projektni tim kopirate iz predloška projekta u projekt, generički resursi kopiraju se zajedno s vještinama i stručnostima definiranim u predlošku. Dodjele generičkih resursa također se zadržavaju kao u predlošku projekta. Imenovani resursi nisu podržani u predlošcima projekta.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

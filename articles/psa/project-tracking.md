@@ -2,6 +2,8 @@
 title: Napredak projekta i cijena troška
 description: U ovoj temi nalaze se informacije o načinu praćenja napretka projekta i potrošnje troškova.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987157"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148004"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Napredak projekta i cijena troška
 
@@ -96,6 +98,3 @@ Praćenje podataka u prikazu **Praćenje rada** i **Praćenje troškova** prikaz
 Polje **Sveukupni status projekta** polje je koje se može uređivati, a prikazuje sveukupni status projekta. Koristi kodiranje bojama, kao što su zelena, žuta i crvena, kako bi se naznačio povećani rizik. Polje **Komentari** omogućuje upravitelju projekta da unese određene komentare o statusu. Polje **Datum ažuriranja statusa** nije moguće uređivati, a vrijednost je vremenska oznaka koja označava kada je status zadnji put ažuriran.
 
 Polja **Uspješnost rasporeda** i **Uspješnost troška** postavljaju se na temelju datuma praćenja. Kada je odstupanje rasporeda i troškova za korijenski čvor u prikazu **Praćenje rada** pozitivno, ta polja možete postaviti na **Ispred**. Kada je odstupanje rasporeda i troška za korijenski čvor negativno, možete ih postaviti na **Iza**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

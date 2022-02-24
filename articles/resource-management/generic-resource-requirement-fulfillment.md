@@ -2,16 +2,18 @@
 title: Popunjavanje zahtjeva za generičkim resursima
 description: U ovoj temi nalaze se informacije o načinu rezerviranja imenovanih resursa za preduvjet generičkog resursa.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008262"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130298"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Popunjavanje zahtjeva za generičkim resursima
 
@@ -37,6 +39,3 @@ Ovo je primjer kada je potrebno više imenovanih resursa za ispunjavanje zahtjev
 Glavna razlika u ovom scenariju je da generički resurs ostaje u timu koji je dodijeljen zadatku, a članovi tima rezerviranog imenovanog resursa ne dodjeljuju se kao dio položaja. Upravitelj projekta može dodijeliti rad po potrebi imenovanim resursima. Prikaz **Usklađivanje** može pomoći upravitelju projekta kod razvrstavanja rezervacija više resursa u dodjele zadataka. To se ne izvodi automatski jer u bilo kojem scenariju koji je složeniji od jednostavnog primjera gore, kao što je slučaj gdje postoji skupina zadataka koji čine zahtjev ili namjera upravitelja projekta za dodjeljivanjem mora biti prepoznata od strane sustava. Budući da sustav ne može razumjeti namjeru, vjerojatnije je kako će se pretpostavke razlikovati od namjere i pojavit će se netočan ili nepredvidljiv rezultat. Predvidljiv ishod je da generički resurs ostaje dodijeljen dok upravitelj projekta namjerno ne izradi dodjele, uz pomoć prikaza **Usklađivanje**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

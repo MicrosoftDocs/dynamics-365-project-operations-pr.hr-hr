@@ -2,16 +2,18 @@
 title: Upravljanje s više klijenata u redcima ugovora koji se temelje na projektu
 description: U ovoj temi nalaze se informacije o načinu rada s redcima ugovora i ugovorima koji sadrže više klijenata.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992107"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181893"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Upravljanje s više klijenata u redcima ugovora koji se temelje na projektu
 
@@ -42,6 +44,3 @@ U nastavku se nalaze polja na zapisu klijenta u retku Ugovora, retka ugovora koj
 Postoci raspodjele naplate mogu se uređivati u rešetki. Kada postoci raspodjele naplate ne dosegnu 100 posto, prikazat će se pogreška. Nakon što uredite postotke raspodjele naplate, osvježite stranicu kako biste uklonili pogrešku.
 
 Možete pokušati i odabirom mogućnosti **Ravnomjerno raspodijeli** na podrešetki klijenta retka ugovora. Ova radnja ravnomjerno raspoređuje naplate na sve klijente retka ugovora. Ako postoji neki čimbenik zaokruživanja, on će se dodati klijentu za zaokruživanje. Jedan klijent retka ugovora uvijek se označava kao klijent za **Zaokruživanje** sa zastavicom **Zaokruživanje** postavljenom na **Da**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

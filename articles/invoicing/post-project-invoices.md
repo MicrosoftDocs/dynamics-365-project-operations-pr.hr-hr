@@ -2,17 +2,18 @@
 title: Pregled postupka fakturiranja
 description: U ovoj se temi govori o pregledu postupka fakturiranja u aplikaciji Project Operations za scenarije temeljene na resursima / bez zaliha.
 author: sigitac
+manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003762"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089217"
 ---
 # <a name="invoicing-process-overview"></a>Pregled postupka fakturiranja
 
@@ -20,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Scenariji aplikacije Project Operations koji se temelje na resursima /bez zaliha nude sveobuhvatne mogućnosti prilagođene potrebama i voditelja projekta i službenika za potraživanja / računovođe projekta. Za postupak fakturiranja, voditelj projekta upravlja zaostalom naplatom projekta, a službenik za potraživanja / računovođa projekta stvara sukladan i točan dokument fakture za slanje kupcima.
 
-![Dijagram tijeka fakturiranja.](./media/invoicing-flow.png)
+![Dijagram tijeka fakturiranja](./media/invoicing-flow.png)
 
 Redak ugovora o projektu određuje način naplate za povezane projektne transakcije. Kada voditelj projekta odobri transakcije vremena i troškova, sustav bilježi transakcije u entitetu **Stvarni podaci o projektu** i podatke šalje modulu **Upravljanje projektima i računovodstvo** u aplikaciji Dynamics 365 Finance. Računovođa projekta pregledava i knjiži zapise s pomoću [dnevnika integracije aplikacije Project Operations](../project-accounting/project-operations-integration-journal.md). Ovaj dnevnik uključuje bitne računovodstvene pojedinosti o stvarnim podacima u projektu, poput naplate, grupe poreza na promet, grupe poreza na promet stavki za naplatu i financijskih veličina.
 
@@ -29,6 +30,3 @@ Voditelj projekta može pregledati nefakturirane prodajne transakcije s pomoću 
 Možete [ručno stvoriti predračun](../proforma-invoicing/create-manual-proforma-invoice.md) ili upotrijebiti [periodični postupak](../proforma-invoicing/configure-automated-invoice-creation.md). Voditelj projekta može po potrebi [prilagoditi nacrt predračuna](../proforma-invoicing/manage-proforma-invoice.md), a zatim ga potvrditi.
 
 Potvrđeni predračun šalje se modulu **Upravljanje projektima i računovodstvo** u aplikaciji Financije. Računovođa projekta oblikuje i ažurira prijedlog fakture za projekt, a zatim knjiži i ispisuje dokument. Proknjižene fakture za projekt evidentiraju se u Glavnoj knjizi, kao i u pomoćnim knjigama Klijent i Projekt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

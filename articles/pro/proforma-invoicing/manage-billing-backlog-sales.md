@@ -1,19 +1,21 @@
 ---
-title: Upravljanje zaostalim naplatama projekta
-description: U ovoj temi nalaze se informacije o raznim prikazima dostupnim za uporabu tijekom upravljanja zaostalom naplatom na projektima.
+title: Upravljanje zaostalim naplatama – jednostavno
+description: U ovoj temi nalaze se informacije o raznim prikazima dostupnim za uporabu tijekom upravljanja zaostalim naplatama.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988282"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176961"
 ---
-# <a name="manage-project-billing-backlog"></a>Upravljanje zaostalim naplatama projekta 
+# <a name="manage-the-billing-backlog---lite"></a>Upravljanje zaostalim naplatama – jednostavno
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
@@ -58,6 +60,3 @@ Nenaplaćene stvarne podatke o prodaji sa statusom **Ne smije se prekoračiti** 
 Ako redci ugovora za više klijenata imaju način naplate vremena i materijala, kada se odobre vrijeme i troškovi, stvara se jedna nefakturirana stvarna prodaja za svakog kupca u retku ugovora prema razdijeljenom postotku naplate utvrđenom za svakog klijenta. U prikazu **Zaostale naplate vremena i materijala** vidjet ćete ove pojedinačne stvarne podatke o nenaplaćenoj prodaji. Svaki od ovih zapisa stvarnih podataka o nefakturiranoj prodaji može se odvojeno od ovog prikaza označiti kao **Spremno za fakturiranje**.
 
 Nenaplaćeni stvarni podatak o prodaji koji se nalazi na nacrtu fakture prikazan je u ovom prikazu sa statusom naplate **Faktura za klijenta stvorena**. Kada se nacrt fakture potvrdi, status naplate na ovom zapisu ažurira se na **Faktura za klijenta proknjižena**. Nemojte ažurirati ovu vrijednost statusa s pomoću prilagođenog koda. Project Operations ne funkcioniraju ispravno kada se ove vrijednosti statusa ažuriraju prilagođenim kodom.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

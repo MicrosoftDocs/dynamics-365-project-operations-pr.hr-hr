@@ -2,6 +2,8 @@
 title: Troškovi i prihod projekta
 description: Ova tema pruža informacije o procjeni troškova i prihoda projekta.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002547"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148319"
 ---
 # <a name="project-costs-and-revenue"></a>Troškovi i prihod projekta
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002547"
 
 Procjena projekta daje financijski prikaz za procijenjeni i raspoređeni rad u rasporedu projekta. Kartica **Procjene** na stranici **Projekti** prikazuje učinak troška i prihoda rada koji planirate. Također pruža informacije o brojnim unaprijed definiranim dimenzijama. 
 
-> ![Kartica Procjene.](media/project-5.png)
+> ![Kartica Procjene](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Trošak i prodajne vrijednosti projekta
 
@@ -66,13 +68,13 @@ Ako sustav ne pronađe cijenu za ulogu, prodajna cijena u retku procjene postavl
 
 Kartica **Procjene** ima prikaz rešetke koji prikazuje retke procjene. Rešetka uključuje stupce za jedinicu, ukupnu cijenu troškova i ukupnu prodajnu cijenu, kao što je prikazano na sljedećoj ilustraciji. 
 
-> ![Prikaz rešetke na kartici Procjene.](media/project-6.png)
+> ![Prikaz rešetke na kartici Procjene](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Prikaz procjene projekta s vremenskim fazama
 
 Prikaz s vremenskim fazama procjene projekta prikazuje podatke procjene iz prikaza rešetke na vremenskoj crti u vremenskom mjerilu koje odaberete. Prema zadanim postavkama podaci procjene zaokreću se po dimenziji **Uloga**.
 
-> ![Prikaz vremenskih faza procjena projekta.](media/project-7.png)
+> ![Prikaz procjena projekta s vremenskim fazama](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Dodjela procijenjenog rada na temelju načina zadatka
 
@@ -95,6 +97,3 @@ U prikazu rešetke i prikazu s vremenskim fazama možete odabrati koja će se po
 ## <a name="expense-estimates"></a>Procjena troška
 
 Gumb **Dodaj novu procjenu troška** u prikazu rešetke omogućuje vam bilježenje svih troškova nastalih u projektu, no onih koji nisu izravno povezani s radom. Procjene troškova možete bilježiti za određeni zadatak ili za cijeli projekt. Odaberite kategorije troškova i uvjetni datum kada se trošak očekuje. Ako povezani cjenik troškova i prodajni cjenik imaju zadane cijene (ili definiranu profitnu maržu za kategorije troškova), one se automatski unose u retku procjene kod povezivanja.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

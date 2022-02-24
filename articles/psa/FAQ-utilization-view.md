@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007137"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992825"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Prikaži naplativo korištenje za resurse
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007137"
  
 **Prikaz korištenja** na stranici **Korištenje resursa programa Project Service** prikazuje naplativo korištenje za svaki resurs koji je moguće rezervirati. Budući da se taj prikaz temelji na ploči s rasporedom, pronaći ćete mnoge iste funkcije.
 
-> ![Snimka zaslona Prikaz iskoristivosti.](media/FAQ-utilization-1.png)
+> ![Snimka zaslona prikaza korištenja](media/FAQ-utilization-1.png)
  
 
 Naplativo korištenje izračunava se na sljedeći način:
@@ -48,7 +48,7 @@ Ciljno korištenje može se postaviti na zadanu ulogu resursa ili na sam određe
 2. Odaberite resurs da biste otvorili zapis. 
 3. Na kartici **Project Service**, možete postaviti ciljno korištenje resursa.
 
-> ![Snimka zaslona s prikazom postavljanja ciljne iskoristivosti s pomoću kartice Project Service.](media/FAQ-utilization-2.png)
+> ![Snimka zaslona s prikazom postavljanja ciljnog korištenja s pomoću kartice Project Service](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Postavi ciljno korištenje na ulogu
 
@@ -56,7 +56,7 @@ Ciljno korištenje može se postaviti na zadanu ulogu resursa ili na sam određe
 2. Odaberite ulogu i otvorite zapis. 
 3. Postavite ciljno korištenje za ulogu.
 
-> ![Snimka zaslona s prikazom postavljanja ciljne iskoristivosti s pomoću Uloga resursa.](media/FAQ-utilization-3.png)
+> ![Snimka zaslona s prikazom postavljanja ciljnog korištenja s pomoću Uloga resursa](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Izračunaj naplativo korištenje za resurs
 

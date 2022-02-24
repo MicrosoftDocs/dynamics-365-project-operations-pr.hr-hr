@@ -2,16 +2,18 @@
 title: Novosti u studenom 2020. – Project Operations za scenarije koji se temelje na zalihama/proizvodnji
 description: U ovoj temi nalaze se informacije o ažuriranjima kvalitete dostupnim u izdanju aplikacije Project Operations za scenarije koji se temelje na zalihama/proizvodnji za studeni 2020.
 author: sigitac
+manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003177"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365421"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novosti u studenom 2020. – Project Operations za scenarije koji se temelje na zalihama/proizvodnji
 
@@ -23,7 +25,4 @@ Za informacije o ispravcima uključenim u ovo ažuriranje, prijavite se na platf
 
 ## <a name="regulatory-updates"></a>Ažuriranja propisa
 
-Za informacije o ažuriranjima propisa za aplikacije Dynamics 365 Finance and Operations, pogledajte članak [Ažuriranja propisa](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Za informacije o ažuriranjima propisa za aplikacije Dynamics 365 Finance and Operations, pogledajte članak [Ažuriranja propisa](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.

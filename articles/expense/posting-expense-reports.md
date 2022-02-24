@@ -2,9 +2,11 @@
 title: Objavljivanje izvješća o izdatku
 description: U ovoj temi pojašnjava se način knjiženja izvješća o troškovima.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007677"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124269"
 ---
 # <a name="post-expense-reports"></a>Objavljivanje izvješća o izdatku
 
@@ -29,6 +31,3 @@ Ako se troškovima iz izvješća o troškovima tereti tvrtka koja nije tvrtka ko
 Kako biste knjižili izvješće o troškovima, na stranici **Odobrena izvješća o troškovima** odaberite izvješće o troškovima, a zatim na oknu radnji odaberite **Knjiži**.
 
 Također možete istodobno knjižiti sva izvješća o troškovima na popisu. Odaberite sva izvješća o troškovima, a zatim odaberite **Knjiži**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

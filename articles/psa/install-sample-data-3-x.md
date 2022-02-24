@@ -3,6 +3,7 @@ title: Instalacija uzorka podataka
 description: U ovoj temi nalaze se informacije o načinu instaliranju uzoraka podataka u aplikaciju Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985537"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144494"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalacija oglednih podataka za aplikaciju Project Service
 
@@ -86,7 +87,7 @@ Trebate planirati da računalo ostane povezano s mrežom te da instalacija **pod
 Na računalu mora biti isključena funkcija čuvara zaslona. U suprotnom se vjerodajnice sesije za instalaciju mogu izgubiti kada se aktivira čuvar zaslona (osim ako sesija aktivna cijelo vrijeme).
 
 > [!div class="mx-imgBorder"]
-> ![Snimka zaslona s prikazom postavki čuvara zaslona s isključenim čuvarom zaslona.](media/sample-data-1.png)
+> ![Snimka zaslona s prikazom postavki čuvara zaslona s isključenim čuvarom zaslona](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Preuzimanje i raspakiravanje
 
@@ -135,20 +136,20 @@ Za paket pokaznih podataka potrebno je šest korisnika. Da bi se paket pravilno 
     - Ime i prezime korisnika = „Molly Clark” kao Upraviteljica računa   
     - Ime i prezime korisnika = „Spencer Low” kao Upravitelj vježbi i Voditelj projekta  
     - Ime i prezime korisnika = „Veronica Quek” kao član tima   
-    - Ime i prezime korisnika=„William Contoso”
+    - Ime i prezime korisnika = „William Contoso”
   
 2. U svrhe uvoza pokaznih podataka dodijelite šest korisnika s ulogom iznad uloge administratora da bi se uzorci zapisa pravilno uvezli. 
 
 3. Otvorite mapu **PkgFolder** i zatim pronađite i otvorite datoteku **ImportUserMapFile.xml**. Ažurirajte polja **Novo=** tako da sadrže adrese e-pošte odgovarajućih korisnika u vašem sustavu.
 
    > [!div class="mx-imgBorder"]
-   > ![Snimka zaslona s prikazom datoteke UserMapFile.](media/sample-data-7.png)
+   > ![Snimka zaslona s prikazom datoteke UserMapFile](media/sample-data-7.png)
 
 4. Ako vaš korisnik s imenom i prezimenom „Spencer Low” ima drugačiji korisnički ID od **"spencerl**, morate ažurirati dodatnu datoteku. Otvorite datoteku **DemoDataPreImportConfig.xml** pa pronađite oznaku **userstocreateandconfigure**. Ažurirajte oznaku **\<login\>** s pomoću ID-a za prijavu (razlikovanje velikih i malih slova). 
 
 5. Kalendar prvog korisnika (u oznaci **userstocreateandconfigure**) upotrebljava se za ispunjavanje radnog vremena za sve resurse koje je moguće rezervirati pri uvozu pokaznih podataka. Idite na **Postavke** > **Sigurnost** > **Korisnici**, pronađite svojeg korisnika „Spencer Low” i otvorite mogućnost „Radno vrijeme”. Uredite postojeće radno vrijeme uz odabir mogućnosti **Cijeli tjedni raspored koji se ponavlja od početka do kraja**. Provjerite je li **radno vrijeme postavljeno na 8 – 17 sati (9 sati), od ponedjeljka do petka, s vremenskom zonom Pacifičko vrijeme (SAD i Kanada)**. To je potrebno kako biste osigurali pravilan prikaz ploče projekta i rasporeda.
 
-**Preporuka:** bilo bi dobro da odmah stvorite sigurnosnu kopiju svoje organizacije u slučaju da se morate vratiti na početnu točku ako nešto ne bude u redu tijekom instalacije oglednih podataka. Dodatne informacije potražite u članku [Sigurnosno kopiranje i vraćanje instanci](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Preporuka:** bilo bi dobro da odmah stvorite sigurnosnu kopiju svoje organizacije u slučaju da se morate vratiti na početnu točku ako nešto ne bude u redu tijekom instalacije oglednih podataka. Dodatne informacije potražite u članku [Sigurnosno kopiranje i vraćanje instanci](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Pokrenite Package Deployer
 
@@ -172,7 +173,7 @@ Za paket pokaznih podataka potrebno je šest korisnika. Da bi se paket pravilno 
 5. Odaberite **Sljedeće** dok se ne prikaže dijaloški okvir **Postavljanje demo podataka**.
 
    > [!div class="mx-imgBorder"]
-   > ![Snimka zaslona prozora statusa instalacijskog programa za demo podatke.](media/sample-data-3.png)
+   > ![Snimka zaslona prozora statusa instalacijskog programa za demo podatke](media/sample-data-3.png)
 
 6. Prije nastavka napominjemo da instaliranje oglednih podataka može potrajati do jedan sat (obično ~10 minuta). Morate se pobrinuti da računalo ostane uključeno i povezano s mrežom tijekom cijelog postupka instalacije te da vaša sesija ostane aktivna.   
 
@@ -191,10 +192,10 @@ Nakon što se ogledni podaci potpuno učitaju, prijavite se kao korisnik Spencer
 - Ako je instalirana aplikacija Field Service, idite na **Project Service** > **Postavke** > **Cjenici**. Potvrdite jesu li navedene stope naplate i troškova. Idite na **Field Service** > **Postavke** > **Cjenici** i provjerite jesu li u skupu podataka navedene stope naplate i troškova u odgovarajućoj valuti za svaku zemlju/regiju.
 
   > [!div class="mx-imgBorder"]
-  > ![Snimka zaslona aktivnih cjenika.](media/sample-data-4.png)
+  > ![Snimka zaslona aktivnih cjenika](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Snimka zaslona aktivnih organizacijskih jedinica.](media/sample-data-5.png)
+  > ![Snimka zaslona aktivnih organizacijskih jedinica](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tehničke napomene
 
@@ -295,7 +296,4 @@ Ako morate promijeniti radne sate za ogledne resurse koje je moguće rezervirati
 Odaberite korisnika (na primjer, Spencer Low) i promijenite radne sate za Spencera u sate koje želite primijeniti na više korisnika. Idite na **Universal Resource Scheduling** > **Postavke** > **Predlošci radnih sati** i uredite zapis **Zadani radni predložak**. U polju **Resurs predloška** odaberite korisnika s radnim satima koje želite primijenite na druge resurse. Idite na **Universal Resource Scheduling** > **Planiranje** > **Resursi** > **Aktivni resursi koje je moguće rezervirati**. Odaberite resurse koje želite promijeniti, a zatim odaberite **Postavi kalendar**. Na padajućem popisu **Radni predložak** odaberite predložak **Zadani radni sat** ili drugi predložak s ispravnim resursom predloška. Kada otvorite ploču s rasporedom, morali biste moći vidjeti da su resursi u međuvremenu ažurirali radne sate.
 
 > [!div class="mx-imgBorder"]
-> ![Snimka zaslona aktivnih resursa koje je moguće rezervirati.](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Snimka zaslona aktivnih resursa koje je moguće rezervirati](media/sample-data-6.png)

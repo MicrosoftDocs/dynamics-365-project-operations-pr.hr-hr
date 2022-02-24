@@ -2,6 +2,8 @@
 title: Određivanje cijena kataloga proizvoda
 description: Ova tema pruža informacije o tome kako funkcionira određivanje cijena kataloga proizvoda u sustavu Dynamics 365 Project Service Automation (PSA).
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000162"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151199"
 ---
 # <a name="product-catalog-pricing"></a>Određivanje cijena kataloga proizvoda 
 
@@ -44,7 +46,7 @@ Proizvode iz kataloga proizvoda možete dodavati na različite cjenike. Reci cje
 
 PSA podržava različite mogućnosti zaokruživanja kada su cijene konfigurirane kao funkcija kataloške cijene, trenutačnog troška ili standardnog troška. Uz iskorištavanje prednosti više načina određivanja cijena i mogućnosti zaokruživanja, popise popusta možete povezati sa stavkama cjenika. 
 
-> ![Dodavanje proizvoda iz kataloga u različite cjenike.](media/basic-guide-16.png)
+> ![Dodavanje proizvoda iz kataloga u različite cjenike](media/basic-guide-16.png)
 
 Kada izradite novi prilagođeni cjenik za ponudu odabirom mogućnosti **Izradi prilagođeno određivanje cijena** na stranici **Ponuda projekta**, PSA izrađuje kopiju cjenika, a polje **Entitet** u zaglavlju novog cjenika postavlja se na **Prodajni entitet**. Naziv novog cjenika dodaje se s nazivom ponude i vremenskom oznakom. Također možete koristiti naziv novog cjenika i naziv ponude u prilagođenim tijekovima rada za pokretanje dodatnog pregleda i odobrenja za ponude koje koriste prilagođeno određivanje cijena.
 
@@ -62,6 +64,3 @@ Entiteti Prilika, Ponuda i Ugovor o projektu koriste sljedeću ponudu za unos za
 Prema zadanim postavkama polje **Proizvod** u retku ponude popisuje sve aktivne proizvode u cjeniku proizvoda ponude. Ako je proizvod neaktivan ili je skica proizvoda, ne navodi se na popisu, čak i ako je naveden u cjeniku. 
 
 Reci kataloga proizvoda dodaju se kao reci fakture u prvoj fakturi koja se izrađuje za ugovor o projektu. U skici fakture ti se reci fakture mogu izbrisati. U tom će se slučaju reci prikazati u sljedećoj fakturi dok se ne fakturiraju ili dok se faktura ne pošalje klijentu. U PSA-u ne možete fakturirati djelomičnu količinu retka fakture za proizvod. Kada se reci proizvoda iz ugovora o projektu fakturiraju, izrađuju se stvarni podaci. Međutim, ti stvarni podaci ne povezuju se s povezanim entitetom projekta. Drugim riječima, reci projekta temeljeni na proizvodu neovisni su o bilo kakvoj upotrebi temeljenoj na projektu. PSA ne prati potrošnju materijala u projektima.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

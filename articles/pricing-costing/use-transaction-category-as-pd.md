@@ -2,16 +2,18 @@
 title: Uporaba kategorije transakcije kao veličine za određivanje cijene
 description: U ovoj temi nalaze se informacije o načinu uporabe polja kategorije transakcije kao veličine za određivanje cijena.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996112"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513968"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Uporaba kategorije transakcije kao veličine za određivanje cijene
 
@@ -48,6 +50,3 @@ U sljedećoj se tablici navode svi gotovi obrasci i prikazi po entitetu. Novo ć
 2. Na stranici **Parametri**, na kartici **Veličine za određivanje cijena koje se temelje na iznosu**, potvrdite da rešetka prikazuje zapise u entitetu **Veličine za određivanje cijena**.
 3. Dodajte **Kategorija transakcije** na ovaj popis i postavite polja **Primjenjivo na trošak** i **Primjenjivo na prodaju** na **Da**.
 4. U polju **Vrsta veličine** odaberite **Utemeljeno na iznosu**, a zatim odaberite prioritet za **Kategoriju transakcije** jer je povezana s troškom i prodajom.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

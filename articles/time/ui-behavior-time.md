@@ -2,16 +2,18 @@
 title: Ponašanje korisničkog sučelja za unos vremena
 description: U ovoj temi nalaze se informacije o ponašanju korisničkog sučelja za unos vremena.
 author: stsporen
+manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999442"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499605"
 ---
 # <a name="time-entry-ui-behavior"></a>Ponašanje korisničkog sučelja za unos vremena
 
@@ -23,9 +25,9 @@ Rešetka **Tjedni unos vremena** prilagođena je kontrola koja ima dva glavna od
 ## <a name="keyboard-shortcuts"></a>Tipkovni prečaci
 | Akcija        | Prečac                  |
 |------------   |------------------------   |
-| Nova           | Alt + Shift + n           |
+| Novo           | Alt + Shift + n           |
 | Kopiraj redak      | Alt + Shift + c           |
-| Uredi vremenski unosa    | Alt + Shift + e           |
+| Uredi unos    | Alt + Shift + e           |
 | Uredi redak      | Alt + Shift + Ctrl + e    |
 | Otvori unos    | Alt + Shift + o           |
 | Slanje        | Alt + Shift + s           |

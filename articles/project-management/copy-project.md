@@ -2,29 +2,30 @@
 title: Kopiranje projekta
 description: U ovoj temi nalaze se informacije o kopiranju projekata u aplikaciji Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+manager: AnnBe
+ms.date: 02/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007182"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479510"
 ---
 # <a name="copy-a-project"></a>Kopiranje projekta
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-S pomoću aplikacije Dynamics 365 Project Operations možete brzo graditi nove projekte odabirom mogućnosti **Kopiraj projekt** na obrascu **Projekti**. Kako biste kopirali projekt, otvorite projekt koji želite kopirati, a zatim odaberite **Kopiraj projekt**. Radnja će kopirati sljedeće:
+S pomoću aplikacije Dynamics 365 Project Operations možete brzo graditi nove projekte odabirom mogućnosti **Kopiraj projekt** na obrascu **Projekti**. Kako biste kopirali projekt, otvorite projekt koji želite kopirati, a zatim odaberite **Kopiraj projekt**. Radnja će kopirati:
 
-- Svojstava projekta 
+- Svojstva projekta (procijenjeni datum početka kopira se iz izvornog projekta)
 - Strukturna analiza rada
 - Članovi projektnog tima
 - Procjene projekta
 - Procjene izdataka za projekt
-- Procjene materijala za projekt
 
 ## <a name="project-properties"></a>Svojstava projekta
 
@@ -41,15 +42,11 @@ Kada se projekt kopira, kopiraju se vrijednosti u sljedećim poljima:
 - Sveukupno stanje projekta
 - Komentari
 - Procjene
-- Procijenjeni datum početka: Ovo je datum kada je projekt stvoren iz kopije.
-- Procijenjeni datum završetka: Ovaj se datum prilagođava na temelju datuma početka novog projekta izrađenog iz kopije.
+- Predviđeni datum početka
+- Datum završetka
 - Rad (sati)
 - Procijenjena cijena rada
-- Procijenjena cijena troška
-- Procijenjena cijena materijala
-
-> [!NOTE]
-> Projekt kopiranja dugotrajan je postupak. Kopiraju se i projektni zapisi, njihovi relevantni atributi i mnogi povezani entiteti. Zbog dugotrajnosti postupka, nakon započinjanja kopiranja, ciljna stranica projekta zaključava se kako se ne bi mogla uređivati dok se postupak kopiranja ne dovrši.
+- Procijenjeni troškovi
 
 ## <a name="work-breakdown-structure"></a>Strukturna analiza rada
 
@@ -61,7 +58,7 @@ Kada se projektni tim kopira iz izvornog projekta, kopiraju se generički resurs
 
 ## <a name="estimates"></a>Procjene
 
-Kada se projekt kopira, redci procjene resursa, troškova i materijala kopiraju se iz izvornog projekta. 
+Kada se projekt kopira, iz izvornog projekta kopiraju se i redci za procjenu resursa i troška. 
 
 Za informacije o načinu programskog pristupanja aplikaciji Copy Project, pogledajte odjeljak [Razvoj predložaka projekata s pomoću aplikacije Copy Project](dev-copy-project.md).
 

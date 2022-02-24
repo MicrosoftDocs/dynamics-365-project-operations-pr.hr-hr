@@ -2,16 +2,18 @@
 title: Suradnja s grupama programa Office
 description: Grupe programa Office omogućuju vam dijeljenje projekta s ostalim članovima tima unutar platforme Common Data Service.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2ad284bb3eb461e254292fcf78ea135c9b978deeded30927c3c442afc2ec0b7e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003132"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642489"
 ---
 # <a name="collaboration-with-office-groups"></a>Suradnja s grupama programa Office
 
@@ -24,6 +26,3 @@ Grupe programa Office omogućuju vam dijeljenje projekta s ostalim članovima ti
 > [!NOTE] 
 > Korisnici se dodaju u grupu samo ako pritisnete mogućnost **Grupe** i dodate ih. To se razlikuje od ponašanja Projekta za mrežu. 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

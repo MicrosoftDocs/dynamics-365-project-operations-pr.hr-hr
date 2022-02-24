@@ -2,9 +2,11 @@
 title: Sinkroniziranje ugovora o projektu i projekata izravno iz aplikacije Project Service Automation u aplikaciju Financije
 description: U ovoj se temi opisuje predložak i temeljni zadaci koji se upotrebljavaju za sinkronizaciju ugovora o projektu i projekata izravno iz sustava Microsoft Dynamics 365 Project Service Automation u uslugu Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001062"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764810"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinkroniziranje ugovora o projektu i projekata izravno iz aplikacije Project Service Automation u aplikaciju Financije 
 
@@ -42,7 +44,7 @@ Rješenje za integraciju usluge Project Service Automation u Financije upotreblj
 
 Na slijedećoj slici prikazan je način na koji se podaci sinkroniziraju između usluge Project Service Automation i Financija.
 
-[![Tijek podataka za integraciju usluge Project Service Automation s aplikacijom Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Tijek podataka za integraciju usluge Project Service Automation s Financijama](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Predlošci i zadaci
 
@@ -107,8 +109,8 @@ Kada se primijeni rješenje integracije aplikacije Project Service Automation u 
 ## <a name="prerequisites-and-mapping-setup"></a>Preduvjeti i postavljanje mapiranja
 
 - Prije nego što dođe do sinkronizacije ugovora o projektu i projekata, morate sinkronizirati račune.
-- U svoj skup za povezivanje dodajte mapiranje polja integracijskog ključa za **msdyn\_organizationalunits** na **msdyn\_name \[Name\]**. Najprije ćete možda trebati dodati projekt u skup veza. Dodatne informacije potražite u članku [Integriranje podataka s platformom Common Data Service za aplikacije](/powerapps/administrator/data-integrator).
-- U svoj skup za povezivanje dodajte mapiranje polja integracijskog ključa za **msdyn\_projects** na **msdynce\_projectnumber \[Project Number\]**. Najprije ćete možda trebati dodati projekt u skup veza. Dodatne informacije potražite u članku [Integriranje podataka s platformom Common Data Service za aplikacije](/powerapps/administrator/data-integrator).
+- U svoj skup za povezivanje dodajte mapiranje polja integracijskog ključa za **msdyn\_organizationalunits** na **msdyn\_name \[Name\]**. Najprije ćete možda trebati dodati projekt u skup veza. Dodatne informacije potražite u članku [Integriranje podataka s platformom Common Data Service za aplikacije](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- U svoj skup za povezivanje dodajte mapiranje polja integracijskog ključa za **msdyn\_projects** na **msdynce\_projectnumber \[Project Number\]**. Najprije ćete možda trebati dodati projekt u skup veza. Dodatne informacije potražite u članku [Integriranje podataka s platformom Common Data Service za aplikacije](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** za ugovore o projektu i projekte se može se ažurirati na drugu vrijednost ili ukloniti iz mapiranja. Zadana vrijednost predloška je **Project Service Automation**.
 - Mapiranje stavke **Uvjeti plaćanja** mora se ažurirati tako da u Financijama odražava valjane uvjete plaćanja. Također možete ukloniti mapiranje iz projektnog zadatka. Zadana karta vrijednosti ima zadane vrijednosti za pokazne podatke. Sljedeća tablica prikazuje vrijednosti u aplikaciji Project Service Automation.
 
@@ -129,7 +131,7 @@ Upotrijebite aplikaciju Microsoft Power Query za Excel kako biste filtrirali pod
 Ako morate upotrijebiti modul Power Query, slijedite ove smjernice:
 
 - Predložak Projekti i ugovori (PSA u Fin i Ops) ima zadani filtar koji uključuje samo prodajne naloge vrste **Stavka posla (msdyn\_ordertype = 192350001)**. Ovaj filtar jamči da se ugovori o projektu ne stvaraju za prodajne naloge u Financijama. Ako stvorite vlastiti predložak, morate dodati ovaj filtar.
-- Stvorite filtar aplikacije Power Query koji uključuje samo ugovorne tvrtke ili ustanove koje bi trebale biti sinkronizirane s pravnom osobom skupa integracijskih veza. Na primjer, ugovori o projektu koje imate s ugovornom organizacijskom jedinicom tvrtke Contoso US trebali bi se sinkronizirati s pravnom osobom USSI, ali ugovori o projektu koje imate s ugovornom organizacijskom jedinicom tvrtke Contoso Global trebali bi se sinkronizirati s pravnom osobom USMF. Ako ne dodate ovaj filtar u mapiranje zadataka, svi ugovori o projektu sinkronizirat će se s pravnom osobom koja je definirana za skup veza, bez obzira na organizacijsku jedinicu iz ugovora.
+- Stvorite filtar aplikacije Power Query koji uključuje samo ugovorne tvrtke ili ustanove koje bi trebale biti sinkronizirane s pravnom osobom skupa integracijskih veza. Na primjer, ugovori o projektu koje imate s ugovornom organizacijskom jedinicom Contoso US trebali bi se sinkronizirati s pravnom osobom USSI, ali ugovori o projektu koje imate s ugovornom organizacijskom jedinicom Contoso Global trebali bi se sinkronizirati s pravnom osobom USMF. Ako ne dodate ovaj filtar u mapiranje zadataka, svi ugovori o projektu sinkronizirat će se s pravnom osobom koja je definirana za skup veza, bez obzira na organizacijsku jedinicu iz ugovora.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapiranje predloška u integraciji podataka
 
@@ -140,17 +142,14 @@ Ako morate upotrijebiti modul Power Query, slijedite ove smjernice:
 
 Sljedeće slike prikazuju primjer mapiranja zadataka predloška u Integraciji podataka. Mapiranje prikazuje podatke polja koji će se sinkronizirati iz aplikacije Project Service Automation u Financije.
 
-[![Mapiranje predloška ugovora o projektu.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Mapiranje predloška ugovora o projektu](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Mapiranje predloška projekta.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Mapiranje predloška projekta](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Mapiranje predloška redaka ugovora o projektu.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Mapiranje predloška redaka ugovora o projektu](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Mapiranje predloška kontrolne točke retka ugovora o projektu.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Mapiranje predloška kontrolne točke redka ugovora o projektu](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapiranje kontrolnih točaka retka ugovora o projektu u projektima i ugovorima (PSA 3.x za Dynamics) – predložak v2:
 
-[![Mapiranje kontrolne točke retka ugovora o projektu s pomoću verzije dva predloška.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Mapiranje kontrolne točke redka ugovora o projektu s pomoću verzije dva predloška](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

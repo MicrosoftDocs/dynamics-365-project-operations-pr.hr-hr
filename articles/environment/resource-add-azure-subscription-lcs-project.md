@@ -2,16 +2,18 @@
 title: Dodavanje pretplate za platformu Azure LCS projektu
 description: U ovoj temi nalaze se informacije o načinu povezivanja pretplate za platformu Azure s LCS projektom.
 author: sigitac
+manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986662"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880529"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodavanje pretplate za platformu Azure LCS projektu
 
@@ -23,35 +25,35 @@ Okruženja hostirana u oblaku moraju se implementirati s pomoću postojeće pret
 
 1. U vašem LCS projektu, u odjeljku **Okruženja**, odaberite **Postavke platforme Microsoft Azure**.
 
-![Postavke usluge Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
+![Postavke značajke Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
 2. Na stranici **Postavke projekta**, na kartici **Poveznici platforme Azure**, odaberite **Autoriziraj**. To omogućuje implementaciju okruženja na ovaj projekt.
 
-![Poveznici platforme Azure.](./media/2AzureConnectors.png)
+![Poveznici platforme Azure](./media/2AzureConnectors.png)
 
 3. Ponovno odaberite **Autoriziraj** kako biste dali pristanak administratora.
 
-![Davanje pristanka administratora.](./media/3GrantAdminConsent.png)
+![Davanje pristanka administratora](./media/3GrantAdminConsent.png)
 
 4. Prihvatite zahtjev za dozvolama.
 
-![Prihvaćanje zahtjeva za dozvolom.](./media/4AcceptPermissionRequest.png)
+![Prihvaćanje zahtjeva za dozvolom](./media/4AcceptPermissionRequest.png)
 
 Sada je autorizacija završena. 
 
-![Autorizacija je uspješna.](./media/5AuthorizationComplete.png)
+![Autorizacija je uspješna](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Omogućivanje pristupa uslugama sustava Dynamics za implementaciju pretplati za platformu Azure
 
 1. Idite na odjeljak [Naplata platforme Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) i odaberite svoju pretplatu. Usluge sustava Dynamics za implementaciju moraju pristupiti ovoj pretplati kako bi se okruženja mogla implementirati.
 
-![Pojedinosti pretplate na platformu Azure.](./media/6AzureSubscription.png)
+![Pojedinosti o pretplati za platformu Azure](./media/6AzureSubscription.png)
 
 2. Odaberite **Kontrola pristupa (IAM)** u navigacijskom oknu, a zatim odaberite **Dodaj dodjelu uloge**.
 3. U klizaču s desne strane odaberite **Uloga suradnika** i na navedenom popisu pronađite i odaberite **Usluge sustava Dynamics za implementaciju**. 
 4. Odaberite **Spremi**.
 
-![Pretplatnički pristup.](./media/7SubscriptionAccess.png)
+![Pretplatnički pristup](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Dodavanje poveznika pretplate LCS projektu
 

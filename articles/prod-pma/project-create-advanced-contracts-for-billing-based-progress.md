@@ -2,9 +2,11 @@
 title: Stvaranje predugovora za naplatu na temelju napretka
 description: U ovoj se temi objašnjava način stvaranja ugovora o projektima tako da klijentima možete generirati račune na temelju postotka dovršenog posla.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000972"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073517"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Stvaranje predugovora za naplatu na temelju napretka
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ Proračunske kategorije upotrebljavaju se za automatski izračun iznosa računa 
 8. Izborno: Dodijelite pravilo naplate dodatnim projektima. Na Brzoj kartici **Projekt**, u odjeljku **Dostupni projekti**, odaberite projekt, a zatim odaberite gumb sa strelicom udesno kako biste projekt dodali odjeljku **Odabrani projekti**.
 9. Neobvezno: Izračunajte postotni iznos koji kupac usteže kada plaća fakturu. Na Brzoj kartici **Uvjeti ustezanja plaćanja** odaberite izvor financiranja, a zatim u polju **Postotak ustezanja** unesite postotak ustezanja.
 10. Ponovite ove korake za stvaranje dodatnih pravila naplate za ugovor o projektu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

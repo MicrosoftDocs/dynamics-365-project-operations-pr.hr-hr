@@ -2,9 +2,11 @@
 title: Uvođenje prilagođenih polja za mobilnu aplikaciju Microsoft Dynamics 365 Project Timesheet na platformama iOS i Android
 description: U ovoj temi nalaze se uobičajeni uzorci za uporabu nastavaka za uvođenje prilagođenih polja.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005742"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270984"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Uvođenje prilagođenih polja za mobilnu aplikaciju Microsoft Dynamics 365 Project Timesheet na platformama iOS i Android
 
@@ -153,13 +155,13 @@ Za polja vrste **Datum**, ovo svojstvo prenosi vrijednost datuma u polju između
 
 U nastavku se nalazi snimka zaslona mobilne aplikacije na kojoj se stvara unos evidencije radnog vremena. Prikazuje gotova i prilagođena polja u odjeljku „Unos vremena” pod nazivom „Testni niz” s već postavljenom vrijednosti nabrajanja „Druga mogućnost”.
 
-![Testni niz prilagođenog polja u aplikaciji.](media/timesheet-entry.jpg)
+![Testni niz prilagođenog polja u aplikaciji](media/timesheet-entry.jpg)
 
 
 
 U nastavku se nalazi snimka zaslona mobilne aplikacije na kojoj korisnik odabire jednu od mogućnosti nabrajanja dostupnih za prilagođeno polje „Testni niz”.  Dvije mogućnosti, „Prva mogućnost” i „Druga mogućnost”, prikazane su kao gumbi za odabir. Trenutačno je odabrana druga mogućnost.
 
-![Gumbi mogućnosti (gumbi za odabir) za prilagođeno polje Testni niz.](media/enum-option.jpg)
+![Gumbi mogućnosti (gumbi za odabir) za prilagođeno polje Testni niz](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Imajte na umu da prilagođena polja ne moraju imati nikakve sigurnosne zapise ba
 
 U nastavku se nalazi snimka zaslona aplikacije Visual Studio na kojem se nalazi stablo objekata aplikacije. Ona prikazuje proširenje tablice TSTimesheetLine poljem TestLineString koje je dodano kao prilagođeno polje.
 
-![Niz retka.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Niz retka](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Uporaba lanca naredbi u načinu buildCustomFieldList klase TSTimesheetSettings za prikaz polja u odjeljku unosa evidencije radnog vremena
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 U nastavku se nalazi snimka zaslona mobilne aplikacije na kojoj korisnik pregledava evidenciju radnog vremena. U gornjem desnom kutu odabran je gumb „Više informacija” za prikazivanje mogućnosti „Prikaži više pojedinosti”.  
 
-![Naredba prikaz više pojedinosti.](media/show-more.png)
+![Naredba prikaz više pojedinosti](media/show-more.png)
 
 U nastavku se nalazi snimka zaslona mobilne aplikacije na kojoj se prikazuje odjeljak „Više” evidencije radnog vremena. Prilagođeno polje pod nazivom „Stopa iskorištavanja ove evidencije radnog vremena (izračunano prilagođeno polje)” dodano je u odjeljak zaglavlja evidencije radnog vremena. U prilagođenom polju postavljena je vrijednost samo za čitanje „0.667”.
 
-![Više odjeljaka.](media/more-section.jpg)
+![Više odjeljaka](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Proširivanje tablice TSTimesheetTable tako da ima prilagođeno polje
 
@@ -414,7 +416,7 @@ Postojeća logika funkcionalnosti evidencije radnog vremena na razini baze podat
 
 Iz parametara projekta možete napraviti gotova polja samo za čitanje ili skrivena u mobilnoj aplikaciji. Postavite mogućnosti u odjeljak **Mobilne evidencije radnog vremena** na kartici **Evidencija radnog vremena** na stranici **Parametri upravljanja projektom i računovodstveni parametri**.
 
-![Parametri projekta.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parametri projekta](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Promjena aktivnosti dostupnih za odabir putem proširenja
 

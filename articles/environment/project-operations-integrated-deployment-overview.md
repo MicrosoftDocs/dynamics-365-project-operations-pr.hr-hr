@@ -2,17 +2,18 @@
 title: Pregled implementacije aplikacije Project Operations za scenarije temeljene na resursima / bez zaliha
 description: U ovoj temi nalaze se informacije o vrsti implementacije, aplikaciji Project Operations za scenarije koji se temelje na resursu / bez zaliha.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009702"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365419"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Pregled implementacije aplikacije Project Operations za scenarije temeljene na resursima / bez zaliha
 
@@ -42,6 +43,3 @@ Trebalo bi odabrati ovu implementaciju ako se od aplikacije Project Operations o
 - Zahtijevajte sveobuhvatni poreza na promet u klasi poduzeća i modul deviznog tečaja za generiranje faktura za projekte za klijente.
 - Međunarodni standardi financijskog izvješćivanja (MSFI) usklađeni s računovodstvom projekta i sustavom priznavanja prihoda.
 - Aplikaciju Financije ili Supply Chain Management i integraciju transakcija koje se temelje na projektu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

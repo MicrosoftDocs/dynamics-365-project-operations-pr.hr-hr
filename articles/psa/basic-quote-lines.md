@@ -2,6 +2,8 @@
 title: Ponude i reci ponude
 description: Ova tema pruža informacije o ponudama i recima ponude.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995437"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145104"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponude i reci ponude
 
@@ -84,7 +86,7 @@ Organizacije za profesionalne usluge obično sastavljaju ponude i izdaju fakture
 
 Jedna ili više tih klasifikacija transakcije može se pridružiti svakom retku ponude. Nakon što se dobije ponuda, mapiranje između klasifikacije transakcija i retka ponude prenosi se u redak ugovora.
  
-> ![Snimka zaslona mapiranja vrsta transakcije u retke ponude i ugovora.](media/basic-guide-5.png)
+> ![Snimka zaslona mapiranja vrsta transakcije u retke ponude i ugovora](media/basic-guide-5.png)
   
 Na primjer, ponuda može sadržavati sljedeće dvije retke ponude: 
 - Savjetovanje koji koriste način naplate vremena i materijala u kojima se primjenjuju klasifikacije transakcija s vremenom i naknadama. Na primjer, sve transakcije s vremenom i naknadama za primjer **Implementacije AX Dynamics** sustava fakturiraju se klijentu na temelju vremena i materijala koji se koriste. 
@@ -129,6 +131,3 @@ Za redak ponude fiksne cijene možete koristiti rešetku **Raspored faktura** da
 - Da biste izradili ključne točke za naplatu koje su podjednako podijeljene, odaberite učestalost fakture, unesite početni datum naplate u redak ponude i odaberite **Traženi datum dovršetka** za ponudu u odjeljku **Sažetak** u zaglavlju ponude. Zatim odaberite **Generiraj periodične ključne točke** za izradu podjednako podijeljenih ključnih točaka na temelju odabrane frekvencije fakture. 
 - Da biste izradili ključnu točku naplate u paušalnom iznosu, izradite ključnu točku, a zatim unesite vrijednost retka ponude kao iznos ključne točke.
 - Da biste izradili ključne točke za naplatu koje se temelje na određenim zadacima u planu projekta, izradite ključnu točku i mapirajte ju u element rasporeda projekta u korisničkom sučelju ključne točke za naplatu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

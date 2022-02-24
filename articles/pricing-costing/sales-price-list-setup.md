@@ -2,9 +2,11 @@
 title: Postavljanje prodajnog cjenika
 description: U ovoj temi nalaze se informacije o prodajnim cjenicima za određivanje cijena za projekte.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997597"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176242"
 ---
 # <a name="set-up-a-sales-price-list"></a>Postavljanje prodajnog cjenika
 
@@ -57,6 +59,3 @@ Na ugovoru o projektu, sljedeći redoslijed prvenstva upotrebljava se za automat
 Ako je cjenik projekta unesen po zadanim postavkama, sustav provjerava odgovara li valuta valuti klijenta i imaju li zadani cjenici koji su uneseni kontekst **Prodaja**.
 
 Entitete Klijent, Prilika, Ponuda i Ugovor o projektu možete povezati s nekoliko cjenika za projekt. Ova mogućnost podržava zadane cijene za određeni datum za ugovor o dugoročnom projektu, u kojem bi moglo biti potrebno više od jednog cjenika za ažuriranje cijena koje se pojavljuju zbog inflacije. Međutim, ako cjenici koje pridružujete entitetu Klijent, Prilika, Ponuda ili Ugovor o projektu imaju preklapajući datum stupanja na snagu, zadane cijene možda nisu točne. Stoga biste trebali osigurati da cjenici za projekt koji imaju preklapajući datum stupanja na snagu nisu povezani s tim entitetima.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

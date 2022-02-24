@@ -2,10 +2,12 @@
 title: Dodavanje novih obrazaca prilagođenih entiteta (Project Service Automation 2. x)
 description: Ova tema pruža informacije o tome kako dodati obrasce prilagođenih entiteta za prilike, ponude, narudžbe ili fakture u sustavu Dynamics 365 Project Service Automation 2.x.
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995212"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144584"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodavanje novih obrazaca prilagođenih entiteta (Project Service Automation 2. x)
 
@@ -57,7 +59,7 @@ Slijedite ove korake da biste izradili prilagođenu verziju obrasca **Informacij
     - Izvezite obrazac **Moje informacije o projektu** kao dio neupravljanog rješenja, a zatim potražite vrijednost **formId** u datoteci customization.xml izvezenog rješenja.
     - Otvorite obrazac **Moje infomacije o projektu** u uređivaču obrazaca, a zatim potražite globalni jedinstveni identifikator (GUID) pored parametra **fromId** u URL-u, kao što je prikazano na sljedećoj ilustraciji.
 
-    ![Vrijednost formId novog obrasca u URL-adresi.](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Vrijednost formId novog obrasca u URL-u](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Izradite mapiranje **msdyn\_ordertype** za vrijednost **formId** uređivanjem web-resursa msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Uklonite kȏd iz resursa i zamijenite ga sljedećim kȏdom.
 
@@ -94,6 +96,3 @@ Slijedite ove korake da biste izradili prilagođenu verziju obrasca **Informacij
     ```
 
 6. Spremite i potom objavite prilagodbe.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Upravljanje zahtjevima za resurse
 description: Upravljanje zahtjevima za resurse u programu Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985132"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149849"
 ---
 # <a name="manage-resource-requests-project-service"></a>Upravljanje zahtjevima za resurse (Project Service)
 
@@ -43,12 +45,9 @@ Upravitelji računa i upravitelji projekta redovito zahtijevaju resurse za proje
   
    -   Kliknite **Filtar** za prikaz okna **Filtar** okna što omogućuje filtriranje rezultata po organizacijskim jedinicama, ulogama, vještinama ili drugim atributima.  
   
-       ![Zaslon zahtjeva za resurs u aplikaciji Project Service.](../psa/media/project-service-resource-request-screen.png "Snimka zaslona Preduvjeti resursa projektne usluge")  
+       ![Snimka zaslona Preduvjeti resursa projektne usluge](../psa/media/project-service-resource-request-screen.png "Snimka zaslona Preduvjeti resursa projektne usluge")  
   
 3. U kalendaru za resurs koji želite rezervirati odaberite vremensko razdoblje da biste rezervirali resurs, a zatim ili kliknite **Rezerviraj** da biste rezervirali resurs ili **Predloži rezervaciju** da biste predložili rezervaciju i njeno odobrenje od strane podnositelja zahtjeva. Kada ste rezervirali resurs, možete tvrdo ili meko rezervirati.  
   
 ### <a name="see-also"></a>Pogledajte također  
  [Vodič za upravitelj resursa](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

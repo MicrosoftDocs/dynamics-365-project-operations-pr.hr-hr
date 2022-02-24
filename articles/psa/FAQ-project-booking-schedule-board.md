@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987607"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992957"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Izrada rezervacije projekta s ploče rasporeda
 
@@ -43,7 +43,7 @@ Možete izraditi generički resurs i dodijeliti ga jednom ili više zadataka unu
 
 1.  Na ploči s rasporedom, taj resurs prikazat će se na kartici **Otvoreni zahtjevi**. Možda ćete morati koristiti filtre stupaca na rešetki ako imate mnogo otvorenih zahtjeva. 
 
-    ![Dodavanje kartice preduvjeta ploči s rasporedom.](media/FAQ-Project-Booking-Schedule-Board-1.png "Snimka zaslona tablice rezervacija i dodjela")
+    ![Dodavanje kartice preduvjeta ploči s rasporedom](media/FAQ-Project-Booking-Schedule-Board-1.png "Snimka zaslona tablice rezervacija i dodjela")
 
 2. Odaberite preduvjet. Kartica **Pronađi dostupnost** pojavit će se pri vrhu odabranog retka.
  
@@ -53,7 +53,7 @@ Možete izraditi generički resurs i dodijeliti ga jednom ili više zadataka unu
 
     Odabirom **Rezerviraj** resurs se rezervira za projektni tim.
 
-![Izrada panela Rezervacije resursa.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Izrada panela Rezervacije resursa](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Rezervacija od primarnog preduvjeta
@@ -62,7 +62,7 @@ Stvaranjem projekta u aplikaciji Project Service automatski se stvara preduvjet 
 
 1. Za rezervaciju resursa s primarnim preduvjetom, na ploči s rasporedom odaberite karticu **Projekt**. Ako imate mnogo projekata, možda ćete morati koristiti filtar stupaca u stupcu **Projekt** .
 
-   ![Filtri kolona na ploči s rasporedom.](media/FAQ-Project-Booking-Schedule-Board-2.png "Snimka zaslona tablice rezervacija i dodjela")
+   ![Filtri kolona na ploči s rasporedom](media/FAQ-Project-Booking-Schedule-Board-2.png "Snimka zaslona tablice rezervacija i dodjela")
 
 2. Odaberite zahtjev koji ima samo naziv projekta u svom nazivu i koji ima trajanje vrijednosti nula (0).
 

@@ -2,16 +2,18 @@
 title: Konfiguriranje fakturiranja unutar tvrtke
 description: U ovoj temi nalaze se informacije i primjeri o načinu konfiguriranja fakturiranja projekata unutar tvrtke.
 author: sigitac
-ms.date: 04/12/2021
+manager: tfehr
+ms.date: 11/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994042"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595442"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfiguriranje fakturiranja unutar tvrtke
 
@@ -21,9 +23,9 @@ Poduzmite sljedeće korake za postavljanje fakturiranja projekata unutar tvrtke 
 
 ## <a name="example-configure-intercompany-invoicing"></a>Primjer: Konfiguriranje fakturiranja unutar tvrtke
 
-U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadužuje, a Contoso Robotics UK (GBPM) pravna je osoba koja daje kredit. 
+U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadužuje, a Contoso Robotics UK (GBPM) pravna je osoba koja kreditira. 
 
-1. **Konfiguriraj računovodstvo između pravnih osoba unutar tvrtke**. Svaki par pravnih osoba koje se nalaze u ulozi dužnika i kreditora mora se konfigurirati na stranici Glavne knjige [Računovodstvo između pravnih osoba unutar tvrtke](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
+1. **Konfiguriraj računovodstvo između pravnih osoba unutar tvrtke**. Svaki par pravnih osoba koje se nalaze u ulozi dužnika i kreditora mora se konfigurirati na stranici Glavne knjige [Računovodstvo između pravnih osoba unutar tvrtke](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
     1. U aplikaciji Dynamics 365 Finance, idite na **Glavna knjiga** > **Postavljanje knjiženja** > **Računovodstvo između pravnih osoba unutar tvrtke**. Stvorite zapis koji ima sljedeće podatke:
 
@@ -37,15 +39,15 @@ U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadu�
      3. Proširiti **Naziv**, filtrirajte zapise prema **Vrsti** i odaberite stavku **Pravne osobe**. 
      4. Pronađite i odaberite zapis o klijentu za **Contoso Robotics USA (USPM)**.
      5. Odaberite stavku **Upotrijebi podudaranje**. 
-     6. Odaberite grupu klijenata **50 – Klijenti među poduzećima unutar tvrtke**, a zatim spremite zapis.
+     6. Odaberite grupu klijenata, a zatim zapis spremite.
      7. Odaberite pravnu osobu **USPM**.
      8. Idite na **Dugovanja** > **Dobavljači** > **Svi dobavljači**. Stvorite novi zapis za pravnu osobu, **GBPM**.
      9. Proširiti **Naziv**, filtrirajte zapise prema **Vrsti** i odaberite stavku **Pravne osobe**. 
-     10. Pronađite i odaberite zapis o klijentu za **Contoso Robotics UK (USPM)**.
+     10. Pronađite i odaberite zapis o klijentu za **Contoso Robotics UK (GBPM)**.
      11. Odaberite stavku **Upotrijebi podudaranje**, odaberite grupu dobavljača, a zatim zapis spremite.
      12. U zapisu o dobavljaču odaberite **Općenito** > **Postavljanje** > **Unutar tvrtke**.
      13. Na kartici **Trgovinski odnos** mogućnost **Aktivan** postavite na **Da**.
-     14. Postavite polje **Tvrtka klijenta** na **GBPM** i u stavci **Zapis mog računa** odaberite zapis klijenta koji ste stvorili ranije u postupku.
+     14. Odaberite tvrtku dobavljača **GBPM** i u stavci **Zapis mojeg računa** odaberite zapis o klijentu koji ste stvorili ranije u postupku.
 
 3. **Konfiguriranje postavki među tvrtkama u Upravljanju projektima i računovodstveni parametri**. 
 
@@ -57,7 +59,7 @@ U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadu�
     6. U grupi **Pri posudbi resursa** odaberite **...** > **Novo**. 
     7. U rešetki odaberite sljedeće podatke:
 
-          - **Pravna osoba koja se zadužuje** = **USPM**
+          - **Pravna osoba koja se zadužuje** = **GBPM**
           - **Obračun prihoda** = **Da**
           - **Zadana kategorija vremenske tablice** = **Zadani – sat**
           - **Zadana kategorija troška** = **Zadani – trošak**
@@ -69,36 +71,33 @@ U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadu�
      3. Na kartici **Računi troškova**, u stavci **Vrsta računa Glavne knjige**, odaberite **Troškovi unutar tvrtke**. Stvorite novi zapis koji ima sljedeće podatke:
       
         - **Pravna osoba koja daje kredit** = **GBPM**
-        - **Glavni račun** = Odaberite glavni račun za troškove među poduzećima unutar tvrtke. Ova je postavka obvezna. Postavka se upotrebljava za tijekove među poduzećima unutar tvrtke u aplikaciji Financije, ali ne i za tijekove komunikacije unutar tvrtke povezane s projektima. Ovaj odabir nema utjecaja na nizvodni tijek. 
+        - **Glavni račun** = Odaberite glavni račun za troškove unutar tvrtke
         
      4. Odaberite pravnu osobu koja daje kredit, **GBPM**. 
      5. Idite na **Upravljanje projektima i računovodstvo** > **Postavljanje** > **Knjiženje** > **Postavljanje knjiženja Glavne knjige**. 
      6. Na kartici **Računi za prihod**, u stavci **Vrsta računa Glavne knjige**, odaberite **Prihod unutar tvrtke**. Stvorite novi zapis koji ima sljedeće podatke:
 
         - **Pravna osoba koja se zadužuje** = **USPM**
-        - **Glavni račun** = Odaberite glavni račun za prihod među poduzećima unutar tvrtke. Ova je postavka obvezna. Postavka se upotrebljava za tijekove među poduzećima unutar tvrtke u aplikaciji Financije, ali ne i za tijekove komunikacije unutar tvrtke povezane s projektima. Ovaj odabir nema utjecaja na nizvodni tijek. 
+        - **Glavni račun** = Odaberite glavni račun za prihod unutar tvrtke 
 
 5. **Postavite cijene prijenosa rada**. Cijene prijenosa unutar tvrtke konfigurirane su u aplikaciji Project Operations na rješenju Dataverse. Konfigurirajte [cijene troškova rada](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) i [cijene naplate rada](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) za fakturiranje između pravnih osoba unutar tvrtke. Cijene prijenosa nisu podržane za transakcije troškova unutar tvrtke. Jedinična prodajna cijena unutar tvrtke ili ustanove uvijek će biti postavljena na istu vrijednost kao i jedinična cijena koštanja resursa.
 
-      Trošak resursa za razvojne inženjere u tvrtki Contoso Robotics UK iznosi 88 GBP na sat. Contoso Robotics UK naplatit će tvrtki Contoso Robotics USA 120 USD za svaki sat koji je ovaj resurs radio na američkim projektima. Contoso Robotics USA naplatit će klijentu Adventure Works 200 USD za posao koji je obavio resurs razvojnog inženjera tvrtke Contoso Robotics UK.
+      Trošak resursa za razvojne inženjere u tvrtki Contoso Robotics UK iznosi 88 GBP po satu. Contoso Robotics UK naplatit će tvrtki Contoso Robotics USA 120 USD za svaki sat koji je ovaj resurs radio na projektima SAD-a. Contoso Robotics USA naplatit će klijentu Adventure Works 200 USD za posao koji je izvršio resurs razvojnog inženjera tvrtke Contoso Robotics UK.
 
-      1. U aplikaciji Project Operations u rješenju Dataverse, idite na **Prodaja** > **Cjenici**. Stvorite novi cjenik troškova pod nazivom **Contoso Robotics UK cijene troškova.** 
+      1. U aplikaciji Project Operations u rješenju Dataverse, idite na **Prodaja** > **Cjenici**. Stvorite novi cjenik troškova pod nazivom **Cijene troškova Contoso Robotics UK.** 
       2. U cjeniku troškova stvorite zapis koji sadrži sljedeće podatke:
          - **Uloga** = **Razvojni inženjer**
          - **Trošak** = **88 GBP**
-      3. Idite na **Postavke** > **Organizacijske jedinice** i priložite ovaj cjenik troškova organizacijskoj jedinici tvrtke **Contoso Robotics UK**.
-      4. Idite na **Prodaja** > **Cjenici**. Stvorite novi cjenik troškova pod nazivom **Contoso Robotics USA cijene troškova**. 
+      3. Idite na **Postavke** > **Organizacijske jedinice** i priložite ovaj cjenik troškova organizacijskoj jedinici **Contoso Robotics UK**.
+      4. Idite na **Prodaja** > **Cjenici**. Stvorite novi cjenik troškova pod nazivom **Cijene troškova Contoso Robotics USA**. 
       5. U cjeniku troškova stvorite zapis koji sadrži sljedeće podatke:
           - **Uloga** = **Razvojni inženjer**
           - **Tvrtka za resurse** = **Contoso Robotics UK**
           - **Trošak** = **120 USD**
-      6. Idite na **Postavke** > **Organizacijske jedinice** i priložite cjenik troškova **Contoso Robotics USA cjenik troškova** organizacijskoj jedinici tvrtke **Contoso Robotics USA**.
+      6. Idite na **Postavke** > **Organizacijske jedinice** i cjenik troškova **Cijene troškova Contoso Robotics USA** priložite organizacijskoj jedinici **Contoso Robotics USA**.
       7. Idite na **Prodaja** > **Cjenici**. Stvorite prodajni cjenik pod nazivom **Cijene naplate za Adventure Works**. 
       8. U prodajnom cjeniku stvorite zapis koji sadrži sljedeće podatke:
           - **Uloga** = **Razvojni inženjer**
           - **Tvrtka za resurse** = **Contoso Robotics UK**
           - **Cijena naplate** = **200 USD**
       9. Idite na **Prodaja** > **Ugovori o projektu** i priložite cjenik **Cijene naplate za Adventure Works** cjeniku projekta Adventure Works ugovora o projektu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

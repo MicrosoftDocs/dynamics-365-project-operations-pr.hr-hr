@@ -2,16 +2,18 @@
 title: Upravljanje s više klijenata u redcima ponude utemeljenim na projektu
 description: U ovoj temi nalaze se informacije o načinu upravljanja s više klijenata u retku ponude koji se temelji na projektu.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992017"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118554"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Upravljanje s više klijenata u redcima ponude utemeljenim na projektu
 
@@ -42,6 +44,3 @@ Sljedeća tablica prikazuje polja u zapisu o klijentu retka ponude koji se temel
 Postotke podjele naplate možete urediti u retku. Kada postoci podjele naplate ne iznose 100 %, dogodi se pogreška. Nakon što uredite postotke podjele naplate, osvježite stranicu retka ponude kako biste uklonili pogrešku.
 
 Upotrijebite radnju ravnomjerne raspodjele na podrešetki klijenata iz retka ponude kako biste podjele naplate dodijelili svim klijentima iz retka ponude. Ako postoji faktor zaokruživanja, to će se dodati klijentu zaokruživanja. Jedan od klijenata retka ponude uvijek je označen kao klijent zaokruživanja, što znači da zapis klijenta retka ponude ima zastavicu zaokruživanja postavljenu na **Da**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Faktura za akontaciju ili predujam
 description: U ovoj se temi nalaze informacije o načinu fakturiranja akontacije ili predujma u aplikaciji Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997462"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596183"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Faktura za povremena plaćanja ili plaćanje unaprijed
 
@@ -49,6 +51,3 @@ To se može vidjeti u rešetki **Primijenjene akontacije i predujmovi** na stran
 | Iskorišteni iznos | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo je polje samo za čitanje i daje izračunanu vrijednost koja sažima koliko je akontacije ili predujma upotrijebljeno. | Ovo se polje može prikazati klijentu na ispisanom računu kako bi se naznačio iznos iz te akontacije ili predujma koji je već upotrijebljen. |
 | Prošireni iznos | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo se polje može uređivati i pruža iznos akontacije ili predujma koji je upotrijebljen na ovoj fakturi za projekt. Ovaj iznos ne može biti veći od onoga što je dostupan na predujmu. Sustav to automatski izračunava kao razliku između polja **Iznos** i **Upotrijebljeni iznos** na rešetki. Možete smanjiti ovaj iznos kako biste upotrijebili manje od onoga što je dostupno, ali ne možete povećati iznos kako biste upotrebljavali više od onoga što je dostupno. | Ovo se polje može prikazati klijentu na ispisanom računu kako bi se naznačio iznos iz te akontacije ili predujma koji se upotrebljavao na fakturi. |
 | Iznos salda akontacije. | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo je polje samo za čitanje i pruža vrijednost preostalog dijela akontacije ili predujma nakon potvrde fakture. | Ovo se polje može prikazati klijentu na ispisanom računu kako bi se naznačio iznos koji će preostati iz te akontacije ili predujma nakon što se faktura potvrdi i plati. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

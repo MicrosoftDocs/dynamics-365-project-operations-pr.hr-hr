@@ -2,26 +2,28 @@
 title: Upravljanje projektom i pregled računovodstva
 description: Funkcije upravljanja projektom i računovodstvom mogu se upotrebljavati u više industrija kako bi se pružile usluge, proizveli proizvodi ili postigli rezultati.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007497"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073531"
 ---
 # <a name="project-management-and-accounting-overview"></a>Upravljanje projektom i pregled računovodstva
 
@@ -34,14 +36,14 @@ Projekt čini grupa aktivnosti koja je oblikovana za pružanje usluge, proizvodn
 ## <a name="projects-across-industries"></a>Projekti u različitim industrijama
 Funkcije upravljanja projektima i računovodstva mogu se upotrebljavati u više industrija, kao što je prikazano na sljedećoj slici.
 
-[![Projekti u različitim industrijama.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekti u različitim industrijama](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Karta se u pozivnom centru može upotrebljavati za opisivanje skupa radnji koje su potrebne za rješavanje poziva. Savjetodavne tvrtke, poput organizacija za upravljanje ili tehničko savjetovanje ili reklamnih agencija, svoje aktivnosti nazivaju projektima. U marketingu kampanja predstavlja skup poslova koji se moraju obaviti. U proizvodnji koja se temelji na projektu, proizvodni nalog odnosi se na različite poslove koji se moraju obaviti za proizvodnju nekih gotovih proizvoda. Bez obzira na naziv koji se za njih upotrebljava, ti projekti uključuju resurse, rasporede i troškove, a funkcije upravljanja projektima i računovodstva mogu pomoći u planiranju, izvršenju i analizi tih projekata.
 
 ## <a name="project-phases"></a>Faze projekta
 Iako je sljedeći tijek procesa usmjeren prema vanjskim projektima ili projektima koji su dovršeni za jednog ili više klijenata, funkcionalnost se također odnosi na interne projekte koji su samo trošak. 
 
-![Tri faze projekta.](./media/3-stages-of-a-project.png) 
+![Tri faze projekta](./media/3-stages-of-a-project.png) 
 
 Kako je prikazano na prethodnoj slici, upravljanje projektima i računovodstvo mogu se podijeliti u tri faze:
 
@@ -50,7 +52,7 @@ Kako je prikazano na prethodnoj slici, upravljanje projektima i računovodstvo m
 3.  Analiziranje
 
 ## <a name="initiate-the-project"></a>Pokretanje projekta
-Tijekom pokretanja projekta događa se nekoliko ključnih procesa. Ponudu projekata možete upotrijebiti kako biste klijentu priopćili procijenjeni rad, izdatke i materijale. Uvjete naplate, ograničenja i ugovore možete zabilježiti u ugovoru o projektu. Za planiranje i procjenu posla možete upotrijebiti strukturnu analizu rada (WBS, Work Breakdown Structure). Možete postaviti predviđanja i proračune koji će voditi izvršenju projekta. Sljedeća slika prikazuje strukturu projekta.[![struktura projekta.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Tijekom pokretanja projekta događa se nekoliko ključnih procesa. Ponudu projekata možete upotrijebiti kako biste klijentu priopćili procijenjeni rad, izdatke i materijale. Uvjete naplate, ograničenja i ugovore možete zabilježiti u ugovoru o projektu. Za planiranje i procjenu posla možete upotrijebiti strukturnu analizu rada (WBS, Work Breakdown Structure). Možete postaviti predviđanja i proračune koji će voditi izvršenju projekta. Sljedeća slika prikazuje strukturu projekta. [![struktura projekta](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Stvaranje ponuda projekta
 
@@ -114,7 +116,7 @@ U financijama možete stvoriti šest vrsta projekata. Svaka vrsta projekta posta
 
 ### <a name="assign-workers-categories-and-resources"></a>Dodjela radnika, kategorija i resursa
 
-Resurse za radnike možete rasporediti na temelju zahtjeva i rasporeda projekta ili na osnovi vještina i dostupnosti radnika. Uporabom mogućnosti raspoređivanja resursa možete učinkovito i djelotvorno rasporediti radnike svoje tvrtke ili ustanove. Možete brzo pronaći najkvalificiranije radnike koji su dostupni za rad na vašem projektu. Također možete lako vidjeti kako bi se ti radnici mogli učinkovitije upotrijebiti tijekom projekta. 
+Resurse za radnike možete rasporediti na temelju zahtjeva i rasporeda projekta ili na osnovu vještina i dostupnosti radnika. Uporabom mogućnosti raspoređivanja resursa možete učinkovito i djelotvorno rasporediti radnike svoje tvrtke ili ustanove. Možete brzo pronaći najkvalificiranije radnike koji su dostupni za rad na vašem projektu. Također možete lako vidjeti kako bi se ti radnici mogli učinkovitije upotrijebiti tijekom projekta. 
 
 Evo nekoliko načina na koje možete upotrijebiti funkciju raspoređivanja resursa:
 
@@ -203,7 +205,7 @@ Možete naručiti stavke iz inventara tvrtke kako biste ih utrošili na projektu
 
 Način naručivanja artikala ovisi o tome odakle ih naručujete:
 
--   Kako biste naručili stavke iz zaliha tvrtke, morate unijeti narudžbu kao zahtjev za stavkom. Ako upotrebljavate stranicu **Zahtjevi za stavkom**, možete postaviti zahtjev tako da stavke primate kao djelomične isporuke. Stoga možete odgoditi potrošnju neke količine artikala dok stavke nisu potrebne.
+-   Kako biste naručili stavke iz zaliha tvrtke, morate unijeti narudžbu kao zahtjev za stavkom. Ako upotrebljavate stranicu **Zahtjevi za stavkom**, možete postaviti zahtjev tako da stavke primate kao djelomične isporuke.Stoga možete odgoditi potrošnju neke količine artikala dok stavke nisu potrebne.
 -   Kako biste naručili stavke od vanjskog dobavljača, morate stvoriti narudžbu kao narudžbenicu na stranici **Narudžbenica**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ Vrsta projekta određuje koji postupak fakturiranja treba primijeniti. Fakturira
 Prije nego što klijentu stvorite fakturu za projekt, možete stvoriti preliminarnu fakturu ili prijedlog fakture. U prijedlogu fakture možete odabrati transakcije projekta koje ćete uključiti u fakturu projekta. Zatim možete pregledati pojedinosti fakture prije nego što fakturu projekta proknjižite i pošaljite klijentu ili drugom izvoru financiranja. 
 
 
-Dodatne informacije o načinu obrade faktura za projekt potražite u članku [Fakturiranje za projekt](/dynamics365/finance/accounts-payable/project-invoicing).
+Dodatne informacije o načinu obrade faktura za projekt potražite u članku [Fakturiranje za projekt](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Izračunavanje troškova za dovršetak projekta
@@ -298,7 +300,7 @@ Na temelju vaših postavki možete predvidjeti novčane priljeve za odabrani pro
 -   **Datum projekta:** 5. ožujka 2012.
 -   **Datum fakture:** 31. ožujka 2012. Taj se datum određuje na temelju učestalosti faktura. U ovom primjeru učestalost faktura postavljate na trenutačni mjesec. Stoga se sve transakcije koje su knjižene u mjesecu ožujku fakturiraju posljednjeg dana u mjesecu.
 -   **Datum dospijeća:** 14. travnja 2012. Taj se datum određuje na temelju uvjeta plaćanja koji su postavljeni za projekt. Za ovaj ste primjer odabrali uvjete plaćanja od 14 dana. Stoga se datumu fakture dodaje 14 dana te je rok dospijeća 14. travnja 2012.
--   **Očekivani datum plaćanja:** 27. travnja 2012. Ovaj se datum izračunava dodavanjem broja dana u polje **Općeniti dani odgode** na stranici **Parametri za upravljanje projektom i računovodstveni parametri** na broj dana u polju **Pojedinačni dani odgode** na stranici **Ugovori o projektu**, a zatim dodavanjem ukupnog iznosa broju dana u polju **Datum dospijeća**. Za ovaj ste primjer unijeli brojku **3** u polje **Općeniti dani odgode** i brojku **10** u polje **Pojedinačni dani odgode**. Stoga se datumu dospijeća dodaje 13 dana te je očekivani rok plaćanja 27. travnja 2012.
+-   **Očekivani datum plaćanja:** 27. travnja 2012. Ovaj se datum izračunava dodavanjem broja dana u polje **Općeniti dani odgode** na stranici **Parametri za upravljanje projektom i računovodstveni parametri** na broj dana u polje **Pojedinačni dani odgode** na stranici **Ugovori o projektu**, a dodavanjem ukupnog iznosa broju dana u polju **Datum dospijeća**. Za ovaj ste primjer unijeli brojku **3** u polje **Općeniti dani odgode** i brojku **10** u polje **Pojedinačni dani odgode**. Stoga se datumu dospijeća dodaje 13 dana te je očekivani rok plaćanja 27. travnja 2012.
 
 Općeniti dani odgode mogu ili zamijeniti pojedinačne dane odgode ili se dodati pojedinačnim danima odgode:
 
@@ -438,6 +440,3 @@ Nakon izračuna izvoda, na raznim karticama na stranici **Projektni izvodi** mo�
 -   **Potrošnja** – Informacije o potrošenim satima, predmetima, izdacima i transakcijama platnog spiska.
 -   **Faktura** – Podaci o fakturama i djelomičnom fakturiranju.
 -   **Satnica** – Satnice za sate rada koji se knjiže na račune prihoda i troška.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Uvoz i održavanje transakcija kreditnim karticama
 description: U ovoj se temi objašnjava način uvoza i održavanja transakcija kreditne kartice povezane s troškovima. Te se transakcije mogu postaviti tako da se automatski uvoze po ponavljajućem rasporedu ili se prema potrebi mogu ručno uvesti.
 author: KimANelson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -16,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995842"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271569"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Uvoz i održavanje transakcija kreditnim karticama
 
 Transakcije kreditne kartice povezane s troškovima mogu se postaviti tako da se automatski uvoze ponavljajućim rasporedom. Alternativno, transakcije se prema potrebi mogu ručno uvesti. Transakcije kreditnom karticom uvoze se putem entiteta s podacima o transakcijama kreditnim karticama.
 
-Dodatne informacije o entitetima podataka potražite u članku [Entiteti podataka](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Dodatne informacije o entitetima podataka potražite u članku [Entiteti podataka](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Uvoz transakcija kreditnom karticom
 
@@ -38,7 +40,7 @@ Dodatne informacije o entitetima podataka potražite u članku [Entiteti podatak
 5. Nakon što je datoteka prenesena, provjerite valjanost mapiranja datoteke s transakcijama kreditne kartice i stupaca entiteta podataka o transakcijama kreditnom karticom odabirom veze **Prikaz karte** na pločici. Ako postoje pogreške mapiranja ili ako morate promijeniti mapiranje, napravite promjene mapiranja ili iz kartice **Vizualizacija mapiranja** ili iz kartice **Pojedinosti mapiranja**.
 6. Kako biste automatizirali transakcije kreditnom karticom, odaberite mogućnost **Stvori posao ponavljajućih podataka**. Tada možete postaviti ponavljanje koje definira učestalost uvoza transakcija kreditnom karticom. Kada dovršite, odaberite **U redu**.
 7. Kako biste odmah uvezli odabranu datoteku, odaberite **Uvoz**.
-8. Ako se tijekom uvoza pojave pogreške, možete pregledati zapis izvršavanja ili pripremne podatke kako biste vidjeli pogreške koje morate ispraviti kako biste zajamčili uspješan uvoz.
+8. Ako se tijekom uvoza pojave pogreške, možete pregledati zapis izvršavanja ili podatke o fazama kako biste vidjeli pogreške koje morate ispraviti kako biste zajamčili uspješan uvoz.
 
 > [!NOTE]
 > Ako morate uvesti više oblika datoteke, morate stvoriti zasebne poslove uvoza za svaku vrstu oblika.

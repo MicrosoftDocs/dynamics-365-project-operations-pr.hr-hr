@@ -2,10 +2,12 @@
 title: Fakturiranje u sustavu Project Service Automation
 description: Ova tema pruža informacije o fakturiranju.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985492"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151379"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturiranje u sustavu Project Service Automation
 
@@ -50,7 +52,7 @@ Poduzmite ovaj korak da biste stvorili fakturu za određeni ugovor projekta.
 
 - Na stranici popisa **Ugovori projekta** otvorite ugovor o projektu, a zatim odaberite **Stvori fakturu.**
 
-    ![Stvaranje faktura projekta za određeni ugovor projekta.](media/CreateProjectInvoicesOneByOne.png)
+    ![Stvaranje faktura projekta za određeni ugovor projekta](media/CreateProjectInvoicesOneByOne.png)
 
     Faktura se generira za sve transakcije za odabrani ugovor projekta koje imaju status **Spremno za fakturiranje**. Te transakcije uključuju vrijeme, troškove, kontrolne točke i retke ugovora temeljene na proizvodu.
 
@@ -58,7 +60,7 @@ Poduzmite ove korake da biste skupno stvorili fakture.
 
 1. Na stranici popisa **Ugovori projekta** odaberite jedan ili više ugovora projekta za koje morate stvoriti fakturu, a zatim odaberite **Stvori fakture projekta**.
 
-    ![Skupno stvaranje faktura projekta.](media/CreateProjectInvoicesBulk.png)
+    ![Skupno stvaranje faktura projekta](media/CreateProjectInvoicesBulk.png)
 
     Poruka upozorenja obavještava vas da je moguća odgoda prije stvaranja faktura. Prikazan je i postupak.
 
@@ -115,6 +117,3 @@ Kada potvrdite ispravljenu fakturu, izvorni naplaćeni stvarni podatak o prodaji
 
 - Naplaćeni stvarni podatak o prodaji za šest sati.
 - Nenaplaćeni stvarni podatak o prodaji za preostala dva sata. Ova transakcija može biti naplaćena kasnije ili označena kao nenaplativa, ovisno o pregovorima s klijentom.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Upotreba kategorije transakcija kao dimenzije cijena
 description: Ovaj tema pruža informacije o upotrebi kategorije transakcije kao dimenzije cijena.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988840"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150749"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Upotreba kategorije transakcija kao dimenzije cijena
 
@@ -51,6 +53,3 @@ Sljedeća tablica sveobuhvatan je popis unaprijed pripremljenih obrazaca i prika
 2. Na stranici **Parametri**, na kartici **Dimenzije cijena utemeljene na iznosu**, primijetite da rešetka na kartici prikazuje zapise u entitetu **Dimenzije cijena**.
 3. Dodajte **Kategorija transakcije** na ovaj popis i postavite polja **Primjenjivo na trošak** i **Primjenjivo na prodaju** na **Da**.
 4. U polju **Vrsta dimenzije** odaberite **Utemeljeno na iznosu**, a zatim odaberite prioritet za **kategoriju transakcije** koja je povezana s troškom i prodajom.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

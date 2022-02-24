@@ -2,9 +2,11 @@
 title: Definiranje pravila koja reguliraju troškove
 description: Možete definirati pravila koja reguliraju troškove kojih se vaši radnici moraju pridržavati tijekom unosa i podnošenja izvješća o troškovima i putnih naloga.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986347"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128409"
 ---
 # <a name="define-expense-policies"></a>Definiranje pravila koja reguliraju troškove
 
@@ -51,6 +53,3 @@ Evo nekoliko prijedloga koji vam mogu pomoći pri stvaranju novih pravila za upr
 ## <a name="when-to-evaluate-policies"></a>Vrijeme za procjenu pravila
 
 U parametrima upravljanja troškovima možete odabrati procjenu pravila upravljanja troškovima kada je redak spremljen ili izvješće o troškovima podneseno. Ako odlučite na procjenu kada se redak spremi, korisnici će imati raniji uvid u ono što trebaju učiniti kako bi odjednom dovršili svoje izvješće o troškovima. U suprotnom, možete odgoditi procjenu pravila i uštedjeti vrijeme provjerom valjanosti na kraju, tijekom slanja u tijek rada.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Zatvaranje ponude
 description: U ovoj temi nalaze se informacije o zatvaranju ponuda u aplikaciji Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993412"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124674"
 ---
 # <a name="close-a-quote"></a>Zatvaranje ponude
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Ponuda projekta mogu se zatvoriti kao ostvarene ili neostvarene. Budući da funkcije Aktivacija i Revizija nisu podržane u ponudi u aplikaciji Microsoft Dynamics 365 Project Operations, skicu ponude možete zatvoriti.
+Ponuda projekta mogu se zatvoriti kao ostvarene ili neostvarene. Budući da funkcije aktiviranja i revizije nisu podržane u aplikaciji Microsoft Dynamics 365 Project Operations, nacrt ponude može zatvoriti.
 
 ## <a name="close-a-quote-as-won"></a>Zatvaranje ponude kao ostvarene
 
@@ -41,6 +43,3 @@ Ako ponuda projekta koja je zatvorena kao Izgubljena ima projekt naveden na neko
 
 > [!NOTE]
 > U aplikaciji Project Operations zatvaranje ponude kao Ostvarene ili Neostvarene neće utjecati na status Prilike, koji će ostati otvoren sve dok se ručno ne zatvori.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

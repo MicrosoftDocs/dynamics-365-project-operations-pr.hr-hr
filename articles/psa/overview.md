@@ -2,9 +2,10 @@
 title: Što je Dynamics 365 Project Service Automation?
 description: Uvod i pregled programa Project Service
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000252"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150524"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Što je Dynamics 365 Project Service Automation?
 
@@ -46,10 +47,10 @@ Osim toga, radi lakšeg nadzora i upravljanja troškovima zadataka utemeljenih n
 ## <a name="whats-new-in-psa"></a>Što je novo u u PSA-u?
 Tim se veseli najavi naših najnovijih ažuriranja! U rasponu od poboljšanja korisničkog sučelja, ispravljanja grešaka i dodavanja novih važnih značajki i mogućnosti. Tražili ste; uvažili smo.
 
-U članku [Napomene uz izdanje za listopad 2019.](/dynamics365-release-plan/2019wave2/index) potražite najnovija poboljšanja i dodatke.
+U članku [Napomene uz izdanje za listopad 2019.](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) potražite najnovija poboljšanja i dodatke.
 
 ### <a name="in-development"></a>U razvoju
-Kako biste saznali što planiramo u skoroj budućnosti, pročitajte članak [Dynamics 365: plan izdanja vala 1 za 2020.](/dynamics365-release-plan/2020wave1/index).
+Kako biste saznali što planiramo u skoroj budućnosti, pročitajte članak [Dynamics 365: plan izdanja 1. vala za 2020.](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Zatražite pomoć za verziju 3.x aplikacije PSA
 Tražite resurse da biste lakše planirali implementaciju? Pogledajte sljedeće vodiče koje možete preuzeti.
@@ -82,9 +83,6 @@ Tražite resurse da biste lakše planirali implementaciju? Pogledajte sljedeće 
  [Napomene za razvojne inženjere (verzija aplikacije 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Pogledajte dvominutni uvodni videozapis
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

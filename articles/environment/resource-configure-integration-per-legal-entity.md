@@ -2,22 +2,24 @@
 title: Konfiguriranje integracije aplikacije Project Operations po pravnoj osobi
 description: U ovoj temi nalaze se informacije o postavljanju integracije po pravnoj osobi u aplikaciji Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999397"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122874"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfiguriranje integracije aplikacije Project Operations po pravnoj osobi 
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovoj temi prolazite korake potrebne za konfiguriranje aplikacije Dynamics 365 Project Operations po pravnoj osobi.
+U ovoj temi upoznat ćete se s koracima potrebnim za konfiguriranje aplikacije Dynamics 365 Project Operations po pravnoj osobi.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Omogućivanje tipki značajki u aplikaciji Dynamics 365 Finance
 
@@ -49,6 +51,3 @@ Svaka pravna osoba koja upotrebljava aplikaciju Project Operations u sustavu Dyn
   - **Zadane postavke vrste naplate**: Project Operations upotrebljava fiksni skup zadanih postavki vrsta naplate koje se moraju mapirati u svojstva retka aplikacije Financije. Stvorite zapis za svaku vrstu naplate: **Nije specificirano**, **Naplativo**, **Nenaplativo**, **Besplatno** i **Nedostupno**.
   - **Zadane postavke kategorije projekta** : Odaberite zadane kategorije projekata koje će se upotrebljavati za svaku vrstu transakcije. Te će se zadane postavke upotrebljavati u stavci **Dnevnik integracije aplikacije Project Operations** i u procjenama kada za stvarni projekt nije navedena kategorija transakcije.
   - **Predviđanja**: Odaberite model predviđanja koji će se upotrebljavati za procjenu vremena i troškova.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

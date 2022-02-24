@@ -2,9 +2,11 @@
 title: Mobilna aplikacija Project Timesheet
 description: U ovoj se temi nalaze informacije o mobilnoj aplikaciji Microsoft Dynamics 365 Project Timesheet. Mobilna aplikacija Project Timesheet omogućuje korisnicima slanje i odobravanje evidencija radnog vremena za projekte na mobilnom uređaju.
 author: abruer
+manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997192"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073561"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilna aplikacija Project Timesheet
 
@@ -94,6 +96,3 @@ Kliknite **Pošalji** za slanje evidencije radnog vremena u tijek rada za odobre
 ## <a name="review-timesheets"></a>Pregledavanje evidencija radnog vremena
 
 Popis evidencija radnog vremena koje treba pregledati dostupan je u izborniku. Ova je mogućnost dostupna samo ako ste određeni za odobravatelja tijeka rada. Podržani su i zaglavlje i redak odobrenja. Odobrenje na razini retka nudi mogućnost označavanja jednog ili više redaka za odobrenje. Nakon pregleda podataka iz evidencije o radnom vremenu, kliknite **Odobri**, **Delegiraj** ili **Povratak** kako biste nastavili tijeka rada.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

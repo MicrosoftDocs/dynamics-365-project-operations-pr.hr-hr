@@ -2,9 +2,11 @@
 title: Projektni prodajni nalozi za vremenske i materijalne projekte
 description: U ovoj se temi objašnjava način stvaranja prodajnih naloga na temelju projekata za vremenske i materijalne projekte.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992827"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073373"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projektni prodajni nalozi za vremenske i materijalne projekte
 
@@ -39,6 +41,3 @@ Prodajne naloge na temelju projekta možete stvoriti na dva načina:
 - Idite na sam projekt. U Oknu radnji odaberite **Upravljanje > Zadaci stavke > Prodajni nalog**. Podaci o projektu zadavat će se prodajnom nalogu iz projekta. Ako ugovor o projektu ima više izvora financiranja, morat ćete odabrati izvor financiranja kako biste postavili klijenta za prodajni nalog. Ako postoji samo jedan izvor financiranja projekta, klijent će se automatski postaviti.
 - Idite na stranicu s popisom **Svi prodajni nalozi** i stvorite novi prodajni nalog. Morat ćete odabrati projekt za prodajni nalog. Nakon odabira projekta postavit će se klijent iz izvora financiranja ili, ako ugovor o projektu ima više izvora financiranja, morat ćete odabrati izvor financiranja.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

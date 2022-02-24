@@ -2,9 +2,11 @@
 title: Upravljanje cjenicima za projekt u ponudi
 description: U ovoj se temi nalaze se informacije o entitetu cjenika za projekt.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003897"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177187"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Upravljanje cjenicima za projekt u ponudi
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Dynamics 365 Project Operations proširuje entitet Cjenik u sustavu Dynamics 365 Sales. 
+Dynamics 365 Project Operations proširuje entitet cjenika u aplikaciji Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Ključni entiteti
 
@@ -118,6 +120,3 @@ Kao što je slučaj kod stopa naplaćivanja, stope troškova za ljudske resurse 
     1. Cjenik troškova koji je priložen organizacijskoj jedinici.
     2. Cjenik troškova koji je priložen parametrima aplikacije Project Operations. Budući da se cjenik troškova u mnogim različitim valutama može priložiti parametrima, dovršavanje usklađivanja valute između valute ugovorne organizacijske jedinice projekta, ugovora ili ponude te valute cjenika troškova.
     3. Za troškove, načini određivanja cijena po troškovima i marži troškova ne primjenjuju se za cjenik troškova. Čak i ako se ti načini određivanja cijena koriste u recima cjenika troškova za postavljanje troškova po kategoriji transakcije, sustav ih ignorira i ne unosi se zadana cijena troška.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Stvaranje strukturne analize rada
 description: U ovoj se temi objašnjava način stvaranja strukturna analize rada (WBS, work breakdown structure) koja uključuje osnovne kontrole u novom sučelju za planiranje.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: MT
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928606"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841316"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Stvaranje strukturne analize rada (WBS)
 
@@ -91,15 +93,13 @@ Sljedeća tablica prikazuje dodatne atribute rasporeda.
 | Ime | Naziv zadatka. |
 | ID | ID zadatka u strukturnoj analizi rada. |
 
-Kao administrator možete definirati prilagođena polja na entitetu zadatka. Međutim, polja se ne mogu prikazati na rešetki rasporeda. Kako biste vidjeli svoja prilagođena polja, dodajte ih na stranicu s pojedinostima **Projektni zadatak**.
-
 ## <a name="staffing-attributes"></a>Atributi broja djelatnika
 
-Atributima broja djelatnika pristupa se putem polja **Resursi** u rasporedu. Možete pretražiti postojeći resurs ili odabrati **Stvori** i u oknu **Brzo stvaranje** dodati člana projektnog tima kao novi resurs.  Kada tražite resurs pomoću birača resursa u rešetki zadatka, prikazu ploče ili ganttu, pretraživanje vraća postojeće članove projektnog tima ili aktivne resurse koje je moguće rezervirati.
+Atributima broja djelatnika pristupa se putem polja **Resursi** u rasporedu. Možete pretražiti postojeći resurs ili odabrati **Stvori** i u oknu **Brzo stvaranje** dodati člana projektnog tima kao novi resurs.
 
 Polja **Uloga**, **Jedinica za resurse** i **Naziv položaja** koriste se za opisivanje zahtjeva za broj djelatnika za zadatak. Ti atributi broja djelatnika zajedno s rasporedom zadataka koriste se za pronalaženje dostupnih resursa za taj zadatak.
 
-   - **Uloga** : Navedite vrstu resursa koja je potrebna za obavljanje zadatka.,
+   - **Uloga**: Navedite vrstu resursa koji je potreban za izvršavanje zadatka.
    - **Jedinica za resurse**: Navedite jedinicu iz koje je potrebno dodijeliti resurse za zadatak. Taj atribut utječe na procjenu troška i prodaje za zadatak ako su troškovi i stopa naplate za resurs postavljeni na temelju jedinica za resurse.
    - **Naziv položaja**: Unesite naziv za generički resurs koji služi kao rezervirano mjesto za resurs koji će u konačnici obaviti posao.
 
@@ -116,28 +116,3 @@ Način zadatka ne utječe na ažuriranja izvršena na datum početka i datum zav
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Tipkovni prečaci i pristupačnost
 
 Rešetka **Raspored** potpuno je dostupna i može se koristiti s čitačima zaslona kao što su Narrator, JAWS ili NVDA. Možete se kretati područjem rešetke s pomoću tipki sa strelicama (kao u programu Microsoft Excel), možete upotrebljavati tipku Tab za kretanje interaktivnim elementima korisničkog sučelja i možete upotrebljavati tipku sa strelicom dolje, tipku Unos ili razmaknicu za odabir i otvaranje padajućih izbornika.
-
-## <a name="project-limitations"></a>Ograničenja projekta 
-Ako upotrebljavate strukturna analizu rada u aplikaciji Project Operations, trebali biste biti svjesni ograničenja u nastavku. Ova ograničenja vrijede za projekte i zadatke. Dodatne informacija potražite u odjeljku [Project for the web – ograničenja i granice](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Polje**                                          |  **Ograničenje**           |
-|----------------------------------------------------|----------------------|
-| Maksimalan ukupan broj zadataka projekta                  | 500                  |
-| Maksimalno ukupno trajanje projekta               | 3650 dana (10 godina) |
-| Maksimalni ukupni resursi projekta              | 150                  |
-| Maksimalan broj veza (samo slijednik) za projekt | 600                  |
-| Maksimalna ukupna prilagođena polja za projekt          | 1,0                   |
-| Maksimalan broj stavki kontrolnog popisa po zadatku                   | 20                   |
-
-**Ograničenja zadatka**
-
-| **Polje**                               |   **Ograničenje**           |
-|-----------------------------------------|-----------------------|
-| Maksimalna razina hijerarhije                 | 10 razina             |
-| Maksimalan broj veza (slijednik + prednik) | 20                    |
-| Maksimalno trajanje zadatka lista           | 1250 dana             |
-| Maksimalno trajanje sažetog zadatka      | 3650 dana (10 godina)  |
-| Maksimalni resursi dodijeljeni zadatku    | 20 resursa          |
-| Podržani datumski raspon za zadatak         | 01. 01. 2000. – 31. 12. 2149. |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

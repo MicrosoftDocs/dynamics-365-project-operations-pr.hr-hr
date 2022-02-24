@@ -2,6 +2,8 @@
 title: Korisnički vodič za središte resursa projekata
 description: Korisnički vodič za središte resursa projekata za Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987247"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948125"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Korisnički vodič za središte resursa projekata
 
@@ -52,28 +54,28 @@ Da biste mogli početi koristiti aplikaciju središta resursa projekata, trebate
 1.  Kada se prijavite u mobilnu aplikaciju, vidjet ćete stranicu MyApps s popisom aplikacija kojima pristupate. 
 2.  Odaberite **središte za Project Resource**.
 
-![Odaberite aplikaciju.](media/chooseApp_1.png "Biranje aplikacije")
+![Biranje aplikacije](media/chooseApp_1.png "Biranje aplikacije")
 
 **Navigacijska traka**
 
-Koristite navigacijsku traku za pristup radnom području, stvaranje novog zapisa, pretraživanje ili druge zadatke. Kako biste pristupili dodatnim naredbama, dodirnite ![Gumb Više.](media/MoreButton.png "Gumb Više")
+Koristite navigacijsku traku za pristup radnom području, stvaranje novog zapisa, pretraživanje ili druge zadatke. Da biste pristupili dodatnim naredbama, dodirnite ![Gumb Više](media/MoreButton.png "Gumb Više")
 
-![Navigacijska traka.](media/NavBar_2.png "Navigacijska traka")
+![Navigacijska traka](media/NavBar_2.png "Navigacijska traka")
 
 **Favoriti i nedavno korišteni zapisi**
 
 Favoriti i nedavno korištene sekcije nude brz pristup zapisima, prikazima i nadzornim pločama. 
 
-- Za pristup tim odjeljcima dodirnite **Izbornik** ![Gumb Izbornika.](media/MenuButton.png "Gumb izbornika") gumb na navigacijskoj traci, a zatim dodirnite gumb **Favoriti i Nedavno** ![Gumb Fav](media/FavButton.png "Gumb Favoriti").
+- Za pristup tim sekcijama dodirnite gumb **Izbornik** ![gumb Izbornik](media/MenuButton.png "Gumb izbornika") na navigacijskoj traci, a zatim dodirnite gumb **Favoriti i nedavno** ![gumb Favoriti](media/FavButton.png "Gumb Favoriti").
 
 - Za prikvačivanje stavke kao favorita s popisa **Nedavno korišteno** dodirnite pribadaču. Ovo će zakvačiti i premjestiti stavku u Favorite.
 
-  ![Favoriti i Nedavno korištene stavke.](media/Favs_3.png "Favoriti i Nedavno korištene stavke")
+  ![Favoriti i Nedavno korištene stavke](media/Favs_3.png "Favoriti i Nedavno korištene stavke")
  
-## <a name="enter-time"></a>Unos vremena
+## <a name="enter-time"></a>Unesi vrijeme
 Sate unosite najmanje tjedno ili onoliko često koliko to traže vaši upravitelji da biste osigurali ispravno izdavanje faktura klijentima i isplatu.
 
-1. Dodirnite izbornik ![Gumb Izbornika.](media/MenuButton.png "Gumb izbornika") gumb, a zatim dodirnite **Vremenski unosi**. To pokreće kalendar.
+1. Dodirnite gumb izbornika ![gumb izbornika](media/MenuButton.png "Gumb izbornika"), a zatim dodirnite **Unosi vremena**. To pokreće kalendar.
 
 2. Kliknite **Prethodno** ili **Sljedeće** da biste vidjeli svoj kalendar za prethodni ili sljedeći tjedan. Kliknite **Danas** da biste se vratili na trenutni tjedan.
 

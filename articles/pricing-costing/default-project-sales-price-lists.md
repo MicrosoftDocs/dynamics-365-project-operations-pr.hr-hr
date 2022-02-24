@@ -2,16 +2,18 @@
 title: Zadani cjenici
 description: U ovoj temi nalaze se informacije o zadanim prodajnim cjenicima i cjenicima troškova u aplikaciji Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989857"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130929"
 ---
 # <a name="default-price-lists"></a>Zadani cjenici
 
@@ -19,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 ## <a name="sales-price-lists"></a>Prodajni cjenici
 
-Svaka projektna ponuda i ugovor u aplikaciji Dynamics 365 Project Operations sadrži zadani prodajni cjenik. 
+Svaka ponuda i ugovor za projekt u aplikaciji Dynamics 365 Project Operations sadrži zadani prodajni cjenik. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Zadani cjenik za ponude projekata
 Sustav dovršava sljedeći postupak kako bi odredio koji će cjenik zadati za ponudu projekta:
@@ -55,6 +57,3 @@ Cjenici troškova ne zadaju nijedan entitet u aplikaciji Project Operations. Utv
 5. Nadalje, sustav pregledava datum mjerodavnosti cjenika koji se podudaraju s datumom retka ulazne procjene ili stvarnih podataka. 
 6. Ako postoji više cjenika koji vrijede za datum na ulaznoj procjeni ili stvarnim podacima, odabire se najnoviji izrađeni cjenik.
 7. Ako uz parametre projekta nisu priloženi cjenici troškova koji se podudaraju s valutom i datumom stupanja na snagu, sustav za redak ulazne procjene ili stvarnog podatka zadaje cijene koštanja na nulu (0).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

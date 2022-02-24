@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002952"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993137"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Kako mogu prilagoditi tijek poslovnog procesa faza projekta?
 
@@ -60,11 +60,11 @@ Ako nemate mogućnost nadogradnje, možete prilagoditi tijek poslovnog procesa f
 1. Dodajte dodatne faze zadanoj konfiguraciji bez mijenjanja engleskih naziva faza za **Quote**, **Plan** i **Close**.
 
 
-![Slnimka zaslona dodavanja faza zadanoj konfiguraciji.](media/FAQ-Customize-BPF-1.png)
+![Slnimka zaslona dodavanja faza zadanoj konfiguraciji](media/FAQ-Customize-BPF-1.png)
  
 2. Stvorite vlastiti tijek poslovnog procesa i učinite ga primarnim tijekom poslovnog procesa za entitet projekta, nakon čega ćete moći imati kakve god želite nazive faza. Međutim, ako želite koristiti iste standardne faze projekta **Quote**, **Plan** i **Close**, morate odraditi odrađena prilagođavanja radi prilagođenih naziva faza. Složenija logika je u zatvaranju projekta, a možete ju pokrenuti i samim deaktiviranjem zapisa projekta.
 
-![Prilagođavanje BPF-a.](media/FAQ-Customize-BPF-2.png)
+![BFP prilagođavanje](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Dodatne napomene za verziju 2.4.4.30 ili starije verzije aplikacije Project Service na platformi 9.0
 
@@ -80,11 +80,11 @@ Slijedite sljedeće korake da biste stvorili vlastiti tijek poslovnog procesa za
 
 1. Idite na **Postavke** > **Procesni centar**. Nemojte kopirati tijek poslovnog procesa faza projekta jer time ćete kopirati i poslovnu logiku aplikacije Project Service.
 
-  ![Postupak stvaranja.](media/FAQ-Customize-BPF-3.png)
+  ![Postupak stvaranja](media/FAQ-Customize-BPF-3.png)
 
 2. Koristite dizajnera procesa za stvaranje naziva faza koje želite. Ako želite iste funkcije koje imaju zadane faze za **Quote**, **Plan** i **Close**, morat ćete to stvoriti na temelju prilagođenih naziva faza tijeka poslovnog procesa.
 
-   ![Snimka zaslona dizajnera postpka koji se upotrebljava za prilagodbu BPF-a.](media/FAQ-Customize-BPF-4.png) 
+   ![Snimka zaslona dizajnera procesa koji se koristi za prilagođavanje BPF-a](media/FAQ-Customize-BPF-4.png) 
 
 3. U dizajneru procesa kliknite **Narudžba tijeka procesa** da biste prilagođeni tijek poslovnog procesa učinili primarnim tijekom poslovnog procesa za entitet projekta time što ćete ga premjestiti na vrh popisa iznad tijeka poslovnog procesa faza projekta.
 
@@ -95,15 +95,15 @@ Slijedite sljedeće korake da biste stvorili vlastiti tijek poslovnog procesa za
 
 4. Dodajte novo prilagođeno polje entitetu projekta da biste zabilježili prilagođene faze u prilagođenom poslovnom procesu. Morat ćete dodati poslovnu logiku (dodatak/tijek rada) da biste ažurirali ovo polje kada ažurirate fazu u prilagođenom tijeku poslovnog procesa.
 
-   ![Snimka zaslona prilagodbe entiteta projekta.](media/FAQ-Customize-BPF-6-720.png)
+   ![Snimka zaslona prilagođavanja entiteta projekta](media/FAQ-Customize-BPF-6-720.png)
 
 5. Izmijenite grafikon **Projekat po fazi** da biste koristili novo prilagođeno polje za faze.
 
-   ![Snimka zaslona uporabe grafikona Projekt po fazama.](media/FAQ-Customize-BPF-7-720.png)
+   ![Snimka zaslona korištenja grafikona projekta po fazi](media/FAQ-Customize-BPF-7-720.png)
 
 6. Izmijenite bilo koje prikaze za entitet projekta da biste uključili novo prilagođeno polje za faze.
 
-   ![Snimka zaslona mijenjanja prikaza na entitetu projekta.](media/FAQ-Customize-BPF-8-720.png)
+   ![Snimka zaslona mijenjanja prikaza na entitetu projekta](media/FAQ-Customize-BPF-8-720.png)
 
 
 

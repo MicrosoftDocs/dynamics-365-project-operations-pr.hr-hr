@@ -2,16 +2,18 @@
 title: Upravljanje s više klijenata u ponudi projekta
 description: U ovoj temi nalaze se informacije o radu s ponudama koje uključuju više klijenata koji će financirati projekt.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991972"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181983"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Upravljanje s više klijenata u ponudi projekta
 
@@ -21,7 +23,7 @@ Ponude projekata podržavaju scenarij u kojem prijedlog uključuje više klijena
 
 Svi klijenti ponude na kartici **Klijenti** ponude projekta zadani su kao klijenti retka ponude na svakom **novom** retku ponude koji se temelji na projektu, a stvoren je za ponudu. Svaki postojeći redak ponude koji se temelji na projektu neće naslijediti nove zapise o klijentima stvorene nakon njih.
 
-Klijenti ponude i klijenti retka ponude mogu se dodati, ažurirati ili izbrisati u bilo kojem trenutku prije prihvaćanja ponude. Valjani klijent na ponudi mora biti postavljen kao klijent u tvrtki vlasnici ili pravnoj osobi na stranici **Klijenti**. Pravne su osobe postavljene u modul **Upravljanje projektima i računovodstvo** aplikacije Dynamics 365 Project Operations i dostupne su kao tvrtke u modulima **Prodaja i isporuka projekata** aplikacije Project Operations.
+Klijenti ponude i klijenti retka ponude mogu se dodati, ažurirati ili izbrisati u bilo kojem trenutku prije prihvaćanja ponude. Valjani klijent na ponudi mora biti postavljen kao klijent u tvrtki vlasnici ili pravnoj osobi na stranici **Klijenti**. Pravne osobe postavljene su u modul **Upravljanje projektima i računovodstvo** aplikacije Dynamics 365 Project Operations i dostupne su kao tvrtke u modulima **Prodaja i dostava projekta** aplikacije Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Koncept primarnog klijenta
 
@@ -49,6 +51,3 @@ Klijent ponude može se stvoriti, ažurirati ili izbrisati iz kartice **Klijenti
 Postotke podjele naplate možete urediti s pomoću iskustva uređivanja rešetke u retku. Kada postoci podjele naplate ne iznose 100 %, doći će do pogreške. Nakon što ažurirate postotke podjele naplate, osvježite stranicu kako biste uklonili pogrešku.
 
 Također možete pokušati odabrati mogućnost **Ravnomjerno rasporedi** na podrešetki ponude za klijenta. Ova radnja raspoređuje podjelu naplate na sve klijente iz ponude. Ako postoji faktor zaokruživanja, to će se dodati klijentu zaokruživanja. Jedan od klijenata iz ponude uvijek je označen kao klijent zaokruživanja. to znači da zapis klijenta iz ponude ima zastavicu **Zaokruživanje** postavljenu na **Da**. To je obično primarni klijent iz ponude, ali to se može promijeniti.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

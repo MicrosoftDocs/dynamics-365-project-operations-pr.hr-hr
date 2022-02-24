@@ -2,6 +2,8 @@
 title: Izradi organizacijske jedinice
 description: Kako izraditi organizacijske jedinice u programu Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e4df3775e802681c51d6d6491110419bea2a17d7e7694f0879417800b5a6db37
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f8d44254adc9fc1e35d39080e284ea6195bfa821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993682"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144719"
 ---
 # <a name="create-organizational-units-project-service"></a>Izradi organizacijske jedinice (Project Service)
 
@@ -50,6 +52,3 @@ Vaše poduzeće vjerojatno organizira svoje poslovno savjetovanje prema geografs
   
 ### <a name="see-also"></a>Također pogledajte  
  [Konfiguriraj sustav Project Service Automation](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

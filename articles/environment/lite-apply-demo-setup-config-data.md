@@ -2,16 +2,18 @@
 title: Primjena probnog postavljanja i konfiguracija podataka – jednostavno
 description: U ovoj temi nalaze se informacije o načinu primjene pokaznih postavki i konfiguracijskih podataka za aplikaciju Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993277"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089110"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Primjena podataka postavljanja pokazne verzije i konfiguracije za aplikaciju Project Operations – jednostavno 
 
@@ -26,31 +28,31 @@ Prije nego započnete konfiguriranje, morate imati okruženje platforme Common D
 
 ## <a name="instructions"></a>Upute
 
-1. Preuzmite [Paket glavnih podataka](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
-2. Dođite do mape *ProjOpsSampleSetupData – CE samo CMT* i pokrenite izvršnu datoteku *DataMigrationUtility*.
+1. Preuzmite [Paket glavnih podataka](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
+2. Pomaknite se do mape *ProjOpsDemoDataSetupAndMaster – Integrirani CMT* i pokrenite izvršnu datoteku *DataMigrationUtility*.
 3. Na 1. stranici Čarobnjaka za migraciju konfiguracije (CMT) platforme Common Data Service odaberite **Uvez podatke** a zatim **Nastavi**.
 
-    ![Migracija konfiguracije.](./media/1ConfigurationMigration.png)
+    ![Migracija konfiguracije](./media/1ConfigurationMigration.png)
 
 4. Na 2. stranici CMT čarobnjaka odaberite **Microsoft 365** kao **Vrstu implementacije**.
 5. Označite potvrdne okvire **Prikaži popis dostupnih tvrtki ili ustanova** i **Prikaži napredne**.
 6. Odaberite regiju svog klijenta, unesite svoje vjerodajnice, a zatim odaberite **Prijava**.
 
-   ![Konfiguracija prijave.](./media/2ConfigurationSignin.png)
+   ![Konfiguracija prijave](./media/2ConfigurationSignin.png)
 
 7. Na 3. stranici, s popisa tvrtki ili ustanova na klijentu odaberite u koju tvrtku ili ustanovu želite uvesti pokazne podatke, a zatim odaberite **Prijava**.
-8. Na 4. stranici odaberite zip datoteku *SampleSetupAndConfigData* iz raspakirane mape *ProjOpsSampleSetupData – CE samo CMT*.
+8. Na 4. stranici odaberite zip datoteku *MasterAndSetupData* iz raspakirane mape *ProjOpsDemoDataSetupAndMaster – Integrirani CMT*.
 
-   ![Zip datoteka.](./media/3ZipFile.png)
+   ![Zip datoteka](./media/3ZipFile.png)
 
-   ![Odabir datoteke.](./media/4SelectAFile.png)
+   ![Odaberite datoteku](./media/4SelectAFile.png)
 
 9. Nakon odabira zip datoteke odaberite **Uvezi podatke**.
 
-   ![Uvezite podatke.](./media/5ImportData.png)
+   ![Uvoz podataka](./media/5ImportData.png)
 
 10. Uvoz će se izvoditi otprilike dvije do deset minuta, ovisno o brzini vaše mreže. Po završetku izađite iz CMT čarobnjaka. 
-11. U svojoj tvrtki ili ustanovi provjerite podatke za sljedećih 18 entiteta:
+11. U svojoj tvrtki ili ustanovi provjerite podatke za sljedećih 20 entiteta:
 
     -   Valuta
     -   Kupac
@@ -71,7 +73,4 @@ Prije nego započnete konfiguriranje, morate imati okruženje platforme Common D
     -   Dodjela kategorije resursa kojeg je moguće rezervirati
     -   Značajka kategorije resursa koji je moguće rezervirati
 
-    ![Dovrši uvoz.](./media/6CompleteImport.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    ![Dovrši uvoz](./media/6CompleteImport.png)

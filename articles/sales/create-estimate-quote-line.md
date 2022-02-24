@@ -2,9 +2,11 @@
 title: Stvaranje procjena po retku ponude
 description: U ovoj se temi nalaze informacije o načinu stvaranja procjene na retku ponude za projekt.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996427"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122919"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Stvaranje procjena po retku ponude
 
@@ -28,7 +30,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Na ponudi koji se temelji na projektu, možete koristiti entitet pojedinost retka ponude za procjenu rada potrebnog za isporuku projekta. Tu procjenu zatim možete podijeliti s klijentom.
 
-Reci ponude koja se temelji na projektu ne moraju imati pojedinosti retka ponude. Alternativno, mogu imati mnogo pojedinosti retka ponude. Pojedinosti retka ponude koriste se za procjenu vremena, troškova ili naknada. Dynamics 365 Project Operations ne dopušta materijalne procjene na pojedinostima retka ponude. Oni se zovu razredi transakcije. Procijenjeni iznosi poreza također se mogu unijeti na razred transakcije.
+Reci ponude koja se temelji na projektu ne moraju imati pojedinosti retka ponude. Alternativno, mogu imati mnogo pojedinosti retka ponude. Pojedinosti retka ponude koriste se za procjenu vremena, troškova ili naknada. Dynamics 365 Project Operations ne dozvoljava procjene materijala u pojedinostima retka ugovora. Oni se zovu razredi transakcije. Procijenjeni iznosi poreza također se mogu unijeti na razred transakcije.
 
 Uz razrede transakcija, pojedinosti retka ponude imaju vrstu transakcije. Za pojedinosti retka ponude postoje dvije vrste transakcija, **Trošak** i **Ugovor o projektu**.
 
@@ -86,6 +88,3 @@ Ako ste dodali prilagođeno polje u pojedinost retka ponude i želite da sustav 
 7. Odaberite **U redu** da biste zatvorili dijaloški okvir, a zatim odaberite **Ažuriraj korak**.
 8. Ponovite korake od 1 do 7 za drugi dodatak.
 9. Zatvorite alat za registraciju dodataka.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

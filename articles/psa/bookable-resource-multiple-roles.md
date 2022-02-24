@@ -2,10 +2,12 @@
 title: Procjena prodaje i troškova projekta kada resurs koji se može rezervirati ispunjava više uloga za projekt
 description: U ovoj se temi pružaju informacije o načinu uporabe veličina za određivanje cijena za podršku određivanju cijena i troškova za resurs koji ispunjava više uloga u projektu.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987472"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145034"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Procjena prodaje i troškova projekta kada resurs koji se može rezervirati ispunjava više uloga za projekt 
 
@@ -60,18 +62,15 @@ Ponovite ove korake za zadatak B i provjerite da se uloga i organizacijska jedin
 
 ## <a name="team-member-and-estimates-behavior"></a>Član tima i procjene ponašanja 
 
-1. Na stranici **Pojedinosti zadatka**, na stavci **Član tima**, odaberite dva generička člana tima, a zatim odaberite **Generiraj zahtjeve**. 
+1. Na stranici **Pojedinosti zadatka**, na stavci **Član tima**, odaberite dva člana generičkog tima, a zatim odaberite **Generiraj zahtjeve**. 
 2. Odaberite redak člana tima za stavku **Voditelj savjetovanja** a zatim odaberite **Rezerviraj**. Otvara se ploča s rasporedom i rezervira resurs za taj zahtjev.
 3. Odaberite redak člana tima za stavku **Tehničar za mrežu** a zatim odaberite **Rezerviraj**. Otvara se ploča s rasporedom i rezervira isti resurs za taj zahtjev.
 
 ### <a name="team-member-grid"></a>Rešetka člana tima 
-Na rešetki **Član tima** primijetit ćete kako su dva zapisa o generičkom članu tima izbrisana i zamijenjene jednim resursom. Postoji jedan skup vrijednosti za taj resurs koji prikazuje zadani skup vrijednosti za stavke **Uloga** i **Organizacijska jedinica**.
+Na rešetki **Član tima** primijetit ćete kako su dva zapisa o članu generičkog tima izbrisana i zamijenjene jednim resursom. Postoji jedan skup vrijednosti za taj resurs koji prikazuje zadani skup vrijednosti za stavke **Uloga** i **Organizacijska jedinica**.
 Kada proširite red tog zapisa o članu tima, na tom zapisu možete vidjeti različite zadatke za oba ta zadatka. Svaki redak zadatka ima vrijednosti specifične za mogućnosti **Uloga** i **Organizacijska jedinica**. 
 
 ### <a name="estimates-grid"></a>Rešetka procjena 
 Kada prijeđete na rešetku **Procjene**, primijetit ćete kako oba zadatka za isti resurs imaju različitu cijenu.
 Cijena zadaka resursa u Zadatku A određuje se s pomoću vrijednost atributa **Uloga** stavke **Voditelj savjetovanja**. Cijena zadaka istog resursa u Zadatku B određuje se s pomoću vrijednost atributa **Uloga** stavke **Tehničar za mrežu**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

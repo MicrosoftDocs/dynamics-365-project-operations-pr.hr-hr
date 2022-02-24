@@ -1,6 +1,8 @@
 ---
 title: Što je novo ili promijenjeno u aplikaciji Project Service Automation, verzija 3
 description: Ova tema pruža informacije o tome što je novo i promijenjeno u verziji 3 aplikacije Project Service Automation.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987067"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150659"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Što je novo ili promijenjeno u aplikaciji Project Service Automation, verzija 3
 
@@ -36,7 +38,7 @@ Ova tema pruža informacije o promjenama korisničkog sučelja (UI), funkcionaln
 ## <a name="project-scheduling"></a>Planiranje projekta
 Raspored projekta, koji je u prethodnim verzijama bio poznat kao strukturna analiza rada (WBS), preimenovan je u Raspored i pristupa mu se klikom na karticu **Raspored**. 
 
-![Raspored projekta.](media/psa-schedule-01.png)
+![Raspored projekta](media/psa-schedule-01.png)
 
 Raspored sada ima novu površinu za interakciju koja je i moderna i pristupačna. Međutim, osnovni modul za planiranje aplikacije Project Service Automation nije se promijenio. Kontrolni gumbi u vrpci rešetke rasporeda omogućuju vam interakciju s rasporedom slično kao u prethodnoj verziji aplikacije Project Service Automation. Dodatne promjene rasporeda uključuju:
 
@@ -95,22 +97,22 @@ Kada premjestite raspored postojećeg projekta prema naprijed, događa se sljede
 ## <a name="estimates"></a>Procjene
 Procjene su podijeljene na dvije kartice: **Dodjela resursa** i **Procjene**. Kartica **Dodjela resursa** sadrži procjene truda i prikazuje dodjele resursa za zadatke u prikazu vremenske faze. Procjene možete uređivati na temelju onoga što je generirao modul planiranja.
 
-![Kartica dodjela resursa prikazuje procjene truda i dodjele resursa za zadatke.](media/resource-assignments-tab-02.png)
+![Kartica dodjela resursa prikazuje procjene truda i dodjele resursa za zadatke](media/resource-assignments-tab-02.png)
 
 Kartica **Procjene** prikazuje iznose troška i prodaje za dodjele resursa. Iznosi su samo za čitanje. Obračun troškova i određivanje cijena prodaje sada se pokreće dodjeljivanjem članova tima u rasporedu. To znači da ako imate zadatak bez ikakve dodjele, zadatak će se prikazati ispod nedodijeljene grupe. To također znači da bez **uloge**, koja je zadana dimenzija određivanja cijena, neće biti procijenjenog troška ili prodaje ako imate klijenta ili ugovor/ponudu povezane s projektom. 
 
-![Kartica procjene prikazuje iznose troška i prodaje.](media/estimates-tab-03.png)
+![Kartica procjene prikazuje iznose troška i prodaje](media/estimates-tab-03.png)
   
 Kategorija je također podržana na zadacima u prikazu rasporeda. Grupiranje po kategoriji na prikazu procjena vremenske faze pružit će bolji doživljaj, posebno kada u projektu imate i procjene troškova. Procjene troškova unose se pomoću rešetke na pojedinačnoj kartici. 
 
 Procjene troškova mogu se unijeti u rešetku na kartici **Procjene troškova**. 
 
-![Kartica procjene troškova prikazuje rešetku procjene troškova.](media/expense-estimates-tab-04.png)
+![Kartica procjene troškova prikazuje rešetku procjene troškova](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Upravljanje resursima
 U verziji 3 aplikacije Project Service Automation s novim objedinjenim klijentskim korisničkim sučeljem i promjenama u odnosu između rezervacija i dodjela, dodjeljivanje članova projektu generičkim ili stvarnim resursima dramatično se promijenilo u odnosu na verziju 2 i verziju 1. Međutim, koncepti resursa koji se mogu rezervirati, **stvarnih** i **generičkih** ostaju isti, kao i koncepti članova tima, zahtjeva, dodjela i rezervacija.   
 
-![Uporaba birača resursa.](media/resource-management-05.png)
+![Korištenje birača resursa](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Dodjela stvarnog resursa koji se može rezervirati 
 U verziji 3 aplikacije Project Service Automation rezervacije i dodjele zadataka nisu tako čvrsto isprepletene kao u prethodnim verzijama aplikacije Project Service Automation. Možete koristiti rešetku tima da biste rezervirali **stvarnog** člana tima, slično kao na tržištu.
@@ -136,7 +138,7 @@ Kada se zahtjev ispuni s nekoliko resursa, generički resurs ostaje u timu i dod
 ### <a name="reconciliation"></a>Usklađivanje
 Kartica **Usklađivanje** prikazuje rezervacije i sve dodjele za svakog člana projektnog tima. Prikazuje sate u ćelijama koje mogu predstavljati vremenske točke od mjeseci do dana. Taj prikaz omogućuje voditeljima projekta usklađivanje rezervacija člana tima i njihovih zadataka za njihov projektni tim. To je korisno jer rezervacije i dodjele zadataka nisu čvrsto povezani što omogućuje veću fleksibilnost prilikom planiranja projekta. 
 
-![Kartica Usklađivanje prikazuje rezervacije i dodjele za članove projektnog tima.](media/resource-reconciliation-tab-06.png)
+![Kartica Usklađivanje prikazuje rezervacije i dodjele za članove projektnog tima](media/resource-reconciliation-tab-06.png)
 
 Za svaki resurs prikaz pokazuje razliku između rezervacija članova tima i skupne vrijednosti njihovih dodjela zadataka te prikazuje sljedeće dvije razlike koje se mogu pojaviti s rezervacijama i dodjelama u projektu: 
 
@@ -151,19 +153,19 @@ Ovaj odjeljak pruža informacije o promjenama u vremenu, trošku i odobrenju u v
 ### <a name="landing-page"></a>Odredišna stranica
 Neproširivi prilagođeni doživljaj unosa vremena zastario je u verziji 3. Umjesto toga, sada je tu proširiv i dostupan doživljaj izvorne rešetke. Možete pristupiti funkcionalnosti unosa vremena pomoću karte web-mjesta na lijevoj strani. Uz ovu promjenu više nećete moći odjednom unositi vrijeme za jedan tjedan. Umjesto toga ćete morati stvoriti Unos vremena za svaki dan u rešetki. Nakon što se stvori nekoliko vremenskih unosa, korisnici mogu skupno stvarati vremenske unose s funkcijom **Kopiraj** koja će biti objašnjena kasnije u ovoj temi. 
 
-![Odredišna stranica za Unos vremena.](media/time-entry-landing-page-07.png)
+![Odredišna stranica za Unos vremena](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Stvaranje novog unosa vremena 
 Kliknite **Novo** na vrpci da biste otvorili stranicu za brzo stvaranje za Unos vremena gdje unosite trajanje u minutama, satima ili danima. Da biste to učinili, samo počnite upisivati h, m ili d zajedno s količinom.  
 
-![Brzo stvaranje unosa vremena.](media/quick-create-time-entry-08.png)
+![Brzo stvaranje unosa vremena](media/quick-create-time-entry-08.png)
 
 Sistemski prikazi podržavaju polja za pretraživanje. Na primjer, nakon što unesete informacije o projektu, polje **Projektni zadatak** prema zadanim je postavkama postavljeno na prikaz **Moji otvoreni projektni zadaci**. Da biste stvorili vremenske unose za zadatke koji nisu dodijeljeni korisniku, kliknite na prikaz **Promijeni** u pretraživanju, a zatim odaberite **Svi aktivni projektni zadaci**. Nakon što je Unos vremena stvoren i prikazuje se u rešetki, možete urediti bilo koje vrijednosti retka izravno u rešetki.  
 
 ### <a name="bulk-createcopy"></a>Skupno stvaranje/kopiranje 
 Nakon što ste stvorili nekoliko vremenskih unosa, možete koristiti funkcionalnost kopiranja za skupno stvaranje dodatnih vremenskih unosa. Kliknite **Kopiraj** da biste otvorili dijalog **Kopiraj**. U **Iz razdoblja: datum početka** postavite raspon datuma od kojeg se vremenska razdoblja moraju kopirati. U **Do razdoblja: datum početka** navedite datum za koji se moraju stvarati Unos vremenai. Kliknite **Kopiraj** da biste kopirali vremenske unose u odgovarajući dan u tjednu naznačen u **Do razdoblja**. Na primjer, Unos vremena za ponedjeljak od prošlog tjedna kopirat će se u ponedjeljak za tjedan koji je naznačen u **Do razdoblja**. 
 
-![Kopiranje vremenskih unosa u kompletu.](media/bulk-copy-time-entry-09.png)
+![Kopiranje vremenskih unosa u kompletu](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Uvoz podataka 
 Dodjele i zamjena slijede isti uzorak korisničkog sučelja koji korisniku omogućuje navođenje raspona datuma od kada je potrebno uvesti rezervacije. Zatim morate izričito odabrati rezervacije koje treba kopirati u vremenske unose **Skica**. U verziji 3 više ne možete vidjeti uzorak vremenskih unosa **Predloženo** na rešetki i kalendaru.  
@@ -179,7 +181,7 @@ U verziji 3 odmaknuli smo se od prilagođene kontrole kalendara i sada koristimo
 
 **Snimanje podataka u prilagođenim poljima u vremenskom unosu i unosu troška i prijenos putem entiteta koji podržavaju slanje i tijek odobravanja** – tipična obrada vremenskih unosa prikazana je na sljedećem dijagramu.
 
-![Tijek obrade vremenskih unosa.](media/process-time-entries-10.png)
+![Tijek obrade vremenskih unosa](media/process-time-entries-10.png)
 
 Ako poslovni preduvjeti propisuju da entiteti vremena i troška moraju snimiti prilagođene dimenzije određivanja cijena i prenijeti vrijednosti koje su postavljene u resursu za vrijeme i unos u prilagođenoj dimenziji određivanja cijena kroz sve entitete u prethodnoj grafici, pogledajte članak [Postavljanje prilagođenih polja kao dimenzija određivanja cijena](set-up-pricing-dimensions.md)
 
@@ -236,7 +238,7 @@ U verzijama 1 i 2 postavljanje mogućnosti naplate za uloge i kategorije za odre
 
 Od verzije 3 postavljanje opcija naplate po ulozi i kategoriji troška bit će učinjeno na razini retka ponude ili retka ugovora. Postavljanje određivanja cijena odvojeno je od postavljanja mogućnosti naplate. Moći ćete pronaći **Naplative uloge** i **Naplative kategorije** kao kartice na stranicama **Redak ponude** i **Redak ugovora** bez korištenja gornje navigacije.
 
-![Naplative uloge.](media/chargeable-12.png)
+![Naplative uloge](media/chargeable-12.png)
  
 Postavljanje Naplativih uloga i Naplativih kategorija također iskorištava gotovu rešetkastu kontrolu koja se može uređivati. Za svaku ulogu i kategoriju podržane opcije vrste naplate tijekom faze izrade ponude i ugovaranja ostaju nepromijenjene u odnosu na prethodne verzije kao **Naplativo** i **Nenaplativo**. **Besplatno** nije podržana vrsta tijekom faze izrade ponude ili ugovaranja. **Besplatno** je podržano samo tijekom odobravanja vremena ili troška.  
  
@@ -247,14 +249,11 @@ Od verzije 3 aplikacije Project Service Automation stvaranje i uporaba prilagođ
   
 Sljedeća je grafika prije stvaranja prilagođenih cjenika.
 
-![Prije prilagođenih cjenika.](media/before-custom-price-lists-13.png)
+![Prije prilagođenih cjenika](media/before-custom-price-lists-13.png)
 
 Sljedeća je grafika nakon stvaranja prilagođenih cjenika.
 
-![Nakon prilagođenih cjenika.](media/after-custom-price-lists-14.png)
+![Nakon prilagođenih cjenika](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Može se pojaviti kratko vrijeme odgode između vremena kada kliknete **Stvori prilagođeno određivanje cijena** i vremena kada će se stvoriti prilagođeni cjenik. Preporučujemo osvježavanje rešetke umjesto višestrukog klikanja. Prilagođeni je cjenik stvoren ako naziv pridruženog cjenika ima naziv ponude ili naziv ugovora o projektu koji mu se dodaje.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

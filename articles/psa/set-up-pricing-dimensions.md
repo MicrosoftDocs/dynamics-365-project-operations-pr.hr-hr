@@ -2,10 +2,12 @@
 title: Postavljanje prilagođenih polja kao cjenovnih veličina
 description: Ovaj tema pruža informacije o postavljanju prilagođenih dimenzija cijena.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002322"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150344"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Postavljanje prilagođenih polja kao cjenovnih veličina 
 
@@ -41,11 +43,11 @@ Da bi polje postalo dimenzija cijena, ono mora biti:
 - Stvoreno kao polje u entitetima **Cijena uloge** i **Provizija cijene uloge**. Više informacija kako to napraviti potražite u odjeljku [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](field-references.md).
 - Stvoreno kao redak u tablici **Dimenzija cijena**. Na primjer, dodajte retke dimenzije cijena kao što je prikazano na slici u nastavku. 
 
-![Redci veličine za određivanje cijena koji se temelje na iznosu.](media/Amt-based-PD.png)
+![Dimenzije cijena utemeljene na iznosu](media/Amt-based-PD.png)
 
 Primijetite da je radno vrijeme resursa **(** msdyn_resourceworkhours) dodano kao dimenzija utemeljena na proviziji te da je dodano u rešetku na kartici **Dimenzija cijena utemeljene na proviziji**.
 
-![Redci veličine za određivanje cijena koji se temelje na proviziji.](media/Markup-based-PD.png)
+![Reci dimenzije cijena utemeljene na proviziji](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Svaka izmjena podataka o dimenziji cijena u ovoj tablici, postojećih ili novih, prenosi se na poslovnu logiku određivanja cijena programa Project Service tek nakon osvježavanja predmemorije. Vrijeme osvježavanja predmemorije može trajati do 10 minuta. Pričekajte neko vrijeme dok se promjene ne prikažu u logici za postavljanje zadane cijene koja mora odražavati promjene u podacima dimenzije cijena.
@@ -69,14 +71,14 @@ Postoje dvije vrste dimenzija cijena:
    
    U sljedećoj tablici prikazan je izračun provizija cijena.
   
-| Uloga        | Organizacijska jedinica    |Mjesto rada      |Radno mjesto – standardno      |Radno vrijeme resursa      |  Provizija|
+| Uloga        | Org. jedinica    |Radno mjesto      |Radno mjesto – standardno      |Radno vrijeme resursa      |  Provizija|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Indija|Na lokaciji            |                    |Prekovremeni rad                 |15     |
-|             | Contoso Indija|Lokalno             |                    |Prekovremeni rad                 |10     |
+|             | Contoso, Indija|Na lokaciji            |                    |Prekovremeni rad                 |15     |
+|             | Contoso, Indija|Lokalno             |                    |Prekovremeni rad                 |10     |
 |             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20     |
 
 
-Ako resurs iz tvrtke Contoso Indija, čija je osnovna cijena 100 USD, radi na licu mjesta, a oni bilježe 8 sati redovnog radnog vremena i 2 sata prekovremenog rada na unosu vremena, modul za određivanje cijena Project Service upotrebljava osnovnu cijenu od 100 za 8 sati kako bi se zabilježilo 800 USD. Za 2 sata prekovremenog rada na osnovnu stopu od 100 primjenjuje se provizija od 15% da bi se dobila jedinična cijena od 115 USD te se bilježi ukupni trošak od 230 USD.
+Ako je resurs iz tvrtke Contoso, Indija čija je osnovna stopa 100 USD radi na lokaciji, a oni bilježe 8 sati uobičajenog radnog vremena i 2 sata prekovremenog rada, program za određivanje cijena Project Service upotrebljava osnovnu stopu od 100 za 8 sati kako bi se zabilježilo 800 USD. Za 2 sata prekovremenog rada na osnovnu stopu od 100 primjenjuje se provizija od 15% da bi se dobila jedinična cijena od 115 USD te se bilježi ukupni trošak od 230 USD.
 
 ### <a name="applicable-to-cost"></a>Primjenjivo na trošak 
 Ako je ovo polje postavljeno na **Da**, to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa troška i provizije.
@@ -92,6 +94,3 @@ Postavljanje prioriteta dimenzije omogućuje određivanje cijene u programu Proj
 
 - **Prioritet troška**: vrijednost prioriteta troška dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena koštanja. Vrijednost **Prioritet troška** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na trošak**.
 - **Prioritet prodaje**: vrijednost prioriteta prodaje dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena prodaje ili stopa naplate. Vrijednost **Prioritet prodaje** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na prodaju**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
