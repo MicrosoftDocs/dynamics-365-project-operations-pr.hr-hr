@@ -2,24 +2,22 @@
 title: Postavljanje cijena za naplatu rada – jednostavno
 description: U ovoj temi nalaze se informacije o postavljanju cijena za naplatu radne snage u aplikaciji Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181170"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007587"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Postavljanje cijena za naplatu rada – jednostavno
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Svaki cjenik ima skup cijena uloga ili cijena radne snage koje su na snazi u kontekstu, a datumu stupanja na snagu uključen u zaglavlje cjenika. Cijene naplate za vrijeme u aplikaciji Dynamics 365 Project Operations mogu se postaviti u samo jednoj valuti, koja je valuta u zaglavlju Cjenika.
+Svaki cjenik ima skup cijena uloga ili cijena radne snage koje su na snazi u kontekstu, a datumu stupanja na snagu uključen u zaglavlje cjenika. Cijene naplate vremena u aplikaciji Dynamics 365 Project Operations mogu se postaviti u samo jednoj valuti, koja je navedena u zaglavlju Cjenika.
 
 1. Kako biste postavili cijene naplate za radnu snagu za prodajni cjenik, stvorite cjenik na temelju zaglavlja cjenika. 
 2. Na kartici **Cijene uloga**, u podrešetki, odaberite **+ Nova cijena uloge**. 
@@ -55,3 +53,6 @@ Na primjer, razvojnom inženjeru iz tvrtke Fabrikam India, koji radi na američk
     | Razvojni programer | Fabrikam US | 150 USD |
 
 3. Priložite prodajni cjenik **Cijene naplate za Fabrikam US** cjeniku ugovora o projektu ili na određenom računu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

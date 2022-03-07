@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270894"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073528"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parametri integracije usluge Project Service Automation
 
@@ -47,6 +47,3 @@ Kako biste otvorili stranicu **Parametri integracije usluge Project Service Auto
 | Zadane postavke vrste naplate  | Vrsta naplate         | Kliknite **Novo** za dodavanje retka u kojem možete odabrati vrstu naplate za koju ćete postaviti zadano svojstvo retka. Određena se vrsta naplate u konfiguraciji može odabrati samo jednom. |
 |                        | Svojstvo retka        | Odaberite zadano svojstvo retka za odabranu vrstu naplate. Kada se nove procjene sati i izdataka ili novi stvarni podaci sinkroniziraju iz usluge Project Service Automation, polje **Svojstvo retka** postavlja se na zadanu vrijednost za vrstu naplate. |
 | Zaključavanje funkcija  | Nije primjenjivo       | Odaberite funkciju koju ćete onemogućiti u Financijama za projekte i ugovore koji potječu iz usluge Project Service Automation. Na primjer, možete isključiti mogućnost uređivanja ugovora i projekata, stvoriti strukturnu analizu rada i u Financije unijeti evidenciju radnog vremena. Polja koja se odnose na računovodstvo i dalje će biti omogućena, čak i ako zbog postavke parametra postanu nedostupna. Prema zadanim postavkama omogućene su sve funkcije. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

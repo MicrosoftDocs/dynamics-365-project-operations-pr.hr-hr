@@ -2,8 +2,6 @@
 title: Grupe jedinica i jedinice
 description: Ova tema pruža informacije o grupama jedinica i jedinicama.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145574"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987562"
 ---
 # <a name="unit-groups-and-units"></a>Grupe jedinica i jedinice
 
@@ -46,7 +44,7 @@ Na primjer, u grupi jedinica **Vrijeme**, ako postavite **Sat** kao prvu jedinic
 
 Sljedeća slika prikazuje primjer postavljanja za jedinicu **Dan**, gdje polje **Količina** prikazuje broj sati koji su u danu i **Tjednu**, gdje polje **Količina** prikazuje broj dana u tjednu.
 
-> ![Grupa jedinica: informacijska stranica](media/advanced-2.png)
+> ![Grupa jedinica: informacijska stranica.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Korištenje jedinica i grupa jedinica
 
@@ -88,9 +86,9 @@ Sljedeći primjer pokazuje kako sustav PSA koristi grupu jedinica, jedinice i č
 
 | Uloga      | Grupa jedinica | Jedinica | Organizacijska jedinica | Cijena   |
 |-----------|------------|------|---------------------|---------|
-| Razvojni inženjer | Vrijeme       | Dan  | Contoso UK          | 800 GBP |
+| Razvojni inženjer | Vrijeme       | dan  | Contoso Ujedinjeno Kraljevstvo          | 800 GBP |
 
-### <a name="time-entry"></a>Unos vremena
+### <a name="time-entry"></a>Vremenski unos
 
 Sljedeća tablica prikazuje dobivenu transakciju na strani prodaje koju je izradio sustav PSA za trosatni projekt.
 
@@ -112,3 +110,6 @@ Ne. Procjena rasporeda trenutačno je ograničena na sate i ne može se mijenjat
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Mogu li se jedinice i grupe jedinica uređivati, brisati i dodavati?
 Da. Uz iznimku grupe jedinica **Vrijeme** i jedinice **Sat**, sve jedinice mogu se brisati ili uređivati, a mogu se dodati i nove jedinice. U sustavu PSA, grupa jedinica **Vrijeme** i jedinica **Sat** ne mogu se brisati. Međutim, oni se mogu ažurirati s prevedenim tekstom za polje **Naziv**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

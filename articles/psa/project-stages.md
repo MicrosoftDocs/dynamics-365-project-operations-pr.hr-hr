@@ -2,8 +2,6 @@
 title: Vrste faza projekta
 description: Ova tema pruža informacije o fazama projekta.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ed725d8ea2f671c45a7a19bb017bbb08c41f42db
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148094"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008977"
 ---
 # <a name="project-stage-types"></a>Vrste faza projekta 
 
@@ -65,3 +63,6 @@ Kada se posao projekta dovrši, upravitelj projekta može ažurirati fazu na **D
 ## <a name="close"></a>Zatvori
 
 Kada se zabilježe sve transakcije za projekt, upravitelj projekta može ažurirati fazu na **Zatvaranje**. U tom trenutku nije moguće bilježiti transakcije, a projekt je postavljen samo za čitanje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

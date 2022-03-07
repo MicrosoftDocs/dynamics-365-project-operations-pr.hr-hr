@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279309"
 ---
 # <a name="resource-utilization-overview"></a>Prikaz korištenja resursa
 
@@ -45,3 +45,6 @@ Osim toga, svakom resursu koji se može rezervirati potrebno je dodijeliti zadan
 Na kartici **Project Service** možete postaviti i pojedinačnu ciljnu upotrebu za resurs. Izračun upotrebe zatim upotrebljava ciljnu upotrebu da bi se procijenio cilj resursa, a ne cilj zadane uloge resursa.
 
 Iskoristivost se prikazuje za resurs samo ako taj resurs ima odobreno naplativo vrijeme tijekom razdoblja prikazanog u rešetki.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

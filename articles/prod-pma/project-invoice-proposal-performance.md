@@ -2,11 +2,9 @@
 title: Izvedba prijedloga fakture za projekt
 description: U ovoj temi nalaze se informacije o poboljšanjima izvedbe prijedloga faktura za projekt.
 author: Yowelle
-manager: AnnBe
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
-ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
-ms.translationtype: HT
+ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920293"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005697"
 ---
 # <a name="project-invoice-proposal-performance"></a>Izvedba prijedloga fakture za projekt
 
@@ -46,4 +44,6 @@ Kako biste isključili značajku poboljšanja izvedbe prijedloga fakture za proj
 3.  Osvježite preglednik.
 
 > [!NOTE]
-> Izvedba prijedloga fakture ne može se primijeniti kada su omogućena pravila naplate ili su pokrenuti skupni postupci.
+> Izvedba prijedloga fakture ne može se primijeniti kada su omogućena pravila naplate.
+> 
+> Tijekom skupnog postupka izrade prijedloga faktura, broj podzadataka podijelit će zadatke na maksimalni broj na temelju broja ugovora s transakcijama koje je moguće fakturirati, bez obzira na to što ste unijeli. Na primjer, ako unesete **3** za broj podzadataka za stvaranje prijedloga fakture u skupu, a postoje samo dva ugovora s transakcijama koje je moguće fakturirati, stvaraju se samo dva podzadatka.

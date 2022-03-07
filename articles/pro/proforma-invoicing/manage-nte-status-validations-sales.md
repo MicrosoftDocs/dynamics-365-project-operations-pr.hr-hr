@@ -2,18 +2,16 @@
 title: Upravljanje statusom koji se ne smije premašiti i provjerama valjanosti
 description: U ovoj temi nalaze se informacije o provjeri ograničenja koja se ne smiju prekoračiti u aplikaciji Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 09dea414e91a365f33bd23089c427b5f63f55c8e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129984"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003492"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Upravljanje statusom koji se ne smije premašiti i provjerama valjanosti 
 
@@ -21,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 ## <a name="not-to-exceed-on-approvals"></a>Odobrenja koje se ne smiju prekoračiti
 
-Kada se šalje unos vremena ili troškova, stvara se zapis o odobrenju. Ako je odobrenje naplativo i mapira se na redak ugovora za vrijeme i materijal, sustav izvršava provjeru valjanosti koja ne smije prekoračiti na sljedećim razinama:
+Kada se prijavi unos vremena, troška ili utrošenog materijala, stvara se zapis o odobrenju. Ako je odobrenje naplativo i mapira se na redak ugovora za vrijeme i materijal, sustav izvršava provjeru valjanosti koja ne smije prekoračiti na sljedećim razinama:
 
   - Provjera prema ograničenju postavljenom za klijenta na retku ugovora o projektu
   - Provjera prema ograničenju postavljenom na retku ugovora
@@ -34,11 +32,11 @@ Ako provjera uspije, odobrenje dobiva status potvrde **Uspjelo**.
 
 Ako provjera ne uspije, odobrenje dobiva status potvrde **Nije uspjelo**. Pojedinost valjanosti koji se ne smije prekoračiti izvijestit će korisnika na kojoj razini provjera valjanosti nije uspjela.
 
-Kada se prijavljeni unos vremena ili troškova smatra nenaplativim, status provjere koji ne smije prekoračiti postavlja se na **Nije primjenjivo** s pojedinosti provjere izjednačenim sa **Nije primjenjivo**.
+Kada se prijavljeni unos vremena, troška ili utrošenog materijala smatra nenaplativim, stanje provjere valjanosti „ne smije premašiti” postavljeno je na **Nije primjenjivo** s pojedinostima provjere valjanosti jednakim stavki **Nije primjenjivo**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Stvarna nenaplaćena prodaja koja se ne smije prekoračiti
 
-Kada se odobri unos vremena ili troška, stvaraju se stvarni zapisi o troškovima i nenaplaćenim prodajama. Ako je stvorena stvarno nenaplaćena prodaja naplativa i mapira se na redak ugovora za vrijeme i materijal, aplikacija izvršava provjeru valjanosti koja ne smije prekoračiti na sljedećim razinama:
+Kada se odobri unos vremena, troška ili utrošenog materijala, stvaraju se zapisi o stvarnom trošku i nenaplaćenoj prodaji. Ako je stvorena stvarno nenaplaćena prodaja naplativa i mapira se na redak ugovora za vrijeme i materijal, aplikacija izvršava provjeru valjanosti koja ne smije prekoračiti na sljedećim razinama:
 
   - Provjera prema ograničenju postavljenom za klijenta retka ugovora o projektu
   - Provjera prema ograničenju postavljenom na retku ugovora
@@ -55,9 +53,9 @@ Kada se stvarna prodaja bez fakture smatra nenaplativom ili besplatnom, ako ni n
 
 ## <a name="reset-the-not-to-exceed-status"></a>Vraćanje statusa koji se ne smije prekoračiti
 
-Možete izvršiti skupno vraćanje statusa koji se ne smije prekoračiti. To projektnim menadžerima omogućuje prilagodbu provjere koja se ne smije prekoračiti kako bi dali prednost fakturiranju jednom određenom dijelu posla, vremena ili troškova pred drugima koji su već angažirani iz dostupnog iznosa koji se ne smije prekoračiti.
+Možete izvršiti skupno vraćanje statusa koji se ne smije prekoračiti. Voditelji projekata mogu prilagoditi provjeru valjanosti značajke „ne smije premašiti” kako bi dali prednost fakturiranju jednog određenog dijela posla, vremena, troška ili utrošenog materijala u odnosu na druge koji su već učinjeni iz dostupnog iznosa koji se „ne smije premašiti”.
 
-Nakon vraćanja statusa koji se ne smije prekoračiti na stvarne nenaplaćene prodaje, angažirani se iznos smanjuje. Voditelj projekta može odabrati neki drugi dio posla, vremena ili troškova za koje prethodno nije uspjela provjera valjanosti koja se ne smije prekoračiti i ponovno im provjeriti valjanost. Uz smanjenje angažiranog iznosa, provjera ovih stvarnih podataka sada će biti uspješna. To pomaže voditelju projekta da izvrši veći utjecaj i kontrolu nad fakturiranim transakcijama za to razdoblje.
+Nakon vraćanja statusa koji se ne smije prekoračiti na stvarne nenaplaćene prodaje, angažirani se iznos smanjuje. Voditelj projekta može odabrati neki drugi dio unosa posla, vremena, troška ili utrošenog materijala koji prethodno nije uspio pri provjeri valjanosti s pomoću značajke „ne smije se premašiti” i ponovno ga procijeniti. Sa smanjenjem angažiranog iznosa, ovi stvarni podaci sada prolaze provjeru valjanosti što pomaže voditelju projekta da izvrši veći utjecaj i kontrolu nad transakcijama koje se mogu fakturirati u tom razdoblju.
 
 Kako biste vratili status koji se ne smije prekoračiti, odaberite jedan ili više stvarnih podataka iz prikaza **Zaostala naplata vremena i materijala** ili **Stvarni podaci**, a zatim odaberite **Vrati status koji se ne smije prekoračiti**.
 
@@ -73,3 +71,6 @@ Možete izvršiti skupnu ponovnu procjenu vrijednosti statusa koji se ne smije p
 Kako biste ponovno procijenili vrijednost statusa koji se ne smije prekoračiti, odaberite jedan ili više stvarnih podataka iz prikaza **Zaostala naplata vremena i materijala** ili **Stvarni podaci** i odaberite **Ponovno procijeni vrijednost statusa koji se ne smije prekoračiti**.
 
 Svim će se relevantnim odabranim stvarnim podacima s ograničenjem koje se ne smije prekoračiti ponovno procijeniti vrijednost u odnosu na postavke ograničenja koje se ne smiju prekoračiti. Stvarni podaci koji su relevantni za ponovnu procjenu vrijednosti statusa koji se ne smije prekoračiti su stvarne nenaplaćene prodaje koje još nisu fakturirane, nisu na skici fakture i označene su kao naplative. Odabiru se svi drugi odabrani stvarni podaci.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Konfiguriranje parametara upravljanja troškom
 description: U ovoj temi opisani su parametri koji kontroliraju opće ponašanje u upravljanju troškovima.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121029"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007767"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfiguriranje parametara upravljanja troškom
 
@@ -83,3 +81,6 @@ U ovoj temi opisani su parametri kontrole općeg ponašanja u upravljanju trošk
 | Prikaži potvrdu o suzbijanju korupcije   | Odaberite ovu mogućnost kako biste tijekom stvaranja izvješća o troškovima prikazali tekst o suzbijanju korupcije. Tada se mogu omogućiti određene kategorije troškova zbog kojih će se u izvješću o troškovima odabrati potvrda o suzbijanju korupcije. Na primjer, kategorija poklona koja se odnosi na trošak državnog službenika može zahtijevati da zaposlenik potvrdi da je trošak u skladu s pravilima tvrtke koja se odnose na državne službenike. |
 | Poruka o suzbijanju korupcije za podnositelja prijave | Unesite tekst koji bi trebao biti prikazan zaposleniku koji stvara izvješće o troškovima. Za unos teksta specifičnog za jezik koji će se prikazivati na temelju jezika korisnika odaberite mogućnost **Prijevodi**. |
 | Poruka o suzbijanju korupcije za odobravatelja  | Unesite tekst koji bi trebao biti prikazan odobravatelju tijekom stvaranja izvješća o troškovima. Za unos teksta specifičnog za jezik koji će se prikazivati na temelju jezika korisnika odaberite mogućnost **Prijevodi**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

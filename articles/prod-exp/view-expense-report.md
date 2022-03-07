@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d86185b414a559694077783d1f89dc863112a252
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 35a76cad8c6ddaa84038746ace6a7e1e5623388f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271164"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960058"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Prikaz izvješća o troškovima iz Glavne knjige ili nabave i dobavljanja
 
@@ -32,6 +32,3 @@ Za izvješća o troškovima pretraživati kroz razine naniže možete vršiti od
 Za pretraživati kroz razine naniže izvornog izvješća o troškovima na kojem se transakcija pojavila odaberite transakciju, a zatim odaberite **Izvorni dokument**.
 
 Kada prikazujete pojedinačne transakcije, možete pregledati i sve dodatne podatke koji su priloženi transakciji. Na primjer, u specificiranom hotelskom trošku možete pogledati podroban popis troškova kao što su pristup internetu, telefonski pozivi i sobna usluga.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

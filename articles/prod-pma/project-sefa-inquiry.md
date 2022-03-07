@@ -2,11 +2,9 @@
 title: Raspored izdataka upita za savezne nagrade
 description: U ovoj temi nalaze se informacije o rasporedu izdataka upita za savezne nagrade.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073372"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007227"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Raspored izdataka upita za savezne nagrade
 
@@ -62,7 +60,7 @@ Morate postaviti CFDA brojeve koji se mogu dodati potporama i uključiti u Raspo
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Postavljanje potpora na izvješće za Raspored izdataka upita za savezne nagrade
 
 1. Idite na **Upravljanje projektima i računovodstvo \> Potpore \> Potpore** i odaberite postojeću potporu.
-2. Na Brzoj kartici **Postavljanje**, u polju **Katalog savezne domaće pomoći**, dodijelite CFDA broj. CFDA broj na potpori određuje CFDA klaster za izvješćivanje.
+2. Na Brzoj kartici **Postavljanje**, u polju **Katalog savezne domaće pomoći**, dodijelite CFDA broj. CFDA broj na potpori određuje CFDA klaster za izvješćivanje.
 3. Na Brzoj kartici **Podaci za kontakt** unesite podatke o davatelju potpore slijedeći ove korake:
 
     1. U polje **Klijent potpore** unesite klijenta koji je odgovoran za potporu. Za postojeću potporu ovi su podaci možda već unijeti.
@@ -79,8 +77,8 @@ Savezna vlada financirala je infrastrukturni projekt za državu. Savezna vlada d
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Isključite potpore iz SEFA izvješća koje se temelji na vrsti potpore
 
-1. Idite na **Upravljanje projektima i računovodstvo \> Postavljanje \> Potpore \> Vrste potpora**.
-2. Na Brzoj kartici **Zadane informacije** odaberite potvrdni okvir **Izuzeti iz rasporeda izdataka za savezne nagrade**.
+1. Idite na **Upravljanje projektima i računovodstvo \> Postavljanje \> Potpore \> Vrste potpora**.
+2. Na Brzoj kartici **Zadane informacije** odaberite potvrdni okvir **Izuzeti iz rasporeda izdataka za savezne nagrade**.
 3. Odaberite **Spremi** da biste spremili izmjene.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Pokretanje Rasporeda izdataka upita za savezne nagrade
@@ -104,3 +102,6 @@ Raspored izdataka upita za savezne nagrade uključuje sljedeće stupce:
 - Katalog savezne domaće pomoći
 - Potvrde
 - Izdaci
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

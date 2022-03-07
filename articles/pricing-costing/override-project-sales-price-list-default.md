@@ -2,19 +2,17 @@
 title: Nadjačavanje prodajnih cjenika za projekt
 description: U ovoj temi nalaze se informacije o stvaranju prilagođenih prodajnih cjenika.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
-ms.translationtype: HT
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672222"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009567"
 ---
 # <a name="override-project-sales-price-lists"></a>Nadjačavanje prodajnih cjenika za projekt
 
@@ -52,3 +50,6 @@ Možete upotrijebiti svaki od tih cjenika i ažurirati cijene rada (cijena uloge
 Na ugovoru o projektu, cijene za projekt uvijek su zadane kao prilagođeni cjenik s nazivom ugovora i stvorenom oznakom datuma i vremena koja se dodaje nazivu. To vrijedi bez obzira je li ugovor stvoren kada je prihvaćena ponuda ili je ugovor stvoren od početka. Ako je potrebno, možete ukloniti ovu povezanost s prilagođenim cjenikom i umjesto toga s ugovorom o projektu povezati standardni cjenik.
 
 Kada standardni cjenik povežete s projektnim cjenicima na ponudi ili ugovoru, sve promjene cijena u cjeniku utjecat će na sve ponude i ugovore koji upotrebljavaju cjenik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

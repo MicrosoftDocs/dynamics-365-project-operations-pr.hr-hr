@@ -3,7 +3,7 @@ title: Pronađi sljedeći projekt s pomoću aplikacije Project Finder Mobile
 description: Kako pronaći sljedeći projekt s pomoću aplikacije Project Finder Mobile za Project Service
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: be88ee348d11347365ddad28516a0d4bc02b4634
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149264"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073492"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Pronađi sljedeći projekt s pomoću aplikacije Project Finder Mobile (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

@@ -2,18 +2,16 @@
 title: Uređivanje rezervacija
 description: U ovoj temi nalaze se informacije o načinu ažuriranja i unosa promjena u rezervacije.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
-ms.translationtype: HT
+ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841315"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008307"
 ---
 # <a name="edit-bookings"></a>Uređivanje rezervacija
 
@@ -33,3 +31,6 @@ Iz rešetke **Član tima** voditelj projekta može označiti određeni resurs i 
 ## <a name="schedule-board"></a>Ploča s rasporedom
 
 Iz mogućnosti **Ploča s rasporedom** Upravitelj resursa dobiva prikaz portfelja svih rezervacija u tvrtki ili ustanovi. Iz ovog prikaza upravitelj resursa može proširiti, skratiti ili premjestiti postojeće rezervacije slično mogućnostima koje postoje u stavci **Održavanje rezervacija**. Upravitelj resursa također može zamijeniti postojeće resurse dodijeljene određenoj rezervaciji desnim klikom na rezervaciju i odabirom mogućnosti **Zamijeni resurs**. Upravitelji resursa također mogu uređivati konture postojećih rezervacija desnim klikom na rezervaciju i odabirom mogućnosti **Uredi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124629"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277149"
 ---
 # <a name="extending-time-entries"></a>Produljenje unosa vremena
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Dynamics 365 Project Operations uključuje prilagođenu kontrolu produljenja unosa vremena. Ta kontrola obuhvaća sljedeće značajke:
+Dynamics 365 Project Operations uključuje proširivu prilagođenu kontrolu unosa vremena. Ta kontrola obuhvaća sljedeće značajke:
 
 - Unos vremena vodoravno tijekom tjedna
 - Ukupno po danu, retku ili tjednu
@@ -144,3 +144,6 @@ Upotrijebite dodatak za provjere valjanosti za sve provjere valjanosti koje zaht
 
 ### <a name="copying-time-entries"></a>Kopiranje vremenskih unosa
 Upotrijebite prikaz **Kopiraj stupce za unos vremena** za definiranje popisa polja za kopiranje tijekom vremenskog unosa. **Datum** i **Trajanje** obvezna su polja i ne biste ih trebali ukloniti iz prikaza.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Mapiranje projekata i zadataka u redak ponude koji se temelji na ugovoru – jednostavno
 description: U ovoj temi nalaze se informacije o dodavanju i uklanjanju projekata i zadataka u redak ugovora.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
-ms.translationtype: HT
+ms.openlocfilehash: 6ce99e6f770c5eb39e5f2740a861721cf3d210ac9743bbd9d2a1e1a7236f368c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858039"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989722"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapiranje projekata i zadataka u redak ugovora koji se temelji na projektu 
 

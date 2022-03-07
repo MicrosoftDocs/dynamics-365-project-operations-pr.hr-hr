@@ -2,12 +2,10 @@
 title: Početna stranica Dimenzije cijena i troškova
 description: Ova tema pruža pregled dimenzija cijena.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151289"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009247"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Početna stranica Dimenzije cijena i troškova
 
@@ -67,13 +65,16 @@ Sljedeći primjer prikazuje stope naplate postavljene na temelju uloge i organiz
 
 | Uloga        | Organizacijska jedinica    |Jedinica      |Cijena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Razvojni inženjer   | Contoso US  |Hour | 200|USD     |
-| Razvojni inženjer   | Contoso, Indija |Hour|   112|USD     |
+| Razvojni inženjer   | Contoso US  |h | 200|USD     |
+| Razvojni inženjer   | Contoso Indija |h|   112|USD     |
 
 
 **Primjeri stopa troškova**
 
 | Platni razred     | Organizacijska jedinica    |Jedinica      |Cijena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour | 145|USD     |
-| My company_Band2 | Contoso, Indija |Hour|   67|USD     |
+| My company_Band1 | Contoso US  |h | 145|USD     |
+| My company_Band2 | Contoso Indija |h|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

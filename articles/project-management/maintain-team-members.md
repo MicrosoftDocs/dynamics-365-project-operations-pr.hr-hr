@@ -2,18 +2,16 @@
 title: Održavanje članova tima
 description: Ova tema pruža informacije o rezerviranju imenovanih resursa za projektne timove i o dodjeli istih zadacima.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131514"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997057"
 ---
 # <a name="maintain-team-members"></a>Održavanje članova tima
 
@@ -21,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Možete dodati imenovani resurs projektnom timu tako da ga izravno rezervirate za tim.
 
-1. U aplikaciji Dynamics 365 Project Operations, idite na **Projekti** i odaberite otvori projekt za koji rezerviraš.
+1. U programu Dynamics 365 Project Operations, idite na **Projekti** i odaberite otvaranje projekta za koji rezervirate.
 2. Na stranici **Projekt**, na kartici **Tim**, odaberite **Novo**. 
 3. U dijaloškom okviru **Brza izrada člana projektnog tima** odaberite resurs koji se može rezervirati. Polje **Uloga** popunit će se zadanom ulogom resursa ako mu je dodijeljena jedna. Ulogu možete promijeniti. 
 4. Odaberite početni i završni datum koji će biti potrebni za resurs i odaberite način dodjele kapaciteta resursa. 
@@ -42,3 +40,6 @@ Kada izvršite odabir, resurs se dodaje projektnom timu i dodjeljuje zadatku, al
 Možete koristiti mogućnost proširenja rezervacije kartice **Usklađivanje** ili **Ploča s rasporedom** da biste rezervirali kapacitet resursa za projekt.
 
 Nakon što je član tima rezerviran za vaš projekt, za upravljanje rezervacijama možete upotrijebiti mogućnost **Održavanje rezervacija** ili izravno **Ploču s rasporedom**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

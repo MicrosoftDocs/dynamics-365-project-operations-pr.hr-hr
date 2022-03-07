@@ -2,19 +2,17 @@
 title: Ažuriranje aplikacije Project Operations u vašem okruženju aplikacije Financije
 description: U ovoj temi nalaze se informacije o načinu ažuriranja rješenja Project Operations u vašem okruženju aplikacije Dynamics 365 Finance.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
-ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
-ms.translationtype: HT
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816616"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986752"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Ažuriranje aplikacije Project Operations u vašem okruženju aplikacije Financije
 
@@ -35,7 +33,7 @@ U ovoj temi nalaze se informacije o načinu ažuriranja rješenja Dynamics 365 P
 4. Provjerite radi li okruženje. Ako okruženje nije pokrenuto, pokrenite ga.
 5. U odjeljku **Novo izdanje** pod stavkom **Dostupna ažuriranja** odaberite **Prikaži ažuriranje** za 10.0.15.
 
-![Gumb za prikaz ažuriranja](media/view-update.png)
+![Gumb za prikaz ažuriranja.](media/view-update.png)
 
 6. Na stranici **Binarna ažuriranja** odaberite **Spremi paket**.
 7. Na stranici **Pregled i spremanje ažuriranja** odaberite **Spremi paket**.
@@ -49,11 +47,11 @@ U ovoj temi nalaze se informacije o načinu ažuriranja rješenja Dynamics 365 P
 2. S popisa odaberite paket koji ste ranije spremili, a zatim odaberite **Primijeni**.
 3. Odaberite **Da** kako biste potvrdili da želite implementirati paket.
 
-![Potvrda dijaloškog okvira za implementaciju paketa](media/confirm-package-deployment.png)
+![Potvrda dijaloškog okvira za implementaciju paketa.](media/confirm-package-deployment.png)
 
 4. Odaberite **Da** kako biste potvrdili da želite ažurirati aplikaciju.
 
-![Potvrđivanje dijaloškog okvira za ažuriranje aplikacije](media/confirm-application-update.png)
+![Potvrđivanje dijaloškog okvira za ažuriranje aplikacije.](media/confirm-application-update.png)
 
 Započet će implementacija i ažuriranje aplikacije. 
 
@@ -86,7 +84,7 @@ Sljedeća ažuriranja sigurnosnih ovlasti za entitete potrebna su kao dio ažuri
 
 1. U okruženju svoje platforme Dataverse idite na **Postavke** i u grupi **Sustav** odaberite **Sigurnost**.
 
-![Postavke okruženja platforme Dataverse](media/Picture21.png)
+![Postavke okruženja platforme Dataverse.](media/Picture21.png)
 
 2. Odaberite mogućnost **Sigurnosna uloga**.
 3. S popisa uloga odaberite **korisnik aplikacije dvostrukog ispisa** i odaberite karticu **Prilagođeni entiteti**. 
@@ -123,5 +121,8 @@ Sljedeća ažuriranja sigurnosnih ovlasti za entitete potrebna su kao dio ažuri
 6. S popisa karti odaberite kartu **Knjiga (msdyn_ledgers)** sa svim preduvjetima i odaberite potvrdni okvir **Početna sinkronizacija**. 
 7. U polju **Glavni za početnu sinkronizaciju** odaberite **Aplikacije rješenja Finance and Operations**, a zatim odaberite **Pokreni**.
  
- ![Sinkronizacija karte knjige](media/DW6.png)
+ ![Sinkronizacija karte knjige.](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Navigacija aplikacijom Project Operations
 description: U ovoj temi nalaze se informacije o načinu pristupa aplikaciji Project Operations iz rješenja Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642039"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000112"
 ---
 # <a name="navigate-project-operations"></a>Navigacija aplikacijom Project Operations
 
@@ -38,3 +36,6 @@ Odaberite **Prijavi se** > **Prijavi se u okruženje** za navigaciju do modula *
 
 > [!NOTE]
 > Možete izravno pristupiti aplikaciji Project Operations na platformi Common Data Service i modulu **Upravljanje projektom i računovodstvo** s pomoćui njihove odgovarajuće URL-adrese. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

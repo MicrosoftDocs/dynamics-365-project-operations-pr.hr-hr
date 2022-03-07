@@ -2,18 +2,17 @@
 title: Članovi projektnog tima
 description: U ovoj temi nalaze se informacije o načinu rada s podacima o članu projektnog tima, atributima i planiranju.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: f46b71ece5f2573108def22224801dd960df00ae
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127419"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369232"
 ---
 # <a name="project-team-members"></a>Članovi projektnog tima
 
@@ -60,3 +59,6 @@ Iz rešetke člana tima mogu se poduzeti sljedeće radnje:
 
 - **Novi**: Osim dodavanja resursa izravno iz rasporeda, voditelji projekata mogu dodati nove imenovane ili generičke članove tima iz rešetke članova tima.
 - **Izbriši**: Odabirom jednog ili više članova tima, voditelj projekta može izbrisati resurse koji više neće sudjelovati u projektu. Brisanje člana tima također će izbrisati sve pridružene dodjele resursa i otkazati sve postojeće rezervacije.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

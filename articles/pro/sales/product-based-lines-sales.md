@@ -2,19 +2,17 @@
 title: Redci prilike koji se temelje na proizvodu – jednostavno
 description: U ovoj temi nalaze se informacije o stavkama retka prilike koji se temelji na proizvodu u aplikaciji Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 132bfa8418e255cf65c247e55cd45fbaf58d243cb34368fd07bc4ade11bb243e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272604"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989677"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>Redci prilike koji se temelje na proizvodu – jednostavno
 
@@ -22,7 +20,7 @@ _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predrač
 
 Redci prilike koji se temelje na proizvodu stavke su retka u Prilici. Te se različite stavke redaka nalaze na konačnoj fakturi koja se daje klijentu. Faktura ne uključuje neke druge dodatne usluge. Povezani trošak i potrošnja ne prate se na zadacima bilo kojih povezanih projekata.
 
-Redci koji se temelje na proizvodu mogu biti stavke iz kataloga ili proizvodi koji se upisuju. Većina funkcionalnosti na redcima prilike koji se temelje na proizvodu slijedi funkcionalnost koju pruža aplikacija Dynamics 365 Sales. Dodatne informacije o redcima prilike koji se temelje na proizvodima potražite u članku [Dodavanje proizvoda prilici](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).
+Redci koji se temelje na proizvodu mogu biti stavke iz kataloga ili proizvodi koji se upisuju. Većina funkcionalnosti na redcima prilike koji se temelje na proizvodu slijedi funkcionalnost koju pruža aplikacija Dynamics 365 Sales. Dodatne informacije o redcima prilike koji se temelje na proizvodima potražite u članku [Dodavanje proizvoda prilici](/dynamics365/sales-enterprise/add-products-opportunity).
 
 **Proračun klijenta** je koncept specifičan za retke prilika koji se temelje na projektu. Polje **Proračun klijenta** prati iznos koji je klijent spreman platiti za stavku.
 

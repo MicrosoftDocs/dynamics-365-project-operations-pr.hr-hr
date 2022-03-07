@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
+ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596183"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4087847"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Faktura za povremena plaćanja ili plaćanje unaprijed
+# <a name="invoice-a-retainer-or-an-advance"></a>Faktura za akontaciju ili predujam
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
+_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
 
-Dynamics 365 Project Operations podržava ugovore koji se temelje na akontacijama. Na ugovor o projektu možete zabilježiti raspored akontacija ili jednokratnih predujmova. Međutim, bilježenje na razini ugovora o projektu ne osigurava odmah uporabu akontacije ili predujma. Kako biste upotrebljavali akontaciju ili predujam na računu kojim se stvarno tereti klijenta, prvo se mora fakturirati akontacija ili predujam.
+Dynamics 365 Project Operations podržava ugovore koji se temelje na akontacijama i jednokratnim predujmovima. Na ugovor o projektu možete zabilježiti raspored akontacija ili jednokratnih predujmova. Međutim, bilježenje na razini ugovora o projektu ne osigurava odmah uporabu akontacije ili predujma. Kako biste upotrebljavali akontaciju ili predujam na računu kojim se stvarno tereti kupca, prvo se mora fakturirati akontacija ili predujam.
 
 Poduzmite sljedeće korake za fakturiranje akontacije ili predujma.
 
@@ -43,11 +43,11 @@ Na svakoj fakturi koja se generira za ugovor o projektu koji ima fakturirane ako
 
 To se može vidjeti u rešetki **Primijenjene akontacije i predujmovi** na stranici **Faktura**. Sljedeća tablica pruža informacije o poljima na rešetki **Primijenjene akontacije i predujmovi** stranice **Faktura za projekt**.
 
-| Polje | Lokacija | Opis | Utjecaj na niže razine |
+| Polje | Lokacija | Relevantnost, svrha i smjernice | Utjecaj na niže razine |
 | --- | --- | --- | --- |
-| Opis | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt** |Ovo je polje samo za čitanje i pruža opis akontacije ili predujma koji se upotrebljava na ovoj fakturi. Ta se vrijednosti ne može promijeniti na fakturi. Ova se vrijednost može ažurirati na podrešetki, na stranici **Ugovor o projektu**. | Ovo se polje može prikazati klijentu na ispisanom računu kako bi se naznačilo koja se akontacija ili predujam primjenjuje na računu. |
-| Isporučeno | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo je polje samo za čitanje i osigurava datum fakture akontacije ili predujma koji se upotrebljava na ovoj fakturi. Ta se vrijednosti ne može promijeniti na fakturi. Ova se vrijednost može ažurirati na podrešetki, na stranici **Ugovor o projektu**. | Ovo se polje može prikazati klijentu na ispisanom računu kako bi se naznačio datum na koji je akontacija ili predujam prvi put fakturiran klijentu. |
-| Iznos | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo je polje samo za čitanje i pruža iznos akontacije ili predujma koji se upotrebljava na ovoj fakturi. Ta se vrijednosti ne može promijeniti na fakturi. Ova se vrijednost može ažurirati na podrešetki, na stranici **Ugovor o projektu**. | Ovo se polje može prikazati klijentu na ispisanom računu kako bi se naznačio izvorni iznos akontacije ili predujma koji je klijent platio. |
-| Iskorišteni iznos | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo je polje samo za čitanje i daje izračunanu vrijednost koja sažima koliko je akontacije ili predujma upotrijebljeno. | Ovo se polje može prikazati klijentu na ispisanom računu kako bi se naznačio iznos iz te akontacije ili predujma koji je već upotrijebljen. |
+| Opis | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt** |Ovo je polje samo za čitanje i pruža opis akontacije ili predujma koji se upotrebljava na ovoj fakturi. Ta se vrijednosti ne može promijeniti na fakturi. Ova se vrijednost može ažurirati na podrešetki, na stranici **Ugovor o projektu**. | Ovo se polje može prikazati kupcu na ispisanom računu kako bi se naznačilo koja se akontacija ili predujam primjenjuje na računu. |
+| Isporučeno | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo je polje samo za čitanje i osigurava datum fakture akontacije ili predujma koji se upotrebljava na ovoj fakturi. Ta se vrijednosti ne može promijeniti na fakturi. Ova se vrijednost može ažurirati na podrešetki, na stranici **Ugovor o projektu**. | Ovo se polje može prikazati kupcu na ispisanom računu kako bi se naznačio datum na koji je akontacija ili predujam prvi put fakturiran klijentu. |
+| Iznos | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo je polje samo za čitanje i pruža iznos akontacije ili predujma koji se upotrebljava na ovoj fakturi. Ta se vrijednosti ne može promijeniti na fakturi. Ova se vrijednost može ažurirati na podrešetki, na stranici **Ugovor o projektu**. | Ovo se polje može prikazati kupcu na ispisanom računu kako bi se naznačio izvorni iznos akontacije ili predujma koji je klijent platio. |
+| Iskorišteni iznos | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo je polje samo za čitanje i daje izračunanu vrijednost koja sažima koliko je akontacije ili predujma upotrijebljeno. | Ovo se polje može prikazati kupcu na ispisanom računu kako bi se naznačio iznos iz te akontacije ili predujma koji je već upotrijebljen. |
 | Prošireni iznos | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo se polje može uređivati i pruža iznos akontacije ili predujma koji je upotrijebljen na ovoj fakturi za projekt. Ovaj iznos ne može biti veći od onoga što je dostupan na predujmu. Sustav to automatski izračunava kao razliku između polja **Iznos** i **Upotrijebljeni iznos** na rešetki. Možete smanjiti ovaj iznos kako biste upotrijebili manje od onoga što je dostupno, ali ne možete povećati iznos kako biste upotrebljavali više od onoga što je dostupno. | Ovo se polje može prikazati klijentu na ispisanom računu kako bi se naznačio iznos iz te akontacije ili predujma koji se upotrebljavao na fakturi. |
 | Iznos salda akontacije. | Rešetka **Primijenjene akontacije i predujmovi** na stranici **Faktura za projekt**  | Ovo je polje samo za čitanje i pruža vrijednost preostalog dijela akontacije ili predujma nakon potvrde fakture. | Ovo se polje može prikazati klijentu na ispisanom računu kako bi se naznačio iznos koji će preostati iz te akontacije ili predujma nakon što se faktura potvrdi i plati. |

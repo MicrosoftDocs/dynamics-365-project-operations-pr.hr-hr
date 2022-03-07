@@ -2,24 +2,22 @@
 title: Dodavanje članova tima iz rešetke članova tima
 description: U ovoj temi nalaze se informacije o tome kako možete upravljati resursima članova tima.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121524"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008397"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Dodavanje članova tima iz rešetke članova tima
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Dynamics 365 Project Operations uključuje nadzornu ploču upravitelja resursa koja pruža vizualni pregled potražnje resursa i iskoristivosti na svim razinama tvrtke ili ustanove. Grafikone na toj nadzornoj ploči možete koristiti za vizualizaciju sljedećih informacija:
+Dynamics 365 Project Operations uključuje nadzornu ploču upravitelja resursa koja pruža vizualni pregled potražnje resursa i korištenja na svim razinama ustanove. Grafikone na toj nadzornoj ploči možete koristiti za vizualizaciju sljedećih informacija:
 
 - **Potražnja za resursima**: Grafikon **Zahtjevi za aktivne resurse** prikazuje poslane resurse. Resursi se agregiraju prema ulozi ili projektu.
 - **Potražnja za neposlanim resursima**: Grafikon **Potražnja za resursima koji nisu dodijeljeni** prikazuje sve preduvjete resursa koji nisu poslani. Taj grafikon pomaže upraviteljima resursa da pregledaju potražnju koja nije utvrđena i može se poslati putem zahtjeva za resurs.
@@ -200,3 +198,6 @@ Kada pogledate vrijeme na višim razinama, ćelije na kartici **Usklađivanje** 
 Ako imate dodjele zadataka za resurs, ali bez rezervacija, na obrascu **Projekti**, na kartici **Usklađivanje**, odaberite manjak rezervacija, a zatim odaberite **Produlji rezervaciju**. Prikazat će se dijaloški okvir **Produlji rezervaciju** produljivanje rezervacije i rezervacija koju je potrebna za rješavanje manjka resursa. Dijaloški okvir prikazuje i postojeće rezervacije resursa diljem projekata ili drugih entiteta koji se mogu planirati. Ako odaberete **U redu** da biste izradili rezervaciju za resurs, bez obzira na dostupnost tog resursa, može doći do prebukiranosti.
 
 Upravitelj projekta ili upravitelj resursa zatim može upotrijebiti ploču s rasporedom kako bi upravljao svim situacijama u kojima resurs ima prevelik broj rezervacija izvan svog kapaciteta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

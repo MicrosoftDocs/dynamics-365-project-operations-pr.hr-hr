@@ -3,7 +3,6 @@ title: Instalacija uzorka podataka
 description: U ovoj temi nalaze se informacije o načinu instaliranju uzoraka podataka u aplikaciju Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144494"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007267"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalacija oglednih podataka za aplikaciju Project Service
 
@@ -136,7 +135,7 @@ Za paket pokaznih podataka potrebno je šest korisnika. Da bi se paket pravilno 
     - Ime i prezime korisnika = „Molly Clark” kao Upraviteljica računa   
     - Ime i prezime korisnika = „Spencer Low” kao Upravitelj vježbi i Voditelj projekta  
     - Ime i prezime korisnika = „Veronica Quek” kao član tima   
-    - Ime i prezime korisnika = „William Contoso”
+    - Ime i prezime korisnika=„William Contoso”
   
 2. U svrhe uvoza pokaznih podataka dodijelite šest korisnika s ulogom iznad uloge administratora da bi se uzorci zapisa pravilno uvezli. 
 
@@ -149,7 +148,7 @@ Za paket pokaznih podataka potrebno je šest korisnika. Da bi se paket pravilno 
 
 5. Kalendar prvog korisnika (u oznaci **userstocreateandconfigure**) upotrebljava se za ispunjavanje radnog vremena za sve resurse koje je moguće rezervirati pri uvozu pokaznih podataka. Idite na **Postavke** > **Sigurnost** > **Korisnici**, pronađite svojeg korisnika „Spencer Low” i otvorite mogućnost „Radno vrijeme”. Uredite postojeće radno vrijeme uz odabir mogućnosti **Cijeli tjedni raspored koji se ponavlja od početka do kraja**. Provjerite je li **radno vrijeme postavljeno na 8 – 17 sati (9 sati), od ponedjeljka do petka, s vremenskom zonom Pacifičko vrijeme (SAD i Kanada)**. To je potrebno kako biste osigurali pravilan prikaz ploče projekta i rasporeda.
 
-**Preporuka:** bilo bi dobro da odmah stvorite sigurnosnu kopiju svoje organizacije u slučaju da se morate vratiti na početnu točku ako nešto ne bude u redu tijekom instalacije oglednih podataka. Dodatne informacije potražite u članku [Sigurnosno kopiranje i vraćanje instanci](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Preporuka:** bilo bi dobro da odmah stvorite sigurnosnu kopiju svoje organizacije u slučaju da se morate vratiti na početnu točku ako nešto ne bude u redu tijekom instalacije oglednih podataka. Dodatne informacije potražite u članku [Sigurnosno kopiranje i vraćanje instanci](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Pokrenite Package Deployer
 
@@ -297,3 +296,6 @@ Odaberite korisnika (na primjer, Spencer Low) i promijenite radne sate za Spence
 
 > [!div class="mx-imgBorder"]
 > ![Snimka zaslona aktivnih resursa koje je moguće rezervirati](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

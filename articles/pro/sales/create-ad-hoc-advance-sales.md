@@ -2,18 +2,16 @@
 title: Stvaranje ad hoc predujma za ugovor
 description: U ovoj temi nalaze se informacije o stvaranju predujma za ugovor, ako je potrebno.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4595937"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999127"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Stvaranje ad hoc predujma za ugovor
 
@@ -39,3 +37,6 @@ Izvršite sljedeće korake kako biste klijentu fakturirali predujam.
     | **Status fakture** | Ovo je postavka mogućnosti koja označava dodaje li se taj predujam u nacrt fakture za ovog klijenta. Moguće su sljedeće vrijednosti:</br>- **Nije spremno za fakturiranje**</br>- **Spremno za fakturiranje** | Kada je avans ili plaćanje unaprijed označeno kao **Spremno za fakturiranje**, dodaje se kao vremenski redak na nacrtu fakture. Samo se potpuno fakturirani predujam može upotrijebiti za usklađivanje s troškovima projekta za sljedeće razdoblje fakture. |
 
 4. Odaberite mogućnost **Spremi i zatvori** u dijaloškom okviru za brzo stvaranje kako biste zabilježili predujam ili plaćanje unaprijed.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

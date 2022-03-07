@@ -2,18 +2,16 @@
 title: Definiranje kalendara resursa
 description: U ovoj temi nalaze se informacije o načinu definiranja kalendara radnog vremena za resurse u aplikaciji Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123909"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990307"
 ---
 # <a name="define-resource-calendars"></a>Definiranje kalendara resursa
 
@@ -43,3 +41,6 @@ Svaki resurs koji se može rezervirati, a radi na projektu, mora imati kalendar 
 2. U prikazu rešetke odaberite do 25 **Resursa koji se mogu rezervirati** kako biste ih ažurirali.
 3. Odaberite mogućnost **Postavi kalendar** i dijaloški okvir će vam osigurati popis dostupnih predložaka radnog vremena.
 4. Odaberite predložak koji želite upotrebljavati, a zatim odaberite mogućnost **Primijeni**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

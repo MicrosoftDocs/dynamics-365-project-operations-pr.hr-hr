@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993280"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987697"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Kako da zadatku dodijelim resurs koji se može rezervirati u web-aplikaciji (aplikaciji Project Service v2.x)?
 
@@ -43,7 +43,7 @@ Pomoću ove metode možete dodati resurs projektnom timu, a zatim dodijeliti zad
 3.  Odaberite **od** i **do** datume.
 
     > [!div class="mx-imgBorder"] 
-    > ![Snimka zaslona dodavanja člana tima](media/FAQ-Resources-to-Tasks2-1.png "Snimka zaslona dodavanja člana tima")
+    > ![Snimka zaslona dodavanja člana tima.](media/FAQ-Resources-to-Tasks2-1.png "Snimka zaslona dodavanja člana tima")
  
 4.  Izaberite jednu od sljedećih metoda dodjeljivanja za rezervaciju resursa:
     - **Puni kapacitet** rezervira puni kapacitet resursa za odabrane datume od i do.
@@ -63,12 +63,12 @@ Pomoću ove metode možete dodati resurs projektnom timu, a zatim dodijeliti zad
     3. Odaberite **U redu**. Taj član tima sada je dodijeljen zadatku.
 
     > [!div class="mx-imgBorder"] 
-    > ![Snimka zaslona dodavanja resursa sa SAR-om](media/FAQ-Resources-to-Tasks2-2.png "Snimka zaslona dodavanja resursa sa SAR-om")
+    > ![Snimka zaslona dodavanja resursa sa SAR-om.](media/FAQ-Resources-to-Tasks2-2.png "Snimka zaslona dodavanja resursa sa SAR-om")
  
 Na rešetki član tima pod Dodijeljeni sati vidjet ćete agregat dodijeljenih sati resursa. Bit će jednak ili manji od rezerviranih sati resursa. 
 
 > [!div class="mx-imgBorder"] 
-> ![Snimka zaslona dodijeljenih sati za resurs](media/FAQ-Resources-to-Tasks2-3.png "Snimka zaslona dodijeljenih sati za resurs")
+> ![Snimka zaslona dodijeljenih sati za resurs.](media/FAQ-Resources-to-Tasks2-3.png "Snimka zaslona dodijeljenih sati za resurs")
  
 Ako zadatak kojeg pokušavate dodijeliti resursu počinje nakon datuma završetka rezervacija resursa, taj resurs se neće prikazati u padajućem izborniku.
 
@@ -92,22 +92,22 @@ Zahvaljujući ovoj metodi svaki resurs ima dovoljno rezervacija za zadatke. Prvo
 4. Odaberite **U redu**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Snimka zaslona uporabe SAR-a za dodavanja resursa](media/FAQ-Resources-to-Tasks2-4.png "Snimka zaslona uporabe SAR-a za dodavanja resursa")
+    > ![Snimka zaslona uporabe SAR-a za dodavanja resursa.](media/FAQ-Resources-to-Tasks2-4.png "Snimka zaslona uporabe SAR-a za dodavanja resursa")
  
 Nakon dovršetka dodjele uloga zadacima u SAR-u, odaberite **Generiranje projektnog tima**. Aplikacija Project Service stvara najmanji broj generičkih članova tima na temelju uloga, organizacijskih jedinica za resurse i projektnog kalendara agregirajući dodjele zadataka.
 
 > [!div class="mx-imgBorder"] 
-> ![Snimka zaslona generiranja projektnog tima](media/FAQ-Resources-to-Tasks2-5.png "Snimka zaslona generiranja projektnog tima")
+> ![Snimka zaslona generiranja projektnog tima.](media/FAQ-Resources-to-Tasks2-5.png "Snimka zaslona generiranja projektnog tima")
  
 Na rešetki član tima vidjet ćete resurse generičkog tipa s nazivom uloge i položaja. Ako su dva resursa potrebna za određenu ulogu da dovrši rad, značajka Generiranje tima će stvoriti dva člana tima i koristit će naziv položaja da ih razlikuje.
 
 > [!div class="mx-imgBorder"] 
-> ![Snimka zaslona dodavanja dva generička resursa](media/FAQ-Resources-to-Tasks2-6.png "Snimka zaslona dodavanja dva generička resursa")
+> ![Snimka zaslona dodavanja dva generička resursa.](media/FAQ-Resources-to-Tasks2-6.png "Snimka zaslona dodavanja dva generička resursa")
  
 Možete otvoriti dodatni preduvjet resursa za generičkog člana tima odabirom veze pod stavkom Preduvjet resursa.
 
 > [!div class="mx-imgBorder"] 
-> ![Snimka zaslona otvaranja dodatnog preduvjeta resursa](media/FAQ-Resources-to-Tasks2-7.png "Snimka zaslona otvaranja dodatnog preduvjeta resursa")
+> ![Snimka zaslona otvaranja dodatnog preduvjeta resursa.](media/FAQ-Resources-to-Tasks2-7.png "Snimka zaslona otvaranja dodatnog preduvjeta resursa")
 
 Odaberite **Rezerviraj** za generički resurs, a zatim možete koristiti ploču s rasporedom za pronalaženje i rezerviranje pravog resursa. Možete poslati i zahtjev za ispunjenje od strane upravitelja resursa odabirom **Pošalji zahtjev**.
 

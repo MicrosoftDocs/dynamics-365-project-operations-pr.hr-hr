@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3895f06c6a401f200cf832940ef85eaa8d66fbb2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d99906b11b0189fc8227accd68bd0457f6baa42c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151154"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281154"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Novosti ili izmjene u aplikaciji Project Service Automation, val ranog pristupa 1 za 2021, V3
 
@@ -43,3 +43,6 @@ Popravljeni su sljedeći problemi:
 
 - Datumi završetka automatski se popunjavaju kada se stvara unos vremena ako je trajanje nula.
 - Korisnici mogu promijeniti zadatak na unosu vremena koji je odobren ili poslan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

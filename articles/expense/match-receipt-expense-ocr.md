@@ -1,12 +1,12 @@
 ---
-title: Snimite potvrdu s pomoću OCR-a
+title: Usklađivanje računa i troška s pomoću OCR-a
 description: U ovoj se temi nalaze informacije o obradi optičkog prepoznavanja znakova (OCR, optical character recognition) za račune.
 author: suvaidya
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,18 +15,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499842"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073353"
 ---
-# <a name="capture-a-receipt-using-ocr"></a>Snimite potvrdu s pomoću OCR-a
+# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Usklađivanje računa i troška s pomoću OCR-a
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
 
-Unos troškova poboljšan je implementacijom optičkog prepoznavanja znakova (OCR) za obradu računa. Ova je funkcija dizajnirana za poboljšanje korisničkog iskustva tijekom izrade izvješća o troškovima.
+Unos troškova poboljšan je uvođenjem optičkog prepoznavanja znakova (OCR) za obradu računa. Ova je funkcija dizajnirana za poboljšanje korisničkog iskustva tijekom izrade izvješća o troškovima.
 
 ## <a name="key-features"></a>Glavne značajke
 
@@ -94,6 +94,3 @@ Trenutačno je podržan SAD.
 Financije će kontaktirati uslugu Cognitive Services radi izdvajanja podataka s terena. Cognitive Services zadržat će kopiju vašeg računa do 24 sata dok traje obrada. Nakon završetka obrade, Cognitive Services uklonit će račun. Računi se i dalje čuvaju u Financijama.
 
 Dodatne informacije potražite u članku [Omogućivanje razumijevanja računa s novom mogućnosti prepoznavanja obrazaca](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

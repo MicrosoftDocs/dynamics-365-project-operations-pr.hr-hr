@@ -2,11 +2,9 @@
 title: Integracija programa Microsoft Project Client
 description: Planiranje i održavanje rasporeda projekata može biti složeno, pa voditelji projekata trebaju upotrebljavati alate koji im pomažu pri upravljanju tim zadatkom. Integracija s programom Microsoft Project Client pruža podršku za otvaranje i upravljanje strukturnom analizom rada na projektu.
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073449"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988012"
 ---
 # <a name="microsoft-project-client-integration"></a>Integracija programa Microsoft Project Client
 
@@ -126,4 +124,14 @@ Kako biste stvorili novu strukturnu analizu rada s pomoću programa Microsoft Pr
 
 8.  Odaberite **Kalendar** koji će se upotrebljavati za raspodjelu resursa.
 
-11. Kliknite **U redu**.
+11. Kliknite karticu **Izvješćivanje**.
+
+> [!NOTE]
+> Dodatak aplikacije Project Client ne podržava sljedeće znakove u formatu ID-a projekta:
+> 
+>   - Podvlaka
+>   - Točka
+>   - Razmak
+>   - Kosa crta
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

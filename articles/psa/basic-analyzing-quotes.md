@@ -2,8 +2,6 @@
 title: Analiza ponuda projekta
 description: Ova tema pruža informacije o analizi ponuda projekta.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145214"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002817"
 ---
 # <a name="analysis-of-project-quotes"></a>Analiza ponuda projekta
 
@@ -60,3 +58,6 @@ Možete analizirati ponude i generirati grafikone za očekivanja klijenta o rasp
 Analiza očekivanja klijenta o rasporedu provodi se uspoređivanjem najnovijeg datuma završetka detalja retka ponude s traženim datumom isporuke u svim recima ponude u ponudi.
 
 Analiza očekivanja klijenta o proračunu provodi se uspoređivanjem zbroja ukupnog proračuna klijenta s navedenim iznosom u svim recima ponude.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

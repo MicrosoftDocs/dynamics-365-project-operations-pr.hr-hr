@@ -2,18 +2,16 @@
 title: Konfiguriranje automatskog stvaranja fakture
 description: U ovoj temi nalaze se informacije o načinu konfiguriranja sustava za automatsko generiranje faktura.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122424"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992647"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Konfiguriranje automatskog stvaranja fakture
 
@@ -45,3 +43,6 @@ Skupni postupak stvaranja faktura ponavljajući je posao. Ako se taj skupni post
 
 > [!NOTE]
 > Skupno fakturiranje izvršava se samo za retke ugovora o projektu koji su konfigurirani prema rasporedu faktura. Ugovorni redci s načinom naplate fiksne cijene moraju imati konfigurirane prekretnice. Redak projektnog ugovora s vremenskim i materijalnim načinom naplate treba imati postavku rasporeda računa na temelju datuma. Isto se odnosi i na redak ugovora koji se temelji na projektu.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

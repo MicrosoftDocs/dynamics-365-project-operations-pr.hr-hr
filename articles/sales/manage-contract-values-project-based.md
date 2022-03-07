@@ -2,18 +2,16 @@
 title: Rad s redcima ugovora koji se temelje na projektu
 description: U ovoj temi nalaze se informacije o redcima ugovora koji se temelje na projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2072692296308a08756ec3e0f381c792745dd3e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181701"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011497"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Rad s redcima ugovora koji se temelje na projektu
 
@@ -57,3 +55,6 @@ Pravilo: Projekt i određena klasa transakcije mogu biti uključeni samo u jedan
 | C1       | CL2           | P1      | No           | Jest             | No          | Valjano           | Vrijeme i naknade za projekt P1 uključeni su u CL1. Trošak za projekt P1 uključen je u CL2. </br>   Nema preklapanja onoga što je uključeno u svaki redak ugovora i stoga je valjano.  |
 | C1       | CL1           | P1      | Jest          | Jest             | Jest         | Nije valjan       | Krši pravilo. Vrijeme, trošak i naknade za projekt P1 uključeni su u retke dva ugovora.                                                                                               |
 | CL2      | CL2           | P1      | Jest          | Jest             | Jest         | Nije valjan       | Krši pravilo. Vrijeme, trošak i naknade za projekt P1 uključeni su u retke dva ugovora.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Postavke projekta
 description: Ova tema pruža informacije o upravljanju postavkama projekta.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148139"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996922"
 ---
 # <a name="project-settings"></a>Postavke projekta
 
@@ -49,7 +47,7 @@ Da biste stvorili raspored projekta, stvorite predložak kalendara projekta koji
   - Radni raspored za jedan dan
   - Slobodno vrijeme
 
-> ![Postavljanje mogućnosti](media/project-13.png)
+> ![Postavite mogućnosti.](media/project-13.png)
 
 4. Odaberite **Novi tjedni raspored**, a zatim postavite mogućnosti za ovaj raspored resursa. Možete postaviti tjedni raspored s ponavljanjem, parametre dnevnih sati, neradno vrijeme itd.
 5. Postavite datumski raspon, odaberite **Spremi**, a zatim kliknite **Zatvori**. 
@@ -68,3 +66,6 @@ Svaka tvrtka ili ustanova mora postaviti te uloge na stranici **Kategorije aktiv
 ## <a name="price-lists"></a>Cjenici
 
 Cjenici vam omogućuju da odredite trošak i prodajne cijene za uloge resursa u organizaciji, kategorije troškova, proizvode i druge elemente u tvrtki ili ustanovi. Prije nego što postavite financijske procjene za isporučeni rad u projektu, trebate stvoriti sigurnosni trošak i prodajni cjenik. U odjeljku parametara također trebate postaviti zadani trošak i prodajni cjenik koji se primjenjuje na sve projekte koji su stvoreni u tvrtki ili ustanovi. Na stranici **Parametri aktivnog projekta** provjerite jeste li postavili zadani trošak i prodajni cjenik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

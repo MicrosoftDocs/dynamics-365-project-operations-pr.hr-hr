@@ -2,19 +2,17 @@
 title: Rješavanje problema s radom u rešetki sa zadacima
 description: U ovoj temi nalaze se informacije o rješavanju problema potrebne za rad u rešetki sa zadacima.
 author: ruhercul
-manager: tfehr
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031528"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989092"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rješavanje problema s radom u rešetki sa zadacima 
 
@@ -26,7 +24,7 @@ U ovoj temi opisuje se način rješavanja problema s kojima biste se mogli susre
 
 Project Operations zahtijeva da se omoguće kolačići treće strane kako bi se prikazala strukturna analiza rada. Kada kolačići trećih strana nisu omogućeni, umjesto da vidite zadatke, vidjet ćete praznu stranicu kada odaberete karticu **Zadaci** na stranici **Projekt**.
 
-![Prazna kartica kada kolačići treće strane nisu omogućeni](media/blankschedule.png)
+![Prazna kartica kada kolačići treće strane nisu omogućeni.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Zaobilazno rješenje
@@ -54,11 +52,22 @@ Postupci u nastavku opisuju način ažuriranja postavki preglednika Microsoft Ed
 Project Operations zahtijeva da parametar projekta upućuje na krajnju točku PEX. Ovaj krajnja točka potrebna je za komunikaciju s uslugom koja se upotrebljava za prikazivanje strukturne analize rada. Ako parametar nije omogućen, dobit ćete pogrešku „Parametar projekta nije valjan”. 
 
 ### <a name="workaround"></a>Zaobilazno rješenje
- ![Polje krajnje točke PEX na parametru projekta](media/projectparameter.png)
 
 1. Dodajte polje **Krajnja točka PEX** na stranicu **Parametri projekta**.
-2. Ažurirajte polje sljedećim vrijednostima: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
-3. Uklonite polje sa stranice **Parametri projekta**.
+2. Odredite vrstu proizvoda koju upotrebljavate. Ova se vrijednost upotrebljava kada je postavljena krajnja točka PEX-a. Nakon preuzimanja, vrsta proizvoda već je definirana u krajnjoj točki PEX-a. Zadržite tu vrijednost. 
+   
+    ![Polje krajnje točke PEX-a na parametru projekta.](media/pex-endpoint.png)
+
+3. Ažurirajte polje sljedećim vrijednostima: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Vrsta proizvoda                         | Parametar vrste |
+   |--------------------------------------|----------------|
+   | Project for the Web u zadanoj organizaciji   | vrsta=0         |
+   | Project for the Web u organizaciji imenovanoj na platformi CDS | vrsta=1         |
+   | Project Operations                   | vrsta=2         |
+   
+4. Uklonite polje sa stranice **Parametri projekta**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Ovlasti za projekt za web
 
@@ -69,7 +78,7 @@ Project Operations oslanja se na vanjsku uslugu planiranja. Usluga zahtijeva da 
 
 1. Idite na **Postavke > Sigurnost > Korisnici > Korisnici aplikacije**.  
 
-   ![Alat za čitanje aplikacije](media/applicationuser.jpg)
+   ![Alat za čitanje aplikacije.](media/applicationuser.jpg)
    
 2. Dvaput kliknite korisnički zapis aplikacije kako biste provjerili sljedeće:
 
@@ -78,7 +87,7 @@ Project Operations oslanja se na vanjsku uslugu planiranja. Usluga zahtijeva da 
  
 3. Ako taj korisnik ne postoji, možete stvoriti novi korisnički zapis. Odaberite **Novi korisnici**. Promijenite obrazac za unos u **Korisnik aplikacije**, a zatim dodajte **ID aplikacije**.
 
-   ![Pojedinosti o korisniku aplikacije](media/applicationuserdetails.jpg)
+   ![Pojedinosti o korisniku aplikacije.](media/applicationuserdetails.jpg)
 
 4. Provjerite je li korisniku dodijeljena ispravna licenca i je li usluga omogućena u pojedinostima licencnih planova usluga.
 5. Provjerite može li korisnik otvoriti project.microsoft.com.
@@ -106,3 +115,6 @@ Kada se izvrši jedno ili više ažuriranja strukturne analize rada, promjene na
   - Sustav aplikacije Project Operations
   - Sustav projekta
   - Sustav dvostrukog pisanja aplikacije Project Operations (ova je uloga potrebna ako za aplikaciju Project Operations postavljate scenarij temeljen na resursima / bez zaliha.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

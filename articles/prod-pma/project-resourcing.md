@@ -2,11 +2,9 @@
 title: Početna stranica raspodjele resursa za projekt
 description: U ovoj temi nalaze se informacije o dodjeli resursa projektu.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00632be050b2ac98aaa6b98c3b09ff324c606e72
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073374"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009697"
 ---
 # <a name="project-resourcing-home-page"></a>Početna stranica raspodjele resursa za projekt
 
@@ -49,9 +47,12 @@ U sljedećoj temi nalaze se informacije o zadacima koje treba dovršiti kada rad
 - [Postavljanje resursa projekta](set-up-project-resources.md)
 - [Upravljanje kompetencijama resursa](manage-resource-competencies.md)
 - [Stvaranje novog projekta](create-new-project.md)
-- [Postavljanje cijene zasnovane na ulogama](set-up-role-based-pricing.md)
+- [Postavljanje cijene koja se temelji na ulogama](set-up-role-based-pricing.md)
 - [Stvaranje projektnog tima](create-project-team.md)
 - [Sinkroniziranje kapaciteta resursa](synchronize-resource-capacity.md)
 - [Učinkovitost planiranja projektnih resursa](project-scheduling-performance.md)
 - [Postavljanje uloga na predlošcima strukturne analize rada](set-up-roles-wbs-template.md)
 - [Ispunjenje resursa za planirane resurse](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

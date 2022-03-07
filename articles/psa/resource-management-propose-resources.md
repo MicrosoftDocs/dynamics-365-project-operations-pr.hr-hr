@@ -2,8 +2,6 @@
 title: Predlaganje resursa projekta
 description: U ovoj temi nalaze se informacije o načinu predlaganja projektnih resursa.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147509"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995032"
 ---
 # <a name="propose-project-resources"></a>Predlaganje resursa projekta
 
@@ -34,21 +32,21 @@ Upravitelji resursa mogu predložiti resurs voditelju projekta pomoću zahtjeva 
 1. Odaberite **Pronađi resurse** u rešetki zahtjeva ili u samom zahtjevu.
 2. Na stranici **Pomoćnik za raspored** odaberite resurs, a zatim u oknu **Stvaranje rezervacije resursa** u polju **Status rezervacije** odaberite **Rezerviraj**.
 
-    ![Odabrani predloženi resurs](media/Resource-Management-image62.png)
+    ![Odabrani predloženi resurs.](media/Resource-Management-image62.png)
 
 Pojavljuju se sljedeća ažuriranja statusa:
 
 - Na stranici **Pomoćnik za raspored** pokazatelji statusa ažuriraju se kako bi bilo jasno da je rezervacija predložena, a ne fiksno rezervirana.
 
-    ![Pokazatelji statusa za predloženu rezervaciju na stranici Pomoćnik za raspored](media/Resource-Management-image63.png)
+    ![Pokazatelji statusa za predloženu rezervaciju na stranici Pomoćnik za raspored.](media/Resource-Management-image63.png)
 
 - Na zahtjevu za resurs status se mijenja u **Potreban pregled**.
 
-    ![Status zahtjeva za resurs promijenjen u Potreban pregled](media/Resource-Management-image64.png)
+    ![Status zahtjeva za resurs promijenjen u Potreban pregled.](media/Resource-Management-image64.png)
 
-- Na kartici **Tim** projekta vrijednost **Status zahtjeva** člana generičkog tima mijenja se u **Potreban pregled**.
+- Na kartici **Tim** projekta, vrijednost **Status zahtjeva** generičkog člana tima mijenja se u **Potreban pregled**.
 
-    ![Status zahtjeva člana generičkog tima promijenjen u Potreban pregled na kartici Tim](media/Resource-Management-image48.png)
+    ![Status zahtjeva generičkog člana tima promijenjen u Potreban pregled na kartici Tim.](media/Resource-Management-image48.png)
 
 Voditelj projekta može prihvatiti ili odbaciti prijedlog.
 
@@ -72,7 +70,7 @@ Formule u nastavku služe za izračun upotrebe:
 
 Prikaz **Upotreba resursa** možete pronaći u oknu **Resursi**.
 
-![Prikaz upotrebe resursa](media/Resource-Management-image65.png)
+![Prikaz iskoristivosti resursa.](media/Resource-Management-image65.png)
 
 Svaka ćelija u rešetki predstavlja postotak naplative upotrebe resursa u razdoblju, kao što je dan, tjedan ili mjesec. Formule u nastavku služe za označavanje ćelija bojom:
 
@@ -86,7 +84,7 @@ U rešetki je potrebno postaviti ciljnu upotrebu za svaku ulogu ili pojedinačni
 
 Osim toga, svakom resursu koji se može rezervirati potrebno je dodijeliti zadanu ulogu. Otvorite **Resursi** \> **Resursi**. Na kartici **Project Service** provjerite je li definirana uloga resursa i je li polje **Zadano je** postavljeno na **Da**. Možete dodati dodatne uloge ako je polje **Zadano je = Ne**. Uloga u kojoj se koristi polje **Zadano je = Da** služi za procjenu upotrebe resursa u odnosu na cilj za tu ulogu.
 
-![Zadani skup uloga](media/Resource-Management-image67.png)
+![Zadani skup uloga.](media/Resource-Management-image67.png)
 
 Na kartici **Project Service** možete postaviti i pojedinačnu ciljnu upotrebu za resurs. Izračun upotrebe zatim upotrebljava ciljnu upotrebu da bi se procijenio cilj resursa, a ne cilj zadane uloge resursa.
 
@@ -98,18 +96,21 @@ Ključno je da upravitelji resursa mogu pregledavati dostupnost resursa i ažuri
 
 Radno vrijeme resursa koristi se kao osnova za izračun dostupnosti resursa. Rezervacije resursa iskorištavaju kapacitet resursa.
 
-![Ploča s rasporedom](media/Resource-Management-image68.png)
+![Ploča s rasporedom.](media/Resource-Management-image68.png)
 
 Na ploči s rasporedom boje i sjenčanje označavaju rezervacije, dostupnost i prekomjerne rezervacije, kao i status rezervacija. Postavka u postavkama ploče s rasporedom omogućuje prikaz legende.
 
 Ako se strelica udesno prikazuje pokraj pojedinačnog resursa koji se može rezervirati na ploči s rasporedom, resurs se može proširiti da bi se prikazale pojedinosti posla za koji je resurs rezerviran.
 
-![Prošireni prikaz resursa koji je moguće rezervirati na ploči s rasporedom](media/Resource-Management-image69.png)
+![Prošireni prikaz resursa koji je moguće rezervirati na Ploči s rasporedom.](media/Resource-Management-image69.png)
 
 Budući da Dynamics 365 Project Service Automation upotrebljava modul Universal Resource Scheduling, a ako imate instaliranu značajku Dynamics 365 Field Service, možete pregledati pojedinosti o rezervacijama resursa za projekte, radne naloge i sve druge entitete na koje ste proširili zakazivanje.
 
-![Pojedinosti rezervacija resursa za projekte i radne naloge](media/Resource-Management-image70.png)
+![Pojedinosti rezervacija resursa za projekte i radne naloge.](media/Resource-Management-image70.png)
 
 Za prikaz dodatnih pojedinosti o pojedinačnom resursu desnom tipkom miša kliknite resurs za otvaranje kartice resursa.
 
-![Kartica resursa](media/Resource-Management-image71.png)
+![Kartica resursa.](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

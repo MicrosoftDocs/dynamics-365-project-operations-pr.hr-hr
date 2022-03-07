@@ -1,8 +1,6 @@
 ---
 title: Što je novo ili promijenjeno u aplikaciji Project Service Automation, verzija 3
 description: Ova tema pruža informacije o tome što je novo i promijenjeno u verziji 3 aplikacije Project Service Automation.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150659"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006997"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Što je novo ili promijenjeno u aplikaciji Project Service Automation, verzija 3
 
@@ -257,3 +255,6 @@ Sljedeća je grafika nakon stvaranja prilagođenih cjenika.
 
 > [!NOTE]
 > Može se pojaviti kratko vrijeme odgode između vremena kada kliknete **Stvori prilagođeno određivanje cijena** i vremena kada će se stvoriti prilagođeni cjenik. Preporučujemo osvježavanje rešetke umjesto višestrukog klikanja. Prilagođeni je cjenik stvoren ako naziv pridruženog cjenika ima naziv ponude ili naziv ugovora o projektu koji mu se dodaje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

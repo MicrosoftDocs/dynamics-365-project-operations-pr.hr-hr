@@ -3,7 +3,7 @@ title: Početna stranica projekata za raspodjelu resursa
 description: Ova tema sadrži informacije o mogućnostima upravljanja resursima u aplikaciji Project Service Automation (PSA) za Dynamics 365.
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1d6a499ca8b143b549e0457fb967e4795e608050
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147418"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073600"
 ---
 # <a name="resourcing-projects-home-page"></a>Početna stranica projekata za raspodjelu resursa
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

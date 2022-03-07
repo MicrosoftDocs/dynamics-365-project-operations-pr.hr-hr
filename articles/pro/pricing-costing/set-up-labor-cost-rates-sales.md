@@ -1,33 +1,33 @@
 ---
-title: Postavljanje cijena koštanja rada – jednostavno
+title: Postavljanje troškova radne snage
 description: U ovoj temi nalaze se informacije o načinu postavljanja troškova radne snage u aplikaciji Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073299"
 ---
-# <a name="set-up-labor-cost-rates---lite"></a>Postavljanje cijena koštanja rada – jednostavno
+# <a name="setting-up-labor-cost-rates"></a>Postavljanje troškova radne snage 
 
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
 
 Svaki cjenik ima skup cijena radne snage (cijena uloge) koje su u skladu sa sadržajem i datumom stupanja na snagu cjenika.
 
-1. Stvorite cjenik i na kartici **Cijena uloge** u podrešetki odaberite **Nova uloga**.
+1. Stvorite cjenik i na kartici **Cijena uloga**, u podrešetki, odaberite **+ Nova uloga**.
 2. Na stranici **Brzo stvaranje**, odaberite ulogu i organizacijsku jedinicu.
 3. Unesite sve druge obvezne podatke.
 
 Sljedeća tablica uključuje neka polja koja su bitna za stvaranje cijena radne snage na cjeniku troškova.
 
-| Polje | Lokacija | Opis | Utjecaj na niže razine |
+| Polje | Lokacija | Relevantnost, svrha i smjernice | Utjecaj na niže razine |
 | --- | --- | --- | --- |
 | Uloga | Kartica **Općenito** i stranice **Brzo stvaranje** | Odaberite ulogu na koju se troškova primjenjuje. | Uloga na dolaznoj procjeni ili stvarnoj vrijednosti podudarit će se s ovim retkom kako bi se zadala cijena uloge. |
 | Jedinica za resurse | Kartica **Općenito** i stranice **Brzo stvaranje** | Odaberite organizacijsku jedinicu ili sektor tvrtke iz koje će se uzeti ta uloga za uporabu. Na primjer, razvojni inženjer iz sektora Robotics tvrtke Fabrikam India ili razvojni inženjer iz sektora softvera tvrtke Fabrikam USA. | Jedinica za određivanje resursa na dolaznoj procjeni ili stvarnoj vrijednosti podudarat će se s ovim retkom kako bi se zadala cijena uloge. |

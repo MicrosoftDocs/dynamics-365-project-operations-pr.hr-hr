@@ -2,8 +2,6 @@
 title: Rasporedi projekta
 description: Ova tema pruža informacije o tome kako izraditi raspored.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148409"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998407"
 ---
 # <a name="project-schedules"></a>Rasporedi projekta 
 
@@ -96,7 +94,7 @@ Rešetka **Raspored** potpuno je dostupna i može se koristiti s čitačima zasl
 
 Naziv zadatka opisuje posao koji treba dovršiti. U PSA-u atributi povezani sa zadatkom opisuju raspored zadatka i zahtjeve za broj djelatnika.
 
-> ![Atributi zadatka](media/project-2.png)
+> ![Atributi zadatka.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Atributi rasporeda
 
@@ -149,3 +147,6 @@ Prema zadanim postavkama, ako lisni čvor nema prethodnike, datum početka posta
 ### <a name="manual-scheduling"></a>Ručno zakazivanje
 
 Ako pravila automatskog zakazivanja ne ispunjavaju vaše zahtjeve, možete postaviti način zadatka za zadatak na **Ručno zakazano**. Ta postavka zaustavlja modul zakazivanja u izračunu vrijednosti za druge atribute zakazivanja. Bez obzira na način zadatka, ako postavite prethodnike za zadatke, to će se uvijek odraziti na datum početka ovisnog zadatka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

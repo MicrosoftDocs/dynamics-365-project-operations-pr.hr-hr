@@ -5,14 +5,15 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c347f14f3a479eb4aec951cfe4094c5581bce32
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986572"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955721"
 ---
 # <a name="expense-management-integration"></a>Integracija upravljanja troškovima
 
@@ -28,7 +29,7 @@ U punoj implementaciji troška, kategorije troška stvaraju se i održavaju u ap
 2. U aplikaciji Financije, idite na **Upravljanje troškom** > **Postavke** > **Dijeljene kategorije** i odaberite dijeljenu kategoriju transakcijske klase **Trošak**. Parametar **Može se upotrijebiti u troškovima** postavite na **Točno** i definirajte vrstu troška koju ćete upotrijebiti.
 3. S pomoću ovog zapisa dijeljene kategorije stvorite novu kategoriju troška tako da odete na **Upravljanje troškovima** > **Postavke** > **Kategorije troška** i odaberete **Nova**. Kada je zapis spremljen, dvostruko pisanje upotrebljava kartu tablice **Entitet izvoza kategorije troška projekta integracije aplikacije Project Operations (msdyn\_expensecategories)** za sinkronizaciju ovog zapisa s platformom Dataverse.
 
-  ![Integracija kategorija troška.](./media/DW6ExpenseCategories.png)
+  ![Integracija kategorija troška](./media/DW6ExpenseCategories.png)
 
 Kategorije troška u aplikacijama Finance and Operations specifične su za tvrtku ili pravnu osobu. To su odvojeni, odgovarajući zapisi specifični za pravne osobe na platformi Dataverse. Kada voditelj projekta procjenjuje troškove, ne može odabrati kategorije troška stvorene za projekt koji je u vlasništvu tvrtke koja je različita od tvrtke koja je vlasnik projekta na kojem radi. 
 
@@ -40,7 +41,7 @@ Izvješća o troškovima stvaraju se i odobravaju u aplikacijama Finance and Ope
   - Dvostruko pisanje sinkronizira se s platformom Dataverse s pomoću karte tablice **Entitet izvoza troškova projekta integracije aplikacije Project Operations (msdyn\_expenses)**.
   - Sporedne računovodstvene knjige za porez, dobavljača i ostala financijska knjiženja evidentiraju se prema potrebi u vrijeme knjiženja izvješća o troškovima.
 
-  ![Integracija izvješća o troškovima.](./media/DW6ExpenseReports.png)
+  ![Integracija izvješća o troškovima](./media/DW6ExpenseReports.png)
 
 Kad se zapis upiše u entitet **Trošak** platforme Dataverse, sustav pokreće postupak automatskog odobravanja zapisa. Ako je potrebno, stanje postupka automatskog odobrenja može se pregledati na platformi Dataverse tako da se ode na **Napredne postavke** > **Sustav** > **Poslovi sustava**. Nakon dovršetka postupka odobravanja, stvaraju se zapisi klase transakcija troškova u entitetu **Stvarni podaci**.
 

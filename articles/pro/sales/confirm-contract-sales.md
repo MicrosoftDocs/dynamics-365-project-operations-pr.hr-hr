@@ -2,18 +2,16 @@
 title: Potvrda ugovora o projektu
 description: U ovoj temi nalaze se informacije o načinu potvrde ugovora u aplikaciji Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128274"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989812"
 ---
 # <a name="confirm-a-project-contract"></a>Potvrda ugovora o projektu
 
@@ -34,4 +32,7 @@ Kada ugovor o projektu zatvorite kao izgubljen, status ugovora ažurira se na **
 Ako se ugovor o projektu koji je zatvoren kao izgubljen u svojim redcima poziva na projekt i taj se projekt označava kao zatvoren. Sve se rezervacije resursa od tog dana nadalje otkazuju. Svi stvarni podaci nenaplaćene prodaje iz ugovora o projektu koji još nisu na računu, stornirat će se.
 
 > [!NOTE]
-> Zatvaranje ugovora o projektu kao izgubljenog u aplikaciji Dynamics 365 Project Operations, neće utjecati na taj status povezane prilike. Prilika će ostati otvorena i mora se ručno zatvoriti.
+> Zatvaranje ugovora o projektu kao izgubljenog u aplikaciji Dynamics 365 Project Operations, neće utjecati na to stanje povezane prilike. Prilika će ostati otvorena i mora se ručno zatvoriti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

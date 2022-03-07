@@ -2,12 +2,10 @@
 title: Izradi prilagođena polja i entitete
 description: U ovoj se temi pojašnjava način izrade skupova mogućnosti i entiteta u vlastitom rješenju na platformi Power Apps.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144854"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992422"
 ---
 # <a name="create-custom-fields-and-entities"></a>Izradi prilagođena polja i entitete 
 
@@ -45,7 +43,7 @@ Dimenzija određivanja cijena može biti skup mogućnosti ili entitet. Oboje se 
 2. U istraživaču rješenja, u lijevom navigacijskom oknu, odaberite **Entiteti**.
 3. Kliknite **Novo** da biste izradili novi entitet pod nazivom **Standardni naslov**. Unesite preostale potrebne informacije, a zatim kliknite **Spremi**.
 
-> ![Definicija entiteta Standardni naslov](media/Standard-Title-entity-definition.png)
+> ![Definicija entiteta Standardni naslov.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimenzije koje se temelje na skupu mogućnosti 
@@ -56,9 +54,9 @@ Možete izraditi dvije dimenzije koje se temelje na skupu mogućnosti. Koristite
 2. U istraživaču rješenja, u lijevom navigacijskom oknu, odaberite  **Skupovi mogućnosti**. 
 3. Kliknite **Novo** da biste izradili novi skup mogućnosti, unesite preostale potrebne informacije, a zatim kliknite **Spremi.**
 
-> ![Dimenzija određivanja cijena koja se temelji na skupu mogućnosti pod nazivom Lokacija rada resursa ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimenzija određivanja cijena koja se temelji na skupu mogućnosti pod nazivom Lokacija rada resursa.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Dimenzija određivanja cijena koja se temelji na skupu mogućnosti pod nazivom Radno vrijeme resursa ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Dimenzija određivanja cijena koja se temelji na skupu mogućnosti pod nazivom Radno vrijeme resursa.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Izradi podatake za dimenzije koje se temeljene na entitetu
@@ -70,6 +68,9 @@ Podatke za dimenzije koje se temeljene na entitetu možete izraditi ručno ili s
 3. Zatvorite obrazac. 
 4. Ponovite korake 1 - 3 za izradu drugog standardnog naslova za "Viši inženjer sustava".
 
-> ![Ogledni podaci za entitet Standardni naslov ](media/ST-data.png)
+> ![Uzorak podataka za entitet Standardni naslov.](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

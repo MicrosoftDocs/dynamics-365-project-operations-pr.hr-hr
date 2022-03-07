@@ -2,11 +2,9 @@
 title: Postavljanje prilagođenih polja kao cjenovnih veličina
 description: U ovoj se temi nalaze informacije o načinu postavljanja cjenovnih veličina s pomoću prilagođenih polja.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
-ms.translationtype: HT
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650192"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003582"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Postavljanje prilagođenih polja kao cjenovnih veličina
 
@@ -44,11 +42,11 @@ Da bi polje postalo dimenzija cijena, ono mora biti:
 
 - Stvoreno kao redak u tablici **Dimenzija cijena**. Na primjer, dodajte retke dimenzije cijena kao što je prikazano na slici u nastavku. 
 
-![Dimenzije cijena utemeljene na iznosu](media/Amt-based-PD.png)
+![Redci veličine za određivanje cijena koji se temelje na iznosu.](media/Amt-based-PD.png)
 
 Radno vrijeme resursa (**msdyn_resourceworkhours**) dodano je kao veličina utemeljena na proviziji i dodana je u rešetku na kartici **Cjenovna veličina utemeljena na proviziji**.
 
-![Reci dimenzije cijena utemeljene na proviziji](media/Markup-based-PD.png)
+![Redci veličine za određivanje cijena koji se temelje na proviziji.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -73,14 +71,14 @@ Postoje dvije vrste dimenzija cijena:
    
    U sljedećoj tablici prikazan je izračun provizija cijena.
   
-| Uloga        | Org. jedinica    |Radno mjesto      |Radno mjesto – standardno      |Radno vrijeme resursa      |  Provizija|
+| Uloga        | Organizacijska jedinica    |Mjesto rada      |Radno mjesto – standardno      |Radno vrijeme resursa      |  Provizija|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso, Indija|Na lokaciji            |                    |Prekovremeni rad                 |15     |
-|             | Contoso, Indija|Lokalno             |                    |Prekovremeni rad                 |10     |
+|             | Contoso Indija|Na lokaciji            |                    |Prekovremeni rad                 |15     |
+|             | Contoso Indija|Lokalno             |                    |Prekovremeni rad                 |10     |
 |             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20     |
 
 
-Ako je resurs iz tvrtke Contoso Indija čija je osnovna stopa za rad na lokaciji 600,00 kn, a oni na unosu radnog vremena bilježe 8 sati redovitog i 2 sata prekovremenog rada, modul za određivanje cijena upotrebljava osnovnu cijenu od 600,00 kn za 8 sati kako bi se zabilježilo 4.800,00 kn. Za 2 sata prekovremenog rada na osnovnu stopu od 100 primjenjuje se provizija od 15% da bi se dobila jedinična cijena od 115 USD te se bilježi ukupni trošak od 230 USD.
+Ako resurs iz tvrtke Contoso Indija, čija je osnovna cijena 100 USD, radi na licu mjesta, a oni bilježe 8 sati redovnog radnog vremena i 2 sata prekovremenog rada na unosu vremena, modul za određivanje cijena upotrebljava osnovnu cijenu od 100 za 8 sati kako bi se zabilježilo 800 USD. Za 2 sata prekovremenog rada na osnovnu stopu od 100 primjenjuje se provizija od 15% da bi se dobila jedinična cijena od 115 USD te se bilježi ukupni trošak od 230 USD.
 
 ### <a name="applicable-to-cost"></a>Primjenjivo na trošak 
 Ako je ovo polje postavljeno na **Da**, to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa troška i provizije.
@@ -96,3 +94,6 @@ Postavljanje prioriteta veličine omogućuje alatu za određivanje cijene da nap
 
 - **Prioritet troška**: vrijednost prioriteta troška dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena koštanja. Vrijednost **Prioritet troška** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na trošak**.
 - **Prioritet prodaje**: vrijednost prioriteta prodaje dimenzije ukazuje na ponder te dimenzije kada se usporedi s postavkama cijena prodaje ili stopa naplate. Vrijednost **Prioritet prodaje** mora biti jedinstvena u različitim dimenzijama koje su označene kao **Primjenjivo na prodaju**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

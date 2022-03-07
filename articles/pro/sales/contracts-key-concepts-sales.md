@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75c4b90e47c0b90ed3fea8dce1533057aa6137b9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663765"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643029"
 ---
-# <a name="concepts-unique-to-project-contracts"></a>Jedinstveni koncepti ugovora o projektu
+# <a name="project-contracts---key-concepts---lite"></a>Ugovori o projektu – Osnovni koncepti – jednostavno
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
@@ -50,7 +50,7 @@ Obično postoje dvije vrste modela ugovaranja projekata, fiksna naknada i na tem
 
 ## <a name="project-price-lists"></a>Cjenici za projekt
 
-Cjenici za projekt upotrebljavaju se za zadane cijene, a ne cijene koštanja, za vrijeme, trošak i ostale komponente povezane s projektom. Može postojati više cjenika. Svaki cjenik ima svoj datum stupanja na snagu za svaki ugovor o projektu. Project Operations ne podržava preklapanje datuma stupanja na snagu cjenika za projekt.
+Cjenici za projekt upotrebljavaju se za zadane cijene, a ne cijene troška, za vrijeme, trošak i ostale komponente povezane s projektom. Može postojati više cjenika. Svaki cjenik ima svoj datum stupanja na snagu za svaki ugovor o projektu. Project Operations ne podržava preklapanje datuma stupanja na snagu cjenika za projekt.
 
 Kada se ugovor o projektu stvara prihvaćanjem ponude projekta, cjenici za projekt kopiraju se s uključenim nazivom i datumom ugovora. Kopiranje ovih podataka formira prilagođenu cijenu za komponente projekta na ovom ugovoru o projektu.
 
@@ -93,6 +93,3 @@ Ugovori u aplikaciji Project Operations grade se na ugovorima iz aplikacije Dyna
 - Ugovori iz aplikacije Project Operations imaju vlastiti obrazac i elemente korisničkog sučelja, poslovna pravila, poslovnu logiku u dodacima i skripte na strani klijenta što ih čini jedinstvenima u ugovorima o prodaji.
 
 Iz tih razloga ne biste trebali upotrebljavati ugovor o prodaji i ugovor o projektu naizmjenično.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

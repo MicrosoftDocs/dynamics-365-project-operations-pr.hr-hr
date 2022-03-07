@@ -2,18 +2,16 @@
 title: Konfiguriranje naplative komponente retka ponude koji se temelji na projektu
 description: U ovoj temi nalaze se informacije o uključenim, naplativim i nenaplativim komponentama u redcima ponude koji se temelje na projektu.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: a9febf305e3cd29bab42cd6c83a941f7b494fa56
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642534"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013567"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Konfiguriranje naplative komponente retka ponude koji se temelji na projektu
 
@@ -53,3 +51,6 @@ Procjena ili stvarni podatak stvoren za trošak smatrat će se naplativim samo a
 | No | Jest | Nije moguće postaviti | Nenaplativo | Naplata za stvarno vrijeme: Nenaplativo </br>Vrsta naplate na stvarnom trošku: Nenaplativo |
 | Jest | No | Naplativo | Nije moguće postaviti | Naplata za stvarno vrijeme: Naplativo </br>Vrsta naplate na stvarnom trošku: Nenaplativo |
 | Jest | No | Nenaplativo | Nije moguće postaviti | Naplata za stvarno vrijeme: Nenaplativo </br> Vrsta naplate na stvarnom trošku: Nenaplativo |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

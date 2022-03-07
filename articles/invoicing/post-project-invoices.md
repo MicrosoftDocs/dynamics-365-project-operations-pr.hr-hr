@@ -2,18 +2,16 @@
 title: Pregled postupka fakturiranja
 description: U ovoj se temi govori o pregledu postupka fakturiranja u aplikaciji Project Operations za scenarije temeljene na resursima / bez zaliha.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 13f16d42ffdc0a9a6f369c311dfd9e15ad3f7aff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089217"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001507"
 ---
 # <a name="invoicing-process-overview"></a>Pregled postupka fakturiranja
 
@@ -30,3 +28,6 @@ Voditelj projekta može pregledati nefakturirane prodajne transakcije s pomoću 
 Možete [ručno stvoriti predračun](../proforma-invoicing/create-manual-proforma-invoice.md) ili upotrijebiti [periodični postupak](../proforma-invoicing/configure-automated-invoice-creation.md). Voditelj projekta može po potrebi [prilagoditi nacrt predračuna](../proforma-invoicing/manage-proforma-invoice.md), a zatim ga potvrditi.
 
 Potvrđeni predračun šalje se modulu **Upravljanje projektima i računovodstvo** u aplikaciji Financije. Računovođa projekta oblikuje i ažurira prijedlog fakture za projekt, a zatim knjiži i ispisuje dokument. Proknjižene fakture za projekt evidentiraju se u Glavnoj knjizi, kao i u pomoćnim knjigama Klijent i Projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

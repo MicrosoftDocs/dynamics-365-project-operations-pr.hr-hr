@@ -2,18 +2,16 @@
 title: Razvoj predložaka projekata s pomoću mogućnosti Kopiranja projekta
 description: U ovoj temi nalaze se informacije o načinu stvaranja predložaka projekta s pomoću prilagođene radnje Kopiraj projekt.
 author: stsporen
-manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
-ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
+ms.openlocfilehash: 7a1f602e789e07014fd6c742940f52341ce6c672
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5045000"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005647"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Razvoj predložaka projekata s pomoću mogućnosti Kopiranja projekta
 
@@ -41,10 +39,10 @@ Postoje tri ulazna parametra:
 | Cilj             | Referenca entiteta | Ciljani projekt |
 
 
-- **{"clearTeamsAndAssignments":true}** : Tri zadana ponašanja za Projekt za Web i uklonit će sve zadatke i članove tima.
+- **{"clearTeamsAndAssignments":true}** : Tri zadana ponašanja za aplikaciju Project for the Web i uklonit će sve zadatke i članove tima.
 - **{"removeNamedResources":true}** Zadano ponašanje za aplikaciju Project Operations i vratit će dodjele na generičke resurse.
 
-Dodatne informacije o radnjama potražite u članku [Uporaba Web API radnji](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Dodatne informacije o radnjama potražite u članku [Uporaba Web API radnji](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Navedite polja za kopiranje 
 Kada je akcija pozvana, značajka **Kopiraj projekt** pogledat će u projektu prikaz **Kopiranje stupaca projekta** kako bi se utvrdilo koja polja kopirati kada se projekt kopira.
@@ -112,3 +110,6 @@ Sljedeći primjer prikazuje način pozivanja prilagođene radnje **CopyProject**
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

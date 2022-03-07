@@ -1,22 +1,30 @@
 ---
 title: Pregled cjenovnih veličina
-description: U ovoj temi nalaze se informacije o veličinama za određivanje cijena u aplikaciji Dynamics 365 Project Operations.
+description: U ovoj se temi nalaze informacije o dimenzijama određivanja cijena u aplikaciji Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 11/30/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650176"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128454"
 ---
-# <a name="pricing-dimensions-overview"></a>Pregled veličina za određivane cijena
+# <a name="pricing-dimensions-overview"></a>Pregled cjenovnih veličina
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
@@ -30,23 +38,11 @@ Zbog toga postoje dvije vrste dostupnih vrijednosti dimenzija za određivanje ci
 - **Skupovi mogućnosti**: dimenzije koje su fiksne enumeracije za skup vrijednosti.
 - **Vrijednosti temeljene na entitetima**: dimenzije koje mogu biti različiti skup vrijednosti.
 
-## <a name="pricing-dimensions"></a>Veličine za određivanje cijena
+## <a name="pricing-dimensions"></a>Cjenovne veličine
 
-Dynamics 365 Project Operations isporučuje se sa zadanim skupom veličina za određivanje cijena. Te dimenzije za određivanje cijena možete pregledati tako da odete na **Project Operations** > **Parametri**. U zapisu parametra na kartici **Dimenzije cijena temeljene na iznosu** potvrdite da uloga **msdyn_resourcecategory** i organizacijska jedinica za resurse **msdyn_organizationalunit** sadrže polja **Primjenjivo na prodaju** i **Primjenjivo na trošak** postavljena na **Da**. Ako su ta polja omogućena, možete postaviti cijenu i trošak za svaku kombinaciju uloge i organizacijske jedinice.
+Dynamics 365 Project Operations isporučuje se sa zadanim skupom dimenzija za određivanje cijena. Te dimenzije za određivanje cijena možete pregledati tako da odete na **Project Operations** > **Parametri**. U zapisu parametra na kartici **Dimenzije cijena temeljene na iznosu** potvrdite da uloga **msdyn_resourcecategory** i organizacijska jedinica za resurse **msdyn_organizationalunit** sadrže polja **Primjenjivo na prodaju** i **Primjenjivo na trošak** postavljena na **Da**. Ako su ta polja omogućena, možete postaviti cijenu i trošak za svaku kombinaciju uloge i organizacijske jedinice.
 
-![Snimka zaslona parametara sustava Project Service s istaknutom mogućnosti "Primjenjivo na prodaju"](media/PS-OOB-parameters.png)
-
-Ako trebate odrediti cijenu ili trošak resursa pomoću dodatnih atributa, možete stvoriti prilagođena polja, entitete i dimenzije. Dodatne informacije potražite u sljedećim temama. 
-  
-  > [!NOTE]
-  > Postupci moraju biti dovršeni redoslijedom kojim su navedeni.
-
-1. [Stvaranje rješenja za prilagođene veličine određivanja cijena](../sales/create-solution-custompd.md)
-2. [Stvaranje prilagođenih polja i entiteta](create-custom-fields-entities-pricing-dimensions.md)
-3. [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](add-custom-fields-price-setup-transactional-entities.md)
-4. [Postavljanje prilagođenih polja kao cjenovnih veličina](set-up-custom-fields-pricing-dimensions.md)
-5. [Ažuriranje atributa dodatka za uključivanje novih dimenzija cijena](update-plugin-attributes-pd.md)
-
+Ako trebate odrediti cijenu ili trošak resursa pomoću dodatnih atributa, možete stvoriti prilagođena polja, entitete i dimenzije.
 
 ## <a name="pricing-human-resource-time"></a>Određivanje cijene vremena ljudskog resursa
 Način na koji tvrtka ili ustanova određuje cijenu vremena ljudskog resursa često je važno strateško razmatranje koje izravno utječe na profitabilnost tvrtke ili ustanove. Surađujte s financijskim timovima i voditeljima kada je vaša tvrtka ili ustanova spremna identificirati način na koji želi postaviti naplatu i stope troškova za vrijeme ljudskog resursa.

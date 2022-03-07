@@ -2,6 +2,8 @@
 title: Prikaži naplativo korištenje za resurse
 description: Ova tema pruža informacije o prikazu korištenja resursa.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992825"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073410"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Prikaži naplativo korištenje za resurse
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Prikaz korištenja** na stranici **Korištenje resursa programa Project Service** prikazuje naplativo korištenje za svaki resurs koji je moguće rezervirati. Budući da se taj prikaz temelji na ploči s rasporedom, pronaći ćete mnoge iste funkcije.
 
@@ -99,6 +99,3 @@ Ako nije prikazano naplativo korištenje, evo nekih stvari koje možete provjeri
   - je li uloga na retku ugovora projekta koja podržava projekt postavljena na nenaplativa;
   - je li projektu pridružen redak ugovora.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

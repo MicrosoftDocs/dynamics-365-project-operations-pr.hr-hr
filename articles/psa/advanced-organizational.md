@@ -2,8 +2,6 @@
 title: Organizacijske jedinice
 description: Ova tema pruža informacije o organizacijskim jedinicama u sustavu Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145620"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005067"
 ---
 # <a name="organizational-units"></a>Organizacijske jedinice 
 
@@ -55,7 +53,7 @@ Organizacijska jedinica igra dvije uloge u sustavu PSA:
 - **Ugovorna jedinica** – Organizacijska jedinica koja predstavlja grupu ili odjel poduzeća koja je prvenstveno odgovorna za ostvarivanje prodaje i upravljanje isporukom rada i usluga klijentu. Ugovorna jedinica identificira se poljem **Ugovorna jedinica** u odjeljku zaglavlja stranica **Prilika**, **Ponuda**, **Ugovor o projektu** i **Projekt**.
 - **Jedinica resursa** – Organizacijska jedinica kojoj resurs pripada ili je dodijeljen. Ova organizacijska jedinica može osigurati svoje resurse za neke uloge na izjavama o radu (svo) i projektima koji su u vlasništvu ugovorne jedinice.
 
-> ![Ugovorne jedinice i jedinice resursa](media/advanced-1.png)
+> ![Ugovorne jedinice i jedinice resursa.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Često postavljena pitanja o Organizacijskim jedinicama
 
@@ -79,14 +77,14 @@ Kada provodite Dynamics 365, optimizirajte odobrenje sigurnosti za hijerarhiju p
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Primjer organizacijskih jedinica i poslovnih jedinica
 
-Contoso, Ltd. ima uspješnu praksu s Microsoftovom tehnologijom. Ivan i Ivana oboje su C\# razvojni programeri, ali Ivana je u Sjedinjenim Američkim Državama, dok je Ivan u Indiji. Većina projektnih angažmana zahtijeva resurse iz Contosa, Indija i Contosa, SAD, a Ivan i Ivana zahtijevaju jednaku razinu sigurnosnog pristupa projektima u ovom području prakse. Međutim, trošak razvojnih programera iz Contosa, Indija značajno se razlikuje od troška razvojnih programera iz Contosa, SAD.
+Contoso, Ltd. uspješno prakticira Microsoftovu tehnologiju. Ivan i Ivana oboje su C\# razvojni programeri, ali Ivana je u Sjedinjenim Američkim Državama, dok je Ivan u Indiji. Većina projektnih angažmana zahtijeva resurse iz tvrtki Contoso Indija i Contoso SAD, a Ivan i Ivana zahtijevaju jednaku razinu sigurnosnog pristupa projektima u ovom području prakse. Međutim, trošak razvojnih programera iz tvrtke Contoso Indija značajno se razlikuje od troška razvojnih programera iz tvrtke Contoso SAD.
 
 Ovo je optimalan način izrade ovog scenarija s pomoću sustava Dynamics 365 i PSA.
 
 1. Izradite praksu Microsoftove tehnologije kao poslovnu jedinicu i povežite Ivana i Ivanu s njom. Na taj način osiguravate da oba zaposlenika imaju jednaku razinu sigurnosnog pristupa svim projektima u tom području prakse. Oboje će moći provjeriti napredak i prijaviti ažuriranja o vremenu, troškovima i zadacima. 
 2. Izradite dvije organizacijske jedinice da biste osigurali da se trošak projekta ispravno prikazuje. 
-3. Ivanu povežite s Contosom, SAD, a Ivana povežite s Contosom, Indija.
-4. Dodijelite odgovarajuće cjenike troškova objema organizacijskim jedinicama. Na taj način osiguravate da troškovi koji su zapisani na projektu za Ivana i Ivanu ispravno prikazuju razliku u troškovima između Contosa, SAD i Contosa, Indija.
+3. Ivanu povežite s tvrtkom Contoso SAD, a Ivana povežite s tvrtkom Contoso Indija.
+4. Dodijelite odgovarajuće cjenike troškova objema organizacijskim jedinicama. Na taj način osiguravate da troškovi koji su zapisani na projektu za Ivana i Ivanu točno prikazuju razliku u troškovima između tvrtki Contoso SAD i Contoso Indija.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Jesu li organizacijske jedinice povezane s prodajnim teritorijima u sustavu Dynamics 365?
 
@@ -96,11 +94,11 @@ Organizacijska jedinica interna je grupa ili odjel u poduzeću koje prati trošk
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Primjer organizacijskih jedinica i prodajnih teritorija
 
-Contoso, Ltd. ima dva razvojna centra: Contoso, SAD i Contoso Indija. Troškovi resursa uvelike se razlikuju između tih dvaju razvojnih centara.
+Contoso Ltd. ima dva razvojna centra: Contoso SAD i Contoso Indija. Troškovi resursa uvelike se razlikuju između tih dvaju razvojnih centara.
 
 Contoso prodaje svoje IT usluge na brojnim međunarodnim tržištima, kao što su Latinska Amerika, Sjeverna Amerika, Azija-Pacific, Zapadna Europa i Bliski istok. Stope naplaćivanja za iste projektne uloge mogu se uvelike razlikovati na tim tržištima.
 
-Contoso, SAD i Contoso, Indija treba postaviti kao organizacijske jedinice, a svaka organizacijska jedinica treba imati vlastiti cjenik troškova. Azija-Pacific, Latinska Amerika, Sjeverna Amerika, Zapadna Europa i Bliski istok trebaju biti postavljeni kao prodajni teritoriji, a svaki prodajni teritorij treba imati vlastiti cjenik prodaje.
+Contoso SAD i Contoso Indija treba postaviti kao organizacijske jedinice, a svaka organizacijska jedinica treba imati vlastiti cjenik troškova. Azija-Pacific, Latinska Amerika, Sjeverna Amerika, Zapadna Europa i Bliski istok trebaju biti postavljeni kao prodajni teritoriji, a svaki prodajni teritorij treba imati vlastiti cjenik prodaje.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Zašto postoji ograničenje za povezivanje cjenika s organizacijskim jedinicama? 
 
@@ -124,7 +122,7 @@ Ne. U trenutačnom izdanju sustava PSA, organizacijske jedinice nemaju hijerarhi
 Kada imate kompleksnu hijerarhiju troškovnih centara, odjela, ureda za naplatu itd., završne čvorove te hijerarhije postavite kao zasebne organizacijske jedinice.
 Sljedeći primjer prikazuje tipičnu hijerarhiju:
 
-**Contoso, Indija**
+**ContosoIndija**
 
   - SAP praksa 
 
@@ -136,7 +134,7 @@ Sljedeći primjer prikazuje tipičnu hijerarhiju:
     - Tehnički savjetnici
     - Funkcionalni savjetnici 
     
-**Contoso, SAD**
+**Contoso SAD**
 
  - SAP praksa 
 
@@ -149,14 +147,14 @@ Sljedeći primjer prikazuje tipičnu hijerarhiju:
     - Funkcionalni savjetnici 
  
 Ako je vaša hijerarhija slična, morate je postaviti kao grubi popis, kao što je prikazano ovdje:
-- Contoso, Indija - SAP praksa - Tehnički savjetnici 
-- Contoso, Indija - SAP praksa - Funkcionalni savjetnici       
-- Contoso, Indija - Praksa Microsoftove tehnologije Funkcionalni savjetnici 
-- Contoso, Indija - Praksa Microsoftove tehnologije Funkcionalni savjetnici 
-- Contoso, SAD - SAP praksa - Tehnički savjetnici  
-- Contoso, SAD - SAP praksa - Funkcionalni savjetnici  
-- Contoso, SAD - Praksa Microsoftove tehnologije - Tehnički savjetnici 
-- Contoso, SAD - Praksa Microsoftove tehnologije - Funkcionalni savjetnici
+- Contoso Indija – SAP praksa – Tehnički savjetnici 
+- Contoso Indija – SAP praksa – Funkcionalni savjetnici       
+- Contoso Indija – Praksa Microsoftove tehnologije Funkcionalni savjetnici 
+- Contoso Indija – Praksa Microsoftove tehnologije Funkcionalni savjetnici 
+- Contoso SAD – SAP praksa – Tehnički savjetnici  
+- Contoso SAD – SAP praksa – Funkcionalni savjetnici  
+- Contoso SAD – Praksa Microsoftove tehnologije – Tehnički savjetnici 
+- Contoso SAD – Praksa Microsoftove tehnologije – Funkcionalni savjetnici
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Mi smo malo poduzeće za profesionalne usluge koje posluje kao jedan odjel. Kako možemo najbolje koristiti koncept organizacijske jedinice u trenutačnoj verziji sustava PSA?
 
@@ -167,3 +165,6 @@ Ako vaše poduzeće posluje kao jedna jedinica koja ima jedan cjenik troškova, 
 Kada se projekt samostalno izrađuje, zadana ugovorna jedinica projekta temelji se na korisniku koji ga izrađuje. Taj korisnik također je zadani upravitelj projekta. Ako je projekt mapiran na entitet prodaje, kao što je ponuda ili ugovor o projektu, ugovorna jedinica na projektu temelji se na entitetu prodaje. U tom slučaju, procjene projekta mogu se ponovno izračunati jer se cjenik troškova koristi za izračun promjena procjene troška ako se ugovorna jedinica promijeni. Cjenik prodaje koristi se za izračun procjena prodaje koje će se promijeniti tako da su usklađene s cjenikom projekta na ponudi.
 
 Polja **Ugovorna jedinica** i **Valuta** na projektu zaključana su za uređivanje jer moraju biti usklađena s vrijednostima na entitetu prodaje (ponuda ili ugovor o projektu) na koji je projekt mapiran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

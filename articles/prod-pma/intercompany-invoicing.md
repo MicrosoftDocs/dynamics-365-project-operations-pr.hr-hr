@@ -2,11 +2,9 @@
 title: Fakturiranje unutar tvrtke
 description: Ovaj članak sadrži podatke i primjere o fakturiranju projekata unutar tvrtke.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270759"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995797"
 ---
 # <a name="intercompany-invoicing"></a>Fakturiranje unutar tvrtke
 
@@ -35,7 +33,7 @@ Vaša tvrtka ili ustanova može imati više sektora, podružnica i drugih pravni
 
 Na sljedećoj slici prikazan je uobičajen scenarij u kojem dvije pravne osobe, SI FR (pravna osoba primatelj posudbe) i SI USA (pravna osoba davatelj posudbe) dijele resurse kako bi isporučili projekt klijentu A. Za ovaj scenarij, SI FR ugovorom se obvezala isporučiti posao klijentu A. 
 
-[![Primjer fakturiranja unutar tvrtke](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Primjer fakturiranja unutar tvrtke.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Cilj je kontrolu troškova, priznavanje prihoda, poreze i cijenu prijenosa za transakcije projekata unutar tvrtke učiniti fleksibilnijim i snažnijim. Osim toga, pružaju se sljedeće mogućnosti:
 

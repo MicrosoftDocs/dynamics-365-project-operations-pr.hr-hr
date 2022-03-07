@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 68506142c5cd046806bc085f297ac928b0c94440
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149894"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291205"
 ---
 # <a name="business-transactions"></a>Poslovne transakcije
 
@@ -149,3 +149,6 @@ Sljedeća tablica prikazuje zapise u entitetu Transakcijska veza za prethodni ti
 | Nacrt ispravka fakture       | GUID transakcija retka fakture | Zamjena          | msdyn_invoicelinetransaction | Naplaćena prodaja GUID            | Izvorna           | msdyn_actual       |
 | Potvrdi ispravak fakture     | Storniranje naplaćene prodaje GUID    | Storniranje          | msdyn_actual                 | Naplaćena prodaja GUID            | Izvorna           | msdyn_actual       |
 | Novi GUID stvarni podaci nenaplaćene prodaje | Zamjena                     | msdyn_actual       | Naplaćena prodaja GUID            | Izvorna                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

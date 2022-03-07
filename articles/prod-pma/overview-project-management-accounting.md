@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073531"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289765"
 ---
 # <a name="project-management-and-accounting-overview"></a>Upravljanje projektom i pregled računovodstva
 
@@ -116,7 +116,7 @@ U financijama možete stvoriti šest vrsta projekata. Svaka vrsta projekta posta
 
 ### <a name="assign-workers-categories-and-resources"></a>Dodjela radnika, kategorija i resursa
 
-Resurse za radnike možete rasporediti na temelju zahtjeva i rasporeda projekta ili na osnovu vještina i dostupnosti radnika. Uporabom mogućnosti raspoređivanja resursa možete učinkovito i djelotvorno rasporediti radnike svoje tvrtke ili ustanove. Možete brzo pronaći najkvalificiranije radnike koji su dostupni za rad na vašem projektu. Također možete lako vidjeti kako bi se ti radnici mogli učinkovitije upotrijebiti tijekom projekta. 
+Resurse za radnike možete rasporediti na temelju zahtjeva i rasporeda projekta ili na osnovi vještina i dostupnosti radnika. Uporabom mogućnosti raspoređivanja resursa možete učinkovito i djelotvorno rasporediti radnike svoje tvrtke ili ustanove. Možete brzo pronaći najkvalificiranije radnike koji su dostupni za rad na vašem projektu. Također možete lako vidjeti kako bi se ti radnici mogli učinkovitije upotrijebiti tijekom projekta. 
 
 Evo nekoliko načina na koje možete upotrijebiti funkciju raspoređivanja resursa:
 
@@ -205,7 +205,7 @@ Možete naručiti stavke iz inventara tvrtke kako biste ih utrošili na projektu
 
 Način naručivanja artikala ovisi o tome odakle ih naručujete:
 
--   Kako biste naručili stavke iz zaliha tvrtke, morate unijeti narudžbu kao zahtjev za stavkom. Ako upotrebljavate stranicu **Zahtjevi za stavkom**, možete postaviti zahtjev tako da stavke primate kao djelomične isporuke.Stoga možete odgoditi potrošnju neke količine artikala dok stavke nisu potrebne.
+-   Kako biste naručili stavke iz zaliha tvrtke, morate unijeti narudžbu kao zahtjev za stavkom. Ako upotrebljavate stranicu **Zahtjevi za stavkom**, možete postaviti zahtjev tako da stavke primate kao djelomične isporuke. Stoga možete odgoditi potrošnju neke količine artikala dok stavke nisu potrebne.
 -   Kako biste naručili stavke od vanjskog dobavljača, morate stvoriti narudžbu kao narudžbenicu na stranici **Narudžbenica**.
 
 > [!NOTE] 
@@ -300,7 +300,7 @@ Na temelju vaših postavki možete predvidjeti novčane priljeve za odabrani pro
 -   **Datum projekta:** 5. ožujka 2012.
 -   **Datum fakture:** 31. ožujka 2012. Taj se datum određuje na temelju učestalosti faktura. U ovom primjeru učestalost faktura postavljate na trenutačni mjesec. Stoga se sve transakcije koje su knjižene u mjesecu ožujku fakturiraju posljednjeg dana u mjesecu.
 -   **Datum dospijeća:** 14. travnja 2012. Taj se datum određuje na temelju uvjeta plaćanja koji su postavljeni za projekt. Za ovaj ste primjer odabrali uvjete plaćanja od 14 dana. Stoga se datumu fakture dodaje 14 dana te je rok dospijeća 14. travnja 2012.
--   **Očekivani datum plaćanja:** 27. travnja 2012. Ovaj se datum izračunava dodavanjem broja dana u polje **Općeniti dani odgode** na stranici **Parametri za upravljanje projektom i računovodstveni parametri** na broj dana u polje **Pojedinačni dani odgode** na stranici **Ugovori o projektu**, a dodavanjem ukupnog iznosa broju dana u polju **Datum dospijeća**. Za ovaj ste primjer unijeli brojku **3** u polje **Općeniti dani odgode** i brojku **10** u polje **Pojedinačni dani odgode**. Stoga se datumu dospijeća dodaje 13 dana te je očekivani rok plaćanja 27. travnja 2012.
+-   **Očekivani datum plaćanja:** 27. travnja 2012. Ovaj se datum izračunava dodavanjem broja dana u polje **Općeniti dani odgode** na stranici **Parametri za upravljanje projektom i računovodstveni parametri** na broj dana u polju **Pojedinačni dani odgode** na stranici **Ugovori o projektu**, a zatim dodavanjem ukupnog iznosa broju dana u polju **Datum dospijeća**. Za ovaj ste primjer unijeli brojku **3** u polje **Općeniti dani odgode** i brojku **10** u polje **Pojedinačni dani odgode**. Stoga se datumu dospijeća dodaje 13 dana te je očekivani rok plaćanja 27. travnja 2012.
 
 Općeniti dani odgode mogu ili zamijeniti pojedinačne dane odgode ili se dodati pojedinačnim danima odgode:
 
@@ -440,3 +440,6 @@ Nakon izračuna izvoda, na raznim karticama na stranici **Projektni izvodi** mo�
 -   **Potrošnja** – Informacije o potrošenim satima, predmetima, izdacima i transakcijama platnog spiska.
 -   **Faktura** – Podaci o fakturama i djelomičnom fakturiranju.
 -   **Satnica** – Satnice za sate rada koji se knjiže na račune prihoda i troška.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

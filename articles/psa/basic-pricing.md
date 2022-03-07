@@ -2,8 +2,6 @@
 title: Određivanje cijene projekta
 description: Ova tema sadrži informacije o tome kako funkcionira određivanje cijene u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148904"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014962"
 ---
 # <a name="project-pricing"></a>Određivanje cijene projekta 
 
@@ -131,3 +129,6 @@ Kao što je slučaj kod stopa naplaćivanja, stope troškova za ljudske resurse 
     1. Cjenik troškova koji je priložen organizacijskoj jedinici.
     2. Cjenik troškova koji je priložen parametrima usluge projekta. Budući da se cjenik troškova u mnogim različitim valutama može priložiti parametrima usluge projekta, PSA provodi podudarnost valuta između valute ugovorne organizacijske jedinice projekta, ugovora ili ponude te valute cjenika troškova.
     3. Za troškove, načini određivanja cijena po troškovima i marži troškova ne primjenjuju se za cjenik troškova. Čak i ako se ti načini određivanja cijena koriste u recima cjenika troškova za postavljanje troškova po kategoriji transakcije, sustav ih ignorira i ne unosi se zadana cijena troška.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
