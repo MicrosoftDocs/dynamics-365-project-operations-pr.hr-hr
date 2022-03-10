@@ -1,23 +1,21 @@
 ---
-title: Uvoz procjene u redak ugovora koji se temelji na projektu
+title: Uvoz procjene u redak ugovora koji se temelji na projektu – jednostavno
 description: U ovoj temi nalaze se informacije o uvozu financijskih procjena iz projekta u redak ugovora.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9ac367baba4529e86a42d812b7d9b2550812e297
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
-ms.translationtype: HT
+ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4073621"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997237"
 ---
-# <a name="importing-an-estimate-to-a-project-based-contract-line"></a>Uvoz procjene u redak ugovora koji se temelji na projektu
+# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Uvoz procjene u redak ugovora koji se temelji na projektu – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 U aplikaciji Dynamics 365 Project Operations možete uvesti procjene iz projekta u redak ugovora koji se temelji na projektu.
 
@@ -60,3 +58,6 @@ Kada korisnik odabere sažeti po **Klasi transakcije**, **Kategoriji** i **Zadat
 | Zadatak A | Zrakoplovne karte | 10. 1. 2020. | 4 | 400 | 1600 |
 | Zadatak B | Hoteli | 10. 1. 2020. | 4 | 200 | 800 |
 | Zadatak C | Hoteli | 11. 1. 2020. | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

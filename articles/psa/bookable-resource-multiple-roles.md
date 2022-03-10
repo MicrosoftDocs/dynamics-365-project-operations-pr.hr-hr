@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b2b57f5268a92168952b6da5123886df70cd4e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013252"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987472"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Procjena prodaje i troškova projekta kada resurs koji se može rezervirati ispunjava više uloga za projekt 
 
@@ -60,12 +60,12 @@ Ponovite ove korake za zadatak B i provjerite da se uloga i organizacijska jedin
 
 ## <a name="team-member-and-estimates-behavior"></a>Član tima i procjene ponašanja 
 
-1. Na stranici **Pojedinosti zadatka**, na stavci **Član tima**, odaberite dva člana generičkog tima, a zatim odaberite **Generiraj zahtjeve**. 
+1. Na stranici **Pojedinosti zadatka**, na stavci **Član tima**, odaberite dva generička člana tima, a zatim odaberite **Generiraj zahtjeve**. 
 2. Odaberite redak člana tima za stavku **Voditelj savjetovanja** a zatim odaberite **Rezerviraj**. Otvara se ploča s rasporedom i rezervira resurs za taj zahtjev.
 3. Odaberite redak člana tima za stavku **Tehničar za mrežu** a zatim odaberite **Rezerviraj**. Otvara se ploča s rasporedom i rezervira isti resurs za taj zahtjev.
 
 ### <a name="team-member-grid"></a>Rešetka člana tima 
-Na rešetki **Član tima** primijetit ćete kako su dva zapisa o članu generičkog tima izbrisana i zamijenjene jednim resursom. Postoji jedan skup vrijednosti za taj resurs koji prikazuje zadani skup vrijednosti za stavke **Uloga** i **Organizacijska jedinica**.
+Na rešetki **Član tima** primijetit ćete kako su dva zapisa o generičkom članu tima izbrisana i zamijenjene jednim resursom. Postoji jedan skup vrijednosti za taj resurs koji prikazuje zadani skup vrijednosti za stavke **Uloga** i **Organizacijska jedinica**.
 Kada proširite red tog zapisa o članu tima, na tom zapisu možete vidjeti različite zadatke za oba ta zadatka. Svaki redak zadatka ima vrijednosti specifične za mogućnosti **Uloga** i **Organizacijska jedinica**. 
 
 ### <a name="estimates-grid"></a>Rešetka procjena 

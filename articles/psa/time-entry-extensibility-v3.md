@@ -2,8 +2,6 @@
 title: Prilagođeni tjedni Unos vremena
 description: Ovaj tema pruža informacije o implementaciji prilagođenih poslovnih pravila koja podržavaju praksu tvrtke ili ustanove.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,20 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149624"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002277"
 ---
-# <a name="customize-weekly-time-entry"></a>Prilagođeni tjedni Unos vremena 
+# <a name="customize-weekly-time-entry"></a>Prilagođeni tjedni unos vremena 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-U verziji 3.3 aplikacije Microsoft Dynamics 365 Project Service Automation Microsoft je uveo modernu rešetku koja resursima projekta omogućuje brzi Unos vremena do jednog tjedna odjednom. Nova rešetka tjednih vremenskih unosa može prikazivati ukupne vrijednosti za unose po datumu, retku ili tjednu. Resursi mogu napraviti kopije vremenskih unosa u roku od tjedan dana, kao i skupnu kopiju iz prethodnih tjedana. Osobe zadužene za prilagodbu sustava mogu prilagoditi prikaz dodavanjem polja, dodavanjem pretraživanja drugim entitetima i primjenom prilagođenih poslovnih pravila koja odražavaju prakse njihove tvrtke ili ustanove.
+U verziji 3.3 aplikacije Microsoft Dynamics 365 Project Service Automation, Microsoft je uveo modernu rešetku koja resursima projekta omogućuje brzi Unos vremena do jednog tjedna odjednom. Nova rešetka tjednih vremenskih unosa može prikazivati ukupne vrijednosti za unose po datumu, retku ili tjednu. Resursi mogu napraviti kopije vremenskih unosa u roku od tjedan dana, kao i skupnu kopiju iz prethodnih tjedana. Osobe zadužene za prilagodbu sustava mogu prilagoditi prikaz dodavanjem polja, dodavanjem pretraživanja drugim entitetima i primjenom prilagođenih poslovnih pravila koja odražavaju prakse njihove tvrtke ili ustanove.
 
 Unosu vremena i novoj rešetki tjednih vremenskih unosa pristupa se na karti web-mjesta. Prilagođeni Unos vremena bez proširivanja koji je bio dio starijih verzija aplikacije PSA zamijenjen je proširivom rešetkom tjednih vremenskih unosa te dodatnim prikazom u rešetki i kalendaru samo za čitanje. Zbog te promjene korisnici mogu unijeti vrijeme po tjednima.
 
@@ -132,3 +130,6 @@ Provjere valjanosti dodatka trebate upotrebljavati za sve provjere valjanosti ko
 
 > [!IMPORTANT] 
 > Trenutačno poznati problem na TBX stranicama korisnicima onemogućuje ispravljanje podataka i ponovni odabir naredbe Gotovo kada ažuriranje ne uspije provjeriti valjanost dodatka. Zaobilazno je rješenje postavljanje provjere valjanosti poslovnog pravila kako bi se to što je više moguće izbjeglo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

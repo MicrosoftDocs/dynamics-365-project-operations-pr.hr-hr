@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008302"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002322"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Postavljanje prilagođenih polja kao cjenovnih veličina 
 
@@ -41,11 +41,11 @@ Da bi polje postalo dimenzija cijena, ono mora biti:
 - Stvoreno kao polje u entitetima **Cijena uloge** i **Provizija cijene uloge**. Više informacija kako to napraviti potražite u odjeljku [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](field-references.md).
 - Stvoreno kao redak u tablici **Dimenzija cijena**. Na primjer, dodajte retke dimenzije cijena kao što je prikazano na slici u nastavku. 
 
-![Dimenzije cijena utemeljene na iznosu](media/Amt-based-PD.png)
+![Redci veličine za određivanje cijena koji se temelje na iznosu.](media/Amt-based-PD.png)
 
 Primijetite da je radno vrijeme resursa **(** msdyn_resourceworkhours) dodano kao dimenzija utemeljena na proviziji te da je dodano u rešetku na kartici **Dimenzija cijena utemeljene na proviziji**.
 
-![Reci dimenzije cijena utemeljene na proviziji](media/Markup-based-PD.png)
+![Redci veličine za određivanje cijena koji se temelje na proviziji.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Svaka izmjena podataka o dimenziji cijena u ovoj tablici, postojećih ili novih, prenosi se na poslovnu logiku određivanja cijena programa Project Service tek nakon osvježavanja predmemorije. Vrijeme osvježavanja predmemorije može trajati do 10 minuta. Pričekajte neko vrijeme dok se promjene ne prikažu u logici za postavljanje zadane cijene koja mora odražavati promjene u podacima dimenzije cijena.

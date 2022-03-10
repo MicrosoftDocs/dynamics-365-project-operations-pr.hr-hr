@@ -2,8 +2,6 @@
 title: Reci ponude temeljeni na proizvodu
 description: Ova tema pruža informacije o recima ponude temeljenim na proizvodu.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123189"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008577"
 ---
 # <a name="product-based-quote-lines"></a>Reci ponude temeljeni na proizvodu
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -58,7 +58,7 @@ Ako ovo polje postavite na **Zamijeni cijene**, Dynamics 365 ne postavlja zadanu
 
 Nakon instaliranja PSA-a zadane prodajne cijene unose se u retke temeljene na proizvodu u ponudi. Polje **Određivanje cijena** zatim se postavlja na **Zamijeni cijene** kako biste mogli urediti zadanu cijenu u recima ponude.
 
-> ![Postavljanje zamjene cijena](media/basic-guide-10.png)
+> ![Postavljanje zamjene cijena.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Čimbenici količine za proizvode
 
@@ -78,5 +78,8 @@ Na primjer, Dynamics 365 može imati sljedeća svojstva:
 
 Svojstva **Broj korisnika** i **Broj mjeseci** mogu se označiti kao čimbenici količine uređivanjem svojstava retka proizvoda. 
 
-> ![Označavanje broja korisnika i mjeseci kao čimbenika kvalitete](media/basic-guide-11.png)
+> ![Označavanje broja korisnika i mjeseci kao čimbenika kvalitete.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,25 @@
 ---
 title: Sigurnosni model
-description: U ovoj temi nalaze se informacije o sigurnosnom modelu u aplikaciji Dynamics 365 Project Operations.
+description: Ovaj tema pruža informacije o sigurnosnom modelu u aplikaciji Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073273"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991477"
 ---
 # <a name="security-model"></a>Sigurnosni model
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Microsoft Dynamics 365 Project Operations sadrži jedinstveni sigurnosni model koji omogućuje poslovni model sigurnosti koji se temelji na ulozi koja surađuje s Grupama sustava Microsoft Office. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations sadrži jedinstveni sigurnosni model koji omogućuje poslovni model sigurnosti na temelju uloge u suradnji s Grupama programa Microsoft Office. 
 
 
 ## <a name="security-roles"></a>Sigurnosne uloge
@@ -35,7 +35,7 @@ Pristupne mogućnosti aplikacije Project Operations uključuju sljedeće uloge:
 | Upravitelj resursa              | Sve funkcije upravljanja resursima, poput ispunjavanja zahtjeva za resursima i rezervacija, odvojene su za podršku hibridnoj konfiguraciji Upravitelja projekata i Upravitelja resursa te jedinstvenu i centraliziranu ulogu upravitelja resursa. | Poslovna jedinica |
 
 
-Microsoft Project za web uključuje sljedeće uloge:
+Microsoft Project for the Web uključuje sljedeće uloge:
 
 | Uloga           | Opis                                                                                                        | Opseg  |
 |----------------|--------------------------------------------------------------------------------------------------------------------|--------|
@@ -48,17 +48,17 @@ Radnje koje se izvršavaju na razini projekta izvode se u kontekstu prijavljenog
 Bitno je to uzeti u obzir tijekom stvaranja projekata u aplikaciji Project Operations.
 
 ## <a name="modern-group-collaboration-with-project-operations"></a>Suvremena grupna suradnja s pomoću aplikacije Project Operations
-Projekt za web i projektne operacije podržava suvremene grupe za suradnju. Korisnici dodani projektu putem grupe mogu uređivati plan projekta.
+Project for the Web i Project Operations podržavaju suvremene grupe za suradnju. Korisnici dodani projektu putem grupe mogu uređivati plan projekta.
 
-Projekt za web automatski dodaje korisnike u grupu nakon dodjele.
+Project for the Web automatski dodaje korisnike u grupu nakon dodjele.
 
 Grupe omogućuju suradnju na dozvolama projekta i podržavanju artefakta suradnje. Sljedeći dijagram prikazuje događaje i promjene stanja koji se događaju tijekom postupka grupnog dodjeljivanja.
 
 Project Operations ne stvara grupu podrazumijevanom radnjom, već to čini samo izričitom radnjom pritiska na grupe.
 
-Pretraživanje člana grupe u dijaloškom okviru **Upravljanje grupom** ograničeno je na one koji su postavljeni kao dio sigurnosne grupe okruženja. Dodatne informacije potražite u odjeljku [Upravljanje korisničkim pristupom okruženjima: sigurnosne grupe i licence](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Pretraživanje člana grupe u dijaloškom okviru **Upravljanje grupom** ograničeno je na one koji su postavljeni kao dio sigurnosne grupe okruženja. Dodatne informacije potražite u odjeljku [Upravljanje korisničkim pristupom okruženjima: sigurnosne grupe i licence](/power-platform/admin/control-user-access).
 
-![Grupni način](./media/groupsmode.png)
+![Grupni način.](./media/groupsmode.png)
 
 1. Projekt stvara i posjeduje Korisnik koji ga je stvorio.
 2. Vlasnik projekta ažuriran je na tim.
@@ -66,16 +66,19 @@ Pretraživanje člana grupe u dijaloškom okviru **Upravljanje grupom** ogranič
 4. Izvorni vlasnik projekta dodan je u grupu sustava Office.
 
 ## <a name="deployment-recommendation"></a>Preporuke za implementaciju
-Kako se model suradnje grupe sustava Office razvija, dodavat će se funkcionalnost koja će tijekom vremena pružati podrobniju kontrolu. Kupci koji danas implementiraju aplikaciju Project Operations potiču se da se usredotoče na tradicionalni sigurnosni model sustava Microsoft Dynamics 365.
+Kako se model suradnje grupe sustava Office razvija, dodavat će se funkcionalnost koja će tijekom vremena pružati podrobniju kontrolu. Klijenti koji danas implementiraju aplikaciju Project Operations potiču se da se usredotoče na tradicionalni sigurnosni model sustava Microsoft Dynamics 365.
 
-Dodatne informacije potražite u odjeljku [Sigurnost na platformi Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Dodatne informacije potražite u odjeljku [Sigurnost na platformi Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Projektne operacije i sigurnost aplikacije Microsoft Dynamics 365 Finance
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Sigurnost aplikacija Project Operations i Microsoft Dynamics 365 Finance
 Project Operations uključuju sljedeće uloge:
 
 - Upravitelj projekta
 - Projektno računovodstvo
 
-Dodatne informacije o sigurnosti u aplikaciji Finance potražite u članku [Sigurnost koja se temelji na ulozi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Dodatne informacije o sigurnosti u aplikaciji Finance potražite u članku [Sigurnost koja se temelji na ulozi](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

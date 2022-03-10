@@ -1,31 +1,24 @@
 ---
-title: Pregled prodajnih postupka
+title: Pregled prodajnog postupka
 description: Ova tema pruža informacije o osnovnim prodajnim procesima.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.custom: intro-internal
+ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991837"
 ---
-# <a name="sales-processes-overview"></a>Pregled prodajnih postupka
+# <a name="sales-process-overview"></a>Pregled prodajnog postupka
 
-Prodajni procesi koji se koriste u organizaciji koja se temelji na projektu razlikuju se od prodajnih procesa koji se koriste u organizaciji koja se temelji na proizvodu. To je zbog toga što su prodajni ciklusi za tvrtke ili ustanove koje se temeljene na projektima dulji i zahtijevaju prilagođene tehnike procjene za analizu i izradu ponuda za svaki dogovor. Dynamics 365 Project Operations upotrebljava neke od sljedećih funkcionalnosti koje se upotrebljavaju u prodajnom postupku:
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
+
+Prodajni procesi koji se koriste u organizaciji koja se temelji na projektu razlikuju se od prodajnih procesa koji se koriste u organizaciji koja se temelji na proizvodu. To je zbog toga što su prodajni ciklusi za tvrtke ili ustanove koje se temeljene na projektima dulji i zahtijevaju prilagođene tehnike procjene za analizu i izradu ponuda za svaki dogovor. Dynamics 365 Project Operations upotrebljava neke od sljedećih funkcija koje se upotrebljavaju u postupku prodaje:
 
 - Zapis potencijalnog klijenta upotrebljava se za praćenje prodajnog postupka.
 - Kvalificirani potencijalni klijenti prate se kao prilike.
@@ -69,3 +62,6 @@ U aplikaciji Project Operations ne možete pratiti revizije koje se provode na p
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Praćenje komentara i odobrenja ponuda i ugovora o projektu
 Možete upravljati pregledom i odobrenjem ponuda i ugovora projekta s pomoću zida zapisa i objava. Vaša tvrtka ili ustanova može izraditi prilagođene tijekove rada i dodatke za dodjelu, preusmjeravanje, eskalaciju i upravljanje obavijestima o radnim stavkama pregleda i odobravanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

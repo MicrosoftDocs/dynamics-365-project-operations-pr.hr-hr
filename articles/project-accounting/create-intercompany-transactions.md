@@ -2,18 +2,16 @@
 title: Stvaranje transakcija unutar tvrtke
 description: U ovoj temi nalaze se informacije o načinu stvaranja transakcija unutar tvrtke.
 author: sigitac
-manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
-ms.translationtype: HT
+ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595441"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005472"
 ---
 # <a name="create-intercompany-transactions"></a>Stvaranje transakcija unutar tvrtke
 
@@ -79,7 +77,7 @@ Molly Clark, razvojna inženjerka zaposlena u GBPM, bilježi 10 sati rada na pro
 | Prodaja između organizacijskih jedinica | 120 | USD | 1200 |
 
 7. Prijavite se kao računovođa USPM-a. Otvorite instancu aplikacije Finance u aplikaciji Project Operations i odaberite tvrtku **USPM**. 
-8. Idite na **Upravljanje projektima i računovodstvo** > **Periodično** > **Project Operations na Customer Engagement** > **Uvoz iz faza** i odaberite pokretanje periodičnog postupka. Ovaj periodični postupak popunjavat će dnevnik integracije aplikacije Project Operations.
+8. Idite na **Upravljanje projektima i računovodstvo** > **Povremeno** > **Project Operations on Customer Engagement** > **Uvoz iz pripreme** i odaberite pokretanje povremenog postupka. Ovim povremenim postupkom popunjavat će se dnevnik integracije aplikacije Project Operations.
 9. Idite na **Upravljanje projektima i računovodstvo** > **Dnevnici** > **Dnevnik integracije aplikacije Project Operations** i pregledajte retke dnevnika. Sustav stvara sljedeći redak.
 
     | **Vrsta transakcije** | **Cijena** | **Valuta transakcije** | **Iznos** |
@@ -94,7 +92,7 @@ Molly Clark, razvojna inženjerka zaposlena u GBPM, bilježi 10 sati rada na pro
     Ova nefakturirana prodaja sada je spremna za fakturiranje. Faktura za klijenta Adventure Works može se financijski knjižiti po potrebi.
 
 10. Prijavite se kao računovođa tvrtke **GBPM**. Otvorite instancu aplikacije Finance u aplikaciji Project Operations i otvorite tvrtku **GBPM**. 
-11. Idite na **Upravljanje projektima i računovodstvo** > **Periodično** > **Project Operations na Customer Engagement** > **Uvoz iz faza** i odaberite pokretanje periodičnog postupka za popunjavanje dnevnika integracije aplikacije Project Operations.
+11. Idite na **Upravljanje projektima i računovodstvo** > **Povremeno** > **Integracija aplikacije Project Operations** > **Uvoz iz pripremne tablice** i pokrenite povremeni postupak za popunjavanje dnevnika aplikacije Project Operations Integration.
 12. Idite na **Upravljanje projektima i računovodstvo** > **Dnevnici** > **Dnevnik integracije aplikacije Project Operations** i pregledajte retke. Sustav stvara sljedeće retke.
 
     | **Vrsta transakcije** | **Cijena** | **Valuta transakcije** | **Iznos** |
@@ -113,3 +111,6 @@ Molly Clark, razvojna inženjerka zaposlena u GBPM, bilježi 10 sati rada na pro
     - Kredit: Projekt – Obračunani prihod 120 USD
 
     Sustav je sada spreman za stvaranje fakture za klijenta unutar tvrtke.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

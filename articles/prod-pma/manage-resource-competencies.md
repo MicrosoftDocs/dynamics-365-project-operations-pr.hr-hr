@@ -2,11 +2,9 @@
 title: Upravljanje kompetencijama resursa
 description: U ovoj temi nalaze se informacije o načinu postavljanja kompetencija za resurse projekta.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270624"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007407"
 ---
 # <a name="manage-resource-competencies"></a>Upravljanje kompetencijama resursa
 
@@ -31,7 +29,7 @@ ms.locfileid: "5270624"
 
 Kompetencije resursa bitan su dio upravljanja resursima. Kompetencije se mogu upotrebljavati kao polazna osnova za određivanje resursa koji imaju pravu ravnotežu vještina, obrazovanja, ovlaštenja i projektnog iskustva. Te biste podatke trebali postaviti za svaki resurs i redovito ih ažurirati. Na taj način možete maksimizirati mogućnosti kada se odgovarajuće kompetencije resursa podudare tijekom dodjele resursa projekta.
 
-[![Primjeri vještina, ovlaštenja, obrazovanja i projektnog iskustva](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Primjeri vještina, ovlaštenja, obrazovanja i projektnog iskustva.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 U slijedećim se postupcima objašnjava način postavljanja neke kompetencije za resurs.
 

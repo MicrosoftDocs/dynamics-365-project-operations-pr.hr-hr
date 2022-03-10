@@ -2,18 +2,17 @@
 title: Pregled osnovne implementacije
 description: U ovoj temi nalaze se informacije o jednostavnoj implementaciji aplikacije Dynamics 365 Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273954"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997372"
 ---
 # <a name="lite-deployment-overview"></a>Pregled osnovne implementacije
 

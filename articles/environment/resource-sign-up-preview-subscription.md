@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: da93fcf23ee3f255812842e31cb22b5d39daa963
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334818"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323407"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijavite se za pretplate za pretpregled aplikacije Project Operations za scenarije resursa / bez zalihe
 
@@ -23,7 +23,7 @@ U ovoj se temi objašnjava način na koji se vrši pretplata za probnu ponudu i 
 
 ## <a name="prerequisites"></a>Preduvjeti
 - Korisnik koji uvodi pretpregled mora imati globalna prava administratora za klijent platforme Azure. Klijenta možete stvoriti tijekom iskorištavanja prve ponude. 
-- Za implementaciju okruženja aplikacije Finance potrebna je valjana pretplata za platformu Azure koja će se naplaćivati po okruženju. Kako biste započeli, možete upotrijebiti postojeću pretplatu svoje tvrtke ili ustanove ili [probnu verziju platforme Azure](https://azure.microsoft.com/en-us/free/). CDS okruženje bit će besplatno za ograničeno razdoblje od 30 dana.
+- Za implementaciju okruženja aplikacije Finance potrebna je valjana pretplata za platformu Azure koja će se naplaćivati po okruženju. Kako biste započeli, možete upotrijebiti postojeću pretplatu svoje tvrtke ili ustanove ili [probnu verziju platforme Azure](https://azure.microsoft.com/free/). CDS okruženje bit će besplatno za ograničeno razdoblje od 30 dana.
 
 > [!IMPORTANT]
 > Samo jedna osoba u tvrtki ili ustanovi, administrator klijenta, mora izvršiti ovaj zadatak. Ako niste pretplatnik na ovo izdanje, pričekajte dok se vaša tvrtka ili ustanova ne prijavi i ne dobijete svoje vjerodajnice.

@@ -2,8 +2,6 @@
 title: Unesi vrijeme
 description: Kako unijeti vrijeme u programu Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 3dfd16ff38e729ce183247a03b3340b8af52ea1318c799ec5fd544d7b94086be
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073591"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985672"
 ---
 # <a name="enter-time-project-service"></a>Unesi vrijeme (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -59,3 +59,6 @@ Sate unosite najmanje tjedno ili onoliko često koliko to traže vaši upravitel
   
 ### <a name="see-also"></a>Također pogledajte  
  [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

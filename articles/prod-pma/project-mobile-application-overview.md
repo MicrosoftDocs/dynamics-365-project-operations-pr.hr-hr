@@ -2,28 +2,26 @@
 title: Pregled projektnih mobilnih aplikacija
 description: U ovoj temi nalaze se opće informacije o projektnim aplikacijama vezanim za vrijeme za sustav Microsoft Dynamics 365 Project Timesheet, Unos vremena za projekt i Moja evidencija radnog vremena / evidencije radnog vremena koji su dostupni na mobilnom uređaju.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073377"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005652"
 ---
 # <a name="project-mobile-applications-overview"></a>Pregled projektnih mobilnih aplikacija
 
@@ -49,3 +47,6 @@ Moja evidencija radnog vremena (optimizirana za mobilne uređaje) i evidencija r
 - [Unos vremena za projekt]( project-time-entry-mobile-workspace.md)
 - [Evidencija radnog vremena za projekt na mobilnom uređaju](Mobile-timesheets.md)
 - [Implementacija prilagođenih polja za mobilnu aplikaciju Microsoft Dynamics 365 Project Timesheet na platformama iOS i Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

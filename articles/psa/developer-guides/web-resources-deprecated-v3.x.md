@@ -2,12 +2,10 @@
 title: Zastarjeli web-resursi u aplikaciji Project Service Automation 3.x
 description: Ova tema opisuje web-resurse koji se više ne koriste u sustavu Dynamics 365 Project Service Automation 3.0.
 author: makk
-manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: e0ec1e01094ad4ec9deebc9bf0e9d3e197c16e2b03e6393f9dda7df97e7f1921
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073399"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988912"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Zastarjeli web-resursi u aplikaciji Project Service Automation 3.x
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Zbog novog klijentskog sučelja i drugih promjena koje su napravljene u rješenju Dynamics 365 Project Service Automation, neki od web-resursa za rješenje više se ne koriste. Stoga su zastarjeli od verzije 3.0.
 
@@ -536,3 +536,6 @@ Zbog novog klijentskog sučelja i drugih promjena koje su napravljene u rješenj
 - msdyn\_\\Time\\App\\Scripts\\Views\\SubmitDialog.js
 - msdyn\_\\Time\\App\\Scripts\\Views\\TimeEntryView.js
 - msdyn\_\\Time\\Moca\\Scripts\\TimeEntryRibbon.js
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

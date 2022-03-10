@@ -2,11 +2,9 @@
 title: Tijek rada upravljanja troškovima
 description: U ovoj temi objašnjava se način uporabe sustava tijeka rada u aplikaciji Microsoft Dynamics 365 Finance za postavljanje postupka pregleda izvješća o troškovima u Upravljanju troškovima.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -16,16 +14,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5207be92cb58d8ab2658096b3e0f3fc81d73d91e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 7c2a2cae435342139f32d1bb5d38d68acd920453f5e6f6551e1f6d57967d8053
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073543"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001287"
 ---
 # <a name="expense-management-workflow"></a>Tijek rada upravljanja troškovima
-
-[!include [banner](../includes/banner.md)]
 
 Možete upotrebljavati sustav tijeka rada za postavljanje postupka pregleda izvješća o troškovima u Upravljanju troškovima. Možete postaviti tijek rada koji upotrebljava sljedeće kriterije za određivanje osobe koja odobrava izvješća o troškovima:
 
@@ -57,3 +53,6 @@ Sljedeći je postupak primjer tijeka rada upravljanja troškovima za izvješće 
 Nakon provjere ovih preduvjeta knjiži se izvješće o troškovima.
 
 Nakon što se proknjiži izvješće o troškovima, autorizira se plaćanje izvješća o troškovima, a zaposleniku se vraća naknada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

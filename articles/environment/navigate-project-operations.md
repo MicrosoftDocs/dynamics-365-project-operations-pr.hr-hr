@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000112"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994582"
 ---
 # <a name="navigate-project-operations"></a>Navigacija aplikacijom Project Operations
 
@@ -28,11 +28,11 @@ Nakon što aplikaciju Project Operations pripremite na način opisan u ovoj temi
 
 U odjeljku upotrijebite naziv okruženja, **Naziv okruženja platforme Common Data Service** za navigaciju do aplikacije Project Operations u okruženju platforme CDS. 
 
-  ![Naziv okruženja servisa Common Data Service](./media/environment-name.PNG)
+  ![Naziv okruženja platforme Common Data Service.](./media/environment-name.PNG)
 
 Odaberite **Prijavi se** > **Prijavi se u okruženje** za navigaciju do modula **Upravljanje projektom i računovodstvo** u aplikaciji Finance.  
 
-   ![Prijava u aplikaciju Finance](./media/environment-login.PNG)
+   ![Prijava u aplikaciju Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Možete izravno pristupiti aplikaciji Project Operations na platformi Common Data Service i modulu **Upravljanje projektom i računovodstvo** s pomoćui njihove odgovarajuće URL-adrese. 

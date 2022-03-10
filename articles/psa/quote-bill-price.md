@@ -3,10 +3,9 @@ title: Početna stranica Sastavljanje ponuda, određivanje cijena i naplata
 description: Ova tema pruža informacije o sastavljanju ponuda, određivanju cijena i naplati.
 author: rumant
 ms.author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 audience: Admin
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4d59cc8421d4d8a158340d76d144b610b5f65f63
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 0b3d40158534f039160156087d6edab0d21dd5f3eaf71d5b665eff794793a9b3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120489"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004752"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Početna stranica Sastavljanje ponuda, određivanje cijena i naplata
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -42,3 +43,6 @@ Sljedeće teme pružaju više informacija o funkciji sastavljanja ponuda, određ
 - [Grupe jedinica i jedinice](advanced-units.md)
 - [Valuta više jedinica](advanced-currency.md)
 - [Bilježenje stvarnih podataka](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

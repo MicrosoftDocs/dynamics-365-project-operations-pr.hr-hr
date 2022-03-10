@@ -6,12 +6,12 @@ ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001282"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986617"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Postavljanje i primjena konfiguracijskih podataka na platfomi Common Data Service 
 
@@ -35,24 +35,24 @@ Prije nego što počnete konfigurirati podatke u aplikaciji Common Data Service 
 2. Pomaknite se do raspakirane mape i pokrenite izvršnu datoteku *DataMigrationUtility*.
 3. Na 1. stranici Čarobnjaka za migraciju konfiguracije (CMT) platforme Common Data Service odaberite **Uvez podatke** a zatim **Nastavi**.
 
-![Migracija konfiguracije](./media/1ConfigurationMigration.png)
+![Migracija konfiguracije.](./media/1ConfigurationMigration.png)
 
 4. Na 2. stranici CMT čarobnjaka odaberite **Microsoft 365** kao **Vrstu implementacije**.
 5. Označite potvrdne okvire **Prikaži popis dostupnih tvrtki ili ustanova** i **Prikaži napredne**.
 6. Odaberite regiju svog klijenta, unesite svoje vjerodajnice, a zatim odaberite mogućnost **Prijava**.
 
-![Konfiguracija prijave](./media/2ConfigurationSignin.png)
+![Konfiguracija prijave.](./media/2ConfigurationSignin.png)
 
 7. Na 3. stranici, s popisa tvrtki ili ustanova na klijentu, odaberite u koju tvrtku ili ustanovu želite uvesti pokazne podatke, a zatim odaberite **Prijava**.
 8. Na 4. stranici odaberite zip datoteku *SampleSetupAndConfigData* iz raspakirane mape.
 
-![Odabir zip datoteke](./media/3ZipFile.png)
+![Odabir zip datoteke.](./media/3ZipFile.png)
 
-![Odaberite datoteku](./media/4SelectAFile.png)
+![Odabir datoteke.](./media/4SelectAFile.png)
 
 9. Nakon odabira zip datoteke odaberite **Uvezi podatke**.
 
-![Uvoz podataka](./media/5ImportData.png)
+![Uvezi podatke.](./media/5ImportData.png)
 
 10. Uvoz će se izvoditi otprilike dvije do deset minuta, ovisno o brzini vaše mreže. Po završetku uvoza izađite iz CMT čarobnjaka. 
 11. U svojoj tvrtki ili ustanovi provjerite podatke za sljedećih 26 entiteta:
@@ -84,50 +84,50 @@ Prije nego što počnete konfigurirati podatke u aplikaciji Common Data Service 
   - Dodjela kategorije resursa kojeg je moguće rezervirati
   - Značajka kategorije resursa koji je moguće rezervirati
 
-![Dovrši uvoz](./media/6CompleteImport.png)
+![Dovrši uvoz.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Ažuriranje konfiguracija aplikacije Project Operations
 
 1. Pomaknite se do CE okruženja. Možete ga pronaći otvaranjem [Centra za administratore aplikacije Power Platform](https://admin.powerplatform.microsoft.com/environments), odabirom okruženja i potom mogućnosti **Otvori okruženje**. 
 
-![Otvaranje okruženja](./media/7OpenEnvironment.png)
+![Otvaranje okruženja.](./media/7OpenEnvironment.png)
 
 2. Idite na **Projekti** > **Resursi**, a zatim odaberite **Novi** kako biste svojem korisniku stvorili resurs koji se može rezervirati.
 
-![Resursi koje je moguće rezervirati](./media/8BookableResources.png)
+![Resursi koji se mogu rezervirati.](./media/8BookableResources.png)
 
 3. Na kartici **Općenito** odaberite svog korisnika administratora. Provjerite podudara li se vremenska zona s onom u kojoj se nalazite. 
 
-![Novi resurs koji se može rezervirati](./media/9NewBookableResource.png)
+![Novi resurs koji se može rezervirati.](./media/9NewBookableResource.png)
 
 4. Na kartici **Planiranje**, u polju **Tvrtka**, odaberite tvrtku **USPM**, a zatim odaberite **Spremi**. 
 
-![Kartica planiranja](./media/10SchedulingTab.png)
+![Kartica planiranja.](./media/10SchedulingTab.png)
 
 5. Odaberite karticu **Radno vrijeme**.  
 
-![Radno vrijeme](./media/11WorkHours.png)
+![Radni sati.](./media/11WorkHours.png)
 
 6. Dvaput kliknite neku vrijednost u kalendaru i odaberite **Uredi** > **Svi događaji u nizu**. 
 
-![Radni kalendar](./media/12WorkCalendar.png)
+![Radni kalendar.](./media/12WorkCalendar.png)
 
 7. Promijenite radno vrijeme u osmosatni (8) radni dan, obilježite vikende kao neradne dane i pobrinite se da se vremenska zona poklapa s vašom. 
 8. Odaberite **Spremi i zatvori**.
 
-![Ažuriranje kalendara](./media/13UpdateCalendar.png)
+![Ažuriranje kalendara.](./media/13UpdateCalendar.png)
 
 9. Idite na **Postavke** > **Predlošci kalendara** i odaberite **Novi**.
  
- ![Predlošci kalendara](./media/14CalendarTemplates.png)
+ ![Predlošci kalendara.](./media/14CalendarTemplates.png)
  
  10. Unesite naziv, odaberite resurs predloška koji ste stvorili, a zatim odaberite **Spremi**. 
  
- ![Spremanje predloška kalendara](./media/15SaveCalendarTemplate.png)
+ ![Spremanje predloška kalendara.](./media/15SaveCalendarTemplate.png)
  
  11. Idite na stavku **Parametri** i dvaput kliknite zapis. 
  
- ![Parametri projekta](./media/16ProjectParameters.png)
+ ![Parametri projekta.](./media/16ProjectParameters.png)
  
 12. Ažurirajte sljedeća polja:
 
@@ -138,7 +138,7 @@ Prije nego što počnete konfigurirati podatke u aplikaciji Common Data Service 
 
 13. Odaberite **Spremi**. 
 
-![Ažuriranje parametara projekta](./media/17UpdatedProjectParameters.png)
+![Ažuriranje parametara projekta.](./media/17UpdatedProjectParameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

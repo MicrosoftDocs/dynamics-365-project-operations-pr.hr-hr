@@ -2,18 +2,18 @@
 title: Pregled izdatka
 description: U ovoj temi nalaze se informacije o funkcioniranju troška u aplikaciji Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122817"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988462"
 ---
 # <a name="expense-home-page"></a>Početna stranica troška
 
@@ -43,3 +43,6 @@ Dodatne informacije potražite u odjeljku [Unos troška (jednostavno)](basic-exp
 
 ## <a name="determine-your-expense-deployment"></a>Određivanje implementacije troška
 Kako biste utvrdili upotrebljavate li implementaciju upravljanja osnovnim troškovima, provjerite završava li URL adresa sljedećim izrazom **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

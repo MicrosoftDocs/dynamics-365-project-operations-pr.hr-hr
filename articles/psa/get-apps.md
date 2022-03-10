@@ -2,8 +2,6 @@
 title: Pribavljanje aplikacija sustava Dynamics 365 Project Finder Mobile | MicrosoftDocs
 description: Način pribavljanja aplikacija sustava Dynamics 365 Project Finder Mobile
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: df9842c9a3f148d6a6d902ef8013f7a17bc36b04ab3f98c0c770b6509ea3e25e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284439"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985682"
 ---
 # <a name="get-the-apps-project-service"></a>Preuzmi aplikacije (Project Service)
 
@@ -30,7 +28,7 @@ ms.locfileid: "5284439"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Ako želite unijeti vrijeme i troškove na mobilnom uređaju, [Preuzmi i instaliraj Dynamics 365 za telefone i tablete](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Ako želite unijeti vrijeme i troškove na mobilnom uređaju, [Preuzmi i instaliraj Dynamics 365 za telefone i tablete](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  Možete koristiti i aplikaciju Project Finder Mobile na svom telefonu da biste pronašli novi projekt i da biste podnijeli zahtjev za njega. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pronađi sljedeći projekt s pomoću aplikacije Project Finder Mobile](../psa/find-next-project-finder-mobile-app.md) 
   

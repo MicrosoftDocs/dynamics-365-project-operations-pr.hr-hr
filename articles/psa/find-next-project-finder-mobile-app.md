@@ -2,8 +2,6 @@
 title: Pronađi sljedeći projekt s pomoću aplikacije Project Finder Mobile
 description: Kako pronaći sljedeći projekt s pomoću aplikacije Project Finder Mobile za Project Service
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be88ee348d11347365ddad28516a0d4bc02b4634
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073492"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990758"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Pronađi sljedeći projekt s pomoću aplikacije Project Finder Mobile (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -38,12 +38,15 @@ S pomoću aplikacije Project Finder Mobile na vašem [!INCLUDE[tn_iphone](../inc
   
  Dodirnite strelicu s desne strane projekta ako vas zanimaju pojedinosti i prijavite se za njega.  
   
- ![Popis projekata koje odgovaraju vještinama u aplikaciji za mobilne uređaje Project Finder](../psa/media/project-service-project-finder-list.png "Popis projekata koje odgovaraju vještinama u aplikaciji za mobilne uređaje Project Finder")  
+ ![Popis projekata koje odgovaraju vještinama u aplikaciji Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Popis projekata koje odgovaraju vještinama u aplikaciji za mobilne uređaje Project Finder")  
   
 ## <a name="update-your-skills"></a>Ažuriraj svoje vještine  
  Dodirnite gumb profila u donjem desnom kutu zaslona za ažuriranje vještina i razina stručnosti.  
   
- ![Gumb profila u aplikaciji Project Finder za mobilne uređaje](../psa/media/project-service-project-finder-profile.png "Gumb profila u aplikaciji Project Finder za mobilne uređaje")  
+ ![Gumb profila u aplikaciji Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Gumb profila u aplikaciji Project Finder za mobilne uređaje")  
   
 ### <a name="see-also"></a>Pogledajte također  
- [Vodič za vrijeme, troškove i suradnju](../psa/time-expense-collaboration-guide.md)
+ [Vodič za vrijeme, izdatke i suradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

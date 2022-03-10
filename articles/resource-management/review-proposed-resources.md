@@ -2,7 +2,7 @@
 title: Pregledavanje predloženih resursa
 description: Ova tema pruža informacije o tome kako predložiti resurse projekta.
 author: ruhercul
-ms.date: 11/05/2020
+ms.date: 08/18/2021
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 987ea08c77c1824182856c0d52ee0cd15e7029b9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: b3077f98052fcac9989a81b2fab12fa30d65d970
+ms.sourcegitcommit: ebcaec7806ee8aee1323ef532d5b7735d27edd04
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000742"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403786"
 ---
 # <a name="review-proposed-resources"></a>Pregledavanje predloženih resursa
 
@@ -28,33 +28,39 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Upravitelji resursa mogu predložiti resurs voditelju projekta pomoću zahtjeva za resurs.
 
-1. Odaberite **Pronađi resurse** u rešetki zahtjeva ili u samom zahtjevu.
-2. Na stranici **Pomoćnik za raspored** odaberite resurs, a zatim u oknu **Stvaranje rezervacije resursa** u polju **Status rezervacije** odaberite **Rezerviraj**.
+Kako biste pregledali predložene resurse, slijedite ove korake:
 
-Pojavljuju se sljedeća ažuriranja statusa:
+1. U rešetki **Zahtjev** ili u samom zahtjevu, odaberite **Pronađi resurse**.
+2. Na stranici **Pomoćnik za planiranje** odaberite resurs, a zatim potvrdite da su svi predloženi sati uključeni u predloženu rezervaciju.
+3. U oknu **Stvori rezervaciju resursa** polje **Status rezervacije** postavite na **Predloženo**, a zatim odaberite **Rezerviraj**.
 
-- Na stranici **Pomoćnik za raspored** pokazatelji statusa ažuriraju se kako bi bilo jasno da je rezervacija predložena, a ne fiksno rezervirana.
-- Na zahtjevu za resurs status se mijenja u **Potreban pregled**.
-- Na kartici **Tim** projekta vrijednost **Status zahtjeva** člana generičkog tima mijenja se u **Potreban pregled**.
+    > [!NOTE]
+    > Postavljanje stavke **Status rezervacije** na **Predloženo** ne rezervira resurs fiksno i ne zamjenjuje generički resurs imenovanim članom tima.
+
+    Pojavljuju se sljedeća ažuriranja statusa:
+
+    - Na stranici **Pomoćnik za raspored** pokazatelji statusa ažuriraju se kako bi bilo jasno da je rezervacija predložena, a ne fiksno rezervirana.
+    - Na zahtjevu za resurs status se mijenja u **Potreban pregled**.
+    - Na kartici **Tim** projekta vrijednost **Status zahtjeva** generičkog člana tima mijenja se u **Potreban pregled**.
 
 Voditelj projekta može prihvatiti ili odbaciti prijedlog.
 
 Kada upravitelji resursa obrađuju zahtjeve za resurs, mogu upotrijebiti neki od sljedećih pristupa:
 
 - Predlaganje više resursa kako bi se zadovoljila potražnja ako nije dostupan jedan resurs koji bi odradio potrebne sate. Predloženi sati zatim se dijele na više resursa koji mogu odraditi potrebne sate. U ovom scenariju sati se ne smiju preklapati.
-- Predložite manje resursa nego što je potrebno. U ovom scenariju predloženi kapacitet resursa je manji od potrebnih sati koje je odredio podnositelj zahtjeva. Zbog toga se, kad podnositelj zahtjeva prihvati predložene resurse, stvara neispunjeni zahtjev za resurs koji pokriva preostalu potražnju.
+- Predložite manje resursa nego što je potrebno. U ovom scenariju predloženi kapacitet resursa je manji od potrebnih sati koje je odredio podnositelj zahtjeva. Nakon što podnositelj zahtjeva prihvati predložene resurse, stvara neispunjeni zahtjev za resurs koji pokriva preostalu potražnju.
 - Rezerviranje više resursa kako bi se zadovoljila potražnja ako nije dostupan jedan resurs koji bi dovršio posao.
 - Rezervirajte manje resursa nego što je potrebno. U ovom scenariju rezerviranih je sati manje od potrebnih sati. Sustav vas upućuje da predložite resurse umjesto rezervacija, tako da podnositelj zahtjeva može provjeriti valjanost i pratiti preostalu potražnju.
 
 ## <a name="resource-availability"></a>dostupnost resursa
 
-Ključno je da upravitelji resursa mogu pregledavati dostupnost resursa i ažurirati rezervacije. U nekim slučajevima ne postoji službena potražnja (zahtjev za resurs), ali upravitelj resursa mora odgovoriti na neplaniranu potražnju koja dolazi putem kanala kao što su e-pošta, telefonski poziv ili izravna poruka. Upravitelji resursa ažuriraju resurse i rezervacije na ploči s rasporedom.
+Upravitelji resursa moraju pregledavati dostupnost resursa i ažurirati rezervacije. U nekim slučajevima nema formalne potražnje (zahtjev za resursom). Međutim, upravitelj resursa mora odgovoriti na neplanirani zahtjev koji dolazi putem drugih kanala, poput e-pošte, telefonskih poziva ili trenutačnih poruka. Upravitelji resursa ažuriraju resurse i rezervacije na **Ploči s rasporedom**.
 
-Radno vrijeme resursa koristi se kao osnova za izračun dostupnosti resursa. Rezervacije resursa iskorištavaju kapacitet resursa.
+Radno vrijeme resursa upotrebljava se kao osnova za izračun dostupnosti resursa. Rezervacije resursa iskorištavaju kapacitet resursa.
 
-Na ploči s rasporedom boje i sjenčanje označavaju rezervacije, dostupnost i prekomjerne rezervacije, kao i status rezervacija. Postavka u postavkama ploče s rasporedom omogućuje prikaz legende.
+Boje i sjenčanje na **Ploči s rasporedom** upotrebljavaju se za prikaz rezervacija, dostupnosti i prekomjernih rezervacija, kao i statusa rezervacija. Postavka na **Ploči s rasporedom** omogućuje prikaz legende.
 
-Ako se strelica udesno prikazuje pokraj pojedinačnog resursa koji se može rezervirati na ploči s rasporedom, resurs se može proširiti da bi se prikazale pojedinosti posla za koji je resurs rezerviran.
+Ako se strelica udesno prikazuje pokraj pojedinačnog resursa koji se može rezervirati na **Ploči s rasporedom**, resurs se može proširiti da bi se prikazale pojedinosti posla za koji je resurs rezerviran.
 
 Budući da Dynamics 365 Project Operations upotrebljava modul Universal Resource Scheduling, a ako imate instaliranu značajku Dynamics 365 Field Service, možete pregledati pojedinosti o rezervacijama resursa za projekte, radne naloge i sve druge entitete na koje ste proširili zakazivanje.
 

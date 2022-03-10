@@ -2,18 +2,17 @@
 title: Pregled priznavanja prihoda
 description: U ovoj temi nalaze se informacije o priznavanju prihoda u aplikaciji Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e77a0442f634a50f8099fadec42ff400fee0e81
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 3d2fcf434a5086595e40f50afc2366eb806168085ae9212b5d25e3e9bd02e2c6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278859"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988642"
 ---
 # <a name="revenue-recognition-overview"></a>Pregled priznavanja prihoda
 

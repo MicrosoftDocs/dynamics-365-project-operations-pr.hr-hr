@@ -2,11 +2,9 @@
 title: Sinkroniziranje ugovora o projektu i projekata izravno iz aplikacije Project Service Automation u aplikaciju Financije
 description: U ovoj se temi opisuje predložak i temeljni zadaci koji se upotrebljavaju za sinkronizaciju ugovora o projektu i projekata izravno iz sustava Microsoft Dynamics 365 Project Service Automation u uslugu Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950390"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001062"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinkroniziranje ugovora o projektu i projekata izravno iz aplikacije Project Service Automation u aplikaciju Financije 
 
@@ -44,7 +42,7 @@ Rješenje za integraciju usluge Project Service Automation u Financije upotreblj
 
 Na slijedećoj slici prikazan je način na koji se podaci sinkroniziraju između usluge Project Service Automation i Financija.
 
-[![Tijek podataka za integraciju usluge Project Service Automation s Financijama](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Tijek podataka za integraciju usluge Project Service Automation s aplikacijom Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Predlošci i zadaci
 
@@ -142,17 +140,17 @@ Ako morate upotrijebiti modul Power Query, slijedite ove smjernice:
 
 Sljedeće slike prikazuju primjer mapiranja zadataka predloška u Integraciji podataka. Mapiranje prikazuje podatke polja koji će se sinkronizirati iz aplikacije Project Service Automation u Financije.
 
-[![Mapiranje predloška ugovora o projektu](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Mapiranje predloška ugovora o projektu.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Mapiranje predloška projekta](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Mapiranje predloška projekta.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Mapiranje predloška redaka ugovora o projektu](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Mapiranje predloška redaka ugovora o projektu.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Mapiranje predloška kontrolne točke redka ugovora o projektu](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Mapiranje predloška kontrolne točke retka ugovora o projektu.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapiranje kontrolnih točaka retka ugovora o projektu u projektima i ugovorima (PSA 3.x za Dynamics) – predložak v2:
 
-[![Mapiranje kontrolne točke redka ugovora o projektu s pomoću verzije dva predloška](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Mapiranje kontrolne točke retka ugovora o projektu s pomoću verzije dva predloška.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

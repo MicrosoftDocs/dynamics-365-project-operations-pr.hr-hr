@@ -2,10 +2,9 @@
 title: Pregled stvarnih podataka
 description: Ova tema pruža informacije o stvarnim vrijednostima projekta.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,20 +17,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073586"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992467"
 ---
 # <a name="actuals-overview"></a>Pregled stvarnih podataka
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Stvarne vrijednosti su količina dovršenog posla na projektu. Stvarne vrijednosti projekta mogu se pratiti natrag do njihovih izvornih dokumenata. Ti izvorni dokumenti uključuju unose vremena, izdataka i dnevnika, a također i faktura.
 
-![Kako se stvarne vrijednosti projekta prate do izvornih dokumenata](media/basic-guide-18.png)
+![Kako se stvarne vrijednosti projekta prate do izvornih dokumenata.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Slanje unosa vremena
 
@@ -328,3 +329,6 @@ PSA zapisuje financijske transakcije koje se odvijaju tijekom projekta. Te se tr
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

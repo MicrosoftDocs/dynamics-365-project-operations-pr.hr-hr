@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e8560e7c7d6bae1bb2fda389a63bde1c57654bcb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
-ms.translationtype: HT
+ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827272"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942922"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Što je novo u studenom 2021. - Project Operations lite implementacija
 
 _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
-Ovaj se tema primjenjuje na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
+Ovaj tema primjenjuje se na sljedeće Microsoftove komponente i verzije Dynamics 365 Project Operations:
 
-- Projektne operacije u Dataverse okruženju verzije 4.26.0.145, 4.26.0.148, ili 4.26.0.150
+- Projektne operacije u Dataverse okruženju verzije 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
@@ -30,7 +30,7 @@ U ovo izdanje uključene su sljedeće značajke:
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
-### <a name="project-operations-in-dataverse"></a>Projektne operacije u Dataverse
+### <a name="project-operations-in-dataverse"></a>Projektne operacije u programu Dataverse
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |

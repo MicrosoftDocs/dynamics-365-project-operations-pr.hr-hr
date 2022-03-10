@@ -1,33 +1,31 @@
 ---
-title: Postavljanje troškova radne snage
+title: Postavljanje cijena koštanja rada – jednostavno
 description: U ovoj temi nalaze se informacije o načinu postavljanja troškova radne snage u aplikaciji Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073299"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006102"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Postavljanje troškova radne snage 
+# <a name="set-up-labor-cost-rates---lite"></a>Postavljanje cijena koštanja rada – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Svaki cjenik ima skup cijena radne snage (cijena uloge) koje su u skladu sa sadržajem i datumom stupanja na snagu cjenika.
 
-1. Stvorite cjenik i na kartici **Cijena uloga**, u podrešetki, odaberite **+ Nova uloga**.
+1. Stvorite cjenik i na kartici **Cijena uloge** u podrešetki odaberite **Nova uloga**.
 2. Na stranici **Brzo stvaranje**, odaberite ulogu i organizacijsku jedinicu.
 3. Unesite sve druge obvezne podatke.
 
 Sljedeća tablica uključuje neka polja koja su bitna za stvaranje cijena radne snage na cjeniku troškova.
 
-| Polje | Lokacija | Relevantnost, svrha i smjernice | Utjecaj na niže razine |
+| Polje | Lokacija | Opis | Utjecaj na niže razine |
 | --- | --- | --- | --- |
 | Uloga | Kartica **Općenito** i stranice **Brzo stvaranje** | Odaberite ulogu na koju se troškova primjenjuje. | Uloga na dolaznoj procjeni ili stvarnoj vrijednosti podudarit će se s ovim retkom kako bi se zadala cijena uloge. |
 | Jedinica za resurse | Kartica **Općenito** i stranice **Brzo stvaranje** | Odaberite organizacijsku jedinicu ili sektor tvrtke iz koje će se uzeti ta uloga za uporabu. Na primjer, razvojni inženjer iz sektora Robotics tvrtke Fabrikam India ili razvojni inženjer iz sektora softvera tvrtke Fabrikam USA. | Jedinica za određivanje resursa na dolaznoj procjeni ili stvarnoj vrijednosti podudarat će se s ovim retkom kako bi se zadala cijena uloge. |
@@ -38,7 +36,7 @@ Sljedeća tablica uključuje neka polja koja su bitna za stvaranje cijena radne 
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Prijenos cijene i troškova za resurse izvan svojeg sektora ili pravne osobe
 
-U projektnim je tvrtkama uobičajena uporaba zaposlenika iz različitih pravnih osoba ili sektora za rad na projektima. Projekt može izvršiti jedna pravna osoba, ali zaposlenici ili savjetnici koji rade na projektu mogu dolaziti iz iste pravne osobe ili iz neke druge tj. može se raditi o kombinacije obje. U aplikaciji Dynamics 365 Project Operations, pravna osoba koja je vlasnik isporuke projekta je **Tvrtka vlasnik**, a sektor koji je vlasnik isporuke je **Ugovorna jedinica**. Ostale pravne osobe koje osiguravaju resurse su **Tvrtke za raspodjelu resursa**, a sektori koji osiguravaju resurse su **Jedinice za raspodjelu resursa**. U većini zemalja tvrtke su dužne osigurati da pravna osoba ili sektor za raspodjelu resursa naplaćuju uporabu resursa tvrtki vlasnici i ugovornoj jedinici.
+U projektnim je tvrtkama uobičajena uporaba zaposlenika iz različitih pravnih osoba ili sektora za rad na projektima. Projekt može izvršiti jedna pravna osoba, ali zaposlenici ili savjetnici koji rade na projektu mogu dolaziti iz iste pravne osobe ili iz neke druge tj. može se raditi o kombinacije obje. Pravna osoba koja je u aplikaciji Dynamics 365 Project Operations vlasnik isporuke projekta predstavlja **Tvrtku vlasnicu**, a sektor koji je vlasnik isporuke predstavlja **Jedinicu za ugovaranje**. Ostale pravne osobe koje osiguravaju resurse su **Tvrtke za raspodjelu resursa**, a sektori koji osiguravaju resurse su **Jedinice za raspodjelu resursa**. U većini zemalja tvrtke su dužne osigurati da pravna osoba ili sektor za raspodjelu resursa naplaćuju uporabu resursa tvrtki vlasnici i ugovornoj jedinici.
 
 Na primjer, tvrtka Fabrikam mora osigurati da Fabrikam India-Robotics pregovara o kartici cijene troška s Fabrikam US-Robotics ili Fabrikam UK-Robotics.
 
@@ -82,3 +80,6 @@ U cjeniku troškova za tvrtku Fabrikam UK-Robotics cijene troška mogu se izrazi
 | Razvojni programer | Fabrikam UK | 115 GBP |
 
 Cjenik troškova može osigurati cijene radne snage u više valuta. Pri generiranju procjene troškova na projektu, Project Operations pretvorit će ove cijene troškova u valutu projekta i prikazati ih korisniku. Kada se odobri unos vremena i stvori stvarni trošak, cijena stvarnog troška određuje se u valuti retka cijene odgovarajuće uloge na cjeniku troškova. Stvarni troškovi vremena u pojedinom projektu mogu se evidentirati u više valuta. Međutim, prilikom kumuliranja ili sažimanja stvarnih troškova radne snage na razini projekta, Project Operations pretvorit će sve iznose troškova radne snage u valutu projekta, koju korisnik može vidjeti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

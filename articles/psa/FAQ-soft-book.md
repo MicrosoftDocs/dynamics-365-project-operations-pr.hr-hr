@@ -2,8 +2,6 @@
 title: Promjenjivo rezerviranje resursa
 description: Ova tema pruža informacije o tome kako uvjetno planirati ili promjenjivo rezervirati članove projektnog tima.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,14 +10,16 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: af71ff9d60e237a9d1379b3ccd4c0d5ffce411e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: cf67769fef39f95785320ae38055f0a3359b3a82d996b740bdb5d51e864f3d56
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122199"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005337"
 ---
 # <a name="soft-book-a-resource"></a>Promjenjivo rezerviranje resursa
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -65,3 +65,6 @@ Kada budete spremni za promjenu promjenjivo rezerviranog resursa člana tima u f
 2. Desnim klikom kliknite na rezervaciju i pod stavkom **Promijeni status** odaberite **Fiksna rezervacija** \> **Fiksna**. Status rezervacije je sada **Fiksna**.
 3. Nakon zatvaranja ploče s rasporedom, vratite se na projekt i otvorite karticu **Tim**, kada ste u prikazu **Imenovani članovi tima**, vidjet ćete da su sati resursa premješteni iz stupca **Promjenjivo rezervirani sati** u stupac **Fiksno rezervirani sati** na kartici **Tim**. Ako je resurs dodijeljen zadacima, više neće prikazivati manjak rezervacija na kartici **Usklađivanje** budući da su njegove rezervacije postale fiksne.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

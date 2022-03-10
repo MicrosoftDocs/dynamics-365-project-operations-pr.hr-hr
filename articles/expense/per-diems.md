@@ -2,18 +2,16 @@
 title: Po danima
 description: U ovoj temi nalaze se informacije o pravilima za dnevnice koja se upotrebljavaju za upravljanje troškovima.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073262"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986392"
 ---
 # <a name="per-diems"></a>Po danima
 
@@ -31,3 +29,6 @@ Dnevnica je naknada koja se isplaćuje radniku koji putuje zbog posla. U upravlj
     
 ## <a name="submit-expenses-using-per-diem"></a>Slanje troškova s pomoću dnevnice
 Kako biste poslali troškove korištenja dnevnica, kada stvarate izvješće o troškovima upotrijebite kategoriju troška **Dnevnice**. Unesite podatke **Dnevnica od datuma**, **Dnevnica do datuma** i **Dnevnica za mjesto**. Iznos će se izračunati na temelju iznosa dnevnice za odabranu lokaciju, a smanjenje obroka na temelju razina dnevnica.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

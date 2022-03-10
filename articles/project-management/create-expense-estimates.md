@@ -1,28 +1,22 @@
 ---
-title: Procjena troška
+title: Financijske procjene troškova na projektima
 description: U ovoj temi nalaze se informacije o načinu definiranja ili procjene troškova koji se temelje na projektu.
-author: ruhercul
-manager: Annbe
-ms.date: 10/01/2020
+author: rumant
+ms.date: 03/19/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.author: rumant
+ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073310"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987832"
 ---
-# <a name="expense-estimates"></a>Procjena troška
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavno uvođenje – poslovanje putem predračuna_
+# <a name="financial-estimates-for-expenses-on-projects"></a>Financijske procjene troškova na projektima
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Uz definiranje procjena koje se temelje na resursu, Dynamics 365 Project Operations omogućuje voditeljima projekata definiranje troškova koji se temelje na projektu za svaki projekt. Svaka stavka troška može se povezati s određenim projektnim zadatkom ili kategorijom troška. Kategorije troškova obično se definiraju na organizacijskoj razini. Određivanje cijene za svaku kategoriju troška obično su definirane u sljedećoj hijerarhiji:
-
-- Organizacija
-- Klijent
-- Ponuda/ugovor
+Dynamics 365 Project Operations omogućuje voditeljima projekata da definiraju troškove koji se temelje na projektu za svaki projekt ili zadatak. Svaka stavka troška može se povezati s određenim projektnim zadatkom. Rashodi su kategorizirani u različite kategorije troškova, koje su definirane na organizacijskoj razini. Cijene i troškovi za svaku kategoriju troškova definiraju se cjenikom. 
 
 Poduzmite sljedeće korake za prikaz, dodavanje ili brisanje troška projekta.
 
@@ -30,11 +24,20 @@ Poduzmite sljedeće korake za prikaz, dodavanje ili brisanje troška projekta.
 2. Odaberite karticu **Procjene projekta** i pogledajte popis troškova projekta.
 3. Odaberite **Novi trošak** kako biste dodali trošak. Ili odaberite trošak za brisanje, a zatim odaberite **Izbriši trošak**.
 
-Sljedeći atributi definirani su za svaku stavku retka troška:
+Tablica u nastavku pruža informacije o poljima na stavci **Redak procjene troška** u projektu. 
 
-- **Kategorija**: Uobičajena grupiranja koja su se upotrebljavala za opisivanje svih troškova nastalih na projektu.
-- **Početni datum**: Datum kada se predviđa da će nastati trošak.
-- **Količina**: Procijenjeni broj stavki troška za određenu kategoriju.
-- **Jedinična cijena koštanja**: Jedinična cijena koja se upotrebljava za izračun koštanja troška.
-- **Jedinična prodajna cijena**: Jedinična cijena koja se upotrebljava za izračun prodajne cijene troška.
+| **Polje** | **Opis** | **Utjecaj prema dolje** |
+| --- | --- | --- |
+| Zadatak | Popis projektnih zadataka. To uključuje zadatke sažetka i lisnog čvora. | Odabir zadatka za redak procjene troška utjecati će na procijenjenu cijenu troška i procijenjeni trošak prodaje za zadatak. Ako ovo polje ostane prazno, procjena troškova prati se i zbraja samo na razini projekta. |
+| Kategorija | Popis kategorija transakcija koje su u aplikaciji povezale kategorije troškova. | Odabir kategorije pokreće određivanje cijene i troška u retku procjene troška. |
+| Datum početka | Predviđeni datum nastanka troška. | Ovo polje ne utječe na niže razine. |
+| Grupa jedinica | Zadana vrijednost u ovom polju proizlazi iz grupe jedinica koja je postavljena kao zadana na odabranoj kategoriji. Ovo polje možete ažurirati kako biste odabrali drugu grupu jedinica. | Ovo polje ne utječe na niže razine. |
+| Jedinica | Vrijednost u ovom polju zadaje zadanu jedinicu odabrane kategorije. Ovo polje možete ažurirati kako biste odabrali drugu jedinicu. | Promjena jedinice rezultira drugačijom zadanom cijenom i troškom jedinice. |
+| Količina | Količina procijenjenih troškova koje ćete imati. | Ovo polje ne utječe na niže razine. |
+| Jedinična cijena | Trošak odabrane kombinacije kategorije i jedinice kako je postavljen u mjerodavnom troškovniku | Jedinični trošak uvijek se prikazuje u valuti troška projekta. |
+| Jedinična cijena | Cijena odabrane kombinacije kategorije i jedinice kako je postavljena u mjerodavnom prodajnom cjeniku. | Jedinični cijena uvijek se prikazuje u valuti prodaje projekta. |
+| Ukupni trošak | Iznos troška koji se izračunava kao količina \* jedinični trošak.| Iznos troška uvijek se prikazuje u valuti troška projekta. |
+| Ukupne prodaje | Prodajni iznos koji se izračunava kao količina \* jedinična cijena. | Iznos prodaje uvijek se prikazuje u valuti prodaje projekta. |
 
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

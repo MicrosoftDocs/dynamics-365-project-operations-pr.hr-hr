@@ -2,11 +2,9 @@
 title: Ponude projekta
 description: U ovom se članku predstavlja koncept ponuda projekta koje možete upotrebljavati za izradu privlačne ponude klijentu kao prvi korak u fazi projekta. Ponuda projekta može sadržavati predmete i usluge koje se nude, osnovne podatke za kontakt, posebni trgovinski sporazumi i popusti te mogući porezi i dodatne naplate.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8f86c86aac8ebae9a77bacbb5275f1f7e6609f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 987444e66bb1b151065bfc8a92a021cd8fdd9cf07aee31780bf7607dc4de221c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289135"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008937"
 ---
 # <a name="project-quotations"></a>Ponude projekta
 

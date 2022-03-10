@@ -2,11 +2,9 @@
 title: Prikaz izvješća o troškovima iz Glavne knjige ili nabave i dobavljanja
 description: U ovoj se temi objašnjava način prikaza izvornog izvješća o troškovima na kojem se pojavila transakcija.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35a76cad8c6ddaa84038746ace6a7e1e5623388f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
-ms.translationtype: HT
+ms.openlocfilehash: 8d660d372bf4421da21b42889cfc62cd62df7366414af7e1a6efe4747033a29b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960058"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003402"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Prikaz izvješća o troškovima iz Glavne knjige ili nabave i dobavljanja
 
@@ -32,3 +30,6 @@ Za izvješća o troškovima pretraživati kroz razine naniže možete vršiti od
 Za pretraživati kroz razine naniže izvornog izvješća o troškovima na kojem se transakcija pojavila odaberite transakciju, a zatim odaberite **Izvorni dokument**.
 
 Kada prikazujete pojedinačne transakcije, možete pregledati i sve dodatne podatke koji su priloženi transakciji. Na primjer, u specificiranom hotelskom trošku možete pogledati podroban popis troškova kao što su pristup internetu, telefonski pozivi i sobna usluga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

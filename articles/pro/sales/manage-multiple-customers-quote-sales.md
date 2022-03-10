@@ -1,25 +1,23 @@
 ---
-title: Upravljanje s više klijenata u ponudama projekata
+title: Upravljanje s više klijenata u projektnim ponudama – jednostavno
 description: U ovoj temi nalaze se informacije o radu s ponudama s više klijenata koji će financirati projekt. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073288"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440768"
 ---
-# <a name="managing-multiple-customers-on-project-quotes-sales"></a>Upravljanje s više klijenata u ponudama projekata (prodaja)
+# <a name="manage-multiple-customers-on-project-quotes---lite"></a>Upravljanje s više klijenata u projektnim ponudama – jednostavno
 
-_**Odnosi se na:** Jednostavno uvođenje – od sklapanja posla do predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Ponude projekata podržavaju scenarij u kojem prijedlog uključuje više kupaca koji će financirati posao. Kartica **Sažetak** ponude ima polje **Potencijalni klijent** koje identificira primarnog klijenta posla. Ostali klijenti posla mogu se postaviti na karticu **Klijenti** ponude projekta.
+Ponude projekata podržavaju scenarij u kojem prijedlog uključuje više klijenata koji će financirati posao. Kartica **Sažetak** ponude ima polje **Potencijalni klijent** koje identificira primarnog klijenta posla. Ostali klijenti posla mogu se postaviti na karticu **Klijenti** ponude projekta.
 
 Svi klijenti ponude na kartici **Klijenti** ponude projekta zadani su kao klijenti retka ponude na svakom **novom** retku ponude koji se temelji na projektu, a stvoren je za ponudu. Svaki postojeći redak ponude koji se temelji na projektu neće naslijediti nove zapise o klijentima stvorene nakon njih.
 
@@ -37,9 +35,9 @@ Primarni klijent ne bi se trebao ažurirati s popisa klijenata na ponudi. Međut
 
 Klijent ponude može se stvoriti, ažurirati ili izbrisati iz kartice **Klijenti ponude** na stranici **Ponuda**. Polja navedena u sljedećoj tablici polja su u zapisu o klijentu ponude iz ponude projekta.
 
-| **Polje** | **Mjesto** | **Relevantnost, svrha i smjernice** | **Utjecaj na niže razine** |
+| **Polje** | **Mjesto** | **Opis** | **Utjecaj prema dolje** |
 | --- | --- | --- | --- |
-| Poslovni subjekt | Rešetka koja se može uređivati na kartici **Klijenti ponude** te obrasci **Glavni** i **Brzo stvaranje** za klijenta ponude. | Navodi sve aktivne račune. Ovo je polje zaključano nakon stvaranja zapisa. Ako ga želite ažurirati, izbrišite zapis i ponovo ga stvorite. Ako ste zabilježili bilo koje stvarne podatke ili ako je zapis klijenta ponude primarni klijent, moći ćete ga izbrisati. | Kada se stvori redak ponude, klijenti ponude kopiraju se kao klijenti retka ugovora. Kada se prihvati ponuda, klijenti ponude kopiraju se također u klijente ugovora. o projektu |
+| Poslovni subjekt | Rešetka koja se može uređivati na kartici **Klijenti ponude** te obrasci **Glavni** i **Brzo stvaranje** za klijenta ponude. | Navodi sve aktivne račune. Ovo je polje zaključano nakon stvaranja zapisa. Ako ga želite ažurirati, izbrišite zapis i ponovo ga stvorite. Ako ste zabilježili neke stvarne podatke ili ako je zapis klijenta ponude primarni klijent, neće vam biti dopušteno brisanje zapisa. | Kada se stvori redak ponude, klijenti ponude kopiraju se kao klijenti retka ugovora. Kada se prihvati ponuda, klijenti ponude kopiraju se također u klijente ugovora. o projektu |
 | Postotak podjele naplate | Rešetka koja se može uređivati na kartici **Klijenti ponude** te obrasci **Glavni** i **Brzo stvaranje** za klijenta ponude. | Predstavlja postotak svake nenaplaćene prodajne transakcije koja će se pripisati ovom klijentu ponude. | Kopira se u nove retke ponude i klijente ugovora o projektu. |
 | Naziv kontakta za naplatu | Rešetka koja se može uređivati na kartici **Klijenti ponude** te obrasci **Glavni** i **Brzo stvaranje** za klijenta ponude. | Ovo je tekstno polje i trebalo bi se upotrebljavati za identifikaciju osobe za kontakt na fakturi za ovog klijenta. One su zadane iz povezanog zapisa računa | Kopira se u klijente ugovora o projektu kada se ponuda prihvati i povratno u polje Naziv ugovora za naplatu na fakturi koja se generira za tog klijenta. |
 | Naziv za naplatu | Rešetka koja se može uređivati na kartici **Klijenti ponude** te obrasci **Glavni** i **Brzo stvaranje** za klijenta ponude. | Ovo tekstno polje trebalo bi se upotrebljavati za identifikaciju osobe za kontakt na fakturi za ovog klijenta. | Kopira se u klijente ugovora o projektu kada se ponuda prihvati i povratno u polje **Naziv ugovora za naplatu** na fakturi koje se generira za tog klijenta. |
@@ -51,4 +49,7 @@ Klijent ponude može se stvoriti, ažurirati ili izbrisati iz kartice **Klijenti
 
 Postotke podjele naplate možete urediti s pomoću iskustva uređivanja rešetke u retku. Kada postoci podjele naplate ne iznose 100 %, doći će do pogreške. Nakon što ažurirate postotke podjele naplate, osvježite stranicu kako biste uklonili pogrešku.
 
-Također možete pokušati odabrati stavku **Rasporedi ravnomjerno** na podrešetki klijenta ponude. Ova radnja raspoređuje podjelu naplate na sve klijente iz ponude. Ako postoji faktor zaokruživanja, to će se dodati klijentu zaokruživanja. Jedan od klijenata iz ponude uvijek je označen kao klijent zaokruživanja. to znači da zapis klijenta iz ponude ima zastavicu **Zaokruživanje** postavljenu na **Da**. To je obično primarni kupac iz ponude, ali to se može promijeniti.
+Također možete pokušati odabrati mogućnost **Ravnomjerno rasporedi** na podrešetki ponude za klijenta. Ova radnja raspoređuje podjelu naplate na sve klijente iz ponude. Ako postoji faktor zaokruživanja, to će se dodati klijentu zaokruživanja. Jedan od klijenata iz ponude uvijek je označen kao klijent zaokruživanja. to znači da zapis klijenta iz ponude ima zastavicu **Zaokruživanje** postavljenu na **Da**. To je obično primarni klijent iz ponude, ali to se može promijeniti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

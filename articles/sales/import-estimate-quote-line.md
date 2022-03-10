@@ -1,21 +1,19 @@
 ---
-title: Uvoz procjena projekta u redak ponude koji se temelji na projektu
-description: U ovoj temi nalaze se informacije o uvozu procjena iz projekta u redak ponude.
+title: Uvoz procjena za projekt u redak ponude projekta
+description: U ovoj temi nalaze se informacije o uvozu procjena iz projekta u redak ponude projekta.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: a9ac27b7694927f9cea88b49310f3106fbc6542cc0f7f1756744b970358c1057
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073304"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993502"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Uvoz procjena projekta u redak ponude koji se temelji na projektu
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Uvoz procjena za projekt u redak ponude projekta
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
@@ -67,3 +65,6 @@ Kada korisnik odluči sažeti po klasi transakcije, kategoriji i zadatku lisnog 
 | Zadatak A | Zrakoplovne karte | 10. 1. 2020. | 4 | 400 | 1600 |
 | Zadatak B | Hoteli | 10. 1. 2020. | 4 | 200 | 800 |
 | Zadatak C | Hoteli | 11. 1. 2020. | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,9 @@
 title: Početna stranica planiranja projekta
 description: Ova tema pruža informacije o planiranju projekta.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1c3e0e1e0314d915bce4fb840b444b79edd4ac0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073356"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990577"
 ---
 # <a name="project-planning-home-page"></a>Početna stranica planiranja projekta
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -50,3 +51,6 @@ Sljedeće teme pružaju informacije koje će pomoći upraviteljima projekata u p
 - [Predlošci projekta](project-templates.md)
 - [Faze projekta](project-stages.md)
 - [Postavke projekta](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
-title: Konfiguriranje naplative komponente retka ugovora koji se temelji na projektu
+title: Konfiguriranje naplativih komponenti retka ugovora o projektu
 description: U ovoj temi nalaze se informacije o uključenim komponentama koje se naplaćuju i onima koje se ne naplaćuju na redcima ugovora.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 51151089df67e2d164fc6315c1291f880917f43f1fba189304cb305ea973cecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073325"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004032"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfiguriranje naplative komponente retka ugovora koji se temelji na projektu
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Konfiguriranje naplativih komponenti retka ugovora o projektu
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
 Redak ugovora koji se temelji na projektu ima koncept uključenih, naplativih i nenaplativih komponenti.
 
-Uključene komponente podliježu načinu naplate, podjelama kupca, ograničenjima koja ne smiju premašiti i postavkama učestalosti računa definiranim na retku ugovora koji se temelji na projektu.
+Uključene komponente podliježu načinu naplate, podjelama klijenta, ograničenjima koja ne smiju premašiti i postavkama učestalosti računa definiranim na retku ugovora koji se temelji na projektu.
 
 Podskup uključenih komponenti može se označiti kao naplativ ažuriranjem polja **Vrsta naplate**.
 
@@ -35,13 +33,13 @@ Mogućnost naplate definirana je u kategorijama transakcije za redak ugovora o p
 
 Uloga može biti naplativa ili nenaplativa na određenom retku ugovora koji se temelji na projektu.
 
-Na kartici **Naplative uloge** retka ugovora koji se temelji na projektu, u podrešetki **Naplative kategorije** u polju **Vrsta naplate**, ažurirajte vrstu naplate za ulogu.
+Na kartici **Naplative uloge** retka ugovora koji se temelji na projektu, na podrešetki **Naplative kategorije**, u polju **Vrsta naplate**, ažurirajte vrstu naplate za ulogu.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Ažuriranje kategorije transakcije kako bi bila naplativa ili nenaplativa
 
 Kategorije transakcije može biti naplativa ili nenaplativa na određenom retku ugovora koji se temelji na projektu.
 
-Na kartici **Naplative kategorije** retka ugovora koji se temelji na projektu, u podrešetki **Naplative kategorije** u polju **Vrsta naplate**, ažurirajte vrstu naplate za transakciju.
+Na kartici **Naplative kategorije** retka ugovora koji se temelji na projektu, na podrešetki **Naplative kategorije**, u polju **Vrsta naplate**, ažurirajte vrstu naplate za transakciju.
 
 ### <a name="resolve-chargeability"></a>Rješavanje naplativosti
 
@@ -58,3 +56,6 @@ Procijenjeni ili stvarno stvoreni troškovi smatrat će se naplativima samo ako 
 | No | Jest | Nije moguće postaviti | Nenaplativo | Naplata za stvarno vrijeme: Nenaplativo </br>Vrsta naplate na stvarnom trošku: Nenaplativo |
 | Jest | No | Naplativo | Nije moguće postaviti | Naplata za stvarno vrijeme: Naplativo </br>Vrsta naplate na stvarnom trošku: Nenaplativo |
 | Jest | No | Nenaplativo | Nije moguće postaviti | Naplata za stvarno vrijeme: Nenaplativo </br> Vrsta naplate na stvarnom trošku: Nenaplativo |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

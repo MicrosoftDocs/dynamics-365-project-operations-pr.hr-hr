@@ -1,8 +1,6 @@
 ---
 title: Slanje zahtjeva za resurs
 description: Ovaj tema pruža informacije o slanju zahtjeva za resurs projekta.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 50f076b89c5ac7fee4866534cbd47d81f92f3ab3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131249"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984953"
 ---
 # <a name="submitting-a-resource-request"></a>Slanje zahtjeva za resurs
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -34,8 +34,11 @@ Možete poslati generirani preduvjet resursa kao zahtjev za resurs. Zahtjev se z
 1. U programu Project Service Automation (PSA) na stranici **Projekti** kliknite karticu **Tim** da biste pregledali popis resursa koje je moguće rezervirati. 
 2. Odaberite generički resurs koji ima preduvjet resursa s popisa, a zatim kliknite **Pošalji zahtjev**.
 
-![Slanje zahtjeva za resurs](media/RM-how-to-18.png)
+![Slanje zahtjeva za resurs.](media/RM-how-to-18.png)
 
 Status zahtjeva generičkog člana tima promijenit će se u **Poslano**.
 
 Nakon što upravitelj resursa ispuni zahtjev, generički resurs zamijenit će se imenovanim resursom ako upravitelj resursa ispuni zahtjev rezerviranjem imenovanog resursa. U suprotnom generički resurs ostaje u timu, a status zahtjeva mijenja se u **Potreban pregled** ako je upravitelj resursa predložio imenovani resurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

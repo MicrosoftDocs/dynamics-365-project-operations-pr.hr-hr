@@ -2,11 +2,9 @@
 title: Parametri integracije usluge Project Service Automation
 description: U ovoj se temi objašnjava način konfiguracije unosa zadanih podataka tijekom integracije usluge Microsoft Dynamics 365 for Project Service Automation s Microsoftovom aplikacijom Dynamics 365 Finance.
 author: ruhercul
-manager: AnnBe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073528"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005832"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parametri integracije usluge Project Service Automation
 
@@ -47,3 +45,6 @@ Kako biste otvorili stranicu **Parametri integracije usluge Project Service Auto
 | Zadane postavke vrste naplate  | Vrsta naplate         | Kliknite **Novo** za dodavanje retka u kojem možete odabrati vrstu naplate za koju ćete postaviti zadano svojstvo retka. Određena se vrsta naplate u konfiguraciji može odabrati samo jednom. |
 |                        | Svojstvo retka        | Odaberite zadano svojstvo retka za odabranu vrstu naplate. Kada se nove procjene sati i izdataka ili novi stvarni podaci sinkroniziraju iz usluge Project Service Automation, polje **Svojstvo retka** postavlja se na zadanu vrijednost za vrstu naplate. |
 | Zaključavanje funkcija  | Nije primjenjivo       | Odaberite funkciju koju ćete onemogućiti u Financijama za projekte i ugovore koji potječu iz usluge Project Service Automation. Na primjer, možete isključiti mogućnost uređivanja ugovora i projekata, stvoriti strukturnu analizu rada i u Financije unijeti evidenciju radnog vremena. Polja koja se odnose na računovodstvo i dalje će biti omogućena, čak i ako zbog postavke parametra postanu nedostupna. Prema zadanim postavkama omogućene su sve funkcije. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

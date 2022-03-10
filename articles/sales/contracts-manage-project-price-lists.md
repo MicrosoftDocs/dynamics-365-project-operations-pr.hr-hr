@@ -2,18 +2,16 @@
 title: Upravljanje cjenicima za projekt u ugovorima o projektu
 description: U ovoj temi nalaze se informacije o upravljanju cjenicima za projekt u ugovorima o projektu.
 author: rumant
-manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 824026d0620de809c0366c86c2d4d13fe83d4d1ddd4c0dc1cc2645ff712705d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133300"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996472"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Upravljanje cjenicima za projekt u ugovorima o projektu
 
@@ -21,13 +19,13 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Ugovori o projektu u aplikaciji Dynamics 365 Project Operations osmišljeni su tako da u ugovoru podržavaju prodajne cjenike mjerodavne na više datuma. U aplikaciji Project Operations postoji novi povezani entitet naziva **Cjenici za projekt**. Ovaj je entitet u odnosu jedan na više prema ugovoru o projektu.
 
-Cjenici za projekt upotrebljavaju se za određivanje cijene transakcija vremena i troškova na projektu. Kada ugovor ima jedan ili više cjenika za projekt, ti se cjenici upotrebljavaju za određivanje cijene procijenjenih i stvarnih vremena i troškova za projekte koji su povezani s ugovorom putem retka ugovora.
+Cjenici za projekte upotrebljavaju se za određivanje cijene vremena, materijala i transakcija troškova na projektu. Kada ugovor ima jedan ili više cjenika za projekt, ti se cjenici upotrebljavaju za cijenu procijenjenih vremena, materijala, troškova i stvarnih podataka na projektima koji su povezani s ugovorom putem retka ugovora.
 
-Kada u ugovoru o projektu ne postoje cjenici za projekt, prikazat će se poruka upozorenja kako ne postoje cjenici za projekt, a vaše procjene, stvarni rad na projektu i troškovi neće imati određenu cijenu. Neće biti cijena za prodajne vrijednosti.
+Kad na ugovoru o projektu ne postoje cjenici za projekt, vidjet ćete poruku upozorenja da ne postoje cjenici za projekt, a vaše procjene, stvarni rad na projektu, materijal i zabilježeni troškovi neće imati cijenu. Neće biti cijena za prodajne vrijednosti.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Povežite ili prekinite vezu cjenika za projekt s ugovorom o projektu
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Stvorite ili povežite određeni cjenik za procjenu rada i troškova koji se temelje na projektu
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Stvaranje ili povezivanje određenog cjenika za procijenjeni rad, materijal i troškove koji se temelje na projektu
 
 1. Na ugovoru o projektu odaberite karticu **Cjenici za projekt**.
 2. U podrešetki odaberite **+ Dodaj novi cjenik za projekt**.
@@ -52,7 +50,7 @@ Kada u ugovoru o projektu ne postoje cjenici za projekt, prikazat će se poruka 
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Postavljanje automatskog zadavanje cjenika za projekt na ugovor
 
-Cjenik za projekt može se postaviti kao zadani popis na ugovoru o projektu. Ova postavka može vam osigurati da svi ugovori u vašoj tvrtki ili ustanovi uvijek započinju sa standardnim cjenikom za to cjenovno razdoblje.
+Cjenik projekta može se postaviti kao zadani cjenik projekta. Ova postavka osigurava da svi ugovori u vašoj tvrtki ili ustanovi uvijek započinju standardnim cjenikom za projekt u tom cjenovnom razdoblju.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Postavljanje organizacijski zadanih cjenika za projekt
 
@@ -72,3 +70,6 @@ Možete postaviti i cjenike za projekt specifične za klijenta kada ste sa svoji
 ## <a name="custom-pricing-on-a-project-contract"></a>Prilagođeno određivanje cijena za ugovor o projektu
 
 Nakon što ste dobili cjenike za projekt zadane organizacijski i za specifičnog klijenta, ugovori o projektu automatski će se stvoriti s tim vezama cjenika za projekt. Međutim, cjenici za projekt na ugovoru o projektu uvijek se kopiraju s datumom i nazivom ugovora koji im je dodan. Voditelji računa i projekata tada mogu početi uređivati cijene na tim kopijama. Ove izmijenjene cijene primjenjivat će se samo na ovaj ugovor o projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

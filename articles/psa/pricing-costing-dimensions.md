@@ -4,6 +4,7 @@ description: Ova tema pruža pregled dimenzija cijena.
 author: rumant
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: rumant
@@ -15,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009247"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998452"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Početna stranica Dimenzije cijena i troškova
 
@@ -40,7 +41,7 @@ S obzirom na tipičnu prirodu ovih atributa posla i ljudi koji su potrebni za ob
 
 PSA se isporučuje sa zadanim skupom dimenzija cijena. Možete ih pregledati tako da idete na **Project Service** > **Parametri**. U zapisu parametra na kartici **Dimenzije cijena temeljene na iznosu** potvrdite da uloga **msdyn_resourcecategory** i organizacijska jedinica za resurse **msdyn_organizationalunit** sadrže polja **Primjenjivo na prodaju** i **Primjenjivo na trošak** postavljena na **Da**. To će vam omogućiti da postavite cijenu i trošak za svaku kombinaciju uloge i organizacijske jedinice.
 
-![Snimka zaslona parametara sustava Project Service s istaknutom mogućnosti "Primjenjivo na prodaju"](media/PS-OOB-parameters.png)
+![Snimka zaslona parametara rješenja Project Service s istaknutom mogućnosti „Primjenjivo na prodaju”.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Ako ste upotrebljavali gotova polja uloge i organizacijske jedinice kao dimenzije cijena prije verzije 3 sustava PSA, neće biti vidljivih promjena. Možete nastaviti uobičajeno koristiti aplikaciju Project Service. 
