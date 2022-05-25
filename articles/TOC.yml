@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
+        - name: Svibanj 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: Travanj 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Ožujak 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Veljača 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: Prosinac 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: Studeni 2021. – Project Operations za scenarije koji se temelje na resursima / bez zaliha
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
+            - name: Organizacijske jedinice
+              href: sales/OrgUnits.md
         - name: Upravljanje potencijalnim klijentima projekta
           href: sales/manage-leads.md
         - name: Upravljanje prilikama za projekt
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Praćenje prihoda od rada na projektima
               href: project-management/project-sales-tracking.md
-            - name: Ažuriranje očekivanog troška na završetku
-              href: project-management/update-completed-estimate.md
         - name: Članovi projektnog tima
           items:
             - name: Pregled članova projektnog tima
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Uporaba API-ja rasporeda projekta
               href: project-management/schedule-api-preview.md
+            - name: Uporaba API-ja rasporeda projekta s aplikacijom Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Izvedba API-ja rasporeda projekta
               href: project-management/project-schedule-api-performance.md
             - name: Dnevnici planiranja projekta
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Gotovinski predujam
           href: expense/cash-advance.md
-        - name: Po danima
-          href: expense/per-diems.md
+        - name: Troškovi dnevnice
+          href: expense/per-diem-expenses.md
         - name: Aplikacija troška za mobilni uređaj
           href: expense/expense-using-mobile.md
         - name: Financijsko upravljanje
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Skupovi odobrenja
           href: approvals/approval-sets.md
+        - name: Otkaz odobrenja za prethodno odobrene unose
+          href: approvals/cancelapproval.md
+        - name: Opoziv prethodno odobrenih unosa
+          href: approvals/recall-cancel.md
         - name: Bilješke razvojnog inženjera
           items:
             - name: Bilješke razvojnog inženjera za odobrenja
               href: approvals/dev-notes-approvals.md
     - name: Stvarni podaci
       items:
+        - name: Poslovne transakcije u aplikaciji Project Operations
+          href: actuals/businesstransactions.md
         - name: Pregled stvarnih podataka
           href: actuals/actuals-overview.md
-        - name: Povezivanje stvarnih podataka s izvornim zapisima
+        - name: Porijeklo transakcije – Povežite stvarne podatke s izvorom
           href: actuals/linkingactuals.md
-        - name: Dnevnici ispravaka
+        - name: Veze transakcije – Povežite stvarne podatke različitih vrsta transakcija
+          href: actuals/connectingactuals.md
+        - name: Dnevnici
           items:
+            - name: Stvaranje i potvrđivanje dnevnika unosa
+              href: actuals/create-confirm-entry-journals.md
             - name: Stvaranje i potvrđivanje dnevnika ispravaka
               href: actuals/create-confirm-correction-journals.md
     - name: Nabava
       items:
         - name: Konfiguriranje materijala koji nisu na zalihama i faktura dobavljača na čekanju
           href: procurement/configure-materials-nonstocked.md
-        - name: Nabava materijala koji nisu na zalihama za projekte s pomoću faktura dobavljača na čekanju
+        - name: Konfiguriranje kategorija nabave za projekte
+          href: procurement/configure-procurement-categories.md
+        - name: Nabava roba i usluga za projekte s pomoću faktura dobavljača na čekanju
           href: procurement/pending-vendor-invoices.md
-        - name: Naručivanje materijala koji nisu na zalihama za projekte s pomoću narudžbenica za projekt
+        - name: Naručivanje roba i usluga za projekte s pomoću narudžbenica za projekt
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Zadržavanje dobavljača
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Upravljanje procjenama prihoda
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Napredna konfiguracija
+      items:
+        - name: Premještanje u potpunosti fakturiranih kontrolnih točki naplate tijekom prijenosa
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Nadogradnja
+      items:
+        - name: Razmatranja o nadogradnji za Suvremena odobrenja
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplikacije rješenja Project Operations
+      items:
+        - name: Aplikacija Član tima rješenja Project Operations
+          href: team-member/project-operations-team-member.md
     - name: Otklanjanje poteškoća
       items:
         - name: Postupak prodaje projekta
@@ -562,6 +596,14 @@
       items:
         - name: Novosti u valu 2 ranom pristupu u 2021. – osnovna implementacija
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novosti u svibnju 2022. – osnovna implementacija
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Novosti u travnju 2022. – osnovna implementacija
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Novosti u ožujku 2022. – osnovna implementacija
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Novosti u veljači 2022. – osnovna implementacija
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Novosti u prosincu 2021. – osnovna implementacija
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Novosti u studenom 2021. – osnovna implementacija
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
+            - name: Organizacijske jedinice
+              href: sales/OrgUnits.md
         - name: Upravljanje potencijalnim klijentima projekta
           href: pro/sales/managing-leads-sales.md
         - name: Upravljanje prilikama za projekt
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Praćenje prihoda od rada na projektima
               href: project-management/project-sales-tracking.md
-            - name: Ažuriranje očekivanog troška na završetku
-              href: project-management/update-completed-estimate.md
         - name: Članovi projektnog tima
           items:
             - name: Pregled članova projektnog tima
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Uporaba API-ja rasporeda projekta
               href: project-management/schedule-api-preview.md
+            - name: Uporaba API-ja rasporeda projekta s aplikacijom Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Izvedba API-ja rasporeda projekta
               href: project-management/project-schedule-api-performance.md
     - name: Upravljanje resursima
@@ -886,12 +930,10 @@
           items:
             - name: Prikaz korištenja resursa
               href: resource-management/resource-utilization-overview.md
-    - name: Upravljanje podugovorima u aplikaciji Project Operations
+    - name: Upravljanje podugovorima
       items:
         - name: Upravljanje podugovorima u aplikaciji Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Podugovaranje u listopadu 2021. Rani pristup
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Ključni koncepti u podugovaranju
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Upravljanje dobavljačima i cjenicima projekata
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Prijelazi stanja na podugovoru
           href: pro/subcontracting/subcon-states.md
+    - name: Fakture dobavljača projekta
+      items:
+        - name: Fakturiranje dobavljača – Koncept i stvaranje
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Pojedinosti zaglavlja za fakture dobavljača
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Redci za vrijeme u fakturi dobavljača
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Redci za proizvode u fakturi dobavljača
+          href: pro/subcontracting/vi-line-material.md
+        - name: Redci za kontrolne točke u fakturi dobavljača
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Redci za kategorije troška u fakturi dobavljača
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Provjera faktura dobavljača s odobrenim stvarnim podacima
+          href: pro/subcontracting/VI-Verification.md
+        - name: Opoziv fakture dobavljača projekta
+          href: pro/subcontracting/cancel-vi.md
+        - name: Potvrda fakture dobavljača projekta
+          href: pro/subcontracting/confirm-vi.md
+        - name: Prijelazi stanja na fakturi dobavljača
+          href: pro/subcontracting/vi-state-model.md
     - name: Vrijeme
       items:
         - name: Pregled vremena
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Skupovi odobrenja
           href: approvals/approval-sets.md
+        - name: Otkaz odobrenja za prethodno odobrene unose
+          href: approvals/cancelapproval.md
+        - name: Opoziv prethodno odobrenih unosa
+          href: approvals/recall-cancel.md
         - name: Bilješke razvojnog inženjera
           items:
             - name: Bilješke razvojnog inženjera za odobrenja
               href: approvals/dev-notes-approvals.md
     - name: Stvarni podaci
       items:
+        - name: Poslovne transakcije u aplikaciji Project Operations
+          href: actuals/businesstransactions.md
         - name: Pregled stvarnih podataka
           href: actuals/actuals-overview.md
-        - name: Povezivanje stvarnih podataka s izvornim zapisima
+        - name: Porijeklo transakcije – Povežite stvarne podatke s izvorom
           href: actuals/linkingactuals.md
-        - name: Dnevnici ispravaka
+        - name: Veze transakcije – Povežite stvarne podatke različitih vrsta transakcija
+          href: actuals/connectingactuals.md
+        - name: Dnevnici
           items:
+            - name: Stvaranje i potvrđivanje dnevnika unosa
+              href: actuals/create-confirm-entry-journals.md
             - name: Stvaranje i potvrđivanje dnevnika ispravaka
               href: actuals/create-confirm-correction-journals.md
     - name: Predračun
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Konfiguriranje automatskog fakturiranja za projekt
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Nadogradnja
+      items:
+        - name: Razmatranja o nadogradnji za Suvremena odobrenja
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplikacije rješenja Project Operations
+      items:
+        - name: Aplikacija Član tima rješenja Project Operations
+          href: team-member/project-operations-team-member.md
 - name: Project Operations za scenarije koji se temelje na zalihama / proizvodnji
   items:
     - name: Novosti
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Pregled upravljanja projektom i računovodstva
       href: prod-pma/overview-project-management-accounting.md
-    - name: Fakturiranje unutar tvrtke
-      href: prod-pma/intercompany-invoicing.md
-    - name: Konfiguriranje fakturiranja projekta unutar tvrtke
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Konfiguriranje standardnih troškova rada i troškova
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Stvaranje i primjena uvjeta povremenog plaćanja dobavljaču
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Postavljanje i uporaba plaćanja u trenutku plaćanja dobavljača
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Obračun troškova projekta na računima za kupnju
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Fakturiranje projekta
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Izvedba prijedloga fakture za projekt
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Ugovori o projektu
-      href: prod-pma/project-contracts.md
-    - name: Stvaranje ugovora za naplatu unaprijed na temelju napretka
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Predviđanja i proračuni projekata
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Stvaranje modela predviđanja za proračune projekata
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Prijenos proračuna projekata na kraju poslovna godina
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Prodajni nalozi za projekt
-      href: prod-pma/project-sales-orders.md
-    - name: Narudžbenice za projekt
-      href: prod-pma/project-purchase-orders.md
-    - name: Ponude projekta
-      href: prod-pma/project-quotations.md
-    - name: 'Potvrda, ažuriranje i slanje ponude za projekt'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Prijenos ponudu na projekt
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Raspodjela resursa na projekt
+    - name: Postupak prodaje projekta
+      items:
+        - name: Ponude projekta
+          href: prod-pma/project-quotations.md
+        - name: 'Potvrda, ažuriranje i slanje ponude za projekt'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Prijenos ponudu na projekt
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Ugovori o projektu
+          href: prod-pma/project-contracts.md
+        - name: Projektna dopuštenja
+          href: prod-pma/project-grants.md
+    - name: Određivanje cijene i troškova
+      items:
+        - name: Konfiguriranje standardnih troškova rada i troškova
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Upravljanje projektima
+      items:
+        - name: Pregled strukturnih analiza rada
+          href: prod-pma/work-breakdown-structures.md
+        - name: Integracija programa Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: Pregled projektnih mobilnih aplikacija
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Mobilni radni prostor unosa vremena za projekt
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Mobilna aplikacija vremenske tablice za projekt
+          href: prod-pma/project-timesheet.md
+        - name: Vremenske tablice za projekt na mobilnom uređaju
+          href: prod-pma/mobile-timesheets.md
+        - name: Implementiranje prilagođenih polja za mobilnu aplikaciju vremenske tablice za projekt
+          href: prod-pma/custom-fields-mobile.md
+    - name: Upravljanje resursima
       items:
         - name: Pregled raspodjele resursa na projekt
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Ispunjenje resursa za planirane resurse
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Primanje stavki na narudžbenicu iz zahtjeva za stavke
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Strukturne analize rada
+    - name: Proračuni i predviđanja projekata
       items:
-        - name: Pregled strukturnih analiza rada
-          href: prod-pma/work-breakdown-structures.md
-        - name: Integracija programa Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: Pregled projektnih mobilnih aplikacija
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Mobilni radni prostor unosa vremena za projekt
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Mobilna aplikacija vremenske tablice za projekt
-          href: prod-pma/project-timesheet.md
-        - name: Vremenske tablice za projekt na mobilnom uređaju
-          href: prod-pma/mobile-timesheets.md
-        - name: Implementiranje prilagođenih polja za mobilnu aplikaciju vremenske tablice za projekt
-          href: prod-pma/custom-fields-mobile.md
-    - name: Projektna dopuštenja
-      href: prod-pma/project-grants.md
-    - name: Uklanjanje procjene projekta
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Predviđanja i proračuni projekata
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Stvaranje modela predviđanja za proračune projekata
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Prijenos proračuna projekata na kraju poslovna godina
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Vrijeme
+      items:
+        - name: Zadane financijske veličine za vremenske unose projekta
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Trošak
+      items:
+        - name: Pregled troška
+          href: expense/expense-overview.md
+        - name: Iskustvo s novim troškom
+          items:
+            - name: Izmijenjena izvješća o trošku
+              href: expense/expense-reports-reimagined.md
+            - name: Snimite potvrdu s pomoću OCR-a
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfiguracija i postavljanje
+          items:
+            - name: Postavljanje pravila
+              href: expense/set-up-policies.md
+            - name: Postavljanje tijekove rada
+              href: expense/set-up-workflows.md
+            - name: Upravljanje delegiranjem
+              href: expense/manage-delegation.md
+            - name: Konfiguriranje parametara upravljanja troškom
+              href: expense/configure-expense-management-parameters.md
+            - name: Postavljanje integracije kreditne kartice
+              href: expense/set-up-credit-card-integration.md
+            - name: Postavljanje kategorija troškova
+              href: expense/set-up-expense-categories.md
+            - name: Postavljanje kilometraže s pomoću tarifnih razreda kilometraže
+              href: expense/set-up-mileage.md
+        - name: Organizacija troškova
+          href: prod-exp/expense-itemization.md
+        - name: Osobni troškovi
+          href: expense/personal-expenses-expense-report.md
+        - name: Troškovi unutar tvrtke
+          href: prod-exp/intercompany-expense.md
+        - name: Stvaranje izvješća o troškovima
+          items:
+            - name: Raspodjele u izvješću o trošku
+              href: expense/distributions-expense-report.md
+        - name: Odobrenje izvješća o troškovima
+          items:
+            - name: Izvješća o troškovima i više odobravatelja
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Izvješća nakon troška
+          href: expense/posting-expense-reports.md
+        - name: Putni nalog
+          href: expense/travel-requisition.md
+        - name: Gotovinski predujam
+          href: expense/cash-advance.md
+        - name: Troškovi dnevnice
+          href: expense/per-diem-expenses.md
+        - name: Aplikacija troška za mobilni uređaj
+          href: expense/expense-using-mobile.md
+        - name: Financijsko upravljanje
+          items:
+            - name: Povrat PDV-a
+              href: expense/vat-recovery.md
+    - name: Nabava
+      items:
+        - name: Narudžbenice za projekt
+          href: prod-pma/project-purchase-orders.md
+        - name: Obračun troškova projekta na računima za kupnju
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Primanje stavki na narudžbenicu iz zahtjeva za stavke
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Postavljanje i uporaba plaćanja u trenutku plaćanja dobavljača
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Stvaranje i primjena uvjeta povremenog plaćanja dobavljaču
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Fakturiranje projekta
+      items:
+        - name: Fakturiranje projekta
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Izvedba prijedloga fakture za projekt
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Stvaranje ugovora za naplatu unaprijed na temelju napretka
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Prodajni nalozi za projekt
+          href: prod-pma/project-sales-orders.md
+        - name: Zahtjevi za stavke za ugovore o projektu s više izvora financiranja
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Fakturiranje unutar tvrtke
+      items:
+        - name: Fakturiranje unutar tvrtke
+          href: prod-pma/intercompany-invoicing.md
+        - name: Konfiguriranje fakturiranja projekta unutar tvrtke
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Priznavanje prihoda
+      items:
+        - name: Uklanjanje procjene projekta
+          href: prod-pma/eliminate-project-estimate.md
 - name: Upravljanje troškom
   items:
     - name: Pregled upravljanja troškom
@@ -1148,6 +1304,16 @@
       items:
         - name: Raspored izdanja ažuriranja za aplikaciju Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 43, V3'
+          href: psa/whats-new-ur43.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 42, V3'
+          href: psa/whats-new-ur-42.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 41, V3'
+          href: psa/whats-new-ur-41.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 40, V3'
+          href: psa/whats-new-ur-40.md
+        - name: 'Novosti ili izmjene u izdanju ažuriranja 39, V3'
+          href: psa/whats-new-ur-39.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 38, V3'
           href: psa/whats-new-ur-38.md
         - name: 'Novosti ili izmjene u izdanju ažuriranja 37.5, V3'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Nadogradite s aplikacije Project Service Automation na aplikaciju Project Operations – osnovno
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Izmjene značajki s aplikacije Project Service Automation na aplikaciju Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: Nadogradnja aplikacije Project Service Automation (verzija aplikacije 3.x)
       items:
         - name: Nadogradnja aplikacije Project Service Automation
