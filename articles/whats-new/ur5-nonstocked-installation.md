@@ -1,25 +1,25 @@
 ---
 title: Ažuriranje aplikacije Project Operations u vašem okruženju aplikacije Financije
-description: U ovoj temi nalaze se informacije o načinu ažuriranja rješenja Project Operations u vašem okruženju aplikacije Dynamics 365 Finance.
+description: Ova tema pruža informacije o ažuriranju operacija projekta u Dynamics 365 Finance okruženju.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986752"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579916"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Ažuriranje aplikacije Project Operations u vašem okruženju aplikacije Financije
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
 
-U ovoj temi nalaze se informacije o načinu ažuriranja rješenja Dynamics 365 Project Operations u vašem okruženju aplikacije Dynamics 365 Finance. Tri su postupka potrebna za ažuriranje aplikacije Project Operations na Ažuriranje 5 (UR5):
+Ovaj tema pruža informacije o ažuriranju Dynamics 365 Project Operations u Dynamics 365 Finance okruženju. Tri su postupka potrebna za ažuriranje aplikacije Project Operations na Ažuriranje 5 (UR5):
 
 - [Uvezite paket u pretpregled svojeg projekta](#import)
 - [Primjena ažuriranja](#apply)
@@ -119,7 +119,7 @@ Sljedeća ažuriranja sigurnosnih ovlasti za entitete potrebna su kao dio ažuri
 4. Na stranici **Verzija karte tablice** primijenite novu verziju karte na svaki od tri entiteta.
 5. Na stranici **Dvostruko pisanje** odaberite Pokreni za ponovno pokretanje karti.
 6. S popisa karti odaberite kartu **Knjiga (msdyn_ledgers)** sa svim preduvjetima i odaberite potvrdni okvir **Početna sinkronizacija**. 
-7. U polju **Glavni za početnu sinkronizaciju** odaberite **Aplikacije rješenja Finance and Operations**, a zatim odaberite **Pokreni**.
+7. U polju Matrica za početnu **sinkronizaciju** odaberite **Aplikacije** za financije i operacije, a zatim **Pokreni**.
  
  ![Sinkronizacija karte knjige.](media/DW6.png)
  

@@ -4,14 +4,14 @@ description: U ovoj temi nalaze se informacije o deinstaliranja aplikacije Dynam
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b87c9324b1c95c10ef1e18b0fbf4572bdbe76827
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783634"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575847"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>Deinstalirajte Dynamics 365 Project Operations. 
 
@@ -35,8 +35,8 @@ Kako biste deinstalirali aplikaciju Dynamics 365 Project Operations, morate dobi
     | 6 | ProjectServiceCore_Patch                           | Nema dodatnih napomena.                                                                         |
     | 7 | ProjectServiceCore                                 | Nema dodatnih napomena.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Ako nije pronađeno, preskočite ovo rješenje.                                                            |
-    | 9 | FieldServiceCommon                                 | Potrebno za dvostruko pisanje u aplikaciji Dynamics 365 Finance ili Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Potrebno za dvostruko pisanje u aplikaciji Dynamics 365 Finance ili Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Obavezno za dvostruko pisanje s Dynamics 365 Finance ili Dynamics 365 Supply Chain Management.   |
+    | 1,0 | msdyn_AssetCommon                                  | Obavezno za dvostruko pisanje s Dynamics 365 Finance ili Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Obvezno polje za aplikaciju Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Obvezno polje za aplikaciju Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Obvezno polje za aplikaciju Dynamics 365 Field Service.                                                     |

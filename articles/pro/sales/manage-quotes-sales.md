@@ -4,14 +4,14 @@ description: Ova tema pruža informacije o ponudama projekta.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001512"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579573"
 ---
 # <a name="manage-project-quotes"></a>Upravljanje ponudama projekta
 
@@ -31,6 +31,9 @@ Popis svih ponuda projekta mogu se vidjeti na stranici s popisom **Ponude**.
 2. Upotrijebite **Preklopnik prikaza** za odabir ostalih filtriranih prikaza ponuda. S pomoću prilagođenih kriterija filtra možete konfigurirati vlastite prikaze i mogućnosti navigacije.
 
 Ponude se mogu stvoriti ili izbrisati s ove stranice s popisom ili stranica s pojedinostima.
+
+ > [!NOTE]
+ > Ponude s kojima su povezani projekti, zadaci, procjene, temeljnice i/ili stvarne vrijednosti ne mogu se izbrisati. Također, kada je ponuda zatvorena kao Osvojena ili izgubljena, više se ne može izbrisati ili izmijeniti. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

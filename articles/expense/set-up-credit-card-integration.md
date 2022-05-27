@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826247"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577044"
 ---
 # <a name="set-up-credit-card-integration"></a>Postavljanje integracije kreditne kartice
 
@@ -30,7 +30,7 @@ Transakcije kreditne kartice povezane s troškovima mogu se postaviti tako da se
 
 Kako biste uvezli transakcije kreditnom karticom, slijedite ove korake:
 
-1. Na stranici **Transakcije kreditnom karticom** odaberite **Uvoz transakcija**. Ako prvi put otvarate upravljanje podacima, sustav mora ažurirati popis podatkovnih entiteta da biste mogli nastaviti.
+1. Na stranici **Transakcije kreditnom karticom** odaberite **Uvoz transakcija**. Ako prvi put otvarate upravljanje podacima, sustav mora ažurirati popis podatkovnih entiteta prije nastavka.
 2. U polje **Naziv** unesite jedinstveni opis posla uvoza.
 3. U polju **Oblik izvornih podataka** odaberite oblik datoteke koja sadrži transakcije kreditnom karticom za uvoz.
 4. Odaberite **Prenesi**, a zatim pronađite i odaberite datoteku za uvoz.
@@ -44,13 +44,13 @@ Kako biste uvezli transakcije kreditnom karticom, slijedite ove korake:
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Ponovna dodjela transakcije kreditnom karticom otkazanim zaposlenicima
 
-Nakon prekida zapisa o zaposleniku onemogućen je račun servisa Active Directory Domain Services (AD DS). Međutim, možda postoje aktivne transakcije kreditnom karticom koje se i dalje moraju trošiti i nadoknaditi. Na stranici **Transakcije kreditnim karticama** možete ponovno dodijeliti zaposlenika za bilo koju transakciju kreditnom karticom s koje je povezani zaposlenik izbrisan.
+Nakon prekida zapisa zaposlenika onemogućen je račun servisa Active Directory Domain Services (AD DS) zaposlenika. Međutim, možda postoje aktivne transakcije kreditnom karticom koje se i dalje moraju trošiti i nadoknaditi. Na stranici **Transakcije kreditnim karticama** možete ponovno dodijeliti zaposlenika za bilo koju transakciju kreditnom karticom s koje je povezani zaposlenik izbrisan.
 
 Odaberite jednu ili više transakcija kreditnom karticom, a zatim odaberite **Ponovno dodijeli transakcije**. Zatim možete odabrati drugog zaposlenika kojem ćete dodijeliti transakcije kreditnom karticom. Nakon što se transakcije kreditnom karticom ponovno dodijele, mogu se odabrati za izvješće o troškovima i platiti uobičajenim postupkom za nadoknadu prema izvješću o troškovima.
 
 ## <a name="delete-credit-card-transactions"></a>Brisanje transakcija kreditnom karticom 
 
-Ponekad, nakon uvoza transakcija kreditnom karticom, određene transakcije možda će trebati izbrisati. To može biti zato što su transakcije duplikati ili podaci nisu točni. Administratori mogu upotrebljavati značajku **„Brisanje transakcija kreditnom karticom”** za odabir i brisanje transakcija kreditnom karticom koje **nisu priložene** izvješću o troškovima. 
+Ponekad, nakon uvoza transakcija kreditnom karticom, određene transakcije možda će trebati izbrisati. To može biti zato što su transakcije duplikati ili zato što podaci nisu točni. Administratori mogu upotrebljavati značajku **„Brisanje transakcija kreditnom karticom”** za odabir i brisanje transakcija kreditnom karticom koje **nisu priložene** izvješću o troškovima. 
 
 1. Idite na **Povremeni zadaci** > **Izbriši transakcije kreditnom karticom**.
 2. Odaberite **Filtar** i osigurajte podatke za identifikaciju zapisa koje treba uključiti.
@@ -58,10 +58,10 @@ Ponekad, nakon uvoza transakcija kreditnom karticom, određene transakcije možd
 
 ## <a name="storing-credit-card-numbers"></a>Pohranjivanje brojeva kreditnih kartica
 
-Za pohranu brojeva kreditnih kartica dostupne su tri opcije. Brojevi kreditnih kartica pohranjuju se na **stranici Parametri upravljanja** troškovima.
+Dostupne su tri opcije za pohranu brojeva kreditnih kartica. Brojevi kreditnih kartica pohranjuju se na **stranici Parametri upravljanja troškovima**.
 
-- **Sprječavanje unosa broja kartice** – brojevi kreditnih kartica nisu pohranjeni.
-- **Brojevi hash kartica (pohranite posljednje četiri znamenke)** – Posljednje četiri znamenke brojeva kreditnih kartica pohranjuju se u šifriranom obliku.
-- **Pohrana brojeva kartica** – brojevi kreditnih kartica pohranjuju se u nešifriranom obliku. Ta mogućnost nije u skladu sa standardom sigurnosti podataka (DSS) industrije platnih kartica (PCI). Stoga, da bi njihova tvrtka ili ustanova bila u skladu s propisima PCI DSS-a, administratori tvrtke ili ustanove trebali bi odabrati da ne pohranjuju brojeve kreditnih kartica ili da pohranjuju brojeve hash kartica.
+- **Spriječite unos** broja kartice – brojevi kreditnih kartica nisu pohranjeni.
+- **Brojevi hash kartica (pohranite posljednje četiri znamenke)** - Posljednje četiri znamenke brojeva kreditnih kartica pohranjuju se u šifriranom formatu.
+- **Brojevi** kartica trgovine – brojevi kreditnih kartica pohranjuju se u nešifriranom obliku. Ta opcija nije u skladu sa standardom za sigurnost podataka (PCI) industrije platnih kartica (PCI). Stoga, kako bi njihova organizacija bila u skladu s PCI DSS propisima, administratori organizacije trebali bi odabrati ili ne pohranjivati brojeve kreditnih kartica ili pohraniti brojeve hash kartica.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

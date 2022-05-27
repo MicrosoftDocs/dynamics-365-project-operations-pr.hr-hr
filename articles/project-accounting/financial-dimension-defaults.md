@@ -4,22 +4,22 @@ description: U ovoj temi nalaze se informacije o načinu postavljanja zadanih fi
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
-ms.translationtype: HT
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922929"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579481"
 ---
 # <a name="financial-dimension-defaults"></a>Zadane postavke financijske dimenzije
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations upotrebljava okvir [Financijske veličine](/dynamics365/finance/general-ledger/financial-dimensions) u aplikaciji Dynamics 365 Finance za pružanje dodatnih uvida u transakcije sporednih i glavne knjige.
+
+Dynamics 365 Project Operations [koristi okvir Financijske dimenzije](/dynamics365/finance/general-ledger/financial-dimensions) u Dynamics 365 Finance kako bi pružio dodatne uvide u transakcije podremena projekata i glavne knjige.
 
 Zadane financijske dimenzije mogu se postaviti na kupca, izvor financiranja projekta, kontrolnu točku, redak ugovora o projektu ili projekt.
 
@@ -60,15 +60,5 @@ Projekti se stvaraju i održavaju na platformi CDS. Atributi računovodstva za p
 4. Postavite zadane postavke financijske veličine. Primjećujete kako se financijske veličine zadaju iz korisničkog računa. Ako je projekt povezan s retkom ugovora koji ima više klijenata ugovora o projektu, za zadane financijske veličine upotrebljava se primarni klijent.
 
 Zadane financijske veličine projekta upotrebljavaju se za postavljanje zadanih vrijednosti retka dnevnika za vrijeme, troškove i transakcije naknada u **Dnevniku integracije aplikacije Project Operations** i na povezanim redcima fakture za projekt.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Zatvaranje financijskih dimenzija za stavke vremena projekta
-Da biste primijenili financijske dimenzije za stavke vremena projekta, imajte na umu da se zadana vrijednost dimenzije temelji na sljedećem redoslijedu:
-
-1. Resurs
-2. Project
-3. Izvor financiranja
-
-Na primjer, ako je zadana dimenzija navedena na resursu, primijenit će se na zadanu vrijednost navedenu u projektu. Slično tome, zadana dimenzija projekta primijenit će se na zadanu vrijednost navedenu u izvoru financiranja.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

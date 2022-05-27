@@ -1,49 +1,49 @@
 ---
-title: Stavka troška
-description: Ovaj tema objašnjava kako stavke troškova pomoću ponovno osmišljenog radnog prostora troškova.
+title: Organizacija troškova
+description: Ovaj tema objašnjava kako izdvojiti troškove pomoću ponovno osmišljenog radnog prostora Trošak.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: b2077b77af036ce64aad203f52b03cacca8c4099
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944147"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574513"
 ---
-# <a name="expense-itemization"></a>Stavka troška
+# <a name="expense-itemization"></a>Organizacija troškova
 
 [!include [banner](../includes/banner.md)]
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Organizacije često zahtijevaju od zaposlenika da osiguraju detaljnu raščlambu troškova nastalih tijekom putovanja. Na primjer, hotelski folio može sadržavati nekoliko redaka po stavkama za cijenu sobe, porez, parkiranje i druge razne troškove nastale svaki dan tijekom trajanja boravka. Ili trošak obroka može zahtijevati da osigurate detaljniji kvar za doručak, ručak ili večeru. Bez obzira na potrebe organizacije, svaka kategorija troškova može se postaviti tako da odražava potkategorije ili stavke retka koje čine trošak. Iako je stavka uvijek bila podržana u **upravljanju** troškovima, **radni prostor ponovno** osmišljenih troškova omogućuje učinkovitiju stavkizaciju kada je značajka **Omogućena mogućnost brzog stavke ponavljajućih** troškova.  
+Organizacije često zahtijevaju od zaposlenika da osiguraju detaljnu raščlambu troškova nastalih tijekom putovanja. Na primjer, hotelski folio može sadržavati nekoliko redaka po stavkama za cijenu sobe, porez, parkiranje i druge razne troškove nastale svaki dan tijekom trajanja boravka. Ili trošak obroka može zahtijevati da pružite detaljniji kvar za doručak, ručak ili večeru. Bez obzira na potrebe organizacije, svaka kategorija troškova može se postaviti tako da odražava potkategorije ili stavke retka koje čine trošak. Iako je itemizacija uvijek bila podržana u **upravljanju troškovima**, **reimaginirani radni prostor troškova** omogućuje učinkovitiju stavku kada je omogućena značajka, **Mogućnost brzog** izdvajanja ponavljajućih troškova.  
 
-## <a name="enable-quick-itemization"></a>Omogući brzo stavke 
+## <a name="enable-quick-itemization"></a>Omogući brzu stavku 
 
-Pomoću **značajke Mogućnost brzog unosa ponavljajućih troškova možete** brzo stavke ponavljajućih troškova, izbjegavajući pritom potrebu za unosom dnevnih troškova svaki put tijekom boravka. Da biste omogućili brzu stavku, poduzmite sljedeće korake.
+Značajku Mogućnost brzog **izdvajanja ponavljajućih troškova možete koristiti** za brzo određivanje ponavljajućih troškova uz izbjegavanje potrebe za unosom dnevnih troškova svaki put za vrijeme trajanja boravka. Da biste omogućili brzu posvojenost, slijedite ove korake.
 
-1. Otvorite **radni prostor za upravljanje značajkama** i na popisu značajki pronađite i odaberite Ponovno **osmišljena izvješća o troškovima**. 
+1. Idite na **radni prostor za upravljanje** značajkama i na popisu značajki pronađite i odaberite Ponovno **osmišljena** izvješća o troškovima. 
 2. Odaberite **Omogući odmah**. 
-3. Na listi značajki pronađite i **izaberite mogućnost brzog stavke ponavljajućih troškova**.
+3. Na popisu značajki pronađite i odaberite **Mogućnost brzog** izdvajanja ponavljajućih troškova.
 4. Odaberite **Omogući odmah**. 
 
-## <a name="itemization-grid"></a>Rešetka za stavke 
+## <a name="itemization-grid"></a>Rešetka za itemizaciju 
 
-Ako kategorija troška ima potkategorije ili različite komponente koje čine taj trošak, ona se može artiklirati. Da biste stavkom opisali trošak, odaberite redak troška u izvješću o troškovima, a zatim u **oknu Detalji o trošku** odaberite **·** > **Akcije stavke**. **Klizač Za** stavkizaciju otkriva rešetku s poljima. Sljedeća tablica pruža primjer svakog polja u rešetki i načina prikaza polja u izvješću o troškovima. 
+Ako kategorija troškova ima potkategorije ili različite komponente koje čine taj trošak, tada se može izdvojiti. Da biste izdvojili trošak, odaberite redak troška u izvješću o troškovima, a zatim u **oknu s detaljima o troškovima** odaberite **Artikli za akcije** > **·**. Klizač **Itemization** otkriva rešetku s poljima. Sljedeća tablica sadrži primjer svakog polja u rešetki i načina na koji se polje prikazuje u izvješću o troškovima. 
 
 |     Polje          |     Opis                                                                                  |     Primjer              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
 |     Potkategorija    |     Popis potkategorija konfiguriranih prema vrsti kategorije troškova, **Hotel**.             |     Dnevna cijena sobe      |
-|     Datum početka     |     Datum nastanka stavke troška.                                           |     09/13/2021           |
-|     Dnevna cijena     |     Iznos koji je nastao za stavku troška.                                                    |     200                  |
-|     Količina       |     Broj ponavljanja terećenja tijekom neprekidnog razdoblja.                       |     3                    |
+|     Datum početka     |     Datum kada je stavka troška prvi put nastala.                                           |     09/13/2021           |
+|     Dnevna cijena     |     Iznos nastao za stavku troškova.                                                    |     200                  |
+|     Količina       |     Koliko se puta punjenje ponavlja tijekom neprekidnog razdoblja.                       |     3                    |
 
-![Po stavkama trošak.](media/Itemization%20screen%201.png)
+![Trošak artikla.](media/Itemization%20screen%201.png)
 
-Kada spremite stavku, vidjet ćete pojedinačni redak po stavkama za količinu navedenu u rešetki Artiklizacija. Svaki redak započinje datumom navedenim u rešetki.
+Kada spremite itemizaciju, vidjet ćete pojedinačni redak po stavkama za količinu navedenu u rešetki Posuđivanje artikla. Svaki redak počinje na datum naveden u rešetki.
 
-![Izvješće po stavkama.](media/Itemization%20screen%202.png)
+![Po stavkama u izveštaju.](media/Itemization%20screen%202.png)
 

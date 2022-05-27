@@ -2,18 +2,16 @@
 title: Skupovi odobrenja
 description: U ovoj temi objašnjava se način rada sa skupovima odobrenja, zahtjevima i podskupovima tih operacija.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323227"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576215"
 ---
 # <a name="approval-sets"></a>Skupovi odobrenja
 
@@ -27,6 +25,18 @@ Skupovi odobrenja pokazuju cjelokupno stanje obrade njihovih povezanih zapisa. K
 Odobrenja koja su u redu čekanja za obradu vidljiva su u prikazu **Odobrenja za obradu**. Sustav asinkrono obrađuje sve unose više puta, uključujući ponovni pokušaj odobrenja ako prethodni pokušaji nisu uspjeli.
 
 Polje **Vijek trajanja skupa odobrenja** bilježi broj preostalih pokušaja obrade skupa prije nego što se označi kao neuspješan.
+
+Skupovi odobrenja obrađuju se periodičnom aktivacijom na temelju toka oblaka **pod** nazivom **Project Service - Ponavljajući zakazivanje skupova odobrenja projekta**. To se nalazi u rješenju **pod** nazivom **Projektne operacije**. 
+
+Provjerite je li tijek aktiviran ispunjavanjem sljedećih koraka.
+
+1. Kao administrator prijavite se [u flow.microsoft.com](https://powerautomate.microsoft.com).
+2. U gornjem desnom kutu prebacite se u okruženje koje koristite za Dynamics 365 Project Operations.
+3. Odaberite **Rješenja** da biste naveli rješenja instalirana u okruženju.
+4. Na popisu rješenja odaberite **Operacije projekta**.
+5. Promijenite filtar iz **Sve** u **Tokove oblaka**.
+6. Provjerite je li **project service – ponavljajući zakazivanje tijeka skupova odobrenja** projekta postavljen na **Uključeno**. Ako nije, odaberite tijek, a zatim **Uključi**.
+7. Provjerite odvija li se obrada svakih pet minuta pregledom **popisa Poslovi** sustava u području Postavke **u** okruženju projektnih operacija Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Neuspjela odobrenja i skupovi odobrenja
 Prikaz **Neuspjela odobrenja** prikazuje sva odobrenja za koja je potrebna intervencija korisnika. Otvorite povezane zapisnike skupa odobrenja kako biste identificirali uzrok neuspjeha.

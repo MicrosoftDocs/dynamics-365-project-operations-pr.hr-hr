@@ -4,14 +4,14 @@ description: U ovoj temi nalaze se informacije o prihodu od projekta s fiksnom c
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006417"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578699"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projekti s procjenom prihoda od fiksne cijene 
 
@@ -26,7 +26,7 @@ Kada stvarate redak ugovora o projektu sa sljedećim atributima u aplikaciji Dyn
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Pregled projekata s procjenom prihoda od fiksne cijene
 Kako biste pregledali projekte s procjenom prihoda od fiksne cijene, poduzmite sljedeće korake:
 
-1. U okruženju aplikacije Dynamics 365 Finance idite na **Upravljanje projektima i računovodstvo** > **Projekti** > **Projekti s procjenom prihoda od fiksne cijene**.
+1. U Dynamics 365 Finance okruženju idite na **Projekti upravljanja projektima i računovodstvu** > **Projekti** > **Fiksne cijene procjena projekata**.
 2. Odaberite projekt koji želite pogledati i dvaput kliknite na stavku **ID procjene projekta** kako biste otvorili zapisnik i pregledati pojedinosti projekta.
 3. Proširite karticu **Projekt**. Vidjet ćete jedan projekt u rešetki **Odabrani projekti**. Sustav to upotrebljava kao zadani projekt jer je to projekt povezan s retkom ugovora o projektu. 
 4. Kako biste promijenili povezanost, odaberite dodatne projekte i dodajte ih rešetki **Odabrani projekti**. Ako je u ovoj rešetki odabrano više projekata, postotak dovršenosti projekta i procjene prihoda izračunavaju se zajedno za sve odabrane projekte.
