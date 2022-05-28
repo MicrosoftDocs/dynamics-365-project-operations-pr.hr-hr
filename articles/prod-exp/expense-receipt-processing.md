@@ -1,28 +1,27 @@
 ---
 title: Obrada računa za troškove
-description: U ovoj se temi nalaze informacije o obradi optičkog prepoznavanja znakova (OCR, optical character recognition) za račune. Ova je funkcija dizajnirana za poboljšanje korisničkog iskustva kada je izvješće o troškovima stvoreno u aplikaciji Microsoft Dynamics 365 Finance.
+description: U ovoj se temi nalaze informacije o obradi optičkog prepoznavanja znakova (OCR, optical character recognition) za račune. Ova je značajka osmišljena kako bi poboljšala korisničko iskustvo kada se izvješća o troškovima kreiraju u Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001377"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684311"
 ---
 # <a name="expense-receipt-processing"></a>Obrada računa za troškove
 
-Unos troškova poboljšan je uvođenjem optičkog prepoznavanja znakova (OCR) za obradu računa. Ova je funkcija dizajnirana za poboljšanje korisničkog iskustva kada je stvoreno izvješće o troškovima.
+Unos troškova poboljšan je implementacijom optičkog prepoznavanja znakova (OCR) za obradu računa. Ova je funkcija dizajnirana za poboljšanje korisničkog iskustva kada je stvoreno izvješće o troškovima.
 
 ## <a name="key-features"></a>Glavne značajke
 
@@ -51,7 +50,7 @@ Kako biste stvorili trošak ili uskladili trošak s računa, napravite sljedeće
 
 Ova značajka radi u kombinaciji sa značajkom **Izmijenjena izvješća o trošku** za pojednostavljivanje iskustva s troškom. Ova je značajka dostupna samo za Razinu 2+ okruženja, a to su Sigurnosna ograda i Proizvodnja.
 
-Kako biste upotrijebili ove napredne mogućnosti troškova, instalirajte dodatak Usluga upravljanja troškovima za Microsoft Dynamics 365 Finance i uključite značajke u svojoj instanci. Dodatku možete pristupiti iz svog projekta u aplikaciji Microsoft Dynamics Lifecycle Services(LCS).
+Da biste koristili te napredne mogućnosti troškova, instalirajte dodatak Usluge upravljanja troškovima za Microsoft Dynamics 365 Finance i uključite značajke u instanci. Dodatku možete pristupiti iz svog projekta u aplikaciji Microsoft Dynamics Lifecycle Services(LCS).
 
 1. Prijavite se na LCS i otvorite željeno okruženje.
 2. Idite na **Potpune pojedinosti**.

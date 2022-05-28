@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001017"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683483"
 ---
 # <a name="project-contracts"></a>Ugovori o projektu
 
@@ -45,7 +44,7 @@ Neki projektni ugovori određuju da više strana dijeli odgovornost za financira
 -   Projekt ceste sufinanciraju dvije općine.
 -   Projekt mosta financira se iz državne potpore i privatne korporacije.
 
-U aplikaciji Dynamics 365 Finance možete podijeliti naplatu za jednu transakciju ili cijeli projekt između više klijenata, potpora te tvrtki ili ustanova. 
+U Dynamics 365 Finance možete podijeliti naplatu za jednu transakciju ili cijeli projekt na više kupaca, bespovratnih sredstava ili organizacija. 
 
 U projektima koji imaju više davatelja sredstava, sve strane koje pridonose financiranju naprednog projekta financiranja nazivaju se izvorima financiranja. Nakon što se klijent, tvrtka ili ustanova ili potpora definiraju kao izvor financiranja, mogu se dodijeliti jednom ili većem broju pravila financiranja. Pravila financiranja sadrže kriterije koji određuju način na koji se troškovi raspodjeljuju na različite izvore financiranja za projekt. 
 

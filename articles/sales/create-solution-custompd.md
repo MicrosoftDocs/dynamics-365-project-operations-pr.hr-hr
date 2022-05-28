@@ -4,14 +4,14 @@ description: U ovoj temi nalaze se informacije o načinu stvaranja rješenja pri
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992197"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601101"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Stvaranje rješenja za prilagođene veličine za određivanje cijena
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992197"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Stvaranje rješenja za prilagođene veličine za određivanje cijena
 
 1.  Odaberite **Postavke** > **Rješenja**, a zatim odaberite **Novo**.
-2.  Imenujte rješenje, *<your organization name> veličine za određivanje cijene*.
+2.  Imenujte rješenje, *\<your organization name\> veličine za određivanje cijene*.
 3. Unesite preostale potrebne informacije, a zatim odaberite **Spremi**.
 
   ![Stvaranje rješenja za prilagođene veličine za određivanje cijena.](./media/Creation-of-custom-pricing-dimension-solution.png)

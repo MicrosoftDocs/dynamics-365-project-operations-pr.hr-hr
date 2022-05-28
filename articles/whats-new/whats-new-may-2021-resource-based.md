@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994672"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723759"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u svibnju 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
 - Project Operations u verziji 4.10.0.186 okruženja platforme Dynamics 365 Dataverse
-- Upravljanje projektima i računovodstvo u aplikacijama Finance and Operations okruženja verzije 10.0.18
+- Upravljanje projektima i računovodstvo u okruženjima aplikacija za financije i operacije verzija 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
@@ -41,9 +41,9 @@ Sljedeći popis prikazuje karte s dvostrukim pisanjem koje su izmijenjene ili do
 | Entitet izvoza retka fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Ažuriranja kvalitete |
 | Projekti V2 (msdyn\_projects) | 1.0.0.2 | Ažuriranja kvalitete |
 
-Uvijek pokrenite najnoviju verziju karte u svom okruženju i omogućiti sve povezane karte tablice dok ažurirate svoje verzije rješenja aplikacije Project Operations platforme Dataverse i aplikacija Finance and Operations. Određene značajke i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija karte. Aktivnu verziju karte možete vidjeti u stupcu **Verzija** na stranici **Dvostruko pisanje**. Kako biste aktivirali novu verziju karte, odaberite **Verzije karte tablice**, zatim odaberite najnoviju verziju, a zatim spremite odabranu verziju. Ako ste prilagodili gotovu kartu tablice, ponovite promjene. Dodatne informacije potražite u članku [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Uvijek pokrenite najnoviju verziju karte u svom okruženju i omogućite sve povezane karte tablica dok ažurirate rješenje za Project Operations Dataverse i verziju rješenja aplikacija za financije i operacije. Određene značajke i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija karte. Aktivnu verziju karte možete vidjeti u stupcu **Verzija** na stranici **Dvostruko pisanje**. Kako biste aktivirali novu verziju karte, odaberite **Verzije karte tablice**, zatim odaberite najnoviju verziju, a zatim spremite odabranu verziju. Ako ste prilagodili gotovu kartu tablice, ponovite promjene. Dodatne informacije potražite u članku [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Ako naiđete na problem s pokretanjem karte, slijedite upute u odjeljku [Problem nedostatka stupaca tablice na kartama](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) vodiča za rješavanje poteškoća s dvostrukim pisanjem.
+Ako naiđete na problem s pokretanjem karte, slijedite upute u odjeljku [Problem nedostatka stupaca tablice na kartama](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) vodiča za rješavanje poteškoća s dvostrukim pisanjem.
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
@@ -67,7 +67,7 @@ Ako naiđete na problem s pokretanjem karte, slijedite upute u odjeljku [Problem
 | Vremenski unos | 2202476 | Stranica **Vremenski unos** sada upotrebljava kontrolu reakcije rešetke i rješava probleme poput odstupanja rešetke. |
 | Vremenski unos | 2223377 | Vremenski unos skriven je od odjeljka **Povezano** na stranici **Resursi koji se mogu rezervirati** kako bi se izbjegla zabuna s uporabljivošću. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektom i računovodstvo u aplikaciji Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |

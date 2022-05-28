@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000072"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601745"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Razmatranja nadogradnje – PSA verzija 2.x ili 1.x na verziju 3.x
 
@@ -81,15 +82,15 @@ Prije nego što započnete nadogradnju, preporučujemo da ponovno generirate tim
 
 Za zadatke koji su dodijeljeni generičkim članovima tima koji su generirani s pomoću značajke **Generiraj tim**, nadogradnja će ostaviti generički resurs u timu i ostaviti dodjelu tom generičkom članu tima. Preporučujemo da generirate uvjet resursa za generičkog člana tima nakon nadogradnje, ali prije nego što rezervirate ili pošaljete zahtjev za resursima. Time će se očuvati sve dodjele jedinica tvrtke ili ustanove za generičke članove tima koje su različite od projektne ugovorene jedinice tvrtke ili ustanove.
 
-Na primjer, u projektu Projekt Z ugovorena je jedinica tvrtke ili ustanove Contoso SAD. U planu projekta zadaci testiranja u fazi implementacije dodijeljeni su ulozi tehničkog savjetnika, a dodijeljena je jedinica tvrtke ili ustanove Contoso India.
+Na primjer, u projektu Projekt Z ugovorena je jedinica tvrtke ili ustanove Contoso US. U planu projekta zadaci testiranja u fazi implementacije dodijeljeni su ulozi tehničkog savjetnika, a dodijeljena je jedinica tvrtke ili ustanove Contoso India.
 
 ![Dodjela organizacije faze implementacije.](media/org-unit-assignment-09.png)
 
-Nakon faze implementacije zadatak testiranja integracije dodijeljen je ulozi tehničkog savjetnika, ali tvrtka ili ustanova je postavljena na Contoso SAD.  
+Nakon faze implementacije zadatak testiranja integracije dodijeljen je ulozi tehničkog savjetnika, ali tvrtka ili ustanova je postavljena na Contoso US.  
 
 ![Dodjela organizacije integracijskih testnih zadataka.](media/org-unit-generate-team-10.png)
 
-Kada generirate tim za projekt, dva generička člana tima stvaraju se zbog različitih jedinica tvrtke ili ustanove na zadacima. Tehničkom savjetniku 1 dodijelit će se zadaci Contoso India, a tehnički će savjetnik 2 imati zadatke Contoso SAD.  
+Kada generirate tim za projekt, dva generička člana tima stvaraju se zbog različitih jedinica tvrtke ili ustanove na zadacima. Tehničkom savjetniku 1 dodijelit će se zadaci Contoso India, a tehnički će savjetnik 2 imati zadatke Contoso USA.  
 
 ![Generirani generički članovi tima.](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -104,7 +105,7 @@ Jedinicu tvrtke ili ustanove možete vidjeti u prikazu procjena.
  
 Kada se nadogradnja dovrši, jedinica tvrtke ili ustanove u zadatku retka koja odgovara generičkom članu tima dodaje se generičkom članu tima, a zadatak retka se uklanja. Stoga preporučujemo da prije nadogradnje generirate ili ponovno generirate tim na svakom projektu koji sadrži generičke resurse.
 
-Za zadatke koji su dodijeljeni ulozi s jedinicom tvrtke ili ustanove koja se razlikuje od jedinice tvrtke ili ustanove ugovorenog projekta, a tim nije generiran, nadogradnja će stvoriti generičkog člana tima za ulogu, ali će koristiti ugovorenu jedinicu projekta za članove tima jedinice tvrtke ili ustanove. Pozivajući se natrag na primjer s projektom Z, ugovornoj jedinici tvrtke ili ustanove Contoso SAD i zadacima testiranja plana projekta u fazi implementacije dodijeljuje se uloga tehničkog savjetnika s organizacijskom jedinicom dodijeljenom tvrtki Contoso India. Zadatak testiranja integracije koji je dovršen nakon faze implementacije dodijeljen je ulozi tehničkog savjetnika. Organizacijska jedinica je Contoso SAD i tim se ne generira. Nadogradnja će stvoriti jednog generičkog člana tima, tehničkog savjetnika kojem se dodjeljuju sati svih triju zadataka i organizacijska jedinica tvrtke Contoso SAD, organizacijska jedinica ugovora o projektu.   
+Za zadatke koji su dodijeljeni ulozi s jedinicom tvrtke ili ustanove koja se razlikuje od jedinice tvrtke ili ustanove ugovorenog projekta, a tim nije generiran, nadogradnja će stvoriti generičkog člana tima za ulogu, ali će koristiti ugovorenu jedinicu projekta za članove tima jedinice tvrtke ili ustanove. Pozivajući se na primjer s projektom Z, ugovorena organizacijska jedinica Contoso SAD i zadaci testiranja plana projekta u fazi implementacije dodijelila ulogu tehničkog savjetnika s organizacijskom jedinicom dodijeljenom tvrtki Contoso India. Zadatak testiranja integracije koji je dovršen nakon faze implementacije dodijeljen je ulozi tehničkog savjetnika. Jedinica tvrtke ili ustanove je Contoso US i tim nije generiran. Nadogradnja će stvoriti jednog generičkog člana tima, tehničkog savjetnika koji ima dodijeljene sate svih triju zadataka i jedinicu tvrtke ili ustanove Contoso US, projektu ugovorenu jedinicu tvrtke ili ustanove.   
  
 Promjena zadanih postavki različitih resursa u organizacijskim jedinicama članova tima koji se nisu generirali razlog je što preporučujemo da generirate ili ponovno generirate tim na svakom projektu koji sadrži generičke resurse prije nadogradnje tako da se dodjele organizacijskih jedinica ne izgube.
 

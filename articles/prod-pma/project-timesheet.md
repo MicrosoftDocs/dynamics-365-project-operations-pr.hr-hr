@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997192"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683118"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilna aplikacija Project Timesheet
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997192"
 
 ## <a name="overview"></a>Pregled
 
-Mobilna aplikacija Microsoft Dynamics 365 Project Timesheet omogućuje korisnicima slanje i odobravanje evidencija radnog vremena za projekte na mobilnom uređaju (iPhone ili Android). Ova mobilna aplikacija prikazuje funkcionalnost evidencije radnog vremena koja se nalazi u području Upravljanje projektima i računovodstvo aplikacije Dynamics 365 Finance, poboljšava produktivnost i učinkovitost korisnika i omogućuje pravodoban unos i odobravanja evidencija radnog vremena za projekt.
+Mobilna aplikacija Microsoft Dynamics 365 Project Timesheet omogućuje korisnicima slanje i odobravanje evidencija radnog vremena za projekte na mobilnom uređaju (iPhone ili Android). Ova mobilna aplikacija prikazuje funkcionalnost vremenske tablice koja se nalazi u području upravljanja projektima i računovodstva Dynamics 365 Finance, poboljšavajući produktivnost i učinkovitost korisnika, kao i omogućujući pravovremeni unos i odobravanje vremenskih tablica projekta.
 
 ## <a name="download-and-install-the-mobile-app"></a>Preuzimanje i instaliranje mobilnu aplikaciju
 

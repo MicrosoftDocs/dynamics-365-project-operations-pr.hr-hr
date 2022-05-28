@@ -4,14 +4,14 @@ description: U ovoj temi nalaze se informacije o ažuriranjima kvalitete dostupn
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007947"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600365"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u studenom 2020. – Project Operations za scenarije koji se temelje na resursu / bez zaliha
 
@@ -20,7 +20,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
 - Project Operations u verziji 4.4.0.70 okruženja platforme CDS
-- Upravljanje projektima i računovodstvo u okruženju aplikacije Dynamics 365 Finance verzije 10.0.14
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Ažuriranja aplikacije Project Operations za scenarije koji se temelje na resursu / bez zaliha
 
@@ -42,7 +42,7 @@ Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Pro
 | Vrijeme i brzi unos troška | 2059859          | Neočekivani skočni prozor otvara se tijekom stvaranja unosa troška.                                                                                                                         |
 | Drugo                        | 2044181          | (Deinstalacija narudžbenice) Kada pokušate deinstalaciju msdyn_ProjectServiceCore_Patch i osnovna rješenja za msdyn Project service, dolazi do pogreške „Zapis nije dostupan”.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektom i računovodstvo u aplikaciji Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
 
 | Područje značajke        | Broj reference | Ažuriranja kvalitete                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Pro
 | Projektno računovodstvo  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Omogućivanjem značajke nisu mogući višestruki redci ugovora nije moguće bez integracije platforme CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Ažuriranja propisa
-Za informacije o ažuriranjima propisa za aplikacije Finance and Operations, pogledajte članak [Ažuriranja propisa](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+Informacije o regulatornim ažuriranjima za aplikacije Financije i operacije potražite u članku [Regulatorna ažuriranja](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

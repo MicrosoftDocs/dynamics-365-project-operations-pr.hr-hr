@@ -3,25 +3,23 @@ title: Upravljanje projektom i pregled računovodstva
 description: Funkcije upravljanja projektom i računovodstvom mogu se upotrebljavati u više industrija kako bi se pružile usluge, proizveli proizvodi ili postigli rezultati.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007497"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683575"
 ---
 # <a name="project-management-and-accounting-overview"></a>Upravljanje projektom i pregled računovodstva
 
@@ -248,7 +246,7 @@ Sljedeća tablica opisuje načine izračuna troška za dovršetak projekta.
 <tbody>
 <tr class="odd">
 <td>Ukupni trošak – stvarni</td>
-<td>Procijenjeni troškovi moraju se unijeti ručno. Nakon što se dovrši stupac <strong>Ukupni trošak</strong> ili <strong>Ukupna količina</strong> na stranici <strong>Procjena troška</strong>, stvarni troškovi oduzimaju se od ukupnih iznosa koje je unio korisnik. Rezultat je trošak dovršetka projekta. Rast troškova obično se ne prati na temelju, na primjer, broja odsjedanja u hotelu i obroka koji se bilježe u svakom razdoblju. Umjesto toga. Praćenje se obično zasniva na usporedbi s ukupnim iznosom procijenjenih sati rada. Ovaj pristup ne zahtijeva model predviđanja, a ukupni trošak ili ukupna količina mogu se ručno mijenjati. Kada se vrijednost unese u stupac <strong>Ukupni trošak</strong> ili <strong>Ukupna količina</strong>, financije uspoređuju ovu vrijednost sa stvarnim transakcijama koje su knjižene u razdoblju i smanjuju vrijednost u stupcu <strong>Količina za dovršetak</strong> ili <strong>Trošak za dovršetak</strong>.</td>
+<td>Procijenjeni troškovi moraju se unijeti ručno. Nakon što se dovrši stupac <strong>Ukupni trošak</strong> ili <strong>Ukupna količina</strong> na stranici <strong>Procjena troška</strong>, stvarni troškovi oduzimaju se od ukupnih iznosa koje je unio korisnik. Rezultat je trošak dovršetka projekta. Obično se&#39; napredak troškova ne prati na temelju, na primjer, broja hotelskih boravaka i obroka koji se bilježe u svakom razdoblju. Umjesto toga. Praćenje se obično zasniva na usporedbi s ukupnim iznosom procijenjenih sati rada. Ovaj pristup ne&#39; zahtijeva model predviđanja, a ukupni trošak ili ukupna količina mogu se mijenjati ručno. Kada se vrijednost unese u stupac <strong>Ukupni trošak</strong> ili <strong>Ukupna količina</strong>, financije uspoređuju ovu vrijednost sa stvarnim transakcijama koje su knjižene u razdoblju i smanjuju vrijednost u stupcu <strong>Količina za dovršetak</strong> ili <strong>Trošak za dovršetak</strong>.</td>
 </tr>
 <tr class="even">
 <td>Ukupni proračun – stvarni</td>

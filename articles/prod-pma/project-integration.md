@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988012"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684955"
 ---
 # <a name="microsoft-project-client-integration"></a>Integracija programa Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-Planiranje i održavanje rasporeda projekata može biti složeno, pa voditelji projekata trebaju upotrebljavati alate koji im pomažu pri upravljanju tim zadatkom. Integracija s programom Microsoft Project Client pruža podršku za otvaranje i upravljanje strukturnom analizom rada na projektu. Voditelj projekta može objaviti sve promjene natrag na strukturnu analizu rada projekta aplikacije Dynamics 365 Finance.
+Planiranje i održavanje rasporeda projekata može biti složeno, pa voditelji projekata trebaju upotrebljavati alate koji im pomažu pri upravljanju tim zadatkom. Integracija s programom Microsoft Project Client pruža podršku za otvaranje i upravljanje strukturnom analizom rada na projektu. Voditelj projekta može objaviti sve promjene natrag u Dynamics 365 Finance strukturu raščlambe rada projekta.
 
 > [!NOTE]
 > Ako koristite srpanjsko ažuriranje (verzija 10.0.4), morate instalirati zakrpe KB 4054797 i 4055884.
@@ -40,7 +39,7 @@ Kako biste omogućili integraciju s programom Microsoft Project Client, potrebno
 •   Kliknite **Otvori**, a zatim, kad se od vas to zatraži, kliknite **Pokreni**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Otvaranje i uređivanje postojećeg nacrta strukturne analize rada u programu Microsoft Project Client
-Ako projekt u aplikaciji Dynamics 365 Finance već ima stvorenu strukturnu analizu rada, ona se može otvoriti u programu Microsoft Project Client ako je strukturna analiza rada u stanju skice. Za otvaranje sa stranice **Projekt**, kliknite vezu **Otvori u aplikaciji Microsoft Project** na kartici **Plan**. Ova se stranica također može otvoriti iz programa Microsoft Project Client klikom mogućnosti **Otvori** na kartici **Microsoft Dynamics 365**. S popisa odaberite **Pravna osoba** i **Projekt**.
+Ako projekt u Dynamics 365 Finance već ima stvorenu strukturu raščlambe rada, struktura raščlambe rada može se otvoriti u aplikaciji Microsoft Project Client ako je struktura raščlambe rada u statusu skice. Za otvaranje sa stranice **Projekt**, kliknite vezu **Otvori u aplikaciji Microsoft Project** na kartici **Plan**. Ova se stranica također može otvoriti iz programa Microsoft Project Client klikom mogućnosti **Otvori** na kartici **Microsoft Dynamics 365**. S popisa odaberite **Pravna osoba** i **Projekt**.
 
 > [!NOTE]
 > Ako upotrebljavate preglednik Internet Explorer, morat ćete kliknuti **Spremi** za ručno otvaranje s mjesta na kojem se nalazi preuzeta datoteka. Ili kliknite **Spremi i otvori** kako biste datoteku otvorili u programu Microsoft Project Client. Nemojte preimenovati naziv datoteke tijekom spremanja.

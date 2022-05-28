@@ -1,34 +1,33 @@
 ---
 title: Sinkroniziranje ugovora o projektu i projekata izravno iz aplikacije Project Service Automation u aplikaciju Financije
-description: U ovoj se temi opisuje predložak i temeljni zadaci koji se upotrebljavaju za sinkronizaciju ugovora o projektu i projekata izravno iz sustava Microsoft Dynamics 365 Project Service Automation u uslugu Dynamics 365 Finance.
+description: Ovaj tema opisuje predložak i temeljne zadatke koji se koriste za sinkronizaciju projektnih ugovora i projekata izravno iz Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001062"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684633"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinkroniziranje ugovora o projektu i projekata izravno iz aplikacije Project Service Automation u aplikaciju Financije 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-U ovoj se temi opisuje predložak i temeljni zadaci koji se upotrebljavaju za sinkronizaciju ugovora o projektu i projekata izravno iz sustava Dynamics 365 Project Service Automation u uslugu Dynamics 365 Finance.
+
+Ovaj tema opisuje predložak i temeljne zadatke koji se koriste za sinkronizaciju projektnih ugovora i projekata izravno iz Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE] 
 > Ako upotrebljavate verziju Enterprise Edition 7.3.0, morate instalirati zakrpu KB 4074835.
@@ -112,7 +111,7 @@ Kada se primijeni rješenje integracije aplikacije Project Service Automation u 
 - **SourceDataID** za ugovore o projektu i projekte se može se ažurirati na drugu vrijednost ili ukloniti iz mapiranja. Zadana vrijednost predloška je **Project Service Automation**.
 - Mapiranje stavke **Uvjeti plaćanja** mora se ažurirati tako da u Financijama odražava valjane uvjete plaćanja. Također možete ukloniti mapiranje iz projektnog zadatka. Zadana karta vrijednosti ima zadane vrijednosti za pokazne podatke. Sljedeća tablica prikazuje vrijednosti u aplikaciji Project Service Automation.
 
-    | Value | Opis   |
+    | Vrijednost | Opis   |
     |-------|---------------|
     | 1     | Neto 30        |
     | 2     | 2 % 10, neto 30 |
@@ -121,15 +120,15 @@ Kada se primijeni rješenje integracije aplikacije Project Service Automation u 
 
 ## <a name="power-query"></a>Power Query
 
-Upotrijebite aplikaciju Microsoft Power Query za Excel kako biste filtrirali podatke ako su ispunjeni sljedeći uvjeti:
+Koristite Microsoft Power Query za Excel za filtriranje podataka ako su ispunjeni sljedeći uvjeti:
 
 - Imate prodajne naloge u aplikaciji Dynamics 365 Sales.
 - Imate više organizacijskih jedinica u aplikaciji Project Service Automation, a te će se organizacijske jedinice biti mapirati u više pravnih osoba u Financijama.
 
-Ako morate upotrijebiti modul Power Query, slijedite ove smjernice:
+Ako morate koristiti Power Query, slijedite ove smjernice:
 
 - Predložak Projekti i ugovori (PSA u Fin i Ops) ima zadani filtar koji uključuje samo prodajne naloge vrste **Stavka posla (msdyn\_ordertype = 192350001)**. Ovaj filtar jamči da se ugovori o projektu ne stvaraju za prodajne naloge u Financijama. Ako stvorite vlastiti predložak, morate dodati ovaj filtar.
-- Stvorite filtar aplikacije Power Query koji uključuje samo ugovorne tvrtke ili ustanove koje bi trebale biti sinkronizirane s pravnom osobom skupa integracijskih veza. Na primjer, ugovori o projektu koje imate s ugovornom organizacijskom jedinicom tvrtke Contoso US trebali bi se sinkronizirati s pravnom osobom USSI, ali ugovori o projektu koje imate s ugovornom organizacijskom jedinicom tvrtke Contoso Global trebali bi se sinkronizirati s pravnom osobom USMF. Ako ne dodate ovaj filtar u mapiranje zadataka, svi ugovori o projektu sinkronizirat će se s pravnom osobom koja je definirana za skup veza, bez obzira na organizacijsku jedinicu iz ugovora.
+- Kreirajte Power Query filtar koji sadrži samo ugovorne organizacije koje bi trebale biti sinkronizirane s pravnom osobom skupa integracijskih veza. Na primjer, ugovori o projektu koje imate s ugovornom organizacijskom jedinicom Contoso US trebali bi se sinkronizirati s pravnom osobom USSI, ali ugovori o projektu koje imate s ugovornom organizacijskom jedinicom Contoso Global trebali bi se sinkronizirati s pravnom osobom USMF. Ako ne dodate ovaj filtar u mapiranje zadataka, svi ugovori o projektu sinkronizirat će se s pravnom osobom koja je definirana za skup veza, bez obzira na organizacijsku jedinicu iz ugovora.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapiranje predloška u integraciji podataka
 

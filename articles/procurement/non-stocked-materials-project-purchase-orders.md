@@ -5,28 +5,29 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6e0307ad6474feef96fc8080877eccbbbc7259db
-ms.sourcegitcommit: 2d96345fb3afc3b174530285f95271b5ccbdea03
+ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7563013"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612694"
 ---
-# <a name="order-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Naručivanje materijala koji nisu na zalihama za projekte s pomoću narudžbenica za projekt
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Kategorije nabave naloga ili nespremni materijali za projekt pomoću narudžbenica za projekt
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Odjel nabave u vašoj tvrtki ili ustanovi mogao bi upotrebljavati [narudžbenice](/dynamics365/supply-chain/procurement/purchase-order-overview) za praćenje narudžbi roba i usluga. Narudžbenice za materijale koji nisu na zalihama mogu se pripisati projektu. Pri fakturiranju ovih narudžbenica bilježe se troškovi projekta.
+Odjel nabave u vašoj tvrtki ili ustanovi mogao bi upotrebljavati [narudžbenice](/dynamics365/supply-chain/procurement/purchase-order-overview) za praćenje narudžbi roba i usluga. Narudžbenice za kategorije nabave ili ne-zalihe materijala mogu se pripisati projektu. Pri fakturiranju ovih narudžbenica bilježe se troškovi projekta.
 
 ## <a name="prerequisites"></a>Preduvjeti
 Poduzmite sljedeće korake kako biste omogućili funkcionalnost narudžbenica za projekt.
 
-1. U aplikaciji Dynamics 365 Finance, idite na radni prostor **Upravljanje značajkama**.
+1. U Dynamics 365 Finance idite na **radni prostor za upravljanje** značajkama.
 2. Na popisu značajki pronađite i odaberite značajku, **Omogući narudžbenice za projekt u aplikaciji Project Operations za scenarije koji se temelje na resursima/bez zaliha**.
 3. Odaberite opciju **Omogući**.
 4. Konfigurirajte materijale koji nisu na zalihama i fakture dobavljača na čekanju kako je opisano u odjeljku [Konfiguriranje materijale koji nisu na zalihama i fakture dobavljača na čekanju](configure-materials-nonstocked.md).
+5. Konfigurirajte kategorije nabave kako je opisano u [odjeljku Koristi kategorije nabave s narudžbenicama za projekt i fakturama dobavljača na čekanju](configure-procurement-categories.md).
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>Stvaranje narudžbenice za projekt s popisa narudžbenica za projekt
 
@@ -34,12 +35,12 @@ Poduzmite sljedeće korake kako biste omogućili funkcionalnost narudžbenica za
 2. U Oknu s radnjama, na kartici **Upravljanje**, u grupi **Novo**, odaberite **Zadatak stavke** > **Narudžbenica**.
 3. Na stranici **Stvori narudžbenicu**, odaberite dobavljača kojem želite poslati narudžbenicu i prema potrebi unesite druge podatke, a zatim odaberite **U redu**.
 4. Na stranici **Narudžbenica**, u rešetki **Redci narudžbenice**, odaberite **Dodaj redak**.
-5. Unesite broj stavke, količinu, jedinicu, jediničnu cijenu i druge podatke prema potrebi.
+5. Prema potrebi unesite broj artikla ili kategoriju nabave, količinu, jedinicu, jediničnu cijenu i druge podatke.
 
     > [!NOTE]
-    > S narudžbenicama za projekt mogu se upotrebljavati samo stavke i usluge koje nisu na zalihama. Uskladištene stavke i kategorije nabave nisu podržane.
+    > S narudžbenicama za projekt mogu se koristiti samo kategorije nabave, neutemeljeni artikli i usluge. Zalihe artikala nisu podržane.
 
-6. Nastavite dodavati stavke prema potrebi i potvrdite narudžbenicu.
+6. Nastavite dodavati artikle ili kategorije nabave prema potrebi i potvrdite narudžbenicu.
 
     Računi za robe i usluge mogu se evidentirati stvaranjem i knjiženjem računa za proizvod.
 
