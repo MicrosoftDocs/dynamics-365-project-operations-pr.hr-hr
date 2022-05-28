@@ -4,14 +4,14 @@ description: U ovoj se temi objašnjava način stvaranja strukturna analize rada
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928606"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597789"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Stvaranje strukturne analize rada (WBS)
 
@@ -95,11 +95,11 @@ Kao administrator možete definirati prilagođena polja na entitetu zadatka. Me�
 
 ## <a name="staffing-attributes"></a>Atributi broja djelatnika
 
-Atributima broja djelatnika pristupa se putem polja **Resursi** u rasporedu. Možete pretražiti postojeći resurs ili odabrati **Stvori** i u oknu **Brzo stvaranje** dodati člana projektnog tima kao novi resurs.  Kada tražite resurs pomoću birača resursa u rešetki zadatka, prikazu ploče ili ganttu, pretraživanje vraća postojeće članove projektnog tima ili aktivne resurse koje je moguće rezervirati.
+Atributima broja djelatnika pristupa se putem polja **Resursi** u rasporedu. Možete pretražiti postojeći resurs ili odabrati **Stvori** i u oknu **Brzo stvaranje** dodati člana projektnog tima kao novi resurs.  Kada tražite resurs pomoću birača resursa u rešetki zadatka, prikazu ploče ili ganttu, pretraživanje vraća postojeće članove projektnog tima ili aktivne resurse koji se mogu rezervirati.
 
 Polja **Uloga**, **Jedinica za resurse** i **Naziv položaja** koriste se za opisivanje zahtjeva za broj djelatnika za zadatak. Ti atributi broja djelatnika zajedno s rasporedom zadataka koriste se za pronalaženje dostupnih resursa za taj zadatak.
 
-   - **Uloga** : Navedite vrstu resursa koja je potrebna za obavljanje zadatka.,
+   - **Uloga**: Navedite vrstu resursa koja je potrebna za izvršenje zadatka.,
    - **Jedinica za resurse**: Navedite jedinicu iz koje je potrebno dodijeliti resurse za zadatak. Taj atribut utječe na procjenu troška i prodaje za zadatak ako su troškovi i stopa naplate za resurs postavljeni na temelju jedinica za resurse.
    - **Naziv položaja**: Unesite naziv za generički resurs koji služi kao rezervirano mjesto za resurs koji će u konačnici obaviti posao.
 
@@ -124,7 +124,7 @@ Ako upotrebljavate strukturna analizu rada u aplikaciji Project Operations, treb
 |----------------------------------------------------|----------------------|
 | Maksimalan ukupan broj zadataka projekta                  | 500                  |
 | Maksimalno ukupno trajanje projekta               | 3650 dana (10 godina) |
-| Maksimalni ukupni resursi projekta              | 150                  |
+| Maksimalni ukupni resursi projekta              | 300                  |
 | Maksimalan broj veza (samo slijednik) za projekt | 600                  |
 | Maksimalna ukupna prilagođena polja za projekt          | 1,0                   |
 | Maksimalan broj stavki kontrolnog popisa po zadatku                   | 20                   |

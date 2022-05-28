@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987382"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598939"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Izradi predložak radnog vremena (Project Service)
 
@@ -49,7 +50,7 @@ Dva su osnovna zahtjeva za stvaranje predloška kalendara za vašu tvrtku ili us
 
 1. Otvorite **Resursi** \> **Resursi**.
 2. Stvorite novi resurs za referencu u predlošku kalendara ili odaberite postojeći.
-3. Odaberite karticu **Radno vrijeme** resursa i dovršite upute iz članka [Postavljanje radnog vremena za resurs](/dynamics365/field-service/set-work-hours-resource.md) kako biste konfigurirali pravila kalendara.
+3. Odaberite karticu **Radno vrijeme** resursa i dovršite upute iz članka [Postavljanje radnog vremena za resurs](/dynamics365/field-service/set-work-hours-resource) kako biste konfigurirali pravila kalendara.
 
 **Stvaranje novog predloška kalendara**
 

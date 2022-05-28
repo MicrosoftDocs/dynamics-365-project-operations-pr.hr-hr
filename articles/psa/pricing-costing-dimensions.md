@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998452"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593603"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Početna stranica Dimenzije cijena i troškova
 
@@ -66,16 +67,16 @@ Sljedeći primjer prikazuje stope naplate postavljene na temelju uloge i organiz
 
 | Uloga        | Organizacijska jedinica    |Jedinica      |Cijena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Razvojni inženjer   | Contoso US  |h | 200|USD     |
-| Razvojni inženjer   | Contoso Indija |h|   112|USD     |
+| Razvojni inženjer   | Contoso US  |Hour | 200|USD     |
+| Razvojni inženjer   | Contoso, Indija |Hour|   112|USD     |
 
 
 **Primjeri stopa troškova**
 
 | Platni razred     | Organizacijska jedinica    |Jedinica      |Cijena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |h | 145|USD     |
-| My company_Band2 | Contoso Indija |h|   67|USD     |
+| My company_Band1 | Contoso US  |Hour | 145|USD     |
+| My company_Band2 | Contoso, Indija |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

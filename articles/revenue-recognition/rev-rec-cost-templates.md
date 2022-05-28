@@ -4,14 +4,14 @@ description: U ovoj temi nalaze se informacije o načinu stvaranja predložaka t
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993547"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594201"
 ---
 # <a name="set-up-cost-templates"></a>Postavljanje predložaka troškova
 
@@ -56,7 +56,7 @@ Odluka o pristupu stvaranju predloška troškova može ovisiti o nekoliko razmat
 ## <a name="create-cost-templates"></a>Stvaranje predložaka troškova
 Kako biste stvorili predložak troška, poduzmite ove korake:
 
-1. Kako biste u okruženju aplikacije Dynamics 365 Finance pristupili predlošcima troškova, idite na **Upravljanje projektima i računovodstvo** > **Postavljanje** > **Procjene** > **Predložak troškova**.
+1. Da biste pristupili predlošcima troškova, u okruženju Dynamics 365 Finance otvorite **predložak Troškovi troškova upravljanja projektima i računovodstva** > **·** > **.** > **·**
 2. Kako biste stvorili novi predložak, odaberite **Novo**. Unesite naziv i opis.
 3. Navedite ID retka troška za svaku vrstu transakcije.
 4. Odaberite zadani način dovršenja:

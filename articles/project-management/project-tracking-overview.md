@@ -2,17 +2,16 @@
 title: Praćenje rada na projektu
 description: U ovoj temi nalaze se informacije o načinu praćenja rada na projektu i napretka posla.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993952"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593787"
 ---
 # <a name="project-effort-tracking"></a>Praćenje rada na projektu
 
@@ -46,7 +45,8 @@ Rad na zadacima sažetka ili zadacima spremnika može se ponovno predvidjeti. Vo
 - Izračunava se novi EAC za svaki od pojedinačnih zadataka lisnih čvorova. 
 - Preostali rad i postotak napretka zahvaćenih podređenih zadataka niz lisne čvorove ponovno se izračunavaju na temelju vrijednosti EAC-a. To rezultira novim predviđanjem za odstupanje rada zadatka. 
 - Ponovno se izračunavaju EAC-ovi zadataka sažetka sve do korijenskog čvora.
-
+- Odobreni napor na sažetom zadatku zbroj je odobrenih napora na svim podređenim zadacima plus odobreni napor na sažetom zadatku.
+- Preostali napor na sažetom zadatku zbroj je preostalog napora na svim podređenim zadacima umanjen za odobreni napor na sažetom zadatku.
 
 ## <a name="project-status-summary"></a>Sažetak statusa projekta
 

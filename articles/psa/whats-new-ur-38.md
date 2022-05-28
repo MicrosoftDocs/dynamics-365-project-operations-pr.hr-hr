@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e5175b12c9e06962888bf09c8e07119b9505dda
-ms.sourcegitcommit: 2aba2082d50b20b596ee86735045644cd647c2b0
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7901506"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598709"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 38, V3
 
@@ -38,21 +39,21 @@ Popravljeni su sljedeći problemi.
 
 **Vrijeme i trošak**
 
-- Iznimka se događa kada duljina zapisnika skupa odobravanja prelazi 100.000 zapisa.
-- Korisnici ne mogu pristupiti **rešetki Unos vremena** s **glavne stranice Unos** vremena.
-- Dijaloški **okvir Uvoz unosa vremena** ne prikazuje tekst kada nijedna stavka ne ispunjava uvjete za uvoz.
-- Korisnici mogu kreirati skupove odobravanja u kojima **je polje Ciljni status** postavljeno na **Nepoznato**.
+- Iznimka se događa kada duljina zapisnika skupova odobravanja prelazi 100.000 zapisa.
+- Korisnici ne mogu pristupiti rešetki **Unos** vremena s glavne **stranice Unos** vremena.
+- Dijaloški **okvir Uvoz** unosa vremena ne prikazuje tekst kada nijedna stavka ne ispunjava uvjete za uvoz.
+- Korisnici mogu stvoriti skupove odobravanja u kojima **je polje Status** cilja postavljeno na **Nepoznato**.
 
 **Upravljanje projektom**
 
-- Konture se ne prikazuju ispravno u dodjelama resursa za UTC(+09:30) i UTC(+10:00) kada započne ljetno računanje vremena.
-- **Polje Dodatni stupac za** strukture raščlambe rada skriveno je u nekim regionalnim shemama.
-- Birač datuma za kontrolu kalendara u **rešetki projektnog** zadatka nije ispravno lokaliziran za kineski.
+- Konture se ne prikazuju ispravno u dodjelama resursa za UTC(+09:30) i UTC(+10:00) kada počne ljetno računanje vremena.
+- Polje **Dodatni stupac** za strukture kvara na radu skriveno je u nekim regionalnim shemama.
+- Birač datuma za kontrolu kalendara u rešetki **Projektni zadatak** nije ispravno lokaliziran za kineski.
 
 **Prodaje**
 
-- **Vrijednosti izvedbe ugovora** i **stvarnog troška projekta** ne podudaraju se kada resursi koji se mogu rezervirati i koji imaju različite ugovorne jedinice i valute pošalju stavke vremena.
-- Prilagođeni tijek rada za automatsku potvrdu faktura ne uspijeva kada se fakture uvoze kao upravljano rješenje. Prikazana je sljedeća poruka: "Microsoft.Xrm.Sdk.InvalidPluginExecutionException Message: Status fakture nije valjan."
-- Kada **je Root odabran kao opcija** sažimanja, a projekt ima procjene iz mješavine kategorija transakcija (na primjer, kombinacija vremena, troškova i materijalnih procjena), sustav sažima različite kategorije transakcija kao jednu liniju naknada.
-- U scenarijima u kojima se redak troška dodaje prije povezivanja retka ugovora s projektom, ispravne cijene ne unose se kao zadana vrijednost u **polje Cijena** ažuriranja.
-- Negativni iznosi prodaje nisu dopušteni u **entitetima Projekta** i **Zadatka**.
+- **Vrijednosti Izvedba** ugovora i **Stvarni trošak** projekta ne podudaraju se kada resursi koji se mogu rezervirati, a koji imaju različite ugovorne jedinice i valute, šalju stavke vremena.
+- Prilagođeni tijek rada za automatsko potvrđivanje faktura ne uspijeva kada se fakture uvoze kao upravljano rješenje. Prikazana je sljedeća poruka: "Microsoft.Xrm.Sdk.InvalidPluginExecutionException Poruka: Status fakture nije valjan."
+- Kada **je Root** odabran kao opcija zbrajanja, a projekt ima procjene iz mješavine klasa transakcija (na primjer, kombinacija vremena, troškova i materijalnih procjena), sustav sažima sve klase transakcija kao jedan redak naknade.
+- U scenarijima u kojima se redak rashoda dodaje prije povezivanja retka ugovora s projektom, ispravne cijene ne unose se kao zadana vrijednost u **polje Ažuriraj cijenu**.
+- Negativni iznosi prodaje nisu dopušteni u **entitetima Project** i **Task**.

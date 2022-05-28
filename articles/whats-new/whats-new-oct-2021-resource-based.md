@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753283"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598479"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u listopadu 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753283"
 Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
    - Project Operations u okruženju platforme Microsoft Dataverse verzije 4.25.0.91
-   - Upravljanje projektima i računovodstvo u okruženju aplikacije Dynamics 365 Finance verzije 10.0.21
+   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
@@ -49,7 +49,7 @@ Ako naiđete na problem pri pokretanju karte, slijedite upute u odjeljku [Proble
 | Naplata i određivanje cijene | 2338357 | Valutu u zapisa o uporabi materijala obvezno zadaje valuta projekta kada se odabere projekt. |
 | Vrijeme i trošak | 2414777 | Mora se omogućiti otkazivanje odobrenja ako unos troška ili vremena ima više od jednog povezanog odobrenja za projekt. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektom i računovodstvo u aplikaciji Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |

@@ -4,14 +4,14 @@ description: Ovaj tema objašnjava mogućnosti podugovaranja za članove projekt
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4db283db728b50ccf76eafabfd643313620bbce2
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: aacd2f97d3120a854c78fe87e512fad1c43b9651
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903638"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600181"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Mogućnosti podugovaranja za članove projektnog tima
 
@@ -19,53 +19,53 @@ ms.locfileid: "7903638"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-U Dynamics 365 Project Operations Microsoftu možete procijeniti mogućnosti podugovaranja dostupne za jednog ili više članova projektnog tima. Dostupne mogućnosti podugovaranja omogućuju vam sljedeće:
+U programu Microsoft Dynamics 365 Project Operations možete procijeniti mogućnosti podugovaranja dostupne jednom ili više članova projektnog tima. Dostupne mogućnosti podugovaranja omogućuju vam sljedeće:
 
-- Kreirajte novi kooperant i/ili kreirajte nove retke na postojećem kooperantu za odabrane članove projektnog tima. 
-- Rezervirajte prema već postojećem retku kooperanta i kooperanta. 
+- Stvorite novi kooperant i/ili stvorite nove retke na postojećem podugovaranju za odabrane članove projektnog tima. 
+- Rezervirajte na već postojećoj liniji podugovaranja i podugovaranja. 
 
-Možete birati između dostupnih mogućnosti podugovaranja za generičke članove projektnog tima ili odabrati članove projektnog tima koji imaju imenovani resurs koji je ugovorni radnik. 
+Možete birati između dostupnih mogućnosti podugovaranja za generičke članove projektnog tima ili birati između članova projektnog tima koji imaju osoblje s imenovanim resursom koji je ugovorni radnik. 
 
 Nema dostupnih mogućnosti podugovaranja za sljedeće:
 
-- Članovi projektnog tima koji su zaposleni sa zaposlenikom. 
-- Članovi projektnog tima koji su već pridruženi retku kooperanta i kooperanta. 
+- Članovi projektnog tima koji su radili sa zaposlenikom. 
+- Članovi projektnog tima koji su već povezani s linijom podugovaranja i podugovaranja. 
 
 ## <a name="subcontracting-an-unstaffed-project-team-member"></a>Podugovaranje člana projektnog tima bez osoblja
 
-Da biste pregledali i odabrali neku od dostupnih mogućnosti podugovaranja za generičkog člana projektnog tima ili člana projektnog tima bez osoblja, slijedite ove korake:
+Da biste pregledali i odabrali jednu od dostupnih mogućnosti podugovaranja za generičkog člana projektnog tima ili člana projektnog tima bez osoblja, slijedite ove korake:
 
 1. Odaberite jedan ili više zapisa članova projektnog tima u kojima je resurs generički resurs.
-2. Provjerite nije li nijedan od odabranih zapisa članova projektnog tima već podugovaran. 
-3. Odaberite **Mogućnosti podugovaranja** u podrešetki članova projektnog tima. Otvorit će **se dijaloški okvir Mogućnosti podugovaranja.** 
-4. Ako ste u koraku 1 odabrali samo jedan zapis člana projektnog tima, bit će dostupne sljedeće mogućnosti:
-    - Kreirajte nove retke kooperanta. 
-    - Rezervirajte prema postojećem kooperantu Ako ste u koraku 1 odabrali više zapisa članova projektnog tima, jedina dostupna mogućnost je stvaranje novih redaka kooperanta.
-5. Mogućnost rezerviranja u odnosu na postojeći redak kooperanta omogućuje odabir retka kooperanta i kooperanta protiv kojeg želite rezervirati. Prilikom odabira retka kooperanta za rezervaciju kapaciteta, trebali biste osigurati da odabrana linija kooperanta bude za vrijeme i da uloga potrebna članu projektnog tima odgovara ulozi kupljenoj na retku kooperanta.
-6. Kada odaberete stvaranje novih redaka kooperanta za članove projektnog tima, sustav će vam omogućiti da odaberete kooperant koji želite kreirati te retke. Kooperant koji odaberete za kreiranje novih redaka trebao bi biti u **statusu** Skica. Pomoću ove mogućnosti stvaranja novih redaka kooperanta za odabrane članove projektnog tima, sustav će stvoriti jednu liniju kooperanta za vrijeme za svakog člana projektnog tima. Uloga, sati i datumi kopirat će se iz člana projektnog tima u svaki kreirani redak kooperanta. 
-7. Kada je generički član tima povezan s retkom kooperanta i kooperanta, **polje Vrsta radnika** u generičkom retku člana tima ažurirat će se na **Ugovorni** radnik, a vrijednost Valjanost **kooperanta** postavit će se na **Valjano**.
+2. Provjerite nije li nijedan od odabranih zapisa članova projektnog tima već kooperant. 
+3. Odaberite **Mogućnosti** podugovaranja u podrešetki članova projektnog tima. Otvorit će se **dijaloški okvir Mogućnosti** podugovaranja. 
+4. Ako ste u prvom koraku odabrali samo jedan zapis člana projektnog tima, bit će dostupne sljedeće mogućnosti:
+    - Stvorite nove retke kooperacije. 
+    - Rezervirajte na postojećem podugovaranju Ako ste u prvom koraku odabrali više zapisa članova projektnog tima, jedina dostupna mogućnost je stvaranje novih redaka kooperacije.
+5. Mogućnost rezerviranja u odnosu na postojeći redak podugovaranja omogućuje vam odabir retka podugovaratelja i podugovaranja prema kojem želite rezervirati. Prilikom odabira retka podugovaranja radi rezervacije kapaciteta, trebali biste osigurati da je odabrani redak kooperanta za vrijeme i da uloga potrebna članu projektnog tima odgovara ulozi kupljenoj u retku podugovaranja.
+6. Kada odaberete stvaranje novih redaka kooperacije za članove projektnog tima, sustav će vam omogućiti da odaberete kooperant koji želite stvoriti te retke. Kooperant koji odaberete za stvaranje novih redaka u sustavu trebao bi biti u **statusu Skica**. S ovom mogućnošću stvaranja novih linija podugovaranja za odabrane članove projektnog tima, sustav će stvoriti jednu liniju kooperanta za vrijeme za svakog člana projektnog tima. Uloga, sati i datumi kopirat će se iz člana projektnog tima u svaki redak kooperanta koji se kreira. 
+7. Kada je generički član tima povezan s retkom kooperanta i kooperanta, polje Vrsta **radnika u retku generičkog člana tima ažurirat** će se u Ugovorni radnik **,** a **vrijednost Valjanost kooperanta** postavit će se na **Valjano**.
 
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Podugovaranje člana projektnog tima s osobljem
 
-Kao i generički članovi tima ili članovi tima bez osoblja, također možete vidjeti opcije podugovaranja za člana projektnog tima s osobljem sve dok je član tima s osobljem ugovorni radnik. Da biste pregledali i odabrali neku od dostupnih mogućnosti podugovaranja za člana projektnog tima s osobljem ili imenovanim članom projektnog tima, slijedite ove korake:
+Poput generičkih ili nepokolebljivih članova tima, također možete vidjeti opcije podugovaranja za člana projektnog tima s osobljem sve dok je član tima s osobljem ugovorni radnik. Da biste pregledali i odabrali jednu od dostupnih mogućnosti podugovaranja za zaposlenika ili imenovanog člana projektnog tima, slijedite ove korake:
 
 1. Odaberite jedan ili više zapisa članova projektnog tima u kojima je resurs imenovani ugovorni radnik.
-2. Provjerite nije lidan od odabranih zapisa članova projektnog tima već kooperiran. 
-3. Odaberite **Mogućnosti podugovaranja** u podrešetki članova projektnog tima. Otvorit će **se dijaloški okvir Mogućnosti podugovaranja.** 
-4. Ako ste u koraku 1 odabrali samo jedan zapis člana projektnog tima, bit će dostupne sljedeće mogućnosti:
-      - Kreirajte nove retke kooperanta.
-      - Rezervirajte prema postojećem kooperantu.
-  Ako ste u koraku 1 odabrali više zapisa članova projektnog tima, jedina dostupna mogućnost je stvaranje novih redaka kooperanta.
-5. Mogućnost rezerviranja u odnosu na postojeći redak kooperanta omogućuje odabir retka kooperanta i kooperanta protiv kojeg želite rezervirati. Prilikom odabira retka kooperanta za rezervaciju kapaciteta provjerite sljedeće:
+2. Provjerite nije li nijedan od odabranih zapisa članova projektnog tima već podizvođač. 
+3. Odaberite **Mogućnosti** podugovaranja u podrešetki članova projektnog tima. Otvorit će se **dijaloški okvir Mogućnosti** podugovaranja. 
+4. Ako ste u prvom koraku odabrali samo jedan zapis člana projektnog tima, bit će dostupne sljedeće mogućnosti:
+      - Stvorite nove retke kooperacije.
+      - Rezervirajte protiv postojećeg podugovaratelja.
+  Ako ste odabrali više zapisa članova projektnog tima u prvom koraku, jedina dostupna mogućnost je stvaranje novih redaka kooperanta.
+5. Mogućnost rezerviranja u odnosu na postojeći redak podugovaranja omogućuje vam odabir retka podugovaratelja i podugovaranja prema kojem želite rezervirati. Prilikom odabira retka podugovaranja radi rezervacije kapaciteta, trebali biste osigurati sljedeće:
       - Odabrani redak kooperanta je za vrijeme. 
-      - Uloga potrebna članu projektnog tima odgovara ulozi kupljenoj na liniji kooperanta. 
-      - Dobavljač s kojim je ugovorni radnik povezan isti je kao i dobavljač u kooperantu.
-6. Kada odaberete stvaranje novih redaka kooperanta za članove projektnog tima, sustav će vam omogućiti da odaberete kooperant koji želite kreirati te retke. Pomoću ove mogućnosti provjerite je li dobavljač kojem ugovorni radnik pripada isti kao i dobavljač u kooperantu. 
-7. Kooperant koji odaberete za kreiranje novih redaka trebao bi biti u **statusu** Skica. Pomoću ove mogućnosti stvaranja novih redaka kooperanta za odabrane članove projektnog tima, sustav će stvoriti jednu liniju kooperanta za vrijeme za svakog člana projektnog tima. Uloga, sati i datumi kopirat će se iz člana projektnog tima u svaki kreirani redak kooperanta.  
-8. Kada je imenovani član tima povezan s retkom kooperanta i kooperanta, polje Vrsta radnika u **retku** imenovanog člana tima ažurirat će se na **Ugovorni** radnik, a **vrijednost Valjanost kooperanta** postavit će se na **Valjano**.
+      - Uloga potrebna članu projektnog tima odgovara ulozi kupljenoj u retku podugovaranja. 
+      - Dobavljač s kojim je povezan ugovorni radnik isti je kao i dobavljač na kooperantu.
+6. Kada odaberete stvaranje novih redaka kooperacije za članove projektnog tima, sustav će vam omogućiti da odaberete kooperant koji želite stvoriti te retke. Pomoću ove mogućnosti trebali biste osigurati da je dobavljač kojem pripada ugovorni radnik isti kao i dobavljač na podugovaranju. 
+7. Kooperant koji odaberete za stvaranje novih redaka u sustavu trebao bi biti u **statusu Skica**. S ovom mogućnošću stvaranja novih linija podugovaranja za odabrane članove projektnog tima, sustav će stvoriti jednu liniju kooperanta za vrijeme za svakog člana projektnog tima. Uloga, sati i datumi kopirat će se iz člana projektnog tima u svaki redak kooperanta koji se kreira.  
+8. Kada je imenovani član tima povezan s retkom podugovaratelja i podugovaratelja, polje Vrsta **radnika u retku imenovanog člana tima ažurirat** će se u Ugovorni radnik **,** a **vrijednost Valjanost kooperanta** postavit će se na **Valjano**.
 
-## <a name="re-costing-subcontractor-assignments"></a>Dodjela kooperanta s ponovnim troškovima
+## <a name="re-costing-subcontractor-assignments"></a>Re-costing dodjele kooperanata
 
-Kada je član projektnog tima (generički ili imenovan) povezan s recima kooperanta pomoću **dijaloškog okvira Mogućnosti** kooperanta, sve dodjele zadataka koje član tima ima ponovno će se koštati na temelju popisa kupovnih cijena pridruženih kooperantu. Na **kartici Procjene** na **stranici Detalji o** projektu odaberite **gumb Ažuriraj cijene da biste vidjeli** ažurirane cijene i/ili troškove koji proizlaze iz odluke o podugovaranja.
+Kada je član projektnog tima (generički ili imenovan) povezan s recima podugovaranja pomoću dijaloškog **okvira Mogućnosti** podugovaranja, sve dodjele zadataka koje član tima ima ponovno će se koštati na temelju popisa cijena nabave priloženog kooperantu. Na kartici **Procjene** na **stranici Detalji o** projektu odaberite **gumb Ažuriraj cijene** da biste vidjeli ažurirane cijene i/ili troškove koji proizlaze iz odluke o podugovaranju.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

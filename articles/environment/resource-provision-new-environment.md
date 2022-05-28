@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928652"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594799"
 ---
 # <a name="provision-a-new-environment"></a>Priprema novog okruženja
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 U ovoj temi nalaze se informacije o načinu omogućivanja novog okruženja aplikacije Dynamics 365 Project Operations za scenarije koji se temelje na resursu / bez zaliha.
 
@@ -34,7 +34,7 @@ Poduzmite sljedeće korake kako biste omogućili automatizirani tijek pripreme z
 
 ## <a name="provision-a-project-operations-environment"></a>Priprema okruženja aplikacije Project Operations
 
-1. Otvorite novo Dynamics 365 Finance [probno okruženje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ili implementaciju [sigurnosne ograde / proizvodnog okruženja](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otvorite novo Dynamics 365 Finance [demo okruženje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ili [implementaciju memorije za testiranje / proizvodnju](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Upoznajte se s radom čarobnjaka **Priprema okruženja**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Možda ćete trebati primijeniti kvalitativna ažuriranja u svom okruženju apli
 
     ![Primjena rješenja.](./media/13ApplySolutions.png)
 
-5. Odaberite oba rješenja, **Karta entiteta aplikacije Dynamics 365 Finance and Operations za dvostruko upisivanje** i **Karte entiteta aplikacije Dynamics 365 Project Operations za dvostruko upisivanje**, a zatim odaberite mogućnost **Primijeni**.
+5. Odaberite oba rješenja, **Dynamics 365 Finance and Operations karta** entiteta s dvostrukim pisanjem i **Dynamics 365 Project Operations karte** entiteta s dvostrukim pisanjem, a zatim odaberite **Primijeni**.
 
     ![Potvrda rješenja.](./media/14ConfirmSolutions.png)
 

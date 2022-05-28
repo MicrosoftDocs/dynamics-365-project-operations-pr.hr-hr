@@ -2,17 +2,17 @@
 title: Rješavanje problema s radom u rešetki sa zadacima
 description: U ovoj temi nalaze se informacije o rješavanju problema potrebne za rad u rešetki sa zadacima.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547190"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596409"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rješavanje problema s radom u rešetki sa zadacima 
 
@@ -70,6 +70,9 @@ Project Operations zahtijeva da parametar projekta upućuje na krajnju točku PE
       | Project Operations                   | vrsta=2             |
 
 4. Uklonite polje sa stranice **Parametri projekta**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Ublažavanje 3: prijavite se u project.microsoft.com
+Microsoft Edge U pregledniku otvorite novu karticu, idite na project.microsoft.com i prijavite se pomoću korisničke uloge koju koristite za pristup operacijama programa Project.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Projekt se ne učitava, a korisničko sučelje je zaglavilo na rotoru
 

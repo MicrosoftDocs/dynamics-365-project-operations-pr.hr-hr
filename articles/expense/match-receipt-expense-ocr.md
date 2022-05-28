@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798031"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596271"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Snimite potvrdu s pomoću OCR-a
 
@@ -52,7 +52,7 @@ Kako biste stvorili trošak ili uskladili trošak s računa, poduzmite sljedeće
 
 ## <a name="installation"></a>Instalacija
 
-Da biste koristili te napredne mogućnosti troškova, instalirajte dodatak Servis za upravljanje troškovima za Microsoft Dynamics 365 Finance i uključite značajke u instanci. Dodatku iz projekta možete pristupiti u Microsoft Dynamics uslugama životnog ciklusa (LCS).
+Da biste koristili te napredne mogućnosti troškova, instalirajte dodatak Usluge upravljanja troškovima za Microsoft Dynamics 365 Finance i uključite značajke u instanci. Dodatku možete pristupiti iz svog projekta u aplikaciji Microsoft Dynamics Lifecycle Services(LCS).
 
 1. Prijavite se na LCS i otvorite željeno okruženje.
 2. Idite na **Potpune pojedinosti**.
@@ -73,7 +73,7 @@ Kada uključite ove značajke, događaju se sljedeće radnje:
 - Dodana je nova stavka izbornika za vidljivost polja troška.
 - Još uvijek možete otvoriti prethodnu stranicu **Izvješća o troškovima** odlaskom na **Upravljanje troškovima > Moji troškovi > Izvješća o troškovima**.
 - Tijekovi rada i sva odobrenja i dalje vas vode na postojeću stranicu izvješća o troškovima.
-- Računi će se obrađivati putem Microsoft Azure kognitivnih usluga, a metapodaci će se izdvojiti i dodati.
+- Računi će se obrađivati putem aplikacije Microsoft Azure Cognitive Services, a izdvojit će se i dodati metapodaci.
 - Dodana je mogućnost koja vam omogućuje stvaranje izvješća o troškovima koji obuhvaćaju podudarne nepovezane račune.
 - Mogućnost koja se dodaje izvješćima o troškovima omogućuje vam stvaranje retka troška iz računa ili pokušaj usklađivanja postojećeg računa s postojećim retkom troška.
 
@@ -85,7 +85,7 @@ Ne, za svoju uslugu obrade računa Microsoft je stvorio opći model strojnog uč
 
 **Gdje je ova značajka dostupna i obrađena?**
 
-Dostupnost ove značajke u različitim regijama navedena je u sljedećoj tablici. Ako vaša regija trenutno nije podržana, pošaljite zahtjev za određivanje prioriteta dostupnosti OCR usluge u vašoj regiji. 
+Dostupnost ove značajke u različitim regijama navedena je u sljedećoj tablici. Ako vaša regija trenutno nije podržana, pošaljite zahtjev da biste odredili prioritet dostupnosti OCR usluge u vašoj regiji. 
 
 | Regija | Podržano                         |
 |--------|-----------------------------------|
@@ -93,7 +93,7 @@ Dostupnost ove značajke u različitim regijama navedena je u sljedećoj tablici
 | CAN    | Jest                               |
 | Ujedinjeno Kraljevstvo     | Jest                               |
 | AUS    | Jest                               |
-| EU     | Djelomično. Samo engleske potvrde. |
+| EU     | Djelomično. Samo računi za engleski jezik. |
 | Azija   | No                                |
 | Japan  | No                                |
 | Afrika | No                                |
