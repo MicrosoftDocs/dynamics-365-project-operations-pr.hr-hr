@@ -1,102 +1,102 @@
 ---
-title: Zapisnici za planiranje projekata
-description: Ovaj tema pruža informacije i uzorke koji će vam pomoći da koristite zapisnike za planiranje projekata za praćenje kvarova povezanih s uslugom zakazivanja projekata i API-jem za planiranje projekata.
+title: Dnevnici planiranja projekta
+description: Ova tema pruža informacije i uzorke koji će vam pomoći da pomoću zapisnika planiranja projekata pratite nedostatke koji su povezani sa servisom za planiranje projekata i API-jevima za planiranje projekata.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1c5632a880fa30d1b863c326b22e3d930c9564dc
-ms.sourcegitcommit: 844ec8eacd0fc10d1659b437cc5cbb4480ec9e1e
+ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7877507"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589509"
 ---
-# <a name="project-scheduling-logs"></a>Zapisnici za planiranje projekata
+# <a name="project-scheduling-logs"></a>Dnevnici planiranja projekta
 
-_**Odnosi se na:** Projektne operacije za scenarije temeljene na resursima/zalihama, Lite implementacija - posao do fakturiranja proforma,_ Projekt za _web_
+_**Odnosi se na:** Projektne operacije za scenarije koji se temelje na resursima/ne zalihama, Implementacija Litea - ponuda za fakturiranje_ proforma, _Projekt za web_
 
-Microsoft Dynamics 365 Project Operations koristi [Project za web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kao svoj primarni mehanizam za raspoređivanje. Umjesto korištenja standardnih Microsoft Dataverse sučelja za programiranje web-aplikacija (API-je), Project Operations koristi nove API-je za planiranje projekata za stvaranje, ažuriranje i brisanje projektnih zadataka, dodjela resursa, ovisnosti zadataka, grupa projekata i članova projektnih timova. Međutim, kada se operacije kreiranja, ažuriranja ili brisanja programski pokreću na entitetima strukture raščlambe rada (WBS), mogu se pojaviti pogreške. Da biste pratili te pogreške i povijest operacija, implementirana su dva nova administrativna zapisnika: **Skup operacija i Usluga** **zakazivanja projekata (PSS).** Da biste pristupili tim zapisnicima, idite na **Postavke** \> **Zakazivanje integracije**.
+Microsoft Dynamics 365 Project Operations koristi [Project za Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kao primarni mehanizam zakazivanja. Umjesto korištenja standardnih Microsoft Dataverse sučelja za programiranje web-aplikacija (API-ja), Project Operations koristi nove API-jeve za planiranje projekata za stvaranje, ažuriranje i brisanje projektnih zadataka, dodjela resursa, ovisnosti zadataka, grupa projekata i članova projektnih timova. Međutim, kada se operacije stvaranja, ažuriranja ili brisanja programski pokreću na entitetima strukture raščlambe rada (WBS), mogu se pojaviti pogreške. Da bi se pratile te pogreške i povijest operacija, provedena su dva nova administrativna zapisnika: **Skup operacija i** Usluga zakazivanja projekata (PSS) **·**. Da biste pristupili tim zapisnicima, idite na **Postavke** \> **zakaži integraciju.**
 
-Sljedeća ilustracija prikazuje podatkovni model zapisnika zakazivanja projekata.
+Sljedeća ilustracija prikazuje podatkovni model za zapisnike planiranja projekata.
 
-![Podatkovni model za zapisnike zakazivanja projekata.](media/LOGDATAMODEL.jpg)
+![Podatkovni model za zapisnike planiranja projekata.](media/LOGDATAMODEL.jpg)
 
 ## <a name="operation-set-log"></a>Zapisnik skupa operacija
 
-Zapisnik skupa operacija prati izvršavanje skupa operacija koji se koristi za pokretanje jedne ili više operacija stvaranja, ažuriranja ili brisanja u seriji o projektima, projektnim zadacima, dodjelama resursa, ovisnostima o zadacima, projektnim grupama ili članovima projektnog tima. **Polje Operacija u** statusu prikazuje cjelokupno stanje skupa operacija. Detalji o teretu skupa operacija zabilježeni su u povezanim zapisima o detaljima skupa operacija.
+Zapisnik skupa operacija prati izvršavanje skupa operacija koji se koristi za pokretanje jednog ili više operacija stvaranja, ažuriranja ili brisanja u seriji o projektima, projektnim zadacima, dodjelama resursa, zavisnostima zadataka, grupama projekata ili članovima projektnog tima. Polje **Operacija u statusu** prikazuje cjelokupni status skupa operacija. Pojedinosti o korisnom opterećenju skupa operacija bilježe se u povezanim zapisima o skupu podataka o operaciji.
 
 ### <a name="operation-set"></a>Skup operacija
 
-Sljedeća tablica prikazuje polja povezana s **entitetom Skup** operacija.
+Sljedeća tablica prikazuje polja povezana s entitetom **Skup** operacija.
 
 | Naziv sheme            | Opis                                                                                                  | DisplayName            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
 | msdyn_completedon     | Datum/vrijeme dovršetka ili neuspjeha skupa operacija.                                                | CompletedOn            |
-| msdyn_correlationid   | Vrijednost **korelacijeId** zahtjeva.                                                                  | CorrelationId          |
+| msdyn_correlationid   | Vrijednost **I korelacije** zahtjeva.                                                                  | CorrelationId          |
 | msdyn_description     | Opis skupa operacija.                                                                        | Opis            |
-| msdyn_executedon      | Datum/vrijeme izvođenja zapisa.                                                                       | Izvršeno            |
+| msdyn_executedon      | Datum/vrijeme pokretanja zapisa.                                                                       | Izvršeno dana            |
 | msdyn_operationsetId  | Jedinstveni identifikator instanci entiteta.                                                                   | OperationSet           |
-| msdyn_Project         | Projekt koji je povezan sa skupom operacija.                                                            | Project                |
-| msdyn_projectid       | Vrijednost **ID projekta** zahtjeva.                                                                      | ProjectId (zastario) |
+| msdyn_Project         | Projekt koji se odnosi na skup operacija.                                                            | Project                |
+| msdyn_projectid       | Vrijednost **projectId** zahtjeva.                                                                      | ProjectId (zastario) |
 | msdyn_projectName     | Nije primjenjivo.                                                                                              | Nije primjenjivo         |
-| msdyn_PSSErrorLog     | Jedinstveni identifikator zapisnika pogrešaka usluge zakazivanja projekata koji je povezan sa skupom operacija. | Zapisnik pogrešaka PSS-a          |
+| msdyn_PSSErrorLog     | Jedinstveni identifikator zapisnika pogrešaka servisa za planiranje projekta koji je povezan sa skupom operacija. | Zapisnik pogrešaka PSS-a          |
 | msdyn_PSSErrorLogName | Nije primjenjivo.                                                                                              | Nije primjenjivo         |
 | msdyn_status          | Stanje skupa operacija.                                                                             | Stanje                 |
 | msdyn_statusName      | Nije primjenjivo.                                                                                              | Nije primjenjivo         |
-| msdyn_useraadid       | ID objekta Azure Active Directory (Azure AD) korisnika kojem zahtjev pripada.                     | UserAADID              |
+| msdyn_useraadid       | Azure Active Directory ID (Azure AD) objekta korisnika kojem zahtjev pripada.                     | UserAADID              |
 
 ### <a name="operation-set-detail"></a>Detalji skupa operacija
 
-Sljedeća tablica prikazuje polja povezana s **entitetom Skup detalja** operacije.
+Sljedeća tablica prikazuje polja povezana s entitetom Detalji **skupa** operacija.
 
 | Naziv sheme                 | Opis                                                                                 | DisplayName           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | Serijalizirana polja Dataverse za zahtjev.                                            | CdsPayload            |
+| msdyn_cdspayload           | Serijalizirana Dataverse polja za zahtjev.                                            | CdsPayload            |
 | msdyn_entityname           | Naziv entiteta za zahtjev.                                                     | EntityName            |
 | msdyn_httpverb             | Način zahtjeva.                                                                         | HTTPakcija (zastarjelo) |
 | msdyn_httpverbName         | Nije primjenjivo.                                                                             | Nije primjenjivo        |
 | msdyn_operationset         | Jedinstveni identifikator skupa operacija kojem zapis pripada.                      | OperationSet          |
 | msdyn_operationsetdetailId | Jedinstveni identifikator instanci entiteta.                                                  | Pojedinost OperationSet   |
 | msdyn_operationsetName     | Nije primjenjivo.                                                                             | Nije primjenjivo        |
-| msdyn_operationtype        | Vrsta operacije detalja skupa operacija.                                             | OperationType         |
+| msdyn_operationtype        | Vrsta operacije skupa operacija detaljno.                                             | OperationType         |
 | msdyn_operationtypeName    | Nije primjenjivo.                                                                             | Nije primjenjivo        |
 | msdyn_psspayload           | Polja Serijalizirana usluga zakazivanja projekata za zahtjev.                           | PssPayload            |
 | msdyn_recordid             | Identifikator zapisa zahtjeva.                                                       | ID zapisa             |
-| msdyn_requestnumber        | Automatski generirani broj koji identificira redoslijed u kojem su zahtjevi primljeni. | Broj zahtjeva        |
+| msdyn_requestnumber        | Automatski generiran broj koji identificira narudžbu kojom su zahtjevi zaprimljeni. | Broj zahtjeva        |
 
 ## <a name="project-scheduling-service-error-logs"></a>Zapisnici pogrešaka servisa za planiranje projekata
 
-Pogreška servisa za planiranje projekata bilježi pogreške pri snimanju koje se događaju kada servis za planiranje projekata pokuša **operaciju spremanja** ili **otvaranja**. Postoje tri podržana scenarija u kojima se generiraju ti dnevnici:
+U zapisnicima pogrešaka servisa za planiranje projekata zabilježene su pogreške do kojih dolazi kada servis za planiranje projekata pokuša operaciju Spremanja **ili** Otvaranja **·**. Postoje tri podržana scenarija u kojima se generiraju ti zapisnici:
 
-- Akcije koje je pokrenuo korisnik kritično ne uspijevaju (na primjer, dodjela se ne može stvoriti zbog nedostajućih privilegija).
+- Akcije koje je pokrenuo korisnik kritično ne uspijevaju (na primjer, dodjela se ne može stvoriti zbog privilegija koje nedostaju).
 - Usluga zakazivanja projekata ne može programski stvarati, ažurirati, brisati ili izvoditi bilo koju drugu kaskadnu operaciju na entitetu.
-- Korisnik naići na pogreške kada se zapis ne otvori (na primjer, kada se projekt otvori ili se ažuriraju informacije o članu tima).
+- Korisnik naiđe na pogreške kada se zapis ne otvori (na primjer, prilikom otvaranja projekta ili ažuriranja informacija o članu tima).
 
-### <a name="project-scheduling-service-log"></a>Zapisnik servisa za planiranje projekata
+### <a name="project-scheduling-service-log"></a>Zapisnik usluge planiranja projekta
 
-Sljedeća tablica prikazuje polja obuhvaćena zapisnikom servisa za planiranje projekata.
+Sljedeća tablica prikazuje polja obuhvaćena zapisnikom servisa za planiranje projekta.
 
 | Naziv sheme          | Opis                                                                    | DisplayName    |
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | Stog poziva za iznimku.                                               | Stog poziva     |
 | msdyn_correlationid | ID korelacije pogreške.                                               | CorrelationId  |
-| msdyn_errorcode     | Polje koje se koristi za spremanje šifre pogreške Dataverse ili HTTP šifre pogreške. | Kod pogreške     |
-| msdyn_HelpLink      | Veza na dokumentaciju javne pomoći.                                       | Veza za pomoć      |
+| msdyn_errorcode     | Polje koje se koristi za spremanje koda Dataverse pogreške ili HTTP koda pogreške. | Kod pogreške     |
+| msdyn_HelpLink      | Veza na javnu dokumentaciju pomoći.                                       | Veza za pomoć      |
 | msdyn_log           | Zapisnik iz usluge zakazivanja projekata.                                   | Zapisnik            |
-| msdyn_project       | Projekt povezan s zapisnikom pogrešaka.                             | Project        |
-| msdyn_projectName   | Naziv projekta ako će se teret skupa operacija nastaviti. | Nije primjenjivo |
+| msdyn_project       | Projekt koji je povezan s zapisnikom pogrešaka.                             | Project        |
+| msdyn_projectName   | Naziv projekta ako će korisni teret skupa operacija biti zadržan. | Nije primjenjivo |
 | msdyn_psserrorlogId | Jedinstveni identifikator instanci entiteta.                                     | Zapisnik pogrešaka PSS-a  |
-| msdyn_SessionId     | ID sesije projekta.                                                        | ID sesije     |
+| msdyn_SessionId     | ID projektne sesije.                                                        | ID sesije     |
 
 ## <a name="error-log-cleanup"></a>Čišćenje zapisnika pogrešaka
 
-Prema zadanim postavkama i zapisnici pogrešaka servisa za planiranje projekata i zapisnik skupa operacija mogu se čistiti svakih 90 dana. Svi zapisi stariji od 90 dana bit će izbrisani. Međutim, promjenom vrijednosti **polja msdyn_StateOperationSetAge na** **stranici Parametri projekta** administratori mogu prilagoditi raspon čišćenja tako da bude između 1 i 120 dana. Dostupno je nekoliko metoda za promjenu ove vrijednosti:
+Prema zadanim postavkama, i zapisnici pogrešaka usluge zakazivanja projekata i zapisnik Skupa operacija mogu se očistiti svakih 90 dana. Svi zapisi stariji od 90 dana bit će izbrisani. Međutim, promjenom vrijednosti **polja msdyn_StateOperationSetAge** na **stranici Parametri** projekta administratori mogu prilagoditi raspon čišćenja tako da bude između 1 i 120 dana. Dostupno je nekoliko metoda za promjenu ove vrijednosti:
 
-- Prilagodite **entitet Parametar projekta** stvaranjem prilagođene stranice i dodavanjem **polja Vrijeme skupa ustajalih** operacija.
-- Koristite klijentski kod koji koristi [WebApi komplet za razvoj softvera (SDK).](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord)
-- Koristite Kod Service SDK koji koristi Xrm SDK **updateRecord** metodu (referenca klijentskog API-ja) u aplikacijama utemeljenim na modelu. Power Apps sadrži opis i podržane parametre za **metodu** updateRecord.
+- **Prilagodite entitet Parametar** projekta stvaranjem prilagođene stranice i dodavanjem polja Postavljena **dob** za ustajale operacije.
+- Koristite klijentski kod koji koristi [WebApi komplet za razvoj softvera (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
+- Koristite SDK kod servisa koji koristi Xrm SDK **updateRecord** metodu (referenca klijentskog API-ja) u aplikacijama stvorenim prema modelu. Power Apps uključuje opis i podržane parametre za metodu **updateRecord**.
 
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {

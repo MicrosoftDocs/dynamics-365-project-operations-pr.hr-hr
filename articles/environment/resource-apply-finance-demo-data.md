@@ -1,24 +1,24 @@
 ---
 title: Primjena pokaznih podataka u okruženju aplikacije Finance hostirane u oblaku
-description: U ovoj temi pojašnjava se način primjene pokaznih podataka iz aplikacije Project Operations na okruženje hostirano u oblaku aplikacije Dynamics 365 Finance.
+description: Ova tema objašnjava kako primijeniti demo podatke iz projektnih operacija na okruženje Dynamics 365 Finance u oblaku.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009657"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588957"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Primjena pokaznih podataka u okruženju aplikacije Finance hostirane u oblaku
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
 > [!IMPORTANT]
-> Ova tema odnosi se samo na verziju 10.0.13 aplikacije Microsoft Dynamics 365 Finance i može se izvršavati samo u okruženju hostiranom u oblaku. Dovršite korake iz ove teme **PRIJE** primjene kvalitativnih ažuriranja na okruženje.
+> Ova tema primjenjiva Microsoft Dynamics je samo 365 Finance verzija 10.0.13 i može se izvoditi samo u okruženju smještenom u oblaku. Dovršite korake iz ove teme **PRIJE** primjene kvalitativnih ažuriranja na okruženje.
 
 1. U svom LCS projektu otvorite stranicu **Pojedinosti okruženja**. Vidite da to uključuje pojedinosti potrebne za povezivanje s okruženjem s pomoću protokola udaljene radne površine (RDP, Remote Desktop Protocol).
 
@@ -76,7 +76,7 @@ To traje nekoliko minuta. Trebali biste primiti poruku s potvrdom kako je korisn
 
 18. Zatvorite sesiju udaljene radne površine i upotrijebite LCS stranicu **Pojedinosti okruženja** za prijavu u okruženje kako biste potvrdili da radi onako kako se očekivalo.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Financije i operacije.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

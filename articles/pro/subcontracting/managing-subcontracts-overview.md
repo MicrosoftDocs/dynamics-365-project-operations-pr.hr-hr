@@ -3,15 +3,15 @@ title: Upravljanje podugovorima u aplikaciji Project Operations
 description: U ovoj temi nalazi se pregled cjelovitog postupka upravljanja podugovorima uobičajenu tvrtkama ili ustanovama koje se temelje na projektu.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323587"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593005"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Upravljanje podugovorima u aplikaciji Project Operations
 
@@ -46,7 +46,7 @@ Redak podugovora može se temeljiti na količini ili na radu.
 
 Kad je redak podugovora **na temelju količine**, količina kupljena na retku podugovora za vrijeme, troškove ili materijal može se upotrijebiti na svakom projektu.
 
-Kad je redak podugovora **na temeljenu rada**, redak podugovora mapira se na ukupnost rada koji se u planu projekta prikazuje kao čvor. Vrijednost retka podugovora zbroj je svih komponenti koje su potrebne za isporuku te ukupnosti rada. One su modelirane kao pojedinosti retka podugovora i mogu biti skup vremena, troškova ili materijala. Za redak podugovora koji se temelji na radu, redak podugovora također je namijenjen jednom projektu.
+Kad je redak podugovora **na temeljenu rada**, redak podugovora mapira se na ukupnost rada koji se u planu projekta prikazuje kao čvor. Vrijednost retka podugovora zbroj je svih komponenti koje su potrebne za isporuku te ukupnosti rada. One su modelirane kao pojedinosti retka podugovora i mogu biti skup vremena, troškova ili materijala. Za redak podugovora koji se temelji na radu, redak podugovora također je namijenjen jednom projektu. Te vrste podugovaratelja nisu podržane projektnim operacijama.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996787"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587347"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Raspoređivanje projekta sa strukturnom analizom rada (Project Service)
 
@@ -63,7 +64,7 @@ Raspored projekta objašnjava koji posao treba učiniti, koji će resursi izvest
 ## <a name="task-types"></a>Vrste zadataka  
 Prilikom stvaranja strukturne analize rada koristit ćete sljedeće vrsta zadataka:  
 
-| | | 
+| Zadatak | Opis | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Korijenski čvor projekta** | Zadatak sažetka najviše razine za projekt. Svi drugi zadaci projekta stvaraju se ispod njega. Naziv korijenskog zadatka je naziv projekta. Trud, datumi i trajanje korijenskog čvora temelje se na vrijednostima u hijerarhiji ispod njega. Ne možete uređivati svojstva korijenskog čvora ili izbrisati korijenski čvor. | 
 | **Zadaci sažetka ili spremnika** | Zadatak sažetka je zadatak koji ispod sebe ima podzadatke. Zadatak sažetka ne sadrži vlastiti trud ili trošak. Njegov trud i trošak je skupna vrijednost njegovih podzadataka. Možete promijeniti naziv zadatka sažetka, ali ne možete promijeniti trud, datume ili trajanje jer se izračunavaju automatski. Brisanje zadatka sažetka briše zadatak i sve njegove podzadatke.|  

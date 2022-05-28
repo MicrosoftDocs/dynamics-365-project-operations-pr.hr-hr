@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986527"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586887"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Postavljanje i integracija konfiguracijskih podataka aplikacije Project Operations
 
@@ -22,34 +22,34 @@ U ovoj temi nalaze se informacije o integraciji s dvostrukim pisanjem u aplikaci
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Ugovor o projektu, redci ugovora i projekti
 
-Ugovori o projektima, redci ugovora i projekti stvaraju se na platformi Dataverse i sinkroniziraju s aplikacijama Finance and Operations za dodatno računovodstvo. Zapisi u tim entitetima mogu se stvarati i brisati samo na platformi Dataverse. Međutim, računovodstveni atributi kao što su zadane vrijednosti grupe poreza na promet i financijske veličine mogu se dodati tim evidencijama u aplikacijama Finance and Operations.
+Ugovori o projektu, reci ugovora i projekti kreiraju se u Dataverse aplikacijama Financije i operacije i sinkroniziraju ih s njima radi dodatnog računovodstva. Zapisi u tim entitetima mogu se stvarati i brisati samo na platformi Dataverse. Međutim, računovodstveni atributi kao što su neispunjavanja obveza porezne grupe za promet i financijske dimenzije mogu se dodati tim zapisima u aplikacijama Financije i operacije.
 
   ![Koncepti integracije ugovora o projektu.](./media/1ProjectContract.jpg)
 
-Prati se aktivnost prodaje za potencijalne kupce, prilike i ponude na platformi Dataverse, ali se ne sinkronizira s aplikacijama Finance and Operations, jer uz ovu aktivnost nije povezano nizvodno računovodstvo.
+Potencijalni klijenti, prilike i ponude prodajnih aktivnosti prate se i Dataverse ne sinkroniziraju se s aplikacijama Financije i operacije jer s tom aktivnošću nije povezano daljnje računovodstvo.
 
-Funkcionalnost ugovora o projektu na platformi Dataverse stvara zapis ugovora o projektu u aplikacijama Finance and Operations s pomoću karte tablice **Zaglavlja ugovora o projektu (prodajni nalozi)**. Spremanje ugovora o projektu na platformi Dataverse također počinje stvarati zapis entiteta klijenta ugovora o projektu. Ovaj se zapis sinkronizira s aplikacijama Finance and Operations s pomoću karte tablice **Izvor financiranja projekata (msdyn\_projectcontractssplitbillingrules)**. Ova karta također sinkronizira dodavanja, ažuriranja i brisanja klijenata u ugovoru o projektu. Postocima podijeljene naplate između klijenata ugovora o projektu upravlja se samo na platformi Dataverse, a bez sinkronizacije s aplikacijama Finance and Operations.
+Funkcija ugovora o projektu u programu Dataverse kreira zapis o ugovoru o projektu u aplikacijama Financije i operacije pomoću **karte tablice Zaglavlja ugovora o projektu (prodaje).** Spremanje ugovora o projektu na platformi Dataverse također počinje stvarati zapis entiteta klijenta ugovora o projektu. Taj se zapis sinkronizira s aplikacijama za financije i operacije pomoću **karte tablice Izvor financiranja projekta (msdyn\_ projectcontractssplitbillingrules).** Ova karta također sinkronizira dodavanja, ažuriranja i brisanja klijenata u ugovoru o projektu. Podijeljeni postoci naplate između korisnika ugovora o projektu ovladavaju se samo u Dataverse aplikacijama Financije i operacije i ne sinkroniziraju se s njima.
 
-Nakon stvaranja ugovora o projektu na platformi Dataverse, računovođa projekta može za taj ugovor o projektu ažurirati računovodstvene atribute u aplikacijama Finance and Operations tako da ode na **Upravljanje projektima i računovodstvo** > **Ugovori o projektu** > **Postavke** > **Prikaži zadano računovodstvo**. Računovođa može pregledati operativne atribute ugovora o projektu, kao što su traženi datum isporuke i iznos ugovora, tako da odabere ID ugovora o projektu u aplikacijama Finance and Operations, čime otvara povezani zapis ugovora o projektu na platformi Dataverse.
+Nakon kreiranja ugovora o projektu u Dataverse programu, računovođa projekta može ažurirati računovodstvene atribute za ovaj ugovor o projektu u aplikacijama Financije i operacije tako da ode na **Upravljanje projektima i računovodstvo** > **Ugovori o** > **projektu Postavljanje** > **prikaži zadano računovodstvo**. Računovođa može pregledati atribute ugovora o operativnom projektu, kao što su zatraženi datum isporuke i iznos ugovora odabirom ID-a ugovora o projektu u aplikacijama Financije i operacije koja otvara povezani zapis ugovora o projektu u Dataverse sustavu.
 
-Entitet projekta sinkronizira se s aplikacijama Finance and Operations s pomoću karte tablice **Projekti V2 (msdyn\_projects)**. Računovođa projekta može:
+Projektni entitet sinkronizira se s aplikacijama Za financije i operacije pomoću **karte tablice Projekti V2 (msdyn\_ projekti).** Računovođa projekta može:
 
-  - Pregledati projekte u aplikacijama Finance and Operations tako da ode na **Upravljanje projektima i računovodstvo** > **Svi projekti**. 
-  - Ažurirati računovodstvene atribute za projekt u aplikacijama Finance and Operations tako da ode na **Upravljanje projektima i računovodstvo** > **Svi projekti** > **Postavke** > **Prikaži zadano računovodstvo**.  
-  - Pregledati operativne atribute projekta, kao što su procijenjeni datumi početka i završetka, tako da odabere ID projekta u aplikacijama Finance and Operations, čime se otvara povezani zapis o projektu na platformi Dataverse.
+  - Pregledajte projekte u aplikacijama za financije i operacije odlaskom na **Upravljanje projektima i računovodstvo** > **Svi projekti**. 
+  - Ažurirajte računovodstvene atribute za projekt u aplikacijama Financije i Operacije tako da **otvorite Upravljanje projektima i računovodstvo** > **Svi projekti** > **Postavljeni Prikaži zadano** > **računovodstvo**.  
+  - Pregledajte atribute operativnog projekta, kao što su procijenjeni datumi početka i završetka, odabirom ID-a projekta u aplikacijama Financije i operacije koji otvara povezani zapis projekta u Dataverse sustavu.
 
 Projekt je povezan s ugovorom o projektu putem entiteta **Redak ugovora o projektu**.
 
-Redci ugovora o projektu na platformi Dataverse stvaraju pravilo naplate za ugovor o projektu u aplikacijama Finance and Operations s pomoću karte tablice **Redci ugovora o projektu (pojedinosti prodajnog naloga)**. Način naplate definira vrstu pravila naplate za ugovor o projektu u aplikacijama Finance and Operations:
+Reci ugovora o projektu u programu Dataverse kreira pravilo naplate ugovora o projektu u aplikacijama Financije i operacije pomoću **karte tablice Reci ugovora o projektu (salesorderdetails**). Način naplate definira vrstu pravila naplate ugovora o projektu u aplikacijama Financije i operacije:
 
   - Redci ugovora o projektu s načinom naplate vremena i materijala stvaraju pravilo naplate vrste vremena i materijala.
   - Redci ugovora s načinom naplate uz nepromjenjivu cijenu stvaraju pravilo naplate putem kontrolne točke.
 
-Retke ugovora o projektu može pregledati knjigovođa projekta u aplikacijama Finance and Operations tako da ode na **Upravljanje projektima i računovodstvo** > **Ugovori o projektu** > **Postavke** > **Prikaži zadano računovodstvo** i pregleda pojedinosti na kartici **Redci ugovora**. Računovođa na ovoj kartici također može postaviti zadane financijske veličine za način naplate redaka ugovora s nepromjenjivom cijenom.
+Retke ugovora o projektu računovođa projekta može pregledati u aplikacijama Financije i operacije tako da odete na **Ugovor o upravljanju projektima i računovodstvu** > **Ugovori o** > **projektu Postavite** > **Prikaži zadano računovodstvo** i pregledate detalje na **kartici Reci** ugovora. Računovođa također može postaviti zadane financijske dimenzije za retke ugovora o načinu naplate fiksne cijene na ovoj kartici.
 
 ## <a name="billing-milestones"></a>Kontrolne točke naplate
 
-Redci ugovora o projektu koji upotrebljavaju način naplate s nepromjenjivom cijenom fakturiraju se putem kontrolnih točaka za naplatu. Kontrolne točke za naplatu sinkroniziraju se s djelomično plaćenim transakcijama projekta u aplikacijama Finance and Operations s pomoću karte tablice **Kontrolne točke retka ugovora za integraciju aplikacije Project Operations (msdyn\_contractlinescheduleofvalues)**.
+Redci ugovora o projektu koji upotrebljavaju način naplate s nepromjenjivom cijenom fakturiraju se putem kontrolnih točaka za naplatu. Ključne etape za naplatu sinkroniziraju se s projiciranjem transakcija na računu u aplikacijama za financije i operacije pomoću **karte tablice između ključnih etapa retka ugovora o integraciji projekata (msdyn\_ contractlinescheduleofvalues).**
 
   ![Integracija kontrolnih točaka naplate.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Kada prvi put stvorite kontrolnu točku za naplatu za određeni redak ugovora o 
 
 ### <a name="project-tasks"></a>Projektni zadaci
 
-Projektni zadaci sinkroniziraju se s aplikacijama Finance and Operations putem karte tablice **Projektni zadaci (msdyn\_projecttasks)** samo za referencu. Operacije stvaranja, ažuriranja i brisanja nisu podržane putem aplikacija Finance and Operations.
+Projektni zadaci sinkroniziraju se s aplikacijama Financije i Operacije putem **karte tablice Projektni zadaci (msdyn\_ projecttasks)** samo u referentne svrhe. Stvaranje, ažuriranje i brisanje operacija nije podržano putem aplikacija Za financije i operacije.
 
   ![Integracija projektnih zadataka.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projektni resursi
 
-Entitet **Uloge projektnih resursa** sinkronizira se s aplikacijama Finance and Operations s pomoću karte tablice **Uloge projektnih resursa za sve tvrtke (kategorije koje se mogu rezervirati)** samo za referencu. Budući da uloge resursa na platformi Dataverse nisu specifične za tvrtku, sustav automatski stvara odgovarajuće zapise o ulogama resursa specifične za tvrtku u aplikacijama Finance and Operations i to automatski za sve pravne osobe uključene u raspon integracije s dvostrukim pisanjem.
+Entitet **uloga** resursa projekta sinkronizira se s aplikacijama Financije i operacije pomoću **karte resursa projekta za sva poduzeća (kategorije izvora za rezervacije)** samo u referentne svrhe. Budući da uloge resursa u sustavu nisu specifične za tvrtku Dataverse, sustav automatski stvara odgovarajuće zapise uloga resursa specifične za tvrtku u aplikacijama Financije i operacije za sve pravne osobe uključene u opseg integracije s dvostrukim pisanjem.
 
 ![Integracija uloga resursa.](./media/5Resources.jpg)
 
-Projektni resursi u aplikaciji Project Operations održavaju se na platformi Dataverse i ne sinkroniziraju se s aplikacijama Finance and Operations.
+Projektni resursi u projektnim operacijama održavaju se u Dataverse aplikaciji Za financije i operacije i ne sinkroniziraju se s njima.
 
 ### <a name="transaction-categories"></a>Kategorije transakcija
 
-Kategorije transakcija održavaju se na platformi Dataverse i sinkroniziraju s aplikacijama Finance and Operations s pomoću karte tablice **Kategorije projektnih transakcija (msdyn\_transactioncategories)**. Nakon sinkronizacije zapisa kategorije transakcije, sustav automatski stvara četiri dijeljena zapisa kategorije. Svaki se zapis podudara s vrstom transakcije u aplikacijama Finance and Operations i povezuje ih sa zapisom kategorije transakcije.
+Kategorije transakcija održavaju se i Dataverse sinkroniziraju s aplikacijama Financije i operacije pomoću **karte tablice Kategorije transakcija projekta (msdyn\_ kategorije transakcija).** Nakon sinkronizacije zapisa kategorije transakcije, sustav automatski stvara četiri dijeljena zapisa kategorije. Svaki zapis odgovara vrsti transakcije u aplikacijama Financije i operacije i povezuje ih sa zapisom kategorije transakcije.
 
 ![Integracija kategorija transakcije.](./media/4TransactionCategories.jpg)
 

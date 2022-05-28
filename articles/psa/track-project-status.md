@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996697"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593373"
 ---
 # <a name="track-a-projects-status-project-service"></a>Praćenje statusa projekta (Project Service)
 
@@ -33,14 +34,13 @@ Koristite [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-proj
 
 Kako aktivnost napreduje tako se faze projekta ažuriraju kako bi odražavale fazu aktivnosti:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Novo**    | Kada stvorite projekt, faza je postavljena na **Novo**. Ako ste projekt stvorili iz predloška, u ovoj fazi projekt možda ima raspored, procjene i podatke o timu. U suprotnom, imat ćete strukturu projekta i morat ćete ručno unijeti ostale komponente projekta. |
-|  **Ponuda**   |      Kada projekt pridružujete ponudi ili ga stvarate iz ponude, faza projekta postavljena je na **Ponuda** i procijenjeni datumi početka i završetka također se ažuriraju. Kada je projekt u fazi ponude, detalji o ponudi prikazuju se na kartici **Prodaja** na stranici **Projekt**.      |
-|   **Plan**   |                                     Kada osvojite ponudu povezanu s projektom i kada aktivnost napreduje do faze ugovora, faza projekta ažurira se na **Plan**. Detalji o ugovoru prikazuju se na kartici **Prodaja** na stranici **Projekt**.                                      |
-| **Dovrši** |                    Nakon dovršetka projekta možete prebaciti fazu na **Dovršeno**. Kada je faza projekta postavljena na dovršeno, podrazumijeva se da je posao 100% dovršen, ali je projekt još uvijek otvoren za vrijeme na čekanju ili stavke troškova koje treba zabilježiti.                     |
-|  **Zatvori**   |           Kada zabilježite sve transakcije na projektu i ne očekujete daljnje transakcije, možete fazu ručno postaviti na **Zatvoreno**. Kada je projekt postavljen na **Zatvoreno**, više ne možete bilježiti transakcije na projektu i projekt će biti samo za čitanje.           |
+| Zadatak | Opis | 
+|------------|----------|
+| **New** | Kada stvorite projekt, faza je postavljena na **Novo**. Ako ste projekt stvorili iz predloška, u ovoj fazi projekt možda ima raspored, procjene i podatke o timu. U suprotnom, imat ćete strukturu projekta i morat ćete ručno unijeti ostale komponente projekta. |
+| **Ponuda** |  Kada projekt povežete s ponudom ili ga stvorite iz ponude, faza projekta postavljena je na **Ponuda**, a ažuriraju se i procijenjeni datumi početka i završetka. Kada je projekt u fazi ponude, detalji o ponudi prikazuju se na kartici **Prodaja** na stranici **Projekt**. |
+| **Plan** |  Kada osvojite ponudu povezanu s projektom i kada aktivnost napreduje do faze ugovora, faza projekta ažurira se na **Plan**. Detalji o ugovoru prikazuju se na kartici **Prodaja** na stranici **Projekt**. |
+| **Dovrši** | Nakon dovršetka projekta možete prebaciti fazu na **Dovršeno**. Kada je faza projekta postavljena na dovršeno, podrazumijeva se da je posao 100% dovršen, ali je projekt još uvijek otvoren za vrijeme na čekanju ili stavke troškova koje treba zabilježiti. |
+| **Zatvori** | Kada zabilježite sve transakcije na projektu i ne očekujete daljnje transakcije, možete fazu ručno postaviti na **Zatvoreno**. Kada je projekt postavljen na **Zatvoreno**, više ne možete bilježiti transakcije na projektu i projekt će biti samo za čitanje. |
 
 ## <a name="to-track-a-projects-status"></a>Za praćenje statusa projekta  
 

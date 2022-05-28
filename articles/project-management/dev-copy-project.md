@@ -2,76 +2,80 @@
 title: Razvoj predložaka projekata s pomoću mogućnosti Kopiranja projekta
 description: U ovoj temi nalaze se informacije o načinu stvaranja predložaka projekta s pomoću prilagođene radnje Kopiraj projekt.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989235"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590889"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Razvoj predložaka projekata s pomoću mogućnosti Kopiranja projekta
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations podržava mogućnost kopiranja projekta i vraćanja svih zadataka natrag generičkim resursima koji predstavljaju ulogu. Klijenti mogu upotrebljavati ovu funkcionalnost za izradu osnovnih predložaka projekta.
 
 Kad odaberete **Kopiraj projekt**, ažurira se status ciljnog projekta. Upotrijebite **Razlog statusa** kako biste odredili kada je radnja kopiranja dovršena. Odabir **Kopiraj projekt** također ažurira datum početka projekta na trenutačni datum početka ako nije otkriven ciljni datum u ciljnom entitetu projekta.
 
-## <a name="copy-project-custom-action"></a>Prilagođena radnja značajke Kopiraj projekt 
+## <a name="copy-project-custom-action"></a>Prilagođena radnja značajke Kopiraj projekt
 
-### <a name="name"></a>Ime 
+### <a name="name"></a>Ime/naziv 
 
-**msdyn_CopyProjectV2**
+msdyn\_ CopyProjectV3
 
 ### <a name="input-parameters"></a>Ulazni parametri
+
 Postoje tri ulazna parametra:
 
-| Parametar          | Tip   | Vrijednosti                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** ili **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Referenca entiteta | SourceProject |
-| Cilj             | Referenca entiteta | Ciljani projekt |
+- **ReplaceNamedResources** ili **ClearTeamsAndAssignments** – Postavite samo jednu od mogućnosti. Ne postavljajte oboje.
 
+    - **\{"ReplaceNamedResources":true\}** – zadano ponašanje za projektne operacije. Svi imenovani resursi zamjenjuju se generičkim resursima.
+    - **\{"ClearTeamsAndAssignments":true\}** – zadano ponašanje za Project for the Web. Svi zadaci i članovi tima su uklonjeni.
 
-- **{"clearTeamsAndAssignments":true}** : Tri zadana ponašanja za aplikaciju Project for the Web i uklonit će sve zadatke i članove tima.
-- **{"removeNamedResources":true}** Zadano ponašanje za aplikaciju Project Operations i vratit će dodjele na generičke resurse.
+- **SourceProject** – referenca entiteta izvornog projekta iz kojeg se kopira. Ovaj parametar ne može imati vrijednost null.
+- **Cilj** – referenca entiteta ciljnog projekta u koji se kopira. Ovaj parametar ne može imati vrijednost null.
 
-Dodatne informacije o radnjama potražite u članku [Uporaba Web API radnji](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Sljedeća tablica sadrži sažetak tri parametra.
 
-## <a name="specify-fields-to-copy"></a>Navedite polja za kopiranje 
+| Parametar                | Tip             | Vrijednost                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Booleov          | **Istinito** ili **netočno** |
+| ClearTeamsAndAssignments | Booleov          | **Istinito** ili **netočno** |
+| SourceProject            | Referenca entiteta | Izvorni projekt    |
+| Cilj                   | Referenca entiteta | Ciljni projekt    |
+
+Dodatne zadane postavke za akcije potražite u članku [Korištenje akcija web-API-ja](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+
+### <a name="validations"></a>Provjere valjanosti
+
+Izvršene su sljedeće provjere valjanosti.
+
+1. Null provjerava i dohvaća izvorne i ciljne projekte kako bi potvrdio postojanje oba projekta u organizaciji.
+2. Sustav provjerava je li ciljni projekt valjan za kopiranje provjerom sljedećih uvjeta:
+
+    - Na projektu nema prethodne aktivnosti (uključujući odabir kartice **Zadaci**), a projekt je novostvoren.
+    - Nema prethodne kopije, za ovaj projekt nije zatražen uvoz, a projekt nema status **Neuspjeli**.
+
+3. Operacija se ne poziva korištenjem HTTP-a.
+
+## <a name="specify-fields-to-copy"></a>Navedite polja za kopiranje
+
 Kada je akcija pozvana, značajka **Kopiraj projekt** pogledat će u projektu prikaz **Kopiranje stupaca projekta** kako bi se utvrdilo koja polja kopirati kada se projekt kopira.
 
-
 ### <a name="example"></a>Primjer
-Sljedeći primjer prikazuje način pozivanja prilagođene radnje **CopyProject** s pomoću skupa parametara **removeNamedResources**.
+
+Sljedeći primjer pokazuje kako nazvati prilagođenu akciju **CopyProjectV3** sa skupom parametara **removeNamedResources**.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Sljedeći primjer prikazuje način pozivanja prilagođene radnje **CopyProject**
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

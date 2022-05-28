@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002322"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591901"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Postavljanje prilagođenih polja kao cjenovnih veličina 
 
@@ -69,14 +70,14 @@ Postoje dvije vrste dimenzija cijena:
    
    U sljedećoj tablici prikazan je izračun provizija cijena.
   
-| Uloga        | Organizacijska jedinica    |Mjesto rada      |Radno mjesto – standardno      |Radno vrijeme resursa      |  Provizija|
+| Uloga        | Org. jedinica    |Radno mjesto      |Radno mjesto – standardno      |Radno vrijeme resursa      |  Provizija|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Indija|Na lokaciji            |                    |Prekovremeni rad                 |15     |
-|             | Contoso Indija|Lokalno             |                    |Prekovremeni rad                 |10     |
+|             | Contoso, Indija|Na lokaciji            |                    |Prekovremeni rad                 |15     |
+|             | Contoso, Indija|Lokalno             |                    |Prekovremeni rad                 |10     |
 |             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20     |
 
 
-Ako resurs iz tvrtke Contoso Indija, čija je osnovna cijena 100 USD, radi na licu mjesta, a oni bilježe 8 sati redovnog radnog vremena i 2 sata prekovremenog rada na unosu vremena, modul za određivanje cijena Project Service upotrebljava osnovnu cijenu od 100 za 8 sati kako bi se zabilježilo 800 USD. Za 2 sata prekovremenog rada na osnovnu stopu od 100 primjenjuje se provizija od 15% da bi se dobila jedinična cijena od 115 USD te se bilježi ukupni trošak od 230 USD.
+Ako je resurs iz tvrtke Contoso, Indija čija je osnovna stopa 100 USD radi na lokaciji, a oni bilježe 8 sati uobičajenog radnog vremena i 2 sata prekovremenog rada, program za određivanje cijena Project Service upotrebljava osnovnu stopu od 100 za 8 sati kako bi se zabilježilo 800 USD. Za 2 sata prekovremenog rada na osnovnu stopu od 100 primjenjuje se provizija od 15% da bi se dobila jedinična cijena od 115 USD te se bilježi ukupni trošak od 230 USD.
 
 ### <a name="applicable-to-cost"></a>Primjenjivo na trošak 
 Ako je ovo polje postavljeno na **Da**, to znači da bi se vrijednost dimenzije iz ulaznog konteksta trebala upotrijebiti za podudaranje s recima **Cijena uloge** i **Provizija cijene uloge** prilikom dohvaćanja stopa troška i provizije.

@@ -1,59 +1,59 @@
 ---
-title: Članovi projektnog tima kooperanta
-description: Ovaj tema objašnjava kako kooperirati članove projektnog tima u Microsoftu Dynamics 365 Project Operations.
+title: Podugovaranje članova projektnog tima
+description: Ovaj tema objašnjava kako podugovarati članove projektnog tima u Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b98fc356d7de77fa7f05667acaa5569a7053e4d1
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903632"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587829"
 ---
-# <a name="subcontracting-project-team-members"></a>Članovi projektnog tima kooperanta
+# <a name="subcontracting-project-team-members"></a>Podugovaranje članova projektnog tima
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-U Dynamics 365 Project Operations Microsoftu možete odabrati podugovaranje članova projektnog tima bez osoblja ili osoblja.
+U programu Microsoft Dynamics 365 Project Operations možete odabrati podugovaranje članova projektnog tima bez osoblja ili osoblja.
 
-- Članovi projektnog tima bez osoblja imaju dodijeljen generički resurs.
-- Članovi tima s osobljem imaju dodijeljen imenovani resurs.
+- Članovima projektnog tima bez osoblja dodijeljen je generički resurs.
+- Članovima tima s osobljem dodijeljen je imenovani resurs.
 
-Kada člana projektnog tima povežete s retkom kooperanta, sve dodjele zadataka koje član tima ima ponovno će se izvršiti na temelju popisa kupovnih cijena pridruženih kooperantu.  Na **kartici Procjene** na **stranici Detalji o** projektu odaberite **gumb Ažuriraj cijene da biste vidjeli** ažurirane cijene i/ili troškove koji proizlaze iz odluke o podugovaranja. 
+Kada povežete člana projektnog tima s retkom podugovaranja, svi zadaci zadacima koje član tima ima bit će povučeni na temelju popisa cijena nabave priloženog kooperantu.  Na kartici **Procjene** na **stranici Detalji o** projektu odaberite **gumb Ažuriraj cijene** da biste vidjeli ažurirane cijene i/ili troškove koji proizlaze iz odluke o podugovaranju. 
 
 ## <a name="subcontracting-an-unstaffed-project-team-member"></a>Podugovaranje člana projektnog tima bez osoblja
-**Stranica s detaljima o članu tima** ima polja crte kooperanta i kooperanta koja upravitelju projekta omogućuju da izrazi kako želi izvući potreban kapacitet iz kooperanta. Da biste podugovarali člana projektnog tima kao generički resurs, slijedite ove korake:
+Stranica **s detaljima o** članu tima ima polja retka podugovaratelja i podugovaratelja koja omogućuju voditelju projekta da izrazi kako želi izvući potreban kapacitet iz podugovaratelja. Da biste podugovarali člana projektnog tima kao generički resurs, slijedite ove korake:
 
-1.  Odaberite podugovarate na **stranici s detaljima o članu** tima.
+1.  Odaberite kooperant na stranici Detalji o **članu** tima.
 
-2.  Možete odabrati samo kooperante **sa** **statusom Skica ili** Potvrđeno. **Zatvorene** ili **otkazane** podugovarače nije moguće odabrati. 
+2.  Kooperante možete odabrati samo sa statusom **Skica** ili **Potvrđeno**. **Nije moguće odabrati zatvorene** ili **otkazane kooperante**. 
 
-3.  **Polje retka kooperanta** postaje vidljivo nakon što odaberete kooperant.
+3.  Polje retka **kooperanta** postaje vidljivo nakon što odaberete kooperant.
 
-4.  U **polju Redak kooperanta** možete odabrati samo retke kooperanta koji su za vrijeme. Ne možete odabrati retke kooperanta za trošak ili materijal.
+4.  **U polju Redak** kooperacije možete odabrati samo retke kooperacije koji su za vrijeme. Ne možete odabrati retke kooperacije za trošak ili materijal.
 
-5.  Uloga zapisa člana projektnog tima mora odgovarati ulozi na liniji kooperanta. Time se osigurava da je vrijeme za ulogu koja se procjenjuje na projektu ista uloga koja se kupuje na retku kooperanta. 
+5.  Uloga zapisa člana projektnog tima mora odgovarati ulozi u retku podugovaranja. Time se osigurava da je vrijeme za ulogu koja se procjenjuje na projektu ista uloga koja se kupuje u retku podugovaranja. 
 
-Kada je generički član tima povezan s retkom kooperanta i kooperanta, **polje Vrsta radnika** u generičkom retku člana tima ažurirat će se na **Ugovorni** radnik, a valjanost **kooperanta bit će postavljena na** **Valjano**.
+Kada je generički član tima povezan s retkom podugovaratelja i kooperacije, polje Vrsta **radnika u retku generičkog člana tima ažurirat** će se u Ugovorni radnik **,** a **Valjanost kooperanta** postavit će se na **Valjano**.
 
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Podugovaranje člana projektnog tima s osobljem
-Kao i generički članovi tima ili članovi tima bez osoblja, kapacitet članova tima potreban za projekt također se može povezati s podizvođačem. Da biste podugovarali imenovanog člana projektnog tima, slijedite ove korake:
+Poput generičkih ili neodržavanih članova tima, kapacitet članova tima s osobljem potreban za projekt također se može povezati s podugovaračem. Da biste podugovarali imenovanog člana projektnog tima, slijedite ove korake:
 
-1.  Provjerite je li imenovani resurs postavljen kao vrsta resursa koji se može rezervirati kao ugovorni radnik. Također, provjerite odgovara li **polje Dobavljač** resursu koji se može rezervirati dobavljaču u kooperantu koji odaberete. 
+1.  Provjerite je li imenovani resurs postavljen kao vrsta resursa koji se može rezervirati kao ugovorni radnik. Također, provjerite **odgovara li polje Dobavljač** na resursu koji se može rezervirati dobavljaču na kooperantu koji odabirete. 
 
-2.  Podugovaranje možete odabrati samo u **statusu Skica** ili **Potvrđeno**. **Zatvorene** ili **otkazane** podugovarače nije moguće odabrati. 
+2.  Kooperante možete odabrati samo u statusu **Skica** ili **Potvrđeno**. **Nije moguće odabrati zatvorene** ili **otkazane kooperante**. 
 
-3.  **Polje retka kooperanta** postaje vidljivo nakon što odaberete kooperant.
+3.  Polje retka **kooperanta** postaje vidljivo nakon što odaberete kooperant.
 
-4.  U **polju Redak kooperanta** možete odabrati samo retke kooperanta koji su za vrijeme. Ne možete odabrati retke kooperanta za trošak ili materijal.
+4.  **U polju Redak** kooperacije možete odabrati samo retke kooperacije koji su za vrijeme. Ne možete odabrati retke kooperacije za trošak ili materijal.
 
-5.  Uloga zapisa člana projektnog tima mora odgovarati ulozi na liniji kooperanta. Time se osigurava da je vrijeme za ulogu koja se procjenjuje na projektu ista uloga koja se kupuje na retku kooperanta. 
+5.  Uloga zapisa člana projektnog tima mora odgovarati ulozi u retku podugovaranja. Time se osigurava da je vrijeme za ulogu koja se procjenjuje na projektu ista uloga koja se kupuje u retku podugovaranja. 
 
-Imenovani članovi projektnog tima koji su postavljeni kao vrsta ugovornog radnika **resursa koji se može** rezervirati prikazat će se sa statusom valjanosti podugovora **koji nije valjan ako nisu povezani s** kooperantom. Kada je imenovani član projektnog tima povezan s retkom kooperanta i kooperanta, **polje Vrsta radnika** u retku člana tima ažurirat će se na **Ugovorni** radnik, a valjanost **kooperanta** bit će postavljena na **Valjano**.
+Imenovani članovi projektnog tima koji su postavljeni kao ugovorni radnik vrste **resursa** koji se može rezervirati prikazat će se sa statusom valjanosti kooperanta koji **nije valjan** ako nisu povezani s podugovarateljem. Kada je imenovani član projektnog tima povezan s retkom kooperanta i podugovaranja, **polje Vrsta** radnika u retku člana tima ažurirat će se na **Ugovorni radnik**, a **Valjanost kooperanta** postavit će se na **Valjano**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

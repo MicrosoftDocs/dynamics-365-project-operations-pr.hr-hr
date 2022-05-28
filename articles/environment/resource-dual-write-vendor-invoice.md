@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986482"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591166"
 ---
 # <a name="vendor-invoice-integration"></a>Integracija fakture dobavljača
 
@@ -34,7 +34,7 @@ Fakture dobavljača u aplikaciji Project Operations, koje se odnose na projekt, 
      > [!NOTE]
      > Pojedinosti fakture dobavljača na platformi Dataverse ne mogu se uređivati.
 
-Sporedne računovodstvene knjige za porez, dobavljača i ostala financijska knjiženja evidentiraju se prema potrebi u aplikaciji Dynamics 365 Finance nakon knjiženja fakture dobavljača.
+Pododjeljak za poreze, pododjeljak dobavljača i druga financijska knjiženja bilježe se prema potrebi u Dynamics 365 Finance prilikom knjiženja fakture dobavljača.
 
 ![Integracija fakture dobavljača.](media/DW7VendorInvoice.png)
 

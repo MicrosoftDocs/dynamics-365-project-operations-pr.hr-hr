@@ -1,5 +1,5 @@
 ---
-title: Ponovno osmišljena izvješća o troškovima (sadrži videozapis)
+title: Ponovno osmišljena izvješća o troškovima (sadrži videozapise)
 description: U ovoj temi objašnjava se redizajnirano i ponovno zamišljeno iskustvo za unos izvješća o troškovima.
 author: suvaidya
 ms.date: 12/16/2021
@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7941047"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586933"
 ---
 # <a name="expense-reports-reimagined"></a>Izmijenjena izvješća o izdacima
 
@@ -58,7 +58,7 @@ Kako biste uključili novo iskustvo, upotrijebite radni prostor **Upravljanje zn
 | Spremanje i dodavanje novih redaka troškova | Gumbi **Spremi** i **Novo** dostupni su kada se unose novi troškovi, što vam pomaže pri brzom unosu redaka troškova. |
 | Bolja vidljivost unutar razdvojenih i specificiranih redaka | Specificirani i razdvojeni redci dodaju se izravno na popis troškova kako bi se povećala vidljivost i olakšalo utvrđivanje postojanja pogrešaka. |
 | Pregled pojedinosti o podkategorijama u redcima s pojedinostima | Redci s pojedinostima nadređenog troška prikazuju oznake podkategorija u izvješću o trošku. Specificiranje vam omogućuje da letimičnim pregledom uočite najsitnije pojedinosti.|
-|Brzo stavka ponavljajućih troškova | Obnovljeni radni prostor troškova omogućuje brzo zbrajanje ponavljajućih troškova dodavanjem potkategorije, početnog datuma i količine. Količina se odnosi na broj ponavljanja terećenja tijekom neprekidnog razdoblja. |
+|Brzo posvjedočite ponavljajuće troškove | Ponovno osmišljeni radni prostor troškova omogućuje brzo određivanje ponavljajućih troškova dodavanjem potkategorije, datuma početka i količine. Količina se odnosi na broj ponavljanja punjenja tijekom neprekidnog razdoblja. |
 | Prikaz računa tijekom specificiranja | Tijekom specificiranja mogu se prikazati računi. |
 | Odabir gotovinskog predujma | Odaberite jedan ili više gotovinskih predujmova za ispunjenje jedne transakcije troškova. |
 | Saldo gotovinskog predujma | Pregledajte saldo gotovinskog predujma u stvarnom vremenu kada stvarate unos troška u odnosu na odobrene i plaćene gotovinske predujmove. |

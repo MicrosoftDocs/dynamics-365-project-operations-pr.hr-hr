@@ -4,14 +4,14 @@ description: U ovoj temi nalaze se informacije i primjeri o načinu konfiguriran
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994042"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591579"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfiguriranje fakturiranja unutar tvrtke
 
@@ -21,11 +21,11 @@ Poduzmite sljedeće korake za postavljanje fakturiranja projekata unutar tvrtke 
 
 ## <a name="example-configure-intercompany-invoicing"></a>Primjer: Konfiguriranje fakturiranja unutar tvrtke
 
-U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadužuje, a Contoso Robotics UK (GBPM) pravna je osoba koja daje kredit. 
+U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadužuje, a Contoso Robotics UK (GBPM) pravna je osoba koja kreditira. 
 
 1. **Konfiguriraj računovodstvo između pravnih osoba unutar tvrtke**. Svaki par pravnih osoba koje se nalaze u ulozi dužnika i kreditora mora se konfigurirati na stranici Glavne knjige [Računovodstvo između pravnih osoba unutar tvrtke](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. U aplikaciji Dynamics 365 Finance, idite na **Glavna knjiga** > **Postavljanje knjiženja** > **Računovodstvo između pravnih osoba unutar tvrtke**. Stvorite zapis koji ima sljedeće podatke:
+    1. U Dynamics 365 Finance idite na **Postava** > **knjiženja glavne knjige** > **Međukompanijsko računovodstvo**. Stvorite zapis koji ima sljedeće podatke:
 
         - **Tvrtka izvora** = **GBPM**
         - **Tvrtka odredišta** = **USPM**
@@ -41,7 +41,7 @@ U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadu�
      7. Odaberite pravnu osobu **USPM**.
      8. Idite na **Dugovanja** > **Dobavljači** > **Svi dobavljači**. Stvorite novi zapis za pravnu osobu, **GBPM**.
      9. Proširiti **Naziv**, filtrirajte zapise prema **Vrsti** i odaberite stavku **Pravne osobe**. 
-     10. Pronađite i odaberite zapis o klijentu za **Contoso Robotics UK (USPM)**.
+     10. Pronađite i odaberite zapis o klijentu za **Contoso Robotics UK (GBPM)**.
      11. Odaberite stavku **Upotrijebi podudaranje**, odaberite grupu dobavljača, a zatim zapis spremite.
      12. U zapisu o dobavljaču odaberite **Općenito** > **Postavljanje** > **Unutar tvrtke**.
      13. Na kartici **Trgovinski odnos** mogućnost **Aktivan** postavite na **Da**.
@@ -80,19 +80,19 @@ U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadu�
 
 5. **Postavite cijene prijenosa rada**. Cijene prijenosa unutar tvrtke konfigurirane su u aplikaciji Project Operations na rješenju Dataverse. Konfigurirajte [cijene troškova rada](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) i [cijene naplate rada](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) za fakturiranje između pravnih osoba unutar tvrtke. Cijene prijenosa nisu podržane za transakcije troškova unutar tvrtke. Jedinična prodajna cijena unutar tvrtke ili ustanove uvijek će biti postavljena na istu vrijednost kao i jedinična cijena koštanja resursa.
 
-      Trošak resursa za razvojne inženjere u tvrtki Contoso Robotics UK iznosi 88 GBP na sat. Contoso Robotics UK naplatit će tvrtki Contoso Robotics USA 120 USD za svaki sat koji je ovaj resurs radio na američkim projektima. Contoso Robotics USA naplatit će klijentu Adventure Works 200 USD za posao koji je obavio resurs razvojnog inženjera tvrtke Contoso Robotics UK.
+      Trošak resursa za razvojne inženjere u tvrtki Contoso Robotics UK iznosi 88 GBP po satu. Contoso Robotics UK naplatit će tvrtki Contoso Robotics USA 120 USD za svaki sat koji je ovaj resurs radio na projektima SAD-a. Contoso Robotics USA naplatit će klijentu Adventure Works 200 USD za posao koji je izvršio resurs razvojnog inženjera tvrtke Contoso Robotics UK.
 
-      1. U aplikaciji Project Operations u rješenju Dataverse, idite na **Prodaja** > **Cjenici**. Stvorite novi cjenik troškova pod nazivom **Contoso Robotics UK cijene troškova.** 
+      1. U aplikaciji Project Operations u rješenju Dataverse, idite na **Prodaja** > **Cjenici**. Stvorite novi cjenik troškova pod nazivom **Cijene troškova Contoso Robotics UK.** 
       2. U cjeniku troškova stvorite zapis koji sadrži sljedeće podatke:
          - **Uloga** = **Razvojni inženjer**
          - **Trošak** = **88 GBP**
-      3. Idite na **Postavke** > **Organizacijske jedinice** i priložite ovaj cjenik troškova organizacijskoj jedinici tvrtke **Contoso Robotics UK**.
-      4. Idite na **Prodaja** > **Cjenici**. Stvorite novi cjenik troškova pod nazivom **Contoso Robotics USA cijene troškova**. 
+      3. Idite na **Postavke** > **Organizacijske jedinice** i priložite ovaj cjenik troškova organizacijskoj jedinici **Contoso Robotics UK**.
+      4. Idite na **Prodaja** > **Cjenici**. Stvorite novi cjenik troškova pod nazivom **Cijene troškova Contoso Robotics USA**. 
       5. U cjeniku troškova stvorite zapis koji sadrži sljedeće podatke:
           - **Uloga** = **Razvojni inženjer**
           - **Tvrtka za resurse** = **Contoso Robotics UK**
           - **Trošak** = **120 USD**
-      6. Idite na **Postavke** > **Organizacijske jedinice** i priložite cjenik troškova **Contoso Robotics USA cjenik troškova** organizacijskoj jedinici tvrtke **Contoso Robotics USA**.
+      6. Idite na **Postavke** > **Organizacijske jedinice** i cjenik troškova **Cijene troškova Contoso Robotics USA** priložite organizacijskoj jedinici **Contoso Robotics USA**.
       7. Idite na **Prodaja** > **Cjenici**. Stvorite prodajni cjenik pod nazivom **Cijene naplate za Adventure Works**. 
       8. U prodajnom cjeniku stvorite zapis koji sadrži sljedeće podatke:
           - **Uloga** = **Razvojni inženjer**

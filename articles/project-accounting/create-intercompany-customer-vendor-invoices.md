@@ -4,14 +4,14 @@ description: U ovoj temi nalaze se informacije o načinu stvaranja faktura za kl
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989234"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591487"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Stvaranje faktura za klijenta i dobavljača unutar tvrtke
 
@@ -27,7 +27,7 @@ Ovaj postupak upotrijebite za ručno stvaranje fakture za klijenta unutar tvrtke
 
 Sljedeći koraci moraju se poduzeti u pravnoj osobi koja daje kredit. 
 
-1. U aplikaciji Dynamics 365 Finance, idite na **Upravljanje projektima i računovodstvo** > **Fakture za projekt** > **Fakture za klijenta unutar tvrtke**. Na stranici s popisom **Fakture za klijenta unutar tvrtke**, u Oknu radnji, odaberite **Nova.**
+1. U Dynamics 365 Finance idite na **Upravljanje projektima i računovodstvo** > **Fakture za projekte** > **Međukompanijske fakture za kupce**. Na stranici s popisom **Fakture za klijenta unutar tvrtke**, u Oknu radnji, odaberite **Nova.**
 2. Na stranici **Stvori fakturu unutar tvrtke**, u polju **Pravna osoba**, odaberite pravnu osobu koja se zadužuje.
 3. Neobvezno: Unesite određeni ugovor o projektu i broj projekta.
 4. Suzite pretraživanje odabirom raspona datuma. Unesite određene datume u polja **Datum početka** i **Datum završetka**. U rezultatima pretraživanja prikazuju se samo transakcije unutar tvrtke koje su proknjižene unutar ovog raspona datuma.
