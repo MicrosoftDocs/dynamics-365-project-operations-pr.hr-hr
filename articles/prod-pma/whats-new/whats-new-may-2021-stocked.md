@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991117"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586289"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Novosti ili izmjene u aplikaciji Project Operations u svibnju 2021., za scenarije koji se temelje na zalihama / proizvodnji
 
@@ -20,7 +20,7 @@ _ **Odnosi se na:** Project Operations za scenarije koji se temelje na zalihama/
 
 Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
-- Upravljanje projektima i računovodstvo u okruženju aplikacije Dynamics 365 Finance verzije 10.0.19
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.19
  
 ### <a name="quality-updates"></a>Ažuriranja kvalitete
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Pro
 | Putovanje i trošak                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Postoje problemi sinkronizacije s mobilnom aplikacijom za troškove. 
 
 ### <a name="regulatory-updates"></a>Ažuriranja propisa
-Za informacije o ažuriranjima propisa za aplikacije Finance and Operations, pogledajte članak [Ažuriranja propisa](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti u aplikaciju Lifecycle Services (LCS) i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+Informacije o regulatornim ažuriranjima za aplikacije Financije i operacije potražite u članku [Regulatorna ažuriranja](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti u aplikaciju Lifecycle Services (LCS) i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

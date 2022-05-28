@@ -3,16 +3,15 @@ title: Pregled fakturiranja unutar tvrtke
 description: U ovoj temi nalaze se informacije i primjeri o načinu fakturiranja projekata unutar tvrtke.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005382"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586243"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled fakturiranja unutar tvrtke
 
@@ -20,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Vaša tvrtka ili ustanova može imati više sektora, podružnica i drugih pravnih osoba koje međusobno prenose proizvode i usluge za projekte. Pravna osoba koja osigurava uslugu ili proizvod naziva se *pravna osoba koja kreditira*. Pravna osoba koja prima uslugu ili proizvod naziva se *pravna osoba koja se zadužuje*.
 
-Na sljedećoj se ilustraciji prikazuje tipični scenarij kada dvije pravne osobe, Contoso Robotics SAD (pravna osoba koja se zadužuje) i Contoso Robotics UK (pravna osoba koja pozajmljuje), dijele resurse za isporuku projekta za klijenta Adventure works. Za ovaj scenarij, Contoso Robotics SAD unajmljen je za isporuku posla tvrtki Adventure Works.
+Sljedeća ilustracija prikazuje uobičajeni scenarij u kojem dvije pravne osobe, Contoso Robotics USA (pravna osoba koja se zadužuje) i Contoso Robotics UK (pravna osoba koja kreditira) dijele resurse kako bi se isporučio projekt kupcu, Adventure works. Za ovaj scenarij unajmljena je tvrtka Contoso Robotics USA da posao isporuči tvrtki Adventure Works.
 
 ![Fakturiranje unutar tvrtke.](./media/IntercompanyScenario.png) 
 

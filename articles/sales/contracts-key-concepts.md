@@ -4,26 +4,26 @@ description: U ovoj temi nalaze se informacije o osnovnim konceptima ugovora o p
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986932"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582931"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Jedinstveni koncepti za ugovore koji se temelje na projektu
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 U ovoj temi nalaze se ključni koncepti kojih morate biti svjesni prije nego što počnete upotrebljavati ugovore o projektu u aplikaciji Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Tvrtka vlasnik
 
-Tvrtka vlasnica pravna je osoba iz modula **Upravljanje projektima i računovodstvo** za aplikaciju Project Operations iz aplikacije Dynamics 365 Finance. Tvrtka vlasnik pravna je osoba koja će obračunati troškove i prihode koji proizlaze iz posla.
+Vlastito društvo je pravna osoba iz modula upravljanja i računovodstva **projekta** za projektne operacije iz Dynamics 365 Finance. Tvrtka vlasnik pravna je osoba koja će obračunati troškove i prihode koji proizlaze iz posla.
 
 ## <a name="contracting-unit"></a>Ugovorna jedinica
 

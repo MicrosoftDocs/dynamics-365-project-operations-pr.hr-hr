@@ -3,16 +3,15 @@ title: Pregled postupka fakturiranja
 description: U ovoj se temi govori o pregledu postupka fakturiranja u aplikaciji Project Operations za scenarije temeljene na resursima / bez zaliha.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003762"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582701"
 ---
 # <a name="invoicing-process-overview"></a>Pregled postupka fakturiranja
 
@@ -22,7 +21,7 @@ Scenariji aplikacije Project Operations koji se temelje na resursima /bez zaliha
 
 ![Dijagram tijeka fakturiranja.](./media/invoicing-flow.png)
 
-Redak ugovora o projektu određuje način naplate za povezane projektne transakcije. Kada voditelj projekta odobri transakcije vremena i troškova, sustav bilježi transakcije u entitetu **Stvarni podaci o projektu** i podatke šalje modulu **Upravljanje projektima i računovodstvo** u aplikaciji Dynamics 365 Finance. Računovođa projekta pregledava i knjiži zapise s pomoću [dnevnika integracije aplikacije Project Operations](../project-accounting/project-operations-integration-journal.md). Ovaj dnevnik uključuje bitne računovodstvene pojedinosti o stvarnim podacima u projektu, poput naplate, grupe poreza na promet, grupe poreza na promet stavki za naplatu i financijskih veličina.
+Redak ugovora o projektu određuje način naplate za povezane projektne transakcije. Kada voditelj projekta odobri transakcije vremena i rashoda, sustav bilježi transakcije u **entitetu Stvarni projekt i** šalje informacije modulu **za upravljanje i računovodstvo** projekta u Dynamics 365 Finance. Računovođa projekta pregledava i knjiži zapise s pomoću [dnevnika integracije aplikacije Project Operations](../project-accounting/project-operations-integration-journal.md). Ovaj dnevnik uključuje bitne računovodstvene pojedinosti o stvarnim podacima u projektu, poput naplate, grupe poreza na promet, grupe poreza na promet stavki za naplatu i financijskih veličina.
 
 Voditelj projekta može pregledati nefakturirane prodajne transakcije s pomoću načina naplate vremena i materijala u [zaostalim naplatama vremena i materijala](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) i naplate po fiksnoj cijeni u [Kontrolnim točkama fiksne cijene](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Ovi prikazi omogućuju filtriranje i odabir transakcija koje trebaju biti uključene u sljedeći ciklus naplate, a zatim ih označuje kao **Spremno za fakturiranje**.
 

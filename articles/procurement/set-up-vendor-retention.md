@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9511da6212aafbf5b173efc6eb1ceaacbc8264a2
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594572"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583695"
 ---
 # <a name="set-up-vendor-retention"></a>Postavljanje zadržavanja dijela uplate dobavljaču
 
@@ -22,7 +22,7 @@ U ovoj temi nalaze se informacije o načinu postavljanja zadržavanja dijela upl
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Postavljanje računa za zadržavanje dijela uplate dobavljaču u Glavnoj knjizi
 
-1. U aplikaciji Dynamics 365 Finance, idite na **Glavna knjiga** > **Postavljanje knjiženja** > **Računi za automatske transakcije**.
+1. U Dynamics 365 Finance otvorite **Postava** > **knjiženja glavne knjige** > **Računi za automatske transakcije**.
 2. Dodajte novi redak.
 3. U polju **Vrsta knjiženja** odaberite **Zadržavanje dijela uplate dobavljaču**.
 4. Odaberite glavni račun za knjiženje zadržavanja dijela uplate dobavljaču.

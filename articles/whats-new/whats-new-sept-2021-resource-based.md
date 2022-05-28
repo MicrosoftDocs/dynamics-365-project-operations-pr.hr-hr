@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547145"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582885"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u studenom 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547145"
 Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
    - Project Operations u okruženju platforme Microsoft Dataverse verzije 4.14.0.99.
-   - Upravljanje projektima i računovodstvo u okruženju aplikacije Dynamics 365 Finance verzije 10.0.20.
+   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Ažuriranja karata s dvostrukim pisanjem u aplikaciji Project Operations
 
@@ -45,7 +45,7 @@ Ako naiđete na problem pri pokretanju karte, slijedite upute u odjeljku [Proble
 | Naplata i određivanje cijene | 2385802 | Ispravljena je pogreška koja se prikazivala s negativnim stvarnim satima kada su se osvježili ukupni iznosi projekta. |
 | Naplata i određivanje cijene | 2389675 | Poboljšano ponašanje potvrde predračuna. Entitet s dugotrajnim poslovima mora uzeti u obzir aktivnosti potrebne za pisanje rezultata potvrde za računovodstvo. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektom i računovodstvo u aplikaciji Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |

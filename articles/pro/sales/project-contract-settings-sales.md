@@ -2,16 +2,16 @@
 title: Postavke ugovora o projektu – jednostavno
 description: U ovoj temi nalaze se informacije o poljima koja utječu na retke ugovora i informacije o ugovoru koje su sažete u svim stavkama retka.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995932"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586381"
 ---
 # <a name="header-details-for-project-contracts"></a>Pojedinosti zaglavlja za ugovore o projektu
 
@@ -32,12 +32,15 @@ Tablica u nastavku prikazuje polja u ugovoru o projektu koja su jedinstvena za a
 | Ograničenje koje se ne smije prekoračiti | Kartica **Sažetak** | To polje ukazuje na ugovorenu gornju granicu konačne vrijednosti na koje je klijent pristao za ovaj posao. | Gornja se granica procjenjuje tijekom izvršenja i primjenjivo je na sve stavke i projekte povezane s ovom poslom. |
 | Zatraženi datum dostave | Kartica **Sažetak** | Kada je iz ponude projekta stvori ugovor, ovo se polje kopira iz odgovarajućeg polja u ponudi projekta. | Taj datum upotrebljava se kao datum završetka za generiranje rasporeda računa. |
 
-Sljedeći su KPI-jevi dostupni na kartici **Izvršenje ugovora** ugovora o projektu.
+Sljedeći su KPI-jevi dostupni na kartici **Izvršenje ugovora** ugovora o projektu. 
+
+>[!NOTE]
+>Svi iznosi na kartici Ugovorna **izvedba** izraženi su u zadanoj valuti okruženja.
 
 | Polje | Lokacija | Opis |
 | --- | --- | --- |
-| Vrijednost ugovora | Ukupni ugovor | Ukupna vrijednost ugovora o projektu. |
-| Naplaćeni iznos | Ukupni ugovor | Zbroj iznosa na svim računima prema ovom ugovoru. |
+| Vrijednost ugovora | Ukupni ugovor | Ukupna vrijednost ugovora o projektu.|
+| Naplaćeni iznos | Ukupni ugovor | Zbroj iznosa na svim računima prema ovom ugovoru.|
 | Nastao trošak | Ukupni ugovor | Zbroj svih stvarnih troškova evidentiranih na svim projektima koji su mapirani u ugovor. |
 | Bruto marža | Ukupni ugovor | Naplaćeni iznos – Trošak nastao do datuma / Naplaćeni iznos |
 | Očekivana marža | Ukupni ugovor | (Vrijednost ugovora – Procijenjeni troškovi) / Vrijednosno procijenjeni troškovi ugovora = Zbroj svih procijenjenih troškova na svim projektima mapiranim u ugovor.|
