@@ -4,20 +4,20 @@ description: U ovoj temi nalaze se informacije o definiranju ili procjeni materi
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992602"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737293"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Financijske procjene materijala na projektima
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Dynamics 365 Project Operations omogućuje voditeljima projekata da definiraju troškove materijala koji se temelje na projektu za svaki projekt ili zadatak. Svaka procjena materijala može se povezati s određenim projektnim zadatkom. Rashodi su kategorizirani u različite kategorije troškova, koje su definirane na organizacijskoj razini. Cijene i troškovi za svaku kategoriju troškova definiraju se cjenikom. 
+Dynamics 365 Project Operations omogućuje voditeljima projekata da definiraju troškove materijala koji se temelje na projektu za svaki projekt ili zadatak. Svaka procjena materijala može se povezati s određenim projektnim zadatkom. Materijali koji se koriste na projektima mogu biti dopisani proizvodi ili proizvodi iz kataloga proizvoda. Za svaku kombinaciju proizvoda i jedinice cijena se može definirati u cjenicima projekta za prodaju i cjenicima projekta za trošak.  
 
 Poduzmite sljedeće korake za prikaz, dodavanje ili brisanje procjene materijala za projekt.
 
