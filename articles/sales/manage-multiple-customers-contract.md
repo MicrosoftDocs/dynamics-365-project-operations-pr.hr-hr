@@ -1,21 +1,21 @@
 ---
 title: Upravljanje s više klijenata u ugovorima o projektu
-description: U ovoj temi nalaze se informacije o načinu upravljanja većim brojem klijenata u ugovoru o projektu.
+description: U ovom se članku nalaze informacije o upravljanju većim brojem korisnika na ugovoru o projektu.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928331"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Upravljanje s više klijenata u ugovorima o projektu
 
-U ovoj temi nalaze se informacije o načinu upravljanja većim brojem klijenata u ugovoru o projektu. Ugovor o projektu možete upotrebljavati kada je za financiranje posla potreban ugovor s više klijenata. Na stranici **Ugovor o projektu**, kartica **Sažetak** uključuje podatke o primarnom klijentu za posao. Ostali klijenti koji sudjeluju u poslu mogu se dodati na kartici **Klijenti**.
+U ovom se članku nalaze informacije o upravljanju većim brojem korisnika na ugovoru o projektu. Ugovor o projektu možete upotrebljavati kada je za financiranje posla potreban ugovor s više klijenata. Na stranici **Ugovor o projektu**, kartica **Sažetak** uključuje podatke o primarnom klijentu za posao. Ostali klijenti koji sudjeluju u poslu mogu se dodati na kartici **Klijenti**.
 
 Svi klijenti ugovora na kartici **Klijenti** ugovora o projektu zadani su kao klijenti retka ugovora u svakom novom retku ugovora koji se temelji na projektu stvorenom za ugovor o projektu. Svi postojeći redci ugovora koji se temelje na projektu ne nasljeđuju zapise novih klijenata ugovora koji su stvoreni kasnije.
 

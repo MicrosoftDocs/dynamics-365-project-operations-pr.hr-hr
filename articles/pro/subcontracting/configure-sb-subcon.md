@@ -1,17 +1,17 @@
 ---
 title: Konfigurirajte ploču rasporeda tako da prikaže radnike po ugovoru i podugovorne kapacitete
-description: U ovom tema opisuje se kako konfigurirati ploču za raspored u Microsoftu Dynamics 365 Project Operations za prikaz kapaciteta resursa kooperanta prilikom kadrovskih potreba za resursima projekta.
+description: U ovom se članku opisuje kako konfigurirati ploču za raspored u Microsoftu Dynamics 365 Project Operations tako da prikazuje kapacitet resursa kooperanta prilikom zapošljavanja potreba za resursima projekta.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919821"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Konfigurirajte ploču rasporeda tako da prikaže radnike po ugovoru i podugovorne kapacitete 
 

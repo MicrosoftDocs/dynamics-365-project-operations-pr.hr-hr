@@ -1,6 +1,6 @@
 ---
 title: Stvaranje modela predviđanja za proračune projekata
-description: U ovoj temi opisan je način stvaranja modela predviđanja za proračunske iznose koji su preostali.
+description: U ovom se članku opisuje kako stvoriti model predviđanja za preostale proračune.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683621"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916693"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Stvaranje modela predviđanja za proračune projekata 
 
 [!include [banner](../includes/banner.md)]
 
-U ovoj temi opisan je način stvaranja modela predviđanja za proračunske iznose koji su preostali. U projektu koji je podložan kontroli proračuna upotrebljavaju se dvije vrste proračuna: izvorni i preostali. Kada stvarate proračun projekta, morate navesti modele predviđanja izvornog i preostalog proračuna koji su stvoreni na stranici **Modeli predviđanja**. Proračuni projekta na temelju navedenih modela stvaraju se kada napravite proračun projekta.
+U ovom se članku opisuje kako stvoriti model predviđanja za preostale proračune. U projektu koji je podložan kontroli proračuna upotrebljavaju se dvije vrste proračuna: izvorni i preostali. Kada stvarate proračun projekta, morate navesti modele predviđanja izvornog i preostalog proračuna koji su stvoreni na stranici **Modeli predviđanja**. Proračuni projekta na temelju navedenih modela stvaraju se kada napravite proračun projekta.
 
 > [!NOTE]
 > Model predviđanja koji se upotrebljava za kontrolu proračuna ne može imati podmodel niti se može upotrebljavati kao podmodel.

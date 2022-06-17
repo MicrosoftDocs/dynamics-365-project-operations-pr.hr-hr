@@ -1,25 +1,25 @@
 ---
 title: Ažuriranje aplikacije Project Operations u vašem okruženju aplikacije Financije
-description: Ova tema pruža informacije o ažuriranju operacija projekta u Dynamics 365 Finance okruženju.
+description: U ovom se članku nalaze informacije o ažuriranju operacija projekta u Dynamics 365 Finance okruženju.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912461"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Ažuriranje aplikacije Project Operations u vašem okruženju aplikacije Financije
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
 
-Ovaj tema pruža informacije o ažuriranju Dynamics 365 Project Operations u Dynamics 365 Finance okruženju. Tri su postupka potrebna za ažuriranje aplikacije Project Operations na Ažuriranje 5 (UR5):
+U ovom se članku nalaze informacije o ažuriranju Dynamics 365 Project Operations u Dynamics 365 Finance okruženju. Tri su postupka potrebna za ažuriranje aplikacije Project Operations na Ažuriranje 5 (UR5):
 
 - [Uvezite paket u pretpregled svojeg projekta](#import)
 - [Primjena ažuriranja](#apply)

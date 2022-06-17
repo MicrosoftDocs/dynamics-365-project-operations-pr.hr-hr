@@ -1,33 +1,33 @@
 ---
 title: Ažuriranje atributa programskih dodataka s pomoću novih veličina za određivanje cijena
-description: U ovoj temi nalaze se informacije o načinu ažuriranja atributa programskih dodatka za veličine za određivanje cijena.
+description: U ovom se članku nalaze informacije o ažuriranju atributa dodatka za dimenzije određivanja cijena.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920005"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Ažuriranje atributa programskih dodataka s pomoću novih veličina za određivanje cijena
 
-U ovoj temi nalaze se informacije o načinu ažuriranja atributa programskih dodatka za veličine za određivanje cijena.
+U ovom se članku nalaze informacije o ažuriranju atributa dodatka za dimenzije određivanja cijena.
 
 > [!NOTE]
-> Ova se tema primjenjuje samo na ponude i značajke ugovora u aplikaciji Dynamics 365 Project Operations.
+> Ovaj se članak primjenjuje samo na ponudu i značajke ugovora u sustavu Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Preduvjeti
-Prije nego što dovršite korake navedene u ovoj temi, morate dovršiti postupke u sljedećim temama:
+Prije nego što dovršite korake u ovom članku, morate dovršiti postupke u sljedećim člancima:
 
   - [Stvaranje prilagođenih polja i entiteta](create-custom-fields-entities-pricing-dimensions.md) 
   - [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](add-custom-fields-price-setup-transactional-entities.md)
   - [Postavljanje prilagođenih polja kao cjenovnih veličina](set-up-custom-fields-pricing-dimensions.md). 
   
-Ako niste dovršili te postupke, dovršite ih, a zatim se vratite na ovu temu.
+Ako niste dovršili te postupke, dovršite ih, a zatim se vratite na ovaj članak.
 
 ## <a name="register-a-plug-in"></a>Registrirajte programski dodatak
 Kada se stvara pojedinost ponude na stranici **Redak ponude** za redak ponude projekta, sustav stvara dva retka procjene. Jedan redak odnosi se na troškovnu stranu procjene, a drugi na prodajnu stranu. Isto vrijedi i za retke ugovora o projektu.

@@ -1,17 +1,17 @@
 ---
 title: Ispravljanje računovodstva za skice prijedloga faktura za projekt
-description: U ovoj se temi objašnjava način na koji se vrši prilagodba informacija povezanih s računovodstvom na nacrtu prijedloga fakture.
+description: U ovom se članku objašnjava kako prilagoditi podatke vezane uz računovodstvo na nacrtu prijedloga računa.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575065"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921201"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Ispravljanje računovodstva za skice prijedloga faktura za projekt
 
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 *Operativne pojedinosti* faktura za projekt vodi voditelj projekta na predračunu. Te pojedinosti uključuju odluku o radnom vremenu, troškovima, materijalima ili kontrolnim točkama koje se moraju fakturirati, cijenama te primjeni iznosa predujma i akontacija. Nakon što potvrdite izvorni predračun, možete prilagoditi operativne pojedinosti stvaranjem i potvrđivanjem [korektivnog predračuna](../proforma-invoicing/corrective-invoices.md).
 
-*Računovodstvene pojedinosti* faktura za projekt vode se u dokumentu fakture namijenjene klijentu. Te pojedinosti uključuju izračun poreza na promet i financijske veličine koje se primjenjuju na fakturu. U ovoj temi nalaze se pojedinosti o tome kako se te računovodstvene pojedinosti mogu prilagoditi u nacrtu prijedloga fakture za projekt.
+*Računovodstvene pojedinosti* faktura za projekt vode se u dokumentu fakture namijenjene klijentu. Te pojedinosti uključuju izračun poreza na promet i financijske veličine koje se primjenjuju na fakturu. U ovom se članku navode pojedinosti o tome kako se ti računovodstveni podaci mogu prilagoditi na nacrtu prijedloga fakture za projekt.
 
 ## <a name="adjust-sales-tax"></a>Prilagodba poreza na promet
 

@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 14, V3
-description: Ova tema pruža informacije o novostima u aplikaciji Project Service Automation, izdanje ažuriranja 14, V3.
+description: U ovom se članku nalaze informacije o novostima u ažuriranju ažuriranja automatizacije usluge project service 14 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926537"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation, izdanje ažuriranja 14, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594294"
 
 Zadovoljstvo nam je najaviti najnovije ažuriranje za aplikaciju Dynamics 365 Project Service Automation (PSA). Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x. Kako biste ažurirali ovo izdanje, posjetite Centar za administratore sustava Dynamics 365 na mreži i idite na stranicu s rješenjima kako biste instalirali ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji PSA V3, izdanje ažuriranja 14. Broj izrade ove verzije jest V3.10.4.21, a ona je dostupna na sljedećem rasporedu:
+U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za PSA V3, Ažuriraj izdanje 14. Broj izrade ove verzije jest V3.10.4.21, a ona je dostupna na sljedećem rasporedu:
 
 - **Opća dostupnost (samostalno ažuriranje):** siječanj 2020.
 - **Automatsko ažuriranje:** veljača 2020.

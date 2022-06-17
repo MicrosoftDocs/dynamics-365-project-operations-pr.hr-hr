@@ -1,23 +1,23 @@
 ---
-title: Zahtjevi za stavke za projektne ugovore s više izvora financiranja
-description: Ova tema pruža informacije o konfiguriranju i korištenju zahtjeva za artiklima s više izvora financiranja.
+title: Zahtjevi za stavke za ugovore o projektu s više izvora financiranja
+description: U ovom se članku nalaze informacije o konfiguriranju i korištenju zahtjeva za artiklima s više izvora financiranja.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728082"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931183"
 ---
-# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Zahtjevi za stavke za projektne ugovore s više izvora financiranja
+# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Zahtjevi za stavke za ugovore o projektu s više izvora financiranja
 
 _**Odnosi se na:** Project Operations za scenarije koji se temelje na zalihama/proizvodnji_
 
-Neki ugovorni sporazumi za rezultate koji se temelje na projektima mogu zahtijevati više izvora financiranja. Ova tema objašnjava kako odabrati i konfigurirati željene izvore financiranja kada je za projekt ili projektni ugovor potrebno više izvora.
+Neki ugovorni sporazumi za rezultate koji se temelje na projektima mogu zahtijevati više izvora financiranja. Ovaj članak objašnjava kako odabrati i konfigurirati željene izvore financiranja kada je za projekt ili projektni ugovor potrebno više izvora.
 
 ## <a name="terminology"></a>Terminologija
 
@@ -73,7 +73,7 @@ Da biste odabrali račun fakture koji će se koristiti prilikom kreiranja zahtje
 Da biste kreirali zahtjev za artiklom iz zapisa predviđanja artikla, slijedite ove korake.
 
 1. Idite na **Projekti upravljanja i računovodstva** \> **Projekti** \> **Svi projekti** i odaberite zapis projekta.
-1. Na kartici **Plan** odaberite **Predviđanja artikla**.
+1. Na kartici **Plan** odaberite **Predviđanja** artikla.
 1. Stvorite novi zapis predviđanja artikla.
 1. Neobavezno: na **kartici Projekt** u **polju Izvor** financiranja odaberite željeni račun fakture.
 1. Odaberite **Kreiraj zahtjev za** stavku i potvrdite poruku koju primite.

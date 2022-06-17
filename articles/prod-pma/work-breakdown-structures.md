@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920649"
 ---
 # <a name="work-breakdown-structures-overview"></a>Pregled strukturnih analiza rada
 
@@ -35,7 +35,7 @@ Stupanj pojedinosti u WBS-u ovisi o razini preciznosti koja je potrebna u procje
 
 Suprotno tome, projekti u industrijama poput medija i oglašavanja, softvera i IT infrastrukture imaju tendenciju da budu jedinstveni, a produktivnost je u odnosu s iskustvom i kompetencijom pojedinca koji izvršava zadatak. Stoga ove industrije upotrebljavaju WBS kako bi dobile približnu veličinu projekta, a ne da bi podrobno pratile napredak tog projekta. 
 
-Izgradnja WBS-a intenzivan je postupak koji se obično radi tijekom dugog razdoblja i koji zahtijeva suradnju i podatke od širokog spektra ljudi. U ovoj se temi opisuje način uporabe poboljšanja WBS-a kako biste zadovoljili svoje zahtjeve za procjene i praćenje.
+Izgradnja WBS-a intenzivan je postupak koji se obično radi tijekom dugog razdoblja i koji zahtijeva suradnju i podatke od širokog spektra ljudi. Ovaj članak opisuje kako možete koristiti WBS poboljšanja kako biste ispunili svoje zahtjeve za procjene i praćenje.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Preduvjeti za stvaranje WBS-a
 Kako biste stvorili WBS, morate biti u mogućnosti stvoriti raspored rada i procijeniti trošak rada.
@@ -166,7 +166,7 @@ U Financijama postoje tri prikaza WBS projekta: prikaz planiranja, prikaz praće
 
 ### <a name="planning-view"></a>Prikaz planiranja
 
-Prikaz planiranja prikazuje planiranu ili osnovnu procjenu podataka o rasporedu i trošku. Iako ne postoje značajke za praćenje verzije i osnove WBS projekta, vrijednosti u ovom prikazu namijenjene su predstavljanju osnovne verzije. U odjeljcima ove teme, Procjena rasporeda i Procjena troškova, opisuje se ovaj prikaz i način njegove uporabe za stvaranje WBS-a.
+Prikaz planiranja prikazuje planiranu ili osnovnu procjenu podataka o rasporedu i trošku. Iako ne postoje značajke za praćenje verzije i osnove WBS projekta, vrijednosti u ovom prikazu namijenjene su predstavljanju osnovne verzije. Sekcije procjene rasporeda i procjene troškova ovog članka opisuju ovaj prikaz i način na koji se koristi za stvaranje WBS-a.
 
 ### <a name="effort-tracking-view"></a>Motrište praćenja rada
 

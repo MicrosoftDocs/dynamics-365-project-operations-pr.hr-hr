@@ -1,24 +1,24 @@
 ---
 title: Novosti u ožujku 2022. – osnovna implementacija aplikacije Project Operations
-description: Ova tema pruža informacije o ažuriranjima kvalitete koja su dostupna u izdanju implementacije lite projekta Project Operations u ožujku 2022.
+description: U ovom se članku nalaze informacije o ažuriranjima kvalitete koja su dostupna u izdanju implementacije lite projekta Project Operations u ožujku 2022.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934219"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Novosti u ožujku 2022. – osnovna implementacija aplikacije Project Operations
 
 _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
-Ovaj tema odnosi se na sljedeće microsoftove Dynamics 365 Project Operations komponente i verzije :
+Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
 
 - Operacije projekta u verziji okruženja Dataverse 4.30.0.99
 
@@ -51,9 +51,9 @@ Ovaj tema odnosi se na sljedeće microsoftove Dynamics 365 Project Operations ko
 
 ## <a name="removed-and-deprecated-features"></a>Uklonjene i zastarjele značajke
 
-Uklonjene [ili zastarjele značajke u projektnim operacijama](../../whats-new/removed-depreciated-features-project.md) tema opisuju značajke koje su uklonjene ili zastarjele za Dynamics 365 Project Operations.
+U [članku Uklonjene ili zastarjele značajke u članku Project Operations](../../whats-new/removed-depreciated-features-project.md) opisane su značajke koje su uklonjene ili zastarjele za Dynamics 365 Project Operations.
 
 - Značajka uklonjeno više nije dostupna u proizvodu.
 - Zastarjela značajka nije u aktivnom razvoju i može se ukloniti u budućem ažuriranju.
 
-Najava omalovažavanja pojavit će se u [značajkama Uklonjeno ili zastarjelo u projektnim operacijama](../../whats-new/removed-depreciated-features-project.md) tema 12 mjeseci prije nego što se bilo koja značajka ukloni iz proizvoda.
+Najava omalovažavanja pojavit će se u [značajkama Uklonjeno ili zastarjelo u članku Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 mjeseci prije uklanjanja bilo koje značajke iz proizvoda.

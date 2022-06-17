@@ -1,6 +1,6 @@
 ---
 title: Početna stranica izvješćivanja
-description: Ova tema pruža informacije o izvješćivanju u aplikaciji Dynamics 365 Project Service Automation.
+description: U ovom se članku nalaze informacije o izvješćivanju u programu Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921661"
 ---
 # <a name="reporting-home-page"></a>Početna stranica izvješćivanja
 
@@ -47,7 +47,7 @@ Microsoft Power BI i Dynamics 365 zajedno, omogućuju vam napredan način rada s
 
 
 ## <a name="additional-resources"></a>Dodatni resursi
-Dodatne informacije o izvješćivanju u PSA-u potražite u sljedećim temama:
+Dodatne informacije o izvješćivanju u PSA potražite u sljedećim člancima:
 
 - [Rad s podatkovnim modelom Project Service](reports-working-project-service-data-model.md)
 - [Nadzorne ploče](reports-dashboards.md)

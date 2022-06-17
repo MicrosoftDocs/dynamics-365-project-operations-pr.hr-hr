@@ -1,24 +1,24 @@
 ---
 title: Što je novo ili promijenjeno u projektnim operacijama, listopad 2021. za scenarije koji se temelje na zalihama/proizvodnji
-description: Ovaj tema pruža informacije o ažuriranjima kvalitete koja su dostupna u izdanju projektnih operacija u listopadu 2021. za scenarije koji se temelje na zalihama/proizvodnji.
+description: U ovom se članku nalaze informacije o ažuriranjima kvalitete koja su dostupna u izdanju projektnih operacija u listopadu 2021. za scenarije koji se temelje na zalihama/proizvodnji.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933667"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Što je novo ili promijenjeno u projektnim operacijama, listopad 2021. za scenarije koji se temelje na zalihama/proizvodnji
 
 _**Odnosi se na:** Project Operations za scenarije koji se temelje na zalihama/proizvodnji_
 
-Ovaj tema odnosi se na sljedeće microsoftove Dynamics 365 Project Operations komponente i verzije :
+Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
 
 - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.22
  

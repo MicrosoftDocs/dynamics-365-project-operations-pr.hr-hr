@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933989"
 ---
 # <a name="configure-expense-management"></a>Konfiguriranje upravljanja troškovima
 
-U ovoj se temi opisuju razmatranja i odluke koje morate donijeti tijekom postupka planiranja, prije nego što konfigurirate upravljanje troškovima. U modul Upravljanje troškovima možete pohranjivati informacije o načinima plaćanja, putnim nalozima, izvješćima o troškovima, pravilima itd.
+U ovom se članku opisuju razmatranja i odluke koje morate donijeti tijekom postupka planiranja prije konfiguriranja upravljanja troškovima. U modul Upravljanje troškovima možete pohranjivati informacije o načinima plaćanja, putnim nalozima, izvješćima o troškovima, pravilima itd.
 
 Budući da se mnoge odluke koje donosite kada planirate svoju konfiguraciju modula Upravljanje troškovima temelje na hijerarhiji i financijskoj strukturi vaše tvrtke ili ustanove, morate pogledati dokumente za planiranje tih područja.
 

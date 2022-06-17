@@ -1,6 +1,6 @@
 ---
 title: Postavljanje prilagođenih polja kao cjenovnih veličina
-description: Ovaj tema pruža informacije o postavljanju prilagođenih dimenzija cijena.
+description: U ovom se članku nalaze informacije o postavljanju prilagođenih dimenzija određivanja cijena.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922588"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Postavljanje prilagođenih polja kao cjenovnih veličina 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Prije početka rada, ova tema podrazumijeva da ste dovršili postupke opisane u temama [Izrada prilagođenih polja i entiteta](create-custom-fields-entities.md) i [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](field-references.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovu temu. 
+Prije početka u ovom se članku pretpostavlja da ste dovršili postupke u člancima, [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities.md) te [Dodavanje prilagođenih polja postavi cijena i entitetima transakcija](field-references.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
 
-Ovaj tema pruža informacije o postavljanju prilagođenih dimenzija cijena. Na web-sučelju programa Project Service, na stranici **Parametar**, na kartici **Dimenzije cijena na temelju iznosa** prikazuju se zapisi u entitetu dimenzije cijena. Prema zadanim postavkama, instalacijom programa Project Service stvaraju se 2 retka u rešetki na ovoj kartici:
+U ovom se članku nalaze informacije o postavljanju prilagođenih dimenzija određivanja cijena. Na web-sučelju programa Project Service, na stranici **Parametar**, na kartici **Dimenzije cijena na temelju iznosa** prikazuju se zapisi u entitetu dimenzije cijena. Prema zadanim postavkama, instalacijom programa Project Service stvaraju se 2 retka u rešetki na ovoj kartici:
 
 - **msdyn_resourcecategory** (Uloga)
 - **msdyn_OrganizationalUnit** (Organizacijska jedinica)

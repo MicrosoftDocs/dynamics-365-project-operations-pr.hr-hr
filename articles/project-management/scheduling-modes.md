@@ -1,17 +1,17 @@
 ---
 title: Načini planiranja
-description: U ovoj temi nalaze se informacije o načinima planiranja.
+description: U ovom se članku nalaze informacije o načinima zakazivanja.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923639"
 ---
 # <a name="scheduling-modes"></a>Načini planiranja
 
@@ -38,7 +38,7 @@ Kada definirate način planiranja projekta, postavljate jednu od ovih vrijednost
 | Zadatak nepromjenjivog napora    | Trajanje se preračunava. | Jedinice se preračunavaju.    | Trajanje se preračunava. |
 | Zadatak nepromjenjivog trajanja  | Napor se preračunava.   | Napor se preračunava.    | Jedinice se preračunavaju.   |
 
-Dodatne informacije o implikacijama određenog načina potražite u članku [Promjena vrste zadatka za preciznije planiranje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). U temi se pojam **Rad** upotrebljava umjesto pojma **Napor**.
+Dodatne informacije o implikacijama određenog načina potražite u članku [Promjena vrste zadatka za preciznije planiranje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). U članku se umjesto **truda koristi izraz** Rad **·**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Promjena načina planiranja u tvrtki ili ustanovi
 

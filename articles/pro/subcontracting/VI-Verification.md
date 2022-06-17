@@ -1,19 +1,19 @@
 ---
-title: Provjera faktura dobavljača s odobrenim stvarnim vrijednostima
-description: Ova tema objašnjava kako voditelji projekata Microsoft Dynamics 365 Project Operations let's provjeravaju fakture dobavljača sa stvarnim vrijednostima koje su odobrene kao izvođači radova i zabilježenim vremenom te troškovima i materijalima koje su koristili članovi projektnog tima.
+title: Provjera faktura dobavljača s odobrenim stvarnim podacima
+description: U ovom se članku objašnjava kako voditelji projekata Microsoft Dynamics 365 Project Operations let's provjeravaju fakture dobavljača sa stvarnim vrijednostima koje su odobrene kao izvođači radova i zabilježenim vremenom te troškovima i materijalima koje su koristili članovi projektnog tima.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585461"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914209"
 ---
-# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Provjera faktura dobavljača s odobrenim stvarnim vrijednostima
+# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Provjera faktura dobavljača s odobrenim stvarnim podacima
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

@@ -1,17 +1,17 @@
 ---
 title: Rješavanje cijena troškova za procijenjene i stvarne podatke
-description: U ovoj temi nalaze se informacije o načinu rješavanja cijena troškova za procijenjene i stvarne podatke.
+description: U ovom se članku navode informacije o tome kako se rješavaju cijene troškova za procjene i stvarne vrijednosti.
 author: rumant
 ms.date: 04/09/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7395a1845f4a895efbabda36ba3b2a2f3c1eea52
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919959"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Rješavanje cijena troškova za procijenjene i stvarne podatke
 

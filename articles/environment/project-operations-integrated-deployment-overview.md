@@ -1,17 +1,17 @@
 ---
 title: Pregled implementacije aplikacije Project Operations za scenarije temeljene na resursima / bez zaliha
-description: U ovoj temi nalaze se informacije o vrsti implementacije, aplikaciji Project Operations za scenarije koji se temelje na resursu / bez zaliha.
+description: U ovom se članku nalaze informacije o vrsti implementacije, Operacijama projekta za scenarije koji se temelje na resursima/neuskladnim resursima.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 217a3ae39289b9b06bf2e06ae39810fe4f2fc52b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931551"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Pregled implementacije aplikacije Project Operations za scenarije temeljene na resursima / bez zaliha
 

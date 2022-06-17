@@ -1,24 +1,24 @@
 ---
 title: Novosti u travnju 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
-description: U ovoj temi nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju rješenja Project Operations u travnu 2021. godine za scenarije koji se temelje na resursu / bez zaliha.
+description: U ovom se članku navode informacije o ažuriranjima kvalitete dostupnima u izdanju projektnih operacija u travnju 2021. za scenarije temeljene na resursima/ne zalihama.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589095"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912415"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u travnju 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
+Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
 
 - Project Operations u verziji 4.9.0.221 okruženja platforme Dataverse
 - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.17

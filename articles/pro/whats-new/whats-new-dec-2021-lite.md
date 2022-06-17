@@ -1,24 +1,24 @@
 ---
 title: Novosti u prosincu 2021. – implementacija lite projekata projektnih operacija
-description: Ovaj tema pruža informacije o ažuriranjima kvalitete koja su dostupna u izdanju u prosincu 2021. uvođenja lite projekta Project Operations.
+description: U ovom se članku nalaze informacije o ažuriranjima kvalitete koja su dostupna u izdanju implementacije lite projekta Project Operations u prosincu 2021.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914071"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Novosti u prosincu 2021. – implementacija lite projekata projektnih operacija
 
 _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
-Ovaj tema odnosi se na sljedeće microsoftove Dynamics 365 Project Operations komponente i verzije :
+Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
 
 - Operacije projekta u verziji okruženja Dataverse 4.27.0.195, 4.27.0.242, 4.27.0.244
 

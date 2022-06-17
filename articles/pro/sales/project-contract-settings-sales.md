@@ -1,23 +1,23 @@
 ---
 title: Postavke ugovora o projektu – jednostavno
-description: U ovoj temi nalaze se informacije o poljima koja utječu na retke ugovora i informacije o ugovoru koje su sažete u svim stavkama retka.
+description: U ovom se članku navode informacije o poljima koja utječu na retke ugovora i informacije o ugovoru sa sažetima u svim stavkama retka.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917061"
 ---
 # <a name="header-details-for-project-contracts"></a>Pojedinosti zaglavlja za ugovore o projektu
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-U ovoj temi nalaze se informacije o poljima koja se primjenjuju na cjelokupni ugovor o projektu, uključujući postavke koje utječu na sve retke ugovora. Uključene su i informacije o ugovoru koje su sažete u svim stavkama retka za pokretanje KPI-jeva ugovora o projektu.
+U ovom se članku nalaze informacije o poljima koja se primjenjuju na cijeli ugovor o projektu, uključujući postavke koje utječu na sve retke ugovora. Uključene su i informacije o ugovoru koje su sažete u svim stavkama retka za pokretanje KPI-jeva ugovora o projektu.
 
 Tablica u nastavku prikazuje polja u ugovoru o projektu koja su jedinstvena za aplikaciju Dynamics 365 Project Operations ili imaju neke značajne promjene u ponašanju iz prodajnih naloga u aplikaciji Dynamics 365 Sales.
 

@@ -1,24 +1,24 @@
 ---
 title: Novosti u ožujku 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
-description: U ovom tema pružaju se informacije o ažuriranjima kvalitete koja su dostupna u izdanju projektnih operacija u ožujku 2022. za scenarije koji se temelje na resursima/nenaseljenim resursima.
+description: U ovom se članku nalaze informacije o ažuriranjima kvalitete koja su dostupna u izdanju Projektnih operacija u ožujku 2022. za scenarije temeljene na resursima/neutemeljenim izvorima.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600733"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910897"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u ožujku 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
 
 *Odnosi se na: Project Operations za scenarije temeljene na resursu / bez zaliha*
 
-Ovaj tema odnosi se na sljedeće microsoftove Dynamics 365 Project Operations komponente i verzije :
+Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
 
 - Operacije projekta u verziji okruženja Dataverse 4.30.0.99
 - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.25
@@ -91,11 +91,11 @@ Ako naiđete na problem prilikom pokretanja karte, slijedite upute u [odjeljku N
 
 ## <a name="removed-and-deprecated-features"></a>Uklonjene i zastarjele značajke
 
-Uklonjene [ili zastarjele značajke u projektnim operacijama](removed-depreciated-features-project.md) tema opisuju značajke koje su uklonjene ili zastarjele za Dynamics 365 Project Operations.
+U [članku Uklonjene ili zastarjele značajke u članku Project Operations](removed-depreciated-features-project.md) opisane su značajke koje su uklonjene ili zastarjele za Dynamics 365 Project Operations.
 
 - Značajka uklonjeno više nije dostupna u proizvodu.
 - Zastarjela značajka nije u aktivnom razvoju i može se ukloniti u budućem ažuriranju.
 
-Najava omalovažavanja pojavit će se u [značajkama Uklonjeno ili zastarjelo u projektnim operacijama](removed-depreciated-features-project.md) tema 12 mjeseci prije nego što se bilo koja značajka ukloni iz proizvoda.
+Najava omalovažavanja pojavit će se u [značajkama Uklonjeno ili zastarjelo u članku Project Operations](removed-depreciated-features-project.md) 12 mjeseci prije uklanjanja bilo koje značajke iz proizvoda.
 
 Za razbijanje promjena koje utječu samo na vrijeme kompilacije, ali su binarno kompatibilne s sandboxom i proizvodnim okruženjima, vrijeme omalovažavanja bit će manje od 12 mjeseci. Obično su te promjene funkcionalna ažuriranja koja se moraju izvršiti na kompajleru.

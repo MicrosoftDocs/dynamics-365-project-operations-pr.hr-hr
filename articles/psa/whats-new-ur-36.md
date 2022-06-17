@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 36, V3
-description: U ovoj se temi navode značajke i popravci koji su dostupni u ažuriranom izdanju 36, V3, sustava Microsoft Dynamics 365 Project Service Automation.
+description: U ovom se članku navode značajke i popravci dostupni u Microsoft Dynamics 365 Project Service Automation ažuriranju izdanja 36, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 108c75598dc7dd3dd0cdb9ce68e30423d051a4cf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a8942713109075da2503c9d22d40b6ac95ae00be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924973"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-36-v3"></a>Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 36, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586657"
 
 Zadovoljstvo nam je objaviti najnovije ažuriranje aplikacije Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Kompatibilno je sa sustavom Dynamics 365 9.x. Kako biste ažurirali na ovo izdanje, posjetite stranicu Centar za administratore za rješenja sustava Dynamics 365 na mreži i instalirajte ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovoj se temi navode značajke i ispravke koje su nove ili promijenjene u 36. izdanju ažuriranja aplikacije Project Service Automation, V3. Broj izrade ove verzije jest V3.10.57.152, a ona je uglavnom dostupna putem samostalnog ažuriranja u listopadu 2021.
+U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za izdanje ažuriranja automatizacije usluga project servicea 36, V3. Broj izrade ove verzije jest V3.10.57.152, a ona je uglavnom dostupna putem samostalnog ažuriranja u listopadu 2021.
 
 ## <a name="update-release-36"></a>Izdanje ažuriranja 36
 

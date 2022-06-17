@@ -1,24 +1,24 @@
 ---
 title: Novosti u veljači 2022. – osnovna implementacija aplikacije Project Operations
-description: Ova tema pruža informacije o ažuriranjima kvalitete koja su dostupna u izdanju implementacije litea Project Operations u veljači 2022.
+description: U ovom se članku nalaze informacije o ažuriranjima kvalitete koja su dostupna u izdanju implementacije lite programa Project Operations u veljači 2022.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922811"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>Novosti u veljači 2022. – osnovna implementacija aplikacije Project Operations
 
 _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
-Ovaj tema odnosi se na sljedeće microsoftove Dynamics 365 Project Operations komponente i verzije :
+Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
 
 - Operacije projekta u verziji okruženja Dataverse 4.28.0.120
 

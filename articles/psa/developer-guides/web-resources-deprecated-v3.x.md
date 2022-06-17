@@ -1,6 +1,6 @@
 ---
 title: Zastarjeli web-resursi u aplikaciji Project Service Automation 3.x
-description: Ova tema opisuje web-resurse koji se više ne koriste u sustavu Dynamics 365 Project Service Automation 3.0.
+description: U ovom se članku opisuju web-resursi koji se više ne koriste u web-aplikaciji Dynamics 365 Project Service Automation 3.0.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 36415cd11188e846ffe1a816c16811097824772a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a2d3f37a92a5261f5799ad149ccd1b5517c25f36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915957"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Zastarjeli web-resursi u aplikaciji Project Service Automation 3.x
 

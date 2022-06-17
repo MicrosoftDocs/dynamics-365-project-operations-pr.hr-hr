@@ -1,18 +1,18 @@
 ---
 title: Kupnja nespremljenih materijala ili kategorija nabave pomoću fakture dobavljača na čekanju
-description: U ovoj se temi objašnjava način bilježenja faktura dobavljača na čekanju.
+description: U ovom se članku objašnjava kako zabilježiti fakture dobavljača na čekanju.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921983"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Kupnja nespremljenih materijala ili kategorija nabave pomoću fakture dobavljača na čekanju
 
@@ -23,7 +23,7 @@ Budući da tvrtka nabavlja ne-opskrbljene materijale ili kategorije nabave za pr
 Na primjer, Contoso Robotics US izvršava projekt obnove opreme i potrebne su mu licence za softver. Te se licence nabavljaju od dobavljača koji je treća srana.  Koristeći Dynamics 365 Finance, službenik koji plaća račune bilježi dokument o fakturi dobavljača na čekanju i troškove licence pripisuje izravno projektu obnove opreme. 
 
 > [!IMPORTANT]
-> Prije nego što upotrijebite funkcionalnost opisanu u ovoj temi, pregledajte i primijenite potrebne konfiguracije. Dodatne informacije potražite u člancima [Omogućivanje nespremljenih materijala i faktura dobavljača na čekanju te](configure-materials-nonstocked.md) Korištenje kategorija nabave [s narudžbenicama za projekt i fakturama dobavljača na čekanju](configure-procurement-categories.md)
+> Prije korištenja funkcije opisane u ovom članku pregledajte i primijenite potrebne konfiguracije. Dodatne informacije potražite u člancima [Omogućivanje nespremljenih materijala i faktura dobavljača na čekanju te](configure-materials-nonstocked.md) Korištenje kategorija nabave [s narudžbenicama za projekt i fakturama dobavljača na čekanju](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Knjiženje fakture dobavljača na čekanju povezane s projektom 
 

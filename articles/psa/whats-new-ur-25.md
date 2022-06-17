@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 25, V3
-description: U ovoj se temi navode značajke i ispravke dostupne u rješenju Project Service Automation, izdanje ažuriranja 25, V3.
+description: U ovom se članku navode značajke i popravci dostupni u ažuriranju 25., V3 za automatizaciju usluge project service.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d24403b1bf6a06cc138de3f0158f675f6d3b6ec
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2330c7dc5d2dfb148d5c7fb9a5ce643fded84dde
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922535"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 25, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581505"
 
 Zadovoljstvo nam je najaviti najnovije ažuriranje aplikacije Project Service Automation za sustav Dynamics 365. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x. Kako biste ažurirali ovo izdanje, posjetite stranicu Centra za administratore za sustav Dynamics 365 s rješenjima na mreži, kako biste instalirali ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovoj temi navode se značajke i popravci koji su novi ili promijenjeni za aplikaciju Project Service Automation V3, izdanje ažuriranja 25. Ova verzija ima broj međuverzije V 3.10.43.76 i općenito je dostupna putem samoažuriranja u listopadu 2020.
+U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za automatizaciju usluga projekta V3, Ažuriranje izdanja 25 Ova verzija ima broj međuverzije V 3.10.43.76 i općenito je dostupna putem samo-ažuriranja u listopadu 2020.
 
 ## <a name="update-release-25"></a>Izdanje ažuriranja 25
 

@@ -1,17 +1,17 @@
 ---
 title: Prijava za probnu verziju aplikacije Project Operations
-description: U ovoj temi nalaze se informacije o načinu implementacije probne verzije aplikacije Dynamics 365 Project Operations.
+description: U ovom se članku nalaze informacije o implementaciji probne verzije programa Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584265"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959643"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Prijava za probnu verziju aplikacije Project Operations 
 
@@ -19,9 +19,9 @@ _**Odnosi se na:** Project Operations za scenarije koji se temelje na resursima 
 
 
 
-U ovoj se temi objašnjava kako se pretplatiti na pretpregled partnerske ponude i implementirati okruženje aplikacije Dynamics 365 Project Operations.
+U ovom se članku objašnjava kako se pretplatiti na ponudu partnera za pretpregled i implementirati Dynamics 365 Project Operations okruženje.
 
-Uz novu probnu verziju aplikacije Project Operations, možete automatski implementirati bilo koji od tri podržana scenarija implementacije ispunjavanjem upitnika koji preporučuje najbolji implementacijski pristup. U ovoj temi nalaze se informacije o to me kako:
+Uz novu probnu verziju aplikacije Project Operations, možete automatski implementirati bilo koji od tri podržana scenarija implementacije ispunjavanjem upitnika koji preporučuje najbolji implementacijski pristup. U ovom se članku nalaze informacije o tome kako:
 
 - Iskoristiti ponudu probne verzije.
 - Pokrenuti dodjelu resursa.
@@ -89,8 +89,9 @@ Prije nego što započnete, prijavite se u preglednik s korisničkim radnim rač
 4.  Odaberite odgovarajući Microsoft Dataverse URL i URL-ove aplikacija za financije i operacije da biste provjerili valjanost implementacije.
 
 ## <a name="configuring-dual-write"></a>Konfiguriranje dvostrukog pisanja
-- Da biste konfigurirali sigurnosne uloge za dvostruko pisanje, pročitajte članak [Ažuriranje sigurnosnih postavki na programima Project Operations u sustavu Dataverse](resource-provision-new-environment.md).
-- Da biste konfigurirali karte s dvostrukim pisanjem, pročitajte članak [Pokretanje mapa dvostrukog pisanja operacija projekta](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Da biste konfigurirali sigurnosne uloge za dvostruko pisanje, pročitajte članak [Ažuriranje sigurnosnih postavki na programima Project Operations u sustavu Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Da biste pristupili konfiguraciji s dvostrukim pisanjem, idite na instancu financija i operacija, a zatim prijeđite na **Dual Write za upravljanje** > **podacima**.
+- Da biste konfigurirali karte s dvostrukim pisanjem, pročitajte članak [Pokretanje mapa](resource-provision-new-environment.md#run-project-operations-dual-write-maps) dvostrukog pisanja operacija projekta.
 
 ## <a name="assign-licenses"></a>Dodjela licenci
 

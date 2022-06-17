@@ -1,17 +1,17 @@
 ---
 title: Uporaba kategorije transakcije kao veličine za određivanje cijene
-description: U ovoj temi nalaze se informacije o načinu uporabe polja kategorije transakcije kao veličine za određivanje cijena.
+description: U ovom se članku navode informacije o korištenju polja Kategorija transakcije kao dimenzije određivanja cijena.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911685"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Uporaba kategorije transakcije kao veličine za određivanje cijene
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591119"
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 
-U ovoj se temi objašnjava način uporabe polja **Kategorija transakcije** kao veličine za određivanje cijena. 
+U ovom se članku objašnjava kako koristiti **polje Kategorija** transakcije kao dimenziju određivanja cijena. 
 
 ## <a name="prerequisites"></a>Preduvjeti
-Prije nego što dovršite postupke iz ove teme, morate imati novo rješenje veličine za određivanje cijena za svoju tvrtku ili ustanovu. Ako ga već niste stvorili, pogledajte odjeljak [Stvaranje prilagođenih polja i entiteta kao veličina za određivanje cijena](create-custom-fields-entities-pricing-dimensions.md).
+Prije nego što dovršite postupke u ovom članku, morate imati novo rješenje dimenzije određivanja cijena za svoju tvrtku ili ustanovu. Ako ga već niste stvorili, pogledajte odjeljak [Stvaranje prilagođenih polja i entiteta kao veličina za određivanje cijena](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Dodavanje polja Kategorija transakcije u obrasce i prikaze
 Kako bi polje **Kategorija transakcije** bilo vidljivo u rješenju veličine za određivanje cijena, morate dodati polje svim obrascima i prikazima kao entitet.

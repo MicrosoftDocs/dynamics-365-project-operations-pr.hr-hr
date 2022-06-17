@@ -1,6 +1,6 @@
 ---
 title: Vodič za upravljanje resursima
-description: U ovoj temi nalaze se veze do informacija o upravljanju resursima u aplikaciji Project Service Automation.
+description: U ovom se članku nalaze veze na informacije o upravljanju resursima u automatizaciji programa Project Service
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910763"
 ---
 # <a name="resource-management-guide"></a>Vodič za upravljanje resursima
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595443"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premješten u sljedeće teme:
+PDF veza koja je prethodno bila u ovom članku uklonjena je, a sadržaj je premješten u sljedeće članke:
 
 - [Početna stranica za upravljanje resursima](../resource-management-home-page.md)
 - [Ključni koncepti](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premješ
 - [Najčešća pitanja o upravljanju resursima](../resource-management-faq.md)
 
 > [!NOTE]
-> Ova će se tema ukloniti u budućem ažuriranju dokumentacije. 
+> Ovaj će se članak ukloniti u budućem ažuriranju dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

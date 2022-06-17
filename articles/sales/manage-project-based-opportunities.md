@@ -1,17 +1,17 @@
 ---
 title: Upravljanje projektnim prilikama
-description: U ovoj temi nalaze se informacije o načinu rada s prilikama koje su povezane s projektima.
+description: U ovom se članku nalaze informacije o tome kako raditi s prilikama koje se odnose na projekte.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933207"
 ---
 # <a name="manage-project-based-opportunities"></a>Upravljanje projektnim prilikama
 
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Projektne tvrtke obično imaju svoje načine funkcioniranja pri isporuci u više zemalja i zemljopisnih područja. Troškovi izvršenja i isporuke projekta mogu se razlikovati ovisno o tome koje zemljopisno područje ili sektor upravlja isporukom. Zauzvrat, to može utjecati na marže posla. Dostava projektnih usluga obično uključuje velike količine vremena koje troše ljudski resursi, značajne troškove putovanja, materijalne troškove i druge troškove.
 
-Prilike koje se temelje na projektu u aplikaciji Dynamics 365 Project Operations dizajnirane su s proširenjima za aplikaciju Dynamics 365 Sales. Ova tema donosi pojedinosti o različitim poljima i poslovnoj logici koja je uključena u dodatnu funkcionalnost koja je potrebna projektnim tvrtkama za upravljanje projektnim mogućnostima.
+Prilike koje se temelje na projektu u aplikaciji Dynamics 365 Project Operations dizajnirane su s proširenjima za aplikaciju Dynamics 365 Sales. U članku su navedeni detalji o različitim poljima i poslovnoj logici uključenoj u dodatne funkcije koje tvrtke temeljene na projektima zahtijevaju za upravljanje mogućnostima temeljenim na projektima.
 
 ## <a name="view-all-project-based-opportunities"></a>Prikaz svih projektnih prilika
 

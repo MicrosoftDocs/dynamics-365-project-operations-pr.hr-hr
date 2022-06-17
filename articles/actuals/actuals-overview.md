@@ -1,6 +1,6 @@
 ---
 title: Stvarni podaci
-description: U ovoj temi nalaze se informacije o radu sa stvarnim podacima u aplikaciji Microsoft Dynamics 365 Project Operations.
+description: U ovom se članku nalaze informacije o radu sa stvarnim stvarima u sustavu Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581275"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924789"
 ---
 # <a name="actuals"></a>Stvarni podaci
 
@@ -33,7 +33,7 @@ Stvarni podaci predstavljaju pregledani i odobreni financijski napredak i napred
 
 Project Operations bilježi financijske transakcije koje se dogode tijekom životnog ciklusa angažmana projekta kao stvarne. Stvaranje stvarnih stvari na različitim događajima u životnom ciklusu varira, ovisno o tome koristi li angažman projekta model naplate vremena i materijala ili model naplate fiksne cijene i je li u fazi pretprodaje ili je interni projekt.
 
-Sljedeće teme objašnjavaju utjecaj na tablicu Stvarni podaci na različitim događajima za različite varijacije:
+Sljedeći članci objašnjavaju utjecaj na tablicu Stvarni podaci na različitim događajima za različite varijacije:
 
 - [Stvarni utjecaj u vremenu i angažmanu materijala](ActualsonTM.md)
 - [Stvarni utjecaj u angažmanu s fiksnom cijenom](ActualonFP.md)

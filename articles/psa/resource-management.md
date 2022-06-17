@@ -1,6 +1,6 @@
 ---
 title: Početna stranica projekata za raspodjelu resursa
-description: Ova tema sadrži informacije o mogućnostima upravljanja resursima u aplikaciji Project Service Automation (PSA) za Dynamics 365.
+description: U ovom se članku nalaze informacije o mogućnostima upravljanja resursima u sustavu Project Service Automation (PSA) za Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925249"
 ---
 # <a name="resourcing-projects-home-page"></a>Početna stranica projekata za raspodjelu resursa
 
@@ -46,7 +46,7 @@ Resursi su najvažnije sredstvo za tvrtke ili ustanove koje su utemeljene na usl
 - Održavanje spremišta vještina i stručnosti.
 
 
-Projektu se može dodijeliti tim generičkih ili imenovanih resursa u PSA-u. Možete koristiti različite metode za dodavanje i dodjeljivanje članova tima te upravljanje njihovim rezervacijama i dodjelama. Dodatne informacije potražite u sljedećim temama:
+Projektu se može dodijeliti tim generičkih ili imenovanih resursa u PSA-u. Možete koristiti različite metode za dodavanje i dodjeljivanje članova tima te upravljanje njihovim rezervacijama i dodjelama. Dodatne informacije potražite u sljedećim člancima:
 
 - [Rezerviranje imenovanih resursa za rezervaciju za projektni tim i dodjela zadataka](assign-named-bookable-resource.md)
 - [Dodjeljivanje generičkih resursa za rezervaciju zadatku i generiranje zahtjeva za resursima](assign-generic-bookable-resource.md)

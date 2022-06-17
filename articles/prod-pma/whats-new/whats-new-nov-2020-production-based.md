@@ -1,17 +1,17 @@
 ---
 title: Novosti u studenom 2020. – Project Operations za scenarije koji se temelje na zalihama/proizvodnji
-description: U ovoj temi nalaze se informacije o ažuriranjima kvalitete dostupnim u izdanju aplikacije Project Operations za scenarije koji se temelje na zalihama/proizvodnji za studeni 2020.
+description: U ovom se članku navode informacije o ažuriranjima kvalitete dostupnima u izdanju projektnih operacija u studenome 2020. za scenarije temeljene na proizvodnji zaliha.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911220"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novosti u studenom 2020. – Project Operations za scenarije koji se temelje na zalihama/proizvodnji
 

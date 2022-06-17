@@ -1,24 +1,24 @@
 ---
 title: Novosti u svibnju 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
-description: Ova tema pruža informacije o ažuriranjima kvalitete koja su dostupna u izdanju microsofta Dynamics 365 Project Operations za scenarije temeljene na resursima/neuskladnim resursima u svibnju 2022.
+description: U ovom se članku nalaze informacije o kvalitetnim ažuriranjima koja su dostupna u izdanju microsofta Dynamics 365 Project Operations u svibnju 2022. za scenarije koji se temelje na resursima/nenaseljenim resursima.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921385"
 ---
 # <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u svibnju 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Ovaj tema odnosi se na sljedeće microsoftove Dynamics 365 Project Operations komponente i verzije :
+Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
 
 - Operacije projekta u verziji okruženja Dataverse 4.42.0.70
 - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.26
@@ -44,4 +44,4 @@ Ako naiđete na problem prilikom pokretanja karte, slijedite upute u [odjeljku N
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
 
-Informacije o ispravcima pogrešaka obuhvaćenima ovim ažuriranjem potražite u Microsoft Dynamics članku iz baze podataka o životu (LCS) i pogledajte članak iz [baze znanja](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).
+Informacije o ispravcima pogrešaka obuhvaćenima ovim ažuriranjem potražite u Microsoft Dynamics članku iz baze podataka o životu (LCS) i pogledajte članak [iz](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864) baze znanja.

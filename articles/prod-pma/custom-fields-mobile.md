@@ -1,6 +1,6 @@
 ---
 title: Uvođenje prilagođenih polja za mobilnu aplikaciju Microsoft Dynamics 365 Project Timesheet na platformama iOS i Android
-description: U ovoj temi nalaze se uobičajeni uzorci za uporabu nastavaka za uvođenje prilagođenih polja.
+description: U ovom se članku nalaze uobičajeni obrasci za korištenje proširenja za implementaciju prilagođenih polja.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682744"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913703"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Uvođenje prilagođenih polja za mobilnu aplikaciju Microsoft Dynamics 365 Project Timesheet na platformama iOS i Android
 
 [!include [banner](../includes/banner.md)]
 
-U ovoj temi nalaze se uobičajeni uzorci za uporabu nastavaka za uvođenje prilagođenih polja. Obuhvaćene su sljedeće teme:
+U ovom se članku nalaze uobičajeni obrasci za korištenje proširenja za implementaciju prilagođenih polja. Obuhvaćeni su sljedeći članci:
 
 - Razne vrste podataka koje podržava prilagođeni okvir polja
 - Način prikazivanja polja samo za čitanje ili uređivanje na unosima evidencije radnog vremena i spremanje vrijednosti koje su unijeli korisnici natrag u bazu podataka
@@ -35,7 +35,7 @@ U ovoj temi nalaze se uobičajeni uzorci za uporabu nastavaka za uvođenje prila
 
 ## <a name="audience"></a>Korisnici
 
-Ovaj tema namijenjena je razvojnim inženjerima koji integriraju prilagođena polja u mobilnu aplikaciju Microsoft Dynamics 365 Project Timesheet koja je dostupna za platforme Apple iOS i Google Android. Pretpostavka je da su čitatelji upoznati s X++ razvojem i funkcionalnošću evidencije radnog vremena na projektu.
+Ovaj članak namijenjen je programerima koji integriraju svoja prilagođena polja u mobilnu Microsoft Dynamics 365 Project Timesheet aplikaciju koja je dostupna apple iOS- u i Googleu Android. Pretpostavka je da su čitatelji upoznati s X++ razvojem i funkcionalnošću evidencije radnog vremena na projektu.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Ugovor o podacima – klasa TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ Svojstvo **FieldBaseType** na objektu **TsTimesheetCustom** određuje vrstu polj
 
 - Ako je svojstvo **stringOptions** osigurano objektu **TSTimesheetCustomField**, ti su elementi popisa jedine vrijednosti koje korisnici mogu odabrati s pomoću gumba s mogućnostima (gumbi za odabir).
 
-    U ovom slučaju polje niza može djelovati kao vrijednost nabrajanja u svrhu korisničkog unosa. Kako biste vrijednost spremili u bazu podataka kao nabrajanje, ručno mapirajte vrijednost niza natrag u vrijednost nabrajanja prije spremanja u bazu podataka s pomoću lanca naredbi (kao primjer pogledajte odjeljak „Uporaba lanca naredbe na klasi TSTimesheetEntryService za spremanje unosa evidencije radnog vremena iz aplikacija natrag u bazu podataka” u nastavku ove teme).
+    U ovom slučaju polje niza može djelovati kao vrijednost nabrajanja u svrhu korisničkog unosa. Da biste spremili vrijednost u bazu podataka kao enum, ručno mapirajte vrijednost niza natrag na vrijednost enum prije spremanja u bazu podataka pomoću lanca naredbi (pogledajte odjeljak "Koristi lanac naredbi u klasi TSTimesheetEntryService za spremanje unosa vremenske tablice iz aplikacije natrag u bazu podataka" kasnije u ovom članku).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Ovo svojstvo navodi oznaku koja se prikazuje pokraj polja u aplikaciji.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Popis nizova)
 
-Ovo je svojstvo primjenjivo samo kada je **fieldBaseType** postavljeno na **Niz**. Ako je stavka **stringOptions** postavljena, vrijednosti niza koje su dostupne za odabir putem gumba mogućnosti (gumb za odabir) određene su nizovima na popisu. Ako nije osiguran nijedan niz, u polje niza dozvoljen je unos slobodnog teksta (kao primjer pogledajte odjeljak „Uporaba lanca naredbi na klasi TSTimesheetEntryService za spremanje unosa evidencije radnog vremena iz aplikacije natrag u bazu podataka” u nastavku ove teme).
+Ovo je svojstvo primjenjivo samo kada je **fieldBaseType** postavljeno na **Niz**. Ako je stavka **stringOptions** postavljena, vrijednosti niza koje su dostupne za odabir putem gumba mogućnosti (gumb za odabir) određene su nizovima na popisu. Ako nisu navedeni nizovi, dopušten je unos slobodnog teksta u polju niza (pogledajte odjeljak "Koristi lanac naredbi u klasi TSTimesheetEntryService da biste spremili unos vremenske tablice iz aplikacije natrag u bazu podataka" kasnije u ovom članku).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

@@ -1,6 +1,6 @@
 ---
 title: Osnovni vodič za sastavljanje ponuda, određivanje cijena i naplatu
-description: U ovoj temi možete pronaći veze do informacija o sastavljanju ponuda, određivanju cijena i naplati u sustavu Project Service Automation.
+description: U ovom se članku nalaze veze na informacije o osnovnom citiranju, određivanju cijena i naplati u programu Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910784"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Osnovni vodič za sastavljanje ponuda, određivanje cijena i naplatu
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592223"
 
 Sposobnost da pronađete prave resurse u pravo vrijeme, rezervirate te resurse na projektima i iskorištavate resurse pomaže organizacijama ostvariti ciljeve prihoda i ciljeve zadovoljstva klijenata. 
 
-PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premješten u sljedeće teme:
+PDF veza koja je prethodno bila u ovom članku uklonjena je, a sadržaj je premješten u sljedeće članke:
 
 - [Sastavljanje ponuda, određivanje cijena i naplata](../quote-bill-price.md)
 - [Procesi prodaje](../basic-sales-process.md)
@@ -50,7 +50,7 @@ PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premješ
 - [Zapis stvarnih vrijednosti](../advanced-actuals.md)
 
 > [!NOTE]
-> Ova će se tema ukloniti u budućem ažuriranju dokumentacije. 
+> Ovaj će se članak ukloniti u budućem ažuriranju dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

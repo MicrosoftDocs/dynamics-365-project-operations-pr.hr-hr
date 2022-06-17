@@ -1,6 +1,6 @@
 ---
 title: Sinkronizacija projektnih zadataka izravno s automatizacije projektnih usluga na financije i operacije
-description: Ova tema opisuje predložak i temeljni zadatak koji se koriste za sinkronizaciju projektnih zadataka izravno iz Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+description: U ovom se članku opisuju predložak i temeljni zadatak koji se koriste za sinkronizaciju projektnih zadataka izravno iz Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931137"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizacija projektnih zadataka izravno s automatizacije projektnih usluga na financije i operacije
 
 [!include[banner](../includes/banner.md)]
 
-Ova tema opisuje predložak i temeljni zadatak koji se koriste za sinkronizaciju projektnih zadataka izravno iz Dynamics 365 Project Service Automation Dynamics 365 Finance.
+U ovom se članku opisuju predložak i temeljni zadatak koji se koriste za sinkronizaciju projektnih zadataka izravno iz Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integracija projektnog zadatka, kategorije transakcija izdataka, procjene sati, procjene izdataka i zaključavanje funkcionalnosti dostupni su u verziji 8.0.

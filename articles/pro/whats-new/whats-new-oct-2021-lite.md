@@ -1,24 +1,24 @@
 ---
 title: Što je novo u listopadu 2021. – Osnovna implementacija aplikacije Project Operations
-description: U ovoj temi nalaze se podaci o ažuriranjima kvalitete dostupnim u osnovnom izdanju aplikacije Project Operations za listopad 2021. godine.
+description: U ovom se članku navode informacije o ažuriranjima kvalitete dostupnima u izdanju implementacije lite projekta Project Operations u listopadu 2021.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7199853bea7e8e99a2a1ce19d6ce88736edb38f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921937"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Što je novo u listopadu 2021. – Osnovna implementacija aplikacije Project Operations
 
 _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
-Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
+Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
 
   - Project Operations u verziji 4.25.0.91 okruženja platforme Microsoft Dataverse
 

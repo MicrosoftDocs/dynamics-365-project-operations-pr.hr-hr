@@ -1,17 +1,17 @@
 ---
-title: Postavljanje cijena za naplatu radne snage
-description: U ovoj temi nalaze se informacije o načinu postavljanja cijena za naplatu radne snage u aplikaciji Project Operations.
+title: Postavljanje cijena za naplatu rada
+description: U ovom se članku navode informacije o postavljanju stopa naplate rada u projektnim operacijama.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ffb947533a42ace3615e7755c12a5ab69491f747
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ad83e899030be480baed95597e1ccfc0e560e24
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924329"
 ---
 # <a name="set-up-labor-bill-rates"></a>Postavljanje cijena za naplatu rada
 

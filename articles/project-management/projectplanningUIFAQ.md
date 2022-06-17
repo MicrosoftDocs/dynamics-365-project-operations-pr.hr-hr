@@ -1,25 +1,25 @@
 ---
 title: Rješavanje problema s radom u rešetki sa zadacima
-description: U ovoj temi nalaze se informacije o rješavanju problema potrebne za rad u rešetki sa zadacima.
+description: U ovom se članku nalaze informacije o otklanjanju poteškoća potrebne za rad u rešetki zadatka.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911035"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rješavanje problema s radom u rešetki sa zadacima 
 
 
 _**Odnosi se na:** Project Operations za scenarije koji se temelje na resursima/bez zaliha, osnovna implementacija – od sklapanja posla do predračuna, Project for the Web_
 
-Rešetka zadataka koju je aplikacija Dynamics 365 Project Operations upotrebljavala hostirani je iframe unutar platforme Microsoft Dataverse. Kao rezultat ove uporabe, moraju se ispuniti posebni zahtjevi kako bi se osiguralo ispravno funkcioniranje provjere autentičnosti i autorizacije. U ovoj temi navode se uobičajeni problemi koji mogu utjecati na mogućnost prikazivanja rešetke ili upravljanja zadacima u strukturnoj analizi rada (WBS, engl. work breakdown structure).
+Rešetka zadataka koju je aplikacija Dynamics 365 Project Operations upotrebljavala hostirani je iframe unutar platforme Microsoft Dataverse. Kao rezultat ove uporabe, moraju se ispuniti posebni zahtjevi kako bi se osiguralo ispravno funkcioniranje provjere autentičnosti i autorizacije. U ovom se članku opisuju uobičajeni problemi koji mogu utjecati na mogućnost prikazivanja rešetke ili upravljanja zadacima u strukturi raščlambe rada (WBS).
 
 Uobičajeni problemi uključuju:
 

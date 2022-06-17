@@ -1,17 +1,17 @@
 ---
 title: Procjena prodaje i troškova projekta kada resurs koji se bože rezervirati ispunjava više uloga na projektu
-description: U ovoj se temi objašnjava način uporabe veličina za određivanje cijena za potporu procjenama cijena i troškova za resurs koji ispunjava više uloga u projektu.
+description: U ovom se članku objašnjava kako koristiti dimenzije određivanja cijena za podršku procjenama cijena i troškova resursa koji ispunjava više uloga u projektu.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9bb59537aaa75d9003925bec37642a2fa7c9ca22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923455"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Procjena prodaje i troškova projekta kada resurs koji se bože rezervirati ispunjava više uloga na projektu 
 

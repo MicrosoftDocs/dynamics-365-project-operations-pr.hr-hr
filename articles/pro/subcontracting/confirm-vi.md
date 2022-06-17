@@ -1,17 +1,17 @@
 ---
 title: Potvrda fakture dobavljača projekta
-description: Ovaj tema objašnjava kako potvrditi fakturu dobavljača projekta u Microsoftu Dynamics 365 Project Operations i financijski učinak potvrde fakture dobavljača projekta.
+description: U ovom se članku objašnjava kako potvrditi fakturu dobavljača projekta u Microsoftu Dynamics 365 Project Operations i financijski učinak potvrde fakture dobavljača projekta.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c248b3baec6d3f14a020e4fa93f3dad50c65b263
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 092b3cd5981f7d9bb8767c7a2acb2f4952801d06
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595719"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932425"
 ---
 # <a name="confirm-a-project-vendor-invoice"></a>Potvrda fakture dobavljača projekta
 

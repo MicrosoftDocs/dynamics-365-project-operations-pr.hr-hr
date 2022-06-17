@@ -1,6 +1,6 @@
 ---
 title: Ponovno osmišljena izvješća o troškovima (sadrži videozapise)
-description: U ovoj temi objašnjava se redizajnirano i ponovno zamišljeno iskustvo za unos izvješća o troškovima.
+description: U ovom se članku objašnjava redizajnirano i ponovno osmišljeno iskustvo za unos izvješća o troškovima.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b4b70722af72bc66dba0662813c29d3d1df04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930263"
 ---
 # <a name="expense-reports-reimagined"></a>Izmijenjena izvješća o izdacima
 

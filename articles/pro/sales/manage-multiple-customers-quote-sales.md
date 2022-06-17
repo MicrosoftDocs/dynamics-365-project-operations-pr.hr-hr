@@ -1,17 +1,17 @@
 ---
 title: Upravljanje s više klijenata u projektnim ponudama – jednostavno
-description: U ovoj temi nalaze se informacije o radu s ponudama s više klijenata koji će financirati projekt. (Sales)
+description: Ovaj članak pruža informacije o radu na ponudama s više kupaca koji će financirati projekt. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 867d34f955ba53c74e9c31349b7f67d84ba10da4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 337619e8d8081cdebd73f9336fa9fa99885a0ab2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921063"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Upravljanje s više klijenata u projektnim ponudama – jednostavno
 

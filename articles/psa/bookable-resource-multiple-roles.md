@@ -1,6 +1,6 @@
 ---
 title: Procjena prodaje i troškova projekta kada resurs koji se može rezervirati ispunjava više uloga za projekt
-description: U ovoj se temi pružaju informacije o načinu uporabe veličina za određivanje cijena za podršku određivanju cijena i troškova za resurs koji ispunjava više uloga u projektu.
+description: U ovom se članku navode informacije o tome kako se dimenzije određivanja cijena mogu koristiti za podršku određivanju cijena i troškovima resursa koji ispunjava više uloga u projektu.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f8b84de740a3d610e49acea8fa13885b977b440c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5adaa7b83aae69c15aa268e723417172f1b56f42
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916141"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Procjena prodaje i troškova projekta kada resurs koji se može rezervirati ispunjava više uloga za projekt 
 

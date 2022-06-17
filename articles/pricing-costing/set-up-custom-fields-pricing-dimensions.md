@@ -1,6 +1,6 @@
 ---
 title: Postavljanje prilagođenih polja kao cjenovnih veličina
-description: U ovoj se temi nalaze informacije o načinu postavljanja cjenovnih veličina s pomoću prilagođenih polja.
+description: U ovom se članku nalaze informacije o postavljanju dimenzija određivanja cijena pomoću prilagođenih polja.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917567"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Postavljanje prilagođenih polja kao cjenovnih veličina
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Prije početka rada, u ovoj se temi podrazumijeva da ste dovršili postupke opisane u temama [Izrada prilagođenih polja i entiteta](create-custom-fields-entities-pricing-dimensions.md) i [Dodavanje obveznih prilagođenih polja entitetima za postavljanje cijena i transakcije](add-custom-fields-price-setup-transactional-entities.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovu temu. 
+Prije početka u ovom se članku pretpostavlja da ste dovršili postupke u člancima, [Kreirajte prilagođena polja i entitete i](create-custom-fields-entities-pricing-dimensions.md) Dodajte obavezna [prilagođena polja postavi cijena i entitetima transakcija](add-custom-fields-price-setup-transactional-entities.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
 
-Ovaj tema pruža informacije o postavljanju prilagođenih dimenzija cijena. Na stranici **Parametri** kartica **Cjenovne veličine utemeljene na količini** prikazuje zapise u entitetima cjenovne veličine. Prema zadanim postavkama, u rešetci ove kartice nalaze se dva retka:
+U ovom se članku nalaze informacije o postavljanju prilagođenih dimenzija određivanja cijena. Na stranici **Parametri** kartica **Cjenovne veličine utemeljene na količini** prikazuje zapise u entitetima cjenovne veličine. Prema zadanim postavkama, u rešetci ove kartice nalaze se dva retka:
 
 - **msdyn_resourcecategory** (Uloga)
 - **msdyn_OrganizationalUnit** (Organizacijska jedinica)

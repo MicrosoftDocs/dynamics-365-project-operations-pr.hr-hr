@@ -1,6 +1,6 @@
 ---
 title: Promjene entiteta, kontrole i korisničkog sučelja (Project Service Automation 3.x)
-description: Ova tema opisuje promjene rješenja za Microsoft Dynamics Project Service Automation 3.x.
+description: U ovom se članku opisuju promjene rješenja za Microsoft Dynamics automatizaciju project servisa 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926859"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Promjene entiteta, kontrole i korisničkog sučelja (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Puštanjem aplikacije Microsoft Dynamics Project Service Automation (psa) 3.x, mnoge promjene su izvršene na entitetima, kontrolama, prikazima i korisničkom sučelju. Ova tema pruža informacije o ovim važnim promjenama:
+Puštanjem aplikacije Microsoft Dynamics Project Service Automation (psa) 3.x, mnoge promjene su izvršene na entitetima, kontrolama, prikazima i korisničkom sučelju. Ovaj članak pruža informacije o tim važnim promjenama.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Nadređeno-podređeni odnosi za entitete dokumenta prodaje, retka dokumenta prodaje, pojedinosti retka dokumenta prodaje
 U verzijama aplikacije Dynamics 365 Project Service Automation (PSA) izdanim prije verzije 3,0, neki od odnosa između entiteta dokumenata prodaje, redaka dokumenta prodaje i pojedinosti retka dokumenta prodaje implementirani su kroz polja nizova koja će sadržavati prikaz niza GUID-a povezanog entiteta. To je bilo zbog ograničenja platforme koja je zahtijevala značajan prilagođeni kôd rješenja poslužitelja i klijenta kako bi ti odnosi radili slično kao tipični Dynamics CRM odnosi entiteta i da bi polja nizova služila kao polja vrijednosti.

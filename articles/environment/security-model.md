@@ -1,17 +1,17 @@
 ---
 title: Sigurnosni model
-description: Ovaj tema pruža informacije o sigurnosnom modelu u aplikaciji Dynamics 365 Project Operations.
+description: U ovom se članku nalaze informacije o sigurnosnom modelu u programu Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2f4992b1ea0c2b93a83c6c2c9a146a7610afc5fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585737"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924490"
 ---
 # <a name="security-model"></a>Sigurnosni model
 

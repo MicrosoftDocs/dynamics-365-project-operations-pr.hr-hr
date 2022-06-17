@@ -1,17 +1,17 @@
 ---
 title: Pojedinosti zaglavlja za podugovaratelje
-description: U ovoj temi objašnjava se funkcija navedena u zaglavlju podugovora u aplikaciji Project Operations.
+description: U ovom se članku objašnjavaju funkcije navedene u zaglavlju kooperanta u projektnim operacijama.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914163"
 ---
 # <a name="header-details-for-subcontracts"></a>Pojedinosti zaglavlja za podugovaratelje
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598157"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-U ovoj temi objašnjava se funkcija navedena u zaglavlju podugovora u aplikaciji Dynamics 365 Project Operations.
+U ovom se članku objašnjavaju funkcije navedene u zaglavlju podugovaranja u sustavu Dynamics 365 Project Operations.
 
 Budući da voditelji projekata planiraju i izvršavaju projekte, oni mogu zapošljavati podizvođače i kupovati proizvode i usluge od dobavljača. Kada voditelj projekta treba kupiti proizvode ili usluge, može stvoriti podugovor u aplikaciji Project Operations.
 

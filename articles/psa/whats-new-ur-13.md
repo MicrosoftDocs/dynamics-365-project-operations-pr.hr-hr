@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 13, V3
-description: Ova tema pruža informacije o novostima u aplikaciji Project Service Automation, izdanje ažuriranja 13, V3.
+description: U ovom se članku nalaze informacije o novostima u ažuriranju ažuriranja automatizacije usluga programa Project Service 13, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: eb935d5bf3d2deb95db420f20a8102dae1864515
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4898391922f5ecbc99d78e49358ea749fe27b3f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930677"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation, izdanje ažuriranja 13, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596143"
 
 Zadovoljstvo nam je najaviti najnovije ažuriranje za aplikaciju Dynamics 365 Project Service Automation (PSA). Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x. Kako biste ažurirali ovo izdanje, posjetite Centar za administratore sustava Dynamics 365 na mreži i idite na stranicu s rješenjima kako biste instalirali ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-Ova tema navodi značajke i ispravke koje su nove ili promijenjene u aplikaciji Project Service Automation V3, izdanje ažuriranja 13. Broj izrade ove verzije jest V3.10.3.18, a ona je dostupna na sljedećem rasporedu:
+U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za automatizaciju usluga projekta V3, Ažuriraj izdanje 13. Broj izrade ove verzije jest V3.10.3.18, a ona je dostupna na sljedećem rasporedu:
 
 - **Opća dostupnost (samostalno ažuriranje):** studeni 2019.
 - **Automatsko ažuriranje:** prosinac 2019.

@@ -1,17 +1,17 @@
 ---
 title: Redci prilike koji se temelje na projektu – jednostavno
-description: U ovoj temi nalaze se informacije o redcima prilike koji se temelje na projektu. (Pro)
+description: U ovom se članku nalaze informacije o recima prilike utemeljenima na projektu. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c0c868aa6c54209c31429278fda19bf925267bce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596731"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914255"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Redci prilike koji se temelje na projektu – jednostavno
 

@@ -1,6 +1,6 @@
 ---
 title: Mobilni radni prostor upravljanja troškovima
-description: U ovoj se temi nalaze informacije o mobilnom radnom prostoru za upravljanje troškovima. Ovaj radni prostor omogućuje korisnicima dohvaćanje i prijenos računa, kako bi ga kasnije mogli priložiti izvješću o troškovima. Korisnici također mogu brzo stvoriti redak troška s pomoću priloženog računa te stvoriti i upravljati svojim izvješćima o troškovima.
+description: U ovom se članku nalaze informacije o mobilnom radnom prostoru za upravljanje troškovima. Ovaj radni prostor omogućuje korisnicima dohvaćanje i prijenos računa, kako bi ga kasnije mogli priložiti izvješću o troškovima. Korisnici također mogu brzo stvoriti redak troška s pomoću priloženog računa te stvoriti i upravljati svojim izvješćima o troškovima.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920879"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilni radni prostor upravljanja troškovima
 
-U ovoj se temi nalaze informacije o mobilnom radnom prostoru **Upravljanje troškovima**. Ovaj radni prostor omogućuje korisnicima dohvaćanje i prijenos računa, kako bi ga kasnije mogli priložiti izvješću o troškovima. Korisnici također mogu brzo stvoriti redak troška s pomoću priloženog računa te stvoriti i upravljati svojim izvješćima o troškovima. Osim toga, odobravatelji mogu upotrebljavati mobilni radni prostor **Upravljanje troškovima** za pregled izvješća o troškovima koji su im dodijeljeni i ta izvješća odobriti ili odbiti.
+U ovom se članku nalaze informacije o mobilnom **radnom prostoru za upravljanje troškovima**. Ovaj radni prostor omogućuje korisnicima dohvaćanje i prijenos računa, kako bi ga kasnije mogli priložiti izvješću o troškovima. Korisnici također mogu brzo stvoriti redak troška s pomoću priloženog računa te stvoriti i upravljati svojim izvješćima o troškovima. Osim toga, odobravatelji mogu upotrebljavati mobilni radni prostor **Upravljanje troškovima** za pregled izvješća o troškovima koji su im dodijeljeni i ta izvješća odobriti ili odbiti.
 
 
 Ovaj mobilni radni prostor namijenjen je uporabi s mobilnom aplikacijom Dynamics 365 Unified Ops.

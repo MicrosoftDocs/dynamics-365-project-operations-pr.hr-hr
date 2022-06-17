@@ -1,6 +1,6 @@
 ---
 title: Jedinice i grupe jedinica
-description: U ovoj temi nalaze se informacije o načinu stvaranja jedinica i grupa jedinica u aplikaciji Dynamics 365 Project Operations.
+description: U ovom se članku nalaze informacije o kreiranju jedinica i grupa jedinica u sustavu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921431"
 ---
 # <a name="units-and-unit-groups"></a>Jedinice i grupe jedinica
 
@@ -28,7 +28,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Jedinice su količine ili mjerne jedinice u kojima prodajete proizvode ili servise. Na primjer, ako prodajete proizvode za vrtlarenje, možda prodajete sjemenje u jedinicama paketa, kutija i paleta. Grupa jedinica je skup tih različitih jedinica.
 
-Kako biste dovršili korake iz ove teme, provjerite jeste li dodijeljeni ulozi administratora sustava ili voditelja Sales Professional ili imate jednake dozvole.
+Da biste dovršili korake u ovom članku, provjerite jeste li dodijeljeni ulozi administratora sustava ili profesionalnog upravitelja prodaje ili imate jednake dozvole.
 
 ## <a name="create-a-unit-group"></a>Stvaranje grupe jedinica
 

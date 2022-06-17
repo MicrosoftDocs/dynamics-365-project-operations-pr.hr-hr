@@ -1,17 +1,17 @@
 ---
 title: Prijavite se za pretplate za pretpregled aplikacije Project Operations za scenarije resursa / bez zalihe
-description: U ovoj temi nalaze se informacije o načinu pretplate i implementiranja aplikacije Project Operations za scenarije koji se temelje na resursu / bez zalihe.
+description: U ovom se članku navode informacije o tome kako se pretplatiti na projektne operacije i uvesti ih za scenarije koji se temelje na ponovnom pokretanju/nesuskladstvu.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920097"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijavite se za pretplate za pretpregled aplikacije Project Operations za scenarije resursa / bez zalihe
 
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 
 
-U ovoj se temi objašnjava način na koji se vrši pretplata za probnu ponudu i implementacija okruženja aplikacije Project Operations za scenarije koji se temelje na resursima / bez zaliha.
+U ovom se članku objašnjava kako se pretplatiti na probnu ponudu i implementirati okruženje Project Operations za scenarije temeljene na resursima / ne zalihama.
 
 ## <a name="prerequisites"></a>Preduvjeti
 - Korisnik koji uvodi pretpregled mora imati globalna prava administratora za klijent platforme Azure. Klijenta možete stvoriti tijekom iskorištavanja prve ponude. 
@@ -60,19 +60,19 @@ Idite na [Probnu verziju pretpregleda aplikacije Dynamics 365 for Finance](https
 
 ## <a name="start-a-new-project-in-lcs"></a>Pokretanje novog projekta u LCS-u
 
-Stvaranje novog LCS projekta kako je opisano u temi [Pokretanje novog projekta u LCS-u](create-lcs-project.md)
+Stvaranje novog LCS projekta kako je opisano u članku, [Započnite novi projekt u LCS-u](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodavanje pretplate za platformu Azure LCS projektu
 
-Kako biste dovršili ovaj zadatak, slijedite korake u temi [Dodavanje pretplate za platformu Azure u LCS projekt](resource-add-azure-subscription-lcs-project.md).
+Da biste dovršili ovaj zadatak, slijedite korake u članku Dodavanje [pretplate na Azure u LCS projekt](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementiranje pokaznog okruženja aplikacije Finance s aplikacijom Project Operations za scenarije resursa / bez zalihe
 
-Slijedite smjernice u temi [Dodjela novog okruženja](resource-provision-new-environment.md) kako biste dovršili implementaciju. Upotrijebite vrstu implementacije [pokaznog okruženja](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) za pretpregled. 
+Slijedite smjernice u članku, [Osigurajte novo okruženje](resource-provision-new-environment.md) za dovršetak implementacije. Upotrijebite vrstu implementacije [pokaznog okruženja](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) za pretpregled. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalacija postavljanja CDS-a i konfiguracijskih podataka
 
-Instalirajte podatke o postavljanju i konfiguraciji CDS-a na način opisan u temi [Postavljanje i primjena konfiguracijskih podataka na platformi Common Data Service](resource-apply-pro-setup-config-data.md).
+Instalirajte podatke o postavljanju i konfiguraciji CDS-a kako je opisano u članku, [Postavite i primijenite konfiguracijske podatke u .Common Data Service](resource-apply-pro-setup-config-data.md)
 Dovršite ovaj korak tek nakon što se implementira pokazna verzija okruženja aplikacije Financije i pokazni podaci budu spremni.
 
 
