@@ -1,19 +1,19 @@
 ---
-title: Otkazivanje fakture dobavljača projekta
-description: Ova tema objašnjava kako otkazati fakturu dobavljača projekta u Microsoftu Dynamics 365 Project Operations i financijski učinak otkazivanja fakture dobavljača projekta.
+title: Opoziv fakture dobavljača projekta
+description: U ovom se članku objašnjava kako otkazati fakturu dobavljača projekta u Microsoftu Dynamics 365 Project Operations i financijski učinak otkazivanja fakture dobavljača projekta.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87f6bdca30c5779e3d70922e75609ff4cdfca167
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580631"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911541"
 ---
-# <a name="cancel-a-project-vendor-invoice"></a>Otkazivanje fakture dobavljača projekta
+# <a name="cancel-a-project-vendor-invoice"></a>Opoziv fakture dobavljača projekta
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

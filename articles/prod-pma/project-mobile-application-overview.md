@@ -1,6 +1,6 @@
 ---
 title: Pregled projektnih mobilnih aplikacija
-description: U ovoj temi nalaze se opće informacije o projektnim aplikacijama vezanim za vrijeme za sustav Microsoft Dynamics 365 Project Timesheet, Unos vremena za projekt i Moja evidencija radnog vremena / evidencije radnog vremena koji su dostupni na mobilnom uređaju.
+description: U ovom se članku nalaze općenite informacije o aplikacijama vezanim uz vrijeme projekta za Microsoft Dynamics 365 Project Timesheet, Unos vremena projekta i Moje vremenske tablice/Vremenske tablice koje su dostupne na mobilnom uređaju.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922857"
 ---
 # <a name="project-mobile-applications-overview"></a>Pregled projektnih mobilnih aplikacija
 

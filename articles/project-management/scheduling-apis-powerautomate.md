@@ -1,25 +1,25 @@
 ---
-title: Koristi API-jeve za raspored projekata s Power Automate
-description: Ova tema pruža tijek uzorka koji koristi sučelja za programiranje aplikacija za planiranje projekta (API-je).
+title: Uporaba API-ja rasporeda projekta s aplikacijom Power Automate
+description: U ovom se članku nalazi ogledni tijek koji koristi sučelja za programiranje aplikacija za planiranje projekta (API-je).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916325"
 ---
-# <a name="use-project-schedule-apis-with-power-automate"></a>Koristi API-jeve za raspored projekata s Power Automate
+# <a name="use-project-schedule-apis-with-power-automate"></a>Uporaba API-ja rasporeda projekta s aplikacijom Power Automate
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Ovaj tema opisuje ogledni tijek koji pokazuje kako stvoriti kompletan plan projekta pomoću Microsoft Power Automate, kako stvoriti skup operacija i kako ažurirati entitet. Primjer pokazuje kako stvoriti projekt, člana projektnog tima, skupove operacija, projektne zadatke i dodjele resursa. Ova tema objašnjava i kako ažurirati entitet i izvršiti skup operacija.
+U ovom se članku opisuje ogledni tijek koji pokazuje kako stvoriti cijeli plan projekta pomoću Microsoft Power Automate programa, kako stvoriti skup operacija i kako ažurirati entitet. Primjer pokazuje kako stvoriti projekt, člana projektnog tima, skupove operacija, projektne zadatke i dodjele resursa. U ovom se članku objašnjava i kako ažurirati entitet i izvršiti skup operacija.
 
-Slijedi potpuni popis koraka koji su dokumentirani u tijeku uzorka u ovom tema:
+Slijedi potpuni popis koraka koji su dokumentirani u oglednom toku u ovom članku:
 
 1. [Stvaranje okidača PowerApps](#1)
 2. [Stvori projekt](#2)
@@ -40,7 +40,7 @@ Slijedi potpuni popis koraka koji su dokumentirani u tijeku uzorka u ovom tema:
 
 ## <a name="assumptions"></a>Pretpostavke
 
-Ovaj tema pretpostavlja da imate osnovno znanje o platformi, tokovima oblaka Dataverse i sučelju za programiranje aplikacija project schedule (API). Dodatne informacije potražite u [odjeljku Reference](#references) kasnije u ovom tema.
+Ovaj članak pretpostavlja da imate osnovno znanje o platformi, tokovima oblaka Dataverse i sučelju za programiranje aplikacija project schedule (API). Dodatne informacije potražite u [odjeljku Reference](#references) u nastavku ovog članka.
 
 ## <a name="create-a-flow"></a>Stvori tok
 
@@ -65,7 +65,7 @@ Slijedite ove korake da biste stvorili tijek [koji je](/power-automate/overview-
 1. **Na stranici Rješenja** odaberite rješenje koje ste stvorili, a zatim odaberite **Novo**.
 2. U lijevom oknu odaberite **Trenutno strujanje oblaka** \> **Automatizacijski** \> **protok** \> **oblaka.**
 3. U polje Naziv **tijeka** unesite **Pokazni tijek zakaženja API-ja**.
-4. **Na popisu Odabir načina pokretanja ovog toka** odaberite **Power Apps**. Kada stvorite Power Apps okidač, logika ovisi o vama kao autoru. U ovom tema ostavite ulazne parametre prazne u svrhu testiranja.
+4. **Na popisu Odabir načina pokretanja ovog toka** odaberite **Power Apps**. Kada stvorite Power Apps okidač, logika ovisi o vama kao autoru. U ovom članku ostavite ulazne parametre prazne u svrhu testiranja.
 5. Kliknite **Stvori**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Korak 2: Stvaranje projekta
@@ -80,7 +80,7 @@ Slijedite ove korake da biste stvorili ogledni projekt.
 
     ![Odabir operacije.](media/chooseactiontab.png)
 
-3. U novom koraku odaberite trotočje (**...**), a zatim **Preimenuj**.
+3. U novom koraku odaberite trotočje (**...), a zatim Preimenuj** **.**
 
 ![Preimenovanje koraka.](media/renamestep.png)
 
@@ -94,7 +94,7 @@ Slijedite ove korake da biste stvorili ogledni projekt.
 
 1. U tijeku odaberite **Novi korak**.
 2. **U dijaloškom okviru Odabir operacije** u polje za pretraživanje unesite **varijablu** inicijalizacije. Zatim na kartici **Akcije** odaberite operaciju na popisu rezultata.
-3. U novom koraku odaberite trotočje (**...**), a zatim **Preimenuj**.
+3. U novom koraku odaberite trotočje (**...), a zatim Preimenuj** **.**
 4. Preimenujte korak **Član** init tima.
 5. **U polje Naziv** unesite **TeamMemberAction**.
 6. **U polju Vrsta** odaberite **Niz**.
@@ -104,7 +104,7 @@ Slijedite ove korake da biste stvorili ogledni projekt.
 
 1. U tijeku odaberite **Novi korak**.
 2. **U dijaloškom okviru Odabir operacije** u polje za pretraživanje unesite izvedi **slobodnu akciju**. Zatim na kartici **Akcije** odaberite operaciju na popisu rezultata.
-3. U novom koraku odaberite trotočje (**...**), a zatim **Preimenuj**.
+3. U novom koraku odaberite trotočje (**...), a zatim Preimenuj** **.**
 4. Preimenujte korak **Stvaranje člana** tima.
 5. **Za polje Naziv** akcije u dijaloškom okviru Dinamički **sadržaj** odaberite **TeamMemberAction**.
 6. **U polje Parametri akcije** unesite sljedeće informacije o parametru.
@@ -132,7 +132,7 @@ Slijedite ove korake da biste stvorili ogledni projekt.
 
 1. U tijeku odaberite **Novi korak**.
 2. **U dijaloškom okviru Odabir operacije** u polje za pretraživanje unesite izvedi **slobodnu akciju**. Zatim na kartici **Akcije** odaberite operaciju na popisu rezultata.
-3. U novom koraku odaberite trotočje (**...**), a zatim **Preimenuj**.
+3. U novom koraku odaberite trotočje (**...), a zatim Preimenuj** **.**
 4. Preimenujte korak **Stvaranje skupa** operacija.
 5. **U polju Naziv** akcije odaberite prilagođenu akciju **msdyn\_ CreateOperationSetV1** Dataverse.
 6. **U polje Opis** unesite **ScheduleAPIDemoOperationSet**.
@@ -144,7 +144,7 @@ Slijedite ove korake da biste stvorili ogledni projekt.
 
 1. U tijeku odaberite **Novi korak**.
 2. **U dijaloškom okviru Odabir operacije** u polje za pretraživanje unesite **dodaj novi redak**. Zatim na kartici **Akcije** odaberite operaciju na popisu rezultata.
-3. U novom koraku odaberite trotočje (**...**), a zatim **Preimenuj**.
+3. U novom koraku odaberite trotočje (**...), a zatim Preimenuj** **.**
 4. Preimenujte korak **Stvaranje grupe**.
 5. U polju Naziv **tablice** odaberite **Grupe projekata**.
 6. **U polje Naziv** unesite **ScheduleAPIDemoBucket1**.
@@ -154,7 +154,7 @@ Slijedite ove korake da biste stvorili ogledni projekt.
 
 1. U tijeku odaberite **Novi korak**.
 2. **U dijaloškom okviru Odabir operacije** u polje za pretraživanje unesite **varijablu** inicijalizacije. Zatim na kartici **Akcije** odaberite operaciju na popisu rezultata.
-3. U novom koraku odaberite trotočje (**...**), a zatim **Preimenuj**.
+3. U novom koraku odaberite trotočje (**...), a zatim Preimenuj** **.**
 4. Preimenujte korak **Init linkstatus**.
 5. **U polje Naziv** unesite **linkstatus**.
 6. **U polju Vrsta** odaberite **Cijeli broj**.
@@ -164,7 +164,7 @@ Slijedite ove korake da biste stvorili ogledni projekt.
 
 1. U tijeku odaberite **Novi korak**.
 2. **U dijaloškom okviru Odabir operacije** u polje za pretraživanje unesite **varijablu** inicijalizacije. Zatim na kartici **Akcije** odaberite operaciju na popisu rezultata.
-3. U novom koraku odaberite trotočje (**...**), a zatim **Preimenuj**.
+3. U novom koraku odaberite trotočje (**...), a zatim Preimenuj** **.**
 4. Preimenujte korak **Init Broj zadataka**.
 5. **U polje Naziv** unesite **broj zadataka**.
 6. **U polju Vrsta** odaberite **Cijeli broj**.
@@ -174,7 +174,7 @@ Slijedite ove korake da biste stvorili ogledni projekt.
 
 1. U tijeku odaberite **Novi korak**.
 2. **U dijaloškom okviru Odabir operacije** u polje za pretraživanje unesite **varijablu** inicijalizacije. Zatim na kartici **Akcije** odaberite operaciju na popisu rezultata.
-3. U novom koraku odaberite trotočje (**...**), a zatim **Preimenuj**.
+3. U novom koraku odaberite trotočje (**...), a zatim Preimenuj** **.**
 4. Preimenujte korak **Init ProjectTaskID**.
 5. **U polje Naziv** unesite **broj zadataka**.
 6. **U polju Vrsta** odaberite **Niz**.
@@ -192,7 +192,7 @@ Slijedite ove korake da biste stvorili ogledni projekt.
 
 1. U tijeku odaberite **Novi korak**.
 2. **U dijaloškom okviru Odabir operacije** u polje za pretraživanje unesite **postavljenu varijablu**. Zatim na kartici **Akcije** odaberite operaciju na popisu rezultata.
-3. U novom koraku odaberite trotočje (**...**), a zatim **Preimenuj**.
+3. U novom koraku odaberite trotočje (**...), a zatim Preimenuj** **.**
 4. Preimenujte korak **Postavi projektni zadatak**.
 5. **U polju Naziv** odaberite **msdyn\_ projecttaskid**.
 6. **Za polje Vrijednost** unesite **GUID()** u sastavljač izraza.

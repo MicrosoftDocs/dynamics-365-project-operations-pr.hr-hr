@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje fakturiranja projekta unutar tvrtke
-description: U ovoj temi opisuje se način postavljanja fakturiranja projekata između dviju tvrtki u vašoj tvrtki ili ustanovi.
+description: U ovom se članku objašnjava kako postaviti fakturiranje projekata između dviju tvrtki u tvrtki ili ustanovi.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916601"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfiguriranje fakturiranja projekta unutar tvrtke
 
 [!include [banner](../../includes/banner.md)]
 
-U ovoj temi opisuje se način postavljanja fakturiranja projekata između dviju tvrtki u vašoj tvrtki ili ustanovi. Ovaj zadatak upotrebljava skup podataka USSI.
+U ovom se članku objašnjava kako postaviti fakturiranje projekata između dviju tvrtki u tvrtki ili ustanovi. Ovaj zadatak upotrebljava skup podataka USSI.
 
 1. U navigacijskom oknu idite na **Moduli> Dugovanja> Dobavljači> Svi dobavljač**.
 2. U popisu **Svi dobavljači**, pronađite i odaberite željeni zapis.

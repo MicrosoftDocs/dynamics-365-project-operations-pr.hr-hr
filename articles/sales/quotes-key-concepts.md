@@ -1,6 +1,6 @@
 ---
 title: Ponude – Osnovni koncepti
-description: U ovoj se temi nalaze informacije o ponudama projekta i ponudama prodaje koje su dostupne u aplikaciji Project Operations.
+description: U ovom se članku nalaze informacije o ponudama za projekte i prodajnim ponudama dostupnim u programima Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912507"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Jedinstveni koncepti za ponude koje se temelje na projektu
 
@@ -35,7 +35,7 @@ U aplikaciji Dynamics 365 Project Operations, postoje dvije vrste ponuda: projek
 - **Polja i koncepti**: Ponuda prodaje ne uključuje neka polja i koncepte koji su uključeni u ponudu projekta. Polja uključuju **Ugovornu jedinicu**, **Upravitelja računa** i **Naziv fakture za kontakt**.  
 - **Vrsta**: Ponude prodaje i projekta također se identificiraju poljem koje se temelji na skupu mogućnosti,**Vrsta**. Za prodajnu ponudu, ovo polje ima vrijednost **Na temelju artikla**. Za projektnu ponudu, ona ima vrijednost **Na temelju rada**.
 
-U ovoj temi usredotočit ćemo se na pojedinosti o ponudama projekta.
+Ovaj se članak usredotočuje na detalje citata projekta.
 
 Ponuda projekta u aplikaciji Project Operations može imati stavke s više redaka ili retke ponuda. U stvari, projektna ponuda ima dvije rešetke za stavke redaka. Jedna rešetka je za retke temeljene na projektu koji omogućuju detaljne procjene. Druga rešetka je za retke temeljene na proizvodu koje koriste jednostavnu jediničnu cijenu i pristup temeljen na količini.
 

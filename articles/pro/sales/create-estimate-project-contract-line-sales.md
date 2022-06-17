@@ -1,17 +1,17 @@
 ---
 title: Procjena retka ugovora koji se temelji na projektu – osnovna
-description: Ovaj tema pruža informacije o procjeni retka ugovora koji se temelji na projektu.
+description: U ovom se članku nalaze informacije o procjeni retka ugovora temeljenog na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 179994a2515686bce2370964121cbdca08a9d085
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914393"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Procjena retka ugovora koji se temelji na projektu – osnovna
 

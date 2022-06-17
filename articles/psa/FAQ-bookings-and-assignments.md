@@ -1,6 +1,6 @@
 ---
 title: Rezervacije resursa i kako su povezane s dodjelama zadataka
-description: Ova tema pruža informacije o upravljanju imenovanim resursima, rezervacijama resursa i dodjelama zadataka te načinu na koji su međusobno povezani.
+description: Ovaj članak sadrži informacije o upravljanju imenovanim resursima, rezervacijama resursa i dodjelama zadataka te o tome kako se međusobno odnose.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 953d7ca1995eae823fd29d0a9e85ff6a2a2eb59b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fd8f028a9f4056a646f5001ee8c91191c71140af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575470"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910943"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Rezervacije resursa i kako su povezane s dodjelama zadataka
 

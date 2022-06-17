@@ -1,6 +1,6 @@
 ---
 title: Obrada računa za troškove
-description: U ovoj se temi nalaze informacije o obradi optičkog prepoznavanja znakova (OCR, optical character recognition) za račune. Ova je značajka osmišljena kako bi poboljšala korisničko iskustvo kada se izvješća o troškovima kreiraju u Microsoft Dynamics 365 Finance.
+description: Ovaj članak pruža informacije o obradi optičkog prepoznavanja znakova (OCR) za potvrde. Ova je značajka osmišljena kako bi poboljšala korisničko iskustvo kada se izvješća o troškovima kreiraju u Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 5a72802e3c52b6a9e55ac779aa36c32072dc8b8b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684311"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911403"
 ---
 # <a name="expense-receipt-processing"></a>Obrada računa za troškove
 

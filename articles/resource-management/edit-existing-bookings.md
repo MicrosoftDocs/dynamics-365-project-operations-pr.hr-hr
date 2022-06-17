@@ -1,24 +1,24 @@
 ---
 title: Uređivanje rezervacija
-description: U ovoj temi nalaze se informacije o načinu ažuriranja i unosa promjena u rezervacije.
+description: U ovom se članku nalaze informacije o tome kako ažurirati i izmijeniti rezervacije.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915221"
 ---
 # <a name="edit-bookings"></a>Uređivanje rezervacija
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 
-Kada se na projektu dogode promjene koje zahtijevaju ažuriranje postojećih rezervacija, postoji nekoliko načina za promjenu. U ovoj temi opisuje se način ažuriranja i unosa promjena u rezervacije.
+Kada se na projektu dogode promjene koje zahtijevaju ažuriranje postojećih rezervacija, postoji nekoliko načina za promjenu. U ovom se članku opisuje kako ažurirati i izmijeniti rezervacije.
 
 ## <a name="resource-reconciliation"></a>Usklađivanje resursa
 

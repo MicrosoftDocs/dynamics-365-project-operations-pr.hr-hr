@@ -1,24 +1,24 @@
 ---
 title: Integracija upravljanja troškovima
-description: U ovoj temi nalaze se informacije o integraciji izvješća o trošku u aplikaciji Project Operations s pomoću dvostrukog pisanja.
+description: U ovom se članku navode informacije o integraciji izvješća o troškovima u projektnim operacijama pomoću dvostrukog pisanja.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924605"
 ---
 # <a name="expense-management-integration"></a>Integracija upravljanja troškovima
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovoj temi nalaze se informacije o integraciji izvješća o trošku u aplikaciji Project Operations [s punom implementacijom troška](../expense/expense-overview.md) s pomoću dvostrukog pisanja.
+U ovom se članku nalaze informacije o integraciji izvješća o troškovima u implementaciji [punih troškova project operacija](../expense/expense-overview.md) pomoću dvostrukog pisanja.
 
 ## <a name="expense-categories"></a>Kategorije troška
 

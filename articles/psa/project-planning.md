@@ -1,6 +1,6 @@
 ---
 title: Početna stranica planiranja projekta
-description: Ova tema pruža informacije o planiranju projekta.
+description: U ovom se članku nalaze informacije o planiranju projekta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919039"
 ---
 # <a name="project-planning-home-page"></a>Početna stranica planiranja projekta
 
@@ -43,7 +43,7 @@ Alati za upravljanje projektima u PSA-u pomažu vam da jednostavno pokrenete pro
 - Predvidite preduvjete resursa za projekte u kanalu.
 - Uspješno isporučite projekte praćenjem napretka i potrošnje troška.
 
-Sljedeće teme pružaju informacije koje će pomoći upraviteljima projekata u procjeni rada, procjeni troškova projekta i predviđanju zahtjeva za resurse pomoću alata koji su podržani u PSA-u:
+Sljedeći članci pružaju informacije koje će voditeljima projekata pomoći da procijene rad, procijene troškove projekta i predvide zahtjeve resursa pomoću alata koji su podržani u PSA-u:
 
 - [Stvaranje rasporeda](project-creating.md)
 - [Procjena troškova i prihoda projekta](project-estimating.md)

@@ -1,23 +1,23 @@
 ---
 title: Načini troška za završetak
-description: U ovoj temi nalaze se informacije o načinima s pomoću kojih se izračunava trošak za završetak projekta.
+description: Ovaj članak pruža informacije o metodama koje se koriste za izračunavanje troškova za dovršetak projekta.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920281"
 ---
 # <a name="cost-to-complete-methods"></a>Načini troška za završetak
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovoj temi nalaze se informacije o načinima s pomoću kojih se izračunava trošak za završetak projekta. Postoji više načina s pomoću kojih možete izračunati trošak za završetak projekta. 
+Ovaj članak pruža informacije o metodama koje se koriste za izračunavanje troškova za dovršetak projekta. Postoji više načina s pomoću kojih možete izračunati trošak za završetak projekta. 
 
 Kada stvarate procjenu za projekt, na stranici **Stvori procjenu**, u polju **Način troška za završetak**, možete odabrati jedan od sljedećih načina troška za završetak.
 

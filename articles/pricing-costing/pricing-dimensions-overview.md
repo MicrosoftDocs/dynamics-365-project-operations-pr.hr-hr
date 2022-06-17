@@ -1,18 +1,18 @@
 ---
-title: Pregled cjenovnih veličina
-description: U ovoj temi nalaze se informacije o veličinama za određivanje cijena u aplikaciji Dynamics 365 Project Operations.
+title: Pregled veličina za određivane cijena
+description: U ovom se članku nalaze informacije o dimenzijama određivanja cijena u sustavu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918027"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled veličina za određivane cijena
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations isporučuje se sa zadanim skupom veličina za od
 
 ![Snimka zaslona parametara rješenja Project Service s istaknutom mogućnosti „Primjenjivo na prodaju”.](media/PS-OOB-parameters.png)
 
-Ako trebate odrediti cijenu ili trošak resursa pomoću dodatnih atributa, možete stvoriti prilagođena polja, entitete i dimenzije. Dodatne informacije potražite u sljedećim temama. 
+Ako trebate odrediti cijenu ili trošak resursa pomoću dodatnih atributa, možete stvoriti prilagođena polja, entitete i dimenzije. Dodatne informacije potražite u sljedećim člancima. 
   
   > [!NOTE]
   > Postupci moraju biti dovršeni redoslijedom kojim su navedeni.

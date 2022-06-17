@@ -1,6 +1,6 @@
 ---
 title: Troškovi dnevnice
-description: Ovaj tema pruža informacije o tome kako raditi s troškovima dnevnica.
+description: Ovaj članak pruža informacije o tome kako raditi s troškovima dnevnice.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923179"
 ---
 # <a name="per-diem-expenses"></a>Troškovi dnevnice
 
 > [!IMPORTANT] 
-> Funkcionalnost opisana u ovom tema dostupna je ciljanim korisnicima kao dio izdanja pretpregleda.
+> Funkcionalnost opisana u ovom članku dostupna je ciljanim korisnicima kao dio izdanja pretpregleda.
 
 Isplata dnevnica fiksna je, unaprijed određena dnevnica koju tvrtka isplaćuje svojim zaposlenicima za smještaj (hotele), obroke i slučajne troškove koje ti zaposlenici snose dok putuju na posao. Tvrtka isplaćuje ovu naknadu zaposlenicima umjesto da plaća stvarne putne troškove. Zaposlenici mogu koristiti svoju **naknadu za incidente / ostale** dnevnice za pokrivanje napojnica, posluga u sobu, pranja rublja ili usluga kemijskog čišćenja za važne poslovne sastanke. Stopa dnevnica može varirati, ovisno o tome hoće li poslodavac odlučiti nadoknaditi kombinirane troškove smještaja i obroka ili samo za troškove obroka i nezgoda.
 

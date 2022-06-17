@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919223"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfiguriraj postavke dodatnih parametara (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592315"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Nakon konfiguriranja stavki u prethodnoj temi, morate postaviti dodatne parametre projekta za korištenje na projektima. Prilikom prve instalacije [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] izradili ste postavku parametara da biste najprije izradili sve zapise koji su potrebni za rad [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Sada je vrijeme da se vratite i konfigurirate dodatna polja za ove postavke.  
+Nakon što konfigurirate stavke u prethodnim člancima, morate postaviti dodatne parametre projekta koji će se koristiti za svoje projekte. Prilikom prve instalacije [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] izradili ste postavku parametara da biste najprije izradili sve zapise koji su potrebni za rad [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Sada je vrijeme da se vratite i konfigurirate dodatna polja za ove postavke.  
   
  Morat ćete konfigurirati sljedeće postavke:  
   

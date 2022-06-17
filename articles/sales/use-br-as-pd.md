@@ -1,26 +1,26 @@
 ---
 title: Uporaba resursa koji se može rezervirati kao veličine za određivanje cijene
-description: Ova tema pruža informacije o načinu uporabe resursa koji je moguće rezervirati kao veličinu za određivanje cijena.
+description: U ovom se članku navode informacije o korištenju resursa koji se može rezervirati kao dimenzije određivanja cijena.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914807"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Uporaba resursa koji se može rezervirati kao veličine za određivanje cijene
 
  _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_ 
 
-Ova tema pruža informacije o načinu uporabe resursa koji je moguće rezervirati kao veličinu za određivanje cijena. Ako je vaša strategija određivanja cijena postavljena tako da svaki resurs koji možete rezervirati mora imati određenu cijenu ili cijenu koštanja, upotrijebite resurs koji se može rezervirati kao veličina za određivanje cijene.
+U ovom se članku navode informacije o korištenju resursa koji se može rezervirati kao dimenzije određivanja cijena. Ako je vaša strategija određivanja cijena postavljena tako da svaki resurs koji možete rezervirati mora imati određenu cijenu ili cijenu koštanja, upotrijebite resurs koji se može rezervirati kao veličina za određivanje cijene.
 
 ## <a name="prerequisites"></a>Preduvjeti
-Prije nego što dovršite postupke iz ove teme, morate imati novo rješenje veličine za određivanje cijena za svoju tvrtku ili ustanovu. Ako ga već niste stvorili, pogledajte odjeljak [Stvaranje prilagođenih polja i entiteta](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Prije nego što dovršite postupke u ovom članku, morate imati novo rješenje dimenzije određivanja cijena za svoju tvrtku ili ustanovu. Ako ga već niste stvorili, pogledajte odjeljak [Stvaranje prilagođenih polja i entiteta](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Dodavanje polja resursa koji se može rezervirati u obrasce i prikaze
 Kako bi polje **Resursi koji se mogu rezervirati** bilo vidljivo u rješenju veličine za određivanje cijena, morate dodati polje svim obrascima i prikazima kao entitet.

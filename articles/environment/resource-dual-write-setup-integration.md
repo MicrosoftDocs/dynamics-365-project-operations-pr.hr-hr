@@ -1,24 +1,24 @@
 ---
 title: Postavljanje i integracija konfiguracijskih podataka aplikacije Project Operations
-description: U ovoj temi nalaze se informacije o postavljanju i konfiguraciji karata s dvostrukim pisanjem u aplikaciji Project Operations.
+description: U ovom se članku nalaze informacije o postavljanju i konfiguriranju mapa dvostrukog pisanja project operations operacija.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914531"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Postavljanje i integracija konfiguracijskih podataka aplikacije Project Operations
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovoj temi nalaze se informacije o integraciji s dvostrukim pisanjem u aplikaciji Project Operations za postavljanje i konfiguriranje entiteta.
+U ovom se članku nalaze informacije o integraciji dvostrukog pisanja operacija programa Project Operations za entitete postavljanja i konfiguracije.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Ugovor o projektu, redci ugovora i projekti
 

@@ -1,6 +1,6 @@
 ---
 title: Stvaranje prilagođenih polja i entitete kao cjenovnih veličina
-description: U ovoj se temi nalaze informacije o načinu stvaranja prilagođenih skupova mogućnosti ili entiteta.
+description: U ovom se članku nalaze informacije o stvaranju prilagođenih skupova mogućnosti ili entiteta.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4912087d7a19f5f342beff94723acd6131ce2dd8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 198faf7e51fad2d9573aaeab316170a84bf558ff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917843"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Stvaranje prilagođenih polja i entitete kao cjenovnih veličina
 

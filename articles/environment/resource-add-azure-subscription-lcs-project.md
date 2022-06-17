@@ -1,23 +1,23 @@
 ---
 title: Dodavanje pretplate za platformu Azure LCS projektu
-description: U ovoj temi nalaze se informacije o načinu povezivanja pretplate za platformu Azure s LCS projektom.
+description: U ovom se članku nalaze informacije o povezivanju pretplate na Azure s LCS projektom.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912139"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodavanje pretplate za platformu Azure LCS projektu
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Okruženja hostirana u oblaku moraju se implementirati s pomoću postojeće pretplate za platformu Azure. U ovoj temi pojašnjava se način povezivanja pretplate za platformu Azure s LCS projektom. 
+Okruženja hostirana u oblaku moraju se implementirati s pomoću postojeće pretplate za platformu Azure. U ovom se članku objašnjava kako povezati postojeću pretplatu na Azure s LCS projektom. 
 
 ## <a name="grant-admin-consent"></a>Davanje pristanka administratora
 
@@ -59,7 +59,7 @@ Sada je autorizacija završena.
 2. Unesite svoj ID pretplate za platformu Azure. Svoj ID pretplate za platformu Azure možete pronaći na [portalu platforme Azure](https://ms.portal.azure.com/), pod stavkom **Postavke** u donjem lijevom dijelu zaslona.
 3. U polju **Konfiguriraj uporabu usluge Resource Manager za platformu Azure** odaberite **Da**.
 4. Obvezno provjerite podudara li se pretplatnička domena platforme Azure AAD domena klijenta s Azure pretplatom koja je vlasnik domene koju upotrebljavate i odaberite **Dalje**.
-5. Na zaslonu **Postavke platforme Microsoft Azure** odaberite **Dalje** za potvrdu. Ako se ovom zaslonu prikaže pogreška, vratite se na odjeljak [Omogućivanje uslugama sustava Dynamics za implementaciju pristupa pretplati za platformu Azure](#provide) u ovoj temi i provjerite jeste li izvršili sve korake.
+5. Na zaslonu **Postavke platforme Microsoft Azure** odaberite **Dalje** za potvrdu. Ako na ovom zaslonu naiđete na pogrešku, u ovom se članku vratite na odjeljak [Pružanje pristupa komponente Dynamics Deployment Services pretplati](#provide) na Azure i provjerite jeste li dovršili sve korake.
 6. Preuzmite certifikat za upravljanje platformom Azure u lokalnu mapu na računalu. Zatražite administratora pretplate za platformu Azure da učita certifikat na portal za upravljanje platformom Azure odabirom pretplate i odlaskom na **Postavke** > **Certifikati za upravljanje**. Ovaj certifikat omogućuje LCS-u da u vaše ime komunicira s platformom Azure. Ovaj korak možete preskočiti ako vaš korisnik ima pristup pretplati.
 7. Odaberite **Dalje**.
 8. Odaberite regiju platforme Azure za implementaciju i odaberite podatkovni centar koji je blizu mjesta na kojem planirate upotrebljavati ovaj sustav.

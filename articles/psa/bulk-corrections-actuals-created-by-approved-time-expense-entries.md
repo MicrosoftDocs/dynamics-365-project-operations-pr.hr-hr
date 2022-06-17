@@ -1,6 +1,6 @@
 ---
 title: Skupne korekcije stvarnih podataka stvorene odobrenim unosima vremena i rashoda
-description: U ovoj temi objašnjava se kako administrator može izvršiti pojedinačne ili skupne ispravke prethodno odobrenih unosa vremena i rashoda ako naplata nije dovršena.
+description: U ovom se članku objašnjava kako administrator može izvršiti pojedinačne ili skupne ispravke prethodno odobrenih stavki vremena ili troškova ako naplata nije dovršena.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916280"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Skupne korekcije stvarnih podataka stvorene odobrenim unosima vremena i rashoda
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683353"
 
 Povremeno se mogu pogrešno unijeti unosi vremena ili troškova. Na primjer, tijekom stvaranja vremenskog unosa savjetnik može odabrati pogrešan datum ili tijekom unosa troškova zamijeniti redoslijed brojeva. Ako savjetnik ne može izvršiti ažuriranja poslanih unosa, administrator može izravno ispraviti unos za projekt.
 
-Kako biste dovršili postupke u ovoj temi, trebat će vam dopuštenja administratora.
+Da biste dovršili postupke u ovom članku, trebat će vam administratorske dozvole.
 
 ## <a name="correct-approved-time-entries"></a>Ispravljanje odobrenih vremenskih unosa     
 

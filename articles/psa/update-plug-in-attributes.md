@@ -1,6 +1,6 @@
 ---
 title: Ažuriranje atributa dodatka za uključivanje novih dimenzija cijena
-description: Ovaj tema pruža informacije o ažuriranju atributa dodatka za dimenzije cijena.
+description: U ovom se članku nalaze informacije o ažuriranju atributa dodatka za dimenzije određivanja cijena.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913197"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Ažuriranje atributa dodatka za uključivanje novih dimenzija cijena
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Ako ne upotrebljavate značajke sastavljanja ponuda i ugovora u programu Project Service Automation (PSA), možete preskočiti ovu tema.
+> Ako ne koristite značajke citiranja i ugovaranja automatizacije projektnih usluga (PSA), možete preskočiti ovaj članak.
 
-Ova tema podrazumijeva da ste dovršili postupke opisane u temama [Izrada prilagođenih polja i entiteta](create-custom-fields-entities.md), [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](field-references.md) i [Postavljanje prilagođenih polja kao dimenzija cijena](set-up-pricing-dimensions.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovu temu.
+U ovom se članku pretpostavlja da ste dovršili postupke u člancima, [Kreirajte prilagođena polja i entitete](create-custom-fields-entities.md), [Dodajte prilagođena polja postavi cijena i entitetima](field-references.md) transakcija te [Postavite prilagođena polja kao dimenzije cijena](set-up-pricing-dimensions.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovaj članak.
 
 Kada se pojedinost retka ponude izradi na stranici **Redak ponude** za redak ponude projekta, sustav stvara dva retka procjene u pozadini – jedan redak za stranu troška procjene i jedan za stranu prodaje. Isto vrijedi i za retke ugovora o projektu.
 
