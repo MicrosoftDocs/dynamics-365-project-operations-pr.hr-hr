@@ -1,6 +1,6 @@
 ---
 title: Fakturiranje u sustavu Project Service Automation
-description: Ova tema pruža informacije o fakturiranju.
+description: Ovaj članak pruža informacije o fakturiranju.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926813"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturiranje u sustavu Project Service Automation
 
@@ -94,7 +94,7 @@ Nakon pokretanja funkcije **ProcessRunner** poziva se **ProcessRunCaller**, navo
 Skupni postupak stvaranja faktura ponavljajući je posao. Ako se taj skupni postupak izvodi više puta, stvaraju se višestruke instance posla koje uzrokuju pogreške. Stoga biste trebali pokrenuti skupni postupak samo jednom i ponovno ga pokrenuti samo ako se prestane izvoditi.
 
 > [!NOTE]
-> Paketno fakturiranje na usluzi Project Service Automation pokreće se samo za retke projektnih ugovora koji su konfigurirani rasporedima faktura. Ugovorni redci s načinom naplate fiksne cijene moraju imati konfigurirane prekretnice. Redak projektnog ugovora s vremenskim i materijalnim načinom naplate treba imati postavku rasporeda računa na temelju datuma. Informacije o postavljanju učestalosti fakturiranja u kontekstu projekta koji se temelji na retku ponude nalaze se u temi [Ponude i redci ponude](basic-quote-lines.md#invoice-schedule). Isto se odnosi i na redak ugovora koji se temelji na projektu.      
+> Paketno fakturiranje na usluzi Project Service Automation pokreće se samo za retke projektnih ugovora koji su konfigurirani rasporedima faktura. Ugovorni redci s načinom naplate fiksne cijene moraju imati konfigurirane prekretnice. Redak projektnog ugovora s vremenskim i materijalnim načinom naplate treba imati postavku rasporeda računa na temelju datuma. Informacije o postavljanju frekvencija fakturiranja u kontekstu projekta koji se temelji na retku ponude navedene su u članku, [Citati i reci ponude](basic-quote-lines.md#invoice-schedule). Isto se odnosi i na redak ugovora koji se temelji na projektu.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Uređivanje skice PSA fakture
 

@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 26, V3
-description: U ovoj se temi navode značajke i ispravke dostupne u rješenju Project Service Automation, izdanje ažuriranja 26, V3.
+description: U ovom se članku navode značajke i popravci dostupni u ažuriranju 26., V3 za automatizaciju usluge project service.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cebfcd6425f11b74ce6331a093d8d3db3da356a0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 11f722c1f31c0e8aa08192cc955aabbe97018225
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928791"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Project Service Automation, izdanje ažuriranja 26, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577273"
 
 Zadovoljstvo nam je najaviti najnovije ažuriranje aplikacije Project Service Automation za sustav Dynamics 365. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x. Kako biste ažurirali ovo izdanje, posjetite stranicu Centra za administratore za sustav Dynamics 365 s rješenjima na mreži, kako biste instalirali ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovoj se temi navode značajke i ispravke koje su nove ili promijenjene u 26. izdanju ažuriranja aplikacije Project Service Automation, V3. Ova verzija ima broj izrade V3.10.44.59 i općenito je dostupna putem samostalnog ažuriranja u prosincu 2020.
+U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za Izdanje 26 ažuriranja automatizacije programa Project Service Update Release 26, V3. Ova verzija ima broj izrade V3.10.44.59 i općenito je dostupna putem samostalnog ažuriranja u prosincu 2020.
 
 ## <a name="update-release-26"></a>Izdanje ažuriranja 26
 

@@ -1,6 +1,6 @@
 ---
 title: Određivanje cijene projekta
-description: Ova tema sadrži informacije o tome kako funkcionira određivanje cijene u aplikaciji Dynamics 365 Project Service Automation.
+description: U ovom se članku nalaze informacije o načinu na koji cijene funkcioniraju u programu Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c9a5e1ef52eec99ee580258b5dd6db9823cdb4cb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb2a63246a21e5f1306b5ce7f2e2420a93af7ff3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926951"
 ---
 # <a name="project-pricing"></a>Određivanje cijene projekta 
 

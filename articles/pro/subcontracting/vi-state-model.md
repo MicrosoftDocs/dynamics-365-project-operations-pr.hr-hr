@@ -1,17 +1,17 @@
 ---
 title: Prijelazi stanja na fakturi dobavljača
-description: Ova tema objašnjava prijelaze stanja na fakturi dobavljača u Microsoftu Dynamics 365 Project Operations.
+description: U ovom se članku objašnjavaju prijelazi stanja na fakturi dobavljača u Microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7efb52621ee325d5025dfad0b45218d1fe20a063
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934311"
 ---
 # <a name="state-transitions-on-a-vendor-invoice"></a>Prijelazi stanja na fakturi dobavljača
 
@@ -19,7 +19,7 @@ ms.locfileid: "8584679"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Ova tema objašnjava prijelaze stanja na fakturi dobavljača u Microsoftu Dynamics 365 Project Operations. Koriste se sljedeća stanja: **Skica**, **U pregledu**, **Potvrđeno**, **Na čekanju** i **Otkazano**.
+U ovom se članku objašnjavaju prijelazi stanja na fakturi dobavljača u Microsoftu Dynamics 365 Project Operations. Koriste se sljedeća stanja: **Skica**, **U pregledu**, **Potvrđeno**, **Na čekanju** i **Otkazano**.
 
 Sljedeće ilustracije prikazuju državne prijelaze.
 

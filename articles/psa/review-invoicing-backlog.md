@@ -1,6 +1,6 @@
 ---
 title: Pregled zaostalih faktura u projektima i ugovorima o projektima
-description: Ovaj tema pruža informacije o tome kako pregledati vrijeme, trošak i zaostale podatke o proizvodu te kako ih označiti kao spremne za fakturiranje.
+description: Ovaj članak pruža informacije o tome kako pregledati vrijeme, troškove i zaostatke proizvoda i kako ih označiti kao spremne za fakturiranje.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600549"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928883"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Pregled zaostalih faktura u projektima i ugovorima o projektima
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600549"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Kada je transakcija spremna za izradu i obradu fakture, transakcija bi trebala imati oznaku **Spremno za fakturiranje**. Ovaj tema opisuje vrste transakcija koje se mogu izraditi.
+Kada je transakcija spremna za izradu i obradu fakture, transakcija bi trebala imati oznaku **Spremno za fakturiranje**. U ovom se članku opisuju vrste transakcija koje se mogu kreirati.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Pregled zaostale naplate za vrijeme i materijal
 

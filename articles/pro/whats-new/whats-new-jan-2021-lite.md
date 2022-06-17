@@ -1,25 +1,25 @@
 ---
 title: Novosti u siječnju 2021. – osnovna implementacija aplikacije Project Operations
-description: U ovoj temi nalaze se informacije o ažuriranjima kvalitete dostupnim u izdanju osnovne implementacije aplikacije Project Operations za siječanj 2021.
+description: U ovom se članku nalaze informacije o ažuriranjima kvalitete dostupnima u izdanju implementacije lite projekta Project Operations u siječnju 2021.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 17accd33a6126918e02e90b67636d95342efdd65
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47932fb89cdd9481988d00f2f3be094b68110cbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934265"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Novosti u siječnju 2021. – osnovna implementacija aplikacije Project Operations
 
 
 _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
-Ova tema odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
+Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
 
   - Project Operations na verziji 4.6.0.154 okruženja platforme Dataverse.
   

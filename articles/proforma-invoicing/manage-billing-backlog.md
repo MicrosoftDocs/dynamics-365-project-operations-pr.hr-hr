@@ -1,17 +1,17 @@
 ---
 title: Upravljanje zaostalim naplatama
-description: U ovoj temi nalaze se informacije o načinu prikaza zaostalih naplata i rada s njima u aplikaciji Project Operations.
+description: U ovom se članku nalaze informacije o prikazu zaostataka u naplati i radu s njima u operacijama projekta.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9837af0d3c0b2476edab35a53092cf95a44e5244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5be05639650bb5b9d646067e8d83bada60824081
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929360"
 ---
 # <a name="manage-billing-backlog"></a>Upravljanje zaostalim naplatama
 

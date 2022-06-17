@@ -1,17 +1,17 @@
 ---
 title: Navigacija aplikacijom Project Operations
-description: U ovoj temi nalaze se informacije o načinu pristupa aplikaciji Project Operations iz rješenja Lifecycle Services.
+description: U ovom se članku nalaze informacije o pristupu operacijama projekta iz usluga životnog ciklusa.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931643"
 ---
 # <a name="navigate-project-operations"></a>Navigacija aplikacijom Project Operations
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations za scenarije temeljene na resursima / bez zaliha
  - **Projektne operacije u okruženju platforme Common Data Service (CDS)**: Ova komponenta pokriva mogućnosti i postupke od prilike do predračuna. 
  - **Upravljanje projektima i računovodstvo Dynamics 365 Finance okruženju**: ova komponenta pokriva mogućnosti upravljanja troškovima, računovodstvo projekata i priznavanje prihoda. 
 
-Nakon što aplikaciju Project Operations pripremite na način opisan u ovoj temi, stranica **Pojedinosti okruženja** rješenja Lifecycle Services (LCS) omogućuje jednostavan pristup objema komponentama aplikacije Project Operations.  
+Nakon što dodijelite resurse operacijama projekta kako je opisano u ovom članku, stranica s detaljima o **okolišu usluga životnog ciklusa (LCS)** omogućuje jednostavan pristup objema komponentama projektnih operacija.  
 
 U odjeljku upotrijebite naziv okruženja, **Naziv okruženja platforme Common Data Service** za navigaciju do aplikacije Project Operations u okruženju platforme CDS. 
 

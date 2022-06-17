@@ -1,17 +1,17 @@
 ---
 title: Konfiguriranje naplativih komponenti retka ugovora o projektu
-description: U ovoj temi nalaze se informacije o uključenim komponentama koje se naplaćuju i onima koje se ne naplaćuju na redcima ugovora.
+description: U ovom se članku nalaze informacije o uključenim komponentama koje se mogu naplatiti i komponentama koje se ne mogu naplatiti i koje se ne mogu naplatiti u recima ugovora.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bd419e189cd063f1cb2a1f0ecd3cd6450de0996b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 175b25dbcc43a5954fbbf2d54efdd73e19395907
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928285"
 ---
 # <a name="configure-chargeable-components-of-a-project-contract-line"></a>Konfiguriranje naplativih komponenti retka ugovora o projektu
 

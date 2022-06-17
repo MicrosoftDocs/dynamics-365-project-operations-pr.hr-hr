@@ -1,25 +1,25 @@
 ---
-title: Detalji zaglavlja za fakture dobavljača
-description: Ova tema objašnjava funkcionalnost koja se nalazi u zaglavlju fakture dobavljača u Microsoftu Dynamics 365 Project Operations.
+title: Pojedinosti zaglavlja za fakture dobavljača
+description: U ovom se članku objašnjavaju funkcije koje se nalaze u zaglavlju fakture dobavljača u microsoftu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929849"
 ---
-# <a name="header-details-for-vendor-invoices"></a>Detalji zaglavlja za fakture dobavljača
+# <a name="header-details-for-vendor-invoices"></a>Pojedinosti zaglavlja za fakture dobavljača
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Ova tema objašnjava funkcionalnost koja se nalazi u zaglavlju fakture dobavljača u Microsoftu Dynamics 365 Project Operations.
+U ovom se članku objašnjavaju funkcije koje se nalaze u zaglavlju fakture dobavljača u microsoftu Dynamics 365 Project Operations.
 
 Budući da voditelji projekata planiraju i izvršavaju projekte, mogu zaposliti podizvođače i kupovati proizvode i usluge od dobavljača. Tijekom izvršenja projekta troškovi nastaju iz kategorija usluga, materijala i troškova koje se nabavljaju na podugovaranjima s dobavljačima. Dobavljači fakturiraju te troškove projektima kreiranjem faktura dobavljača.
 

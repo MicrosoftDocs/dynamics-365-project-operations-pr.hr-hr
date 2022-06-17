@@ -1,17 +1,17 @@
 ---
 title: Uporaba API-ja rasporeda projekta za izvođenje operacija s entitetima planiranja
-description: U ovoj temi nalaze se informacije i primjeri za uporabu API-ja rasporeda projekta.
+description: U ovom se članku navode informacije i uzorci za korištenje API-ja za raspored projekta.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929205"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Uporaba API-ja rasporeda projekta za izvođenje operacija s entitetima planiranja
 

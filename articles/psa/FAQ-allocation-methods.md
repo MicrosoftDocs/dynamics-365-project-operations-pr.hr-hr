@@ -1,6 +1,6 @@
 ---
 title: Načini dodjele rezervacija u aplikaciji Project Service Automation
-description: Ova tema pruža informacije o različitim načinima na koje možete dodijeliti rezervacije.
+description: U ovom se članku navode informacije o različitim načinima na koje možete rezervirati alokacije.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929159"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Načini dodjele rezervacija u aplikaciji Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Neovisno o tome dodajete li člana tima izravno projektu na kartici **Tim** ili rezervirate resurs za projekt ili zahtjev s ploče rasporeda, postoji nekoliko različitih načina dodjele rezervacija koje možete koristiti. Ova tema objašnjava kako svaki od tih načina radi i koji način može dovesti do prevelikog broja rezervacija resursa.
+Neovisno o tome dodajete li člana tima izravno projektu na kartici **Tim** ili rezervirate resurs za projekt ili zahtjev s ploče rasporeda, postoji nekoliko različitih načina dodjele rezervacija koje možete koristiti. Ovaj članak objašnjava kako svaka metoda funkcionira i koje metode mogu dovesti do preklapanja resursa.
 
 ## <a name="full-capacity"></a>Puni kapacitet 
 Način Puni kapacitet rezervira puni kapacitet resursa za odabrane datume od i do. Ako je, na primjer, za određeni resurs kalendar postavljen na rad od osam sati dnevno, pet dana u tjednu, postavljanje datuma početka i završetka koji pokrivaju pet radnih dana rezervira resurs na 40 sati. Rezervacija se vrši bez obzira na preostali kapacitet resursa. Ako je resurs već rezerviran tijekom tog razdoblja na drugim projektima, 40 sati se rezerviraju kao dodatni sati, što može dovesti do prevelikog broja rezervacija.

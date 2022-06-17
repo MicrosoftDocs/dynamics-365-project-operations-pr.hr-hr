@@ -1,6 +1,6 @@
 ---
-title: Promjene značajki iz automatizacije projektnih usluga u Projektne operacije
-description: Ova tema pruža pregled promjena značajki iz automatizacije projektnih usluga u Dynamics 365 Project Operations.
+title: Izmjene značajki s aplikacije Project Service Automation na aplikaciju Project Operations
+description: U ovom se članku daje pregled promjena značajki iz automatizacije project usluga u Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925341"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Promjene značajki iz automatizacije projektnih usluga u Projektne operacije
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Izmjene značajki s aplikacije Project Service Automation na aplikaciju Project Operations
 
-Nadogradnja s na Dynamics 365 Project Service Automation Lite bit će isporučena Dynamics 365 Project Operations u tri faze. Ova tema pruža informacije o glavnim promjenama koje možete očekivati kada nadogradnja bude dovršena.
+Nadogradnja s na Dynamics 365 Project Service Automation Lite bit će isporučena Dynamics 365 Project Operations u tri faze. U ovom se članku nalaze informacije o glavnim promjenama koje možete očekivati kada se nadogradnja dovrši.
 
 | Isporuka nadogradnje | Faza 1 <br>(siječanj 2022.) | Faza 2 <br>(Travanjski val 2022.) | Faza 3  |
 |------------------|------------------------|---------------------------|---------------------------|

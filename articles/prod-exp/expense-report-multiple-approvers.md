@@ -1,6 +1,6 @@
 ---
 title: Više odobravatelja izvješća o troškovima
-description: U ovoj se temi nalaze informacije o izvješćima o troškovima koje treba odobriti više osoba.
+description: U ovom se članku nalaze informacije o izvješćima o troškovima za koja je potrebno odobrenje više osoba.
 author: saraschi2
 ms.date: 02/23/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 383ce9eda6d0604ce0dd090e27a5c6fd569bd9e5
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: ae72ae578455a626c069c01552b3edf60df706a3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685277"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933943"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Više odobravatelja izvješća o troškovima
 

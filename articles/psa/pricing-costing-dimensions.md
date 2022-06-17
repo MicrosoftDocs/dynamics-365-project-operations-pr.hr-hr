@@ -1,6 +1,6 @@
 ---
 title: Početna stranica Dimenzije cijena i troškova
-description: Ova tema pruža pregled dimenzija cijena.
+description: Ovaj članak pruža pregled dimenzija cijena.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925433"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Početna stranica Dimenzije cijena i troškova
 
@@ -47,7 +47,7 @@ PSA se isporučuje sa zadanim skupom dimenzija cijena. Možete ih pregledati tak
 > [!IMPORTANT]
 > Ako ste upotrebljavali gotova polja uloge i organizacijske jedinice kao dimenzije cijena prije verzije 3 sustava PSA, neće biti vidljivih promjena. Možete nastaviti uobičajeno koristiti aplikaciju Project Service. 
 
-Ako trebate odrediti cijenu ili trošak resursa pomoću dodatnih atributa, možete stvoriti prilagođena polja, entitete i dimenzije. Za više informacija pogledajte sljedeće teme, međutim, napominjemo da morate dovršiti postupke redoslijedom navedenim u nastavku:
+Ako trebate odrediti cijenu ili trošak resursa pomoću dodatnih atributa, možete stvoriti prilagođena polja, entitete i dimenzije. Dodatne informacije potražite u sljedećim člancima, no imajte na umu da postupke morate dovršiti redoslijedom navedenim u nastavku:
 
 - [Stvaranje prilagođenih polja i entiteta](create-custom-fields-entities.md)
 - [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](field-references.md)

@@ -1,18 +1,18 @@
 ---
 title: Korištenje kategorija nabave s narudžbenicama za projekt i fakturama dobavljača na čekanju
-description: Ovaj tema opisuje kako konfigurirati kategorije nabave koje se mogu koristiti s narudžbenicama za projekt i fakturama dobavljača na čekanju.
+description: U ovom se članku opisuje kako konfigurirati kategorije nabave koje se mogu koristiti s narudžbenicama za projekt i fakturama dobavljača na čekanju.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: HT
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927411"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Korištenje kategorija nabave s narudžbenicama za projekt i fakturama dobavljača na čekanju
 
@@ -47,7 +47,7 @@ Slijedite ove korake da biste mapirali kategorije projekata u kategorije nabave 
 
 1. Idite na **kategorije nabave i nabave nabave \>**.
 1. Odaberite **Uređivanje hijerarhije** kategorija.
-1. Odaberite željeni hijerarhijski čvor kategorija, a zatim na **kartici Dodjela kategorija** projekta spojite čvor s kategorijom projekta iz **kategorije Vrijeme**, Trošak**ili **,Projekt** artikla (to jest, **kategorija Zadano vrijeme** ili **Zadani trošak**).
+1. Odaberite željeni hijerarhijski čvor kategorija, a zatim na **kartici Dodjela kategorija projekta spojite** čvor s kategorijom projekta iz **kategorije Vrijeme**, **Trošak** ili **Projekt** artikla (tj **. kategorije Zadano vrijeme** ili **Zadani trošak**).
 1. Odaberite **Spremi**.
 1. Zatvorite stranicu.
 

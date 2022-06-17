@@ -1,6 +1,6 @@
 ---
 title: Ponude i reci ponude
-description: Ova tema pruža informacije o ponudama i recima ponude.
+description: U ovom se članku navode informacije o ponudama i recima ponuda.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933345"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponude i reci ponude
 
@@ -39,7 +39,7 @@ U Dynamics 365 Project Service Automation, postoje dvije vrste ponuda: projektne
 - Prodajna ponuda ne uključuje neka polja i koncepte koji su uključeni u polja projektne ponude. Polja uključuju **Ugovornu jedinicu**, **Upravitelja računa** i **Naziv fakture za kontakt**.  
 - Prodajne ponude i projektne ponude također se identificiraju poljem koje se temelji na skupu mogućnosti pod nazivom **Vrsta**. Za prodajnu ponudu, ovo polje ima vrijednost **Na temelju artikla**. Za projektnu ponudu, ona ima vrijednost **Na temelju rada**.
 
-Ova tema usredotočit će se na pojedinosti o projektnim ponudama.
+Ovaj će se članak usredotočiti na detalje citata projekta.
 
 Projektna ponuda u PSA može imati stavke s više redaka ili redaka ponude. U stvari, projektna ponuda ima dvije rešetke za stavke redaka. Jedna rešetka je za retke temeljene na projektu koji omogućuju detaljne procjene. Druga rešetka je za retke temeljene na proizvodu koje koriste jednostavnu jediničnu cijenu i pristup temeljen na količini.
 

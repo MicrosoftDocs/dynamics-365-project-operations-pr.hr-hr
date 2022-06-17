@@ -1,18 +1,18 @@
 ---
 title: Priprema novog okruženja
-description: U ovoj temi nalaze se informacije o načinu pripreme novog okruženja aplikacije Project Operations.
+description: U ovom se članku navode informacije o dodjeli resursa novom okruženju za projektne operacije.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931597"
 ---
 # <a name="provision-a-new-environment"></a>Priprema novog okruženja
 
@@ -20,7 +20,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 
 
-U ovoj temi nalaze se informacije o načinu omogućivanja novog okruženja aplikacije Dynamics 365 Project Operations za scenarije koji se temelje na resursu / bez zaliha.
+U ovom se članku navode informacije o tome kako dodijeliti novo Dynamics 365 Project Operations okruženje za scenarije koji se temelje na resursima/ne zalihama resursa.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Omogućivanje automatiziranu pripremu aplikacije Project Operations u LCS projektu
 

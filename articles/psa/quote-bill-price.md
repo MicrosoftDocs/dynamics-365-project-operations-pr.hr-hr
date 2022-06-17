@@ -1,6 +1,6 @@
 ---
 title: Početna stranica Sastavljanje ponuda, određivanje cijena i naplata
-description: Ova tema pruža informacije o sastavljanju ponuda, određivanju cijena i naplati.
+description: U ovom se članku nalaze informacije o citiranju, određivanju cijena i naplati.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581091"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926721"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Početna stranica Sastavljanje ponuda, određivanje cijena i naplata
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581091"
 
 Sastavljanje ponuda, određivanje cijena i naplata značajke su koje koriste male i velike tvrtke ili ustanove. Razumijevanjem načina na koji te značajke funkcioniraju u aplikaciji, tvrtke ili ustanove mogu jednostavnije prilagoditi konfiguracije.
 
-Sljedeće teme pružaju više informacija o funkciji sastavljanja ponuda, određivanja cijena i naplate u PSA-u:
+Sljedeći članci pružaju više informacija o funkcijama citiranja, određivanja cijena i naplate u PSA:
 
 - [Prodajni postupak](basic-sales-process.md)
 - [Reci ponude](basic-quote-lines.md)

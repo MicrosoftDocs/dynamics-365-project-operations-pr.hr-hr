@@ -1,17 +1,17 @@
 ---
 title: Kontrolne točke retka podugovora
-description: U ovoj temi objašnjava se način stvaranja i održavanja rasporeda faktura koji se temelji na kontrolnim točkama za podugovor s dobavljačem.
+description: U ovom se članku objašnjava kako kreirati i održavati raspored faktura temeljen na ključnoj etapi za kooperant s dobavljačem.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d1c30f48e0d43aa55e2c1650637f7f102fb200de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b146bf0becff5d0fa0da59f50c0d04aafaf5115f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927595"
 ---
 # <a name="subcontract-line-milestones"></a>Kontrolne točke retka podugovora
 

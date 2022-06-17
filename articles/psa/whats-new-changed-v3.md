@@ -1,6 +1,6 @@
 ---
 title: Što je novo ili promijenjeno u aplikaciji Project Service Automation, verzija 3
-description: Ova tema pruža informacije o tome što je novo i promijenjeno u verziji 3 aplikacije Project Service Automation.
+description: U ovom se članku nalaze informacije o novostima koje su nove i promijenjene u verziji 3 automatizacije usluge project service.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926583"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Što je novo ili promijenjeno u aplikaciji Project Service Automation, verzija 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581643"
 
 
 
-Ova tema pruža informacije o promjenama korisničkog sučelja (UI), funkcionalnosti i terminologije u aplikaciji Project Service Automation između verzije 2 ili verzije 1 i verzije 3.
+U ovom se članku nalaze informacije o promjenama korisničkog sučelja (korisničkog sučelja), funkcionalnosti i terminologije u automatizaciji usluge Project Service između verzije 2 ili verzije 1 i verzije 3.
 
 ## <a name="project-scheduling"></a>Planiranje projekta
 Raspored projekta, koji je u prethodnim verzijama bio poznat kao strukturna analiza rada (WBS), preimenovan je u Raspored i pristupa mu se klikom na karticu **Raspored**. 
@@ -150,7 +150,7 @@ Kada imate dodjele zadataka za resurs bez rezervacija (nedostatak rezervacija), 
 Ovaj odjeljak pruža informacije o promjenama u vremenu, trošku i odobrenju u verziji 3 aplikacije Project Service Automation. Kao dio rješenja Dynamics 365 Project Service Automation osvježila se značajka **Unos vremena** za iskorištavanje okvira objedinjenog sučelja. To donosi dosljedno, objedinjeno korisničko sučelje koje slijedi načela responzivnog dizajna za optimalan prikaz na bilo kojoj veličini zaslona ili bilo kojem uređaju. 
 
 ### <a name="landing-page"></a>Odredišna stranica
-Neproširivi prilagođeni doživljaj unosa vremena zastario je u verziji 3. Umjesto toga, sada je tu proširiv i dostupan doživljaj izvorne rešetke. Možete pristupiti funkcionalnosti unosa vremena pomoću karte web-mjesta na lijevoj strani. Uz ovu promjenu više nećete moći odjednom unositi vrijeme za jedan tjedan. Umjesto toga ćete morati stvoriti Unos vremena za svaki dan u rešetki. Nakon što se stvori nekoliko vremenskih unosa, korisnici mogu skupno stvarati vremenske unose s funkcijom **Kopiraj** koja će biti objašnjena kasnije u ovoj temi. 
+Neproširivi prilagođeni doživljaj unosa vremena zastario je u verziji 3. Umjesto toga, sada je tu proširiv i dostupan doživljaj izvorne rešetke. Možete pristupiti funkcionalnosti unosa vremena pomoću karte web-mjesta na lijevoj strani. Uz ovu promjenu više nećete moći odjednom unositi vrijeme za jedan tjedan. Umjesto toga ćete morati stvoriti Unos vremena za svaki dan u rešetki. Nakon nekoliko kreiranja unosa korisnici mogu skupno kreirati stavke vremena pomoću **funkcije Kopiraj** objašnjene kasnije u ovom članku. 
 
 ![Odredišna stranica za Unos vremena.](media/time-entry-landing-page-07.png)
  

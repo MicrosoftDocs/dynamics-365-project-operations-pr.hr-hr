@@ -1,19 +1,19 @@
 ---
-title: Transakcijske veze – povezivanje stvarnih vrijednosti različitih vrsta transakcija
-description: Ova tema objašnjava kako se transakcijska veza koristi za povezivanje stvarnih vrijednosti različitih vrsta kako bi se pomoglo u praćenju profitabilnosti, zaostataka u naplati i naplaćenih u odnosu na nenaplaćene izračune prihoda.
+title: Veze transakcije – Povežite stvarne podatke različitih vrsta transakcija
+description: U ovom se članku objašnjava kako se transakcijska veza koristi za povezivanje stvarnih vrijednosti različitih vrsta kako bi se pomoglo u praćenju profitabilnosti, zaostataka u naplati i naplaćenih u odnosu na nenaplaćene izračune prihoda.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926077"
 ---
-# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Transakcijske veze – povezivanje stvarnih vrijednosti različitih vrsta transakcija
+# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Veze transakcije – Povežite stvarne podatke različitih vrsta transakcija
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
