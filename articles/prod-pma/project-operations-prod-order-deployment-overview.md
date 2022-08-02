@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922765"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028785"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Pregled implementacije aplikacije Project Operations za scenarije koji se temelje na zalihama/proizvodnji
 
@@ -22,10 +22,10 @@ Ova vrsta implementacije ima sljedeće mogućnosti za tvrtke koje se temelje na 
 
 - Planiranje projekta s pomoću [strukturna analiza rada](work-breakdown-structures.md)
 - Nabavka i trošenje zalihe inventara za projekte
-- Upravljanje prodajom temeljenom na projektima pomoću modula **Prodaja i marketing** u aplikacijama Dynamics 365 Finance and Operations
-- Određivanje cijena projekata i troškovi korištenja konfiguracija cijene troškova i tečaja računa u aplikacijama za financije i operacije
-- Upravljanje resursima za projekte u aplikacijama Financije i operacije
-- Praćenje napretka i vremena projekta u aplikacijama za financije i operacije
+- Upravljanje prodajom temeljenom na projektima pomoću modula **Prodaja i marketing** u aplikacijama za financije i operacije sustava Dynamics 365
+- Određivanje cijena projekata i troškovi korištenja konfiguracija stope troškova i tečaja računa u aplikacijama za financije i operacije
+- Upravljanje resursima za projekte u financijskim i operativnim aplikacijama
+- Praćenje napretka projekta i vremena u financijskim i operativnim aplikacijama
 - Iskustva upravljanja troškovima na projektu i izvan projekta dohvaćanjem potvrde s pomoću mogućnosti OCR-a
 - Fakturiranje s pomoću poreza na promet klase poduzeća i sustava tečaja koji su na snazi na određeni datum
 - Grupe projekata koje se mogu konfigurirati za WIP računovodstvo i akumulacije

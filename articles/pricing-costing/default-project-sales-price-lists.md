@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917705"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036402"
 ---
 # <a name="default-price-lists"></a>Zadani cjenici
 
@@ -25,7 +25,7 @@ Svaka projektna ponuda i ugovor u aplikaciji Dynamics 365 Project Operations sad
 Sustav dovršava sljedeći postupak kako bi odredio koji će cjenik zadati za ponudu projekta:
 
 1. Sustav pregledava cjenike koji su priloženi cjenicima za projekt računa. 
-2. Ako su uz zapis računa priloženi cjenici za projekt, sustav pregledava prodajne cjenike priložene uz parametre projekta koji se podudaraju s valutom ponude projekta.
+2. Ako zapisu računa nisu pridruženi cjenici projekta, sustav pregledava cjenike prodaje povezane s parametrima projekta koji odgovaraju valuti ponude projekta.
 3. Nadalje, sustav provjerava mjerodavnost datuma cjenika koji se podudara s datumskim rasponom ponude projekta. Osobito datum kada je stvorena ponuda.
 4. Ako postoji više cjenika koji vrijede za datum ponude projekta, za ponudu projekta zadani su svi cjenici.
 5. Ako na datum ponude projekta nema cjenika koji su na snazi, za ponudu projekta ne postoji zadani cjenik projekata. Na ponudi projekta pojavit će se poruka upozorenja. U poruci se navodi kako, budući da nisu priloženi cjenici za projekat, stvarni i procijenjeni podaci za projekt neće imati cijenu.

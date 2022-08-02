@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930125"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064269"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Postavljanje kilometraže s pomoću tarifnih razreda kilometraže
 
@@ -50,5 +50,15 @@ Značajka **Izračuna iznosa kilometraže za više razina kilometraže s istom c
 
 Nakon što omogućite značajku, vratite razine kilometraže na zadane kako bi ispravno odražavale vrijednost polja **Količina**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Omogućivanje izračuna ukupnih iznosa kilometraže prema značajci poslovna godina
+
+Izračun **ukupnih vrijednosti kilometraže prema poslovna godina** značajki omogućuje novu postavku parametara upravljanja troškovima koja izvodi izračune ukupnih vrijednosti kilometraže prema poslovna godina umjesto kalendarske godine. Poduzmite sljedeće korake kako biste omogućili ovu značajku.
+
+1. Idite na **Radni prostori** > **Upravljanje značajkama**.
+1. Na popisu pronađite i odaberite **Izračun ukupnih zbrojeva kilometraže prema poslovna godina**, a zatim odaberite **Omogući odmah**.
+1. Otvorite Parametre **upravljanja općim** > **troškovima postave** > **upravljanja** > **troškovima**.
+1. **Na stranici Parametri upravljanja troškovima** pronađite i omogućite **korištenje poslovna godina za ukupne količine** kilometraže.
+
+Nakon što omogućite **koristi** poslovna godina za ukupne količine kilometraže, ukupni zbrojevi kilometraže izračunavaju se prema poslovna godina.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

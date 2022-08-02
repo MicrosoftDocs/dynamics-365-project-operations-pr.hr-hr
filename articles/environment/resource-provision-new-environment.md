@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931597"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028488"
 ---
 # <a name="provision-a-new-environment"></a>Priprema novog okruženja
 
@@ -117,7 +117,7 @@ Možda ćete trebati primijeniti kvalitativna ažuriranja u svom okruženju apli
 
     ![Primjena rješenja.](./media/13ApplySolutions.png)
 
-5. Odaberite oba rješenja, **Dynamics 365 Finance and Operations karta** entiteta s dvostrukim pisanjem i **Dynamics 365 Project Operations karte** entiteta s dvostrukim pisanjem, a zatim odaberite **Primijeni**.
+5. Odaberite oba rješenja, **Dynamics 365 Finance karta** entiteta s dvostrukim pisanjem i **Dynamics 365 Project Operations karte** entiteta s dvostrukim pisanjem, a zatim odaberite **Primijeni**.
 
     ![Potvrda rješenja.](./media/14ConfirmSolutions.png)
 

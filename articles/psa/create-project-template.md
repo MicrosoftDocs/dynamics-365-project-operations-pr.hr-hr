@@ -4,7 +4,7 @@ description: Kako izraditi predložak projekta u programu Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598985"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177416"
 ---
 # <a name="create-a-project-template-project-service"></a>Izradi predložak projekta (Project Service)
 
@@ -35,14 +35,21 @@ Predlošci projekta štede vrijeme ako se vaše poduzeće redovito prijavljuje n
 ## <a name="components-of-project-template"></a>Komponente predloška projekta
  Predložak projekta sastoji se od tri komponente:  
   
-- **Strukturna analiza rada**: strukturna analiza rada u predlošku projekta ima isti skup elemenata kao projekt. Možete izraditi hijerarhiju zadataka, povezati uloge sa zadacima, odrediti atribute rasporeda, postaviti ovisnosti i prikazati sve podatake u Ganttovom dijagramu. Strukturna analiza rada u predlošcima projekta podržava načine zadatka za svaki zadatak. Nema razlike između predloška projekta i projekta prilikom izrade radnog rasporeda.  
+- **Strukturna analiza rada**: strukturna analiza rada u predlošku projekta ima isti skup elemenata kao projekt. Možete stvoriti hijerarhiju zadataka, pridružiti uloge zadatku, definirati atribute rasporeda, postaviti ovisnosti i pregledati sve podatke u Ganttu. Struktura raščlambe rada u predlošcima projekata također podržava načine zadataka za svaki zadatak. Nema razlike između predloška projekta i projekta prilikom stvaranja radnog rasporeda.  
   
 - **Procjene projekta**: procjene projekta u predlošcima funkcioniraju na isti način kao i u projektima, osim što su cjenici za zadane cijene i troškove uvijek zadani cjenici troškova i prodaje definirani u parametrima sustava [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Ostale funkcije iste su kao u projektu.  
   
 - **Formiranje tima projekta**: prilikom formiranja tima projekta za predložak projekta, nije moguće rezervirati imenovani resurs u predlošku. Možete koristiti **Generiraj tim projekta** u strukturnoj analizi rada za generiranje skupa generičkih resursa. Također možete navesti potrebne vještine i stručnosti za generičke resurse. Generički resurs ne možete zamijeniti s resursom koji je moguće rezervirati u predlošku projekta.  
-  
-## <a name="create-a-project-from-a-template"></a>Izradi projekt iz predloška  
- Projekt iz predloška možete izraditi na sljedeće načine:  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Stvaranje predloška projekta iz postojećeg projekta
+Predložak projekta možete stvoriti iz projekta na sljedeće načine:
+
+- **Struktura** raščlambe rada: Struktura raščlambe rada u predlošku izvedenom iz projekta kopirat će sve zadatke i zavisnosti. Zadaci koji se kreiraju temeljit će se na generičkim članovima tima koji se dodaju projektnom timu prilikom stvaranja predloška projekta.
+- **Procjene** projekta: Kada se predložak projekta kreira iz postojećeg projekta, procjene iz izvornog projekta kopiraju se u predložak projekta.
+- **Članovi** projektnog tima: kada se predložak stvori iz postojećeg projekta, svi imenovani članovi tima zamjenjuju se generičkim resursom tvrtke ili ustanove. Zadržana su sva imena pozicija i uloge.
+
+## <a name="create-a-project-from-a-template"></a>Stvaranje projekta iz predloška  
+ Projekt možete stvoriti iz predloška na sljedeće načine:  
   
 -   Kada izrađujete projekt iz ponude, možete odabrati predložak projekta u obrascu za brzu izradu projekta.  
   

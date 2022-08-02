@@ -6,18 +6,18 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
+ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914209"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9204165"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Provjera faktura dobavljača s odobrenim stvarnim podacima
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_ **Odnosi se na:** Implementacija Lite - dogovor o proforma fakturiranju
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 Microsoftovi Dynamics 365 Project Operations voditelji projekata provjeravaju retke fakture dobavljača na sljedeće načine:
 

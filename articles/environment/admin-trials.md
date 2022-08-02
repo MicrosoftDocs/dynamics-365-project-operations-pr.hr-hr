@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959643"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029291"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Prijava za probnu verziju aplikacije Project Operations 
 
@@ -86,7 +86,7 @@ Prije nego što započnete, prijavite se u preglednik s korisničkim radnim rač
  
   Kad je dodjela resursa dovršena, stanje vašeg okruženja je **Spremno**. Dodjela resursa okruženja uključuje uvođenje pokaznih podataka.
  
-4.  Odaberite odgovarajući Microsoft Dataverse URL i URL-ove aplikacija za financije i operacije da biste provjerili valjanost implementacije.
+4.  Odaberite odgovarajući Microsoft Dataverse URL i URL-ove financijskih i operativnih aplikacija da biste provjerili valjanost implementacije.
 
 ## <a name="configuring-dual-write"></a>Konfiguriranje dvostrukog pisanja
 - Da biste konfigurirali sigurnosne uloge za dvostruko pisanje, pročitajte članak [Ažuriranje sigurnosnih postavki na programima Project Operations u sustavu Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
@@ -117,7 +117,7 @@ Sljedeći izvori pružaju korisne smjernice dok započinjete svoj put s aplikaci
 
 ## <a name="frequently-asked-questions"></a>Najčešća pitanja
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Što ako mi je potreban ALM ili ELM za okruženje aplikacija za financije i operacije?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Što ako mi je potreban ALM ili ELM za moje okruženje aplikacija za financije i operacije?
 
 - Za partnere koji trebaju potpune mogućnosti upravljanja životnim ciklusom okruženja, pogledajte [Zahtjev za licencu za sigurnosnu ogradu partnera](https://experience.dynamics.com/requestlicense) kako biste pregledali novu ponudu partnera. 
 - Za partnere koji traže dodatne informacije o pravima interne uporabe, pogledajte članak [Prednosti prava interne uporabe u oblaku i softveru (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

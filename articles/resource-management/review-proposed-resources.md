@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924835"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183965"
 ---
 # <a name="review-proposed-resources"></a>Pregledavanje predloženih resursa
 
@@ -40,8 +40,8 @@ Kako biste pregledali predložene resurse, slijedite ove korake:
     Pojavljuju se sljedeća ažuriranja statusa:
 
     - Na stranici **Pomoćnik za raspored** pokazatelji statusa ažuriraju se kako bi bilo jasno da je rezervacija predložena, a ne fiksno rezervirana.
-    - Na zahtjevu za resurs status se mijenja u **Potreban pregled**.
-    - Na kartici **Tim** projekta vrijednost **Status zahtjeva** generičkog člana tima mijenja se u **Potreban pregled**.
+    - Na zahtjev za resursom pregledavatelj zahtjeva trebao bi promijeniti status **u Pregled potreba**.
+    - **Na kartici Tim** projekta vrijednost statusa **zahtjeva** generičkog člana tima automatski se mijenja u **Pregled potreba**.
 
 Voditelj projekta može prihvatiti ili odbaciti prijedlog.
 

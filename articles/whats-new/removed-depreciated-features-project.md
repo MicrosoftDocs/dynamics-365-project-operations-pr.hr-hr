@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921477"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028320"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Uklonjene ili zastarjele značajke u sustavu Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ U ovom se članku opisuju značajke koje su uklonjene ili koje su planirane za u
 Namjena je ovog popisa da vam pomogne pri uzimanju u obzir tih uklanjanja i ukidanja za vlastito planiranje.
 
 > [!NOTE]
-> Detaljne informacije o objektima u aplikacijama Financije i operacije mogu se pronaći u tehničkim [**referentnim izvješćima**](/dynamics/s-e/global/axtechrefrep_61). Možete usporediti različite verzije tih izvješća da biste saznali više o objektima koji su se promijenili ili uklonili u svakoj verziji aplikacija Za financije i operacije.
+> Detaljne informacije o objektima u financijskim i operativnim aplikacijama mogu se pronaći u tehničkim [**referentnim izvješćima**](/dynamics/s-e/global/axtechrefrep_61). Možete usporediti različite verzije tih izvješća da biste saznali više o objektima koji su promijenjeni ili uklonjeni u svakoj verziji financijskih i operativnih aplikacija.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Značajke uklonjene ili zastarjele u izdanju Projektne operacije u ožujku 2022.
 
@@ -38,7 +38,7 @@ Namjena je ovog popisa da vam pomogne pri uzimanju u obzir tih uklanjanja i ukid
 | **Zamijenjeno drugom značajkom?** | No |
 | **Područja proizvoda na koja se odnosi** | Aplikacija |
 | **Mogućnost implementacije** | Projektne operacije za proizvodne/opskrbljene scenarije |
-| **Status** | Zastarjelo: Do 1. ožujka 2023. sakrit ćemo parametar i promijeniti ponašanje sustava tako da se uvijek stvaraju transakcije prilagodbe. |
+| **Stanje** | Zastarjelo: Do 1. ožujka 2023. sakrit ćemo parametar i promijeniti ponašanje sustava tako da se uvijek stvaraju transakcije prilagodbe. |
 
 ### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Parametar upravljanja projektima i računovodstva "Koristi datum prilagodbe kao novi datum projekta"
 
@@ -48,7 +48,7 @@ Namjena je ovog popisa da vam pomogne pri uzimanju u obzir tih uklanjanja i ukid
 | **Zamijenjeno drugom značajkom?** | No |
 | **Područja proizvoda na koja se odnosi** | Aplikacija |
 | **Mogućnost implementacije** | Projektne operacije za proizvodne/opskrbljene scenarije |
-| **Status** | Zastarjelo: Do 1. ožujka 2023. sakrit ćemo parametar i promijeniti ponašanje sustava tako da se datum projekta nikada ne mijenja pri prilagodbama. |
+| **Stanje** | Zastarjelo: Do 1. ožujka 2023. sakrit ćemo parametar i promijeniti ponašanje sustava tako da se datum projekta nikada ne mijenja pri prilagodbama. |
 
 ### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Tijek rada zahtjeva za resursom u operacijama projekta za scenarije temeljene na zalihama/proizvodnji
 
@@ -58,7 +58,7 @@ Namjena je ovog popisa da vam pomogne pri uzimanju u obzir tih uklanjanja i ukid
 | **Zamijenjeno drugom značajkom?** | No |
 | **Područja proizvoda na koja se odnosi** | Aplikacija |
 | **Mogućnost implementacije** | Projektne operacije za proizvodne/opskrbljene scenarije |
-| **Status** | Zastarjelo: Do 1. ožujka 2023. onemogućit ćemo mogućnost traženja resursa za projekt pomoću tijeka rada. |
+| **Stanje** | Zastarjelo: Do 1. ožujka 2023. onemogućit ćemo mogućnost traženja resursa za projekt pomoću tijeka rada. |
 
 ### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Stranica prijedloga fakture za projekt bez prikaza Zaglavlje i Reci
 
@@ -68,7 +68,7 @@ Namjena je ovog popisa da vam pomogne pri uzimanju u obzir tih uklanjanja i ukid
 | **Zamijenjeno drugom značajkom?** | Jest |
 | **Područja proizvoda na koja se odnosi** | Aplikacija |
 | **Mogućnost implementacije** | Projektne operacije za proizvodne/opskrbljene scenarije; Projektne operacije za scenarije resursa/ nenaseljenih resursa |
-| **Status** | Zastarjelo: Do 1. ožujka 2023. isključit ćemo raniju (naslijeđenu) stranicu i uključiti obrasce Koristi prijedlog fakture za projekt i temeljnicu **faktura pomoću ključa značajke Zaglavlja i Redaka** prema zadanim postavkama. |
+| **Stanje** | Zastarjelo: Do 1. ožujka 2023. isključit ćemo raniju (naslijeđenu) stranicu i uključiti obrasce Koristi prijedlog fakture za projekt i temeljnicu **faktura pomoću ključa značajke Zaglavlja i Redaka** prema zadanim postavkama. |
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Značajke uklonjene ili zastarjele u izdanju Project Operations iz prosinca 2021.
 
@@ -82,4 +82,4 @@ Namjena je ovog popisa da vam pomogne pri uzimanju u obzir tih uklanjanja i ukid
 | **Zamijenjeno drugom značajkom?** | No |
 | **Područja proizvoda na koja se odnosi** | Aplikacija  |
 | **Mogućnost implementacije** | Projektne operacije za proizvodne/opskrbljene scenarije |
-| **Status** | Zastarjelo: Do 1. prosinca 2022. planiramo više ne podržavati radne prostore suradnje. |
+| **Stanje** | Zastarjelo: Do 1. prosinca 2022. planiramo više ne podržavati radne prostore suradnje. |

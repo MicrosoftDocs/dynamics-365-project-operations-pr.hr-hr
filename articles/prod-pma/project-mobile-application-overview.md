@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922857"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028877"
 ---
 # <a name="project-mobile-applications-overview"></a>Pregled projektnih mobilnih aplikacija
 
@@ -33,11 +33,11 @@ Mobilna aplikacija Dynamics 365 Project Timesheet omogućuje korisnicima slanje 
 
 ## <a name="project-time-entry-workspace"></a>Radni prostor Unosa vremena za projekt
 
-Radni prostor Unosa vremena za projekt omogućuje korisnicima ulazak i uštedu vremena u odnosu na projekt. Međutim, korisnicima se ne dozvoljava predaja ili odobravanje evidencije radnog vremena na projektu. Može se upotrijebiti samo za Unos vremena. Ovaj mobilni radni prostor namijenjen je korištenju zajedno s mobilnom aplikacijom Finance and Operations.
+Radni prostor Unosa vremena za projekt omogućuje korisnicima ulazak i uštedu vremena u odnosu na projekt. Međutim, korisnicima se ne dozvoljava predaja ili odobravanje evidencije radnog vremena na projektu. Može se upotrijebiti samo za Unos vremena. Ovaj mobilni radni prostor namijenjen je korištenju zajedno s mobilnom aplikacijom za financije i operacije.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Moja evidencija radnog vremena / evidencija radnog vremena za moj pregled
 
-Moja evidencija radnog vremena (optimizirana za mobilne uređaje) i evidencija radnog vremena za moj pregled (optimizirana za mobilne uređaje) čine rješenje koje omogućuje zaposlenicima stvaranje, slanje i odobravanje evidencija radnog vremena za projekt na mobilnom uređaju. Radnici mogu pristupiti funkciji Financija putem URL adrese aplikacije. Ovo rješenje ne zahtijeva mobilnu aplikaciju Finance and Operations.
+Moja evidencija radnog vremena (optimizirana za mobilne uređaje) i evidencija radnog vremena za moj pregled (optimizirana za mobilne uređaje) čine rješenje koje omogućuje zaposlenicima stvaranje, slanje i odobravanje evidencija radnog vremena za projekt na mobilnom uređaju. Radnici mogu pristupiti funkciji Financija putem URL adrese aplikacije. Ovo rješenje ne zahtijeva mobilnu aplikaciju za financije i poslovanje.
 
 ## <a name="for-more-information"></a>Za dodatne informacije
 

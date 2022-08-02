@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934035"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029337"
 ---
 # <a name="expense-management-overview"></a>Pregled upravljanja troškovima
 
@@ -43,7 +43,7 @@ Dodatne informacije potražite u odjeljku [Izmijenjena izviješća o troškovima
 
 ### <a name="blogs"></a>Blogovi
 
-Mišljenja, vijesti i druge informacije možete pronaći na blogu [Microsoft Dynamics](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 365 i blogu [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Mišljenja, vijesti i druge informacije možete pronaći na blogu [Microsoft Dynamics](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 365 i blogu [Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Blog zajednice operativnih partnera sustava Microsoft Dynamics](https://community.dynamics.com/partner/b/operationspartnercommunityblog) daje aplikaciji Microsoft Dynamics Partners jedan resurs gdje mogu saznati novosti i trendove u MBS operacijama.
 

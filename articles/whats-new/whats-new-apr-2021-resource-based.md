@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912415"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029245"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u travnju 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
 
@@ -42,11 +42,11 @@ Sljedeći popis prikazuje karte s dvostrukim pisanjem koje su izmijenjene ili do
 | **Karta entiteta** | **Ažurirana verzija** | **Komentari** |
 | --- | --- | --- |
 | Stvarni podaci o integraciji aplikacije Project Operations (msdyn\_actuals) | 1.0.0.14 | Karta izmijenjena za sinkronizaciju stvarnih podataka o materijalu za projekt. |
-| Entitet za integraciju aplikacije Project Operations za procjene troškova (msdyn\_estimateslines) | 1.0.0.2 | Dodana sinkronizacija retka ugovora o projektu u aplikacije Financije i operacije za podršku za naplatu temeljenu na zadacima. |
-| Entitet za integraciju aplikacije Project Operations za procjene sati (msdyn\_resourceassignments) | 1.0.0.5 | Dodana sinkronizacija retka ugovora o projektu u aplikacije Financije i operacije za podršku za naplatu temeljenu na zadacima. |
-| Tablica integracije aplikacije Project Operations za procjene materijala (msdyn\_estimatelines) | 1.0.0.0 | Nova karta tablice za sinkronizaciju procjena materijala iz Dataverse aplikacija Financije i Operacije. |
-| Entitet izvoza fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova karta tablice za sinkronizaciju zaglavlja faktura dobavljača iz aplikacija Financije i Operacije u Dataverse. |
-| Entitet izvoza retka fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nova karta tablice za sinkronizaciju redaka fakture dobavljača iz aplikacija Financije i Operacije u Dataverse. |
+| Entitet za integraciju aplikacije Project Operations za procjene troškova (msdyn\_estimateslines) | 1.0.0.2 | Dodana je sinkronizacija retka ugovora o projektu u aplikacije za financije i operacije za podršku za naplatu na temelju zadataka. |
+| Entitet za integraciju aplikacije Project Operations za procjene sati (msdyn\_resourceassignments) | 1.0.0.5 | Dodana je sinkronizacija retka ugovora o projektu u aplikacije za financije i operacije za podršku za naplatu na temelju zadataka. |
+| Tablica integracije aplikacije Project Operations za procjene materijala (msdyn\_estimatelines) | 1.0.0.0 | Nova karta tablice za sinkronizaciju procjena materijala s Dataverse financijskih i operativnih aplikacija. |
+| Entitet izvoza fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova karta tablice za sinkronizaciju zaglavlja faktura dobavljača iz aplikacija za financije i operacije u Dataverse. |
+| Entitet izvoza retka fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nova karta tablice za sinkronizaciju redaka fakture dobavljača iz financijskih i operacijskih aplikacija u Dataverse. |
 
 Uvijek biste trebali pokrenuti najnoviju verziju karte u svom okruženju i omogućiti sve povezane karte tablica dok ažurirate rješenje za Project Operations Dataverse i verziju rješenja za financije i operacije. Određene značajke i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija karte. Aktivnu verziju karte možete vidjeti u stupcu **Verzija** na stranici **Dvostruko pisanje**. Novu verziju karte možete aktivirati odabirom **Verzije karte tablice**, odabirom najnovije verzije, a zatim spremanjem odabrane verzije. Ako ste prilagodili gotovu kartu tablice, ponovite promjene. Dodatne informacije potražite u članku [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 

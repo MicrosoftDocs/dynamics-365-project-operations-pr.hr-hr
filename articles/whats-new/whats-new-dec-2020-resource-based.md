@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933023"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029705"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u prosincu 2020. – Project Operations za scenarije koji se temelje na resursu / bez zaliha
 
@@ -61,7 +61,7 @@ U ovo izdanje uključene su sljedeće značajke:
 | Planiranje i praćenje projekta | 2057197          | Procjena kopije retka s referencom zadatka nije podržana                                                                                                     |
 | Planiranje i praćenje projekta | 2060687          | Upozorenje o vremenskoj zoni sada nestaje nakon određenog trajanja                                                                                                      |
 | Upravljanje resursima           | 1832887          | Zadani ID kategorije resursa mora biti statičan kako bi se osiguralo ponavljajuće učitavanje podataka za okruženja aplikacija Dataverse i Finance                                                 |
-| Vrijeme i trošak              | 2081793          | **Naziv** kategorije troškova mora se mapirati u **polje Opis** kategorije troškova u aplikacijama Financije i operacije                                                  |
+| Vrijeme i trošak              | 2081793          | **Naziv** kategorije troškova mora se mapirati u **polje Opis** kategorije troškova u aplikacijama za financije i operacije                                                  |
 | Vrijeme i trošak              | 2034882          | Gumb **Novo** prikazuje se dvaput na naredbenoj traci za vremenske unose nakon instalacije aplikacije Dynamics 365 Field Service                                          |
 | Vrijeme i trošak              | 2056028          | Ažuriranje stranice **Uređivanje vremena** kako bi uključila vremensku traku                                                                                                              |
 | Vrijeme i trošak              | 1983747          | Grafikon vremenskog unosa prikazuje dodatne podatke                                                                                                                   |
@@ -106,7 +106,7 @@ U ovo izdanje uključene su sljedeće značajke:
 | Putovanje i trošak                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Radni tijek automatskog knjiženja izvješća o troškovima dovršen je, ali faktura nije knjižena                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Ažuriranja propisa
-Informacije o regulatornim ažuriranjima za aplikacije Financije i operacije potražite u članku [Regulatorna ažuriranja](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+Informacije o regulatornim ažuriranjima za financijske i operativne aplikacije potražite u članku [Regulatorna ažuriranja](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

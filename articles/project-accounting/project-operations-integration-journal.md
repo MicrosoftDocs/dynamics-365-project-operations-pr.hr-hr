@@ -2,22 +2,22 @@
 title: Dnevnik integracije u aplikaciji Project Operations
 description: U ovom se članku nalaze informacije o radu s dnevnikom Integracija u operacijama projekta.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923869"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106266"
 ---
 # <a name="integration-journal-in-project-operations"></a>Dnevnik integracije u aplikaciji Project Operations
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Unosi vremena i troškova stvaraju **Stvarne** transakcije koje predstavljaju operativni prikaz dovršenog posla na projektu. Dynamics 365 Project Operations pruža računovođama alat za prikaz transakcija i, prema potrebi, prilagodbu računovodstvenih atributa. Nakon završetka pregleda i prilagodbi, transakcije se knjiže u sporednu knjigu i glavnu knjigu projekta. Računovođa može obavljati te aktivnosti pomoću temeljnice Integracija operacija **projekta (** Dynamics 365 Finance **Project management i accounting** > **Journals** > **Project Operations Integration** > **.**
+Stavke vremena, troškova, naknade i materijala stvaraju **stvarne** transakcije koje predstavljaju operativni prikaz posla dovršenog u odnosu na projekt. Dynamics 365 Project Operations pruža računovođama alat za prikaz transakcija i, prema potrebi, prilagodbu računovodstvenih atributa. Nakon završetka pregleda i prilagodbi, transakcije se knjiže u sporednu knjigu i glavnu knjigu projekta. Računovođa može obavljati te aktivnosti pomoću temeljnice **Integracija** operacija projekta (**Dynamics 365 Finance** > **Project management i accounting** > **Journals** > **Project Operations Integration**.
 
 ![Tijek dnevnika integracije.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Samo se sljedeći računovodstveni atributi mogu ažurirati u redcima dnevnika i
 - **Grupa za naplatu poreza na promet** i **Grupa za naplatu poreza na promet stavke**
 - **Financijske veličine** (uporaba radnje **Raspodijeli iznose**)
 
-Redci dnevnika integracije mogu se izbrisati, no svi redci koji nisu proknjiženi bit će ponovno umetnuti u dnevnik nakon što ponovno pokrenete povremeni postupak **Uvoza iz pripreme**.
+Reci temeljnice integracije mogu se izbrisati. Međutim, svi neproknjiženi reci ponovno će se umetnuti u temeljnicu nakon što ponovno pokrenete **postupak Uvoz iz pripremnog** postupka.
+
+### <a name="post-the-project-operations-integration-journal"></a>Proknjižili temeljnicu integracije operacija projekta
 
 Kada proknjižite dnevnik integracije, stvaraju se transakcije sporedne knjige i glavne knjige. Koriste se za fakturiranje klijentu, priznavanju prihoda i financijsko izvješćivanje.
 
+Odabrana temeljnica integracije operacija projekta može se knjižiti pomoću **značajke Proknjiži** na stranici Temeljnica integracije operacija projekta. Sve temeljnice mogu se automatski knjižiti pokretanjem postupka u **temeljnici** > **integracije** > **periodnih operacija projekta Knjiženje integracije** operacija projekta.
+
+Objavljivanje se može izvršiti interaktivno ili u seriji. Imajte na umu da će se sve temeljnice koje imaju više od 100 redaka automatski proknjižiti u seriji. Da biste postigli bolje performanse kada su temeljnice s mnogo redaka proknjižene u seriji, omogućite **temeljnicu integracije proknjiži operacije projekta pomoću značajke višestrukih skupnih zadataka** u **radnom prostoru za upravljanje** značajkama. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Prijenos svih redaka s pogreškama pri knjiženju u novu temeljnicu
+
+> [!NOTE]
+> Da biste koristili tu mogućnost, omogućite **prijenos svih redaka s pogreškama knjiženja u novu značajku temeljnice** integracije operacija projekta u **radnom prostoru za upravljanje** značajkama.
+
+Tijekom knjiženja u temeljnicu integracije operacija projekta sustav provjerava svaki redak u temeljnici. Sustav knjiži sve retke koji nemaju pogrešaka i kreira novu temeljnicu za sve retke koji imaju pogreške pri knjiženju. Da biste pregledali temeljnice s recima pogreške knjiženja, otvorite **temeljnicu** > **integracije projektnih operacija za upravljanje projektima i računovodstvo** > **temeljnica** i filtrirajte temeljnice pomoću **polja Izvorna temeljnica**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

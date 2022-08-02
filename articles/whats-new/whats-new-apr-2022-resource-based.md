@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912369"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110875"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u travnju 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
 
@@ -25,7 +25,7 @@ Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dyna
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
-Kategorije nabave mogu se koristiti u narudžbenicama za projekt i fakturama dobavljača na čekanju. Dodatne informacije potražite u članku [Korištenje kategorija nabave s narudžbenicama za projekt i fakturama dobavljača na čekanju](configure-procurement-categories.md).
+Kategorije nabave mogu se koristiti u narudžbenicama za projekt i fakturama dobavljača na čekanju. Dodatne informacije potražite u članku [Korištenje kategorija nabave s narudžbenicama za projekt i fakturama dobavljača na čekanju](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Ažuriranja karata s dvostrukim pisanjem u aplikaciji Project Operations
 
