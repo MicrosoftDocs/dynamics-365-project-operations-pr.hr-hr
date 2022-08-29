@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959636"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316932"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Što je novo ili promijenjeno u projektnim operacijama, lipanj 2022. za scenarije koji se temelje na zalihama/proizvodnji
 
@@ -24,7 +24,7 @@ Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dyna
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
-Zahtjevi za artiklima mogu se koristiti za projektne ugovore koji imaju više izvora financiranja. Dodatne informacije potražite u odjeljku [Zahtjevi artikla za projektne ugovore s više izvora financiranja](/multiple-funding-sources-item-req.md).
+Zahtjevi za artiklima mogu se koristiti za projektne ugovore koji imaju više izvora financiranja. Dodatne informacije potražite u odjeljku [Zahtjevi artikla za projektne ugovore s više izvora financiranja](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 

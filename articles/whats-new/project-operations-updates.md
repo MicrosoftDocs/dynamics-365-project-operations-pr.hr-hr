@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
-ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
-ms.translationtype: HT
+ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9188269"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295869"
 ---
 # <a name="project-operations-updates"></a>Ažuriranja aplikacije Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations sastoji se od dvije komponente:
 
 | Project Operations u okruženju platforme Dataverse | Upravljanje projektima i računovodstvo u okruženjima financijskih i operativnih aplikacija | 
 | --- | --- |
-| 4.44.0.22 | 10.0.28 |
+| 4.45.0.53 | 10.0.28 |
 
 Za projektne operacije Resurs/neutemeljeni scenarij preporučujemo da koristite verziju orkestracije s dvostrukim pisanjem 2.3.1.15 ili noviju.
 
@@ -47,24 +47,24 @@ Ažuriranja za aplikaciju Project Operations u okruženju platforme Dataverse do
 | Stanica | Regija | Broj trenutačne verzije | Automatska ažuriranja za implementaciju osnovne verzije | Automatska ažuriranja za implementaciju resursa / bez zaliha | Broj sljedeće verzije | Sljedeća verzija općenito dostupna |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Položaj 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvo izdanje         |  4.44.0.22      | Dovršeno           | Dovršeno            | TBD                 | 05. kolovoza 2022.       |
+|   &nbsp;  | Prvo izdanje         |  4.45.0.53      | Dovršeno           | Dovršeno            | TBD                 | 26. kolovoza 2022.       |
 | Položaj 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južna Amerika         |  4.44.0.22      | Dovršeno           | Dovršeno            | TBD                 | 06. kolovoza 2022.       |
-|   &nbsp;  | Kanada                |  4.44.0.22      | Dovršeno           | Dovršeno            | TBD                 | 06. kolovoza 2022.       |
-|   &nbsp;  | Indija                 |  4.44.0.22      | Dovršeno           | Dovršeno            | TBD                 | 06. kolovoza 2022.       |
-|   &nbsp;  | Francuska                |  4.44.0.22      | Dovršeno           | Dovršeno            | TBD                 | 06. kolovoza 2022.       |
-|   &nbsp;  | Južnoafrička Republika          |  4.44.0.22      | Dovršeno           | Dovršeno            | TBD                 | 06. kolovoza 2022.       |
-|   &nbsp;  | Švicarska           |  4.44.0.22      | Dovršeno           | Dovršeno            | TBD                 | 06. kolovoza 2022.       |
+|   &nbsp;  | Južna Amerika         |  4.45.0.53      | Dovršeno           | Dovršeno            | TBD                 | 02. rujna 2022.       |
+|   &nbsp;  | Kanada                |  4.45.0.53      | Dovršeno           | Dovršeno            | TBD                 | 02. rujna 2022.       |
+|   &nbsp;  | Indija                 |  4.45.0.53      | Dovršeno           | Dovršeno            | TBD                 | 02. rujna 2022.       |
+|   &nbsp;  | Francuska                |  4.45.0.53      | Dovršeno           | Dovršeno            | TBD                 | 02. rujna 2022.       |
+|   &nbsp;  | Južnoafrička Republika          |  4.45.0.53      | Dovršeno           | Dovršeno            | TBD                 | 02. rujna 2022.       |
+|   &nbsp;  | Švicarska           |  4.45.0.53      | Dovršeno           | Dovršeno            | TBD                 | 02. rujna 2022.       |
 | Položaj 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.44.0.22      | Dovršeno      | Dovršeno       | TBD                 | 12. kolovoza 2022.       |
-|   &nbsp;  | Azijsko-pacifička regija          |  4.44.0.22      | Dovršeno      | Dovršeno       | TBD                 | 12. kolovoza 2022.       |
-|   &nbsp;  | Velika Britanija         |  4.44.0.22      | Dovršeno      | Dovršeno       | TBD                 | 12. kolovoza 2022.       |
-|   &nbsp;  | Oceanija               |  4.44.0.22      | Dovršeno      | Dovršeno       | TBD                 | 12. kolovoza 2022.       |
-|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.44.0.22      | Dovršeno      | Dovršeno       | TBD                 | 12. kolovoza 2022.       |
+|   &nbsp;  | Japan                 |  4.44.0.22      | Dovršeno      | Dovršeno       | 4.45.0.53                 | 19. kolovoza 2022.       |
+|   &nbsp;  | Azijsko-pacifička regija          |  4.44.0.22      | Dovršeno      | Dovršeno       | 4.45.0.53                 | 19. kolovoza 2022.       |
+|   &nbsp;  | Velika Britanija         |  4.44.0.22      | Dovršeno      | Dovršeno       | 4.45.0.53                 | 19. kolovoza 2022.       |
+|   &nbsp;  | Oceanija               |  4.44.0.22      | Dovršeno      | Dovršeno       | 4.45.0.53                 | 19. kolovoza 2022.       |
+|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.44.0.22      | Dovršeno      | Dovršeno       | 4.45.0.53                 | 19. kolovoza 2022.       |
 | Položaj 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.43.0.119      | Dovršeno           | Dovršeno            | 4.44.0.22           | 29. srpnja 2022.       |
+|   &nbsp;  | Europa                |  4.44.0.22      | Dovršeno           | Dovršeno            | 4.45.0.53           | 26. kolovoza 2022.       |
 | Položaj 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sjeverna Amerika         |  4.43.0.119      | Dovršeno           | Dovršeno            | 4.44.0.22           | 05. kolovoza 2022.       |
+|   &nbsp;  | Sjeverna Amerika         |  4.44.0.22      | Dovršeno           | Dovršeno            | 4.45.0.53           | 02. rujna 2022.       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Raspored izdanja za upravljanje projektima i računovodstvo u okruženju aplikacija za financije i operacije
 

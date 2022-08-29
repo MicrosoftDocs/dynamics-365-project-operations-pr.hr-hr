@@ -1,17 +1,17 @@
 ---
-title: Postavljanje i primjena konfiguracijskih podataka na platfomi Common Data Service
+title: Postavljanje i primjena konfiguracijskih podataka na platfomi Microsoft Dataverse
 description: U ovom se članku nalaze informacije o postavljanju i primjeni konfiguracijskih podataka u operacijama programa Project.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928009"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230228"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Postavljanje i primjena konfiguracijskih podataka na platfomi Common Data Service 
 
@@ -21,10 +21,10 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 ## <a name="prerequisites"></a>Preduvjeti
 
-Prije nego što počnete konfigurirati podatke u aplikaciji Common Data Service (CDS), moraju se ispuniti sljedeći preduvjeti:
+Da biste počeli konfigurirati podatke u okviru Microsoft Dataverse, moraju se ispuniti sljedeći preduvjeti:
 
-1.  Dodijelite cds okruženje i Dynamics 365 Finance okruženje za projektne operacije.
-2.  Podaci pravne osobe iz Dynamics 365 Finance dijele se u CDS okruženje. To znači da entitet **Tvrtka** na platformi CDS ima sljedeće zapise o poduzeću:
+1.  Dodijelite Dataverse okruženje i Dynamics 365 Finance okruženje za projektne operacije.
+2.  Podaci pravne osobe iz Dynamics 365 Finance dijele se okolišu Dataverse. To znači da **entitet Društvo** u sustavu Dataverse ima sljedeće zapise o poduzeću:
   - THPM
   - USPM
   - GBPM

@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929205"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230306"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Uporaba API-ja rasporeda projekta za izvođenje operacija s entitetima planiranja
 
@@ -45,9 +45,9 @@ Slijedi popis trenutačnih API-ja rasporeda projekta.
 - **msdyn_CreateProjectV1**: Ovaj se API može upotrebljavati za stvaranje projekta. Projekt i zadana grupa projekta stvaraju se odmah.
 - **msdyn_CreateTeamMemberV1**: Ovaj se API može upotrebljavati za stvaranje člana projektnog tima. Zapis člana tima stvara se odmah.
 - **msdyn_CreateOperationSetV1**: Ovaj se API može upotrebljavati za raspored nekoliko zahtjeva koji se moraju izvršiti unutar transakcije.
-- **msdyn_PSSCreateV1**: Ovaj se API može upotrebljavati za stvaranje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju stvaranja.
-- **msdyn_PSSCreateV1**: Ovaj se API može upotrebljavati za ažuriranje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju ažuriranja.
-- **msdyn_PSSDeleteV1**: Ovaj se API može upotrebljavati za brisanje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju brisanja.
+- **msdyn_PssCreateV1**: ovaj se API može koristiti za stvaranje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju stvaranja.
+- **msdyn_PssUpdateV1**: ovaj se API može koristiti za ažuriranje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju ažuriranja.
+- **msdyn_PssDeleteV1**: ovaj se API može koristiti za brisanje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju brisanja.
 - **msdyn_ExecuteOperationSetV1**: Ovaj se API upotrebljava za izvršavanje svih operacija unutar zadanog skupa operacija.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Uporaba API-ja rasporeda projekta s pomoću OperationSet
