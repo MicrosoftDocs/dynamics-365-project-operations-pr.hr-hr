@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
-        - name: Srpanj 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Kolovoz 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arhiva
           items:
+            - name: Srpanj 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Lipanj 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Svibanj 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
@@ -384,6 +386,42 @@
           items:
             - name: Prikaz korištenja resursa
               href: resource-management/resource-utilization-overview.md
+    - name: Upravljanje podugovorima
+      items:
+        - name: Upravljanje podugovorima u aplikaciji Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Ključni koncepti u podugovaranju
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Upravljanje dobavljačima i cjenicima projekata
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Podizvođači kao resursi koji se mogu rezervirati
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Pojedinosti zaglavlja za podugovaratelje
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Redci za vrijeme u podugovoru
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Redci za kategorije troška u podugovoru
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Redci za proizvode u podugovoru
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Resursi retka podugovaratelja
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Kontrolne točke retka podugovora
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Podugovaranje članova projektnog tima
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Mogućnosti podugovaranja za članove projektnog tima
+          href: pro/subcontracting/subcon-options.md
+        - name: Procjena troškova dodjela podugovornih resursa
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurirajte ploču rasporeda tako da prikaže radnike po ugovoru i podugovorne kapacitete
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Zapošljavanje ugovornih radnika i podugovornih kapaciteta na projektu
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Evidentiranje vremena, troškova i uporabe materijala za podugovorne komponente'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Prijelazi stanja na podugovoru
+          href: pro/subcontracting/subcon-states.md
     - name: Vrijeme
       items:
         - name: Pregled vremena
@@ -580,6 +618,8 @@
       items:
         - name: Premještanje u potpunosti fakturiranih kontrolnih točki naplate tijekom prijenosa
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Sinkronizacija statusa projekta radi sprječavanja unosa u zatvorene projekte
+          href: advanced-configuration/sync-project-status.md
     - name: Nadogradnja
       items:
         - name: Razmatranja o nadogradnji za Suvremena odobrenja
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Novosti
       items:
-        - name: Novosti u srpnju 2022. – osnovna implementacija
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Novosti u kolovozu 2022. – osnovna implementacija
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arhiva
           items:
+            - name: Novosti u srpnju 2022. – osnovna implementacija
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Novosti u lipnju 2022. – osnovna implementacija
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Novosti u valu 2 ranom pristupu u 2021. – osnovna implementacija
