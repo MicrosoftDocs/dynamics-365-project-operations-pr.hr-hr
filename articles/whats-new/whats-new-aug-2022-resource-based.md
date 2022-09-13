@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348094"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403847"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u kolovozu 2022. – Project Operations za scenarije koji se temelje na resursu / bez zaliha
 
@@ -38,7 +38,12 @@ Ako naiđete na problem prilikom pokretanja karte, slijedite upute u [odjeljku N
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |
 |   Upravljanje prilikama | 2762089 | Rukovanje pogreškama prilikom zatvaranja ugovora kao izgubljenog ako je automatsko spremanje onemogućeno u operacijskoj mreži.|
+|Planiranje i praćenje projekta | 2767841 | Telemetrija ažurira entitet Projekta Stvaranje ili ažuriranje scenarija.|
+|Naplata i određivanje cijene | 2771072 | Rukovanje iznimkom null reference tijekom osvajanja ponude.|
+|Naplata i određivanje cijene | 2844181 |Pogreška u dohvaćanju ID-a korelacije i blokiranju stvaranja fakture.|
+|Naplata i određivanje cijene | 2852836 | Međukompanijske stvarne vrijednosti koje nedostaju za međukompanijski trošak stvoren i odobren u CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Upravljanje projektima i računovodstvo u financijama
 
-Informacije o ispravcima pogrešaka obuhvaćenima ovim ažuriranjem potražite u Microsoft Dynamics članku iz baze podataka o životu (LCS) i pogledajte članak iz [baze znanja](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
+Informacije o ispravcima pogrešaka obuhvaćenima ovim ažuriranjem potražite u Microsoft Dynamics članku iz baze podataka o životu (LCS) i pogledajte članak [iz](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438) baze znanja.

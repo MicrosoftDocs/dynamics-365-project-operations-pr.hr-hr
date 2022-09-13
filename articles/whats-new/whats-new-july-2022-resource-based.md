@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183880"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403942"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novosti u srpnju 2022. – Project Operations za scenarije koji se temelje na resursu / bez zaliha
 
@@ -45,14 +45,20 @@ Ako naiđete na problem prilikom pokretanja karte, slijedite upute u [odjeljku N
 | Naplata i određivanje cijene | 2675880 | Spriječite povezivanje projekta s retkom ugovora koji se ne temelji na radu. |
 | Naplata i određivanje cijene | 2664396 | Ako je cjenik ponude spremljen bez ponude, mora postojati pogreška koja kaže da ponuda ne može biti prazna. |
 | Naplata i određivanje cijene | 2184019 | Kartica Naplata **temeljena na zadacima ne bi trebala biti prikazana** za projekte koji nemaju ugovor o potpori ili ponudu. |
+| Vrijeme i trošak | 2754459 | Kada je ponavljajući tijek oblaka zakazivanja neaktivan, pokažite obradu bannera i zaobiđite asinc. |
+| Naplata i određivanje cijene | 2724391 | Pogrešna iznimka baca se kada pravilo podjele naplate ugovora o projektu nedostaje vrijednost kupca. |
+| Naplata i određivanje cijene | 2708638 | Zapis nije pronađen tijekom pretraživanja pomoću pretraživanja rešetke u korištenju materijala i odobrenjima za korištenje materijala.|
+| Naplata i određivanje cijene | 2686977 | Spriječite provjeru valjanosti retka fakture tijekom stvaranja fakture. |
+| Naplata i određivanje cijene | 2683032 | Kopiranje uloga i kategorija za naplatu ne premašuje 5000 zapisa.|
+| Naplata i određivanje cijene | 2673363 | % potrošnje troškova na projektu oštećeno je kada za projekt postoje procjene truda i rashoda i stvarne vrijednosti. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Upravljanje projektima i računovodstvo u financijama
 
-Informacije o ispravcima pogrešaka obuhvaćenima ovim ažuriranjem potražite u Microsoft Dynamics članku iz baze podataka o životu (LCS) i pogledajte članak iz [baze znanja](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
+Informacije o ispravcima pogrešaka obuhvaćenima ovim ažuriranjem potražite u Microsoft Dynamics članku iz baze podataka o životu (LCS) i pogledajte članak [iz](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438) baze znanja.
 
 ## <a name="features-turned-on-by-default-in-upcoming-release"></a>Značajke uključene prema zadanim postavkama u nadolazećem izdanju
 
-U sljedećoj su tablici navedene značajke koje su prema zadanim postavkama uključene u verziji 10.0.29. Većina značajki koje su automatski uključene mogu se isključiti u [upravljanju značajkama](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Ubuduće bi se neke značajke koje su automatski uključene mogle ukloniti iz upravljanja značajkama i postati obvezne. Ova promjena osigurava da korisnici koriste trenutnu funkcionalnost kako bi se poboljšanja mogla nadovezati na trenutnu funkcionalnost kako se dodaju. Značajke se nikada neće automatski omogućiti za manje od godinu dana, osim ako se utvrdi da su bitne.
+U sljedećoj su tablici navedene značajke koje su prema zadanim postavkama uključene u verziji 10.0.29. Većina značajki koje su automatski uključene mogu se isključiti u [upravljanju](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) značajkama. Ubuduće bi se neke značajke koje su automatski uključene mogle ukloniti iz upravljanja značajkama i postati obvezne. Ova promjena osigurava da korisnici koriste trenutnu funkcionalnost kako bi se poboljšanja mogla nadovezati na trenutnu funkcionalnost kako se dodaju. Značajke se nikada neće automatski omogućiti za manje od godinu dana, osim ako se utvrdi da su bitne.
 
 | Naziv značajke | Omogući datum | Dodana značajka | Stanje značajke | Modul |
 | --- | --- | --- |--- |--- |

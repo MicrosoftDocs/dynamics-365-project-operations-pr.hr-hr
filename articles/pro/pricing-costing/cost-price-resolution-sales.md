@@ -1,45 +1,85 @@
 ---
-title: Rješavanje cijena koštanja na procijenjenim i stvarnim podacima za projekt
-description: U ovom se članku navode informacije o tome kako se rješavaju cijene troškova za procjene i stvarne vrijednosti projekata.
+title: Određivanje stopa troškova za procjene i stvarne vrijednosti projekata
+description: Ovaj članak pruža informacije o tome kako se određuju stope troškova za procjene i stvarne vrijednosti projekata.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917521"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410140"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Rješavanje cijena koštanja na procijenjenim i stvarnim podacima za projekt 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Određivanje stopa troškova za procjene i stvarne vrijednosti projekata
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Za rješavanje cijena troška i cjenika troškova za procijenjene i stvarne podatke sustav upotrebljava podatke u poljima **Datum**, **Valuta** i **Ugovorna jedinica** povezanog projekta. Nakon rješavanja cjenika troškova, aplikacija rješava cijenu troška.
+Da bi odredio cjenik troškova i stope troškova u procjeni i stvarnim kontekstima, sustav koristi podatke u **poljima Datum**, **Valuta** i **Ugovorna jedinica** povezanog projekta.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Rješavanje cijena troškova na redcima sa stvarnim i procijenjenim podacima za Vrijeme
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Određivanje stopa troškova u procijenjenom i stvarnom kontekstu za vrijeme
 
-Redci s procijenjenim podacima za Vrijeme odnose se na pojedinosti redaka ponude i ugovora za dodjele vremena i resursa za projekt.
+Kontekst procjene za **vrijeme** odnosi se na:
 
-Nakon rješavanja cjenika troškova, polja **Uloga** i **Jedinica resursa** u retku procjene za vrijeme podudaraju se s redcima cijena uloga u cjeniku. Ovo podudaranje pretpostavlja da upotrebljavate standardne veličine određivanja cijena za trošak rada. Ako ste umjesto toga konfigurirali sustav tako da pristaje poljima ili dodatno za mogućnosti **Uloga** i **Jedinica resursa**, tada će se upotrebljavati druga kombinacija za dohvaćanje odgovarajućeg retka cijene uloge. Ako aplikacija pronađe redak cijene uloge koja ima cijenu troška za kombinaciju **Uloga** i **Jedinica resursa**, to je zadana cijena troška. Ako se aplikacija ne može podudariti s vrijednostima **Uloga** i **Jedinica resursa**, tada dohvaća retke s cijenama uloga s pomoću odgovarajuće uloge, ali s praznom vrijednosti stavke **Jedinica resursa**. Nakon što dobije zapis o cijeni odgovarajuće uloge, cijena troška zadaje se iz tog zapisa. 
+- Detalji retka ponude za **Vrijeme**.
+- Detalji retka ugovora za **vrijeme**.
+- Dodjele resursa na projektu.
+
+Stvarni kontekst za **vrijeme** odnosi se na:
+
+- Reci temeljnice stavke i ispravka za **vrijeme**.
+- Reci temeljnice kreirani prilikom slanja stavke vremena.
+
+Nakon određivanja cjenika troškova sustav ispunjava sljedeće korake kako bi unio zadanu stopu troška.
+
+1. Sustav odgovara kombinaciji **polja Uloga** i **Jedinica** resursa u procjeni ili stvarnom kontekstu za **Vrijeme** u odnosu na retke cijene uloge u cjeniku. Ovo podudaranje pretpostavlja da koristite standardne dimenzije određivanja cijena za troškove rada. Ako ste konfigurirali sustav tako da odgovara poljima koja nisu ili uz **jedinicu** uloga **i** resursa, za dohvaćanje odgovarajućeg retka cijene uloge koristi se drugačija kombinacija.
+1. Ako sustav pronađe redak cijene uloge koji ima stopu troška za **kombinaciju Uloga** i **Jedinica** izvora, ta se stopa troška koristi kao zadana stopa troška.
+1. Ako sustav ne može odgovarati **vrijednostima Jedinica** uloge **i** resursa, dohvaća retke cijene uloga koji imaju odgovarajuće vrijednosti za **polje Uloga**, ali null vrijednosti za **polje Resourcing Unit**. Nakon što sustav ima odgovarajući zapis cijene uloge, stopa troška iz tog zapisa koristit će se kao zadana stopa troška.
 
 > [!NOTE]
-> Ako konfigurirate drugačije određivanje prioriteta za stavke **Uloga** i **Jedinica resursa**, ili ako imate druge dimenzije koje imaju veći prioritet, to će se ponašanje u skladu s tim promijeniti. Sustav dohvaća zapise cijena uloga s vrijednostima koje se podudaraju sa svakom vrijednošću dimenzije za određivanje cijene prema redoslijedu prioriteta, s redcima koji nemaju vrijednosti za one dimenzije koje dolaze posljednje.
+> Ako konfigurirate različito određivanje prioriteta **polja Uloga** i **Jedinica** resursa ili ako imate druge dimenzije koje imaju veći prioritet, prethodno ponašanje promijenit će se u skladu s tim. Sustav dohvaća zapise cijena uloga koji imaju vrijednosti koje odgovaraju svakoj vrijednosti dimenzije određivanja cijena prema redoslijedu prioriteta. Reci koji imaju null vrijednosti za te dimenzije dolaze posljednji.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Rješavanje cijena troškova na redcima sa stvarnim i procijenjenim podacima za Trošak
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Određivanje stopa troškova za stvarne i procijenjene retke za trošak
 
-Redci s procijenjenim podacima za Trošak odnose se na pojedinosti redaka ponude i ugovora za troškove i retke troškova za projekt.
+Kontekst procjene troškova **odnosi** se na:
 
-Nakon rješavanja cjenika troškova, sustav upotrebljava kombinaciju polja **Kategorija** i **Jedinica** u retku procjene troškova kako bi se podudarila s redcima **Cijena kategorije** na riješenom cjeniku. Ako sustav pronađe redak cijene kategorije koja ima cijenu troška za kombinaciju polja **Kategorija** i **Jedinica**, cijena troška je zadana. Ako se sustav ne može podudariti s vrijednostima **Kategorija** i **Jedinica** ili ako je u mogućnosti pronaći podudarni redak cijene, ali metoda određivanja cijene nije **Cijena po jedinici**, cijena troška zadaje se na nulu (0).
+- Detalji retka ponude za **trošak**.
+- Detalji retka ugovora za **trošak**.
+- Procjene troškova za projekt.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Rješavanje cijena troška na stvarnim i procijenjenim redcima za materijal
+Stvarni kontekst za **trošak** odnosi se na:
 
-Redci procjene materijala odnose se na pojedinosti ponude i retka ugovora za materijale i retke procjene materijala za projekt.
+- Reci temeljnice stavke i ispravka za **trošak**.
+- Reci temeljnice kreirani prilikom slanja stavke troškova.
 
-Nakon rješavanja troškovnika, sustav upotrebljava kombinaciju polja **Proizvod** i **Jedinica** na retku procjene za procjenu materijala koja se podudara s redcima **Stavki cjenika** na riješenom cjeniku. Ako sustav pronađe redak cijene proizvoda koja ima cijenu troška za kombinaciju polja **Proizvod** i **Jedinica**, cijena troška je zadana. Ako se sustav ne može podudarati s vrijednostima **Proizvod** i **Jedinica** ili ako je u mogućnosti pronaći podudarni redak stavke cjenika, ali metoda određivanja cijene temelji se na Standardnom ili Trenutačnom trošku i nijedna nije definirana na proizvodu, jedinični trošak zadan je na nulu.
+Nakon određivanja cjenika troškova sustav ispunjava sljedeće korake kako bi unio zadanu stopu troška.
 
+1. Sustav odgovara kombinaciji polja Kategorija i Jedinica u procjeni ili stvarnom kontekstu **rashoda** **u odnosu na retke cijene kategorije u cjeniku.** **·**
+1. Ako sustav pronađe redak cijene kategorije koji ima stopu troška za kombinaciju **Kategorija** i **Jedinica**, ta se stopa troška koristi kao zadana stopa troška.
+1. Ako sustav ne može odgovarati **vrijednostima Kategorija** i **Jedinica**, cijena je prema zadanim postavkama postavljena na **0** (nula).
+1. U kontekstu procjene, ako sustav može pronaći odgovarajuću liniju cijena kategorije, ali metoda određivanja cijena je nešto drugo osim **cijene po jedinici**, stopa troškova prema zadanim je postavkama postavljena na **0** (nula).
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Određivanje stopa troškova za stvarne i procijenjene retke za materijal
+
+Kontekst procjene za **Materijal** odnosi se na:
+
+- Detalji retka ponude za **Materijal**.
+- Detalji retka ugovora za **Materijal**.
+- Materijalne procjene na projektu.
+
+Stvarni kontekst za **Materijal** odnosi se na:
+
+- Reci temeljnice stavki i ispravka za **Materijal**.
+- Reci temeljnice kreirani prilikom slanja zapisnika korištenja materijala.
+
+Nakon određivanja cjenika troškova sustav ispunjava sljedeće korake kako bi unio zadanu stopu troška.
+
+1. Sustav koristi kombinaciju **polja Proizvod** i **Jedinica** u procjeni ili stvarnom kontekstu za **Materijal** u odnosu na retke artikla cjenika u cjeniku.
+1. Ako sustav pronađe redak artikla cjenika koji ima stopu troška za kombinaciju **Proizvod** i **Jedinica**, ta se stopa troška koristi kao zadana stopa troška.
+1. Ako sustav ne može odgovarati **vrijednostima Proizvod** i **Jedinica**, jedinični trošak je prema zadanim postavkama postavljen na **0** (nula).
+1. U procjeni ili stvarnom kontekstu, ako sustav može pronaći odgovarajući redak stavke cjenika, ali način određivanja cijena je nešto drugo osim **iznosa** valute, jedinični trošak je prema zadanim postavkama postavljen na **0**. To se događa zato što Project Operations podržava samo metodu **određivanja cijena iznosa** valute za materijale koji se koriste na projektu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
