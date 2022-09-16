@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Poništavanje prodajnih cjenika za projekt
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Promjena datuma primjene za određene cijene u cjeniku
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Određivanje cijena koštanja za procjene i stvarne podatke
               href: pricing-costing/cost-price-resolution.md
             - name: Određivanje prodajnih cijena za procjene i stvarne podatke
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Naručivanje roba i usluga za projekte s pomoću narudžbenica za projekt
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Fakture dobavljača za podugovore u značajki Dataverse
+          items:
+            - name: Izrada faktura dobavljača
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Provjera faktura dobavljača s odobrenim stvarnim podacima
+              href: pro/subcontracting/VI-Verification.md
+            - name: Potvrda fakture dobavljača na projektu
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Zadržavanje dobavljača
           items:
             - name: Pregled zadržavanja dobavljača
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Poništavanje prodajnih cjenika za projekt
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Promjena datuma primjene za određene cijene u cjeniku
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Određivanje cijena koštanja prema procjenama i stvarnim podacima projekta
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Određivanje prodajnih cijena za procjene i stvarne podatke projekta
