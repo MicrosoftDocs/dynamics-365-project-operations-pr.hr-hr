@@ -1,68 +1,95 @@
 ---
-title: Rješavanje prodajnih cijena za procjene i stvarne podatke
-description: U ovom se članku navode informacije o tome kako razriješiti prodajne stope za procjene i stvarne vrijednosti.
+title: Određivanje prodajnih cijena za procjene i stvarne procjene temeljene na projektima
+description: U ovom se članku navode informacije o tome kako se određuju prodajne cijene za procjene i stvarne procjene temeljene na projektima.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911817"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475360"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Rješavanje prodajnih cijena za procjene i stvarne podatke
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Određivanje prodajnih cijena za procjene i stvarne procjene temeljene na projektima
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Kada se u aplikaciji Dynamics 365 Project Operations riješe prodajne cijene na procjenama i stvarnim vrijednostima, sustav prvo upotrebljava datum i valutu povezane ponude za projekt ili ugovora o projektu za rješavanje prodajnog cjenika. Nakon što se riješi prodajni cjenik, sustav rješava prodajnu cijenu ili cijenu naplate.
+Da bi odredio prodajne cijene na procjenama i stvarnim vrijednostima u Microsoftu Dynamics 365 Project Operations, sustav najprije koristi datum i valutu u dolaznoj procjeni ili stvarnom kontekstu za određivanje cjenika prodaje. U stvarnom kontekstu posebno, sustav koristi **polje Datum** transakcije da bi odredio koji je cjenik primjenjiv. Vrijednost **datuma** transakcije dolazne procjene ili stvarne uspoređuje se s **vrijednostima Efektivni početak (nezavisna vremenska zona)** i **Efektivni kraj (neovisno o vremenskoj zoni)** na cjeniku. Nakon određivanja prodajnog cjenika sustav određuje stopu prodaje ili računa.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Rješavanje prodajnih cijena na redcima sa stvarnim i procijenjenim podacima za Vrijeme
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Određivanje prodajnih stopa u stvarnim i procijenjenim recima za vrijeme
 
-U aplikaciji Project Operations, redci procjene za vrijeme upotrebljavaju se za označavanje pojedinosti retka ponude i retka ugovora za vrijeme i dodjelu resursa projektu.
+Kontekst procjene za **vrijeme** odnosi se na:
 
-Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zadavanje cijene naplate.
+- Detalji retka ponude za **Vrijeme**.
+- Detalji retka ugovora za **vrijeme**.
+- Dodjele resursa na projektu.
 
-1. Sustav upotrebljava polja **Uloga**, **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa** u retku s procijenjenim podacima za Vrijeme kako bi uskladio retke s cijenama uloga u riješenom cjeniku. Ova podudarnost pretpostavlja uporabu gotovih dimenzija za cijene naplate koje se upotrebljavaju. Ako ste umjesto toga konfigurirali određivanje cijena na temelju nekog drugog polja ili dodatno za mogućnosti **Uloga**, **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa**, tada je to druga kombinacija koja će se upotrebljavati za dohvaćanje odgovarajućeg retka cijene uloge.
-2. Ako sustav pronađe redak cijene uloge koja ima cijenu naplate za kombinaciju polja **Uloga**, **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa**, to je zadana ta cijena naplate.
-3. Ako sustav nije u mogućnosti podudariti vrijednosti polja **Uloga**, **Tvrtka za raspodjelu resursa** i **Jedinica za raspodjelu resursa**, tada dohvaća retke s cijenama uloga s pomoću odgovarajuće uloge, ali s praznom vrijednosti stavke **Jedinica resursa**. Nakon što sustav pronađe podudarni zapis o cijeni uloge, iz tog će zapisa zadati obračun. Ovo podudaranje pretpostavlja gotovu konfiguraciju za relativni prioritet mogućnosti **Uloga** nasuprot **Jedinica za raspodjelu resursa** kao dimenzije određivanja prodajnih cijena.
+Stvarni kontekst za **vrijeme** odnosi se na:
+
+- Reci temeljnice stavke i ispravka za **vrijeme**.
+- Reci temeljnice kreirani prilikom slanja stavke vremena.
+- Detalji retka fakture za **Vrijeme**. 
+
+Nakon određivanja cjenika za prodaju, sustav dovršava sljedeće korake da bi unio zadanu stopu računa.
+
+1. Sustav odgovara kombinaciji **polja Uloga**, **Resourcing Company** i **Resourcing Unit** u procjeni ili stvarnom kontekstu za **Vrijeme** u odnosu na retke cijene uloga u cjeniku. Ovo podudaranje pretpostavlja da koristite gotove dimenzije cijena za cijene računa. Ako ste konfigurirali određivanje cijena tako da se temelji na poljima koja nisu ili su uz **stavku Role**, **Resourcing Company** i **Resourcing Unit**, ta se kombinacija polja koristi za dohvaćanje odgovarajućeg retka cijene uloge.
+1. Ako sustav pronađe redak cijene uloge koji ima stopu naplate za **kombinaciju Uloga**, **Resourcing Company** i **Jedinica** resursa, ta se stopa naplate koristi kao zadana stopa računa.
 
 > [!NOTE]
-> Ako ste konfigurirali drugačije određivanje prioriteta za stavke **Uloga**, **Tvrtka resursa** i **Jedinica resursa** ili ako imate druge dimenzije koje imaju veći prioritet, to će se ponašanje u skladu s tim promijeniti. Sustav dohvaća zapise cijena uloga s vrijednostima koje se podudaraju sa svakom vrijednošću dimenzije za određivanje cijene prema redoslijedu prioriteta, s redovima koji nemaju vrijednosti za one dimenzije koje dolaze posljednje.
+> Ako konfigurirate različito određivanje prioriteta **polja Uloga**, **Resourcing Company** i **Resourcing Unit** ili ako imate druge dimenzije koje imaju veći prioritet, prethodno ponašanje promijenit će se u skladu s tim. Sustav dohvaća zapise cijena uloga koji imaju vrijednosti koje odgovaraju svakoj vrijednosti dimenzije određivanja cijena prema redoslijedu prioriteta. Reci koji imaju null vrijednosti za te dimenzije dolaze posljednji.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Rješavanje prodajnih cijena na redcima sa stvarnim i procijenjenim podacima za trošak
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Određivanje stopa prodaje za stvarne i procijenjene retke za rashode
 
-U aplikaciji Project Operations, redci procjene za trošak upotrebljavaju se za označavanje pojedinosti retka ponude i retka ugovora za trošak i retke za procjenu troška na projektu.
+Kontekst procjene troškova **odnosi** se na:
 
-Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zadavanje jedinične prodajne cijene.
+- Detalji retka ponude za **trošak**.
+- Detalji retka ugovora za **trošak**.
+- Reci procjene troškova na projektu.
 
-1. Sustav upotrebljava kombinaciju polja **Kategorija** i **Jedinica** u retku s procijenjenim podacima za trošak kako bi uskladio retke cijene kategorije na riješenom cjeniku.
-2. Ako sustav pronađe redak cijene kategorije koji ima prodajnu cijenu za kombinaciju polja **Kategorija** i **Jedinica**, tada je prodajna cijena zadana.
-3. Ako sustav pronađe podudarni redak cijene kategorije, metoda određivanja cijena može se upotrebljavati za zadavanje prodajne cijene. Sljedeća tablica u nastavku prikazuje zadano ponašanje cijene troška u aplikaciji Project Operations.
+Stvarni kontekst za **trošak** odnosi se na:
+
+- Reci temeljnice stavke i ispravka za **trošak**.
+- Reci temeljnice kreirani prilikom slanja stavke troškova.
+- Detalji retka fakture za **trošak**. 
+
+Nakon određivanja cjenika za prodaju, sustav dovršava sljedeće korake da bi unio zadanu jediničnu prodajnu cijenu.
+
+1. Sustav odgovara kombinaciji polja Kategorija i Jedinica u **retku procjene rashoda** **s recima cijene kategorije u cjeniku.** **·**
+1. Ako sustav pronađe redak cijene kategorije koji ima stopu prodaje za **kombinaciju Kategorija** i **Jedinica**, ta se stopa prodaje koristi kao zadana stopa prodaje.
+1. Ako sustav pronađe odgovarajući redak cijene kategorije, način određivanja cijena može se koristiti za unos zadane prodajne cijene. Sljedeća tablica prikazuje zadano ponašanje za cijene troškova u operacijama projekta.
 
     | Kontekst | Način određivanja cijena | Zadana cijena |
     | --- | --- | --- |
-    | Procjena | Jedin. cijena | Na temelju retka cjenovne kategorije |
-    | &nbsp; | Uz trošak | 0.00 |
-    | &nbsp; | Marža na trošak | 0.00 |
-    | Stvarno | Jedin. cijena | Na temelju retka cjenovne kategorije |
-    | &nbsp; | Uz trošak | Na temelju povezanih stvarnih troškova |
-    | &nbsp; | Marža na trošak | Primjena oznake definirane retkom cjenovne kategorije na jediničnu cijenu troška povezanog stvarnog troška |
+    | Procjena | Jedinična cijena | Na temelju retka cijene kategorije. |
+    |        | Uz trošak | 0.00 |
+    |        | Marža na trošak | 0.00 |
+    | Stvarno | Jedinična cijena | Na temelju retka cijene kategorije. |
+    |        | Uz trošak | Na temelju stvarnog povezanog troška. |
+    |        | Marža na trošak | Marža se primjenjuje, kako je definirano retkom cijene kategorije, na stopu jediničnog troška povezanog stvarnog troška. |
 
-4. Ako sustav ne može podudarati vrijednosti polja **Kategorija** i **Jedinica**, prodajna cijena zadana je na nulu (0).
+1. Ako sustav ne može odgovarati **vrijednostima Kategorija** i **Jedinica**, stopa prodaje po zadanom je postavljena na **0** (nula).
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Rješavanje prodajnih cijena na stvarnim i procijenjenim redcima za materijal
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Određivanje prodajnih stopa za stvarne i procijenjene retke za materijal
 
-Redci procjene materijala u aplikaciji Project Operations upotrebljavaju se za označavanje pojedinosti na pojedinosti retka ponude i retka ugovora za materijale i retke procjene materijala za projekt.
+Kontekst procjene za **Materijal** odnosi se na:
 
-Nakon što se riješi prodajni cjenik, sustav dovršava sljedeće korake za zadavanje jedinične prodajne cijene.
+- Detalji retka ponude za **Materijal**.
+- Detalji retka ugovora za **Materijal**.
+- Linije procjene materijala na projektu.
 
-1. Sustav upotrebljava kombinaciju polja **Proizvod** i **Jedinica** na retku procjene za materijal za podudaranje s redcima stavki cjenika u cjeniku koji je riješen.
-2. Ako sustav pronađe redak stavke cjenika koji ima prodajnu cijenu za kombinaciju polja **Proizvod** i **Jedinica**, a način određivanja cijena je **Iznos valute**, upotrebljava se prodajna cijena navedena u retku cjenika.
-3. Ako se vrijednosti polja **Proizvod** i **Jedinica** ne podudaraju, prodajna cijena zadaje se na nulu.
+Stvarni kontekst za **Materijal** odnosi se na:
 
+- Reci temeljnice stavki i ispravka za **Materijal**.
+- Reci temeljnice kreirani prilikom slanja zapisnika korištenja materijala.
+- Detalji retka fakture za **Materijal**. 
 
+Nakon određivanja cjenika za prodaju, sustav dovršava sljedeće korake da bi unio zadanu jediničnu prodajnu cijenu.
+
+1. Sustav odgovara kombinaciji polja Proizvod i Jedinica u **retku procjene za** Materijal **u odnosu na retke artikla cjenika u cjeniku**.**·**
+1. Ako sustav pronađe redak artikla cjenika koji ima stopu prodaje za **kombinaciju Proizvod** i **Jedinica** te ako je **način određivanja cijena iznos** valute, koristi se prodajna cijena navedena u retku cjenika. 
+1. Ako se **vrijednosti polja Proizvod** i **Jedinica** ne podudaraju ili ako je način određivanja cijena nešto drugo osim **iznosa** valute, stopa prodaje po zadanom je postavljena na **0** (nula). To se događa zato što Project Operations podržava samo metodu **određivanja cijena iznosa** valute za materijale koji se koriste na projektu.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410140"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475222"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Određivanje stopa troškova za procjene i stvarne vrijednosti projekata
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Da bi odredio cjenik troškova i stope troškova u procjeni i stvarnim kontekstima, sustav koristi podatke u **poljima Datum**, **Valuta** i **Ugovorna jedinica** povezanog projekta.
+Da bi odredio stope troškova za procjene i stvarne vrijednosti u Microsoftu Dynamics 365 Project Operations, sustav najprije koristi datum i valutu u dolaznoj procjeni ili stvarnom kontekstu za određivanje cjenika troškova. U stvarnom kontekstu posebno, sustav koristi **polje Datum** transakcije da bi odredio koji je cjenik primjenjiv. Vrijednost **datuma** transakcije dolazne procjene ili stvarne uspoređuje se s **vrijednostima Efektivni početak (nezavisna vremenska zona)** i **Efektivni kraj (neovisno o vremenskoj zoni)** na cjeniku. Nakon određivanja cjenika troškova, sustav određuje stopu troškova. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Određivanje stopa troškova u procijenjenom i stvarnom kontekstu za vrijeme
 
@@ -33,7 +33,7 @@ Stvarni kontekst za **vrijeme** odnosi se na:
 - Reci temeljnice stavke i ispravka za **vrijeme**.
 - Reci temeljnice kreirani prilikom slanja stavke vremena.
 
-Nakon određivanja cjenika troškova sustav ispunjava sljedeće korake kako bi unio zadanu stopu troška.
+Nakon određivanja cjenika troškova sustav dovršava sljedeće korake kako bi unio zadanu stopu troška.
 
 1. Sustav odgovara kombinaciji **polja Uloga** i **Jedinica** resursa u procjeni ili stvarnom kontekstu za **Vrijeme** u odnosu na retke cijene uloge u cjeniku. Ovo podudaranje pretpostavlja da koristite standardne dimenzije određivanja cijena za troškove rada. Ako ste konfigurirali sustav tako da odgovara poljima koja nisu ili uz **jedinicu** uloga **i** resursa, za dohvaćanje odgovarajućeg retka cijene uloge koristi se drugačija kombinacija.
 1. Ako sustav pronađe redak cijene uloge koji ima stopu troška za **kombinaciju Uloga** i **Jedinica** izvora, ta se stopa troška koristi kao zadana stopa troška.
@@ -55,7 +55,7 @@ Stvarni kontekst za **trošak** odnosi se na:
 - Reci temeljnice stavke i ispravka za **trošak**.
 - Reci temeljnice kreirani prilikom slanja stavke troškova.
 
-Nakon određivanja cjenika troškova sustav ispunjava sljedeće korake kako bi unio zadanu stopu troška.
+Nakon određivanja cjenika troškova sustav dovršava sljedeće korake kako bi unio zadanu stopu troška.
 
 1. Sustav odgovara kombinaciji polja Kategorija i Jedinica u procjeni ili stvarnom kontekstu **rashoda** **u odnosu na retke cijene kategorije u cjeniku.** **·**
 1. Ako sustav pronađe redak cijene kategorije koji ima stopu troška za kombinaciju **Kategorija** i **Jedinica**, ta se stopa troška koristi kao zadana stopa troška.
@@ -75,7 +75,7 @@ Stvarni kontekst za **Materijal** odnosi se na:
 - Reci temeljnice stavki i ispravka za **Materijal**.
 - Reci temeljnice kreirani prilikom slanja zapisnika korištenja materijala.
 
-Nakon određivanja cjenika troškova sustav ispunjava sljedeće korake kako bi unio zadanu stopu troška.
+Nakon određivanja cjenika troškova sustav dovršava sljedeće korake kako bi unio zadanu stopu troška.
 
 1. Sustav koristi kombinaciju **polja Proizvod** i **Jedinica** u procjeni ili stvarnom kontekstu za **Materijal** u odnosu na retke artikla cjenika u cjeniku.
 1. Ako sustav pronađe redak artikla cjenika koji ima stopu troška za kombinaciju **Proizvod** i **Jedinica**, ta se stopa troška koristi kao zadana stopa troška.

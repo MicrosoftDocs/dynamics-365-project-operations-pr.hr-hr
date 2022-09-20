@@ -1,23 +1,23 @@
 ---
-title: Određivanje prodajnih cijena za procjene i stvarne vrijednosti projekata
+title: Određivanje prodajnih cijena za procjene i stvarne podatke projekta
 description: U ovom se članku navode informacije o tome kako se određuju prodajne cijene za procjene i stvarne vrijednosti projekata.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410109"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475175"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Određivanje prodajnih cijena za procjene i stvarne vrijednosti projekata
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Određivanje prodajnih cijena za procjene i stvarne podatke projekta
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Da bi odredio prodajne cijene na procjenama i stvarnim vrijednostima u Microsoftu Dynamics 365 Project Operations, sustav najprije koristi datum i valutu u dolaznoj procjeni ili stvarnom kontekstu za određivanje cjenika prodaje. U stvarnom kontekstu posebno, sustav koristi **polje Datum** transakcije da bi odredio koji je cjenik primjenjiv. Nakon određivanja prodajnog cjenika sustav određuje stopu prodaje ili računa.
+Da bi odredio prodajne cijene na procjenama i stvarnim vrijednostima u Microsoftu Dynamics 365 Project Operations, sustav najprije koristi datum i valutu u dolaznoj procjeni ili stvarnom kontekstu za određivanje cjenika prodaje. U stvarnom kontekstu posebno, sustav koristi **polje Datum** transakcije da bi odredio koji je cjenik primjenjiv. Vrijednost **datuma** transakcije dolazne procjene ili stvarne uspoređuje se s **vrijednostima Efektivni početak (nezavisna vremenska zona)** i **Efektivni kraj (neovisno o vremenskoj zoni)** na cjeniku. Nakon određivanja prodajnog cjenika sustav određuje stopu prodaje ili računa.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Određivanje prodajnih stopa u stvarnim i procijenjenim recima za vrijeme
 
