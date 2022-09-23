@@ -2,20 +2,20 @@
 title: Procjena troškova dodjela podugovornih resursa
 description: U ovom se članku objašnjavaju neki način na koji Microsoft Dynamics 365 Project Operations izračunava procjenu troškova dodjela kooperantskih resursa.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262050"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522645"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Procjena troškova dodjela podugovornih resursa
 
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Dodjele zadataka članova projektnog tima kooperanta koštaju se pomoću **cjenika nabave** priloženog podugovaranju na zapisu povezanog člana tima. To se razlikuje od načina na koji se koštaju dodjele resursa zaposlenika ako se dodjele zadataka resursa zaposlenika koštaju pomoću **cjenika Troškova** koji je povezan s ugovornom jedinicom projekta. 
 

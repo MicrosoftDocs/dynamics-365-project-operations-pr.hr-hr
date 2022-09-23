@@ -2,21 +2,21 @@
 title: Ključni koncepti podugovaranja
 description: U ovom se članku objašnjavaju neki ključni koncepti koji se primjenjuju na podugovaranje u Microsoftu Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262160"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522739"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Ključni koncepti podugovaranja
 
 
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 U članku se objašnjavaju neki ključni koncepti kojih biste trebali biti svjesni prije nego što počnete koristiti funkciju podugovaranja u Microsoftu Dynamics 365 Project Operations.
 

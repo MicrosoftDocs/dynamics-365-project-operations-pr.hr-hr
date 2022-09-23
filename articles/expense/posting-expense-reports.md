@@ -1,8 +1,8 @@
 ---
 title: Objavljivanje izvješća o izdatku
 description: U ovom se članku objašnjava kako knjižiti izvješća o troškovima.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934495"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524860"
 ---
 # <a name="post-expense-reports"></a>Objavljivanje izvješća o izdatku
 
@@ -30,5 +30,15 @@ Kako biste knjižili izvješće o troškovima, na stranici **Odobrena izvješća
 
 Također možete istodobno knjižiti sva izvješća o troškovima na popisu. Odaberite sva izvješća o troškovima, a zatim odaberite **Knjiži**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Omogući značajku Mogućnost knjiženja obveze prema troškovima u valuti dobavljača za način gotovinskog plaćanja
+
+Značajka Mogućnost knjiženja **obveze prema troškovima u valuti dobavljača za način** gotovinskog plaćanja omogućuje knjiženje izvješća o troškovima u valuti dobavljača za način plaćanja gotovinom.
+
+Trenutno, kada podnosite novčane troškove, izvješća o troškovima knjiže se u računovodstvenoj valuti. Zbog konverzije iznosa između valute transakcije, računovodstvene valute i valute dobavljača dobavljačima se isplaćuje netočan iznos ako datum transakcije rashoda i stvarni datum plaćanja imaju različite tečajeve.
+
+Ova će značajka osigurati da se saldo dobavljača bilježi u valuti dobavljača prilikom knjiženja izvješća o troškovima.
+
+1. Idite na **Radni prostori** \> **Upravljanje značajkama**.
+2. Na popisu pronađite i odaberite **Mogućnost knjiženja obveze troška u valuti dobavljača za način plaćanja gotovinom**, a zatim odaberite **Omogući odmah**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

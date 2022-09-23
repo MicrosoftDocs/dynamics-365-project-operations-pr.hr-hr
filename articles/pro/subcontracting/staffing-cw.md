@@ -2,20 +2,20 @@
 title: Zapošljavanje ugovornih radnika i podugovornih kapaciteta na projektu
 description: U ovom se članku objašnjava kako se u projektnim preduvjetima može raditi pomoću ugovornih radnika ili kapaciteta podugovaratelja u Microsoftu Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261245"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522426"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Zapošljavanje ugovornih radnika i podugovornih kapaciteta na projektu
 
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 Članovi generičkog projektnog tima mogu raditi sa zaposlenicima ili ugovornim radnicima. Kada zapošljavate projekt s ugovornim radnicima, možete ograničiti mogućnosti zapošljavanja na određene ugovorne radnike koji su dodijeljeni liniji podugovaranja. 
 

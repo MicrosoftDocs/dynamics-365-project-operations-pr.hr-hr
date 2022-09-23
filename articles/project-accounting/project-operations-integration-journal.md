@@ -2,16 +2,16 @@
 title: Dnevnik integracije u aplikaciji Project Operations
 description: U ovom se članku nalaze informacije o radu s dnevnikom Integracija u operacijama projekta.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106266"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541068"
 ---
 # <a name="integration-journal-in-project-operations"></a>Dnevnik integracije u aplikaciji Project Operations
 
@@ -65,6 +65,12 @@ Objavljivanje se može izvršiti interaktivno ili u seriji. Imajte na umu da će
 > [!NOTE]
 > Da biste koristili tu mogućnost, omogućite **prijenos svih redaka s pogreškama knjiženja u novu značajku temeljnice** integracije operacija projekta u **radnom prostoru za upravljanje** značajkama.
 
-Tijekom knjiženja u temeljnicu integracije operacija projekta sustav provjerava svaki redak u temeljnici. Sustav knjiži sve retke koji nemaju pogrešaka i kreira novu temeljnicu za sve retke koji imaju pogreške pri knjiženju. Da biste pregledali temeljnice s recima pogreške knjiženja, otvorite **temeljnicu** > **integracije projektnih operacija za upravljanje projektima i računovodstvo** > **temeljnica** i filtrirajte temeljnice pomoću **polja Izvorna temeljnica**.
+Ova značajka pomaže poboljšati iskustvo s dnevnikom integracije projektnih operacija. Kada je omogućeno, problemi s vremenom dvostrukog pisanja i problemi s postavljanjem više ne sprječavaju knjiženje valjanih temeljnica. Tijekom knjiženja u temeljnicu integracije operacija projekta sustav provjerava svaki redak u temeljnici. Knjiži sve retke koji nemaju pogrešaka i kreira novu temeljnicu za sve retke koji imaju pogreške knjiženja.
+
+Da biste pregledali temeljnice s recima pogreške knjiženja, otvorite temeljnicu **integracije** projektnih operacija za upravljanje projektima i računovodstvo \>**temeljnica** \>**te** filtrirajte popis temeljnica pomoću **polja Izvorna temeljnica.** Sljedeća ilustracija prikazuje primjer u kojem su časopisi na stranici temeljnice **integracije operacija projekta filtrirani na** ovaj način.
+
+![Izvorni dnevnik prikazan na stranici temeljnice integracije operacija projekta.](./media/transferLines-originalJournal.png)
+
+Ako je periodična obrada konfigurirana za knjiženje temeljnice integracija, knjiženje će se ponovno potvrditi, a temeljnice će se knjižiti ako je problem s vremenom riješen. Sve preostale temeljnice treba ručno istražiti pregledom zapisnika i poduzimanjem svih potrebnih radnji.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
