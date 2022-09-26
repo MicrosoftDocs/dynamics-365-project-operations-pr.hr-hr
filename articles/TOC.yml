@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Opoziv prethodno odobrenih unosa
           href: approvals/recall-cancel.md
+        - name: Sigurnost i odobrenja
+          href: approvals/approvals-security.md
         - name: Bilješke razvojnog inženjera
           items:
             - name: Bilješke razvojnog inženjera za odobrenja
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Postavljanje zadržavanja dobavljača
               href: procurement/set-up-vendor-retention.md
+            - name: Plati kad bude plaćeno
+              href: procurement/Pay-when-paid.md
     - name: Fakturiranje
       items:
         - name: Pregled postupka fakturiranja
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Opoziv prethodno odobrenih unosa
           href: approvals/recall-cancel.md
+        - name: Sigurnost i odobrenja
+          href: approvals/approvals-security.md
         - name: Bilješke razvojnog inženjera
           items:
             - name: Bilješke razvojnog inženjera za odobrenja
