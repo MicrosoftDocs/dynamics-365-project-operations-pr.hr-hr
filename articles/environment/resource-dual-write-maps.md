@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112420"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621072"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verzije karte s dvostrukim pisanjem u aplikaciji Project Operations
 
@@ -48,14 +48,14 @@ Sljedeće su karte potrebne za rješenje aplikacije Project Operations. Verzije 
 | Izvor financiranja projekta (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nije potrebno za dodjelu resursa. ||
 | Tablica integracije projekta za procjene materijala (msdyn\_ procjene) | 1.0.0.0 | Nije potrebno za dodjelu resursa. ||
 | Prijedlozi faktura za projekt V2 (fakture) | 1.0.0.3 | Nije potrebno za dodjelu resursa. ||
-| Stvarni podaci aplikacije Project Operations (msdyn_actuals) | 1.0.0.14 | Nije potrebno za dodjelu resursa. ||
+| Stvarni podaci aplikacije Project Operations (msdyn_actuals) | 1.0.0.15 | Nije potrebno za dodjelu resursa. |10.0.29 ili noviji|
 | Integracija kontrolnih točki retka ugovora s aplikacijom Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nije potrebno za dodjelu resursa. ||
 | Entitet integracije aplikacije Project Operations za procjene troškova (msdyn_estimatelines) | 1.0.0.2 | Nije potrebno za dodjelu resursa. ||
 | Entitet za integraciju aplikacije Project Operations za procjene sati (msdyn_resourceassignments) | 1.0.0.5 | Nije potrebno za dodjelu resursa. ||
 | Entitet izvoza kategorija troškova projekta za integraciju aplikacije Project Operations (msdyn_expensecategories) | 1.0.0.1 | Nije potrebno za dodjelu resursa. ||
 | Entitet izvoza troškova projekta za integraciju aplikacije Project Operations (msdyn_expenses) | 1.0.0.3 | Nije potrebno za dodjelu resursa. ||
-| Entitet izvoza fakture dobavljača projekata integracije aplikacije Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Nije potrebno za dodjelu resursa. |10.0.26 ili noviji|
-| Entitet izvoza retka fakture dobavljača projekata integracije aplikacije Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Nije potrebno za dodjelu resursa. | 10.0.26 ili noviji |
+| Entitet izvoza fakture dobavljača projekata integracije aplikacije Project Operations (msdyn_projectvendorinvoices) | 1.0.0.2 | Nije potrebno za dodjelu resursa. |10.0.29 ili noviji|
+| Entitet izvoza retka fakture dobavljača projekata integracije aplikacije Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Nije potrebno za dodjelu resursa. | 10.0.29 ili noviji |
 | Uloge resursa za projekt za sve tvrtke (kategorije resursa koji se mogu rezervirati) | 1.0.0.1 | Zahtijeva početnu sinkronizaciju za mapu tablice za sinkronizaciju uloga resursa voditelja projekta i člana tima koji su tijekom dodjele resursa popunjeni u okruženju sustavu Dynamics 365 Dataverse. Dataverse je glavni izvor za početnu sinkronizaciju. ||
 | Projektni zadaci (msdyn_projecttasks) | 1.0.0.4 | Nije potrebno za dodjelu resursa. ||
 | Kategorije projektnih transakcija (msdyn_transactioncategories) | 1.0.0.0 | Nije potrebno za dodjelu resursa. ||
