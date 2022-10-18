@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621326"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634843"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Što je novo u rujnu 2022. – Osnovna implementacija aplikacije Project Operations
 
@@ -30,12 +30,13 @@ Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dyna
 | Naplata i određivanje cijene | **Zadana agnostička cijena vremenske zone**<br>Projektne operacije uvele su koncept agnostičkog datuma vremenske zone za sve stvarne projekte. Novo polje, **Datum** transakcije, sada je dostupno u recima i stvarnim vrijednostima temeljnice i koristit će se za pohranu datuma kada je transakcija nastupila, ali bez pretvaranja tog datuma u koordinirano univerzalno vrijeme. Taj će se datum koristiti za silazne procese kao što su zadano određivanje cijena i stvaranje fakture. | <p>[Određivanje stopa troškova za procjene i stvarne procjene temeljene na projektima](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Određivanje prodajnih cijena za procjene i stvarne procjene temeljene na projektima](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Naplata i određivanje cijene | **Datum na snazi nadjačavanja cijena u projektnim operacijama**<br>Nadjačavanja cijena s datumskom učinkovitošću omogućuju nadjačavanje ili promjenu određenih cijena u cjeniku. | [Datum na snazi nadjačavanja cijena](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Vrijeme i trošak | **Globalni odobravatelj**<br>Ova značajka omogućuje neovisnom dobavljaču softvera (ISV) i centralizirano odobrenje, bez obzira na status projekta ili člana tima u projektu. | [Sigurnost i odobrenja](/dynamics365/project-operations/approvals/approvals-security) |
+|Planiranje i praćenje projekta|**Uporaba API-ja rasporeda projekta za izvođenje operacija s entitetima planiranja** </br> </br>API za uređivanje konture dodjele resursa omogućuje programerima programsko određivanje napora davatelja zadataka u bilo kojem podržanom datumskom rasponu za detaljnije planiranje napora u fazama.|[Uporaba API-ja rasporeda projekta za izvođenje operacija s entitetima planiranja](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |
-| Naplata i određivanje cijene | 2754422 | Procjene materijala i troškova ne teku u Dynamics 365 Finance kada se projekti kopiraju u sustavu Dataverse. |
+| Naplata i određivanje cijene | 2754422 | Procjene materijala i troškova ne teku u Dynamics 365 Finance kada se projekti kopiraju u Dataverse. |
 | Vrijeme i trošak | 2787409 | Nevaljani odobravatelj može odobriti unos vremena koji nije projekt. |
 | Upravljanje prilikama | 2788907 | Ažurirana poruka o pogrešci o provjeri valjanosti jedinstvenosti za retke naloga koji sadrže zastavice. |
 | Vrijeme i trošak | 2842253 | Null rukovanje iznimkama za odobrenje vremena. |

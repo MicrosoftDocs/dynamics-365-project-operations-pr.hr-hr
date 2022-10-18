@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932057"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655179"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Stvaranje strukturne analize rada (WBS)
 
@@ -63,7 +63,7 @@ Kako biste uvukli ili promakli zadatak, poduzmite sljedeće korake.
 
 ### <a name="move-tasks-up-and-down"></a>Pomicanje zadataka gore i dolje
 
-Zadaci se mogu premjestiti na bilo koju razinu u strukturnoj analizi rada na jedan od dva načina:
+Zadaci se mogu premjestiti na bilo koju razinu u strukturi kvara rada na jedan od dva načina:
 
 - Odaberite još jedan zadatak i povucite ga na željeno mjesto.
 - Odaberite jedan ili više zadataka, kliknite desnom tipkom miša i odaberite **Izreži**, odaberite odredišnu ćeliju u rasporedu, a zatim desnom tipkom miša kliknite i odaberite **Zalijepi**.
@@ -112,6 +112,18 @@ Polje **Kategorija** sadrži vrijednosti koje označavaju širu vrstu posla u ko
 Raspored u aplikaciji Project Operations-a možete upotrebljavati za stvaranje odnosa prethodnika između zadataka. Polje **Prethodnik** upotrebljava jednu ili više vrijednosti kako bi se označili zadaci o kojima zadatak ovisi. Kada se zadatku dodijele vrijednosti prethodnika, zadatak može započeti tek nakon dovršetka svih zadataka prethodnika. Zbog ovisnosti planirani početni datum zadatka vraća se na datum dovršetka zadataka prethodnika.
 
 Način zadatka ne utječe na ažuriranja izvršena na datum početka i datum završetka zadataka prethodnika/ovisnih zadataka.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Razumijevanje utjecaja trajanja, kalendara resursa i kalendara projekata na zadatke
+Trajanje zadatka definira se kao broj radnih sati između vremena početka početnog datuma i vremena završetka datuma završetka zadatka.   Projekt za web definira jedinice mjere trajanja na sljedeći način:
+
+| **Mjera trajanja** | **Količina**|
+|----------------------------------------------------|----------------------|
+| Satima po danu | 8 |
+| Sati tjedno |  40 |
+| Dani u mjesecu |  20 |
+
+Nedodijeljeni zadaci zakazuju se pomoću kalendara projekta. Međutim, nakon početne dodjele resursa, zakazivanje zadatka ažurira se tako da poštuje kalendar resursa. Naknadne promjene zadatka koji ima zadatak bit će uređene [načinom](scheduling-modes.md) zakazivanja projekta. Dodatne informacije o utjecaju kalendara na zadatke potražite u članku [Kalendari resursa u programu Project za web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) i [Vrijeme početka zadataka i Vaši projekti!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Tipkovni prečaci i pristupačnost
 
