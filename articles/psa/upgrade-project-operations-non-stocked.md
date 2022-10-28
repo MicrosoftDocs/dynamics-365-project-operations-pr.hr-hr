@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686966"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709435"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Nadogradnja s aplikacije Project Service Automation na aplikaciju Project Operations
 
@@ -70,7 +70,7 @@ Preduvjeti za 3. fazu ažurirat će se kako se bude približavao opći datum dos
 
 ## <a name="licensing"></a>Licenciranje
 
-Ako imate aktivne licence za automatizaciju usluga projekta, možete instalirati i koristiti Project Operations, što uključuje sve mogućnosti automatizacije project usluga i još mnogo toga. Zatim možete testirati mogućnosti projektnih operacija u zasebnom okruženju dok nastavljate koristiti automatizaciju projektnih usluga u proizvodnji. Nakon isteka licenci za automatizaciju usluga projekta morat ćete prijeći na projektne operacije. Kada planirate taj prijelaz, morate uzeti u obzir činjenicu da licenca za Project Operations ne uključuje licencu za automatizaciju usluga projekta.
+Ako imate aktivne licence za automatizaciju usluga projekta, možete instalirati i koristiti Project Operations, što uključuje sve mogućnosti automatizacije project usluga i još mnogo toga. Na taj način možete testirati mogućnosti projektnih operacija dok nastavljate koristiti automatizaciju projektnih usluga u proizvodnji. Nakon isteka licenci za automatizaciju usluga projekta morat ćete prijeći na projektne operacije. Kada planirate taj prijelaz, morate uzeti u obzir činjenicu da licenca za Project Operations ne uključuje licencu za automatizaciju usluga projekta. Korisnici koji imaju scenarije u kojima su uveli automatizaciju projektnih usluga i moraju nastaviti koristiti ili povećavati svoje licence za PSA dok planiraju prijeći na Project Operations, mogu zatražiti privremene PSA licence na temelju kupljenih licenci project operations. Za jednu licencu za automatizaciju projektnih usluga izdat će se jedna licenca za automatizaciju projektnih usluga. Privremene PSA licence mogu se zatražiti pomoću ove poveznice: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Testiranje i refaktoriranje prilagodbi
 

@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525401"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709388"
 ---
 # <a name="security-and-approvals"></a>Sigurnost i odobrenja
 
@@ -33,6 +33,6 @@ Da biste odobrili stavke koje nisu projektne, morate biti upravitelj podnositelj
 > [!NOTE]
 > Značajka Skupovi [odobrenja](approval-sets.md) mora biti omogućena da biste mogli koristiti funkciju administratora odobravatelja projekta.
 
-Administrator projekta **sigurnosna** uloga omogućuje korisnicima da zaobiđu pravila i omogućuje odobravanje unosa u svim projektima. Dodjela ove uloge zaobići će logiku provjere valjanosti koja zahtijeva članstvo u timu i označavanje kao odobravatelja. Morate imati pristup relevantnim povezanim entitetima, kao **što je Project**. Taj pristup može dodijeliti netko tko ima ulogu upravitelja **projekta**.
+Administrator projekta **sigurnosna** uloga omogućuje korisnicima da zaobiđu pravila i omogućuje odobravanje unosa u svim projektima. Dodjela ove uloge zaobići će logiku provjere valjanosti koja zahtijeva članstvo u timu i označavanje kao odobravatelja. Morate imati pristup relevantnim povezanim tablicama, kao **što je Project**, putem sigurnosnih uloga koje su vam dodijeljene.
 
 Kontekst korisnika SUSTAVA zaobilazi provjere valjanosti na isti način kao i sigurnosna uloga administratora odobravatelja projekta.
