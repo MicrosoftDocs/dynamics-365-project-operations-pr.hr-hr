@@ -1,6 +1,6 @@
 ---
 title: Financijske procjene troškova na projektima
-description: Ovaj članak pruža informacije o definiranju ili procjeni troškova temeljenih na projektu.
+description: U ovom se članku navode informacije o načinu definiranja ili procjene troškova koji se temelje na projektu.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

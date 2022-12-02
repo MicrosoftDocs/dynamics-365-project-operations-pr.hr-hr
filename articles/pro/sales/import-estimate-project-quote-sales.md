@@ -1,6 +1,6 @@
 ---
 title: Uvoz procjena za projekt u redak ponude koji se temelji na projektu – jednostavno
-description: U ovom se članku nalaze informacije o uvozu procjena iz projekta u redak ponude.
+description: U ovom se članku navode informacije o načinu uvoza procjena iz projekta u redak ponude.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kopiranje ponuda koje se temelje na projektu
-description: U ovom se članku nalaze informacije o kopiranju ponuda temeljenih na projektima u operacijama projekta.
+description: U ovom se članku navode informacije o načinu kopiranja ponuda koje se temelje na projektu u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Pregled odobrenja
-description: U ovom se članku nalaze informacije o radu s odobrenjima u projektnim operacijama.
+description: U ovom se članku navode informacije o radu s odobrenjima u aplikaciji Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

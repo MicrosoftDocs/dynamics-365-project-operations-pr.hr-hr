@@ -1,6 +1,6 @@
 ---
 title: Veze transakcije – Povežite stvarne podatke različitih vrsta transakcija
-description: U ovom se članku objašnjava kako se transakcijska veza koristi za povezivanje stvarnih vrijednosti različitih vrsta kako bi se pomoglo u praćenju profitabilnosti, zaostataka u naplati i naplaćenih u odnosu na nenaplaćene izračune prihoda.
+description: U ovom se članku objašnjava kako se veza transakcije koristi za povezivanje stvarnih podataka različitih vrsta kako bi se lakše pratilo profitabilnost, zaostatke u naplati i izračune naplaćenog i nenaplaćenog prihoda.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -17,22 +17,22 @@ ms.locfileid: "8926077"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Zapisi o transakcijskoj vezi kreiraju se kako bi povezali stvarne vrijednosti različitih vrsta kao vrijeme, trošak ili korištenje materijala kreće se u njegovom životnom ciklusu od faze ponude ili predprodaje do faze ugovora, odobrenja i/ili opoziva, fakturiranja i potencijalno kreditnog ili korektivnog fakturiranja.
+Zapisi veze transakcije izrađuju se za povezivanje stvarnih podataka različitih vrsta kako se vrijeme, trošak ili potrošnja materijala kreću u svom životnom ciklusu od faze ponude ili pretprodaje do faze ugovora, odobrenja i/ili opoziva, fakturiranja i potencijalno kreditno ili korektivno fakturiranje.
 
 Sljedeći primjer prikazuje tipičnu obradu unosa vremena u životnom ciklusu projekta sustava Project Operations.
 
-> ![Obrada stavki vremena u operacijama projekta.](media/basic-guide-17.png)
+> ![Obrada unosa vremena u aplikaciji Project Operations.](media/basic-guide-17.png)
 
-Obrada unosa vremena u životnom ciklusu projekta Project Operations slijedi ove korake: 
+Obrada unosa vremena u životnom ciklusu projekta aplikacije Project Operations slijedi ove korake: 
 
-1. Slanje stavke vremena uzrokuje kreiranje dva retka temeljnice: jedan za trošak i jedan za nenaplaćenu prodaju. 
-2. Eventualno odobravanje unosa vremena uzrokuje stvaranje dvije stvarne vrijednosti: jednu za trošak i jednu za nenaplaćenu prodaju. Ove dvije stvarne vrijednosti povezane su pomoću transakcijskih veza.
+1. Slanje unosa vremena uzrokuje izradu dvaju redaka u dnevniku: jedan za trošak i jedan za nenaplaćene prodaje. 
+2. Eventualno odobrenje unosa vremena uzrokuje izradu dvaju stvarnih podataka: jedan za trošak i jedan za nenaplaćene prodaje. Ta dva stvarna podatka povezana su vezama transakcije.
 3. Kada korisnik izradi projektnu fakturu, transakcija retka fakture izrađuje se s pomoću podataka iz nenaplaćenih prodajnih stvarnih podataka.
-4. Kada je faktura potvrđena, to stvara dvije nove stvarne vrijednosti: neplaćeni storniranje prodaje i stvarnu prodaju naplaćenu prodaju. Neplaćeni preokret prodaje i izvorni neplaćeni iznos prodaje povezani su pomoću storniranja transakcijskih veza. Naplaćena prodaja i izvorne neplaćene prodajne stvarne vrijednosti također su povezane kako bi se prikazale veze između nekadašnjih zaostataka ili prihoda od rada u tijeku (PUT) s onim što se sada naplaćuje prihod.   
+4. Kada se faktura potvrdi, izrađuju se dva nova stvarna podatka: stvarni podatak storniranja nenaplaćene prodaje i stvarni podatak naplaćene prodaje. Stvarni podatak storniranja nenaplaćene prodaje i stvarni podatak izvorne nenaplaćene prodaje povezani su putem veza transakcije storniranja. Stvarni podatak naplaćene prodaje i stvarni podatak izvorne nenaplaćene prodaje povezani su i kako bi se prikazale veze između prihoda koji se prethodno vodio kao zaostali odnosno kao prihod za djelomično izvršeni posao (WIP, work in progress) i prihoda koji se sada vodi kao naplaćeni prihod.   
 
-Svaki događaj u tijeku rada obrade pokreće stvaranje zapisa u tablici Povezivanje s **transakcijom**. To pomaže u stvaranju praćenja Odnosi između zapisa kreiranih kroz stavku vremena, retka temeljnice, stvarnih detalja i detalja retka fakture.
+Svaki događaj u tijeku rada obrade pokreće izradu zapisa u tablici **Veza transakcije**. Time se olakšava izrada praćenja odnosa između zapisa izrađenih preko vremenskog unosa, retka dnevnika, stvarnog podatka i pojedinostima retka fakture.
 
-Sljedeća tablica prikazuje zapise u entitetu transakcijske **veze** za prethodni tijek rada.
+U tablici u nastavku prikazani su zapisi u entitetu **Veza transakcije** za prethodni tijek rada.
 
 |Događaj                   |Transakcija 1                 |Uloga transakcije 1 |Vrsta transakcije 1       |Transakcija 2          |Uloga transakcije 2 |Vrsta transakcije 2 |
 |------------------------|------------------------------|---------------|-----------------------------|-----------------------------|-------------------|-------------------|
@@ -43,11 +43,11 @@ Sljedeća tablica prikazuje zapise u entitetu transakcijske **veze** za prethodn
 |                        |Naplaćena prodaja GUID             |Naplaćena prodaja   |msdyn_actual                 |Nenaplaćena prodaja stvarni podaci GUID   |Nenaplaćena prodaja  |msdyn_actual       |
 |Nacrt ispravka fakture |GUID transakcija retka fakture|Zamjena      |msdyn_invoicelinetransaction |Naplaćena prodaja GUID            |Izvorna        |msdyn_actual       |
 |Potvrdi ispravak fakture|Storniranje naplaćene prodaje GUID  |Storniranje      |msdyn_actual                 |Naplaćena prodaja GUID            |Izvorna        |msdyn_actual       |
-|                        |Novi neisplaćeni GUID prodaje |Zamjena            |msdyn_actual                 |Naplaćena prodaja GUID            |Izvorna        |msdyn_actual       |
+|                        |Nova nenaplaćena prodaja GUID |Zamjena            |msdyn_actual                 |Naplaćena prodaja GUID            |Izvorna        |msdyn_actual       |
 
 
-Sljedeća ilustracija prikazuje veze koje se stvaraju između različitih vrsta stvarnih vrijednosti na različitim događajima na primjeru unosa vremena u operacijama projekta.
+Na ilustraciji u nastavku prikazane su veze koje se izrađuju između različitih vrsta stvarnih podataka u okviru različitih događaja na primjeru unosa vremena u aplikaciji Project Operations.
 
-> ![Kako su stvarne vrijednosti različitih vrsta međusobno povezane u projektnim operacijama.](media/TransactionConnections.png)
+> ![Način međusobnog povezivanja različitih vrsta stvarnih podataka u aplikaciji Project Operations.](media/TransactionConnections.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

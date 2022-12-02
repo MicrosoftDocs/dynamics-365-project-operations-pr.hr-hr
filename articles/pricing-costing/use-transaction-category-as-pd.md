@@ -1,6 +1,6 @@
 ---
 title: Uporaba kategorije transakcije kao veličine za određivanje cijene
-description: U ovom se članku navode informacije o korištenju polja Kategorija transakcije kao dimenzije određivanja cijena.
+description: U ovom članku nalaze se informacije o načinu upotrebe polja kategorije transakcije kao veličine za određivanje cijena.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,10 +19,10 @@ ms.locfileid: "8911685"
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 
-U ovom se članku objašnjava kako koristiti **polje Kategorija** transakcije kao dimenziju određivanja cijena. 
+U ovom se članku objašnjava način upotrebe polja **Kategorija transakcije** kao veličine za određivanje cijena. 
 
 ## <a name="prerequisites"></a>Preduvjeti
-Prije nego što dovršite postupke u ovom članku, morate imati novo rješenje dimenzije određivanja cijena za svoju tvrtku ili ustanovu. Ako ga već niste stvorili, pogledajte odjeljak [Stvaranje prilagođenih polja i entiteta kao veličina za određivanje cijena](create-custom-fields-entities-pricing-dimensions.md).
+Prije nego što dovršite postupke iz ovog članka, morate imati novo rješenje veličine za određivanje cijena za svoju tvrtku ili uslugu. Ako ga već niste stvorili, pogledajte odjeljak [Stvaranje prilagođenih polja i entiteta kao veličina za određivanje cijena](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Dodavanje polja Kategorija transakcije u obrasce i prikaze
 Kako bi polje **Kategorija transakcije** bilo vidljivo u rješenju veličine za određivanje cijena, morate dodati polje svim obrascima i prikazima kao entitet.

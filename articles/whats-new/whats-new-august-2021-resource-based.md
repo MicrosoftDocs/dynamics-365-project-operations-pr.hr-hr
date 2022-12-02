@@ -1,6 +1,6 @@
 ---
 title: Novosti u kolovozu 2021. – Project Operations za scenarije koji se temelje na resursu / bez zaliha
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete dostupnima u izdanju projektnih operacija u kolovozu 2021. za scenarije koji se temelje na resursima/neutemeljenim izvorima.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Project Operations iz kolovoza 2021. za scenarije koji se temelje na resursu / bez zaliha.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8912277"
 
 *Odnosi se na: Project Operations za scenarije temeljene na resursu / bez zaliha*
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
    - Project Operations u okruženju platforme Microsoft Dataverse verzije 4.13.0.152.
-   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.20.
+   - Upravljanje projektima i računovodstvo u verziji 10.0.20 okruženja aplikacije Dynamics 365 Finance
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
@@ -54,7 +54,7 @@ Ako naiđete na problem s pokretanjem karte, slijedite upute u odjeljku [Problem
 | Vrijeme i trošak | 2336884 | Gumb za vremenski unos **Kopiraj tjedan** mora raditi ne samo za trenutačnog korisnika. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u aplikaciji Dynamics 365 Finance
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |

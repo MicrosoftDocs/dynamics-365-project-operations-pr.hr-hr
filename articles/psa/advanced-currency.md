@@ -1,6 +1,6 @@
 ---
 title: Scenariji višestruke valute (verzija 3.x)
-description: U ovom se članku nalaze informacije o scenarijima s više valuta.
+description: U ovom se članku navode informacije o scenarijima višestruke valute.
 author: rumant
 ms.custom:
 - dyn365-projectservice

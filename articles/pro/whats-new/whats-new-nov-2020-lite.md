@@ -1,6 +1,6 @@
 ---
 title: Novosti u studenom 2020 – Jednostavna implementacija aplikacije Project Operations – od sklapanja posla do predračuna
-description: Ovaj članak pruža informacije o ažuriranjima kvalitete dostupnim u izdanju implementacije Project Operations Lite u studenom 2020. - dogovor o proforma fakturiranju.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju osnovne implementacije aplikacije Project Operations za studeni 2020. – od sklapanja posla do predračuna.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Upravljanje kompetencijama resursa
-description: U ovom se članku nalaze informacije o postavljanju kompetencija za resurse projekta.
+description: U ovom se članku navode informacije o načinu postavljanja kompetencija za resurse projekta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

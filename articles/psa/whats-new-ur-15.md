@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 15, V3
-description: U ovom se članku nalaze informacije o novostima u ažuriranju ažuriranja automatizacije usluge project servicea 15, V3.
+description: U ovom članku nalaze se informacije o novostima u aplikaciji Project Service Automation, izdanje ažuriranja 15, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8915635"
 
 Zadovoljstvo nam je najaviti najnovije ažuriranje za aplikaciju Dynamics 365 Project Service Automation (PSA). Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x. Kako biste ažurirali ovo izdanje, posjetite Centar za administratore sustava Dynamics 365 na mreži i idite na stranicu s rješenjima kako biste instalirali ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za PSA V3, Ažuriraj izdanje 15. Broj izrade ove verzije jest V3.10.5.28, a ona je uglavnom dostupna putem samostalnog ažuriranja u siječnju 2020.
+Ovaj članak navodi značajke i ispravke koji su novi ili izmijenjeni u aplikaciji PSA V3, izdanje ažuriranja 15. Broj izrade ove verzije jest V3.10.5.28, a ona je uglavnom dostupna putem samostalnog ažuriranja u siječnju 2020.
 
 ## <a name="update-release-15"></a>Izdanje ažuriranja 15 
 

@@ -1,6 +1,6 @@
 ---
 title: Fakturiranje u sustavu Project Service Automation
-description: Ovaj članak pruža informacije o fakturiranju.
+description: U ovom se članku navode informacije o fakturiranju.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -94,7 +94,7 @@ Nakon pokretanja funkcije **ProcessRunner** poziva se **ProcessRunCaller**, navo
 Skupni postupak stvaranja faktura ponavljajući je posao. Ako se taj skupni postupak izvodi više puta, stvaraju se višestruke instance posla koje uzrokuju pogreške. Stoga biste trebali pokrenuti skupni postupak samo jednom i ponovno ga pokrenuti samo ako se prestane izvoditi.
 
 > [!NOTE]
-> Paketno fakturiranje na usluzi Project Service Automation pokreće se samo za retke projektnih ugovora koji su konfigurirani rasporedima faktura. Ugovorni redci s načinom naplate fiksne cijene moraju imati konfigurirane prekretnice. Redak projektnog ugovora s vremenskim i materijalnim načinom naplate treba imati postavku rasporeda računa na temelju datuma. Informacije o postavljanju frekvencija fakturiranja u kontekstu projekta koji se temelji na retku ponude navedene su u članku, [Citati i reci ponude](basic-quote-lines.md#invoice-schedule). Isto se odnosi i na redak ugovora koji se temelji na projektu.      
+> Paketno fakturiranje na usluzi Project Service Automation pokreće se samo za retke projektnih ugovora koji su konfigurirani rasporedima faktura. Ugovorni redci s načinom naplate fiksne cijene moraju imati konfigurirane prekretnice. Redak projektnog ugovora s vremenskim i materijalnim načinom naplate treba imati postavku rasporeda računa na temelju datuma. Informacije o postavljanju učestalosti fakturiranja u kontekstu projekta koji se temelji na retku ponude navedene su u članku [Ponude i redci ponude](basic-quote-lines.md#invoice-schedule). Isto se odnosi i na redak ugovora koji se temelji na projektu.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Uređivanje skice PSA fakture
 

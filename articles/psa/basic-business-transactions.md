@@ -1,6 +1,6 @@
 ---
 title: Poslovne transakcije
-description: U ovom se članku nalaze informacije o poslovnim transakcijama.
+description: U ovom se članku navode informacije o poslovnim transakcijama.
 author: rumant
 ms.custom:
 - dyn365-projectservice

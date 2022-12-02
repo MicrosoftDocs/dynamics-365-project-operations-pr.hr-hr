@@ -1,6 +1,6 @@
 ---
 title: Uređivanje rezervacija
-description: U ovom se članku nalaze informacije o tome kako ažurirati i izmijeniti rezervacije.
+description: U ovom se članku navode informacije o načinu ažuriranja i unosa promjena u rezervacije.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8915221"
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 
-Kada se na projektu dogode promjene koje zahtijevaju ažuriranje postojećih rezervacija, postoji nekoliko načina za promjenu. U ovom se članku opisuje kako ažurirati i izmijeniti rezervacije.
+Kada se na projektu dogode promjene koje zahtijevaju ažuriranje postojećih rezervacija, postoji nekoliko načina za promjenu. U ovom se članku opisuje način ažuriranja i unosa promjena u rezervacije.
 
 ## <a name="resource-reconciliation"></a>Usklađivanje resursa
 

@@ -1,6 +1,6 @@
 ---
 title: Definiranje uloga
-description: U ovom se članku nalazi veza na informacije o postavljanju kategorija resursa koje se mogu rezervirati.
+description: U ovom se članku navodi veza do informacija o postavljanju kategorija resursa koji se mogu rezervirati.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

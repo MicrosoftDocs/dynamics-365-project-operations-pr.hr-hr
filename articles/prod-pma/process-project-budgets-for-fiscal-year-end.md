@@ -1,6 +1,6 @@
 ---
 title: Prijenos proračuna projekata na kraju poslovne godine
-description: Ovaj članak pruža informacije o tome kako prenijeti preostale proračunske iznose u buduće godine i stvoriti podatke o proračunskom registru.
+description: U ovom članku nalaze se informacije o načinu prijenosa preostalog proračunskog iznosa u naredne godine i stvaranju pojedinosti proračunskog registra.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

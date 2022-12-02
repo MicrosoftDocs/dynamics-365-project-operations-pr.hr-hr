@@ -1,6 +1,6 @@
 ---
 title: Procjene prodaje i projekti
-description: Ovaj članak pruža informacije o tome kako iskoristiti raspored i procjene u procesu prodaje.
+description: Ovaj članak pruža informacije o tome kako iskoristiti prednosti rasporeda i procjena u postupku prodaje.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

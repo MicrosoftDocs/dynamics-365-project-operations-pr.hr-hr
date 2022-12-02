@@ -1,6 +1,6 @@
 ---
 title: Predračuni
-description: U ovom se članku nalaze informacije o predračunskim fakturama u projektnim operacijama.
+description: U ovom se članku navode informacije o predračunima u aplikaciji Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Kada stvorite skicu fakture projekta, sve nenaplaćene prodajne transakcije stvo
 Odaberite **Potvrdi** da biste potvrdili fakturu. Radnja potvrde jednosmjerna je radnja. Kada odaberete **Potvrdi**, sustav postavlja fakturu samo za čitanje i stvara naplaćene stvarne podatke o prodaji na temelju svake pojedinosti retka fakture za svaki redak fakture. Ako se pojedinost retka fakture poziva na nenaplaćeni stvarni podatak o prodaji, sustav također poništava nenaplaćeni stvarni podatak o prodaji. (Sve pojedinosti retka fakture stvorene na temelju unosa vremena ili troška pozivaju se na nenaplaćeni stvarni podatak o prodaji.) Sustavi integracije glavne knjige mogu koristiti to poništavanje za promjenu rada projekta u tijeku (WIP) u računovodstvene svrhe.
 
 > [!NOTE]
-> Potvrđene predračunske fakture i povezane zapise kao što su reci fakture i detalji retka fakture ne mogu se uređivati ili brisati. 
+> Potvrđene predračune i srodne zapise kao što su redci faktura i pojedinosti o redcima faktura nije moguće uređivati niti brisati. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Ispravak potvrđene fakture
 

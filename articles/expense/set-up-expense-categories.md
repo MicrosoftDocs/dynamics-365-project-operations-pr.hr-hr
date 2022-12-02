@@ -1,6 +1,6 @@
 ---
 title: Postavljanje kategorije izdatka
-description: U ovom se članku nalaze informacije o postavljanju kategorija troškova i zajedničkih kategorija za izvješća o troškovima.
+description: U ovom se članku nalaze informacije o načinu postavljanja kategorije troškova i dijeljene kategorije za izvješća o troškovima.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

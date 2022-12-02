@@ -1,6 +1,6 @@
 ---
 title: Mapiranje projekata i zadataka u redak ponude koji se temelji na projektu
-description: U ovom se članku nalaze informacije o mapiranju projekata i zadataka u redak zadataka koji se temelji na projektu.
+description: U ovom se članku navode informacije o načinu mapiranja projekata i zadataka u redak zadatka koji se temelji na projektu.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

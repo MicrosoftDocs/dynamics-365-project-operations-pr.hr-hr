@@ -1,6 +1,6 @@
 ---
 title: Ključni koncepti upravljanja resursima
-description: U ovom se članku nalaze informacije o mogućnostima upravljanja resursima u programima Microsoft Dynamics Project Operations.
+description: U ovom članku nalaze se informacije o mogućnostima Upravljanja resursima u aplikaciji Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Redci prilike koji se temelje na projektu – jednostavno
-description: U ovom se članku nalaze informacije o recima prilike utemeljenima na projektu. (Pro)
+description: U ovom članku nalaze se informacije o redcima prilike koji se temelje na projektu. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

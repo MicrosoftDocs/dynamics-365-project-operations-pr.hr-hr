@@ -1,6 +1,6 @@
 ---
 title: Stvaranje rješenja za prilagođene veličine za određivanje cijena
-description: U ovom se članku nalaze informacije o stvaranju rješenja za prilagođene dimenzije određivanja cijena.
+description: U ovom se članku navode informacije o načinu izrade rješenja prilagođenih veličina za određivanje cijena.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

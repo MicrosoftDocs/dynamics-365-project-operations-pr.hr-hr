@@ -1,6 +1,6 @@
 ---
 title: Nadzorne ploče
-description: U ovom se članku nalaze informacije o nadzornim pločama za izvješćivanje koje su uključene u sustav Dynamics 365 Project Service Automation.
+description: Ovaj članak pruža informacije o nadzornim pločama za izvješćivanje koje su uključene u Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

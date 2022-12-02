@@ -1,6 +1,6 @@
 ---
 title: Kretanje korisničkim sučeljem
-description: U ovom se članku nalaze informacije o upravljanju projektima u operacijama programa Dynamics 365 Project.
+description: U ovom se članku navode informacije o Upravljanju projektom u aplikaciji Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

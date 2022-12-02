@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 27.6, hitni popravak, V3
-description: U ovom se članku navode značajke i popravci dostupni u servisnom paketu Project Service Automation Update Release 27.6 Hotfix, V3.
+description: U ovom članku navode se značajke i ispravci koji su dostupni u izdanju ažuriranja 27.6 hitnog popravka aplikacije Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/17/2021
@@ -27,7 +27,7 @@ ms.locfileid: "8918717"
 
 Zadovoljstvo nam je najaviti najnovije ažuriranje aplikacije Project Service Automation za sustav Dynamics 365. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x. Kako biste ažurirali ovo izdanje, posjetite stranicu Centra za administratore za sustav Dynamics 365 s rješenjima na mreži, kako biste instalirali ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za automatizaciju usluge Project Service V3, Ažuriraj izdanje 27.6. Broj izrade ove verzije jest V3.10.45.120, a ona je uglavnom dostupna putem samostalnog ažuriranja u siječnju 2021.
+U ovom članku navode se značajke i ispravci koji su novi ili izmijenjeni u aplikaciji Project Service Automation V3, izdanje ažuriranja 27.6. Broj izrade ove verzije jest V3.10.45.120, a ona je uglavnom dostupna putem samostalnog ažuriranja u siječnju 2021.
 
 ## <a name="update-release-276"></a>Izdanje ažuriranja 27.6
 

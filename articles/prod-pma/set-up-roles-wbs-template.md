@@ -1,6 +1,6 @@
 ---
 title: Postavljanje uloga na predlošcima strukturne analize rada
-description: U ovom se članku nalaze informacije o postavljanju informacija o ulozi u predlošcima strukture raščlambe rada.
+description: U ovom članku nalaze se informacije o postavljanju informacija o ulogama na predlošcima strukturne analize rada.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

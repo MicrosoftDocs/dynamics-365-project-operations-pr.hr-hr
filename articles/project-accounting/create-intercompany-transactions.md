@@ -1,6 +1,6 @@
 ---
 title: Stvaranje transakcija unutar tvrtke
-description: U ovom se članku navode informacije o stvaranju međukompanijskih transakcija.
+description: U ovom se članku navode informacije o načinu izrade transakcija unutar tvrtke.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Kada se odobri transakcija unutar tvrtke, stvaraju se sljedeće stvarne transakc
 
 Trošak, jedinična cijena resursa te jedinična cijena i valuta međuorganizacijske prodajne transakcije ovise o **organizacijskoj jedinici**. To je važno imati na umu pri odlučivanju o strukturiranju tvrtki i organizacijskih jedinica u vašoj implementaciji.
 
-Kada stvarate priliku, ponudu, ugovor o projektu i zapise o projektu, sustav provjerava podudara li se valuta ugovorne jedinice s knjigovodstvenom valutom ugovorne tvrtke. Kad nisu iste, te zapise nije moguće stvoriti. Valuta organizacijske jedinice definira se u aplikaciji Dynamics 365 Project Operations odlaskom na **Dataverse** > **Postavke** > **Organizacijske jedinice**. Računovodstvena valuta poduzeća definirana je u Dynamics 365 Finance odlaskom u **glavnu knjigu Analitika postava** > **glavne knjige** > **·**. Valuta je sinkronizirana s vašim okruženjem Dataverse s pomoću karte knjiga dvostrukog upisa.
+Kada stvarate priliku, ponudu, ugovor o projektu i zapise o projektu, sustav provjerava podudara li se valuta ugovorne jedinice s knjigovodstvenom valutom ugovorne tvrtke. Kad nisu iste, te zapise nije moguće stvoriti. Valuta organizacijske jedinice definira se u aplikaciji Dynamics 365 Project Operations odlaskom na **Dataverse** > **Postavke** > **Organizacijske jedinice**. Računovodstvena valuta tvrtke definira se u aplikaciji Dynamics 365 Finance odlaskom na **Glavna knjiga** > **Postavljanje knjige** > **Knjiga**. Valuta je sinkronizirana s vašim okruženjem Dataverse s pomoću karte knjiga dvostrukog upisa.
 
 Sustav stvara cijenu jedinice resursa i stvarne podatke o prodaji između organizacijskih jedinica u sljedećim situacijama:
 
   - Kada se jedinica resursa razlikuje od ugovorne jedinice
   - Kada se tvrtka za resurse razlikuje od ugovorne tvrtke
 
-Međutim, samo transakcije koje imaju različito resourcing društvo od ugovornog društva bit će prenesene u Dynamics 365 Finance okruženje radi dodatnog računovodstva.
+Međutim, samo će se transakcije koje imaju drugu tvrtku za resurse, koja se razlikuje od ugovorne tvrtke, prenijeti u okruženje Dynamics 365 Finance za dodatno računovodstvo.
 
 Računovodstvo stvarnih podataka o projektu zabilježeno je u dnevniku integracije aplikacije Project Operations u aplikaciji Finance. Sustav stvara sljedeće retke dnevnika.
 

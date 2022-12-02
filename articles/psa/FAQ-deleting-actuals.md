@@ -1,6 +1,6 @@
 ---
 title: Zašto ne mogu izbrisati zapise iz entiteta stvarnih vrijednosti?
-description: U ovom se članku nalaze informacije o tome zašto ne možete izbrisati zapise iz stvarnog entiteta.
+description: U ovom se članku navode informacije o tome zašto ne možete izbrisati zapise iz entiteta stvarnih vrijednosti.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

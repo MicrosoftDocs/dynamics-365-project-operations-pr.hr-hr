@@ -47,7 +47,7 @@ PSA se isporučuje sa zadanim skupom dimenzija cijena. Možete ih pregledati tak
 > [!IMPORTANT]
 > Ako ste upotrebljavali gotova polja uloge i organizacijske jedinice kao dimenzije cijena prije verzije 3 sustava PSA, neće biti vidljivih promjena. Možete nastaviti uobičajeno koristiti aplikaciju Project Service. 
 
-Ako trebate odrediti cijenu ili trošak resursa pomoću dodatnih atributa, možete stvoriti prilagođena polja, entitete i dimenzije. Dodatne informacije potražite u sljedećim člancima, no imajte na umu da postupke morate dovršiti redoslijedom navedenim u nastavku:
+Ako trebate odrediti cijenu ili trošak resursa pomoću dodatnih atributa, možete stvoriti prilagođena polja, entitete i dimenzije. Za više informacija pogledajte sljedeće članke, međutim, napominjemo da morate dovršiti postupke redoslijedom navedenim u nastavku:
 
 - [Stvaranje prilagođenih polja i entiteta](create-custom-fields-entities.md)
 - [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](field-references.md)

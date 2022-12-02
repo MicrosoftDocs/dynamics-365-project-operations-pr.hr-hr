@@ -1,6 +1,6 @@
 ---
 title: Valuta
-description: U ovom se članku nalaze informacije o dodavanju i uklanjanju vrsta valuta u programima Project Operations.
+description: U ovom se članku nalaze informacije o načinu dodavanja i uklanjanja vrsta valuta u aplikaciji Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

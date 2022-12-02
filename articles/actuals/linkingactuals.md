@@ -1,6 +1,6 @@
 ---
-title: Podrijetlo transakcije - Povežite stvarne podatke s njihovim izvorom
-description: U ovom se članku objašnjava kako se koncept nastanka transakcije koristi za povezivanje stvarnih podataka s izvornim izvornim zapisima, kao što su stavka vremena, stavka troškova ili zapisnici o korištenju materijala.
+title: Porijeklo transakcije – Povežite stvarne podatke s njihovim izvorom
+description: U ovom se članku objašnjava kako se koncept porijekla transakcije upotrebljava za povezivanje stvarnih podataka s izvornim zapisima, poput unosa vremena, unosa troškova ili zapisnika o uporabi materijala.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: hr-HR
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921293"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Podrijetlo transakcije - Povežite stvarne podatke s njihovim izvorom
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Porijeklo transakcije – Povežite stvarne podatke s njihovim izvorom
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Zapisi o podrijetlu transakcije kreiraju se da bi povezali stvarne podatke s njihovim izvorom, kao što su stavke vremena, stavke troškova, zapisnici korištenja materijala i fakture projekta.
+Zapisi o porijeklu transakcije izrađuju se za povezivanje stvarnih podataka s njihovim izvorom, kao što su unosi vremena, unosi troškova, zapisnici upotrebe materijala i fakture za projekte.
 
 Sljedeći primjer prikazuje tipičnu obradu unosa vremena u životnom ciklusu projekta sustava Project Operations.
 
-> ![Obrada vremenskih cjelina u projektnim operacijama.](media/basic-guide-17.png)
+> ![Obrada unosa vremena u aplikaciji Project Operations.](media/basic-guide-17.png)
  
-1. Slanje stavke vremena uzrokuje kreiranje dva retka temeljnice: jedan za trošak i jedan za nenaplaćenu prodaju.
-2. Eventualno odobravanje unosa vremena uzrokuje stvaranje dvije stvarne vrijednosti: jednu za trošak i jednu za nenaplaćenu prodaju.
+1. Slanje unosa vremena uzrokuje izradu dvaju redaka u dnevniku: jedan za trošak i jedan za nenaplaćene prodaje.
+2. Eventualno odobrenje unosa vremena uzrokuje izradu dvaju stvarnih podataka: jedan za trošak i jedan za nenaplaćene prodaje.
 3. Kada korisnik izradi projektnu fakturu, transakcija retka fakture izrađuje se s pomoću podataka iz nenaplaćenih prodajnih stvarnih podataka.
 4. Kada je faktura potvrđena, stvaraju se dva nova stvarna podatka: nenaplaćena stornirana prodaja i fakturirani prodajni stvarni podatak.
 
-Svaki događaj u ovom tijeku rada obrade pokreće stvaranje zapisa u entitetu Porijeklo transakcije kako bi pomogao u stvaranju praćenja Odnosi između tih zapisa koji se kreiraju kroz stavku vremena, redak temeljnice, stvarne detalje i detalje retka fakture.
+Svaki događaj u tom tijeku rada obrade pokreće izradu zapisa u entitetima Porijeklo transakcije kako bi se pomoglo izgraditi trag odnosa između tih zapisa koji su izrađeni u unosu vremena, retku u dnevniku, stvarnim podacima i pojedinostima retka fakture.
 
 Sljedeća tablica prikazuje zapise u entitetu Porijeklo transakcije za prethodni tijek rada.
 
@@ -70,8 +70,8 @@ Sljedeća tablica prikazuje zapise u entitetu Porijeklo transakcije za prethodni
 | Ispravak GUID faktura      | Faktura                  | Novi GUID stvarni podaci nenaplaćene prodaje    | Stvarno                            |                          |
 
 
-Sljedeća ilustracija prikazuje veze koje se stvaraju između stvarnih i njihovih izvora na različitim događajima na primjeru unosa vremena u operacijama projekta.
+Sljedeća ilustracija prikazuje veze koje se izrađuju između stvarnih podataka i njihovih izvora u okviru različitih događaja na primjeru unosa vremena u aplikaciji Project Operations.
 
-> ![Kako su stvarne stvari povezane s izvornim zapisima u operacijama projekta.](media/TransactionOrigins.png)
+> ![Način na koji su stvarni podaci povezuju s izvornim zapisima u aplikaciji Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

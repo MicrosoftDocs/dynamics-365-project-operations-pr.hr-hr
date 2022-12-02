@@ -1,6 +1,6 @@
 ---
 title: Cijena redaka ugovora koji se temelje na proizvodu – osnovna
-description: U ovom se članku nalaze informacije o stvaranju
+description: U ovom se članku navode informacije o izradi
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

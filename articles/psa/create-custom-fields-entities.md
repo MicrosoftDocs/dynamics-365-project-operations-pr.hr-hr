@@ -1,6 +1,6 @@
 ---
 title: Izradi prilagođena polja i entitete
-description: Ovaj članak objašnjava kako stvoriti skupove opcija i entitete u vlastitom rješenju na Power Apps platformi.
+description: U ovom se članku objašnjava način izrade skupova mogućnosti i entiteta u vlastitom rješenju na platformi Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926905"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Izvršite sljedeće korake u bilo kojem trenutku kada želite izraditi prilagođeni skup mogućnosti ili entitet na platformi Power Apps.  
-Postupci u ovom članku trebali bi biti dovršeni pomoću web sučelja automatizacije projektnih usluga (PSA).
+Postupci navedeni u ovom članku trebaju se izvršiti putem web-sučelja sustava Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Preporučujemo da sve promjene prilagođene dimenzije određivanja cijena izvršite u zasebnom rješenju. Ova važna najbolja praksa pruža fleksibilnost u budućnosti za ažuriranje ili uklanjanje promjena po potrebi, pomoći će u ponovnom korištenju vašeg rada i olakšava prebacivanje tih promjena na drugu instancu. Nakon što ste izvršili sve potrebne promjene, izvezite ovo rješenje kao **Upravljano rješenje** i uvezite ga u druge instance da biste ponovno upotrijebili postavljanje određivanja cijena.

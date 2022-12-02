@@ -1,6 +1,6 @@
 ---
 title: Stvaranje rasporeda faktura na retku ugovora koji se temelji na projektu – jednostavno
-description: U ovom se članku nalaze informacije o kreiranju rasporeda i ključnih etapa faktura.
+description: U ovom se članku navode informacije o izradi rasporeda faktura i kontrolnih točaka.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

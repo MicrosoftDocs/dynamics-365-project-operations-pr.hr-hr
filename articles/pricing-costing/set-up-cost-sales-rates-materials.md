@@ -1,6 +1,6 @@
 ---
 title: Postavljanje cijena koštanja i prodaje za materijale
-description: U ovom se članku navode informacije o postavljanju troškova i prodajnih stopa za materijale koji se koriste na projektima.
+description: U ovom se članku nalaze informacije o načinu postavljanja troškova i prodajnih cijena za materijale koji se upotrebljavaju na projektima.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ Kako biste postavili cijene koštanja i prodajne cijene proizvoda, poduzmite slj
 2. Na stavci **Stavke cjenika**, na izborniku podrešetke, odaberite **Nova stavka cjenika**. 
 3. Na stranici **Brzo stvaranje** unesite proizvod i jedinicu za koje stvarate novu cijenu.
 
-Dodatne informacije o definiranju cijena za stavke kataloga potražite u člancima [Definiranje određivanja cijena proizvoda cjenicima i stavkama cjenika](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) te [Decimalna preciznost u valuti i cijenama](/dynamics365/sales/decimal-precision-currency-pricing).
+Dodatne informacija o načinu definiranja cijene kataloških stavki potražite u člancima [Određivanje cijena proizvoda s pomoću cjenika i stavki cjenika](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) i [Decimalna preciznost u valuti i određivanju cijena](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations ne podržava sve metode određivanja cijena za proizvode kao Dynamics 365 Sales. Jedini način određivanja cijena podržan za proizvode koji će se koristiti na projektima je *iznos valute*.
+> Dynamics 365 Project Operations ne podržava sve metode određivanja cijena za proizvode kao što je Dynamics 365 Sales. Jedina podržana metoda određivanja cijena za proizvode koji se koriste na projektima je *Valutni iznos*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

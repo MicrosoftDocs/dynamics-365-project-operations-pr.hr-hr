@@ -1,6 +1,6 @@
 ---
 title: Novosti u veljači 2021. – osnovna implementacija aplikacije Project Operations
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete dostupnima u izdanju implementacije lite programa Project Operations u veljači 2021.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju osnovne implementacije aplikacije Project Operations za veljaču 2021.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.locfileid: "8914025"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Novosti u veljači 2021. – osnovna implementacija aplikacije Project Operations
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
   - Project Operations na verziji 4.7.0.95 okruženja platforme Dataverse
 

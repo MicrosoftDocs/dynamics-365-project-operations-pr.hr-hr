@@ -1,6 +1,6 @@
 ---
 title: Postavljanje cijena za naplatu rada
-description: U ovom se članku navode informacije o postavljanju stopa naplate rada u projektnim operacijama.
+description: U ovom se članku nalaze informacije o načinu postavljanja cijena za naplatu rada u aplikaciji Project Operations.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

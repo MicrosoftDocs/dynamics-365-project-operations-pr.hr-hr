@@ -1,6 +1,6 @@
 ---
 title: Postavljanje troškova radne snage
-description: U ovom se članku navode informacije o tome kako postaviti stope za troškove rada Projektne operacije
+description: U ovom članku nalaze se informacije o načinu postavljanja troškova radne snage u aplikaciji Project Operations
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

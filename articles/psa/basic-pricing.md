@@ -1,6 +1,6 @@
 ---
 title: Određivanje cijene projekta
-description: U ovom se članku nalaze informacije o načinu na koji cijene funkcioniraju u programu Dynamics 365 Project Service Automation.
+description: U ovom se članku navode informacije o tome kako određivanje cijene funkcionira u sustavu Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

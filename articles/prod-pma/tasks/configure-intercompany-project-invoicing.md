@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje fakturiranja projekta unutar tvrtke
-description: U ovom se članku objašnjava kako postaviti fakturiranje projekata između dviju tvrtki u tvrtki ili ustanovi.
+description: U ovom se članku opisuje način postavljanja fakturiranja projekata između dviju tvrtki u vašoj tvrtki ili ustanovi.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916601"
 
 [!include [banner](../../includes/banner.md)]
 
-U ovom se članku objašnjava kako postaviti fakturiranje projekata između dviju tvrtki u tvrtki ili ustanovi. Ovaj zadatak upotrebljava skup podataka USSI.
+U ovom se članku opisuje način postavljanja fakturiranja projekata između dviju tvrtki u vašoj tvrtki ili ustanovi. Ovaj zadatak upotrebljava skup podataka USSI.
 
 1. U navigacijskom oknu idite na **Moduli> Dugovanja> Dobavljači> Svi dobavljač**.
 2. U popisu **Svi dobavljači**, pronađite i odaberite željeni zapis.

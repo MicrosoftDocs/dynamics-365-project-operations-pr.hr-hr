@@ -1,6 +1,6 @@
 ---
 title: Pregled redaka ponude koji se temelje na proizvodu – jednostavno
-description: U ovom se članku nalaze informacije o radu s recima ponuda temeljenima na proizvodu.
+description: U ovom članku nalaze se informacije o radu s redcima ponude koji se temelje na proizvodu.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

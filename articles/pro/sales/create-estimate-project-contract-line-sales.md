@@ -1,6 +1,6 @@
 ---
 title: Procjena retka ugovora koji se temelji na projektu – osnovna
-description: U ovom se članku nalaze informacije o procjeni retka ugovora temeljenog na projektu.
+description: U ovom se članku navode informacije o procjeni retka ugovora koji se temelji na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

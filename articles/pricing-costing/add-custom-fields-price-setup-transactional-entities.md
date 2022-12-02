@@ -1,6 +1,6 @@
 ---
 title: Dodavanje potrebnih prilagođenih polja postavljanju cijena i transakcijskim entitetima
-description: U ovom se članku nalaze informacije o dodavanju potrebnih prilagođenih referenci polja entitetima te obrascima i prikazima.
+description: U ovom se članku navode informacije o načinu dodavanja potrebnih referenci prilagođenih polja entitetima te obrascima i prikazima.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8926031"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-U ovom se članku pretpostavlja da ste dovršili postupke iz članka [Kreiranje prilagođenih polja i entiteta koji će se koristiti kao dimenzije određivanja cijena](create-custom-fields-entities-pricing-dimensions.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
+Za potrebe ovog članka pretpostavlja se da ste dovršili postupke navedene u članku [Izrada prilagođenih polja i entiteta koji će se upotrebljavati kao veličine za određivanje cijena](create-custom-fields-entities-pricing-dimensions.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
 
-U ovom ćete članku postupci pokazati kako dodati potrebne prilagođene reference polja entitetima i elementima korisničkog sučelja (korisničkog sučelja) kao što su obrasci i prikazi.
+Postupci navedeni u ovom članku pokazat će vam kako dodati potrebne reference prilagođenih polja entitetima i elementima korisničkog sučelja (UI) kao što su obrasci i prikazi.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Dodaj polja dimenzije prilagođenog određivanja cijena 
 Nakon izrade prilagođenih polja i entiteta, sljedeći je korak da entiteti postavljanja cijena i transakcijski entiteti prepoznaju bilo koje prilagođene entitete ili skupove mogućnosti s pomoću izrade referentnih polja. Ovisno o tome uključuje li popis dimenzija određivanja cijena dimenzije skupa mogućnosti ili dimenzije entiteta ili oboje, slijedite samo korake u **Dimenzije prilagođenog određivanja cijena koje se temelje na skupu mogućnosti** ili **Dimenzije prilagođenog određivanja cijena koje se temelje na entitetu** ili oboje.

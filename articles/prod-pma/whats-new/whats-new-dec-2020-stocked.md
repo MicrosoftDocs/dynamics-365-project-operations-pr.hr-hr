@@ -1,6 +1,6 @@
 ---
 title: Novosti u prosincu 2020. – Project Operations za scenarije koji se temelje na zalihama/proizvodnji
-description: Ovaj članak pruža informacije o ažuriranjima kvalitete dostupnim u izdanju projektnih operacija u prosincu 2020. za scenarije temeljene na zalihama/proizvodnji.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Project Operations za prosinac 2020. za scenarije koji se temelje na zalihama/proizvodnji.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "8911357"
 
 _Odnosi se na: Project Operations za scenarije koji se temelje na zalihama/proizvodnji_
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
-  - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.15
+  - Upravljanje projektima i računovodstvo u verziji 10.0.15 okruženja aplikacije Dynamics 365 Finance
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
@@ -139,7 +139,7 @@ Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i
 
 ## <a name="regulatory-updates"></a>Ažuriranja propisa
 
-Informacije o regulatornim ažuriranjima za Dynamics 365 Finance potražite u članku [Regulatorna ažuriranja](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ažuriranjima jest prijava na Lifecycle Services (LCS) i pregledavanje planiranih regulatornih ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+Za informacije o ažuriranjima propisa za aplikaciju Dynamics 365 Finance pogledajte članak [Ažuriranja propisa](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ažuriranjima jest prijava na Lifecycle Services (LCS) i pregledavanje planiranih regulatornih ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

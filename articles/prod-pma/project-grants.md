@@ -1,6 +1,6 @@
 ---
 title: Projektne potpore
-description: U ovom se članku objašnjava kako stvoriti ili izmijeniti bespovratna sredstva.
+description: U ovom se članku objašnjava način stvaranja ili izmjene potpore.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

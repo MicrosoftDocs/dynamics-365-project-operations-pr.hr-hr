@@ -1,6 +1,6 @@
 ---
 title: Izvješća o trošku i više odobravatelja
-description: U ovom se članku nalaze informacije o izvješćima o troškovima za koja je potrebno odobrenje više osoba.
+description: U ovom se članku navode informacije o izvješćima o troškovima koje treba odobriti više osoba.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

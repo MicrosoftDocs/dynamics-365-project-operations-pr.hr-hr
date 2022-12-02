@@ -1,6 +1,6 @@
 ---
 title: Deinstalirajte Dynamics 365 Project Operations.
-description: U ovom se članku nalaze informacije o deinstalaciji Dynamics 365 Project Operations.
+description: U ovom članku nalaze se informacije o deinstaliranja aplikacije Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
@@ -35,8 +35,8 @@ Kako biste deinstalirali aplikaciju Dynamics 365 Project Operations, morate dobi
     | 6 | ProjectServiceCore_Patch                           | Nema dodatnih napomena.                                                                         |
     | 7 | ProjectServiceCore                                 | Nema dodatnih napomena.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Ako nije pronađeno, preskočite ovo rješenje.                                                            |
-    | 9 | FieldServiceCommon                                 | Obavezno za dvostruko pisanje s Dynamics 365 Finance ili Dynamics 365 Supply Chain Management.   |
-    | 1,0 | msdyn_AssetCommon                                  | Obavezno za dvostruko pisanje s Dynamics 365 Finance ili Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Potrebno za dvostruko pisanje u aplikaciji Dynamics 365 Finance ili Dynamics 365 Supply Chain Management.   |
+    | 1,0 | msdyn_AssetCommon                                  | Potrebno za dvostruko pisanje u aplikaciji Dynamics 365 Finance ili Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Obvezno polje za aplikaciju Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Obvezno polje za aplikaciju Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Obvezno polje za aplikaciju Dynamics 365 Field Service.                                                     |

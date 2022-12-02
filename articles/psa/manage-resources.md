@@ -1,6 +1,6 @@
 ---
 title: Upravljanje resursima
-description: U ovom se članku nalaze informacije o načinu upravljanja resursima.
+description: U ovom se članku navode informacije o tome kako možete upravljati resursima.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

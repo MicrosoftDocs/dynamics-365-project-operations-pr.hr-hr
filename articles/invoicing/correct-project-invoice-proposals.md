@@ -1,6 +1,6 @@
 ---
 title: Ispravljanje računovodstva za skice prijedloga faktura za projekt
-description: U ovom se članku objašnjava kako prilagoditi podatke vezane uz računovodstvo na nacrtu prijedloga računa.
+description: U ovom se članku objašnjava način na koji se vrši prilagodba informacija povezanih s računovodstvom na skicu prijedloga fakture.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 *Operativne pojedinosti* faktura za projekt vodi voditelj projekta na predračunu. Te pojedinosti uključuju odluku o radnom vremenu, troškovima, materijalima ili kontrolnim točkama koje se moraju fakturirati, cijenama te primjeni iznosa predujma i akontacija. Nakon što potvrdite izvorni predračun, možete prilagoditi operativne pojedinosti stvaranjem i potvrđivanjem [korektivnog predračuna](../proforma-invoicing/corrective-invoices.md).
 
-*Računovodstvene pojedinosti* faktura za projekt vode se u dokumentu fakture namijenjene klijentu. Te pojedinosti uključuju izračun poreza na promet i financijske veličine koje se primjenjuju na fakturu. U ovom se članku navode pojedinosti o tome kako se ti računovodstveni podaci mogu prilagoditi na nacrtu prijedloga fakture za projekt.
+*Računovodstvene pojedinosti* faktura za projekt vode se u dokumentu fakture namijenjene klijentu. Te pojedinosti uključuju izračun poreza na promet i financijske veličine koje se primjenjuju na fakturu. U ovom se članku navode pojedinosti o tome kako se te računovodstvene pojedinosti mogu prilagoditi u skici prijedloga fakture za projekt.
 
 ## <a name="adjust-sales-tax"></a>Prilagodba poreza na promet
 
@@ -29,13 +29,13 @@ Zadane grupe poreza na promet za naplatu i grupe poreza na promet za stavke mogu
 
 ### <a name="header-dimensions"></a>Dimenzije zaglavlja
 
-Financijske dimenzije fakture po zadanom se izvode iz neplaćenih zapisa transakcija projekta koji se fakturiraju. Međutim, postavke sustava omogućuju vam korištenje financijskih dimenzija u zaglavlju prijedloga faktura za projekt za knjiženje salda kupaca. Da biste omogućili tu funkcionalnost, na kartici Financije **na stranici Parametri upravljanja projektom i parametri računovodstva** odaberite **Dopusti ažuriranja dimenzija projekta za potraživanja za potraživanja** **.**
+Prema zadanim postavkama, financijske veličine fakture izvode se iz nenaplaćenih zapisa transakcija projekta koji se fakturiraju. Međutim, postavke sustava vam omogućuju korištenje financijskih veličina u zaglavlju prijedloga faktura projekta za knjiženje salda klijenata. Da biste omogućili ovu funkciju odaberite **Dopusti ažuriranja veličina projekta za potraživanja** na kartici **Financije** stranice **Upravljanje projektom i računovodstveni parametri**.
 
-Financijske dimenzije u zaglavljima faktura mogu se uređivati prije knjiženja fakture. Na stranici Prijedlog fakture **za projekt prijeđite u** prikaz Zaglavlje **, a zatim uredite vrijednosti na** kartici Financijske dimenzije **.**
+Financijske veličine u zaglavljima faktura mogu se urediti prije knjiženja fakture. Na stranici **Prijedlog fakture projekta** prijeđite na prikaz **Zaglavlje**, a zatim uredite vrijednosti na kartici **Financijske veličine**.
 
-**Prikaz Zaglavlja** dostupan je tek nakon što administrator sustava omogući obrasce **Koristi prijedlog fakture za projekt i temeljnicu faktura sa značajkom Prikaz** zaglavlja i redaka u **radnom prostoru za upravljanje** značajkama. Ova značajka zahtijeva ažuriranje financija 10.0.25 ili novije.
+Prikaz **Zaglavlje** dostupan je samo nakon što administrator sustava omogući značajku **Upotreba Prijedloga faktura projekta i obrazaca dnevnika faktura s prikazom Zaglavlje i Redak** u radnom prostoru **Upravljanje značajkama**. Ova značajka zahtijeva verziju aplikacije Finance 10.0.25 ili noviju.
 
-### <a name="line-dimensions"></a>Dimenzije retka
+### <a name="line-dimensions"></a>Veličine retka
 
 Financijske veličine ne mogu se uređivati izravno na retku prijedloga fakture za projekt. Umjesto toga, slijedite ove korake za prilagodbu financijskih veličina na prijedlogu fakture za projekt.
 

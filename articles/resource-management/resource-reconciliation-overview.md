@@ -1,6 +1,6 @@
 ---
 title: Pregled usklađivanja resursa
-description: Ovaj članak pruža informacije koje će vam pomoći da osigurate da su rezervacije resursa i zadaci za projekte usklađeni.
+description: U ovom članku nalaze se informacije koje će vam pomoći da osigurate usklađivanje rezervacija i zadataka resursa za projekte.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

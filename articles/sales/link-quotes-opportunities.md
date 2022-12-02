@@ -1,6 +1,6 @@
 ---
 title: Stvaranje ponuda projekta iz prilika
-description: U ovom se članku nalaze informacije o stvaranju ponude za projekt iz prilike.
+description: U ovom se članku navode informacije o izradi ponude projekta iz prilike.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

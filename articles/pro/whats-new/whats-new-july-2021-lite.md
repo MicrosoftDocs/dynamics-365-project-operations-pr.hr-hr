@@ -1,6 +1,6 @@
 ---
 title: Što je novo u srpnju 2021. – implementacija osnovne aplikacije Project Operations
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete dostupnima u izdanju u srpnju 2021. implementacije lite uređaja Project Operations.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju osnovne implementacije aplikacije Project Operations za srpanj 2021.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8913979"
 
 _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
   - Project Operations u okruženju platforme Dataverse verzije 4.12.0.148 ili 4.12.0.152.
 

@@ -1,6 +1,6 @@
 ---
 title: Cjenici proizvoda
-description: U ovom se članku navode informacije o cjenicima u kataloškim cijenama koje se koriste za ponude za projekte i ugovore.
+description: U ovom se članku nalaze informacije o cjenicima u određivanju kataloških cijena koje se upotrebljavaju u ponudama za projekt i ugovore o projektu.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

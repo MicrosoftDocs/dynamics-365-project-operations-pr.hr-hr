@@ -1,6 +1,6 @@
 ---
 title: Analiza ponuda projekta
-description: Ovaj članak pruža informacije o analizi citata projekta.
+description: U ovom se članku navode informacije o analizi ponuda projekta.
 author: rumant
 ms.custom:
 - dyn365-projectservice

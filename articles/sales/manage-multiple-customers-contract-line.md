@@ -1,6 +1,6 @@
 ---
 title: Upravljanje s više klijenata u redcima ugovora koji se temelje na projektu
-description: U ovom se članku nalaze informacije o radu s recima ugovora i ugovorima koji sadrže više kupaca.
+description: U ovom se članku navode informacije o načinu rada s redcima ugovora i ugovorima koji sadrže više klijenata.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

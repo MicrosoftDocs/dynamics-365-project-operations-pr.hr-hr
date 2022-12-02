@@ -1,6 +1,6 @@
 ---
 title: Postavljanje cijena koštanja rada – jednostavno
-description: U ovom se članku navode informacije o postavljanju stopa troškova rada u projektnim operacijama.
+description: U ovom članku nalaze se informacije o načinu postavljanja troškova radne snage u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Vještine i certificiranje
-description: Ovaj članak pruža informacije o dodavanju vještina i karakteristika certificiranja resursima.
+description: U ovom članku nalaze se informacije o dodavanju svojstava vještina i certificiranja resursima.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

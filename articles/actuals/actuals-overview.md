@@ -1,6 +1,6 @@
 ---
 title: Stvarni podaci
-description: U ovom se članku nalaze informacije o radu sa stvarnim stvarima u sustavu Microsoft Dynamics 365 Project Operations.
+description: U ovom se članku navode informacije o radu sa stvarnim podacima u aplikaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -24,20 +24,20 @@ ms.locfileid: "8924789"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Stvarni podaci predstavljaju pregledani i odobreni financijski napredak i napredak rasporeda na projektu. Kreiraju se kada se odobravaju stavke vremena, troška i upotrebe materijala, stavke temeljnice i fakture.
+Stvarni podaci predstavljaju pregledani i odobreni financijski napredak i napredak rasporeda na projektu. Izrađuju se u trenutku odobravanja unosa vremena, troškova, utrošenog materijala te unosa i faktura dnevnika.
 
 > [!IMPORTANT]
-> Stvarne vrijednosti ne bi trebalo uređivati ili brisati iz sustava. U suprotnom bi to moglo negativno utjecati na financijski integritet i svaku integraciju s drugim financijskim i računovodstvenim sustavima. Microsoft Dynamics 365 Project Operations vam omogućuje da koristite storniranje i zamjenu stvarnih vrijednosti za uređivanje stvarnih vrijednosti u različitim točkama životnog ciklusa poslovnih procesa vaših projekata.
+> Stvarni podaci ne smiju se uređivati niti brisati iz sustava. U protivnom, to bi moglo negativno utjecati na financijski integritet i bilo kakvu integraciju s drugim financijskim i računovodstvenim sustavima. Sustav Microsoft Dynamics 365 Project Operations omogućuje vam korištenje poništavanja i zamjene stvarnih podataka za uređivanje stvarnih podataka na različitim točkama u životnom ciklusu poslovnog procesa vaših projekata.
 
 ## <a name="recording-actuals-based-on-project-events"></a>Zapis stvarnih vrijednosti na temelju projektnih događaja
 
-Project Operations bilježi financijske transakcije koje se dogode tijekom životnog ciklusa angažmana projekta kao stvarne. Stvaranje stvarnih stvari na različitim događajima u životnom ciklusu varira, ovisno o tome koristi li angažman projekta model naplate vremena i materijala ili model naplate fiksne cijene i je li u fazi pretprodaje ili je interni projekt.
+Aplikacija Project Operations bilježi financijske transakcije koje se odvijaju tijekom životnog ciklusa angažmana projekta u obliku stvarnih podataka. Izrada stvarnih podataka u okviru različitih događaja u životnom ciklusu varira, ovisno o tome primjenjuje li angažman projekta model naplate vremena i materijala ili model naplate po fiksnoj cijeni te je li u fazi pretprodaje ili je interni projekt.
 
-Sljedeći članci objašnjavaju utjecaj na tablicu Stvarni podaci na različitim događajima za različite varijacije:
+U sljedećim člancima objašnjava se utjecaj na tablicu Stvarni podaci u okviru različitih događaja za različite varijacije:
 
-- [Stvarni utjecaj u vremenu i angažmanu materijala](ActualsonTM.md)
-- [Stvarni utjecaj u angažmanu s fiksnom cijenom](ActualonFP.md)
-- [Stvarni učinak tijekom pretprodajne faze angažmana](ActualonPreSales.md)
-- [Stvarni učinak za interni projekt](ActualonInternal.md)
+- [Utjecaj stvarnih podataka na angažiranje vremena i materijala](ActualsonTM.md)
+- [Utjecaj stvarnih podataka na angažiranje fiksne cijene](ActualonFP.md)
+- [Utjecaj stvarnih podataka tijekom pretprodajne faze angažmana](ActualonPreSales.md)
+- [Utjecaj stvarnih podataka za interni projekt](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

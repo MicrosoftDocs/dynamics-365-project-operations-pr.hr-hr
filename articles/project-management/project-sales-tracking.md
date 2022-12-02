@@ -1,6 +1,6 @@
 ---
 title: Praćenje prodaje projekta
-description: Ovaj članak pruža informacije o tome kako Project Operations prati napredak u odnosu na prihode od rada na projektu.
+description: U ovom članku nalaze se informacije o tome kako aplikacija Project Operations prati napredak u odnosu na prihode od rada na projektu.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

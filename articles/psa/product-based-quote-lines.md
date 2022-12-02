@@ -1,6 +1,6 @@
 ---
 title: Reci ponude temeljeni na proizvodu
-description: U ovom se članku nalaze informacije o recima ponuda temeljenima na proizvodu.
+description: Ovaj članak pruža informacije o recima ponude temeljenim na proizvodu.
 author: rumant
 ms.custom:
 - dyn365-projectservice

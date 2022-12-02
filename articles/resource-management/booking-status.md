@@ -1,6 +1,6 @@
 ---
 title: Statusi rezervacije
-description: U ovom se članku nalazi veza na informacije o postavljanju statusa rezervacija za projektne operacije.
+description: U ovom se članku navodi veza na informacije o načinu postavljanja statusa rezerviranja za aplikaciju Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

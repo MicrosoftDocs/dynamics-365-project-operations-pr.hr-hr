@@ -1,6 +1,6 @@
 ---
 title: Upravljanje ponudama projekta
-description: U ovom se članku nalaze informacije o ponudama za projekte.
+description: U ovom se članku navode informacije o ponudama projekta.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Popis svih ponuda projekta mogu se vidjeti na stranici s popisom **Ponude**.
 Ponude se mogu stvoriti ili izbrisati s ove stranice s popisom ili stranica s pojedinostima.
 
  > [!NOTE]
- > Ponude s kojima su povezani projekti, zadaci, procjene, temeljnice i/ili stvarne vrijednosti ne mogu se izbrisati. Također, kada je ponuda zatvorena kao Osvojena ili izgubljena, više se ne može izbrisati ili izmijeniti. 
+ > Ponude koje imaju povezane projekte, zadatke, procjene, dnevnike i/ili stvarne podatke ne mogu se izbrisati. Također, kada se ponuda zatvori kao dobivena ili izgubljena, više se ne može brisati ili mijenjati. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

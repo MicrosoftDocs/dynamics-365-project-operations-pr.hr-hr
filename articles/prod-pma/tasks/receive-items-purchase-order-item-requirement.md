@@ -1,6 +1,6 @@
 ---
 title: Primanje stavki na narudžbenicu iz zahtjeva za stavke
-description: U ovom se članku objašnjava kako zaprimati artikle na narudžbenici iz zahtjeva za artiklom.
+description: U ovom se članku objašnjava način primanja stavki na narudžbenicu iz zahtjeva za stavkom.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929527"
 
 [!include [banner](../../includes/banner.md)]
 
-U ovom se članku objašnjava kako zaprimati artikle na narudžbenici iz zahtjeva za artiklom.
+U ovom se članku objašnjava način primanja stavki na narudžbenicu iz zahtjeva za stavkom.
 
 Uporabom zahtjeva za stavkom umjesto transakcije stavke, možete planirati isporuku neposredno prije stvarne uporabe stavke, stvoriti narudžbenicu, uključiti stavku u okvir trgovinskog sporazuma i uključiti zahtjev za stavkom u planiranje proizvodnje. 
 

@@ -1,6 +1,6 @@
 ---
 title: Dodjela resursa zadatku
-description: U ovom se članku nalaze informacije o načinu dodjele resursa zadacima.
+description: U ovom se članku navode informacije o tome kako dodijeliti resurse zadacima.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

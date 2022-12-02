@@ -1,6 +1,6 @@
 ---
 title: Procjena retka ponude utemeljenog na projektu
-description: U ovom se članku navode informacije o stvaranju procjene u retku ponude koji se temelji na projektu.
+description: U ovom se članku navode informacije o načinu stvaranja procjene retka ponude koji se temelji na projektu.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

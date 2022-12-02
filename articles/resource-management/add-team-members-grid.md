@@ -1,6 +1,6 @@
 ---
 title: Dodavanje članova tima iz rešetke članova tima
-description: U ovom se članku nalaze informacije o upravljanju resursima članova tima.
+description: U ovom se članku navode informacije o tome kako možete upravljati resursima članova tima.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

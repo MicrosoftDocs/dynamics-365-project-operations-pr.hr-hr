@@ -1,6 +1,6 @@
 ---
 title: Nadjačavanje prodajnih cjenika za projekt
-description: U ovom se članku nalaze informacije o stvaranju prilagođenih cjenika prodaje.
+description: U ovom članku nalaze se informacije o stvaranju prilagođenih prodajnih cjenika.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

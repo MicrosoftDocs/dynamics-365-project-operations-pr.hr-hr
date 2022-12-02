@@ -1,6 +1,6 @@
 ---
 title: Postavke ugovora o projektu
-description: U ovom se članku nalaze informacije o poljima koja utječu na retke ugovora i informacije o ugovoru sa sažetima u svim stavkama retka.
+description: U ovom članku nalaze se informacije o poljima koja utječu na retke ugovora i informacije o ugovoru koje su sažete u svim stavkama retka.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8921569"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovom se članku nalaze informacije o poljima koja se primjenjuju na cijeli ugovor o projektu, uključujući postavke koje utječu na sve retke ugovora. Uključene su i informacije o ugovoru koje su sažete u svim stavkama retka za pokretanje KPI-jeva ugovora o projektu.
+U ovom članku nalaze se informacije o poljima koja se primjenjuju na cjelokupni ugovor o projektu, uključujući postavke koje utječu na sve retke ugovora. Uključene su i informacije o ugovoru koje su sažete u svim stavkama retka za pokretanje KPI-jeva ugovora o projektu.
 
 Tablica u nastavku prikazuje polja u ugovoru o projektu koja su jedinstvena za aplikaciju Dynamics 365 Project Operations ili imaju neke značajne promjene u ponašanju iz prodajnih naloga u aplikaciji Dynamics 365 Sales.
 

@@ -1,6 +1,6 @@
 ---
 title: Isključivanje cjenovne veličine
-description: U ovom se članku nalaze informacije o tome kako isključiti dimenzije određivanja cijena.
+description: U ovom se članku nalaze informacije o načinu isključivanja cjenovnih veličina.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Popunjavanje zahtjeva za generičkim resursima
-description: U ovom se članku nalaze informacije o tome kako rezervirati imenovane resurse za generički zahtjev resursa.
+description: U ovom se članku navode informacije o načinu rezerviranja imenovanih resursa za preduvjet generičkog resursa.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

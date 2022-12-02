@@ -1,6 +1,6 @@
 ---
 title: Vodič za izvješćivanje
-description: U ovom se članku nalaze veze na informacije o izvješćivanju.
+description: U ovom članku nalaze se veze do informacija o izvješćivanju.
 author: kfend
 ms.custom:
 - dyn365-projectservice

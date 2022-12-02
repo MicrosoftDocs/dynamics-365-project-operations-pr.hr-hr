@@ -1,6 +1,6 @@
 ---
 title: Početna stranica planiranja projekta
-description: U ovom se članku nalaze informacije o planiranju projekta.
+description: Ovaj članak pruža informacije o planiranju projekta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ Alati za upravljanje projektima u PSA-u pomažu vam da jednostavno pokrenete pro
 - Predvidite preduvjete resursa za projekte u kanalu.
 - Uspješno isporučite projekte praćenjem napretka i potrošnje troška.
 
-Sljedeći članci pružaju informacije koje će voditeljima projekata pomoći da procijene rad, procijene troškove projekta i predvide zahtjeve resursa pomoću alata koji su podržani u PSA-u:
+Sljedeći članci pružaju informacije koje će pomoći upraviteljima projekata u procjeni rada, procjeni troškova projekta i predviđanju zahtjeva za resurse pomoću alata koji su podržani u PSA-u:
 
 - [Stvaranje rasporeda](project-creating.md)
 - [Procjena troškova i prihoda projekta](project-estimating.md)

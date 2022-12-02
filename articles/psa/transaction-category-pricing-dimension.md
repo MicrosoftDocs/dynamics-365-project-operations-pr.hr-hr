@@ -1,6 +1,6 @@
 ---
 title: Upotreba kategorije transakcija kao dimenzije cijena
-description: U ovom se članku navode informacije o korištenju kategorije transakcije kao dimenzije određivanja cijena.
+description: Ovaj članak pruža informacije o upotrebi kategorije transakcije kao dimenzije cijena.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915727"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-U ovom se članku opisuje kako koristiti kategoriju transakcije kao dimenziju određivanja cijena. Prije nego što započnete, ako još niste izradili rješenje dimenzije cijena, morat ćete stvoriti novu. Ako već imate rješenje dimenzije cijena, možete uvesti promjene u tom rješenju. Ako niste stvorili novo rješenje dimenzije određivanja cijena za svoju tvrtku ili ustanovu, dovršite postupke u [članku Stvaranje prilagođenih polja i entiteta](create-custom-fields-entities.md).
+U ovom je članku objašnjena upotreba kategorije transakcije kao dimenzije cijena. Prije nego što započnete, ako još niste izradili rješenje dimenzije cijena, morat ćete stvoriti novu. Ako već imate rješenje dimenzije cijena, možete uvesti promjene u tom rješenju. Ako niste izradili novo rješenje dimenzije cijena za svoju organizaciju, provedite postupke u članku [Stvaranje prilagođenih polja i entiteta](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Dodavanje kategorije transakcije u obrasce i prikaze
 Da bi kategorija transakcije bila vidljiva u korisničkom sučelju u rješenju dimenzije cijena, morat ćete proći kroz sve obrasce i prikaze ključnih entiteta i dodati ta polja obrascima i prikazima tih entiteta.

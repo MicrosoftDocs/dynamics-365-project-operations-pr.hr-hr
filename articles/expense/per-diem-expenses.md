@@ -1,6 +1,6 @@
 ---
 title: Troškovi dnevnice
-description: Ovaj članak pruža informacije o tome kako raditi s troškovima dnevnice.
+description: Ovaj članak sadrži informacije o radu s troškovima dnevnice.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -23,104 +23,104 @@ ms.locfileid: "8923179"
 # <a name="per-diem-expenses"></a>Troškovi dnevnice
 
 > [!IMPORTANT] 
-> Funkcionalnost opisana u ovom članku dostupna je ciljanim korisnicima kao dio izdanja pretpregleda.
+> Funkcionalnost koja je opisana u ovom članku dostupna je ciljanim korisnicima kao dio izdanja za pretpregled.
 
-Isplata dnevnica fiksna je, unaprijed određena dnevnica koju tvrtka isplaćuje svojim zaposlenicima za smještaj (hotele), obroke i slučajne troškove koje ti zaposlenici snose dok putuju na posao. Tvrtka isplaćuje ovu naknadu zaposlenicima umjesto da plaća stvarne putne troškove. Zaposlenici mogu koristiti svoju **naknadu za incidente / ostale** dnevnice za pokrivanje napojnica, posluga u sobu, pranja rublja ili usluga kemijskog čišćenja za važne poslovne sastanke. Stopa dnevnica može varirati, ovisno o tome hoće li poslodavac odlučiti nadoknaditi kombinirane troškove smještaja i obroka ili samo za troškove obroka i nezgoda.
+Isplaćeni iznos dnevnice fiksna je, unaprijed određena dnevna naknada koju tvrtka isplaćuje svojim zaposlenicima za smještaj (hoteli), obroke i usputne troškove koje ti zaposlenici imaju dok poslovno putuju. Tvrtka isplaćuje tu naknadu zaposlenicima umjesto plaćanja stvarnih putnih troškova. Zaposlenici mogu iskoristiti dnevnice za **usputne/ostale troškove** za pokrivanje napojnica, posluge u sobu, usluge pranja rubnja za važne poslovne sastanke. Iznos dnevnice može se razlikovati, ovisno o tome je li poslodavac odlučio nadoknaditi kombinirani trošak smještaja i obroka ili samo trošak obroka i usputnih troškova.
 
-Cijene dnevnica mogu se temeljiti na dobu godine, mjestu putovanja ili oboje. Kada stvorite pravilo dnevnice, možete odrediti da će postotak stope dnevnica biti zadržan ako zaposlenik primi besplatne obroke ili usluge. Također možete postaviti minimalni broj sati i maksimalan broj sati koje stopa dnevnica može primijeniti na putovanje zaposlenika.
+Cijene dnevnica mogu se temeljiti na dobu godine, mjestu putovanja ili oboje. Kada stvarate pravilo za dnevnice, možete odrediti da se od dnevnice odbija postotak ako zaposlenik prima besplatne obroke ili usluge. Također možete postaviti minimalni broj sati i maksimalni broj sati za koji se dnevnica može primijeniti kada je zaposlenik na putu.
 
-Dnevnica se izračunava kao ukupna naknada koja se nudi dnevno umanjena za smanjenje obroka (trošak besplatnih obroka) koja se daje zaposleniku.
+Dnevnica se izračunava kao ukupna naknada koja se nudi po danu umanjena za trošak obroka (trošak besplatnik obroka) koja se daje zaposleniku.
 
-## <a name="configure-per-diems"></a>Konfiguriraj dnevnice
+## <a name="configure-per-diems"></a>Konfiguriranje dnevnica
 
-Da biste konfigurirali troškove dnevnice, slijedite ove korake.
+Da biste konfigurirali dnevnice slijedite ove korake.
 
-1. Otvorite Parametri **upravljanja općim** \> **troškovima postave** \> **upravljanja** \> **troškovima.**
-2. Na kartici **Dnevnica** u **polju Izračunaj smanjenje obroka po** poljima odaberite način izračuna dnevnica:
+1. Otvorite **Upravljanje troškovima** \> **Postavljanje** \> **Općenito** \> **Parametri upravljanja troškovima**.
+2. Na kartici **Dnevnica**, u polju **Izračunaj smanjenje obroka za** odaberite kako bi se dnevnica trabala izračunati:
 
-    - **Vrsta obroka po putovanju** - Izračunajte dnevnice na temelju vrste obroka koji se unosi (doručak, ručak ili večera) i na smanjenju obroka koje je navedeno za svaku vrstu obroka za dnevnice za vrijeme trajanja putovanja.
-    - **Vrsta obroka po danu** - Izračunajte dnevnicu na temelju vrste obroka koji se unosi i smanjenja obroka koje je navedeno za svaku vrstu obroka za dnevnice dnevno.
-    - **Broj obroka dnevno** – Izračunajte dnevnicu na temelju broja obroka koji se unose dnevno i smanjenja obroka za broj obroka koji se pružaju svaki dan.
+    - **Vrsta obroka po putovanju** – izračunavajte dnevnice na temelju vrste obroka koji se unese (doručak, ručak ili večera) i prema umanjenju koje je navedeno za svaku vrstu obroka za iznos dnevnice za trajanje putovanja.
+    - **Vrsta obroka po danu** – izračunavajte dnevnice na temelju vrste obroka koji se unese i prema umanjenju koje je navedeno za svaku vrstu obroka za iznos dnevnice po danu.
+    - **Broj obroka po danu** – izračunajte dnevnicu na temelju broja obroka koji se unesu po danu i umenjenju obroka za broj obroka koji su osigurani svaki dan.
 
-3. Otvorite **Izračuni postave** \> **upravljanja troškovima** \> **i šifre** \> **Lokacije dnevnica.**
-4. Dodajte mjesta na kojima se mogu koristiti dnevnice.
-5. Za svaku lokaciju koju dodate **na** kartici Dnevnice odaberite stopu dnevnica i valutu koja vrijedi između određenih datuma početka i završetka smještaja, obroka i drugih troškova. Da biste konfigurirali stope dnevnica i valute, idite na **Izračuni postave** \> **upravljanja** \> **troškovima i šifre** \> **Dnevnice.**
+3. Idite na **Upravljanje troškovima** \> **Postavljanje** \> **Izračuni i šifre** \> **Lokacije za dnevnice**.
+4. Dodajte lokacije na kojima se dnevnice mogu iskoristiti.
+5. Za svaku lokaciju koju dodate na kartici **Dnevnice** odaberite cijenu dnevnice i valutu koji vrijede između određenog datuma početka i završetka za smještaj, obroke i ostale troškove. Za računanje stope dnevnica i valuta idite na **Upravljanje troškovima** \> **Postavljanje** \> **Izračuni i troškovi** \> **Dnevnice**.
 
-## <a name="per-diems-in-the-reimagined-expense-interface"></a>Dnevnice u ponovno osmišljenom sučelju troškova
+## <a name="per-diems-in-the-reimagined-expense-interface"></a>Dnevnice u izmijenjenom sučelju za troškove
 
-Značajka dnevnica podržana je u ponovno osmišljenom radnom prostoru upravljanja **troškovima** u Microsoft Dynamics 365 Finance verziji 10.0.25 i novijoj.
+Funkcija dnevnica podržana je u izmijenjenom radnom prostoru **Upravljanje troškovima** u prograu Microsoft Dynamics 365 Finance, verzija 10.0.25 i novije.
 
-Da biste omogućili dnevnice, slijedite ove korake.
+Da biste omogućili dnevnice slijedite ove korake.
 
-1. **U radnom prostoru za upravljanje** značajkama pronađite i odaberite **značajku Ponovno osmišljena** izvješća o troškovima na popisu, a zatim odaberite **Omogući odmah**.
-2. Pronađite i odaberite značajku ponovno zamišljenog **sučelja** za izvješće o troškovima na popisu, a zatim odaberite **Omogući sada**.
+1. U radnom prostoru **Upravljanje značajkama** pronađite na popisu i odaberite značajku **Izmijenjena izvješća o troškovima**, a zatim odaberite **Omogući sada**.
+2. Pronađite na popisu i omogućite značajku **Dnevnice za izmijenjeno sučelje izvješća o troškovima**, a zatim odaberite **Omogući sada**.
 
 ## <a name="how-the-feature-works"></a>Kako značajka funkcionira
 
-Ovaj odjeljak sadrži primjere za tri scenarija konfiguracije. Za svaki primjer polje **Izračunaj smanjenje obroka po postavljeno** je na drugu vrijednost. Za sva tri primjera, ukupan iznos koji se plaća je isti dok se ne primijeni smanjenje obroka. Nakon tog trenutka, ukupni iznos koji se plaća razlikuje se za svaki primjer.
+U ovom su odjeljku navedeni primjeri za tri scenarija konfiguracije. U svakom primjeru polje **Izračunaj smanjenje obroka za** postavljeno je na drugačiju vrijednost. U svakom od tri primjera ukupni iznos za plaćanje jednak je dok se ne primijeni umanjenje obroka. Nakon toga ukupni iznos za plaćanje razlikuje se za svaki primjer.
 
-Da biste stvorili trošak dnevnice koji se koristi za sva tri primjera, slijedite ove korake.
+Za stvaranje troška dnevnice koji je korišten u sva tri primjera pratite ove korake.
 
-1. Otvorite Upravljanje **troškovima** radnih \>**prostora**.
+1. Idite na **Radni prostori** \> **Upravljanje troškovima**.
 2. Odaberite **Novo izvješće o troškovima** ili odaberite postojeće izvješće o troškovima.
-3. Dodajte novi trošak. **U polju Kategorija** odaberite **Dnevnica**. Odaberite lokaciju te datume početka i završetka putovanja. Dnevnica za smještaj, obroke i slučajne troškove (ostali troškovi) izračunava se na temelju dnevne naknade koja je određena za odabranu lokaciju.
+3. Dodajte novi trošak. U polju **Kategorija** odaberite **Dnevnica**. Odaberite lokaciju te datume početka i završetka vašeg putovanja. Dnevnice za smještaj, obroke i usputne troškove (druge troškove) računaju se na temelju denvne naknade koja je postavljena za odabranu lokaciju.
 
-    Na primjer, kao lokaciju odabirete **Redmond (SAD**). Dnevnica za tu lokaciju iznosi 150 američkih dolara (150 USD) za smještaj, USD 75 za obroke i USD 5 za incidente. Datum početka je 10. siječnja, a datum završetka je 14. siječnja. Stoga je odabrano trajanje pet dana kada je odabrana konfiguracija kalendarski dani s vremenom, a odabrano vrijeme počinje i završava u 12:00 sati na datume početka i završetka. Evo izračuna:
+    Na primjer, kao lokaciju odaberite **Redmond (SAD)**. Dnevna naknada za tu lokaciju iznosi 150 USD za smještaj, 75 USD za obroke i 5 USD za usputne troškove. Datum početka je 10. siječnja, a datum završetka 14. siječnja. Prema tome odabrano trajanje iznosi pet dana kada odabrana konfiguracija predstavlja kalendarske dane s vremenom, a odabrano vrijeme započinje i završava u 12:00 sati na datume početka i završetka. Ovdje su prikazani izračuni:
 
-    - Ukupan iznos koji se plaća = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-    - Obrok i slučajni dio ukupnog iznosa = 5 × (75 + 5) = USD 400
+    - Ukupni iznos za plaćanje = 5 × (150 + 75 + 5) = 5 × 230 = 1150 USD
+    - Udio obroka i usputni troškova u ukupnom iznosu = 5 × (75 + 5) = 400 USD
 
-Ako su tijekom putovanja osigurani doručak, ručak i večera, ti se obroci moraju uzeti u obzir kao smanjenje obroka.
+Ako su doručak, ručak i večera osigurani tijekom putovanja, ti se obroci moraju obračunati kao umanjenje obroka.
 
-### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>Primjer 1: Dnevnica u kojoj se smanjenje obroka temelji na vrsti obroka po putovanju
+### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>Primjer 1: dnevnica u kojoj se umanjenje obroka temelji na vrsti obroka po putovanju
 
-U ovom primjeru smanjenje obroka je 30 posto za doručak, 30 posto za ručak i 40 posto za večeru. **Na stranici Parametri upravljanja troškovima** polje **Izračunaj smanjenje obroka po** poljem postavljeno je na **Vrsta obroka po putovanju**. Evo izračuna ako su zaposleniku osigurana tri doručka, dva ručka i nula večera:
+U ovom primjeru umanjenje obroka iznosi 30% za doručak, 30% za ručak i 40% za večeru. Na stranici **Parametri upravljanja troškovima** polje **Izračunaj smanjenje obroka za** postavljeno je na **Vrsta obroka po putovanju**. Evo izračuna ako su za zaposlenika osigurana tri doručka, dva ručka i nula večera:
 
-- Redukcija obroka = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = USD 112.50
-- Obroci i incidenti = 400 – 112,50 = USD 287.50
-- Ukupan iznos koji se plaća = Ukupna naknada – Smanjenje obroka = 1.150 – 112,50 = USD 1,037.50
+- Umanjenje obroka = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22.50) + (2 × 22.50) + 0 = 67.50 + 45 + 0 = 112,50 USD
+- Obroci i popratni troškovi = 400 - 112.50 = 287,50 USD
+- Ukupni iznos za plaćanje = ukupna naknada - umanjenje obroka = 1150 - 112,50 = 1037,50 USD
 
-![Trošak dnevnice gdje se smanjenje obroka temelji na vrsti obroka po putovanju.](media/1-meal-type-per-trip.png)
+![Trošak dnevnice u kojoj se umanjenje obroka temelji na vrsti obroka po putovanju.](media/1-meal-type-per-trip.png)
 
-### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Primjer 2: Dnevnica u kojoj se smanjenje obroka temelji na vrsti obroka dnevno
+### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Primjer 2: dnevnica u kojoj se umanjenje obroka temelji na vrsti obroka po danu
 
-U ovom primjeru smanjenje obroka je 30 posto za doručak, 30 posto za ručak i 40 posto za večeru. Na stranici **Parametri upravljanja troškovima** polje Izračunaj smanjenje obroka po postavljeno **je na** Vrsta obroka po danu **.** U tom slučaju u **rešetki Obroci** u **dijaloškom okviru Uređivanje troškova** poništite potvrdne okvire kako biste naznačili koji su vam obroci dostavljeni tijekom putovanja.
+U ovom primjeru umanjenje obroka iznosi 30% za doručak, 30% za ručak i 40% za večeru. Na stranici **Parametri upravljanja troškovima** polje **Izračunaj smanjenje obroka za** postavljeno je na **Vrsta obroka po danu**. U ovom slučaju u rešetki **Obroci** u dijaloškom okviru **Uredi troškove** izbrisat ćete potvrdne okvire da biste naveli koji su obroci osigurani tijekom putovanja.
 
-Na primjer, evo izračuna ako je doručak bio osiguran za prva tri dana putovanja:
+Na primjer, ovdje su izračuni za slučaj kada je doručak osiguran za prva tri dana putovanja:
 
-- Dnevno smanjenje obroka za svaki od prva tri dana = 75 × 30% = USD 22.50
-- Ukupno smanjenje obroka = 3 × 22,50 = USD 67.50
-- Obroci i incidenti za dane od 1 do 3 = 75 – 22,50 = USD 57.50
-- Ukupni obroci i incidenti = Zbroj obroka i incidenata tijekom pet dana = 400 – 67,50 = USD 332.50
-- Ukupan iznos koji se plaća = Ukupni iznos – Smanjenje obroka = 1.150 – 67,50 = USD 1,082.50
+- Dnevno umanjenje obroka za prva tri dana = 75 × 30% = 22,50 USD
+- Ukupno umanjenje obroka = 3 × 22,50 = 67,50 USD
+- Obroci i popratni troškovi za dane 1 do 3 = 75 - 22,50 = 57,50 USD
+- Ukupni obroci i popratni troškovi = zbroj obroka i popratnih troškova tijekom pet dana = 400 - 67,50 = 332,50 USD
+- Ukupni iznos za plaćanje = ukupni iznos - umanjenje obroka = 1150 - 67,50 = 1082,50 USD
 
-![Trošak dnevnice gdje se smanjenje obroka temelji na vrsti obroka dnevno.](media/2-meal-type-per-day.png)
+![Trošak dnevnice u kojoj se umanjenje obroka temelji na vrsti obroka po danu.](media/2-meal-type-per-day.png)
 
-### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>Primjer 3:Dnevnica u kojoj se smanjenje obroka temelji na broju obroka dnevno
+### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>Primjer 3: dnevnica u kojoj se umanjenje obroka temelji na broju obroka po danu
 
-U ovom se primjeru smanjenje obroka izračunava na temelju broja obroka koji su se pružali dnevno (to jest, **polje Izračunaj smanjenje obroka po** broju na **stranici Parametri upravljanja troškovima** postavljeno je na **Broj obroka dnevno**). U rešetki **Obroci** u **dijaloškom okviru Uređivanje troškova** poništite potvrdne okvire kako biste naznačili koji su obroci osigurani.
-U ovom slučaju, sniženje obroka temelji se samo na # dobivenih obroka, a ne na vrsti obroka ( Doručak/ručak/večera) koja se pruža.
+U ovom primjeru umanjenje obroka izračunava se na temelju broja obroka koji su osigurani po danu (tj. polje **Izračunaj smanjenje obroka za** na stranici **Parametri upravljanja troškovima** posteljeno je na **Broj obroka po danu**). U rešetki **Obroci** u dijaloškom okviru **Uredi troškove** izbrisat ćete potvrdne okvire da biste naveli koji su obroci osigurani.
+U ovom slučaju umanjenje obroka temelji se samo na broju osiguranih obroka, ne na vrsti osiguranog obroka (doručak/ručak/večera).
 
-Evo izračuna za dnevnice kada se dnevnica USD 150 za smještaj, USD 75 za obroke i USD 5 za slučajne slučajeve:
+Ovdje su izračuni za dnevnice kada dnevna naknada iznosi 150 USD za smještaj, 75 USD za oborke i 5 USD za popratne troškove:
 
-- **Ukupan iznos koji se** plaća = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-- **Jedan obrok:** Smanjenje obroka = 20% = USD 15
-- **Dva obroka:** Smanjenje obroka = 50% = USD 37.50
-- **Tri obroka:** Smanjenje obroka = 100% = USD 75
+- **Ukupni iznos za plaćanje** = 5 × (150 + 75 + 5) = 5 × 230 = 1150 USD
+- **Jedan obrok:** smanjenje obroka = 20% = 15 USD
+- **Dva obroka:** smanjenje obroka = 50% = 37,50 USD
+- **Tri obroka:** smanjenje obroka = 100% = 75 USD
 
-Evo izračuna za naknadu za **obroke i slučajne slučajeve**, koja uključuje USD 5 za slučajne slučajeve:
+Ovdje su izračuni za **naknadu za obroke i popratne troškove**, što uključuje iznos od 5 USD za popratne troškove:
 
-- 1. dan - Dva obroka = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
-- 2. dan - Dva obroka = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
-- 3. dan - Jedan obrok osiguran = (75 – 15) + 5 = 60 + 5 = USD 65
-- 4. dan - Nula obroka = (75-0) + 5 = 75 + 5 = USD 80
-- 5. dan - Osigurana tri obroka = (75 – 75) + 5 = 0 + 5 = USD 5
+- Dan 1 – osigurana dva obroka = (75 - 37,50) + 5 = 37,50 + 5 = 42,50 USD
+- Dan 2 – osigurana dva obroka = (75 - 37,50) + 5 = 37,50 + 5 = 42,50 USD
+- Dan 3 – osiguran jedan obrok = (75 - 15) + 5 = 60 + 5 = 65 USD
+- Dan 4 – osigurano nula obroka = (75 - 0) + 5 = 75 + 5 = 80 USD
+- Dan 5 – osigurana trei obroka = (75 - 75) + 5 = 0 + 5 = 5 USD
 
-- Ukupni obroci i incidenti = Obroci i incidenti za Dan 1+ Dan 2 +Dan 3+Dan 4+ Dan 5 = USD 235
-- Ukupno sniženje obroka = Sniženje obroka za Dan 1+ Dan 2 +Dan 3+Dan 4+ Dan 5= 37,5+ 37,5+ 15 + 0+ 75 = USD 165
-- Ukupan iznos koji se plaća = Ukupna naknada – Ukupno smanjenje obroka = USD 1,150 - USD 165 = USD 985
+- Ukupni obroci i popratni troškovi = obroci i popratni troškovi za Dan 1 + Dan 2 + Dan 3 + Dan 4 + Dan 5 = 235 USD
+- Ukupno smanjenje obroka = smanjenje obroka za Dan 1 + Dan 2 + Dan 3 + Dan 4+ Dan 5 = 37,5 + 37,5 + 15 + 0 + 75 = 165 USD
+- Ukupni iznos za plaćanje = ukupna naknada - ukupno umanjenje obroka = 1150 USD - 165 USD = 985 USD
 
-![Trošak dnevnice gdje se smanjenje obroka temelji na broju obroka dnevno.](media/3-number-of-meals-per-day.png)
+![Trošak dnevnice u kojoj se umanjenje obroka temelji na broju obroka po danu.](media/3-number-of-meals-per-day.png)
 
 > [!NOTE]
-> Od financijske verzije 10.0.23, ako koristite ponovno osmišljeno sučelje troškova, ne možete stvoriti troškove dnevnica koji imaju datume preklapanja. Ako pokušate, primit ćete poruku o pogrešci.
+> Od verzije Finance 10.0.23 ako koristite novoosmišljeno sučelje za troškove, ne možete stvarati troškove dnevnica koji imaju preklapajuće datume. Ako pokušate, dobit ćete poruku o pogrešci.

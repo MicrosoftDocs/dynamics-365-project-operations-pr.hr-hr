@@ -1,6 +1,6 @@
 ---
-title: Pogreška nepodudarnosti valute
-description: U ovom se članku nalaze informacije o otklanjanju poteškoća s pogreškom u nepodudarnosti valute do koje dolazi prilikom spremanja određenih vrsta zapisa.
+title: Pogreška nepodudaranja valute
+description: U ovom se članku navode informacije o rješavanju problema u vezi s pogreškom nepodudaranja valute koja se javlja kada spremite određene vrste zapisa.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.contentlocale: hr-HR
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8914715"
 ---
-# <a name="currency-mismatch-error"></a>Pogreška nepodudarnosti valute 
+# <a name="currency-mismatch-error"></a>Pogreška nepodudaranja valute 
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Kada spremite projekt, ugovor, ponudu ili resurs koji se može rezervirati, možda ćete primijetiti pogrešku, **Valuta vlasnika poduzeća ne odgovara valuti ugovorne jedinice. Za nastavak odaberite drugo poduzeće ili ugovornu jedinicu**. To je zato što postoji nepodudarnost valute između valute ugovorne jedinice za zapis i valute vlasničkog poduzeća.
+Kada spremite projekt, ugovor, ponudu ili resurs koji se može rezervirati, može vam se pojaviti pogreška **Valuta tvrtke vlasnice ne podudara se s valutom ugovorne jedinice. Odaberite drugu tvrtku vlasnicu ili ugovornu jedinicu da biste nastavili**. Uzrok te pogreške je neusklađenost valute između valute koju ugovorna jedinica upotrebljava za evidenciju i valute tvrtke vlasnice.
 
 
 ## <a name="resolution"></a>Rješenje
 
-Da biste zaobišli taj problem, učinite sljedeće:
-- Provjerite valutu ugovorne jedinice za ovaj zapis. Valutu možete vidjeti tako da otvorite zapis organizacijske jedinice i potvrdite vrijednost na **kartici Općenito** u **polju Valuta**.
-- Provjerite valutu vlastitog poduzeća. Valutu možete vidjeti tako da u zapisu poduzeća otvorite **Povezane** > **knjige**. Dvokliknite zapis analitike povezan s poduzećem i provjerite vrijednost na **kartici Općenito** u **polju Obračunska valuta**.
+Da biste zaobišli ovaj problem, učinite jedno od sljedećeg:
+- Provjerite valutu ugovorne jedinice za ovaj zapis. Valutu možete vidjeti otvaranjem zapisa organizacijske jedinice i provjerom vrijednosti na kartici **Općenito** u polju **Valuta**.
+- Potvrdite valutu tvrtke vlasnice. Valutu možete vidjeti tako da u evidenciji tvrtke odete na **Povezano** > **Glavne knjige**. Dvaput kliknite zapis glavne knjige koji je povezan s tvrtkom i potvrdite vrijednost na kartici **Općenito** u polju **Računovodstvena valuta**.
 
-Ako se valuta postavljena u ugovornoj jedinici i zapisu analitike ne podudaraju, prilagodite konfiguraciju ili odaberite različite vrijednosti prilikom spremanja zapisa. Sustav zahtijeva da se ti zapisi podudaraju kako bi se osigurali ispravni tokovi međukompanijskog fakturiranja. Dodatne informacije o međukompanijskim konfiguracijama potražite u članku [Stvaranje međukompanijskih](../../project-accounting/create-intercompany-transactions.md) transakcija.
+Ako se valuta postavljena za ugovornu jedinicu i zapis glavne knjige ne podudaraju, prilagodite konfiguraciju ili odaberite različite vrijednosti kada spremite zapis. Sustav zahtijeva podudaranje tih zapisa kako bi se osigurali ispravni tokovi fakturiranja među tvrtkama. Više informacija o konfiguracijama unutar tvrtke potražite u članku [Izrada transakcija unutar tvrtke](../../project-accounting/create-intercompany-transactions.md).
 
-Ako zapis o poduzeću nema pridruženi zapis o glavnoj knjizi, to znači da prilikom postavljanja okruženja nedostaje konfiguracija. Konfiguraciju mora ispraviti administrator sustava. Administrator sustava mora otići na **konfiguracije dvostrukog pisanja** i zaustaviti i ponovno pokrenuti **mapu dvostrukog pisanja** Ledgers s početnom sinkronizacijom ove karte i to su preduvjeti. Dodatne informacija potražite u odjeljku [Verzije karte s dvostrukim upisivanjem aplikacije Project Operations](../../environment/resource-dual-write-maps.md).
+Ako zapis tvrtke nema povezani zapis glavne knjige, to znači da je prilikom postavljanja okruženja nedostajala konfiguracija. Administrator sustava mora ispraviti konfiguraciju. Administrator sustava mora otići na **Konfiguracije dvostrukog zapisivanja** te zaustaviti i ponovno pokrenuti značajku **Karta dvojnog zapisivanja glavnih knjiga** s početnom sinkronizacijom ove karte i njezinim preduvjetima. Dodatne informacija potražite u odjeljku [Verzije karte s dvostrukim upisivanjem aplikacije Project Operations](../../environment/resource-dual-write-maps.md).

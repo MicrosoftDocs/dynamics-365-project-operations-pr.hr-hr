@@ -1,6 +1,6 @@
 ---
 title: Napredno sastavljanje ponuda, određivanje cijena i naplaćivanje
-description: U ovom se članku nalaze informacije o citiranju, naplati i cijenama u automatizaciji usluge Project Services.
+description: U ovom se članku navode informacije o sastavljanju ponuda, naplaćivanju i određivanju cijena u programu Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Novosti u valu 2 ranom pristupu u 2021. – osnovna implementacija aplikacije Project Operations
-description: U ovom se članku nalaze informacije o značajkama dostupnima u izdanju za rani pristup implementaciji lite programa Project Operations 2 2021. godine.
+description: U ovom članku nalaze se informacije o značajkama dostupnima u valu 2 ranog pristupa izdanja implementacije osnovne aplikacije Project Operations u 2021. godini.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924099"
 
 _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
   - Project Operations u verziji 4.23.0.4 okruženja platforme Dataverse
 

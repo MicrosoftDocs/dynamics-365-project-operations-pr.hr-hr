@@ -1,6 +1,6 @@
 ---
 title: Stvaranje novog projekta
-description: U ovom se članku nalaze informacije o stvaranju novog projekta.
+description: U ovom se članku navode informacije o načinu izrade novog projekta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

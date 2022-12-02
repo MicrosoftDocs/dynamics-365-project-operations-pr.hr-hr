@@ -1,6 +1,6 @@
 ---
 title: Pregled redaka ugovora koji se temelje na proizvodu – jednostavno
-description: U ovom se članku nalaze informacije o recima ugovora koji se temelje na proizvodu.
+description: Ovaj članak pruža informacije o redcima ugovora koji se temelje na proizvodu.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

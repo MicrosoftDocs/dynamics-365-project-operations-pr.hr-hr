@@ -1,6 +1,6 @@
 ---
 title: Procjena prodaje i troškova projekta kada resurs koji se može rezervirati ispunjava više uloga za projekt
-description: U ovom se članku navode informacije o tome kako se dimenzije određivanja cijena mogu koristiti za podršku određivanju cijena i troškovima resursa koji ispunjava više uloga u projektu.
+description: U ovom se članku navode informacije o načinu uporabe veličina za određivanje cijena za podršku određivanju cijena i troškova za resurs koji ispunjava više uloga u projektu.
 author: rumant
 ms.custom:
 - dyn365-projectservice

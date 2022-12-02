@@ -1,6 +1,6 @@
 ---
 title: Razumijevanje statusa projekta
-description: U ovom se članku nalaze informacije o statusu dodijeljenom projektima u sustavu Dynamics 365 Project Operations.
+description: U ovom članku nalaze se informacije o statusu dodijeljenom projektima u aplikaciji Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

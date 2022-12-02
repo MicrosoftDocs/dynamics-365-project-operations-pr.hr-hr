@@ -1,6 +1,6 @@
 ---
 title: Ažuriranje atributa programskih dodataka s pomoću novih veličina za određivanje cijena
-description: U ovom se članku nalaze informacije o ažuriranju atributa dodatka za dimenzije određivanja cijena.
+description: U ovom članku nalaze se informacije o načinu ažuriranja atributa programskih dodatka za veličine za određivanje cijena.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,13 +15,13 @@ ms.locfileid: "8920005"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Ažuriranje atributa programskih dodataka s pomoću novih veličina za određivanje cijena
 
-U ovom se članku nalaze informacije o ažuriranju atributa dodatka za dimenzije određivanja cijena.
+U ovom članku nalaze se informacije o načinu ažuriranja atributa programskih dodatka za veličine za određivanje cijena.
 
 > [!NOTE]
-> Ovaj se članak primjenjuje samo na ponudu i značajke ugovora u sustavu Dynamics 365 Project Operations.
+> Ovaj se članak primjenjuje samo na ponude i značajke ugovora u aplikaciji Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Preduvjeti
-Prije nego što dovršite korake u ovom članku, morate dovršiti postupke u sljedećim člancima:
+Prije nego što dovršite korake navedene u ovom članku, morate dovršiti postupke u sljedećim člancima:
 
   - [Stvaranje prilagođenih polja i entiteta](create-custom-fields-entities-pricing-dimensions.md) 
   - [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](add-custom-fields-price-setup-transactional-entities.md)

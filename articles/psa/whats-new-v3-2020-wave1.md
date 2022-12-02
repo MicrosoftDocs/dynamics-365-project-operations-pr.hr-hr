@@ -1,6 +1,6 @@
 ---
 title: Novosti ili promjene u aplikaciji Project Service Automation, verzija 3.x val 1 2020
-description: Ovaj članak sadrži informacije o tome što je novo i promijenjeno u programu Project Service Automation verzije 3 wave 1 2020.
+description: U ovom članku nalaze se informacije o novostima i izmjenama u aplikaciji Project Service Automation, verzija 3. val 1, 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928607"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-U članku se ističu ključna razmatranja nadogradnje pri prelasku na najnovije izdanje verzije Project Service Automation (PSA) verzije 3.x wave 1 2020.
+Ovaj članak ističe ključna razmatranja nadogradnje pri prelasku na najnovije izdanje aplikacije Project Service Automation (PSA), verzija 3.x, val 1, 2020.
 
 ## <a name="time-entry"></a>Unos vremena
 Prošireno je iskustvo unosa vremena kako bi se pružile mogućnosti produljenja unosa vremena u više scenarija klijenta. To uključuje mogućnost dodavanja vrsta unosa koji sada upravljaju određenim ponašanjem na temelju naziva sheme polja **Postavke vremenskog unosa**, prikazane kao **Vremenski izvor**. Novo rješenje, pod nazivom Vrijeme, Trošak, Određivanje statusa i Odobrenja (TESA) dodano je da podrži ovu funkciju.

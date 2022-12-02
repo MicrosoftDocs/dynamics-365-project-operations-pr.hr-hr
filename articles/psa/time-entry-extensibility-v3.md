@@ -1,6 +1,6 @@
 ---
 title: Prilagođeni tjedni unos vremena
-description: U ovom se članku nalaze informacije o implementaciji prilagođenih poslovnih pravila koja podržavaju praksu tvrtke ili ustanove.
+description: Ovaj članak pruža informacije o implementaciji prilagođenih poslovnih pravila koja podržavaju praksu tvrtke ili ustanove.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ U odjeljku **Dimenzije** sve dimenzije za koje se može unijeti vrijeme prikazuj
 - Vrsta
 - Status unosa
 
-U odjeljku **Dimenzije** nije moguće uređivanje unutar retka. Ovaj odjeljak temelji se na prikazu koji omogućuje dodavanje prilagođenih polja u rešetku tjednih vremenskih unosa. Informacije o dodavanju prilagođenih polja potražite u odjeljku "Proširivost" u nastavku ovog članka.
+U odjeljku **Dimenzije** nije moguće uređivanje unutar retka. Ovaj odjeljak temelji se na prikazu koji omogućuje dodavanje prilagođenih polja u rešetku tjednih vremenskih unosa. Više informacija o tome kako dodati prilagođena polja potražite u odjeljku „Proširivost” u nastavku ovog članka.
 
 ### <a name="duration"></a>Trajanje
 U odjeljku Trajanje dani u tjednu prikazuju se kao zaglavlja stupaca. Ovaj odjeljak omogućuje uređivanje u retku. Nakon stvaranja retka unosa vremena koji ima odgovarajuće dimenzije, korisnici mogu brzo unutar retka unijeti vrijeme koje su potrošili na te dimenzije.

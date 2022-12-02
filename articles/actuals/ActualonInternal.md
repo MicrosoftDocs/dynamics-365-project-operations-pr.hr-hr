@@ -1,6 +1,6 @@
 ---
-title: Stvarni učinak za interni projekt
-description: U ovom se članku navode informacije o utjecaju na tablicu Stvarne na različitim događajima za interni projekt u Microsoftu Dynamics 365 Project Operations.
+title: Utjecaj stvarnih podataka za interni projekt
+description: U ovom se članku navode informacije o utjecaju na tablicu Stvarni podaci u okviru različitih događaja za interni projekt u sustavu Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -20,19 +20,19 @@ ms.contentlocale: hr-HR
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921339"
 ---
-# <a name="actuals-impact-for-an-internal-project"></a>Stvarni učinak za interni projekt
+# <a name="actuals-impact-for-an-internal-project"></a>Utjecaj stvarnih podataka za interni projekt
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-U sljedećoj su tablici navedene stvarne vrijednosti različitih vrsta transakcija koje se kreiraju na različitim događajima u internom angažmanu projekta.
+Sljedeća tablica navodi stvarne podatke različitih vrsta transakcija izrađenih u okviru različitih događaja u internom projektnom angažmanu.
 
 | Događaj | Stvarna vrijednost troškova | Primjer |
 |---|---|---|
-| Vrijeme se stvara. | Nije primjenjivo | <p>Bob Kozack, iz američke organizacijske jedinice Fabrikam koja ima stopu troškova od 100 američkih dolara (100 USD) po satu, radi na projektu koji nosi naziv "Arm Installation at Adatum". Ovaj projekt mapiran je na način naplate fiksne cijene u retku ugovora. Evo oglednog vremenskog unosa Boba Kozaka:</p><p>Bob Kozack - 8 sati</p> |
-| Vrijeme se šalje. | Nije primjenjivo | Za stavku vremena kreira se redak temeljnice troškova. Zadana stopa troška unosi se u stavku temeljnice. |
-| Unos vremena se opoziva prije nego što bude odobren. | Nije primjenjivo | |
-| Vrijeme je odobreno. | Stvara se stvarni trošak. | <p>Stvoreno je novo stvarno:</p><ul><li>**Stvarni trošak:** Bob Kozack, 8 sati, USD 800</li></ul> |
-| Odobrenje vremena je otkazano. | <p>Status prilagodbe izvornog stvarnog troška obnavlja se u **Prilagođeno**.</p><p>Stvara se stvarni trošak storniranja koji ima status prilagodbe **nepravomoćno**.</p> | <p>Postojeća stvarna koja se ažurira:</p><ul><li>**Stvarni trošak:** Bob Kozack, 8 sati, USD 800, *Prilagođeno*</li></ul><p>Nova stvarna stvar stvorena za preokretanje prethodnog financijskog učinka:</p><ul><li>**Stvarni trošak:** Bob Kozack, (8 sati), (USD 800), *Nepravomoćno*</li></ul> |
-| Unos vremena opozvan je nakon što je odobren. | <p>Status prilagodbe izvornog stvarnog troška obnavlja se u **Prilagođeno**.</p><p>Stvara se stvarni trošak storniranja koji ima status prilagodbe **nepravomoćno**.</p> | <p>Postojeća stvarna koja se ažurira:</p><ul><li>**Stvarni trošak:** Bob Kozack, 8 sati, USD 800, *Prilagođeno*</li></ul><p>Nova stvarna stvar stvorena za preokretanje prethodnog financijskog učinka:</p><ul><li>**Stvarni trošak:** Bob Kozack, (8 sati), (USD 800), *Nepravomoćno*</li></ul> |
+| Izrađuje se stavka Vrijeme. | Nije primjenjivo | <p>Bob Kozack, iz organizacijske jedinice Fabrikam US koja ima stopu troška od 100 američkih dolara (100 USD) po satu, radi na projektu naziva "Ugradnja kraka u postrojenju Adatum". Za taj je projekt na retku ugovora određena metoda naplate s fiksnom cijenom. Ovo je primjer unosa vremena Boba Kozaka:</p><p>Bob Kozack – 8 sati</p> |
+| Vrijeme podneseno. | Nije primjenjivo | Redak u dnevniku troška izrađuje se za svaki unos vremena. Zadana stopa trošak unosi se u dnevnički unos. |
+| Unos vremena opozove se prije nego što se odobri. | Nije primjenjivo | |
+| Vrijeme je odobreno. | Izrađuje se stvarni podatak troška. | <p>Novi stvarni podatak koji je izrađen:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, 8 sati, 800 USD</li></ul> |
+| Odobrenje vremena je poništeno. | <p>Status prilagodbe stvarnog podatka troška ažurira se na **Prilagođeno**.</p><p>Izrađuje se stvarni podatak poništenog troška koji ima status prilagodbe **Nije moguće prilagoditi**.</p> | <p>Postojeći stvarni podatak koji se ažurira:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, 8 sati, 800 USD, *Prilagođeno*</li></ul><p>Novi stvarni podataka koji se izrađuje radi poništavanja prethodnog financijskog učinka:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, (8 sati), (800 USD), *Nije moguće prilagoditi*</li></ul> |
+| Unos vremena opozove se nakon što se odobri. | <p>Status prilagodbe stvarnog podatka troška ažurira se na **Prilagođeno**.</p><p>Izrađuje se stvarni podatak poništenog troška koji ima status prilagodbe **Nije moguće prilagoditi**.</p> | <p>Postojeći stvarni podatak koji se ažurira:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, 8 sati, 800 USD, *Prilagođeno*</li></ul><p>Novi stvarni podataka koji se izrađuje radi poništavanja prethodnog financijskog učinka:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, (8 sati), (800 USD), *Nije moguće prilagoditi*</li></ul> |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 42, V3
-description: U ovom se članku navode značajke i popravci dostupni u Microsoft Dynamics 365 Project Service Automation ažuriranju Izdanja 42, V3.
+description: U ovom članku navode se značajke i popravci koji su dostupni u aplikaciji Microsoft Dynamics 365 Project Service Automation, izdanje ažuriranja 42, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/05/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8912706"
 
 Zadovoljstvo nam je objaviti najnovije ažuriranje aplikacije Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Kompatibilno je sa sustavom Dynamics 365 9.x. Kako biste ažurirali na ovo izdanje, posjetite stranicu Centar za administratore za rješenja sustava Dynamics 365 na mreži i instalirajte ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za izdanje ažuriranja automatizacije usluge project servicea 42, V3. Ova verzija ima broj međuverzije V3.10.73.61 i uglavnom je dostupna putem samostalnog ažuriranja u travnju 2022. godine.
+U ovom članku navode se značajke i ispravci koji su novi ili izmijenjeni u aplikaciji Project Service Automation, izdanje ažuriranja 42, V3. Ova verzija ima broj međuverzije V3.10.73.61 i uglavnom je dostupna putem samostalnog ažuriranja u travnju 2022. godine.
 
 ## <a name="update-release-42"></a>Izdanje ažuriranja 42
 
@@ -39,10 +39,10 @@ Popravljeni su sljedeći problemi.
 
 **Vrijeme i trošak**
 
-- Kada se vremenski list odbije, korisnik koji ga je odbio pogrešno je identificiran kao **Sustav**.
-- Prilikom uvoza **stavki vremena nedostaje vrijednost Kategorija** resursa.
-- Odobravatelji projekata mogu odobriti prijavljene projekte kada njihove dozvole nisu posebno postavljene na **Može odobriti**.
+- Kada se vremenski list odbije, korisnik koji ga je odbio pogrešno se identificira kao **Sustav**.
+- Kada su unosi vremena uvezeni, nedostaje vrijednost **Kategorija resursa**.
+- Odobravatelji projekata mogu odobriti podnesene projekte kada njihova dopuštenja nisu posebno postavljena na **Može odobriti**.
 
 **Prodaje**
 
-- Kada se stvarni podaci evidentiraju na zadacima koji nisu korijenske razine, stvarni troškovi pogrešno se zbrajaju.
+- Kada se stvarne vrijednosti bilježe u zadacima na nekorijenskoj razini, stvarni troškovi netočno se zbrajaju.

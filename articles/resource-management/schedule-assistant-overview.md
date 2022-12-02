@@ -1,6 +1,6 @@
 ---
 title: Pregled pomoćnika za raspored
-description: U ovom se članku nalaze informacije o radu s pomoćnikom za planiranje rasporeda za rezervaciju resursa.
+description: U ovom se članku nalaze informacije o radu s pomoćnikom za raspored za rezerviranje resursa.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

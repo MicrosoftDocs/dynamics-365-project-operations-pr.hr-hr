@@ -1,6 +1,6 @@
 ---
 title: Osnovni koncepti
-description: U ovom se članku nalaze informacije o ključnim konceptima za upravljanje resursima u automatizaciji project usluga.
+description: Ovaj članak pruža informacije o ključnim konceptima za upravljanje resursima u aplikaciji Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

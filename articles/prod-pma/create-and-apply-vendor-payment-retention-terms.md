@@ -1,6 +1,6 @@
 ---
 title: Stvaranje i primjena uvjeta zadržanog plaćanja dobavljaču
-description: U ovom se članku nalaze informacije o postavljanju i održavanju uvjeta zadržavanja za plaćanja dobavljačima.
+description: U ovom se članku navode informacije o načinu postavljanja i održavanja uvjeta zadržavanja za plaćanja dobavljaču.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

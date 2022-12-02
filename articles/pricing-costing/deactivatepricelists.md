@@ -1,6 +1,6 @@
 ---
 title: Deaktiviranje cjenika
-description: U ovom se članku objašnjava kako deaktivirati ili ukloniti nekorištene ili stare cjenike.
+description: U ovom se članku objašnjava kako deaktivirati ili ukloniti neupotrijebljene ili stare cjenike.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 33, V3
-description: U ovom se članku navode značajke i popravci dostupni u ažuriranju ažuriranja automatizacije usluge project servicea 33, V3.
+description: Ovaj članak navodi značajke i ispravke dostupne u aplikaciji Project Service Automation, izdanje ažuriranja 33, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/30/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8915407"
 
 Zadovoljstvo nam je objaviti najnovije ažuriranje aplikacije Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Kompatibilno je sa sustavom Dynamics 365 9.x. Kako biste ažurirali na ovo izdanje, posjetite stranicu Centar za administratore za rješenja sustava Dynamics 365 na mreži i instalirajte ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za automatizaciju usluga projekta V3, Ažuriraj izdanje 33. Ova verzija ima broj izdanja V3.10.54.98 i općenito je dostupna putem samostalnog ažuriranja u srpnju 2021. godine.
+U ovom članku navode se značajke i ispravci koji su novi ili izmijenjeni u aplikaciji Project Service Automation V3, izdanje ažuriranja 33. Ova verzija ima broj izdanja V3.10.54.98 i općenito je dostupna putem samostalnog ažuriranja u srpnju 2021. godine.
 
 ## <a name="update-release-33"></a>Izdanje ažuriranja 33
 

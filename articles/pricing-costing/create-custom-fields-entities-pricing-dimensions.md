@@ -1,6 +1,6 @@
 ---
 title: Stvaranje prilagođenih polja i entitete kao cjenovnih veličina
-description: U ovom se članku nalaze informacije o stvaranju prilagođenih skupova mogućnosti ili entiteta.
+description: U ovom se članku navode informacije o načinu izrade prilagođenih skupova mogućnosti ili entiteta.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

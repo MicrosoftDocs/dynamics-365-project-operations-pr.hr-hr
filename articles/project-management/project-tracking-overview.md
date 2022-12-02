@@ -1,6 +1,6 @@
 ---
 title: Praćenje rada na projektu
-description: Ovaj članak sadrži informacije o tome kako pratiti trud projekta i napredak rada.
+description: U ovom članku nalaze se informacije o načinu praćenja rada na projektu i napretka posla.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929251"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Potreba praćenja napretka u odnosu na raspored razlikuje se ovisno o djelatnosti. Neke djelatnosti napredak prate na razini pojedinosti, dok ga druge prate na višoj razini. U ovom se članku opisuje kako planirati kako biste ispunili zahtjeve svoje tvrtke ili ustanove.
+Potreba praćenja napretka u odnosu na raspored razlikuje se ovisno o djelatnosti. Neke djelatnosti napredak prate na razini pojedinosti, dok ga druge prate na višoj razini. Ovaj članak pokazuje kako postaviti raspored da biste ispunili zahtjeve tvrtke ili ustanove.
 
 ## <a name="effort-tracking-view"></a>Prikaz praćenja rada
 
@@ -45,8 +45,8 @@ Rad na zadacima sažetka ili zadacima spremnika može se ponovno predvidjeti. Vo
 - Izračunava se novi EAC za svaki od pojedinačnih zadataka lisnih čvorova. 
 - Preostali rad i postotak napretka zahvaćenih podređenih zadataka niz lisne čvorove ponovno se izračunavaju na temelju vrijednosti EAC-a. To rezultira novim predviđanjem za odstupanje rada zadatka. 
 - Ponovno se izračunavaju EAC-ovi zadataka sažetka sve do korijenskog čvora.
-- Odobreni napor na sažetom zadatku zbroj je odobrenih napora na svim podređenim zadacima plus odobreni napor na sažetom zadatku.
-- Preostali napor na sažetom zadatku zbroj je preostalog napora na svim podređenim zadacima umanjen za odobreni napor na sažetom zadatku.
+- Odobreni napor na sažetom zadatku zbroj je odobrenog truda na svim podređenim zadacima plus odobreni napor na sažetom zadatku.
+- Preostali napor na sažetom zadatku zbroj je preostalog truda na svim podređenim zadacima minus odobreni napor na sažetom zadatku.
 
 ## <a name="project-status-summary"></a>Sažetak statusa projekta
 

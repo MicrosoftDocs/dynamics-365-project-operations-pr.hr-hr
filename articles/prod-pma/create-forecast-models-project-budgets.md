@@ -1,6 +1,6 @@
 ---
 title: Stvaranje modela predviđanja za proračune projekata
-description: U ovom se članku opisuje kako stvoriti model predviđanja za preostale proračune.
+description: U ovom se članku opisuje način izrade modela predviđanja za proračunske iznose koji su preostali.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8916693"
 
 [!include [banner](../includes/banner.md)]
 
-U ovom se članku opisuje kako stvoriti model predviđanja za preostale proračune. U projektu koji je podložan kontroli proračuna upotrebljavaju se dvije vrste proračuna: izvorni i preostali. Kada stvarate proračun projekta, morate navesti modele predviđanja izvornog i preostalog proračuna koji su stvoreni na stranici **Modeli predviđanja**. Proračuni projekta na temelju navedenih modela stvaraju se kada napravite proračun projekta.
+U ovom se članku opisuje način izrade modela predviđanja za proračunske iznose koji su preostali. U projektu koji je podložan kontroli proračuna upotrebljavaju se dvije vrste proračuna: izvorni i preostali. Kada stvarate proračun projekta, morate navesti modele predviđanja izvornog i preostalog proračuna koji su stvoreni na stranici **Modeli predviđanja**. Proračuni projekta na temelju navedenih modela stvaraju se kada napravite proračun projekta.
 
 > [!NOTE]
 > Model predviđanja koji se upotrebljava za kontrolu proračuna ne može imati podmodel niti se može upotrebljavati kao podmodel.

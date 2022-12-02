@@ -1,6 +1,6 @@
 ---
 title: Početna stranica Sastavljanje ponuda, određivanje cijena i naplata
-description: U ovom se članku nalaze informacije o citiranju, određivanju cijena i naplati.
+description: Ovaj članak pruža informacije o sastavljanju ponuda, određivanju cijena i naplati.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926721"
 
 Sastavljanje ponuda, određivanje cijena i naplata značajke su koje koriste male i velike tvrtke ili ustanove. Razumijevanjem načina na koji te značajke funkcioniraju u aplikaciji, tvrtke ili ustanove mogu jednostavnije prilagoditi konfiguracije.
 
-Sljedeći članci pružaju više informacija o funkcijama citiranja, određivanja cijena i naplate u PSA:
+Sljedeći članci pružaju više informacija o funkciji sastavljanja ponuda, određivanja cijena i naplate u PSA-u:
 
 - [Prodajni postupak](basic-sales-process.md)
 - [Reci ponude](basic-quote-lines.md)

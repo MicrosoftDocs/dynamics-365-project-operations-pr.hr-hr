@@ -1,6 +1,6 @@
 ---
 title: Usklađivanje rezervacija i dodjela
-description: U ovom se članku nalaze informacije o stvarnim stvarima.
+description: Ovaj članak pruža informacije o stvarnim podacima.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

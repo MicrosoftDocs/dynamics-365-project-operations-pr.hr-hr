@@ -1,6 +1,6 @@
 ---
 title: Osnovni vodič za sastavljanje ponuda, određivanje cijena i naplatu
-description: U ovom se članku nalaze veze na informacije o osnovnom citiranju, određivanju cijena i naplati u programu Project Service Automation.
+description: U ovom se članku navode veze do informacija o osnovnim ponudama, određivanju cijena i naplati u sustavu Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice

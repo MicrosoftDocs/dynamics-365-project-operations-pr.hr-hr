@@ -1,6 +1,6 @@
 ---
 title: Projekti s procjenom prihoda od fiksne cijene
-description: U ovom se članku nalaze informacije o prihodima od fiksnih cijena u projektima.
+description: U ovom članku nalaze se informacije o prihodu od projekta s fiksnom cijenom.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -26,7 +26,7 @@ Kada stvarate redak ugovora o projektu sa sljedećim atributima u aplikaciji Dyn
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Pregled projekata s procjenom prihoda od fiksne cijene
 Kako biste pregledali projekte s procjenom prihoda od fiksne cijene, poduzmite sljedeće korake:
 
-1. U Dynamics 365 Finance okruženju idite na **Projekti upravljanja projektima i računovodstvu** > **Projekti** > **Fiksne cijene procjena projekata**.
+1. U okruženju aplikacije Dynamics 365 Finance idite na **Upravljanje projektima i računovodstvo** > **Projekti** > **Projekti s procjenom prihoda od fiksne cijene**.
 2. Odaberite projekt koji želite pogledati i dvaput kliknite na stavku **ID procjene projekta** kako biste otvorili zapisnik i pregledati pojedinosti projekta.
 3. Proširite karticu **Projekt**. Vidjet ćete jedan projekt u rešetki **Odabrani projekti**. Sustav to upotrebljava kao zadani projekt jer je to projekt povezan s retkom ugovora o projektu. 
 4. Kako biste promijenili povezanost, odaberite dodatne projekte i dodajte ih rešetki **Odabrani projekti**. Ako je u ovoj rešetki odabrano više projekata, postotak dovršenosti projekta i procjene prihoda izračunavaju se zajedno za sve odabrane projekte.

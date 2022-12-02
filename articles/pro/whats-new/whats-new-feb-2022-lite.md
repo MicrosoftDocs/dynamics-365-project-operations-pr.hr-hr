@@ -1,6 +1,6 @@
 ---
 title: Novosti u veljači 2022. – osnovna implementacija aplikacije Project Operations
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete koja su dostupna u izdanju implementacije lite programa Project Operations u veljači 2022.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju osnovne implementacije aplikacije Project Operations za veljaču 2022.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "8922811"
 
 _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
-Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Operacije projekta u verziji okruženja Dataverse 4.28.0.120
+- Project Operations u okruženju platforme Dataverse verzije 4.28.0.120
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
@@ -30,10 +30,10 @@ Od ovog izdanja možete dodati do 300 članova tima u jedan projekt. Ranije je o
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |
-| Naplata i određivanje cijene | 2497369 | Korekcija materijala mora slijediti vrijednost datuma u parametrima **Ispravak**. |
-| Naplata i određivanje cijene | 2498697 | Poboljšana je konfiguracija sigurnosti za **opoziv** unosa vremena. |
-| Naplata i određivanje cijene | 2517455 | Ne **smije se dopustiti da se akcija transakcija osvježenog retka fakture** pokreće više puta istovremeno za istu fakturu. |
-| Naplata i određivanje cijene | 2517465 | Akcija Deaktiviraj detalje retka **fakture** blokirana je jer nije podržana. |
-| Naplata i određivanje cijene | 2556660 | Fiksne su provjere efektivnosti datuma izvršene na cjeniku koji je priložen zapisu parametara projekta. |
-|   Upravljanje prilikama | 2369202 | Ispravljena je poslovna logika kojom se provjerava mogu li se cjenici koji imaju preklapajuće datume efektivnosti priložiti istom ugovoru o projektu. |
-|   Upravljanje prilikama | 2385965 | Ispravljeno je ponašanje na kartici Kupci **na** stranici Ugovor **o** projektu kada odaberete **Spremi i zatvori**. |
+| Naplata i određivanje cijene | 2497369 | Ispravak materijala mora slijediti vrijednost datuma u parametrima **Ispravak**. |
+| Naplata i određivanje cijene | 2498697 | Poboljšana sigurnosna konfiguracija za **Podsjećanje na unos vremena**. |
+| Naplata i određivanje cijene | 2517455 | Radnja **Osvježene transakcije retka fakture** ne smije se pokretati više puta istovremeno za istu fakturu. |
+| Naplata i određivanje cijene | 2517465 | Radnja **Deaktiviraj pojedinosti retka fakture** bokirana je jer nije podržana. |
+| Naplata i određivanje cijene | 2556660 | Ispravljene su provjere datumske učinkovitosti koje se provode na cjeniku koji je priložen uz zapis parametara projekta. |
+|   Upravljanje prilikama | 2369202 | Ispravljena je poslovna logika koja potvrđuje da se cjenici koji imaju preklapajuće datume stupanja na snagu mogu priložiti istom projektnom ugovoru. |
+|   Upravljanje prilikama | 2385965 | Ispravljeno ponašanje u kartici **Kupci** na stranici **Ugovor o projektu** kada odaberete **Spremi i zatvori**. |

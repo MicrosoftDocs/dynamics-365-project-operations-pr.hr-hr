@@ -1,6 +1,6 @@
 ---
 title: Stvaranje procjena po retku ponude
-description: U ovom se članku navode informacije o stvaranju procjene u retku ponude za projekt.
+description: U ovom se članku navode informacije o načinu stvaranja procjene na retku ponude za projekt.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

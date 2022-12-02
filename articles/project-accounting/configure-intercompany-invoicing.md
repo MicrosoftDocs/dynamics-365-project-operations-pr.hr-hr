@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje fakturiranja unutar tvrtke
-description: U ovom se članku navode informacije i primjeri o konfiguriranju međukompanijskog fakturiranja za projekte.
+description: U ovom se članku navode informacije i primjeri o načinu konfiguriranja fakturiranja projekata unutar tvrtke.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ U sljedećem primjeru, Contoso Robotics USA (USPM) pravna je osoba koja se zadu�
 
 1. **Konfiguriraj računovodstvo između pravnih osoba unutar tvrtke**. Svaki par pravnih osoba koje se nalaze u ulozi dužnika i kreditora mora se konfigurirati na stranici Glavne knjige [Računovodstvo između pravnih osoba unutar tvrtke](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. U Dynamics 365 Finance idite na **Postava** > **knjiženja glavne knjige** > **Međukompanijsko računovodstvo**. Stvorite zapis koji ima sljedeće podatke:
+    1. U aplikaciji Dynamics 365 Finance idite na **Glavna knjiga** > **Postavljanje knjiženja** > **Računovodstvo između pravnih osoba unutar tvrtke**. Stvorite zapis koji ima sljedeće podatke:
 
         - **Tvrtka izvora** = **GBPM**
         - **Tvrtka odredišta** = **USPM**

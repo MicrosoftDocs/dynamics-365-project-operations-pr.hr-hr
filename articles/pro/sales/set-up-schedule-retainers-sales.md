@@ -1,6 +1,6 @@
 ---
 title: Postavljanje rasporeda akontacija
-description: U ovom se članku nalaze informacije o postavljanju rasporeda zadržavanja u operacijama projekta Project Operations.
+description: U ovom članku nalaze se informacije o načinu postavljanja rasporeda akontacija u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

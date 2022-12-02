@@ -1,6 +1,6 @@
 ---
 title: Instalacija uzorka podataka
-description: U ovom se članku nalaze informacije o instaliranju oglednih podataka u automatizaciji usluge Project Services.
+description: U ovom se članku navode informacije o načinu instaliranju uzoraka podataka u aplikaciju Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

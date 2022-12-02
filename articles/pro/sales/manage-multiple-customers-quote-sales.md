@@ -1,6 +1,6 @@
 ---
 title: Upravljanje s više klijenata u projektnim ponudama – jednostavno
-description: Ovaj članak pruža informacije o radu na ponudama s više kupaca koji će financirati projekt. (Sales)
+description: U ovom se članku navode informacije o radu s ponudama s više klijenata koji će financirati projekt. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

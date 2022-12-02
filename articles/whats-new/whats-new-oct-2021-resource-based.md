@@ -1,6 +1,6 @@
 ---
 title: Novosti u listopadu 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete dostupnima u izdanju projektnih operacija u listopadu 2021. za scenarije koji se temelje na resursima/neutemeljenim izvorima.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Project Operations za listopada 2021. za scenarije koji se temelje na resursu / bez zaliha.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914628"
 
 *Odnosi se na: Project Operations za scenarije temeljene na resursu / bez zaliha*
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
    - Project Operations u okruženju platforme Microsoft Dataverse verzije 4.25.0.91
-   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.21
+   - Upravljanje projektima i računovodstvo u verziji 10.0.21 okruženja aplikacije Dynamics 365 Finance
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
@@ -49,7 +49,7 @@ Ako naiđete na problem pri pokretanju karte, slijedite upute u odjeljku [Proble
 | Naplata i određivanje cijene | 2338357 | Valutu u zapisa o uporabi materijala obvezno zadaje valuta projekta kada se odabere projekt. |
 | Vrijeme i trošak | 2414777 | Mora se omogućiti otkazivanje odobrenja ako unos troška ili vremena ima više od jednog povezanog odobrenja za projekt. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u aplikaciji Dynamics 365 Finance
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |

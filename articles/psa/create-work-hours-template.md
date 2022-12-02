@@ -1,6 +1,6 @@
 ---
 title: Stvaranje predloška radnog vremena
-description: U ovom se članku opisuje kako stvoriti predložak radnog vremena u programu Project Service.
+description: U ovom se članku opisuje način izrade predloška radnog vremena u aplikaciji Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

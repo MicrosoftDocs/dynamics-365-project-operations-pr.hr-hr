@@ -1,6 +1,6 @@
 ---
 title: Promjenjivo rezerviranje resursa
-description: Ovaj članak pruža informacije o tome kako uvjetno zakazati ili članove tima projekta soft book.
+description: U ovom se članku navode informacije o tome kako uvjetno planirati ili rezervirati bez potvrde članove projektnog tima.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Vodič za upravljanje resursima
-description: U ovom se članku nalaze veze na informacije o upravljanju resursima u automatizaciji programa Project Service
+description: U ovom članku nalaze se veze do informacija o upravljanju resursima u aplikaciji Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Postavljanje i uporaba plaćanja dobavljača po načelu „plati kad bude plaćeno”
-description: U ovom se članku objašnjava kako kreirati uvjete plaćanja po plaćanju (PWP) da biste mogli pustiti djelomična plaćanja dobavljača na temelju plaćanja kupaca.
+description: U ovom članku objašnjava se način stvaranja uvjeta plaćanja „plati kad bude plaćeno” (PWP, pay-when-paid) tako da dobavljaču možete djelomična pustiti plaćanje na temelju uplate klijenta.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

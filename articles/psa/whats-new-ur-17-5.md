@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 17.5, hitni popravak, V3
-description: U ovom se članku navode značajke i popravci dostupni u ažuriranju ažuriranja automatizacije usluga programa Project Service 17.5, V3.
+description: Ovaj članak navodi značajke i ispravke dostupne u aplikaciji Project Service Automation, izdanje ažuriranja 17.5, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8926445"
 
 Zadovoljstvo nam je najaviti najnovije ažuriranje aplikacije Project Service Automation za sustav Dynamics 365. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti.  Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x. Kako biste ažurirali ovo izdanje, posjetite stranicu Centra za administratore za sustav Dynamics 365 s rješenjima na mreži, kako biste instalirali ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za V3, Ažuriraj izdanje 17.5. Ova verzija ima broj međuverzije V3.10.7.32 i općenito je dostupna putem samostalnog ažuriranja iz ožujka 2020.
+Ovaj članak navodi značajke i ispravke koje su novi ili izmijenjeni u aplikaciji V3, izdanje ažuriranja 17.5. Ova verzija ima broj međuverzije V3.10.7.32 i općenito je dostupna putem samostalnog ažuriranja iz ožujka 2020.
 
 
 ## <a name="update-release-175"></a>Izdanje ažuriranja 17.5

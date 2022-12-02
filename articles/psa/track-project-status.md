@@ -37,7 +37,7 @@ Kako aktivnost napreduje tako se faze projekta ažuriraju kako bi odražavale fa
 | Zadatak | Opis | 
 |------------|----------|
 | **New** | Kada stvorite projekt, faza je postavljena na **Novo**. Ako ste projekt stvorili iz predloška, u ovoj fazi projekt možda ima raspored, procjene i podatke o timu. U suprotnom, imat ćete strukturu projekta i morat ćete ručno unijeti ostale komponente projekta. |
-| **Ponuda** |  Kada projekt povežete s ponudom ili ga stvorite iz ponude, faza projekta postavljena je na **Ponuda**, a ažuriraju se i procijenjeni datumi početka i završetka. Kada je projekt u fazi ponude, detalji o ponudi prikazuju se na kartici **Prodaja** na stranici **Projekt**. |
+| **Ponuda** |  Kada projekt pridružujete ponudi ili ga stvarate iz ponude, faza projekta postavljena je na **Ponuda**, a procijenjeni datumi početka i završetka također se ažuriraju. Kada je projekt u fazi ponude, detalji o ponudi prikazuju se na kartici **Prodaja** na stranici **Projekt**. |
 | **Plan** |  Kada osvojite ponudu povezanu s projektom i kada aktivnost napreduje do faze ugovora, faza projekta ažurira se na **Plan**. Detalji o ugovoru prikazuju se na kartici **Prodaja** na stranici **Projekt**. |
 | **Dovrši** | Nakon dovršetka projekta možete prebaciti fazu na **Dovršeno**. Kada je faza projekta postavljena na dovršeno, podrazumijeva se da je posao 100% dovršen, ali je projekt još uvijek otvoren za vrijeme na čekanju ili stavke troškova koje treba zabilježiti. |
 | **Zatvori** | Kada zabilježite sve transakcije na projektu i ne očekujete daljnje transakcije, možete fazu ručno postaviti na **Zatvoreno**. Kada je projekt postavljen na **Zatvoreno**, više ne možete bilježiti transakcije na projektu i projekt će biti samo za čitanje. |

@@ -1,6 +1,6 @@
 ---
 title: Putni nalozi
-description: Ovaj članak pruža informacije o zahtjevima za putovanja.
+description: U ovom članku nalaze se informacije o putnim nalozima.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

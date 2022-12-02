@@ -1,6 +1,6 @@
 ---
 title: Unos izdatka (jednostavno)
-description: U ovom se članku nalaze informacije o tome kako raditi s unosom troškova u lite implementaciji.
+description: U ovom se članku navode informacije o načinu unosa troška u jednostavnoj implementaciji.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

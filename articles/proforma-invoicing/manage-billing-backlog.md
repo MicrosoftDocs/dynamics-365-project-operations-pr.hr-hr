@@ -1,6 +1,6 @@
 ---
 title: Upravljanje zaostalim naplatama
-description: U ovom se članku nalaze informacije o prikazu zaostataka u naplati i radu s njima u operacijama projekta.
+description: U ovom se članku navode informacije o načinu prikaza zaostalih naplata i rada s njima u aplikaciji Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

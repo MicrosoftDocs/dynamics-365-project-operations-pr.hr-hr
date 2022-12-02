@@ -1,6 +1,6 @@
 ---
 title: Slanje zahtjeva za resurs
-description: U ovom se članku nalaze informacije o slanju zahtjeva za resurs projekta.
+description: Ovaj članak pruža informacije o slanju zahtjeva za resurs projekta.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

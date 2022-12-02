@@ -1,6 +1,6 @@
 ---
 title: Bilježenje utrošenog materijala na projektima i projektnim zadacima
-description: U ovom se članku navode informacije o tome kako zabilježiti upotrebu materijala u odnosu na projekte i projektne zadatke.
+description: U ovom se članku navode informacije o načinu bilježenja utrošenog materijala na projektima i projektnim zadacima.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

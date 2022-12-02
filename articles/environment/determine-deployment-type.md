@@ -1,6 +1,6 @@
 ---
 title: Odredite vrstu implementacije
-description: U ovom se članku nalaze informacije koje će vam pomoći u određivanju ispravne vrste implementacije operacija projekta za vašu tvrtku.
+description: U ovom se članku navode informacije koje vam pomažu u određivanju ispravne vrste implementacije aplikacije Project Operations za vašu tvrtku.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Postojeći klijenti sustava Dynamics upotrebljavaju aplikaciju Dynamics 365 Project Service Automation
 Project Operations uključuje mogućnosti isporučene uz uslugu Project Service Automation. Putanja nadogradnje objavit će se za te klijente u valu 1 izdanja za 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Postojeći korisnici Dynamics 365 Finance koji koriste upravljanje projektima i računovodstvo 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Postojeći klijenti aplikacije Dynamics 365 Finance koji upotrebljavaju Upravljanje projektom i računovodstvo 
 
 Postojeći klijenti aplikacije Finance koji upotrebljavaju funkciju Upravljanje projektom i računovodstvo mogu je i dalje upotrebljavati takvu kakva jest. Pogledajte [Project Operations za scenarije sa zalihama / radnim nalozima](#pma).
 

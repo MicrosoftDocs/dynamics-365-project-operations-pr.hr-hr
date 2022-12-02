@@ -1,6 +1,6 @@
 ---
 title: Sinkroniziranje kapaciteta resursa
-description: U ovom se članku nalaze informacije o sinkronizaciji kapaciteta resursa u svim kalendarima i projektima.
+description: U ovom članku nalaze se informacije o načinu sinkronizacije kapaciteta resursa u kalendarima i projektima.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

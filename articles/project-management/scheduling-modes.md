@@ -1,6 +1,6 @@
 ---
 title: Načini planiranja
-description: U ovom se članku nalaze informacije o načinima zakazivanja.
+description: U ovom se članku nalaze informacije o načinima planiranja.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Kada definirate način planiranja projekta, postavljate jednu od ovih vrijednost
 | Zadatak nepromjenjivog napora    | Trajanje se preračunava. | Jedinice se preračunavaju.    | Trajanje se preračunava. |
 | Zadatak nepromjenjivog trajanja  | Napor se preračunava.   | Napor se preračunava.    | Jedinice se preračunavaju.   |
 
-Dodatne informacije o implikacijama određenog načina potražite u članku [Promjena vrste zadatka za preciznije planiranje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). U članku se umjesto **truda koristi izraz** Rad **·**.
+Dodatne informacije o implikacijama određenog načina potražite u članku [Promjena vrste zadatka za preciznije planiranje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). U članku se pojam **Rad** upotrebljava umjesto pojma **Napor**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Promjena načina planiranja u tvrtki ili ustanovi
 

@@ -1,6 +1,6 @@
 ---
 title: Upravljanje cjenicima za projekt u ugovorima o projektu
-description: U ovom se članku nalaze informacije o upravljanju cjenicima projekta na projektnim ugovorima.
+description: U ovom se članku navode informacije o upravljanju cjenicima za projekt u ugovorima o projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Ažuriranje atributa dodatka za uključivanje novih dimenzija cijena
-description: U ovom se članku nalaze informacije o ažuriranju atributa dodatka za dimenzije određivanja cijena.
+description: Ovaj članak pruža informacije o ažuriranju atributa dodatka za dimenzije cijena.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913197"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Ako ne koristite značajke citiranja i ugovaranja automatizacije projektnih usluga (PSA), možete preskočiti ovaj članak.
+> Ako ne upotrebljavate značajke sastavljanja ponuda i ugovora u programu Project Service Automation (PSA), možete preskočiti ovaj članak.
 
-U ovom se članku pretpostavlja da ste dovršili postupke u člancima, [Kreirajte prilagođena polja i entitete](create-custom-fields-entities.md), [Dodajte prilagođena polja postavi cijena i entitetima](field-references.md) transakcija te [Postavite prilagođena polja kao dimenzije cijena](set-up-pricing-dimensions.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovaj članak.
+Ovaj članak podrazumijeva da ste dovršili postupke opisane u člancima [Izrada prilagođenih polja i entiteta](create-custom-fields-entities.md), [Dodavanje prilagođenih polja postavljanju cijena i transakcijskim entitetima](field-references.md) i [Postavljanje prilagođenih polja kao dimenzija cijena](set-up-pricing-dimensions.md). Ako niste dovršili te postupke, vratite se i dovršite ih, a zatim se vratite na ovaj članak.
 
 Kada se pojedinost retka ponude izradi na stranici **Redak ponude** za redak ponude projekta, sustav stvara dva retka procjene u pozadini – jedan redak za stranu troška procjene i jedan za stranu prodaje. Isto vrijedi i za retke ugovora o projektu.
 

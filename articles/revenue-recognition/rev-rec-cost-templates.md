@@ -1,6 +1,6 @@
 ---
 title: Postavljanje predložaka troškova
-description: U ovom se članku nalaze informacije o stvaranju i korištenju predložaka troškova u operacijama projekta.
+description: U ovom članku nalaze se informacije o načinu stvaranja predložaka troškova i njihovoj uporabi u aplikaciji Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918395"
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
 
-U ovom se članku nalaze informacije o stvaranju i korištenju predložaka troškova u operacijama projekta. Predložak troškova određuje:
+U ovom članku nalaze se informacije o načinu stvaranja predložaka troškova i njihovoj uporabi u aplikaciji Project Operations. Predložak troškova određuje:
 
 - Kategorije projekata za predviđanje i stvarne transakcije koje treba uključiti u postotak izračuna dovršenosti projekta. Tada se upotrebljava vrijednost ukupnog postotka za izračun iznosa prihoda koji se priznaje.
 - Bilo da se postotak dovršenosti može mijenjati ako se automatski izračuna.
@@ -56,7 +56,7 @@ Odluka o pristupu stvaranju predloška troškova može ovisiti o nekoliko razmat
 ## <a name="create-cost-templates"></a>Stvaranje predložaka troškova
 Kako biste stvorili predložak troška, poduzmite ove korake:
 
-1. Da biste pristupili predlošcima troškova, u okruženju Dynamics 365 Finance otvorite **predložak Troškovi troškova upravljanja projektima i računovodstva** > **·** > **.** > **·**
+1. Kako biste u okruženju aplikacije Dynamics 365 Finance pristupili predlošcima troškova, idite na **Upravljanje projektima i računovodstvo** > **Postavljanje** > **Procjene** > **Predložak troškova**.
 2. Kako biste stvorili novi predložak, odaberite **Novo**. Unesite naziv i opis.
 3. Navedite ID retka troška za svaku vrstu transakcije.
 4. Odaberite zadani način dovršenja:

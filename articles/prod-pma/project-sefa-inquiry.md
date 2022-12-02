@@ -1,6 +1,6 @@
 ---
 title: Raspored izdataka upita za savezne nagrade
-description: Ovaj članak pruža informacije o rasporedu izdataka saveznih nagrada.
+description: U ovom članku nalaze se informacije o rasporedu izdataka upita za savezne nagrade.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

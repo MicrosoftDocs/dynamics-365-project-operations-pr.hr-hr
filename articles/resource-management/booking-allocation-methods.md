@@ -1,6 +1,6 @@
 ---
 title: Načini dodjele rezervacija
-description: U ovom se članku navode informacije o funkcioniranju načina dodjele rezervacija u projektnim operacijama.
+description: U ovom se članku navode informacije o tome kako načini dodjele rezervacija funkcioniraju u aplikaciji Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8912691"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Neovisno o tome dodajete li člana tima izravno projektu na kartici **Tim** ili rezervirate resurs za projekt ili zahtjev s ploče rasporeda, postoji nekoliko različitih načina dodjele rezervacija koje možete koristiti. Ovaj članak objašnjava kako svaka metoda funkcionira i koje metode mogu dovesti do preklapanja resursa.
+Neovisno o tome dodajete li člana tima izravno projektu na kartici **Tim** ili rezervirate resurs za projekt ili zahtjev s ploče rasporeda, postoji nekoliko različitih načina dodjele rezervacija koje možete koristiti. U ovom se članku objašnjava kako svaki od tih načina radi i koji način može dovesti do prevelikog broja rezervacija resursa.
 
 ## <a name="booking-allocation-methods"></a>Načini dodjele rezervacija
 

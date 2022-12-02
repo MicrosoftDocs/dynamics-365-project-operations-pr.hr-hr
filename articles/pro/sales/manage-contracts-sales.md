@@ -1,6 +1,6 @@
 ---
 title: Upravljanje ugovorima o projektu
-description: U ovom se članku nalaze informacije o prikazu ugovora temeljenih na projektu.
+description: U ovom se članku navode informacije o načinu prikazivanja ugovora koji se temelje na projektu.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Popis svih ugovora o projektu koji se mogu vidjeti na stranici s popisom **Ugovo
 Ugovori se mogu stvoriti ili izbrisati s ove stranice s popisom ili stranica s pojedinostima.
 
 > [!NOTE]
-> Ugovori s kojima su povezani projekti, zadaci, procjene, temeljnice i/ili stvarne vrijednosti ne mogu se izbrisati. 
+> Ugovori koji imaju povezane projekte, zadatke, procjene, dnevnike i/ili stvarne podatke ne mogu se izbrisati. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

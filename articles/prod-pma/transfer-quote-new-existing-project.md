@@ -1,6 +1,6 @@
 ---
 title: Prijenos ponude na projekt
-description: U ovom se članku nalaze informacije o prijenosu ponude na novi ili postojeći projekt.
+description: U ovom članku nalaze se informacije o načinu prijenosa ponude na novi ili postojeći projekt.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Sažeti podaci i ponuda projekta – jednostavno
-description: U ovom se članku nalaze informacije o informacijama i postavkama koje se primjenjuju na ponude projekta i utječu na njih. (Sales)
+description: U ovom članku nalaze se informacije o podacima i postavkama koje se primjenjuju na ponude projekata i utječu na njih. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

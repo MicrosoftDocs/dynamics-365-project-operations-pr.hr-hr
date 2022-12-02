@@ -1,6 +1,6 @@
 ---
 title: Izvedba prijedloga fakture za projekt
-description: U ovom se članku nalaze informacije o poboljšanjima uspješnosti prijedloga za fakture za projekte.
+description: U ovom članku nalaze se informacije o poboljšanjima izvedbe prijedloga faktura za projekt.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

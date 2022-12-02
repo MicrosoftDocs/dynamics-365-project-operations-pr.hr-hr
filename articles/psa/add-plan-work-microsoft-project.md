@@ -1,6 +1,6 @@
 ---
 title: Korištenje dodatka Project Service za planiranje rada u programu Microsoft Project | MicrosoftDocs
-description: U ovom se članku nalaze informacije o dodavanju, konfiguriranju i korištenju dodatka Microsoft Project za Microsoft Project Service.
+description: U ovom se članku navode informacije o tome kako dodati, konfigurirati i upotrebljavati dodatak Microsoft Project za aplikaciju Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

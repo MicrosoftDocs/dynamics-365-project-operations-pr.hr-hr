@@ -1,6 +1,6 @@
 ---
 title: Redci prilike utemeljeni na projektu
-description: U ovom se članku nalaze informacije o radu s recima prilike utemeljenima na projektu.
+description: U ovom članku nalaze se informacije o načinu rada s redcima prilike koji se temelje na projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

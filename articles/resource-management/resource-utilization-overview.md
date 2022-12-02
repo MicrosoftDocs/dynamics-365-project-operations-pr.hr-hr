@@ -1,6 +1,6 @@
 ---
 title: Prikaz korištenja resursa
-description: U ovom se članku nalaze informacije o korištenju resursa u projektnim operacijama.
+description: U ovom članku nalaze se informacije o iskoristivosti resursa u aplikaciji Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

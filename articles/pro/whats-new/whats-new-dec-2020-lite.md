@@ -1,6 +1,6 @@
 ---
 title: Novosti u prosincu 2020. – Osnovna implementacija aplikacije Project Operations – od sklapanja posla do predračuna
-description: Ovaj članak pruža informacije o ažuriranjima kvalitete dostupnim u izdanju implementacije Project Operations Lite u prosincu 2020. - dogovor o proforma fakturiranju.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju osnovne implementacije aplikacije Project Operations za prosinac 2020. – od sklapanja posla do predračuna.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924053"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
   - Project Operations u verziji 4.5.0.134 okruženja platforme Dataverse 
 

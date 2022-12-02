@@ -1,6 +1,6 @@
 ---
 title: Upravljanje s više klijenata u redcima ponude utemeljenim na projektu
-description: U ovom se članku nalaze informacije o upravljanju većim brojem kupaca u recima ponuda temeljenima na projektu.
+description: U ovom se članku navode informacije o načinu upravljanja s više klijenata u redcima ponude koji se temelji na projektu.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

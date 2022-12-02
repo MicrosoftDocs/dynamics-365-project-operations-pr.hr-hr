@@ -1,6 +1,6 @@
 ---
 title: Rad s podatkovnim modelom Project Service Automation
-description: U ovom se članku nalaze informacije o tome kako raditi s podatkovnim modelom.
+description: Ovaj članak sadrži informacije o radu s podatkovnim modelom.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8926675"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation proširuje druge entitete aplikacija i uvodi vlastite entitete u podatkovni model Common Data Service. U ovom se članku opisuju neki od entiteta na koje ćete naići u tipičnim scenarijima izvješćivanja o PSA-u.
+Dynamics 365 Project Service Automation proširuje druge entitete aplikacija i uvodi vlastite entitete u podatkovni model Common Data Service. Ovaj članak opisuje neke entitete koje možete pronaći u uobičajenim scenarijima izvješćivanja u PSA-u.
 
 ## <a name="reporting-on-opportunities"></a>Izvješćivanje o prilikama
 

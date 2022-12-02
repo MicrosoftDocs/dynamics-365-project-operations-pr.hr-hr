@@ -1,6 +1,6 @@
 ---
 title: Rad s osobnim troškovima na izvješću o troškovima
-description: Ovaj članak pruža informacije o tome kako raditi s osobnim troškovima zaposlenika tijekom putovanja u poslovne svrhe.
+description: U ovom članku nalaze se informacije o načinu rada s osobnim troškovima zaposlenih za putovanja u poslovne svrhe.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

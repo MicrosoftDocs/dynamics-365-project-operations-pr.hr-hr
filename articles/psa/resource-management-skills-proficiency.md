@@ -1,6 +1,6 @@
 ---
 title: Modeli vještina i stručnosti
-description: Ovaj članak pruža informacije o tome kako koristiti vještine i modele stručnosti.
+description: Ovaj članak pruža informacije o tome kako upotrebljavati modele vještina i stručnosti.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

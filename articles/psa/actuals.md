@@ -1,6 +1,6 @@
 ---
 title: Pregled stvarnih podataka
-description: U ovom se članku nalaze informacije o stvarnim vrijednostima projekta.
+description: U ovom se članku navode informacije o stvarnim podacima projekta.
 author: rumant
 ms.custom:
 - dyn365-projectservice

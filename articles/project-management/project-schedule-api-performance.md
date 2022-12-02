@@ -1,6 +1,6 @@
 ---
 title: Izvedba API-ja rasporeda projekta
-description: U ovom se članku navode informacije o referentnim vrijednostima performansi API-ja za raspored projekta i utvrđuju najbolje prakse za optimalnu uporabu.
+description: U ovom članku nalaze se informacije o standardima performansi API-ja rasporeda projekta i identificiranju najboljih primjera iz prakse za optimalnu uporabu.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8911173"
 
 _**Odnosi se na:** Project Operations za scenarije koji se temelje na resursima/bez zaliha, osnovna implementacija – od sklapanja posla do predračuna, Project for the Web_
 
-U ovom se članku navode informacije o mjerilima performansi sučelja za programiranje aplikacija za raspored projekta (API) i identificiraju se najbolji primjeri iz prakse za optimizaciju upotrebe.
+U ovom članku nalaze se informacije o standardima performansi sučelja za programiranje aplikacija (APIs, application programming interfaces) rasporeda projekta i identificiranju najboljih primjera iz prakse za optimalnu uporabu.
 
 ## <a name="project-scheduling-service"></a>Usluga planiranja projekta
 Usluga planiranja projekta usluga je s više klijenata koja radi na platformi Microsoft Azure. Dizajnirana je za poboljšanje interakcije pružanjem brzog i tečnog iskustva kada korisnici rade na projektima. Ovo se poboljšanje postiže prihvaćanjem zahtjeva za izmjenu, njihovom obradom, a zatim trenutačnim vraćanjem rezultata. Usluga asinkrono ustraje na aplikaciji Dataverse i ne blokira korisnike u izvođenju drugih operacija.
 
-API-ji za planiranje projekta oslanjaju se na uslugu zakazivanja projekata za pokretanje zahtjeva koji su detaljnije opisani u kasnijim odjeljcima ovog članka.
+API-ji rasporeda projekta oslanjaju se na uslugu planiranja projekta kako bi pokrenuli zahtjeve koji su podrobnije opisani u kasnijim odjeljcima ovog članka.
 
 API-ji rasporeda projekta dizajnirani su za rad sa sljedećim entitetima strukturne analize rada (WBS, engl. work breakdown structure):
 

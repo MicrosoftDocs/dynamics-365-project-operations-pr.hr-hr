@@ -1,6 +1,6 @@
 ---
 title: Definiranje preduvjeta resursa
-description: U ovom se članku nalaze informacije o definiranju informacija o zahtjevima resursa.
+description: U ovom se članku navode informacije o načinu definiranja podataka o preduvjetu resursa.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

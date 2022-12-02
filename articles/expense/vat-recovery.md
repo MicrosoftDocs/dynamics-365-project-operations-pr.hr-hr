@@ -1,6 +1,6 @@
 ---
 title: Povrat PDV-a u upravljanju troškovima
-description: U ovom se članku objašnjava kako primiti povrat novca za prihvatljive transakcije poreza na dodanu vrijednost (PDV).
+description: U ovom članku objašnjava se način povrata za prihvatljive transakcije poreza na dodanu vrijednost (PDV).
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

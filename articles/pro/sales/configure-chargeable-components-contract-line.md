@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje naplative komponente retka ugovora koji se temelji na projektu
-description: U ovom se članku nalaze informacije o dodavanju komponenti za fakturiranje u retke ugovora u operacijama projekta.
+description: U ovom se članku navode informacije o načinu dodavanja naplatnih komponenti u retke ugovora u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

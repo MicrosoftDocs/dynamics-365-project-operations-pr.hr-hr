@@ -1,6 +1,6 @@
 ---
 title: Pregled izdatka
-description: U ovom se članku nalaze informacije o funkciji Trošak u projektnim operacijama.
+description: U ovom se članku navode informacije o funkciji Trošak u aplikaciji Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

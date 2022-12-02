@@ -1,6 +1,6 @@
 ---
 title: Određivanje cijena kataloga proizvoda
-description: Ovaj članak pruža informacije o tome kako funkcionira određivanje cijena kataloga proizvoda u Dynamics 365 Project Service Automation programu (PSA).
+description: Ovaj članak pruža informacije o tome kako funkcionira određivanje cijena kataloga proizvoda u sustavu Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

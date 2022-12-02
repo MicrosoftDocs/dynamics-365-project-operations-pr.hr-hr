@@ -1,6 +1,6 @@
 ---
 title: Upravljanje procjenama prihoda
-description: Ovaj članak pruža informacije o tome kako raditi s procjenama prihoda za projekte.
+description: U ovom članku nalaze se informacije o načinu rada s procjenama prihoda za projekte.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8928469"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Možete stvoriti, izračunati, knjižiti, stornirati ili ukloniti procjene prihoda. To možete učiniti ručno ili s pomoću periodičnog postupka. Ovaj članak pruža informacije o tome kako raditi s procjenama prihoda za projekte.
+Možete stvoriti, izračunati, knjižiti, stornirati ili ukloniti procjene prihoda. To možete učiniti ručno ili s pomoću periodičnog postupka. U ovom članku nalaze se informacije o načinu rada s procjenama prihoda za projekte.
 
 ### <a name="manage-revenue-estimates-manually"></a>Ručno upravljanje procjenama prihoda
 

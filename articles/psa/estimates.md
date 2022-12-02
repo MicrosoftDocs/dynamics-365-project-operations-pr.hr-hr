@@ -1,6 +1,6 @@
 ---
 title: Procjene
-description: U ovom se članku navode informacije o procjenama u sustavu Dynamics 365 Project Service Automation.
+description: U ovom se članku navode informacije o procjenama u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Promjenjivo rezerviranje preduvjeta
-description: Ovaj članak pruža informacije o tome kako omekšati zahtjeve.
+description: Ovaj članak pruža informacije o tome kako promjenjivo rezervirati preduvjete.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

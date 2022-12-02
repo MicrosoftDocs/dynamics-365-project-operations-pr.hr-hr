@@ -1,6 +1,6 @@
 ---
-title: Stvarni učinak tijekom pretprodajne faze angažmana
-description: U ovom se članku navode informacije o utjecaju na tablicu Stvarne na različitim događajima dok je zaplet u fazi pretprodaje u Microsoftu Dynamics 365 Project Operations.
+title: Utjecaj stvarnih podataka tijekom pretprodajne faze angažmana
+description: U ovom se članku navode informacije o utjecaju na tablicu Stvarni podaci u okviru različitih događaja dok je angažman u fazi pretprodaje u sustavu Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -20,20 +20,20 @@ ms.contentlocale: hr-HR
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8922351"
 ---
-# <a name="actuals-impact-during-the-pre-sales-stage-of-an-engagement"></a>Stvarni učinak tijekom pretprodajne faze angažmana
+# <a name="actuals-impact-during-the-pre-sales-stage-of-an-engagement"></a>Utjecaj stvarnih podataka tijekom pretprodajne faze angažmana
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-U sljedećoj su tablici navedene stvarne vrijednosti različitih vrsta transakcija kreirane na različitim događajima tijekom pretprodajne faze angažmana projekta.
+U sljedećoj tablici navode se stvarni podaci različitih vrsta transakcija izrađenih u okviru različitih događaja tijekom faze pretprodaje projektnog angažmana.
 
 | Događaj | Stvarna vrijednost troškova | Primjer |
 |---|---|---|
-| Vrijeme se stvara. | Nije primjenjivo | <p>Bob Kozack, iz američke organizacijske jedinice Fabrikam koja ima stopu troškova od 100 američkih dolara (100 USD) po satu, radi na projektu koji nosi naziv "Arm Installation at Adatum". Ovaj projekt mapiran je na način naplate fiksne cijene u retku ugovora. Evo oglednog vremenskog unosa Boba Kozaka:</p><p>Bob Kozack - 8 sati</p> |
-| Vrijeme se šalje. | Nije primjenjivo | Za stavku vremena kreira se redak temeljnice troškova. Zadana stopa troška unosi se u stavku temeljnice. |
-| Unos vremena se opoziva prije nego što bude odobren. | Nije primjenjivo | |
-| Vrijeme je odobreno. | Stvara se stvarni trošak. | <p>Stvoreno je novo stvarno:</p><ul><li>**Stvarni trošak:** Bob Kozack, 8 sati, USD 800</li></ul> |
-| Odobrenje vremena je otkazano. | <p>Status prilagodbe izvornog stvarnog troška obnavlja se u **Prilagođeno**.</p><p>Stvara se stvarni trošak storniranja koji ima status prilagodbe **nepravomoćno**.</p> | <p>Postojeća stvarna koja se ažurira:</p><ul><li>**Stvarni trošak:** Bob Kozack, 8 sati, USD 800, *Prilagođeno*</li></ul><p>Nova stvarna stvar stvorena za preokretanje prethodnog financijskog učinka:</p><ul><li>**Stvarni trošak:** Bob Kozack, (8 sati), (USD 800), *Nepravomoćno*</li></ul> |
-| Unos vremena opozvan je nakon što je odobren. | <p>Status prilagodbe izvornog stvarnog troška obnavlja se u **Prilagođeno**.</p><p>Stvara se stvarni trošak storniranja koji ima status prilagodbe **nepravomoćno**.</p> | <p>Postojeća stvarna koja se ažurira:</p><ul><li>**Stvarni trošak:** Bob Kozack, 8 sati, USD 800, *Prilagođeno*</li></ul><p>Nova stvarna stvar stvorena za preokretanje prethodnog financijskog učinka:</p><ul><li>**Stvarni trošak:** Bob Kozack, (8 sati), (USD 800), *Nepravomoćno*</li></ul> |
-| Ponuda je osvojena i kreira se ugovor. | <p>Status prilagodbe starih iznosa troškova obnavlja se u **Prilagođeno**.</p><p>Kreiraju se stvarni troškovi storniranja koji imaju status prilagodbe **nepravomoćno**.</p><p>Nove stvarne troškove stvaraju se nakon ponovne procjene ugovornih pravila.</p> | <p>Postojeća stvarna koja se ažurira:</p><ul><li>**Stvarni trošak:** Bob Kozack, 8 sati, USD 800, *Prilagođeno*</li></ul><p>Nova stvarna stvar stvorena za preokretanje prethodnog financijskog učinka:</p><ul><li>**Stvarni trošak:** Bob Kozack, (8 sati), (USD 800), *Nepravomoćno*</li></ul><p>Nove stvarne vrijednosti kreirane za ponovno procijenjeni financijski učinak prilikom osvojene ponude i stvaranja ugovora:</p><ul><li>**Stvarni trošak:** Bob Kozack, 8 sati, USD 800</li><li>**Nenaplaćena prodaja stvarna:** Bob Kozack, 8 sati, USD 1,600</li></ul> |
+| Izrađuje se stavka Vrijeme. | Nije primjenjivo | <p>Bob Kozack, iz organizacijske jedinice Fabrikam US koja ima stopu troška od 100 američkih dolara (100 USD) po satu, radi na projektu naziva "Ugradnja kraka u postrojenju Adatum". Za taj je projekt na retku ugovora određena metoda naplate s fiksnom cijenom. Ovo je primjer unosa vremena Boba Kozaka:</p><p>Bob Kozack – 8 sati</p> |
+| Vrijeme podneseno. | Nije primjenjivo | Redak u dnevniku troška izrađuje se za svaki unos vremena. Zadana stopa trošak unosi se u dnevnički unos. |
+| Unos vremena opozove se prije nego što se odobri. | Nije primjenjivo | |
+| Vrijeme je odobreno. | Izrađuje se stvarni podatak troška. | <p>Novi stvarni podatak koji je izrađen:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, 8 sati, 800 USD</li></ul> |
+| Odobrenje vremena je poništeno. | <p>Status prilagodbe stvarnog podatka troška ažurira se na **Prilagođeno**.</p><p>Izrađuje se stvarni podatak poništenog troška koji ima status prilagodbe **Nije moguće prilagoditi**.</p> | <p>Postojeći stvarni podatak koji se ažurira:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, 8 sati, 800 USD, *Prilagođeno*</li></ul><p>Novi stvarni podataka koji se izrađuje radi poništavanja prethodnog financijskog učinka:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, (8 sati), (800 USD), *Nije moguće prilagoditi*</li></ul> |
+| Unos vremena opozove se nakon što se odobri. | <p>Status prilagodbe stvarnog podatka troška ažurira se na **Prilagođeno**.</p><p>Izrađuje se stvarni podatak poništenog troška koji ima status prilagodbe **Nije moguće prilagoditi**.</p> | <p>Postojeći stvarni podatak koji se ažurira:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, 8 sati, 800 USD, *Prilagođeno*</li></ul><p>Novi stvarni podataka koji se izrađuje radi poništavanja prethodnog financijskog učinka:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, (8 sati), (800 USD), *Nije moguće prilagoditi*</li></ul> |
+| Ponuda je dobivena i ugovor je izrađen. | <p>Status prilagodbe starih stvarnih podataka troška ažurira se na **Prilagođeno**.</p><p>Izrađuju se stvarni podaci poništenja troška čiji status prilagodbe status glasi **Nije moguće prilagoditi**.</p><p>Novi stvarni podaci troška izrađuju se nakon ponovne procjene ugovornih pravila.</p> | <p>Postojeći stvarni podatak koji se ažurira:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, 8 sati, 800 USD, *Prilagođeno*</li></ul><p>Novi stvarni podataka koji se izrađuje radi poništavanja prethodnog financijskog učinka:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, (8 sati), (800 USD), *Nije moguće prilagoditi*</li></ul><p>Novi stvari podaci koji se izrađuju za ponovno procijenjeni financijski učinak kada se dobije ponuda i izradi ugovor:</p><ul><li>**Stvarni podatak troška:** Bob Kozack, 8 sati, 800 USD</li><li>**Stvarni podatak nenaplaćene prodaje:** Bob Kozack, 8 sati, 1.600 USD</li></ul> |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Zadane financijske veličine za vremenske unose projekta
-description: U ovom se članku navode informacije o tome kako se zadane financijske dimenzije zatvaraju stavkama vremena.
+description: Ovaj članak pruža informacije o tome kako se zadane financijske dimenzije primjenjuju na vremenske unose.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8916555"
 
 [!include [banner](../includes/banner.md)]
 
-Kada koristite financijske dimenzije za stavke vremena projekta, zadana vrijednost dimenzije procjenjuje se sljedećim redoslijedom:
+Kada upotrebljavate financijske dimenzije za unose vremena projekta, vrijednost zadane dimenzije procjenjuje se sljedećim redoslijedom:
 
 1. Resurs
 2. Project
 3. Izvor financiranja
 
-Na primjer, ako je zadana dimenzija navedena na resursu, zadana vrijednost primjenjuje se na zadanu vrijednost navedenu za projekt. Isto tako, ako je zadana dimenzija navedena na projektu, zadana vrijednost primjenjuje se na zadanu vrijednost navedenu za izvor financiranja.
+Na primjer, ako je zadana dimenzija navedena na resursu, zadana vrijednost se primjenjuje na zadanu vrijednost koja je navedena za projekt. Isto tako, ako je zadana dimenzija navedena na projektu, zadana vrijednost se primjenjuje na zadanu vrijednost koja je navedena za izvor financiranja.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

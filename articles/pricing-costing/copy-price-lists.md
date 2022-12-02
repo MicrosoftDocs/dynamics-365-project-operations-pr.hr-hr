@@ -1,6 +1,6 @@
 ---
 title: Kopiranje cjenika
-description: U ovom se članku nalaze informacije o kopiranju cjenika u operacijama programa Project.
+description: U ovom se članku navode informacije o načinu kopiranja cjenika u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

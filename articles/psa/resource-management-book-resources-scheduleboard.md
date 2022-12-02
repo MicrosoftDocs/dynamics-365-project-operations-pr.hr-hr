@@ -1,6 +1,6 @@
 ---
 title: Upotreba ploče s rasporedom za rezerviranje resursa za projekt
-description: U ovom se članku nalaze informacije o tome kako rezervirati resurse.
+description: Ovaj članak pruža informacije o tome kako rezervirati resurse.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

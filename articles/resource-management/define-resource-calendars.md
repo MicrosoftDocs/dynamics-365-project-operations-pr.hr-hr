@@ -1,6 +1,6 @@
 ---
 title: Definiranje kalendara resursa
-description: U ovom se članku nalaze informacije o definiranju kalendara radnog vremena za resurse u projektnim operacijama.
+description: U ovom se članku navode informacije o načinu definiranja kalendara radnog vremena za resurse u aplikaciji Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

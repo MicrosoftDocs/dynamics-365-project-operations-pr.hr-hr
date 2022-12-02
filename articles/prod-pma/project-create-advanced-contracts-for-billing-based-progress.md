@@ -1,6 +1,6 @@
 ---
 title: Stvaranje predugovora za naplatu na temelju napretka
-description: U ovom se članku objašnjava kako stvoriti projektne ugovore da biste mogli generirati fakture za kupce na temelju postotka dovršenog posla.
+description: U ovom se članku objašnjava način stvaranja ugovora o projektima tako da klijentima možete generirati račune na temelju postotka dovršenog posla.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913657"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Stvaranje predugovora za naplatu na temelju napretka
 [!include [banner](../includes/banner.md)]
 
-U ovom se članku objašnjava kako kreirati projektne ugovore da biste mogli kreirati fakture za kupce na temelju postotka dovršenog posla. Iznosi faktura automatski se izračunavaju za proračunske kategorije posla koje ste postavili za projekt. Vrijeme računa postavlja se kada pregovarate s klijentom o ugovoru o projektu.
+U ovom se članku objašnjava način stvaranja ugovora o projektima tako da klijentima možete stvoriti račune na temelju postotka dovršenog posla. Iznosi faktura automatski se izračunavaju za proračunske kategorije posla koje ste postavili za projekt. Vrijeme računa postavlja se kada pregovarate s klijentom o ugovoru o projektu.
 
-Pomoću postupaka u ovom članku postavite ugovor, pridruženi projekt i pravila naplate koja izračunavaju iznose faktura za proračunske kategorije posla koje ste postavili za projekt.
+Upotrijebite postupke navedene u ovom članku za postavljanje ugovora, povezanog projekta i pravila naplate koja izračunavaju iznose fakture za proračunske kategorije posla koje ste postavili za projekt.
 
 Nakon što stvorite ugovor i projekt, možete postaviti pojedinosti projekta. Na primjer, možete definirati aktivnosti i dodijeliti radnike projektu.
 

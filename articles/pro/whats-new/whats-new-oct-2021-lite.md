@@ -1,6 +1,6 @@
 ---
 title: Što je novo u listopadu 2021. – Osnovna implementacija aplikacije Project Operations
-description: U ovom se članku navode informacije o ažuriranjima kvalitete dostupnima u izdanju implementacije lite projekta Project Operations u listopadu 2021.
+description: U ovom članku nalaze se podaci o ažuriranjima kvalitete dostupnima u izdanju osnovne implementacije aplikacije Project Operations za listopad 2021.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8921937"
 
 _Odnosi se na: Osnovna implementacija – od sklapanja posla do predračuna_
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
   - Project Operations u verziji 4.25.0.91 okruženja platforme Microsoft Dataverse
 

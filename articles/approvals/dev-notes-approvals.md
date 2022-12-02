@@ -1,6 +1,6 @@
 ---
 title: Bilješke razvojnog inženjera za odobrenja
-description: U ovom se članku nalaze dodatne informacije za razvojne inženjere o radu s odobrenjima.
+description: U ovom se članku navode dodatne informacije za razvojne inženjere o radu s odobrenjima.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

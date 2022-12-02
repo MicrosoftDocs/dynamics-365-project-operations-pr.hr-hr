@@ -1,6 +1,6 @@
 ---
 title: Početna stranica za upravljanje resursima
-description: U ovom se članku nalaze informacije o upravljanju resursima.
+description: Ovaj članak pruža informacije o tome kako upravljati resursima.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8913243"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resursi su najvažnije sredstvo za tvrtke ili ustanove koje su utemeljene na uslugama. Mogućnost pronalaženja i rezerviranja odgovarajućih resursa kad ih zatrebate i iskorištavanje tih resursa omogućuju da tvrtka ili ustanova ostvari ciljeve prihoda i zadovoljstva klijenata. Sljedeći članci usmjereni su na mogućnosti upravljanja resursima sustava Dynamics 365 Project Service Automation:
+Resursi su najvažnije sredstvo za tvrtke ili ustanove koje su utemeljene na uslugama. Mogućnost pronalaženja i rezerviranja odgovarajućih resursa kad ih zatrebate i iskorištavanje tih resursa omogućuju da tvrtka ili ustanova ostvari ciljeve prihoda i zadovoljstva klijenata. Sljedeći članci bave se mogućnostima upravljanja resursima aplikacije Dynamics 365 Project Service Automation:
 
 - [Upravljanje resursima](manage-resources.md)
 - [Ključni koncepti](reports-key-concepts.md)

@@ -1,6 +1,6 @@
 ---
 title: Rezerviraj imenovane resurse iz zahtjeva resursa
-description: U ovom se članku nalaze informacije o rezervaciji imenovanih resursa za općeniti zahtjev za resursima.
+description: U ovom se članku navode informacije o rezerviranju imenovanih resursa za generički zahtjev resursa.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

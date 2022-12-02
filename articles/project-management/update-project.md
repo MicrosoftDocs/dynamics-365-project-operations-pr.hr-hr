@@ -1,6 +1,6 @@
 ---
 title: Stvaranje i ažuriranje projekta
-description: U ovom se članku nalaze informacije o ažuriranju projekata Project Operations.
+description: U ovom članku nalaze se informacije o ažuriranju projekata u aplikaciji Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Ponašanje korisničkog sučelja za unos vremena
-description: U ovom se članku nalaze informacije o ponašanju korisničkog sučelja za unos vremena.
+description: U ovom članku nalaze se informacije o ponašanju korisničkog sučelja za unos vremena.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

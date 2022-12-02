@@ -1,6 +1,6 @@
 ---
 title: Skupne korekcije stvarnih podataka stvorene odobrenim unosima vremena i rashoda
-description: U ovom se članku objašnjava kako administrator može izvršiti pojedinačne ili skupne ispravke prethodno odobrenih stavki vremena ili troškova ako naplata nije dovršena.
+description: U ovom se članku objašnjava kako administrator može izvršiti pojedinačne ili skupne ispravke prethodno odobrenih unosa vremena i rashoda ako naplata nije dovršena.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916280"
 
 Povremeno se mogu pogrešno unijeti unosi vremena ili troškova. Na primjer, tijekom stvaranja vremenskog unosa savjetnik može odabrati pogrešan datum ili tijekom unosa troškova zamijeniti redoslijed brojeva. Ako savjetnik ne može izvršiti ažuriranja poslanih unosa, administrator može izravno ispraviti unos za projekt.
 
-Da biste dovršili postupke u ovom članku, trebat će vam administratorske dozvole.
+Kako biste dovršili postupke u ovom članku, trebat će vam dopuštenja administratora.
 
 ## <a name="correct-approved-time-entries"></a>Ispravljanje odobrenih vremenskih unosa     
 

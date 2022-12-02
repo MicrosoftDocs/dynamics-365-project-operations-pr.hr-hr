@@ -1,6 +1,6 @@
 ---
 title: Postavljanje cjenika
-description: U ovom se članku nalaze informacije o postavljanju cjenika troškova i prodaje.
+description: U ovom članku nalaze se informacije o načinu postavljanja cjenika koštanja i prodaje.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

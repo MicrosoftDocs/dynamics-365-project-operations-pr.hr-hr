@@ -1,6 +1,6 @@
 ---
 title: Početna stranica projekata za raspodjelu resursa
-description: U ovom se članku nalaze informacije o mogućnostima upravljanja resursima u sustavu Project Service Automation (PSA) za Dynamics 365.
+description: Ovaj članak sadrži informacije o mogućnostima upravljanja resursima u aplikaciji Project Service Automation (PSA) za Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

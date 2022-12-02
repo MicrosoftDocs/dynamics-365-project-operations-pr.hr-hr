@@ -1,6 +1,6 @@
 ---
 title: Produljenje unosa vremena
-description: Ovaj članak sadrži informacije o tome kako razvojni programeri mogu proširiti kontrolu unosa vremena.
+description: U ovom se članku pružaju informacije o načinu na koji razvojni inženjeri mogu produljiti kontrolu unosa vremena.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
@@ -43,7 +43,7 @@ Unosi vremena osnovni su entitet koji se upotrebljava u više scenarija. U valu 
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Vremenski unosi i Entitet izvora vremena
-Svaki unos vremena povezan sa zapisom izvora vremena. Ovaj zapis određuje koje bi aplikacije trebale obraditi unos vremena i kako.
+Svaki unos vremena povezan sa zapisom izvora vremena. Taj zapis određuje koje aplikacije trebaju obraditi unos vremena i na koji način.
 
 Unosi vremena uvijek su jedan neprekinuti vremenski blok povezanog početka, kraja i trajanja.
 
@@ -55,7 +55,7 @@ Logika će automatski ažurirati zapis unosa vremena u sljedećim situacijama:
     - **msdyn_end**
     - **msdyn_duration**
 
-- Polja **msdyn_start** i **msdyn_end** svjesna su vremenske zone.
+- Polja **msdyn_start** i **msdyn_end** imaju svijest o vremenskim zonama.
 - Vremenski unosi stvoreni samo s navedenim **msdyn_date** i **msdyn_duration** započeti će u ponoć. Polja **msdyn_start** i **msdyn_end** ažurirat će se u skladu s tim.
 
 #### <a name="time-entry-types"></a>Vrste unosa vremena
@@ -78,57 +78,57 @@ Razvojni inženjeri mogu dodati dodatna polja i pretraživanja drugim entitetima
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Dodavanje prilagođenih polja s pretraživanjima drugim entitetima
 Postoje tri glavna koraka za dodavanje prilagođenog polja u rešetku tjednih vremenskih unosa.
 
-1. Dodajte prilagođeno polje u **dijaloški okvir Brzo stvaranje**.
+1. Dodajte prilagođeno polje u dijaloški okvir **Brza izrada**.
 2. Konfigurirajte rešetku kako bi se prikazivalo prilagođeno polje.
-3. Prema potrebi dodajte prilagođeno polje na **stranicu Uređivanje** retka ili **Uređivanje** unosa vremena.
+3. Dodajte prilagođeno polje na stranicu **Uređivanje retka** ili **Uređivanje unosa vremena** prema potrebi.
 
-Provjerite ima li novo polje potrebne provjere valjanosti na **stranici Uređivanje** retka ili **Uređivanje** unosa vremena. Kao dio ovog zadatka zaključajte polje na temelju statusa unosa vremena.
+Provjerite ima li novo polje potrebne provjere valjanosti na stranici **Uređivanje retka** ili **Uređivanje unosa vremena**. U ovom zadatku zaključajte polje koje se temelji na statusu unosa vremena.
 
-Kada dodate prilagođeno polje u rešetku **stavke** vremena, a zatim stvorite stavke vremena izravno u rešetki, prilagođeno polje za te stavke automatski se postavlja tako da odgovara retku. 
+Kada dodate prilagođeno polje u rešetku **Unos vremena**, a zatim izradite unose vremena izravno u rešetki, prilagođeno polje za te unose automatski se postavlja tako da odgovara retku. 
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Dodavanje prilagođenog polja u dijaloški okvir Brzo stvaranje
-Dodajte prilagođeno polje u **dijaloški okvir Brzo stvaranje: stvaranje unosa vremena**. Korisnici tada, tijekom dodavanja unosa vremena, mogu unijeti vrijednost odabirom mogućnosti **Novi**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Dodavanje prilagođenog polja u dijaloški okvir Brza izrada
+Dodajte prilagođeno polje u dijaloški okvir **Brza izrada: izrada unosa vremena**. Korisnici tada, tijekom dodavanja unosa vremena, mogu unijeti vrijednost odabirom mogućnosti **Novi**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfiguriranje rešetke kako bi se prikazivalo prilagođeno polje
-Postoje dva načina dodavanja prilagođenog polja u rešetku unosa **vremena** Tjedno.
+Postoje dva načina dodavanja prilagođenog polja u rešetku **Tjedni unos vremena**.
 
-- Prilagodite **prikaz Stavke** mog tjednog vremena i dodajte mu prilagođeno polje. Položaj i veličinu prilagođenog polja u rešetki možete odrediti uređivanjem svojstava u prikazu.
-- Stvorite novi prilagođeni prikaz unosa vremena i postavite ga kao zadani prikaz. Ovaj prikaz trebao bi sadržavati **polja Opis** i **Vanjski komentari uz stupce** koje želite uključiti u rešetku. Uređivanjem svojstava u prikazu možete odrediti položaj, veličinu i zadani redoslijed sortiranja rešetke. Zatim konfigurirajte prilagođenu kontrolu za ovaj prikaz tako da je podesite kao kontrolu **Rešetka unosa vremena**. Dodajte kontrolu u prikaz i odaberite je za **web**, **telefon** i **tablet**. Zatim konfigurirajte parametre za mrežu tjednog unosa **vremena**. **Postavite polje Datum** početka na **msdyn\_ datum**, postavite **polje Trajanje** na **msdyn\_ trajanje** i postavite **polje Status** na **msdyn\_ entrystatus**. Polje Popis statusa **samo za čitanje postavljeno je na** 192350002 (odobreno) **,** 192350003 (poslano) **ili** 192350004 (zatražen opoziv) **.**
+- Prilagodite prikaz **Moji tjedni unosi vremena** i dodajte mu prilagođeno polje. Možete odrediti položaj i veličinu prilagođenog polja u rešetki uređivanjem svojstava u prikazu.
+- Izradite novi prilagođeni prikaz unosa vremena i postavite ga kao zadani prikaz. Ovaj prikaz mora sadržavati polja **Opis** i **Vanjski komentari**, kao i stupce za koje želite da se nalaze u rešetki. Možete odrediti položaj, veličinu i zadani redoslijed sortiranja u rešetki uređivanjem svojstava u prikazu. Zatim konfigurirajte prilagođenu kontrolu za ovaj prikaz tako da je podesite kao kontrolu **Rešetka unosa vremena**. Dodajte ovu kontrolu u prikaz i odaberite ga za **Web**, **Telefon** i **Tablet**. Zatim konfigurirajte parametre za rešetku **Tjedni unos vremena**. Postavite polje **Datum početka** na **msdyn\_date**, polje **Duration** na **msdyn\_duration**, a polje **Status** na **msdyn\_entrystatus**. Polje **Popis statusa samo za čitanje** postavljeno je na **192350002 (Odobreno)**, **192350003 (Poslano)** ili **192350004 (Zatražen opoziv)**.
 
-### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Dodavanje prilagođenog polja na odgovarajuću stranicu za uređivanje
-Stranice koje se koriste za uređivanje unosa vremena ili unosa retka vremena mogu se pronaći u odjeljku **Obrasci**. Gumb **Uredi unos** u rešetki otvara stranicu Uređivanje **unosa**, a **gumb Uredi redak** otvara stranicu za uređivanje **retka**. Te stranice možete uređivati tako da sadrže prilagođena polja.
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Dodavanje prilagođenog polja odgovarajućoj stranici uređivanja
+Stranice koje se koriste za uređivanje unosa vremena ili retka unosa vremena nalaze se pod **Obrasci**. Gumb **Uredi unos** u rešetki otvara stranicu **Uredi unos**, a gumb **Uredi redak** stranicu **Uredi redak**. Možete urediti ove stranice tako da uključuju prilagođena polja.
 
-Obje mogućnosti uklanjaju neko zastarjelo filtriranje na **entitetima Project** i **Project Task**, tako da su svi prikazi pretraživanja za entitete vidljivi. Prikazuju se samo unaprijed pripremljeni relevantni prikazi za traženje.
+Obje mogućnosti uklanjaju neke gotove filtre u entitetima **Projekt** i **Projektni zadatak** tako da će se vidjeti svi prikazi za traženje za entitete. Prikazuju se samo unaprijed pripremljeni relevantni prikazi za traženje.
 
-Morate odrediti odgovarajuću stranicu za prilagođeno polje. Najvjerojatnije, ako ste polje dodali u rešetku, ono bi trebalo ići na **stranicu za uređivanje** retka koja se koristi za polja koja se primjenjuju na cijeli redak unosa vremena. Ako prilagođeno polje ima jedinstvenu vrijednost u retku svaki dan (na primjer, ako se radi o prilagođenom polju za vrijeme završetka), trebalo bi se pojaviti **na stranici uređivanje unosa vremena**.
+Morate odrediti odgovarajuću stranicu za prilagođeno polje. Ako ste dodali polje u rešetku, ono bi vjerojatno trebalo ići na stranicu **Uređivanje retka** koja se koristi za polja koja se primjenjuju na cijeli redak vremenskih unosa. Ako prilagođeno polje ima jedinstvenu vrijednost u retku za svaki dan (npr., ako se radi o prilagođenom vremenu za vrijeme završetka), trebalo bi ići na stranicu **Uređivanje unosa vremena**.
 
-Da biste dodali prilagođeno polje na stranicu, povucite **element Polja** na odgovarajući položaj na stranici, a zatim postavite njegova svojstva.
+Za dodavanje prilagođenog polja stranici, povucite element **Polje** u odgovarajući položaj na stranici, a zatim postavite njegova svojstva.
 
 ### <a name="add-new-option-set-values"></a>Dodavanje novih vrijednosti skupa mogućnosti
-Da biste u tvorničko polje dodali skup mogućnosti vrijednosti, slijedite ove korake.
+Da biste dodali vrijednosti skupa mogućnosti gotovom polju, slijedite ove korake.
 
-1. Otvorite stranicu za uređivanje polja, a zatim u odjeljku **Vrsta** odaberite **Uredi** pokraj skup mogućnosti.
-2. Dodajte novu mogućnost koja ima prilagođenu oznaku i boju. Ako želite dodati novi status unosa vremena, polje za van okvira nosi naziv **Status** unosa.
+1. Otvorite stranicu za uređivanje za polje, a zatim u odjeljku **Vrsta** odaberite **Uredi** pokraj skupa mogućnosti.
+2. Dodajte novu mogućnost koja ima prilagođenu oznaku i boju. Ako želite dodati novi status unosa vremena, naziv gotovog polja glasi **Status unosa**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Određivanje novog statusa unosa vremena kao unosa samo za čitanje
-Kako biste odredili novi status unosa vremena kao unosa samo za čitanje, dodajte novu vrijednost unosa vremena u svojstvo **Popis statusa samo za čitanje**. Svakako dodajte broj, a ne oznaku. Dio rešetke za unos vremena koji se može uređivati sada će biti zaključan za retke koji imaju novi status. Da biste svojstvo Popisa **stanja samo za čitanje postavili** drugačije za različite **prikaze unosa** vremena, dodajte **rešetku unosa** vremena u sekciju Prilagođene kontrole **prikaza** i konfigurirajte parametre prema potrebi.
+Kako biste odredili novi status unosa vremena kao unosa samo za čitanje, dodajte novu vrijednost unosa vremena u svojstvo **Popis statusa samo za čitanje**. Pazite na to da dodate broj, a ne oznaku. Dio rešetke unosa vremena koji se može uređivati sada će biti zaključan za retke koji imaju novi status. Za postavljanje različitih svojstava **Popis statusa samo za čitanje** za različite prikaze **Unos vremena**, dodajte rešetku **Unos vremena** u odjeljak **Prilagođene kontrole** prikaza i konfigurirajte parametre prema potrebi.
 
-Zatim dodajte poslovna pravila da biste zaključali sva polja na stranicama Uređivanje **retka** i **Uređivanje** unosa vremena. Da biste pristupili poslovnim pravilima za te stranice, otvorite uređivač obrazaca za svaku stranicu, a zatim odaberite **Poslovna pravila**. Možete dodati novi status uvjetu u postojećim poslovnim pravilima ili možete dodati novo poslovno pravilo za novi status.
+Zatim dodajte poslovna pravila da biste zaključali sva polja na stranicama **Uređivanje retka** i **Uređivanje unosa vremena**. Poslovnim pravilima za te stranice možete pristupiti tako da za svaku stranicu otvorite uređivač obrasca i zatim odaberete **Poslovna pravila**. Možete dodati novi status uvjetu u postojećim poslovnim pravilima ili možete dodati novo poslovno pravilo za novi status.
 
 ### <a name="add-custom-validation-rules"></a>Dodavanje prilagođenih pravila provjere valjanosti
-Možete dodati dvije vrste pravila provjere valjanosti za iskustvo rešetke tjednog unosa **vremena**:
+Doživljaju rada s rešetkom **Tjedni unos vremena** možete dodati dvije vrste pravila provjere valjanosti.
 
 - Poslovna pravila na strani klijenta koja rade na stranicama
-- Provjere valjanosti dodatka na strani poslužitelja koje se primjenjuju na ažuriranja unosa tijekom cijelog vremena
+- Provjere valjanosti dodataka na strani poslužitelja koje se primjenjuju na sva ažuriranja unosa vremena
 
 #### <a name="client-side-business-rules"></a>Poslovna pravila na strani klijenta
-Poslovna pravila služe za zaključavanje i otključavanje polja, unos zadanih vrijednosti u polja i određivanje provjera valjanosti koje zahtijevaju informacije samo iz trenutačnog zapisa unosa vremena. Da biste pristupili poslovnim pravilima za stranicu, otvorite uređivač obrazaca, a zatim odaberite **Poslovna pravila**. Zatim možete urediti postojeća poslovna pravila ili dodati novo poslovno pravilo.
+Poslovna pravila služe za zaključavanje i otključavanje polja, unos zadanih vrijednosti u polja i određivanje provjera valjanosti koje zahtijevaju informacije samo iz trenutačnog zapisa unosa vremena. Poslovnim pravilima za stranicu možete pristupiti tako da otvorite uređivač obrasca i zatim odaberete **Poslovna pravila**. Zatim možete urediti postojeća poslovna pravila ili dodati novo poslovno pravilo.
 
 #### <a name="server-side-plug-in-validations"></a>Provjere valjanosti dodatka na strani poslužitelja
-Provjere valjanosti dodatka trebali biste koristiti za sve provjere valjanosti koje zahtijevaju više konteksta nego što je dostupno u jednom zapisu o unosu vremena. Trebali biste ih koristiti i za sve provjere valjanosti koje želite pokrenuti na umetnutim ažuriranjima u rešetki. Da biste dovršili provjeru valjanosti, stvorite prilagođeni dodatak za **entitet Unos** vremena.
+Provjere valjanosti dodatka trebate upotrebljavati za sve provjere valjanosti koje zahtijevaju više konteksta nego što je dostupno u jednom zapisu unosa vremena. Također biste ih trebali koristiti za sve provjere valjanosti koje želite pokrenuti na ažuriranjima unutar retka na rešetki. Da biste dovršili provjere valjanosti, izradite prilagođeni dodatak u entitetu **Unos vremena**.
 
 ### <a name="limits"></a>Limiti
-Trenutno rešetka unosa **vremena** ima ograničenje veličine od 500 redaka. Ako postoji više od 500 redaka, višak redaka neće biti prikazan. Ne postoji način da se poveća ovo ograničenje veličine.
+Rešetka **Unos vremena** trenutačno ima ograničenje veličine od 500 redaka. Ako ima više od 500 redaka, višak redaka neće biti prikazan. Ne postoji način za povećanje ovog ograničenja veličine.
 
 ### <a name="copying-time-entries"></a>Kopiranje vremenskih unosa
 Upotrijebite prikaz **Kopiraj stupce za unos vremena** za definiranje popisa polja za kopiranje tijekom vremenskog unosa. **Datum** i **Trajanje** obvezna su polja i ne biste ih trebali ukloniti iz prikaza.

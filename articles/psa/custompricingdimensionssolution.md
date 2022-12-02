@@ -1,6 +1,6 @@
 ---
 title: Stvaranje prilagođenih rješenja za dimenzije određivanja cijena
-description: U ovom se članku objašnjava kako stvoriti prilagođeno rješenje prilikom stvaranja prilagođenih dimenzija određivanja cijena.
+description: U ovom se članku objašnjava način izrade prilagođenog rješenja tijekom izrade dimenzija za prilagođeno određivanje cijena.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

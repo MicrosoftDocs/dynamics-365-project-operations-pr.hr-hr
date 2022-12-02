@@ -1,6 +1,6 @@
 ---
 title: Postavljanje automatskog stvaranja fakture
-description: U ovom se članku nalaze informacije o postavljanju i konfiguriranju automatskog stvaranja predračunskih faktura.
+description: U ovom se članku navode informacije o postavljanju i konfiguriranju automatske izrade predračuna.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

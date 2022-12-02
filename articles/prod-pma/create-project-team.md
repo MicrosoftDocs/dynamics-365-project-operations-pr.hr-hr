@@ -1,6 +1,6 @@
 ---
 title: Stvaranje projektnog tima
-description: U ovom se članku nalaze informacije o stvaranju projektnih timova i upravljanju njima.
+description: U ovom se članku navode informacije o načinu izrade projektnih timova i upravljanja njima.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

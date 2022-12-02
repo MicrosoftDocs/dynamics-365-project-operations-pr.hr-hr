@@ -1,6 +1,6 @@
 ---
 title: Pregled zaostalih faktura u projektima i ugovorima o projektima
-description: Ovaj članak pruža informacije o tome kako pregledati vrijeme, troškove i zaostatke proizvoda i kako ih označiti kao spremne za fakturiranje.
+description: Ovaj članak pruža informacije o tome kako pregledati vrijeme, trošak i zaostale podatke o proizvodu te kako ih označiti kao spremne za fakturiranje.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -28,7 +28,7 @@ ms.locfileid: "8928883"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Kada je transakcija spremna za izradu i obradu fakture, transakcija bi trebala imati oznaku **Spremno za fakturiranje**. U ovom se članku opisuju vrste transakcija koje se mogu kreirati.
+Kada je transakcija spremna za izradu i obradu fakture, transakcija bi trebala imati oznaku **Spremno za fakturiranje**. Ovaj članak opisuje vrste transakcija koje se mogu izraditi.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Pregled zaostale naplate za vrijeme i materijal
 

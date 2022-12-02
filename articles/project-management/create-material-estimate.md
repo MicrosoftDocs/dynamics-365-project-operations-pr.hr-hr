@@ -1,6 +1,6 @@
 ---
 title: Financijske procjene materijala na projektima
-description: Ovaj članak pruža informacije o definiranju ili procjeni materijala temeljenih na projektima.
+description: U ovom se članku navode informacije o definiranju ili procjeni materijala koji se temelji na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925677"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Dynamics 365 Project Operations omogućuje voditeljima projekata da definiraju troškove materijala koji se temelje na projektu za svaki projekt ili zadatak. Svaka procjena materijala može se povezati s određenim projektnim zadatkom. Materijali koji se koriste na projektima mogu biti dopisani proizvodi ili proizvodi iz kataloga proizvoda. Za svaku kombinaciju proizvoda i jedinice cijena se može definirati u cjenicima projekta za prodaju i cjenicima projekta za trošak.  
+Dynamics 365 Project Operations omogućuje voditeljima projekata da definiraju troškove materijala koji se temelje na projektu za svaki projekt ili zadatak. Svaka procjena materijala može se povezati s određenim projektnim zadatkom. Materijali koji se koriste na projektima mogu biti upisani proizvodi ili proizvodi iz kataloga proizvoda. Za svaku kombinaciju proizvoda i jedinice može se definirati cijena u cjenicima projekta za prodaju i cjenicima projekta za trošak.  
 
 Poduzmite sljedeće korake za prikaz, dodavanje ili brisanje procjene materijala za projekt.
 

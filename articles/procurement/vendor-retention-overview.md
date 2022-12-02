@@ -1,6 +1,6 @@
 ---
 title: Pregled zadržavanja dijela plaćanja dobavljaču
-description: U ovom se članku nalazi pregled mogućnosti zadržavanja dobavljača.
+description: U ovom članku nalazi se pregled mogućnosti zadržavanja dijela plaćanja dobavljaču.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

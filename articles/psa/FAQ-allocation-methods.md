@@ -1,6 +1,6 @@
 ---
 title: Načini dodjele rezervacija u aplikaciji Project Service Automation
-description: U ovom se članku navode informacije o različitim načinima na koje možete rezervirati alokacije.
+description: U ovom se članku navode informacije o različitim načinima na koje možete dodijeliti rezervacije.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929159"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Neovisno o tome dodajete li člana tima izravno projektu na kartici **Tim** ili rezervirate resurs za projekt ili zahtjev s ploče rasporeda, postoji nekoliko različitih načina dodjele rezervacija koje možete koristiti. Ovaj članak objašnjava kako svaka metoda funkcionira i koje metode mogu dovesti do preklapanja resursa.
+Neovisno o tome dodajete li člana tima izravno projektu na kartici **Tim** ili rezervirate resurs za projekt ili zahtjev s ploče rasporeda, postoji nekoliko različitih načina dodjele rezervacija koje možete koristiti. U ovom se članku objašnjava kako svaki od tih načina radi i koji način može dovesti do prevelikog broja rezervacija resursa.
 
 ## <a name="full-capacity"></a>Puni kapacitet 
 Način Puni kapacitet rezervira puni kapacitet resursa za odabrane datume od i do. Ako je, na primjer, za određeni resurs kalendar postavljen na rad od osam sati dnevno, pet dana u tjednu, postavljanje datuma početka i završetka koji pokrivaju pet radnih dana rezervira resurs na 40 sati. Rezervacija se vrši bez obzira na preostali kapacitet resursa. Ako je resurs već rezerviran tijekom tog razdoblja na drugim projektima, 40 sati se rezerviraju kao dodatni sati, što može dovesti do prevelikog broja rezervacija.

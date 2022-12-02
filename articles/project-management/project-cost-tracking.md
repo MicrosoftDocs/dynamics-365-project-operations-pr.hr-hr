@@ -1,6 +1,6 @@
 ---
 title: Praćenje troška projekta
-description: Ovaj članak pruža informacije o tome kako Project Operations prati napredak u odnosu na troškove rada i potrošnju na projekt.
+description: U ovom članku nalaze se informacije o tome kako aplikacija Project Operations prati napredak u odnosu na trošak rada i uloženi rad na projektu.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

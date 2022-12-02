@@ -1,6 +1,6 @@
 ---
 title: Prodajni procesi
-description: U ovom se članku nalaze informacije o osnovnim prodajnim procesima.
+description: U ovom se članku navode informacije o osnovnim prodajnim procesima.
 author: rumant
 ms.custom:
 - dyn365-projectservice

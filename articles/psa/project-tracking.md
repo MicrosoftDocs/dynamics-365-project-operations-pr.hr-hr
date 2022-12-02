@@ -1,6 +1,6 @@
 ---
 title: Napredak projekta i cijena troška
-description: Ovaj članak sadrži informacije o praćenju napretka projekta i potrošnje troškova.
+description: U ovom članku nalaze se informacije o načinu praćenja napretka projekta i potrošnje troškova.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921753"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Potreba praćenja napretka u odnosu na raspored razlikuje se ovisno o djelatnosti. Neke djelatnosti napredak prate na granularnoj razini, dok ga druge prate na višoj razini. U ovom se članku opisuje kako planirati kako biste ispunili zahtjeve svoje tvrtke ili ustanove.
+Potreba praćenja napretka u odnosu na raspored razlikuje se ovisno o djelatnosti. Neke djelatnosti napredak prate na granularnoj razini, dok ga druge prate na višoj razini. Ovaj članak pokazuje kako postaviti raspored da biste ispunili zahtjeve tvrtke ili ustanove.
 
 ## <a name="effort-tracking-view"></a>Prikaz praćenja rada
 

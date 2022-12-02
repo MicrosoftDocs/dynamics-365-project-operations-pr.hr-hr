@@ -1,6 +1,6 @@
 ---
 title: Faktura za povremena plaćanja ili plaćanje unaprijed
-description: U ovom se članku navode informacije o fakturiranju akontacije ili predujma u operacijama projekta.
+description: U ovom se članku navode informacije o načinu fakturiranja akontacije ili predujma u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

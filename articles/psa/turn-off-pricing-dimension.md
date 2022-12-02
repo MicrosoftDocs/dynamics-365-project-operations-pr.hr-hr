@@ -1,6 +1,6 @@
 ---
 title: Isključivanje dimenzije cijena
-description: U ovom se članku objašnjava kako postaviti dimenzije određivanja cijena u rješenju za Project Service.
+description: Ovaj članak pokazuje kako postaviti dimenzije cijena u rješenju Project Service.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

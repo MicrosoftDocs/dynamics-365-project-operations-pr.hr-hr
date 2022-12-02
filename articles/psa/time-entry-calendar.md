@@ -1,6 +1,6 @@
 ---
 title: Kalendar vremenskih unosa
-description: U ovom se članku nalaze informacije o korištenju kalendara unosa vremena.
+description: Ovaj članak pruža informacije o tome kako se upotrebljava kalendar vremenskih unosa.
 author: rumant
 ms.custom:
 - dyn365-projectservice

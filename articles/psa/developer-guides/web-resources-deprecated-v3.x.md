@@ -1,6 +1,6 @@
 ---
 title: Zastarjeli web-resursi u aplikaciji Project Service Automation 3.x
-description: U ovom se članku opisuju web-resursi koji se više ne koriste u web-aplikaciji Dynamics 365 Project Service Automation 3.0.
+description: Ovaj članak opisuje web-resurse koji se više ne koriste u aplikaciji Dynamics 365 Project Service Automation 3.0.
 author: makk
 ms.custom:
 - dyn365-projectservice

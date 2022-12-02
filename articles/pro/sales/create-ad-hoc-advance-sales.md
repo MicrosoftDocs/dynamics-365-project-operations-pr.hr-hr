@@ -1,6 +1,6 @@
 ---
 title: Stvaranje ad hoc predujma za ugovor
-description: Ovaj članak pruža informacije o stvaranju predujma ugovora po potrebi.
+description: U ovom se članku navode informacije o stvaranju predujma za ugovor, ako je potrebno.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

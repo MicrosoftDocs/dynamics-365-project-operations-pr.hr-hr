@@ -1,6 +1,6 @@
 ---
 title: Uvoz procjene u redak ugovora koji se temelji na projektu
-description: U ovom se članku nalaze informacije o uvozu procjena iz projekta u redak ugovora.
+description: U ovom se članku navode informacije o načinu uvoza procjena iz projekta u redak ugovora.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

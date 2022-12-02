@@ -1,6 +1,6 @@
 ---
 title: Koristi resurs koji je moguće rezervirati kao dimenziju određivanja cijena
-description: U ovom se članku navode informacije o korištenju resursa koji se može rezervirati kao dimenzije određivanja cijena.
+description: U ovom se članku navode informacije o korištenju resursa koji se može rezervirati kao veličina za određivanja cijena.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8916095"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-U ovom se članku navode informacije o korištenju resursa koji se može rezervirati kao dimenzije određivanja cijena. Prije nego što započnete, ako još niste izradili rješenje dimenzije cijena, morat ćete stvoriti novu. Ako već imate rješenje dimenzije cijena, možete uvesti promjene u tom rješenju. Ako niste stvorili novo rješenje dimenzije određivanja cijena za svoju tvrtku ili ustanovu, dovršite postupke u [članku Stvaranje prilagođenih polja i entiteta](create-custom-fields-entities.md).
+U ovom se članku navode informacije o korištenju resursa koji se može rezervirati kao veličina za određivanja cijena. Prije nego što započnete, ako još niste izradili rješenje dimenzije cijena, morat ćete stvoriti novu. Ako već imate rješenje dimenzije cijena, možete uvesti promjene u tom rješenju. Ako niste izradili novo rješenje dimenzije cijena za svoju organizaciju, provedite postupke u članku [Stvaranje prilagođenih polja i entiteta](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Dodaj resurs koji je moguće rezervirati obrascima i prikazima
 Da bi polja bila vidljiva u korisničkom sučelju u rješenju dimenzije određivanja cijena, morat ćete proći kroz sve obrasce i prikaze ključnih entiteta programa Project Service i dodati ta polja obrascima i prikazima tih entiteta.

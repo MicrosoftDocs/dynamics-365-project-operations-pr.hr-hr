@@ -1,6 +1,6 @@
 ---
 title: Upravljanje složenim jedinicama za retke ugovora utemeljene na proizvodu – jednostavno
-description: U ovom se članku nalaze informacije o podršci prodaji proizvoda temeljenih na pretplati.
+description: U ovom se članku navode informacije o podršci prodaji proizvoda koji se temelje na pretplati.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

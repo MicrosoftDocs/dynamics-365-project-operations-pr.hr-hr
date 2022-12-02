@@ -1,6 +1,6 @@
 ---
 title: Redci prilike koji se temelje na proizvodu – jednostavno
-description: U ovom se članku nalaze informacije o stavkama redaka prilike utemeljene na proizvodu u operacijama programa Project.
+description: U ovom članku nalaze se informacije o stavkama retka prilike koji se temelji na proizvodu u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

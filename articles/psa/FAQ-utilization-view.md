@@ -1,6 +1,6 @@
 ---
 title: Prikaži naplativo korištenje za resurse
-description: U ovom se članku nalaze informacije o prikazu iskorištenosti resursa.
+description: U ovom se članku navode informacije o prikazu korištenja resursa.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

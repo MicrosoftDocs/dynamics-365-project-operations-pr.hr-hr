@@ -1,6 +1,6 @@
 ---
 title: Upravljanje s više klijenata u ugovorima o projektu – jednostavno
-description: U ovom se članku nalaze informacije o upravljanju većim brojem korisnika na projektnim ugovorima.
+description: U ovom se članku navode informacije o upravljanju većim brojem klijenata u ugovorima o projektu.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

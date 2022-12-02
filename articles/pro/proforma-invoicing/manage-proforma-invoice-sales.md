@@ -1,6 +1,6 @@
 ---
 title: Upravljanje predračunom za projekt
-description: Ovaj članak sadrži informacije o tome kako raditi s proforma projektnim fakturama.
+description: U ovom se članku navode informacije o načinu rada s predračunima za projekt.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

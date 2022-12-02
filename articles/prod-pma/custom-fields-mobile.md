@@ -1,6 +1,6 @@
 ---
 title: Uvođenje prilagođenih polja za mobilnu aplikaciju Microsoft Dynamics 365 Project Timesheet na platformama iOS i Android
-description: U ovom se članku nalaze uobičajeni obrasci za korištenje proširenja za implementaciju prilagođenih polja.
+description: U ovom se članku navode uobičajeni uzorci za uporabu nastavaka za implementaciju prilagođenih polja.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -26,16 +26,16 @@ ms.locfileid: "8913703"
 
 [!include [banner](../includes/banner.md)]
 
-U ovom se članku nalaze uobičajeni obrasci za korištenje proširenja za implementaciju prilagođenih polja. Obuhvaćeni su sljedeći članci:
+U ovom se članku navode uobičajeni uzorci za uporabu nastavaka za implementaciju prilagođenih polja. Obuhvaćeni su sljedeći članci:
 
 - Razne vrste podataka koje podržava prilagođeni okvir polja
 - Način prikazivanja polja samo za čitanje ili uređivanje na unosima evidencije radnog vremena i spremanje vrijednosti koje su unijeli korisnici natrag u bazu podataka
 - Način prikazivanja polja samo za čitanje u zaglavlju evidencije radnog vremena
 - Način integriranja druge prilagođene poslovne logike za unos zadanih vrijednosti u polja i provođenje dodatne provjere valjanosti
 
-## <a name="audience"></a>Korisnici
+## <a name="audience"></a>Publika
 
-Ovaj članak namijenjen je programerima koji integriraju svoja prilagođena polja u mobilnu Microsoft Dynamics 365 Project Timesheet aplikaciju koja je dostupna apple iOS- u i Googleu Android. Pretpostavka je da su čitatelji upoznati s X++ razvojem i funkcionalnošću evidencije radnog vremena na projektu.
+Ovaj članak namijenjena je razvojnim inženjerima koji integriraju prilagođena polja u mobilnu aplikaciju Microsoft Dynamics 365 Project Timesheet koja je dostupna za sustave Apple iOS i Google Android. Pretpostavka je da su čitatelji upoznati s X++ razvojem i funkcionalnošću evidencije radnog vremena na projektu.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Ugovor o podacima – klasa TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ Svojstvo **FieldBaseType** na objektu **TsTimesheetCustom** određuje vrstu polj
 
 - Ako je svojstvo **stringOptions** osigurano objektu **TSTimesheetCustomField**, ti su elementi popisa jedine vrijednosti koje korisnici mogu odabrati s pomoću gumba s mogućnostima (gumbi za odabir).
 
-    U ovom slučaju polje niza može djelovati kao vrijednost nabrajanja u svrhu korisničkog unosa. Da biste spremili vrijednost u bazu podataka kao enum, ručno mapirajte vrijednost niza natrag na vrijednost enum prije spremanja u bazu podataka pomoću lanca naredbi (pogledajte odjeljak "Koristi lanac naredbi u klasi TSTimesheetEntryService za spremanje unosa vremenske tablice iz aplikacije natrag u bazu podataka" kasnije u ovom članku).
+    U ovom slučaju polje niza može djelovati kao vrijednost nabrajanja u svrhu korisničkog unosa. Kako biste vrijednost spremili u bazu podataka kao nabrajanje, ručno mapirajte vrijednost niza natrag u vrijednost nabrajanja prije spremanja u bazu podataka putem lanca naredbi (kao primjer pogledajte odjeljak „Uporaba lanca naredbe na klasi TSTimesheetEntryService za spremanje unosa evidencije radnog vremena iz aplikacija natrag u bazu podataka” u nastavku ovog članka).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Ovo svojstvo navodi oznaku koja se prikazuje pokraj polja u aplikaciji.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Popis nizova)
 
-Ovo je svojstvo primjenjivo samo kada je **fieldBaseType** postavljeno na **Niz**. Ako je stavka **stringOptions** postavljena, vrijednosti niza koje su dostupne za odabir putem gumba mogućnosti (gumb za odabir) određene su nizovima na popisu. Ako nisu navedeni nizovi, dopušten je unos slobodnog teksta u polju niza (pogledajte odjeljak "Koristi lanac naredbi u klasi TSTimesheetEntryService da biste spremili unos vremenske tablice iz aplikacije natrag u bazu podataka" kasnije u ovom članku).
+Ovo je svojstvo primjenjivo samo kada je **fieldBaseType** postavljeno na **Niz**. Ako je stavka **stringOptions** postavljena, vrijednosti niza koje su dostupne za odabir putem gumba mogućnosti (gumb za odabir) određene su nizovima na popisu. Ako niti jedan niz nije ponuđen, u polje niza dozvoljen je unos slobodnog teksta (kao primjer pogledajte odjeljak „Uporaba lanca naredbi na klasi TSTimesheetEntryService za spremanje unosa evidencije radnog vremena iz aplikacije natrag u bazu podataka” u nastavku ovog članka).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

@@ -44,7 +44,7 @@ Neki projektni ugovori određuju da više strana dijeli odgovornost za financira
 -   Projekt ceste sufinanciraju dvije općine.
 -   Projekt mosta financira se iz državne potpore i privatne korporacije.
 
-U Dynamics 365 Finance možete podijeliti naplatu za jednu transakciju ili cijeli projekt na više kupaca, bespovratnih sredstava ili organizacija. 
+U aplikaciji Dynamics 365 Finance možete podijeliti naplatu za jednu transakciju ili cijeli projekt između više klijenata, potpora te tvrtki ili ustanova. 
 
 U projektima koji imaju više davatelja sredstava, sve strane koje pridonose financiranju naprednog projekta financiranja nazivaju se izvorima financiranja. Nakon što se klijent, tvrtka ili ustanova ili potpora definiraju kao izvor financiranja, mogu se dodijeliti jednom ili većem broju pravila financiranja. Pravila financiranja sadrže kriterije koji određuju način na koji se troškovi raspodjeljuju na različite izvore financiranja za projekt. 
 

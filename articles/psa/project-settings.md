@@ -1,6 +1,6 @@
 ---
 title: Postavke projekta
-description: U ovom se članku nalaze informacije o postavkama upravljanja projektima.
+description: Ovaj članak pruža informacije o upravljanju postavkama projekta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Opoziv odobrenih unosa vremena ili troškova
-description: Ovaj članak pruža informacije o tome kako opozvati prethodno odobrenu transakciju vremena ili troškova.
+description: Ovaj članak pruža informacije o tome kako opozvati prethodno odobreno vrijeme ili transakciju troškova.
 author: rumant
 ms.custom: ''
 ms.author: rumant

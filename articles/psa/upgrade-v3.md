@@ -1,6 +1,6 @@
 ---
 title: Razmatranja o nadogradnji – s verzije Microsoft Dynamics 365 Project Service Automation 2.x ili 1.x na verziju 3
-description: U ovom se članku navode informacije o razmatranjima koja morate izvršiti prilikom nadogradnje s automatizacije usluge Project Service verzije 2.x ili 1.x na verziju 3.
+description: Ovaj članak pruža informacije o razmatranjima koja morate napraviti kada nadograđujete s aplikacije Project Service Automation verzija 2.x ili 1.x na verziju 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -40,7 +40,7 @@ U aplikaciji Project Service Automation, verzija 2 i verzija 1, dodjele zadataka
 
 U verziji 3 aplikacije Project Service Automation promijenila se pozadinska shema dodjele resursa koje je moguće rezervirati za zadatke. Zadatak je retka zastario i postoji izravni odnos 1:1 između zadatka u **Entitetu zadatka** i članu tima u entitetu **Dodjela resursa**. Zadaci koji su dodijeljeni članu projektnog tima sada se pohranjuju izravno u entitet Dodjela resursa.  
 
-Te promjene utječu na nadogradnju svih postojećih projekata koji imaju dodjele resursa za imenovane resurse koji se mogu rezervirati i generičke resurse u projektnom timu. U ovom se članku navode razmatranja koja ćete morati uzeti u obzir za svoje projekte prilikom nadogradnje na verziju 3. 
+Te promjene utječu na nadogradnju svih postojećih projekata koji imaju dodjele resursa za imenovane resurse koji se mogu rezervirati i generičke resurse u projektnom timu. Ovaj članak pruža razmatranja koja ćete morati uzeti u obzir za svoje projekte kada nadogradite na verziju 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Zadaci dodijeljeni imenovanim resursima
 Korištenjem pozadinskog entiteta zadatka, zadaci u verziji 2 i verziji 1 omogućili su članovima tima da prikazuju ulogu različitu od njihove zadane definirane uloge. Na primjer, Jasna Filipović kojoj je prema zadanim postavkama dodijeljena uloga upravitelja programa, mogla bi biti dodijeljena zadatku s ulogom razvojnog inženjera. U verziji 3 uloga imenovanog člana tima uvijek je zadana, tako da bilo koji zadatak koji je dodijeljen Jasni Filipović upotrebljava Jasninu zadanu ulogu voditelja programa.

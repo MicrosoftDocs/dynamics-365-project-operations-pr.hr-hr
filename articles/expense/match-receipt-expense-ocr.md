@@ -1,6 +1,6 @@
 ---
 title: Snimite potvrdu s pomoću OCR-a
-description: Ovaj članak pruža informacije o obradi optičkog prepoznavanja znakova (OCR) za potvrde.
+description: U ovom se članku navode informacije o obradi optičkog prepoznavanja znakova (OCR, optical character recognition) za račune.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Kako biste stvorili trošak ili uskladili trošak s računa, poduzmite sljedeće
 
 ## <a name="installation"></a>Instalacija
 
-Da biste koristili te napredne mogućnosti troškova, instalirajte dodatak Usluge upravljanja troškovima za Microsoft Dynamics 365 Finance i uključite značajke u instanci. Dodatku možete pristupiti iz svog projekta u aplikaciji Microsoft Dynamics Lifecycle Services(LCS).
+Kako biste upotrijebili ove napredne mogućnosti troškova, instalirajte dodatak Usluga upravljanja troškovima za sustav Microsoft Dynamics 365 Finance i uključite značajke u svojoj instanci. Dodatku možete pristupiti iz svog projekta u aplikaciji Microsoft Dynamics Lifecycle Services(LCS).
 
 1. Prijavite se na LCS i otvorite željeno okruženje.
 2. Idite na **Potpune pojedinosti**.
@@ -85,7 +85,7 @@ Ne, za svoju uslugu obrade računa Microsoft je stvorio opći model strojnog uč
 
 **Gdje je ova značajka dostupna i obrađena?**
 
-Dostupnost ove značajke u različitim regijama navedena je u sljedećoj tablici. Ako vaša regija trenutno nije podržana, pošaljite zahtjev da biste odredili prioritet dostupnosti OCR usluge u vašoj regiji. 
+Dostupnost ove značajke u različitim regijama navedena je u sljedećoj tablici. Ako vaša regija trenutačno nije podržana, pošaljite zahtjev kako bi dostupnosti OCR usluge u vašoj regiji postala prioritet. 
 
 | Regija | Podržano                         |
 |--------|-----------------------------------|
@@ -93,7 +93,7 @@ Dostupnost ove značajke u različitim regijama navedena je u sljedećoj tablici
 | CAN    | Jest                               |
 | Ujedinjeno Kraljevstvo     | Jest                               |
 | AUS    | Jest                               |
-| EU     | Djelomično. Samo računi za engleski jezik. |
+| EU     | Djelomično. Samo računi na engleskom jeziku. |
 | Azija   | No                                |
 | Japan  | No                                |
 | Afrika | No                                |

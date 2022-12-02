@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje standardnih troškova rada i izdataka
-description: Ovaj članak objašnjava kako postaviti standardne troškove za rad i troškove projekta.
+description: U ovom se članku objašnjava način postavljanja standardnih troškova rada i izdataka za projekt.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919499"
 
 [!include [banner](../../includes/banner.md)]
 
-Ovaj članak objašnjava kako postaviti standardne troškove za rad i troškove projekta. Ovaj zadatak upotrebljava skup podataka USSI.
+U ovom se članku objašnjava način postavljanja standardnih troškova rada i izdataka za projekt. Ovaj zadatak upotrebljava skup podataka USSI.
 
 1. U navigacijskom oknu idite na **Moduli > Upravljanje projektima i računovodstvo > Postavljanje > Cijene > Cijena koštanja (sat)**.
 2. Odaberite **Novo**.

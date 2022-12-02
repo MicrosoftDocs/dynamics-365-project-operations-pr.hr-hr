@@ -1,6 +1,6 @@
 ---
 title: Upravljanje s više klijenata u redcima ponude koji se temelje na projektu – jednostavno
-description: U ovom se članku opisuje kako upravljati većim brojem kupaca u recima ponuda temeljenim na projektima.
+description: U ovom se članku opisuje način upravljanja višestrukim klijentima u redcima ponude koji se temelje na projektu.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

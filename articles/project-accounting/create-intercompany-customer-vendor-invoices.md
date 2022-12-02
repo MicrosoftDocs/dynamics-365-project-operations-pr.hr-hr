@@ -1,6 +1,6 @@
 ---
 title: Stvaranje faktura za klijenta i dobavljača unutar tvrtke
-description: U ovom se članku nalaze informacije o kreiranju međukompanijskih faktura kupcima i dobavljačima.
+description: U ovom se članku navode informacije o načinu stvaranja faktura za klijenta i dobavljače unutar tvrtke.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Ovaj postupak upotrijebite za ručno stvaranje fakture za klijenta unutar tvrtke
 
 Sljedeći koraci moraju se poduzeti u pravnoj osobi koja daje kredit. 
 
-1. U Dynamics 365 Finance idite na **Upravljanje projektima i računovodstvo** > **Fakture za projekte** > **Međukompanijske fakture za kupce**. Na stranici s popisom **Fakture za klijenta unutar tvrtke**, u Oknu radnji, odaberite **Nova.**
+1. U aplikaciji Dynamics 365 Finance idite na **Upravljanje projektima i računovodstvo** > **Fakture za projekt** > **Fakture za klijenta unutar tvrtke**. Na stranici s popisom **Fakture za klijenta unutar tvrtke**, u Oknu radnji, odaberite **Nova.**
 2. Na stranici **Stvori fakturu unutar tvrtke**, u polju **Pravna osoba**, odaberite pravnu osobu koja se zadužuje.
 3. Neobvezno: Unesite određeni ugovor o projektu i broj projekta.
 4. Suzite pretraživanje odabirom raspona datuma. Unesite određene datume u polja **Datum početka** i **Datum završetka**. U rezultatima pretraživanja prikazuju se samo transakcije unutar tvrtke koje su proknjižene unutar ovog raspona datuma.

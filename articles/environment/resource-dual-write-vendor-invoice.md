@@ -1,6 +1,6 @@
 ---
 title: Integracija fakture dobavljača
-description: U ovom se članku nalaze informacije o integraciji fakture dobavljača u operacijama projekta.
+description: U ovom članku nalaze se informacije o integraciji fakture dobavljača u aplikaciji Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 Nabava vezana uz projekt u aplikaciji Dynamics 365 Project Operations može se evidentirati odlaskom na **Dugovanja** > **Fakture** > **Fakture dobavljača na čekanju** i s pomoću dokumenta fakture dobavljača na čekanju. Dodatne informacija potražite u članku [Kupnja materijala koji nisu na zalihi s pomoću fakture dobavljača na čekanju](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Prije korištenja funkcije opisane u ovom članku pregledajte i primijenite potrebne konfiguracije. Dodatne informacija potražite u članku [Omogućivanje materijala koji nisu na zalihi i fakture dobavljača na čekanju](../procurement/configure-materials-nonstocked.md).
+> Prije nego što upotrijebite funkcionalnost opisanu u ovom članku, pregledajte i primijenite potrebne konfiguracije. Dodatne informacija potražite u članku [Omogućivanje materijala koji nisu na zalihi i fakture dobavljača na čekanju](../procurement/configure-materials-nonstocked.md).
 
 Fakture dobavljača u aplikaciji Project Operations, koje se odnose na projekt, knjiže se s pomoću posebnih pravila knjiženja:
 
@@ -34,7 +34,7 @@ Fakture dobavljača u aplikaciji Project Operations, koje se odnose na projekt, 
      > [!NOTE]
      > Pojedinosti fakture dobavljača na platformi Dataverse ne mogu se uređivati.
 
-Pododjeljak za poreze, pododjeljak dobavljača i druga financijska knjiženja bilježe se prema potrebi u Dynamics 365 Finance prilikom knjiženja fakture dobavljača.
+Sporedne računovodstvene knjige za porez, dobavljača i ostala financijska knjiženja evidentiraju se prema potrebi u aplikaciji Dynamics 365 Finance nakon knjiženja fakture dobavljača.
 
 ![Integracija fakture dobavljača.](media/DW7VendorInvoice.png)
 

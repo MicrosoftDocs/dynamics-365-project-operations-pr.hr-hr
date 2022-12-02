@@ -1,6 +1,6 @@
 ---
 title: Rezervacije u odnosu na dodjele
-description: Ovaj članak pruža informacije o razlikama između rezervacija resursa i dodjele resursa.
+description: U ovom se članku navode informacije o razlikama između rezervacija resursa i dodjela resursa.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

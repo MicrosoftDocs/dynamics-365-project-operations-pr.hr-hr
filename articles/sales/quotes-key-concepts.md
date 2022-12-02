@@ -1,6 +1,6 @@
 ---
 title: Ponude – Osnovni koncepti
-description: U ovom se članku nalaze informacije o ponudama za projekte i prodajnim ponudama dostupnim u programima Project Operations.
+description: U ovom se članku nalaze informacije o ponudama projekta i ponudama prodaje koje su dostupne u aplikaciji Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ U aplikaciji Dynamics 365 Project Operations, postoje dvije vrste ponuda: projek
 - **Polja i koncepti**: Ponuda prodaje ne uključuje neka polja i koncepte koji su uključeni u ponudu projekta. Polja uključuju **Ugovornu jedinicu**, **Upravitelja računa** i **Naziv fakture za kontakt**.  
 - **Vrsta**: Ponude prodaje i projekta također se identificiraju poljem koje se temelji na skupu mogućnosti,**Vrsta**. Za prodajnu ponudu, ovo polje ima vrijednost **Na temelju artikla**. Za projektnu ponudu, ona ima vrijednost **Na temelju rada**.
 
-Ovaj se članak usredotočuje na detalje citata projekta.
+U ovom članku usredotočit ćemo se na pojedinosti o ponudama projekta.
 
 Ponuda projekta u aplikaciji Project Operations može imati stavke s više redaka ili retke ponuda. U stvari, projektna ponuda ima dvije rešetke za stavke redaka. Jedna rešetka je za retke temeljene na projektu koji omogućuju detaljne procjene. Druga rešetka je za retke temeljene na proizvodu koje koriste jednostavnu jediničnu cijenu i pristup temeljen na količini.
 

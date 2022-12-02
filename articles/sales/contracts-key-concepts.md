@@ -1,6 +1,6 @@
 ---
 title: Ugovori o projektu – Osnovni koncepti
-description: Ovaj članak pruža informacije o ključnim konceptima projektnih ugovora u projektnim operacijama.
+description: U ovom se članku navode informacije o osnovnim konceptima ugovora o projektu u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 
 
-Ovaj članak sadrži ključne koncepte kojih morate biti svjesni prije nego što počnete koristiti Project ugovore u Dynamics 365 Project Operations:
+U ovom se članku navode ključni koncepti kojih morate biti svjesni prije nego što počnete upotrebljavati ugovore o projektu u aplikaciji Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Tvrtka vlasnik
 
-Vlastito društvo je pravna osoba iz modula upravljanja i računovodstva **projekta** za projektne operacije iz Dynamics 365 Finance. Tvrtka vlasnik pravna je osoba koja će obračunati troškove i prihode koji proizlaze iz posla.
+Tvrtka vlasnica pravna je osoba iz modula **Upravljanje projektima i računovodstvo** za aplikaciju Project Operations iz sustava Dynamics 365 Finance. Tvrtka vlasnik pravna je osoba koja će obračunati troškove i prihode koji proizlaze iz posla.
 
 ## <a name="contracting-unit"></a>Ugovorna jedinica
 

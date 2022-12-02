@@ -1,6 +1,6 @@
 ---
 title: Postavljanje troškova i prodajnih cijena za troškove
-description: U ovom se članku navode informacije o postavljanju troškova i prodajnih stopa za kategorije transakcija i rashoda.
+description: U ovom se članku nalaze informacije o načinu postavljanja troškova i prodajnih cijena za kategorije transakcije i troškova.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

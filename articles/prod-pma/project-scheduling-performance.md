@@ -1,6 +1,6 @@
 ---
 title: Učinkovitost planiranja projektnih resursa
-description: Ovaj članak pruža informacije o tome kako poboljšati performanse zakazivanja resursa za veliki broj projekata.
+description: U ovom članku nalaze se informacije o tome kako poboljšati učinkovitost planiranja resursa za velik broj projekata.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

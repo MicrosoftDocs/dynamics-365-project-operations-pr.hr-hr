@@ -1,6 +1,6 @@
 ---
 title: Ispunjavanje preduvjeta resursa
-description: U ovom se članku nalaze informacije o ispunjavanju zahtjeva resursa.
+description: Ovaj članak pruža informacije o tome kako ispuniti preduvjete resursa.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
