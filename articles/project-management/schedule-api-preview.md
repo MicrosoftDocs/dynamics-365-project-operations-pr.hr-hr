@@ -1,6 +1,6 @@
 ---
 title: Uporaba API-ja rasporeda projekta za izvođenje operacija s entitetima planiranja
-description: U ovom se članku navode informacije i uzorci za korištenje API-ja za raspored projekta.
+description: U ovom se članku nalaze informacije i uzorci za uporabu API-ja rasporeda projekta.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -45,16 +45,16 @@ OperationSet obrazac je jedinice rada koji se može upotrebljavati kada se u tra
 
 Slijedi popis trenutačnih API-ja rasporeda projekta.
 
-| **Api**                                 | Opis                                                                                                                       |
+| **API**                                 | Opis                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | Ovaj se API koristi za stvaranje projekta. Projekt i zadana grupa projekta stvaraju se odmah.                         |
-| **msdyn_CreateTeamMemberV1**            | Ovaj API koristi se za stvaranje člana projektnog tima. Zapis člana tima stvara se odmah.                                  |
-| **msdyn_CreateOperationSetV1**          | Ovaj se API koristi za zakazivanje nekoliko zahtjeva koji se moraju izvršiti unutar transakcije.                                        |
-| **msdyn_PssCreateV1**                   | Ovaj API koristi se za stvaranje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju stvaranja. |
-| **msdyn_PssUpdateV1**                   | Ovaj API koristi se za ažuriranje entiteta. Entitet može biti bilo koji entitet za raspoređivanje projekata koji podržava operaciju ažuriranja  |
-| **msdyn_PssDeleteV1**                   | Ovaj API koristi se za brisanje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju brisanja. |
-| **msdyn_ExecuteOperationSetV1**         | Ovaj se API koristi za izvršavanje svih operacija unutar zadanog skupa operacija.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | Ovaj se API koristi za ažuriranje planirane radne konture dodjele resursa.                                                        |
+| **msdyn_CreateProjectV1**               | Ovaj se API upotrebljava za izradu projekta. Projekt i zadana grupa projekata odmah se izrađuju.                         |
+| **msdyn_CreateTeamMemberV1**            | Ovaj se API upotrebljava za izradu člana tima projekta. Zapis člana tima stvara se odmah.                                  |
+| **msdyn_CreateOperationSetV1**          | Ovaj se API upotrebljava kako bi se napravio raspored za nekoliko zahtjeva koji se moraju izvršiti unutar transakcije.                                        |
+| **msdyn_PssCreateV1**                   | Ovaj se API upotrebljava za izradu entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju stvaranja. |
+| **msdyn_PssUpdateV1**                   | Ovaj se API upotrebljava za ažuriranje entiteta. Entitet može biti bilo koji entitet rasporeda projekta koji podržava operaciju ažuriranja  |
+| **msdyn_PssDeleteV1**                   | Ovaj se API upotrebljava za brisanje entiteta. Entitet može biti svaki entitet rasporeda projekta koji podržava operaciju brisanja. |
+| **msdyn_ExecuteOperationSetV1**         | Ovaj se API upotrebljava za izvršavanje svih operacija unutar zadanog skupa operacija.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Ovaj se API upotrebljava za ažuriranje planirane konture rada za dodjelu resursa.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Kako se oba zapisa, i **CreateProjectV1** i **reateTeamMemberV1**, stvaraju odma
 
 | **Entitet planiranja**   | **Stvaranje** | **Ažuriranje** | **Izbriši** | **Važne stavke**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Projektni zadatak            | Jest        | Jest        | Jest        | Polja **Progress**, **EffortCompleted** i **EffortRemaining** mogu se uređivati u programu Project za web, ali se ne mogu uređivati u operacijama projekta.                                                                                                                                                                                             |
-| Ovisnost projektnog zadatka | Jest        | No         | Jest        | Zapisi ovisnosti projektnog zadatka ne ažuriraju se. Umjesto toga, stari zapis se može izbrisati i stvoriti novi zapis.                                                                                                                                                                                                                                 |
-| Dodjela resursa     | Jest        | Jest\*      | Jest        | Nisu podržane operacije sa sljedećim poljima: **ID resursa koji se može rezervirati**, **Rad**, **Rad dovršen**, **Preostali rad** i **Planirani rad**. Zapisi o dodjeli resursa ne ažuriraju se. Umjesto toga, stari zapis se može izbrisati i stvoriti novi zapis. Izdan je poseban API za ažuriranje kontura dodjele resursa. |
-| Grupa projekata          | Jest        | Jest        | Jest        | Zadana grupa stvara se pomoću API-ja **CreateProjectV1**. Podrška za stvaranje i brisanje projektnih grupa dodana je u Update Release 16.                                                                                                                                                                                                   |
+| Projektni zadatak            | Jest        | Jest        | Jest        | Polja **Progress**, **EffortCompleted** i **EffortRemaining** mogu se uređivati u aplikaciji Project for the Web, ali ne mogu se uređivati u aplikaciji Project Operations.                                                                                                                                                                                             |
+| Ovisnost projektnog zadatka | Jest        | No         | Jest        | Zapisi ovisnosti projektnog zadatka ne ažuriraju se. Umjesto toga se može izbrisati stari zapis i izraditi novi.                                                                                                                                                                                                                                 |
+| Dodjela resursa     | Jest        | Jest\*      | Jest        | Nisu podržane operacije sa sljedećim poljima: **ID resursa koji se može rezervirati**, **Rad**, **Rad dovršen**, **Preostali rad** i **Planirani rad**. Zapisi o dodjeli resursa ne ažuriraju se. Umjesto toga se može izbrisati stari zapis i izraditi novi. Osiguran je odvojeni API za ažuriranje kontura za dodjelu resursa. |
+| Grupa projekata          | Jest        | Jest        | Jest        | Zadana grupa izrađuje se s pomoću API-ja **CreateProjectV1**. Podrška za izradu i brisanje grupa projekata dodana je u 16. izdanju ažuriranja.                                                                                                                                                                                                   |
 | Član projektnog tima     | Jest        | Jest        | Jest        | Za operaciju stvaranja upotrijebite API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
 | Project                 | Jest        | Jest        |            | Nisu podržane operacije sa sljedećim poljima: **Šifra države**, **Stanje skupnog generiranja**, **Token globalne revizije**, **ID kalendara**, **Rad**, **Rad dovršen**, **Preostali rad**, **Napredak**, **Završi**, **Najraniji početak zadatka** i **Trajanje**.                                                                                       |
 | Popisi za provjeru projekta      | Jest        | Jest        | Jest        |                                                                                                                                                                                                                                                                                                                                                         |
-| Oznaka projekta           | No         | Jest        | No         | Nazivi naljepnica mogu se mijenjati. Ova je značajka dostupna samo za Project za Web                                                                                                                                                                                                                                                                      |
-| Projektni zadatak za označavanje   | Jest        | No         | Jest        | Ova je značajka dostupna samo za Project za Web                                                                                                                                                                                                                                                                                                  |
-| Sprint projekta          | Jest        | Jest        | Jest        | Polje **Start** mora imati datum raniji **od polja Završi**. Sprintevi za isti projekt ne mogu se međusobno preklapati. Ova je značajka dostupna samo za Project za Web                                                                                                                                                                    |
+| Oznaka projekta           | No         | Jest        | No         | Nazivi oznaka mogu se mijenjati. Ta je značajka dostupna isključivo za Project for the Web                                                                                                                                                                                                                                                                      |
+| Projektni zadatak za označavanje   | Jest        | No         | Jest        | Ta je značajka dostupna isključivo za Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Sprint projekta          | Jest        | Jest        | Jest        | Polje **Početak** mora sadržavati raniji datum od polja **Završetak**. Sprintovi za isti projekt ne smiju se međusobno preklapati. Ta je značajka dostupna isključivo za Project for the Web                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ Svojstvo ID-a nije obvezno. Ako je omogućeno, sustav ga pokušava upotrijebiti 
 
 Slijedi popis ograničenja i poznatih problema:
 
--   API-je za planiranje projekta mogu koristiti samo korisnici s licencom **za** Microsoft Project. Ne mogu ih upotrebljavati:
+-   API-je rasporeda projekta mogu upotrebljavati samo **Korisnici s licencom za aplikaciju Microsoft Project**. Ne mogu ih upotrebljavati:
     -   Korisnici aplikacije
     -   Korisnici sustava
     -   Korisnici integracije
@@ -94,37 +94,37 @@ Slijedi popis ograničenja i poznatih problema:
 -   Svaki **Skup operacija** može imati najviše 100 operacija.
 -   Svaki korisnik može imati najviše 10 otvorenih **Skupova operacija**.
 -   Project Operations trenutačno podržava maksimalno 500 ukupnih zadataka na projektu.
--   Svaka operacija konture dodjele resursa ažuriranja računa se kao jedna operacija.
--   Svaki popis ažuriranih kontura može sadržavati najviše 100 vremenskih isječaka.
+-   Svaka operacija ažuriranja konture za dodjelu resursa računa se kao jedna operacija.
+-   Svaki popis ažuriranih kontura može sadržavati najviše 100 isječaka vremena.
 -   Stanje neuspjeha i dnevnici stanja značajke **Skup operacija** trenutačno nisu dostupni.
--   Postoji najviše 400 sprinteva po projektu.
+-   Projekt može imati maksimalno 400 sprintova.
 -   [Ograničenja i granice projekata i zadataka](/project-for-the-web/project-for-the-web-limits-and-boundaries).
--   Oznake su trenutno dostupne samo za Project za Web.
+-   Oznake su trenutačno dostupne samo za Project for the Web.
 
 **Rukovanje pogreškama**
 
 -   Kako biste pregledali pogreške generirane iz skupova operacija, idite na **Postavke** \> **Raspored integracije** \> **Skupovi operacija**.
 -   Kako biste pregledali pogreške generirane iz Usluge rasporeda projekta, idite na **Postavke** \> **Integracija rasporeda** \> **Dnevnici pogrešaka PSS-a**.
 
-**Uređivanje kontura dodjele resursa**
+**Uređivanje kontura za dodjelu resursa**
 
-Za razliku od svih ostalih API-ja za planiranje projekata koji ažuriraju entitet, API konture dodjele resursa odgovoran je isključivo za ažuriranja jednog polja, msdyn_plannedwork, na jednom entitetu, msydn_resourceassignment.
+Za razliku od svih drugih API-ja za planiranje projekta koji ažuriraju entitet, API konture za dodjelu resursa isključivo je odgovoran za ažuriranja jednog polja, tj. msdyn_plannedwork, na jednom entitetu, tj. msydn_resourceassignment.
 
 Zadani način rasporeda je:
 
 -   **fiksne jedinice**
--   Kalendar projekta je 9-5p je 9-5pst, pon, uto, čet, petak (NEMA RADA SRIJEDOM)
--   A kalendar resursa je 9-1p PST pon do pet
+-   kalendar projekta: 9-17, tj. 9-17pst, pon, uto, čet, petak (BEZ RADNE SRIJEDE)
+-   a kalendar resursa je 9-13 PST od ponedjeljka do petka
 
-Ovaj zadatak je za tjedan dana, četiri sata dnevno. To je zato što je kalendar resursa od 9-1 PST ili četiri sata dnevno.
+Ova dodjela vrijedi samo jedan tjedan, četiri sata dnevno. To je zato što kalendar resursa ima format od 9-13 PST, tj. četiri sata dnevno.
 
-| &nbsp;     | Zadatak | Datum početka | Datum završetka  | Količina | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Zadatak | Datum početka | Datum završetka  | Količina | 13. 6. 2022. | 14. 6. 2022. | 15. 6. 2022. | 16. 6. 2022. | 17. 6. 2022. |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 radnik |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| radnik koji radi od 9-13 |  T1  | 13. 6. 2022.  | 17. 6. 2022. | 20       | 4         | 4         | 4         | 4         | 4         |
 
-Na primjer, ako želite da radnik radi samo tri sata svaki dan ovaj tjedan i dopusti jedan sat za druge zadatke.
+Na primjer, ako želite da radnik ovaj tjedan radi samo tri sata dnevno i ostaviti jedan sat za druge zadatke.
 
-#### <a name="updatedcontours-sample-payload"></a>Korisni teret uzorka UpdatedContours:
+#### <a name="updatedcontours-sample-payload"></a>Uzorak korisnih podataka UpdatedContours:
 
 ```json
 [{
@@ -138,11 +138,11 @@ Na primjer, ako želite da radnik radi samo tri sata svaki dan ovaj tjedan i dop
 }]
 ```
 
-Ovo je zadatak nakon pokretanja API-ja rasporeda konture ažuriranja.
+Ovo je dodjela nakon pokretanja API-ja ažuriranja konture za raspored.
 
-| &nbsp;     | Zadatak | Datum početka | Datum završetka  | Količina | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Zadatak | Datum početka | Datum završetka  | Količina | 13. 6. 2022. | 14. 6. 2022. | 15. 6. 2022. | 16. 6. 2022. | 17. 6. 2022. |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 radnik | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| radnik koji radi od 9-13 | T1   | 13. 6. 2022.  | 17. 6. 2022. | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Primjer scenarija**

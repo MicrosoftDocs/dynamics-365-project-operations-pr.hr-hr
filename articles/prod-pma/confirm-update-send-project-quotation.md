@@ -1,6 +1,6 @@
 ---
 title: Potvrda, ažuriranje i slanje ponude za projekt
-description: U ovom se članku nalaze informacije o slanju ponude kupcu na potvrdu, izmjeni na temelju povratnih informacija, a zatim ponovnom slanju ponude.
+description: U ovom se članku navode informacije o slanju ponude klijentu na potvrdu, izmjeni na temelju povratnih informacija i zatim ponovnom slanju ponude.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

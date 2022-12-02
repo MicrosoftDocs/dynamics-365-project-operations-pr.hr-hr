@@ -1,6 +1,6 @@
 ---
 title: Upravljanje projektnim prilikama
-description: U ovom se članku nalaze informacije o tome kako raditi s prilikama koje se odnose na projekte.
+description: U ovom se članku navode informacije o načinu rada s prilikama koje su povezane s projektima.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Projektne tvrtke obično imaju svoje načine funkcioniranja pri isporuci u više zemalja i zemljopisnih područja. Troškovi izvršenja i isporuke projekta mogu se razlikovati ovisno o tome koje zemljopisno područje ili sektor upravlja isporukom. Zauzvrat, to može utjecati na marže posla. Dostava projektnih usluga obično uključuje velike količine vremena koje troše ljudski resursi, značajne troškove putovanja, materijalne troškove i druge troškove.
 
-Prilike koje se temelje na projektu u aplikaciji Dynamics 365 Project Operations dizajnirane su s proširenjima za aplikaciju Dynamics 365 Sales. U članku su navedeni detalji o različitim poljima i poslovnoj logici uključenoj u dodatne funkcije koje tvrtke temeljene na projektima zahtijevaju za upravljanje mogućnostima temeljenim na projektima.
+Prilike koje se temelje na projektu u aplikaciji Dynamics 365 Project Operations dizajnirane su s proširenjima za aplikaciju Dynamics 365 Sales. U ovom se članku navode pojedinosti o različitim poljima i poslovnoj logici koja je uključena u dodatnu funkcionalnost koja je potrebna tvrtkama koje se temelje na projektima za upravljanje projektnim mogućnostima.
 
 ## <a name="view-all-project-based-opportunities"></a>Prikaz svih projektnih prilika
 

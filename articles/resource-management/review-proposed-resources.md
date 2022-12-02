@@ -1,6 +1,6 @@
 ---
 title: Pregledavanje predloženih resursa
-description: Ovaj članak sadrži informacije o tome kako predložiti resurse projekta.
+description: Ovaj članak pruža informacije o tome kako predložiti resurse projekta.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -40,8 +40,8 @@ Kako biste pregledali predložene resurse, slijedite ove korake:
     Pojavljuju se sljedeća ažuriranja statusa:
 
     - Na stranici **Pomoćnik za raspored** pokazatelji statusa ažuriraju se kako bi bilo jasno da je rezervacija predložena, a ne fiksno rezervirana.
-    - Na zahtjev za resursom pregledavatelj zahtjeva trebao bi promijeniti status **u Pregled potreba**.
-    - **Na kartici Tim** projekta vrijednost statusa **zahtjeva** generičkog člana tima automatski se mijenja u **Pregled potreba**.
+    - Na zahtjevu za resurs pregledatelj zahtjeva treba promijeniti status u **Potreban pregled**.
+    - Na kartici **Tim** projekta vrijednost **Status zahtjeva** generičkog člana tima automatski se mijenja u **Potreban pregled**.
 
 Voditelj projekta može prihvatiti ili odbaciti prijedlog.
 

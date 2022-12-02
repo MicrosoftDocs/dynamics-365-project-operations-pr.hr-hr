@@ -17,7 +17,7 @@ ms.locfileid: "8931459"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovom se članku opisuju parametri koji kontroliraju opće ponašanje u upravljanju troškovima.
+U ovom se članku opisuju parametri kontrole općeg ponašanja u upravljanju troškovima.
 
 ## <a name="general"></a>Općenito
 

@@ -1,6 +1,6 @@
 ---
 title: Ažuriranje aplikacije Project Operations u vašem okruženju aplikacije Financije
-description: U ovom se članku nalaze informacije o ažuriranju operacija projekta u Dynamics 365 Finance okruženju.
+description: U ovom se članku pružaju informacije o načinu ažuriranja aplikacije Project Operations u okruženju aplikacije Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030026"
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
 
-U ovom se članku nalaze informacije o ažuriranju Dynamics 365 Project Operations u Dynamics 365 Finance okruženju. Tri su postupka potrebna za ažuriranje aplikacije Project Operations na Ažuriranje 5 (UR5):
+U ovom se članku pružaju informacije o načinu ažuriranja aplikacije Dynamics 365 Project Operations u okruženju aplikacije Dynamics 365 Finance. Tri su postupka potrebna za ažuriranje aplikacije Project Operations na Ažuriranje 5 (UR5):
 
 - [Uvezite paket u pretpregled svojeg projekta](#import)
 - [Primjena ažuriranja](#apply)
@@ -119,7 +119,7 @@ Sljedeća ažuriranja sigurnosnih ovlasti za entitete potrebna su kao dio ažuri
 4. Na stranici **Verzija karte tablice** primijenite novu verziju karte na svaki od tri entiteta.
 5. Na stranici **Dvostruko pisanje** odaberite Pokreni za ponovno pokretanje karti.
 6. S popisa karti odaberite kartu **Knjiga (msdyn_ledgers)** sa svim preduvjetima i odaberite potvrdni okvir **Početna sinkronizacija**. 
-7. U polju Matrica za početnu **sinkronizaciju** odaberite **Aplikacije** za financije i operacije, a zatim **Pokreni**.
+7. U polju **Glavni za početnu sinkronizaciju** odaberite **Aplikacije za financije i operacije**, a zatim odaberite **Pokreni**.
  
  ![Sinkronizacija karte knjige.](media/DW6.png)
  

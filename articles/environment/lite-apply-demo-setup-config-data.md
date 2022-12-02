@@ -1,6 +1,6 @@
 ---
 title: Primjena probnog postavljanja i konfiguracija podataka – jednostavno
-description: U ovom se članku nalaze informacije o primjeni podataka o postavljanju demoa i konfiguraciji za operacije projekta.
+description: U ovom se članku navode informacije o načinu primjene pokaznih postavki i konfiguracijskih podataka za aplikaciju Project Operations.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
 ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: hr-HR
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9409968"
@@ -21,7 +21,7 @@ _**Jednostavna implementacija – od sklapanja posla do predračuna_
 
 ## <a name="prerequisites"></a>Preduvjeti
 
-Da biste započeli konfiguraciju, morate imati Dataverse okruženje dodijeljeno za Dynamics 365 Project Operations.
+Prije nego započnete konfiguriranje, morate imati okruženje platforme Dataverse pripremljeno za aplikaciju Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Upute

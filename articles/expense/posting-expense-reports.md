@@ -1,6 +1,6 @@
 ---
 title: Objavljivanje izvješća o izdatku
-description: U ovom se članku objašnjava kako knjižiti izvješća o troškovima.
+description: U ovom se članku objašnjava način knjiženja izvješća o troškovima.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ Kako biste knjižili izvješće o troškovima, na stranici **Odobrena izvješća
 
 Također možete istodobno knjižiti sva izvješća o troškovima na popisu. Odaberite sva izvješća o troškovima, a zatim odaberite **Knjiži**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Omogući značajku Mogućnost knjiženja obveze prema troškovima u valuti dobavljača za način gotovinskog plaćanja
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Omogućivanje Mogućnosti knjiženja obveze troškova u valuti dobavljača za značajku gotovinskog načina plaćanja
 
-Značajka Mogućnost knjiženja **obveze prema troškovima u valuti dobavljača za način** gotovinskog plaćanja omogućuje knjiženje izvješća o troškovima u valuti dobavljača za način plaćanja gotovinom.
+Značajka **Mogućnost knjiženja obveza za troškove u valuti dobavljača za način gotovinskog plaćanja** omogućuje knjiženje izvješća o troškovima u valuti dobavljača za način gotovinskog plaćanja.
 
-Trenutno, kada podnosite novčane troškove, izvješća o troškovima knjiže se u računovodstvenoj valuti. Zbog konverzije iznosa između valute transakcije, računovodstvene valute i valute dobavljača dobavljačima se isplaćuje netočan iznos ako datum transakcije rashoda i stvarni datum plaćanja imaju različite tečajeve.
+Kada podnosite gotovinske troškove, izvješća o troškovima trenutačno se knjiže u računovodstvenoj valuti. Zbog pretvorbe iznosa valute transakcije, obračunske valute i valute dobavljača dobavljačima se plaća netočan iznos ako su tečajevi na datum transakcije troška i stvarni datum plaćanja različiti.
 
-Ova će značajka osigurati da se saldo dobavljača bilježi u valuti dobavljača prilikom knjiženja izvješća o troškovima.
+Ova će značajka osigurati da se saldo dobavljača knjiži u valuti dobavljača kada se knjiži izvješće o troškovima.
 
 1. Idite na **Radni prostori** \> **Upravljanje značajkama**.
-2. Na popisu pronađite i odaberite **Mogućnost knjiženja obveze troška u valuti dobavljača za način plaćanja gotovinom**, a zatim odaberite **Omogući odmah**.
+2. Na popisu pronađite i odaberite **Mogućnost knjiženja obveza za troškove u valuti dobavljača za način gotovinskog plaćanja**, a zatim odaberite **Omogući sada**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

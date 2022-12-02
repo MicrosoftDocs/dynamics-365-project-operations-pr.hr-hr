@@ -1,6 +1,6 @@
 ---
 title: Poništi prethodno odobrene unose vremena i troškova
-description: U ovom se članku navode informacije o otkazivanju odobrene transakcije vremena i troškova projekta.
+description: U ovom se članku navode informacije o tome kako poništiti odobreno vrijeme projekta i transakciju troška.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Vrste razdoblja
-description: U ovom se članku nalaze informacije o postavljanju vrsta razdoblja za procjenu prihoda.
+description: U ovom članku nalaze se informacije o načinu postavljanja vrsta razdoblja za procjenu prihoda.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930953"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Vrsta razdoblja definira koliko se često procjenjuje prihod od projekta. U ovom se članku nalaze informacije o postavljanju vrsta razdoblja za procjenu prihoda. 
+Vrsta razdoblja definira koliko se često procjenjuje prihod od projekta. U ovom članku nalaze se informacije o načinu postavljanja vrsta razdoblja za procjenu prihoda. 
 
 ## <a name="create-and-work-with-period-types"></a>Stvaranje vrsta razdoblja i rad s njima
 Kako biste stvorili vrste razdoblja i radili s njima, poduzmite sljedeće korake:
 
-1. U okruženju Dynamics 365 Finance otvorite **Vrste razdoblja procjene postavki** > **upravljanja projektima i računovodstva** > **·** > **·**.
+1. U svom okruženju aplikacije Dynamics 365 Finance idite na **Upravljanje projektima i računovodstvo** > **Postavljanje** > **Procjene** > **Vrste razdoblja**.
 2. Kako biste stvorili novu vrstu razdoblja, odaberite **Novo**. Unesite naziv i opis.
 3. U polje **Učestalost** unesite vrijednost:
 

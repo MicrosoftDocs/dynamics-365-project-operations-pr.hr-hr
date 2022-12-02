@@ -1,6 +1,6 @@
 ---
 title: Sigurnost i odobrenja
-description: U ovom se članku nalaze informacije o sigurnosnom postavljanju za rad s odobrenjima u programu Microsoft Dynamics 365 Project Operations.
+description: U ovom se članku navode informacije o sigurnosnim postavkama za rad s odobrenjima u sustavu Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 08/29/2022
 ms.topic: security
@@ -17,22 +17,22 @@ ms.locfileid: "9709388"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Microsoft Dynamics 365 Project Operations koristi dvije sigurnosne uloge da bi omogućio odobravanje unosa vremena, troškova i materijala:
+Sustav Microsoft Dynamics 365 Project Operations koristi dvije sigurnosne uloge kako bi omogućio odobrenje unosa vremena, troškova i materijala:
 
 - Odobravatelj projekta
 - Administrator odobravatelja projekta
 
 ## <a name="project-approver"></a>Odobravatelj projekta
 
-Da biste odobrili **vrijeme projekta, troškove i stavke materijala, morate imati sigurnosna uloga odobravatelja** projekta. Također morate imati pristup relevantnim povezanim entitetima, kao **što je Project**. Taj pristup može dodijeliti netko tko ima ulogu upravitelja **projekta**. Osim toga, morate biti član tima projekta i označeni kao odobravatelj.
+Sigurnosna uloga **Odobravatelj projekta** mora vam biti dodijeljena da biste mogli odobravati unose vremena, troškova i materijala projekta. Također morate imati pristup relevantnim povezanim entitetima, npr. entitetu **Projekt**. Taj pristup može dodijeliti osoba kojoj je dodijeljena uloga **Voditelj projekta**. Osim toga, morate biti član tima projekta i označeni kao odobravatelj.
 
-Da biste odobrili stavke koje nisu projektne, morate biti upravitelj podnositelja zahtjeva.
+Da biste odobrili unose koji se ne odnose na projekt, morate biti upravitelj podnositelja.
 
 ## <a name="project-approver-admin"></a>Administrator odobravatelja projekta
 
 > [!NOTE]
-> Značajka Skupovi [odobrenja](approval-sets.md) mora biti omogućena da biste mogli koristiti funkciju administratora odobravatelja projekta.
+> Značajka [Skupovi odobrenja](approval-sets.md) mora biti omogućena prije nego što se možete koristiti funkcijom Administrator odobravatelja projekta.
 
-Administrator projekta **sigurnosna** uloga omogućuje korisnicima da zaobiđu pravila i omogućuje odobravanje unosa u svim projektima. Dodjela ove uloge zaobići će logiku provjere valjanosti koja zahtijeva članstvo u timu i označavanje kao odobravatelja. Morate imati pristup relevantnim povezanim tablicama, kao **što je Project**, putem sigurnosnih uloga koje su vam dodijeljene.
+Sigurnosna uloga **Administrator odobravatelja projekta** omogućuje korisnicima zaobilaženje pravila i omogućuje odobravanje unosa u svim projektima. Dodjeljivanjem ove uloge zaobići će se logika provjere valjanosti koja zahtijeva da je osoba član tima te da je označena kao odobravatelj. Morate imati pristup relevantnim povezanim tablicama, kao što je **Projekt**, putem sigurnosnih uloga koje su vam dodijeljene.
 
-Kontekst korisnika SUSTAVA zaobilazi provjere valjanosti na isti način kao i sigurnosna uloga administratora odobravatelja projekta.
+Kontekst korisnika SUSTAVA zaobilazi provjere valjanosti na isti način kao i sigurnosna uloga Administrator odobravatelja projekta.

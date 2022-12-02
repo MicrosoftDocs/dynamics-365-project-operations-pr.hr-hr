@@ -1,6 +1,6 @@
 ---
 title: Konfiguracija kategorija projekta
-description: U ovom se članku nalaze informacije o postavljanju kategorija projekata.
+description: U ovom se članku navode informacije o postavljanju kategorija projekta.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Kategorije transakcija definirane su u modulu Project Operations.
 
 ## <a name="shared-categories"></a>Dijeljene kategorije
 
-Dynamics 365 koristi koncept Zajedničke kategorije za kategorizaciju troškova u različitim aplikacijama, kao što su Dynamics 365 Finance, Dynamics 365 Supply Chain i Dynamics 365 Project Operations. Za svaku stvorenu kategoriju transakcija, Project Operations automatski stvara četiri povezane dijeljene kategorije: Sati, Trošak, Naknade i Stavka. Dijeljene kategorije možete pregledati i prilagoditi odlaskom na stavku **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Kategorije** \> **Dijeljene kategorije**.
+Dynamics 365 upotrebljava koncept dijeljenih kategorija za kategorizaciju troškova u različitim aplikacijama, kao što su Dynamics 365 Finance, Dynamics 365 Supply Chain i Dynamics 365 Project Operations. Za svaku stvorenu kategoriju transakcija, Project Operations automatski stvara četiri povezane dijeljene kategorije: Sati, Trošak, Naknade i Stavka. Dijeljene kategorije možete pregledati i prilagoditi odlaskom na stavku **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Kategorije** \> **Dijeljene kategorije**.
 
 ## <a name="project-categories"></a>Kategorije projekata
 

@@ -1,6 +1,6 @@
 ---
-title: Postupak zakazivanja pretvorbe projekta Automatizacija projektnih usluga u projektne operacije
-description: U ovom se članku daje pregled promjena značajki za Microsoft Dynamics 365 Project Service Automation Dynamics 365 Project Operations.
+title: Proces pretvorbe planiranja projekta Project Service Automation u Project Operations
+description: U ovom članku nalazi se pregled promjena značajki za nadogradnju Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/07/2022
@@ -23,65 +23,65 @@ ms.contentlocale: hr-HR
 ms.lasthandoff: 10/08/2022
 ms.locfileid: "9642559"
 ---
-# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Postupak zakazivanja pretvorbe projekta Automatizacija projektnih usluga u projektne operacije
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Proces pretvorbe planiranja projekta Project Service Automation u Project Operations
 
-Nakon što je projekt uspješno nadograđen s 3.X na Microsoft Dynamics 365 Project Service Automation Lite, uređivanje projektnih zadataka Dynamics 365 Project Operations u strukturi kvara radne mreže zadataka (WBS) nije moguće. Kupci će moći pregledati WBS-ove u mreži za praćenje u kojoj su dodana nova polja kako bi se pružili svi detalji koji se odnose na zadatak. Za projekte u kojima su potrebna uređivanja WBS-a možete selektivno pretvoriti prihvatljive projekte u novi projekt za iskustvo zakazivanja weba.
+Nakon što se projekt uspješno s Microsoft Dynamics 365 Project Service Automation 3.X nadogradi na Dynamics 365 Project Operations Lite, uređivanje projektnih zadataka u strukturnoj analizi rada (WBS) u rešetki zadataka neće biti moguće. Korisnici će moći pregledati WBS-ove u rešetki za praćenje gdje su dodana nova polja kako bi se pružile sve pojedinosti koje se odnose na zadatak. Za projekte za koje je potrebno urediti WBS možete sve prikladne projekte selektivno pretvoriti u novo iskustvo planiranja Project for the Web.
 
-## <a name="project-conversion-process"></a>Postupak pretvorbe projekta
+## <a name="project-conversion-process"></a>Proces pretvorbe projekta
 
-Da biste pretvorili projekt, slijedite ove korake.
+Za pretvorbu projekta pratite sljedeće korake.
 
-1. Otvorite glavnu stranicu projekta i u oknu akcije odaberite **Pretvori**.
-1. U okviru s potvrdnom porukom odaberite **U redu** da biste započeli pretvorbu projekta. Događaju se sljedeće akcije:
+1. Otvorite glavnu stranicu projekta i u oknu Akcija odaberite **Pretvori**.
+1. U okviru potvrdne poruke koji će se prikazati odaberite **U redu** kako biste pokrenuli pretvorbu projekta. Izvršit će se sljedeće akcije:
 
-    1. Traka za poruke koja se pojavljuje na glavnoj stranici projekta kaže: "Raspored projekta se pretvara. Ne možete mijenjati projekt dok se pretvorba ne dovrši."
-    1. Preusmjereni ste na popis projekata.
+    1. U traci za poruke koja se prikazuje na glavnoj stranici projekta navedeno je „Raspored projekta se pretvara. Ne možete mijenjati projekt dok se pretvorba ne završi.”
+    1. Preusmjerit ćete se na popis projekata.
 
-    Nakon dovršetka pretvorbe projekta događaju se sljedeće akcije:
+    Kad pretvorba projekta bude gotova, doći će do sljedećih akcija:
 
-    1. Dodijeljeni voditelj projekta prima obavijest na desnoj strani aplikacije.
-    1. Uklanja se traka za poruke na kojoj se navodi da je pretvorba u tijeku.
-    1. Kartica **Raspored** prikazuje novo iskustvo zakazivanja s programom Project za web. Svaki korisnik koji ima odgovarajuće licence i sigurnosne uloge može urediti WBS.
-    1. Polje modula **za** zakazivanje ažurira se u **Project za web**.
-    1. Gumb **Pretvori** uklanja se iz okna akcije.
+    1. Dodijeljeni voditelj projekta dobit će obavijest na desnoj strani aplikacije.
+    1. U traci za poruke navedeno je da je pretvorba koja je u tijeku uklonjena.
+    1. Na kartici **Raspored** prikazuje prikazuje se novo iskustvo planiranja sa značajkom Project for the Web. Svaki korisnik koji ima odgovarajuće licence i sigurnosne uloge može uređivati WBS.
+    1. Polje **Modul planiranja** ažurirat će se na **Project for the Web**.
+    1. Gumb **Pretvori** uklonjen je iz okna Akcija.
 
 > [!IMPORTANT]
-> Masovna prenamjena projekata nije dopuštena. Svaki pokušaj ažuriranja velikog broja projekata u isto vrijeme bit će zagušen. Ovo ograničenje pomaže osigurati visoke performanse za sve kupce.
+> Skupna konverzija projekata nije dopuštena. Svaki pokušaj ažuriranja mnogo projekata odjednom bit će usporen. To ograničenje omogućuje osiguravanje visokih performansi za sve klijente.
 
-## <a name="manual-tasks-vs-automatic-tasks"></a>Ručni zadaci u odnosu na automatske zadatke
+## <a name="manual-tasks-vs-automatic-tasks"></a>Ručni zadaci naspram automatskih zadataka
 
-Kada se okruženje nadogradi s automatizacije projektnih usluga na projektne operacije, svi zadaci u WBS-u smatraju se automatski zakazanima. Koncept ručno zakazanih zadataka nije dostupan u programu Project za web. Međutim, željeno ponašanje zakazivanja projekata možete definirati pomoću [postavke načina zakazivanja](/project-management/scheduling-modes.md) prilikom stvaranja novih projekata.
+Kada se okruženje s Project Service Automation nadogradi na Project Operations, svi zadaci u WBS-u smatraju se automatski planiranima. Koncept ručno planiranih  zadataka nije dostupan u značajki Project for the Web. Međutim, željeno ponašanje planiranja za svoje projekte možete kada stvarate nove projekte definirati s pomoću postavke [načina planiranja](/project-management/scheduling-modes.md).
 
 ## <a name="restricted-operations-for-pre-conversion-projects"></a>Ograničene operacije za projekte prije pretvorbe
 
-U ovom se odjeljku opisuju funkcionalne razlike koje možete očekivati kada projekti nisu pretvoreni.
+U ovom odjeljku opisane su funkcionalne razlike koje možete očekivati kad projekti još nisu pretvoreni.
 
-### <a name="copy-project"></a>Kopiraj projekt
+### <a name="copy-project"></a>Kopiranje projekta
 
-Operacija Kopiranje **podržana** je samo na pretvorenim projektima. Nadograđene projekte nije moguće kopirati prije pretvorbe.
+Operacija **Kopiraj** podržana je samo za pretvorene projekte. Ažurirani projekti ne mogu se kopirati prije pretvorbe.
 
-### <a name="move-project"></a>Premjesti projekt
+### <a name="move-project"></a>Premještanje projekta
 
-Promjena datuma početka projekta neće razmjerno pomaknuti početak zadataka ako projekt nije pretvoren.
+Promjena datuma početka projekta neće proporcionalno pomaknuti početak zadataka ako projekt nije pretvoren.
 
 ## <a name="frequently-asked-questions"></a>Najčešća pitanja
 
 ### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Koje su razlike između pretvorenih projekata i novih projekata koji se stvaraju nakon dovršetka nadogradnje?
 
-Za projekte koji se pretvaraju nakon nadogradnje okruženja postavit će se zastavica koja upućuje raspored da poštuje samo kalendar projekta. To se ponašanje podudara s ponašanjem u automatizaciji usluge projekta. Međutim, zastavica neće biti postavljena za nove projekte stvorene nakon nadogradnje. Stoga će raspored poštivati radno vrijeme resursa kada su dodijeljeni zadatku.
+Za projekte koji se pretvaraju nakon nadogradnje okruženja postavit će se oznaka koja rasporedu nalaže da se pridržava samo projektnog kalendara. To ponašanje odgovara ponašanju u Project Service Automation. Međutim, zastavica se neće postaviti za nove projekte koji su stvoreni nakon nadogradnje. Stoga će se raspored pridržavati radnog vremena resursa kad su oni dodijeljeni zadatku.
 
-### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Što trebam učiniti ako se projekt ne uspije pretvoriti?
+### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Što trebam učiniti ako pretvorba mojeg projekta ne uspije?
 
-Ako se vaš projekt ne uspije pretvoriti, prvi korak je pregled zapisnika pogrešaka kako biste identificirali uobičajene probleme povezane s vašim WBS-om. Ako zapisnici ne ukazuju na određenu pogrešku na kojoj možete poduzeti mjere, obratite se korisničkoj podršci kako bi se vaš slučaj mogao dalje pregledati.
+Ako se projekt ne uspije pretvoriti, prvi je korak pregledati zapisnike pogrešaka kako bi se prepoznali bilo kakvi uobičajeni problemi koji su povezani s vašim WBS-om. Ako u zapisniku nije navedena specifična pogreška za koju nešto možete poduzeti, obratite se korisničkoj podršci kako bi se vaš slučaj mogao dodatno istražiti.
 
-### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Kako se postupa sa zatvaranjem poduzeća u programu Project za web?
+### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Kako se u Project for the Web rješava zatvaranje poduzeća?
 
-Projekt za web ne poštuje zatvaranje poslovanja koje poduzeće definira na razini organizacije. Međutim, poštovat će druge vrste slobodnih dana koje su definirane u određenom predlošku radnog vremena.
+Project for the Web ne pridržava se zatvaranja poduzeća koja tvrtka definira na razini organizacije. Pridržavat će se, međutim svih drugih vrsta slobodnih dana koji su definirani u odgovarajućem predlošku radnog vremena.
 
-### <a name="what-are-the-limitations-of-project-for-the-web"></a>Koja su ograničenja projekta za web?
+### <a name="what-are-the-limitations-of-project-for-the-web"></a>Koja su ograničenja značajke Project for the Web?
 
-Pročitajte članak [Stvaranje strukture raščlambe](/project-management/create-wbs#project-limitations.md) rada: Ograničenja projekta.
+Pogledajte [Stvaranje strukturne analize rada: ograničenja projekta](/project-management/create-wbs#project-limitations.md).
 
-### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Mogu li očekivati promjene u procjenama troškova i prodaje?
+### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Mogu li očekivati promjene procjene troškova i prodaje?
 
-U rijetkim slučajevima kada se konture dodjele resursa ponovno izračunavaju ili kada padaju na granicu različitog datuma od izvornog projekta, možda ćete vidjeti razlike u procjenama prodaje i troškova. Kao dio postupka nadogradnje, od kupaca se očekuje da testiraju reprezentativni uzorak skupa projekata kako bi mogli razumjeti sve potencijalne promjene rasporeda.
+U rijetkim slučajevima može doći do razlika u procjenama prodaje i troškova pri ponovnom izračunu kontura dodjele resursa ili kad one padnu na različitu datumsku granicu od one izvornog projekta. U sklopu procesa nadogradnje od klijenata se očekuje da testiraju reprezentativni uzorak skupa projekata kako bi razumjeli sve potencijalne promjene rasporeda.

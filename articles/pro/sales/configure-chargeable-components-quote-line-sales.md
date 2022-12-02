@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje naplative komponente retka ponude
-description: U ovom se članku navode informacije o postavljanju komponenti koje se mogu naplatiti i koje se ne mogu naplatiti u retku ponude koji se temelje na projektu.
+description: U ovom se članku navode informacije o postavljanju naplativih i nenaplativih komponenti na retku ponude koji se temelji na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

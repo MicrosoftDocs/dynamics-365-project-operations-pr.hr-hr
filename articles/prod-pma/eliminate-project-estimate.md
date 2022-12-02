@@ -1,6 +1,6 @@
 ---
 title: Uklanjanje procjene projekta
-description: Ovaj članak pruža informacije o uklanjanju procjene projekta nakon što je dovršena.
+description: U ovom se članku navode informacije o uklanjanju procjene projekta nakon što se dovrši.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

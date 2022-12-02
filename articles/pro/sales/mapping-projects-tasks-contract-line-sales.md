@@ -1,6 +1,6 @@
 ---
 title: Mapiranje projekata i zadataka u redak ponude koji se temelji na ugovoru – jednostavno
-description: U ovom se članku nalaze informacije o dodavanju i uklanjanju projekata i zadataka u redak ugovora.
+description: U ovom se članku navode informacije o dodavanju projekata i zadataka u redak ugovora i uklanjanju istih iz retka ugovora.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

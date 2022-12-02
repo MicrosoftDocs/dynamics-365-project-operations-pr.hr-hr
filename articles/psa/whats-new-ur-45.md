@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 45, V3
-description: U ovom se članku navode značajke i popravci dostupni u Microsoft Dynamics 365 Project Service Automation ažuriranju izdanja 45, V3.
+description: U ovom članku navode se značajke i popravci koji su dostupni u aplikaciji Microsoft Dynamics 365 Project Service Automation, izdanje ažuriranja 45, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 07/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9169175"
 
 Zadovoljstvo nam je objaviti najnovije ažuriranje aplikacije Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Kompatibilno je sa sustavom Dynamics 365 9.x. Kako biste ažurirali na ovo izdanje, posjetite stranicu Centar za administratore za rješenja sustava Dynamics 365 na mreži i instalirajte ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za izdanje 45. izdanja ažuriranja automatizacije usluge project servicea, V3. Ova verzija ima broj izdanja V3.10.76.168 i općenito je dostupna putem samostalnog ažuriranja u srpnju 2022. godine.
+U ovom članku navode se značajke i ispravci koji su novi ili izmijenjeni u aplikaciji Project Service Automation, izdanje ažuriranja 45, V3. Ova verzija ima broj izdanja V3.10.76.168 i općenito je dostupna putem samostalnog ažuriranja u srpnju 2022. godine.
 
 ## <a name="update-release-45"></a>Izdanje ažuriranja 45
 
@@ -39,9 +39,9 @@ Popravljeni su sljedeći problemi.
 
 **Prodaje**
 
-- Korisnici ne mogu uspješno kreirati fakture nakon što pokušaju stvoriti fakturu bez ikakve neplaćene prodaje, ako također pregledavaju istu instancu stranice i ne osvježavaju je.
+- Korisnici ne mogu uspješno izraditi fakture nakon što pokušaju izraditi fakturu bez ikakve nenaplaćene prodaje ako također gledaju istu instancu stranice i ne osvježe je.
 
 **Vrijeme i trošak**
 
-- Kada je omogućena moderna odobrenja i odobrenje opozvanog projekta odobreno, faza zapisa pogrešno se ažurira u odobreni **zahtjev za opoziv**.
-- Kada su omogućena moderna odobrenja i tokovi oblaka neaktivni, postupak odobravanja nije uspješan, a korisnici koji podnose ili odobravaju nisu obaviješteni.
+- Kada su Moderna odobrenja omogućena i odobreno je opozvano odobrenje projekta, faza zapisa netočno se ažurira na **Zahtjev za opoziv odobren**.
+- Kada su Moderna odobrenja omogućena, a tok oblaka neaktivan, postupak odobrenja nije uspješan, a korisnici koji podnose ili odobravaju ne dobivaju obavijest.

@@ -1,6 +1,6 @@
 ---
 title: Upravljanje cjenikom dobavljača i nabave u aplikaciji Project Operations
-description: U ovom se članku navode informacije koje će vam pomoći u kreiranju i održavanju podataka o dobavljaču i popisa nabavnih cjenika za podugovaranje.
+description: U ovom članku nalaze se informacije koje će vam pomoći pri stvaranju i održavanju podataka o dobavljačima i nabavnim cjenicima za podugovaranje.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

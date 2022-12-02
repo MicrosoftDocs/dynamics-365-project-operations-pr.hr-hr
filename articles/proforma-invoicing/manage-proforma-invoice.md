@@ -1,6 +1,6 @@
 ---
 title: Upravljanje predračunom koji se temelji na projektu
-description: U ovom se članku nalaze informacije o upravljanju računima temeljenima na proforma projektima i radu s njima.
+description: U ovom se članku navode informacije o načinu upravljanja predračunima koji se temelje na projektu i radu s njima.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

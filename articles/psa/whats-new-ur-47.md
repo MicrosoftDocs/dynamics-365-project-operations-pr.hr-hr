@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 47, V3
-description: U ovom se članku navode značajke i popravci dostupni u Microsoft Dynamics 365 Project Service Automation ažuriranju izdanja 47, V3.
+description: U ovom članku navode se značajke i popravci koji su dostupni u aplikaciji Microsoft Dynamics 365 Project Service Automation, izdanje ažuriranja 47, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9477277"
 
 Zadovoljstvo nam je objaviti najnovije ažuriranje aplikacije Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Kompatibilno je sa sustavom Dynamics 365 9.x. Kako biste ažurirali na ovo izdanje, posjetite stranicu Centar za administratore za rješenja sustava Dynamics 365 na mreži i instalirajte ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za izdanje 45. izdanja ažuriranja automatizacije usluge project servicea, V3. Ova verzija ima broj izdanja V3.10.78.8 i općenito je dostupna putem samostalnog ažuriranja u srpnju 2022. godine.
+U ovom članku navode se značajke i ispravci koji su novi ili izmijenjeni u aplikaciji Project Service Automation, izdanje ažuriranja 45, V3. Ova verzija ima broj izdanja V3.10.78.8 i općenito je dostupna putem samostalnog ažuriranja u srpnju 2022. godine.
 
 ## <a name="update-release-47"></a>Izdanje ažuriranja 47
 
@@ -38,4 +38,4 @@ U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za i
 Popravljeni su sljedeći problemi.
 
 **Upravljanje resursima**
-- Provjera valjanosti ažurirana je kako bi se osiguralo da korisnici ne mogu pokrenuti nultu referentnu iznimku pri pokušaju stvaranja člana projektnog tima bez resursa koji **se može rezervirati**.
+- Provjera valjanosti ažurirana je kako bi se osiguralo da korisnici ne mogu pokrenuti iznimku nulte reference kada pokušavaju stvoriti člana projektnog tima bez **Resursa koji se može rezervirati**.

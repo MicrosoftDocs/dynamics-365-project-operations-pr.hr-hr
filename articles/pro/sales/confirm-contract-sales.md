@@ -1,6 +1,6 @@
 ---
 title: Potvrda ugovora o projektu
-description: U ovom se članku navode informacije o tome kako potvrditi ugovor u projektnim operacijama.
+description: U ovom se članku navode informacije o načinu potvrde ugovora u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

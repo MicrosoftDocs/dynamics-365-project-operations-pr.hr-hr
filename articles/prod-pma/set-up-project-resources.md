@@ -1,6 +1,6 @@
 ---
 title: Postavljanje resursa projekta
-description: U ovom se članku nalaze informacije o postavljanju ili traženju resursa projekta.
+description: U ovom članku nalaze se informacije o načinu postavljanja ili zahtijevanja resursa za projekt.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

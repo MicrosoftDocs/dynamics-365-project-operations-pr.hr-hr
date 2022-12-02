@@ -1,6 +1,6 @@
 ---
 title: Novosti u ožujku 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete dostupnima u izdanju projektnih operacija u ožujku 2021. za scenarije temeljene na resursima/nenaseljenim izvorima.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Project Operations za ožujak 2021. scenarije koji se temelje na resursu / bez zaliha.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9028179"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
 - Project Operations u verziji 4.8.0.91 okruženja platforme Dataverse 
-- Upravljanje projektima i računovodstvo Dynamics 365 Finance okoliš verzije 10.0.16 
+- Upravljanje projektima i računovodstvo u verziji 10.0.16 okruženja aplikacije Dynamics 365 Finance 
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
@@ -42,13 +42,13 @@ Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i
 | Vrijeme i trošak | 2148910 | Ispravljen je problem s prikazom stranice **Uredi unos** u rešetki **Vremenski unos**. |
 | Vrijeme i trošak | 2159798 | Postrožene su kontrole kako bi se osiguralo da se odobreni unosi troškova ne mogu uređivati. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u aplikaciji Dynamics 365 Finance
 
 Dodatne informacije potražite u članku [Novosti u siječnju 2021. – Project Operations za scenarije koji se temelje na resursima / bez zaliha](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Ažuriranja propisa
 
-Informacije o regulatornim ažuriranjima za financijske i operativne aplikacije potražite u članku [Regulatorna ažuriranja](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ažuriranjima jest prijava na LCS i pregledavanje planiranih regulatornih ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+Za informacije o ažuriranjima propisa za aplikacije za financije i operacije pogledajte članak [Ažuriranja propisa](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ažuriranjima jest prijava na LCS i pregledavanje planiranih regulatornih ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

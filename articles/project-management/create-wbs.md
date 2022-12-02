@@ -1,6 +1,6 @@
 ---
 title: Stvaranje strukturne analize rada
-description: U ovom se članku objašnjava kako stvoriti strukturu raščlambe rada (WBS) koja uključuje osnovne kontrole u novom sučelju za zakazivanje.
+description: U ovom se članku objašnjava način izrade strukturne analize rada (work breakdown structure; WBS) koja uključuje osnovne kontrole u novom sučelju za planiranje.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Kako biste uvukli ili promakli zadatak, poduzmite sljedeće korake.
 
 ### <a name="move-tasks-up-and-down"></a>Pomicanje zadataka gore i dolje
 
-Zadaci se mogu premjestiti na bilo koju razinu u strukturi kvara rada na jedan od dva načina:
+Zadaci se mogu premjestiti na bilo koju razinu u strukturnoj analizi rada na jedan od dva načina:
 
 - Odaberite još jedan zadatak i povucite ga na željeno mjesto.
 - Odaberite jedan ili više zadataka, kliknite desnom tipkom miša i odaberite **Izreži**, odaberite odredišnu ćeliju u rasporedu, a zatim desnom tipkom miša kliknite i odaberite **Zalijepi**.
@@ -95,11 +95,11 @@ Kao administrator možete definirati prilagođena polja na entitetu zadatka. Me�
 
 ## <a name="staffing-attributes"></a>Atributi broja djelatnika
 
-Atributima broja djelatnika pristupa se putem polja **Resursi** u rasporedu. Možete pretražiti postojeći resurs ili odabrati **Stvori** i u oknu **Brzo stvaranje** dodati člana projektnog tima kao novi resurs.  Kada tražite resurs pomoću birača resursa u rešetki zadatka, prikazu ploče ili ganttu, pretraživanje vraća postojeće članove projektnog tima ili aktivne resurse koji se mogu rezervirati.
+Atributima broja djelatnika pristupa se putem polja **Resursi** u rasporedu. Možete pretražiti postojeći resurs ili odabrati **Stvori** i u oknu **Brzo stvaranje** dodati člana projektnog tima kao novi resurs.  Kada tražite resurs pomoću alata za odabir resursa u mreži zadataka, prikazu ploče ili ganttu, pretraživanje vraća postojeće članove projektnog tima ili aktivne resurse koji se mogu rezervirati.
 
 Polja **Uloga**, **Jedinica za resurse** i **Naziv položaja** koriste se za opisivanje zahtjeva za broj djelatnika za zadatak. Ti atributi broja djelatnika zajedno s rasporedom zadataka koriste se za pronalaženje dostupnih resursa za taj zadatak.
 
-   - **Uloga**: Navedite vrstu resursa koja je potrebna za izvršenje zadatka.,
+   - **Uloga**: Navedite vrstu resursa koji je potreban za izvršavanje zadatka.
    - **Jedinica za resurse**: Navedite jedinicu iz koje je potrebno dodijeliti resurse za zadatak. Taj atribut utječe na procjenu troška i prodaje za zadatak ako su troškovi i stopa naplate za resurs postavljeni na temelju jedinica za resurse.
    - **Naziv položaja**: Unesite naziv za generički resurs koji služi kao rezervirano mjesto za resurs koji će u konačnici obaviti posao.
 
@@ -113,19 +113,19 @@ Raspored u aplikaciji Project Operations-a možete upotrebljavati za stvaranje o
 
 Način zadatka ne utječe na ažuriranja izvršena na datum početka i datum završetka zadataka prethodnika/ovisnih zadataka.
 
-## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Razumijevanje utjecaja trajanja, kalendara resursa i kalendara projekata na zadatke
-Trajanje zadatka definira se kao broj radnih sati između vremena početka početnog datuma i vremena završetka datuma završetka zadatka.   Projekt za web definira jedinice mjere trajanja na sljedeći način:
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Razumijevanje utjecaja trajanja, kalendara resursa i kalendara projekta na zadatke
+Trajanje zadatka definirano je kao broj radnih sati između vremena početka na datum početka i vremena završetka na datum završetka zadatka.   Project for the Web definira mjerne jedinice trajanja na sljedeći način:
 
-| **Mjera trajanja** | **Količina**|
+| **Mjerna jedinica trajanja** | **Količina**|
 |----------------------------------------------------|----------------------|
-| Satima po danu | 8 |
+| Sati dnevno | 8 |
 | Sati tjedno |  40 |
-| Dani u mjesecu |  20 |
+| Broj dana po mjesecu |  20 |
 
-Nedodijeljeni zadaci zakazuju se pomoću kalendara projekta. Međutim, nakon početne dodjele resursa, zakazivanje zadatka ažurira se tako da poštuje kalendar resursa. Naknadne promjene zadatka koji ima zadatak bit će uređene [načinom](scheduling-modes.md) zakazivanja projekta. Dodatne informacije o utjecaju kalendara na zadatke potražite u članku [Kalendari resursa u programu Project za web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) i [Vrijeme početka zadataka i Vaši projekti!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+Nedodijeljeni zadaci raspoređuju se putem kalendara projekta. Međutim, po početnoj dodjeli resursa raspored zadatka se ažurira tako da poštuje kalendar resursa. Naknadne promjene zadatka koji ima dodjelu bit će regulirane [načinom raspoređivanja](scheduling-modes.md) projekta. Više informacije o utjecaju kalendara na zadatke potražite u člancima [Kalendari resursa u rješenju Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) i [Vremena početka zadatka i vaši projekti!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
-## <a name="accessibility-and-keyboard-shortcuts"></a>Tipkovni prečaci i pristupačnost
+## <a name="accessibility-and-keyboard-shortcuts"></a>Pristupačnost i tipkovni prečaci
 
 Rešetka **Raspored** potpuno je dostupna i može se koristiti s čitačima zaslona kao što su Narrator, JAWS ili NVDA. Možete se kretati područjem rešetke s pomoću tipki sa strelicama (kao u programu Microsoft Excel), možete upotrebljavati tipku Tab za kretanje interaktivnim elementima korisničkog sučelja i možete upotrebljavati tipku sa strelicom dolje, tipku Unos ili razmaknicu za odabir i otvaranje padajućih izbornika.
 
@@ -139,7 +139,7 @@ Ako upotrebljavate strukturna analizu rada u aplikaciji Project Operations, treb
 | Maksimalni ukupni resursi projekta              | 300                  |
 | Maksimalan broj veza (samo slijednik) za projekt | 600                  |
 | Maksimalna ukupna prilagođena polja za projekt          | 1,0                   |
-| Maksimalan broj stavki kontrolnog popisa po zadatku                   | 20                   |
+| Maksimalni broj stavki popisa za provjeru po zadatku                   | 20                   |
 
 **Ograničenja zadatka**
 

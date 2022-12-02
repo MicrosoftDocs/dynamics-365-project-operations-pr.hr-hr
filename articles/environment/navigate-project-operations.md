@@ -1,6 +1,6 @@
 ---
 title: Navigacija aplikacijom Project Operations
-description: U ovom se članku nalaze informacije o pristupu operacijama projekta iz usluga životnog ciklusa.
+description: U ovom se članku navode informacije o načinu pristupa aplikaciji Project Operations iz rješenja Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 Dynamics 365 Project Operations za scenarije temeljene na resursima / bez zaliha sastoji se od dvije komponente: 
 
  - **Projektne operacije u okruženju platforme Common Data Service (CDS)**: Ova komponenta pokriva mogućnosti i postupke od prilike do predračuna. 
- - **Upravljanje projektima i računovodstvo Dynamics 365 Finance okruženju**: ova komponenta pokriva mogućnosti upravljanja troškovima, računovodstvo projekata i priznavanje prihoda. 
+ - **Upravljanje projektom i računovodstvo u okruženju Dynamics 365 Finance**: Ova komponenta pokriva mogućnosti upravljanja troškovima, računovodstvo projekta i priznavanje prihoda. 
 
-Nakon što dodijelite resurse operacijama projekta kako je opisano u ovom članku, stranica s detaljima o **okolišu usluga životnog ciklusa (LCS)** omogućuje jednostavan pristup objema komponentama projektnih operacija.  
+Nakon što aplikaciju Project Operations pripremite na način opisan u ovom članku, stranica **Pojedinosti okruženja** rješenja Lifecycle Services (LCS) omogućuje jednostavan pristup objema komponentama aplikacije Project Operations.  
 
 U odjeljku upotrijebite naziv okruženja, **Naziv okruženja platforme Common Data Service** za navigaciju do aplikacije Project Operations u okruženju platforme CDS. 
 

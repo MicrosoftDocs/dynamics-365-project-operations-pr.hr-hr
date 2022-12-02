@@ -1,6 +1,6 @@
 ---
 title: Redci za proizvode u fakturi dobavljača
-description: U ovom se članku objašnjava kako zabilježiti retke fakture dobavljača za proizvode i koristiti različita polja za bilježenje nabave proizvoda od dobavljača.
+description: U ovom članku objašnjava se način bilježenja redaka fakture dobavljača za proizvode i uporabe različitih polja za bilježenje kupnje proizvoda od dobavljača.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,30 +17,30 @@ ms.locfileid: "9261549"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Faktura dobavljača u Microsoftu Dynamics 365 Project Operations može imati retke fakture dobavljača za proizvode (koji se nazivaju i materijalima). Voditelji projekata mogu koristiti retke fakture dobavljača za proizvode da bi zabilježili troškove proizvoda kupljenih na projektima.
+Faktura dobavljača u aplikaciji Microsoft Dynamics 365 Project Operations može imati retke fakture dobavljača za proizvode (koji se također nazivaju materijalima). Voditelji projekata mogu koristiti retke fakture dobavljača za proizvode kako bi zabilježili troškove proizvoda koji su nabavljeni u projektima.
 
-Reci fakture dobavljača za proizvode mogu se, ali i ne moraju odnositi na redak kooperanta za materijale. Ako se redak fakture dobavljača za proizvode poziva na podugovaranje, voditelji projekata moći će uskladiti i provjeriti proizvode koje fakturira redak fakture dobavljača u odnosu na upotrebu kupljenih proizvoda koje bilježe i odobravaju voditelji projekata.
+Reci fakture dobavljača za proizvode mogu, ali ne moraju upućivati na redak podugovora za materijale. Ako redak fakture dobavljača za proizvode upućuje na podugovor, voditelji projekata moći će usporediti i provjeriti proizvode koje fakturira redak fakture dobavljača s upotrebom kupljenih proizvoda koje su zabilježili i odobrili voditelji projekata.
 
-Sljedeća tablica sadrži informacije o poljima u recima fakture dobavljača za proizvode.
+Tablica u nastavku pruža informacije o poljima u recima fakture dobavljača za proizvode.
 
 | Polje | Opis | Funkcionalni utjecaj |
 | --- | --- | --- |
-| Ime/naziv | Naziv retka fakture dobavljača za pomoć pri identifikaciji. | Taj će naziv biti prikazan kao prvi stupac u svim pretraživanjima koja se temelje na recima fakture dobavljača. |
+| Ime/naziv | Naziv retka fakture dobavljača za pomoć pri identifikaciji. | Taj naziv prikazivat će se kao prvi stupac u svim pretraživanjima koja se temelje na recima fakture dobavljača. |
 | Opis | Kratak opis proizvoda koje dobavljač fakturira u retku fakture dobavljača. | Nijedno |
-| Podugovor | Podugovor na kojem su proizvodi izvorno naručeni. | Kada je za fakturu dobavljača odabran kooperant, svi reci na fakturi dobavljača naslijedit će taj odabir. Faktura dobavljača ne može imati retke fakture dobavljača koji se odnose na različite kooperante. |
-| Redak kooperacije | Linija podugovaranja na kojoj su proizvodi naručeni. Popis redaka kooperanta koji se mogu odabrati ograničen je na retke na odabranom kooperantu. | Kada je redak kooperanta odabran u retku fakture dobavljača za proizvode, zadane vrijednosti za **polja Projekt**, **Zadatak** i **Proizvod** unose se iz odgovarajućih polja u retku kooperanta. Ako odabrani redak kooperanta ima vrijednosti u poljima Projekt **,** Zadatak **i** Proizvod **, vrijednosti odgovarajućih polja u** retku fakture dobavljača ne mogu se razlikovati od tih vrijednosti. |
-| Datum transakcije | Datum kada će se na projektu zabilježiti stvarni trošak retka fakture dobavljača. | Nijedno|
-| Razred transakcije | Kada se proizvodi fakturiraju, ovo bi polje trebalo postaviti na **Materijal**. | Vrijednost **Materijal** pokazuje da se redak fakture dobavljača koristi za bilježenje iznosa fakture za kupljene materijale. |
-| Project | Naziv projekta na kojem su korišteni proizvodi koji se fakturiraju. | Ovo je polje obavezno i ne može se ostaviti praznim. |
-| Zadatak | Naziv projektnog zadatka na kojem su korišteni proizvodi koji se fakturiraju. Ovo je polje dostupno samo ako je odabran projekt. Odabir projektnog zadatka nije obavezan. | Ako ovo polje ostane prazno, voditelj projekta može uskladiti redak fakture dobavljača s kupljenim proizvodom koji se koristi za bilo koji zadatak projekta. Ako se redak fakture dobavljača ne odnosi na redak kooperanta, a to polje ostaje prazno, stvarni trošak kreiran retkom fakture dobavljača neće biti povezan ni s jednom nenaplaćenom stvarnom prodajom. U tom slučaju, ako je postavljena naplata na temelju zadataka, troškovi se neće moći fakturirati krajnjem kupcu. |
-| Odaberi proizvod | Odaberite je li proizvod koji se fakturira postojeći proizvod iz kataloga ili dopisani proizvod. | Zadana vrijednost unosi se iz retka kooperanta kada je odabran redak kooperanta. |
-| Proizvod | Odaberite proizvod iz kataloga. Ako je proizvod dopisani proizvod, unesite naziv proizvoda. | Ovo se polje koristi za unos zadanih nabavnih cijena za postojeće proizvode. |
-| Količina | Unesite količinu materijala koju dobavljač fakturira u ovom retku fakture. | Nijedno |
-| Grupa jedinica | Odaberite grupu jedinica u kojoj je izražena količina koja se fakturira. | Nijedno |
-| Jedinica | Zadana vrijednost je osnovna jedinica odabrane grupe jedinica. Tu vrijednost možete promijeniti tako da plati u bilo kojoj jedinici odabrane grupe jedinica. | Kombinacija vrijednosti Proizvoda i Jedinice koristit će se kao zadana **ili izračunata vrijednost za** polje Jedinična cijena **u retku fakture dobavljača.** **·** |
-| Jedinična cijena | Zadana jedinična **cijena koristi kombinaciju vrijednosti Proizvoda** i **Jedinice** iz cjenika projekta koja se primjenjuje na datum transakcije retka fakture dobavljača. | Nijedno |
-| Podzbroj | Ovo polje samo za čitanje izračunava se kao *Jedinična cijena* količine&times;*ako* su vrijednosti unesene **i u polje Količina** i u polje Jedinična **cijena.** Ako su jedno ili oba polja prazna, u ovo polje možete unijeti vrijednost. | Nijedno |
+| Podugovor | Podugovor na temelju kojeg su proizvodi izvorno naručeni. | Kada se za fakturu dobavljača odabere podugovor, svi reci na fakturi dobavljača naslijedit će taj odabir. Faktura dobavljača ne može sadržavati retke fakture dobavljača koji upućuju na različite podugovore. |
+| Redak podugovora | Redak podugovora na temelju kojeg su proizvodi naručeni. Popis redaka podugovora koje je moguće odabrati ograničen je na retke na odabranom podugovoru. | Kada je redak podugovora odabran u retku fakture dobavljača za proizvode, zadane vrijednosti za polja **Projekt**, **Zadatak** i **Proizvod** unose se iz odgovarajućih polja u retku podugovora. Ako odabrani redak podugovora ima vrijednosti u poljima **Projekt**, **Zadatak** i **Proizvod**, vrijednosti odgovarajućih polja u retku fakture dobavljača ne mogu se razlikovati od tih vrijednosti. |
+| Datum transakcije | Datum kada će stvarni trošak retka fakture dobavljača biti zabilježen u projektu. | Nijedno|
+| Razred transakcije | Kada se proizvodi fakturiraju, ovo polje treba postaviti na **Materijal**. | Vrijednost **Materijal** označava da se redak fakture dobavljača koristi za bilježenje iznosa fakture za materijale koji su nabavljeni. |
+| Project | Naziv projekta u kojem su korišteni proizvodi koji se fakturiraju. | To je polje obavezno i ne smije se ostaviti prazno. |
+| Zadatak | Naziv projektnog zadatka u kojem su korišteni proizvodi koji se fakturiraju. To polje dostupno je samo ako je odabran projekt. Odabir projektnog zadatka nije obavezan. | Ako se to polje ostavi praznim, voditelj projekta može povezati redak fakture dobavljača s nabavljenim proizvodom koji se koristi u bilo kojem zadatku projekta. Ako redak fakture dobavljača ne upućuje na redak podugovora, a to polje je ostavljeno prazno, stvarni trošak koji je kreirao redak fakture dobavljača neće biti povezan ni s kojom nenaplaćenom stvarnom prodajom. U tom slučaju, ako je postavljena naplata na temelju zadataka, troškovi se neće moći fakturirati krajnjem kupcu. |
+| Odaberi proizvod | Odaberite je li proizvod koji se fakturira postojeći proizvod u katalogu ili dopisani proizvod. | Zadana vrijednost unosi se iz retka podugovora kada se odabere redak podugovora. |
+| Proizvod | Odaberite proizvod iz kataloga Unesite proizvod dopisan, unesite naziv prizvoda. | Ovo polje koristi se za unos zadanih nabavnih cijena za postojeće proizvode. |
+| Količina | Unesite količinu koju dobavljač fakturira u ovom retku fakture. | Nijedno |
+| Grupa jedinica | Odaberite grupu jedinica jedinice u kojoj je izražena količina koja se fakturira. | Nijedno |
+| Jedinica | Zadana vrijednost je osnovna jedinica odabrane grupe jedinica. Tu vrijednost možete promijeniti za kupnju u bilo kojoj jedinici odabrane grupe jedinica. | Kombinacija vrijednosti **Proizvod** i **Jedinica** upotrebljavat će se kao zadana ili izračunana vrijednost za polje **Jedinična cijena** u retku fakture dobavljača. |
+| Jedinična cijena | Zadana jedinična cijena koristi kombinaciju vrijednosti **Proizvod** i **Jedinica** iz cjenika projekta koja je primjenjiva na datum transakcije retka fakture dobavljača. | Nijedno |
+| Podzbroj | To je polje samo za čitanje koje se izračunava kao *Količina* &times; *Jedinična cijena* ako su unesene vrijednosti u polja **Količina** i **Jedinična cijena**. Ako su jedno ili oba polja prazna, možete unijeti vrijednost u to polje. | Nijedno |
 | Porez na promet | Unesite iznos poreza na prodaju. | Nijedno |
-| Ukupan iznos | Ukupan iznos retka fakture dobavljača, uključujući poreze. Ovo se polje izračunava kao *porez na promet podzbroja* + *·*. | Nijedno |
+| Ukupni iznos | Ukupni iznos retka fakture dobavljača, uključujući porez. To polje izračunava se kao *Međuzbroj* + *Porez na promet*. | Nijedno |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

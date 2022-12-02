@@ -1,6 +1,6 @@
 ---
 title: Upravljanje statusom koji se ne smije premašiti i provjerama valjanosti
-description: U ovom se članku navode informacije o graničnim provjerama koje se ne smiju prekoračiti u projektnim operacijama.
+description: U ovom se članku navode informacije o provjeri ograničenja koja se ne smiju prekoračiti u aplikaciji Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

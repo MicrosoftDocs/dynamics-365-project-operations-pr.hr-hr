@@ -1,6 +1,6 @@
 ---
-title: Sinkronizacija stvarnih projekata izravno iz automatizacije projektnih usluga u temeljnicu integracije projekta za knjiženje u financijama i operacijama
-description: U ovom se članku opisuju predlošci i temeljni zadaci koji se koriste za sinkronizaciju stvarnih projekata izravno iz Microsoft Dynamics 365 Project Service Automation financija i operacija.
+title: Sinkronizirajte stvarne podatke o projektu izravno iz rješenja Project Service Automation u dnevnik integracije projekta za knjiženje u financijama i operacijama
+description: U ovom se članku opisuju predlošci i temeljni zadaci koji se upotrebljavaju za sinkronizaciju stvarnih podataka o projektu izravno iz sustava Microsoft Dynamics 365 Project Service Automation u financije i operacije.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: hr-HR
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028969"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinkronizacija stvarnih projekata izravno iz automatizacije projektnih usluga u temeljnicu integracije projekta za knjiženje u financijama i operacijama
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinkronizirajte stvarne podatke o projektu izravno iz rješenja Project Service Automation u dnevnik integracije projekta za knjiženje u financijama i operacijama
 
 [!include[banner](../includes/banner.md)]
 
-U ovom se članku opisuju predlošci i temeljni zadaci koji se koriste za sinkronizaciju stvarnih projekata izravno iz Dynamics 365 Project Service Automation Dynamics 365 Finance.
+U ovom se članku opisuju predlošci i temeljni zadatci koji se upotrebljavaju za sinkronizaciju stvarnih podataka o projektu izravno iz sustava Dynamics 365 Project Service Automation u uslugu Dynamics 365 Finance.
 
 Predložak sinkronizira transakcije iz aplikacije Project Service Automation u izvedbenu tablicu u Financijama. Nakon završetka sinkronizacije, **morate** uvesti podatke iz izvedbene tablice u dnevnik integracije.
 
@@ -41,7 +41,7 @@ Rješenje za integraciju usluge Project Service Automation u Financije upotreblj
 
 Na slijedećoj slici prikazan je način na koji se podaci sinkroniziraju između usluge Project Service Automation i Financija.
 
-[![Protok podataka za integraciju automatizacije projektnih usluga s financijama i operacijama.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Tijek podataka za integraciju usluge Project Service Automation s financijama i operacijama.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Stvarni podaci o projektu iz aplikacije Project Service Automation
 
@@ -74,7 +74,7 @@ Prije nego što dođe do sinkronizacije stvarnih podataka, morate konfigurirati 
 
 ### <a name="power-query"></a>Power Query
 
-U predlošku stvarnih projekata morate koristiti Microsoft Power Query za Excel da biste dovršili ove zadatke:
+U predlošku stvarnih podataka o projektu morate upotrijebiti uslugu Microsoft Power Query za Excel kako biste izvršili ove zadatke:
 
 - Transformirali vrstu transakcije iz aplikacije Project Service Automation u ispravnu vrstu transakcije u Financijama. Ta je transformacija već definirana u predlošku stvarnih podataka o projektu (PSA u Fin i Ops).
 - Transformirali vrstu naplate iz aplikacije Project Service Automation u ispravnu vrstu naplate u Financijama. Ta je transformacija već definirana u predlošku stvarnih podataka o projektu (PSA u Fin i Ops). Zatim se vrsta naplate mapira u svojstvo retka, na temelju konfiguracije na stranici **Parametri za integraciju aplikacije Project Service Automation**.
@@ -83,9 +83,9 @@ U predlošku stvarnih projekata morate koristiti Microsoft Power Query za Excel 
 - Ako se stvarni podaci za vrijeme ili izdatke unutar tvrtki neće sinkronizirati s Financijama, morate iz svog predloška izbrisati uvjetni stupac koji ste posljednji umetnuli. U suprotnom, može se dogoditi integracijska pogreška ili se u Financije mogu uvesti netočne stvarne transakcije.
 
 #### <a name="contract-organizational-unit"></a>Ugovorne organizacijskih jedinica
-Kako biste u predlošku ažurirali umetnuti uvjetni stupac, kliknite strelicu **Mapiraj** kako biste otvorili mapiranje. Odaberite vezu Napredni **upit i filtriranje da** biste otvorili Power Query.
+Kako biste u predlošku ažurirali umetnuti uvjetni stupac, kliknite strelicu **Mapiraj** kako biste otvorili mapiranje. Odaberite vezu **Napredni upit i filtriranje** kako biste otvorili Power Query.
 
-- Ako koristite podrazumevani predložak o stvarnim projektima (PSA na Fin i Ops), u odjeljku Power Query Primijenjeni koraci **odaberite posljednji** umetnuti **uvjet**. U unosu **Funkcija** zamijenite **USSI** nazivom pravne osobe koji bi se trebao upotrijebiti s integracijom. Dodajte dodatne uvjete u unos **Funkcija** prema vašem zahtjevu i ažurirajte uvjet **drugo** iz **USMF** ispravnoj pravnoj osobi.
+- Ako upotrebljavate zadani predložak stvarni podaci o projektu (PSA u Fin i Ops), u modulu Power Query odaberite posljednji **Umetnuti uvjet** iz odjeljka **Primijenjeni koraci**. U unosu **Funkcija** zamijenite **USSI** nazivom pravne osobe koji bi se trebao upotrijebiti s integracijom. Dodajte dodatne uvjete u unos **Funkcija** prema vašem zahtjevu i ažurirajte uvjet **drugo** iz **USMF** ispravnoj pravnoj osobi.
 - Ako stvarate novi predložak, morate dodati stupac za podršku vremenu i izdacima unutar tvrtke. Odaberite **Dodaj uvjetni stupac** i unesite naziv novog stupca, kao što je **LegalEntity**. Unesite uvjet za stupac, gdje, ako **msdyn\_contractorganizationalunitid.msdyn\_name** je \<organizational unit\>, onda je \<enter the legal entity\>; inače je prazno.
 
 ### <a name="template-mapping-in-data-integration"></a>Mapiranje predloška u integraciji podataka
@@ -125,7 +125,7 @@ Stvarnim podacima o projektu upravlja se u usluzi Project Service Automation, a 
 
 ### <a name="power-query"></a>Power Query
 
-U predlošku ažuriranja stvarnih projekata morate koristiti Power Query za dovršavanje ovih zadataka:
+U predlošku za ažuriranje stvarnih podataka o projektu morate upotrijebiti modul Power Query kako biste izvršili ove zadatke:
 
 - Transformirali vrstu transakcije u Financijama u ispravnu vrstu transakcije u aplikaciji Project Service Automation. Ta je transformacija već definirana u predlošku za ažuriranje stvarnih podataka o projektu (Fin Ops u PSA).
 - Transformirali vrstu naplate u Financijama u ispravnu vrstu naplate u aplikaciji Project Service Automation. Ta je transformacija već definirana u predlošku za ažuriranje stvarnih podataka o projektu (Fin Ops u PSA).

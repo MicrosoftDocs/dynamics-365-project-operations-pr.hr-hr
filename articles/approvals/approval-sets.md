@@ -1,6 +1,6 @@
 ---
 title: Skupovi odobrenja
-description: U ovom se članku objašnjava kako raditi sa skupovima odobrenja, zahtjevima i podskupovima tih operacija.
+description: U ovom se članku objašnjava način rada sa skupovima odobrenja, zahtjevima i podskupovima tih operacija.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
@@ -26,17 +26,17 @@ Odobrenja koja su u redu čekanja za obradu vidljiva su u prikazu **Odobrenja za
 
 Polje **Vijek trajanja skupa odobrenja** bilježi broj preostalih pokušaja obrade skupa prije nego što se označi kao neuspješan.
 
-Skupovi odobrenja obrađuju se periodičnom aktivacijom na temelju toka oblaka **pod** nazivom **Project Service - Ponavljajući zakazivanje skupova odobrenja projekta**. To se nalazi u rješenju **pod** nazivom **Projektne operacije**. 
+Skupovi odobrenja obrađuju se kroz periodičku aktivaciju na temelju **toka oblaka** nazvanog **Project Service – Zakažite skupove odobrenja projekta u ponavljanju**. Nalazi se u **rješenju** naziva **Project operations**. 
 
-Provjerite je li tijek aktiviran ispunjavanjem sljedećih koraka.
+Provjerite je li tok aktiviran dovršavanjem sljedećih koraka.
 
-1. Kao administrator prijavite se [u flow.microsoft.com](https://powerautomate.microsoft.com).
-2. U gornjem desnom kutu prebacite se u okruženje koje koristite za Dynamics 365 Project Operations.
-3. Odaberite **Rješenja** da biste naveli rješenja instalirana u okruženju.
-4. Na popisu rješenja odaberite **Operacije projekta**.
-5. Promijenite filtar iz **Sve** u **Tokove oblaka**.
-6. Provjerite je li **project service – ponavljajući zakazivanje tijeka skupova odobrenja** projekta postavljen na **Uključeno**. Ako nije, odaberite tijek, a zatim **Uključi**.
-7. Provjerite odvija li se obrada svakih pet minuta pregledom **popisa Poslovi** sustava u području Postavke **u** okruženju projektnih operacija Dataverse.
+1. Kao administrator se prijavite na [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. U gornjem desnom kutu prijeđite na okruženje kojim se koristite za Dynamics 365 Project Operations.
+3. Odaberite **Rješenja** za popis rješenja koja su instalirana u okruženju.
+4. Na popisu rješenja odaberite **Project Operations**.
+5. Promijenite filtar iz **Svi** u **Tok oblaka**.
+6. Provjerite je li tok **Project Service – Zakažite skupove odobrenja projekta u ponavljanju** postavljen na **Uključeno**. Ako nije, odaberite tok, a zatim odaberite **Uključi**.
+7. Provjerite odvija li se obrada svakih pet minuta pregledom popisa **Poslovi sustava** u području **Postavke** unutar Project Operations Dataverse okruženja.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Neuspjela odobrenja i skupovi odobrenja
 Prikaz **Neuspjela odobrenja** prikazuje sva odobrenja za koja je potrebna intervencija korisnika. Otvorite povezane zapisnike skupa odobrenja kako biste identificirali uzrok neuspjeha.
@@ -45,7 +45,7 @@ Odabir **Pokušaj ponovno** pridodaje broj vijeka trajanja odobrenja, vraća sku
 ## <a name="configure-approval-sets"></a>Konfiguriranje skupova odobrenja
 
 ### <a name="enable-the-approval-sets-feature"></a>Omogućivanje značajke Skupovi odobrenja
-Prije nego što omogućite značajku Skupovi odobrenja, utvrdite da u obradi trenutačno nema odobrenja. Nakon što je ova značajka omogućena, ne može se onemogućiti.
+Prije nego što omogućite značajku Skupovi odobrenja, utvrdite da u obradi trenutačno nema odobrenja. Nakon što se ova značajka omogući, više se ne može onemogućiti.
 
 - Idite na stranicu **Parametri projekta** i odaberite **Kontrola značajke** > **Omogući nova odobrenja**.
 

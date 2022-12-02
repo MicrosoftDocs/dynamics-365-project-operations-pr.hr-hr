@@ -1,6 +1,6 @@
 ---
 title: Redci podugovora za kategorije troška
-description: U ovom se članku objašnjava kako zabilježiti retke kooperacije za trošak i pomoću polja zabilježiti nabavu vremena od dobavljača.
+description: U ovom članku objašnjava se način bilježenja redaka podugovora za trošak i uporabe polja za bilježenje kupnje vremena od dobavljača.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

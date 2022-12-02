@@ -1,6 +1,6 @@
 ---
 title: Polja aplikacije Project Operations kao veličine za određivanje cijena
-description: U ovom se članku navode informacije koje koriste polja kao dimenzije određivanja cijena u sustavu Dynamics 365 Project Operations.
+description: U ovom članku nalaze se informacije o upotrebi polja kao veličinama za određivanje cijena u aplikaciji Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

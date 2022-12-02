@@ -1,6 +1,6 @@
 ---
 title: Slanje zahtjeva za resurs
-description: Možete poslati generirani preduvjet resursa kao zahtjev za resurs. Zahtjev se zatim šalje upravitelju resursa radi ispunjenja.
+description: Možete poslati generirani preduvjet resursa kao zahtjev za resurs. Zahtjev se zatim šalje u Resource Manager na ispunjenje.
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9137171"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Možete poslati generirani preduvjet resursa kao zahtjev za resurs. Zahtjev se zatim šalje upravitelju resursa radi ispunjenja.
+Možete poslati generirani preduvjet resursa kao zahtjev za resurs. Zahtjev se zatim šalje u Resource Manager na ispunjenje.
 
 1. U aplikaciji Dynamics 365 Project Operations, na stranici **Projekti**, odaberite karticu **Tim** kako biste pregledali popis resursa koje je moguće rezervirati. 
 2. Odaberite generički resurs koji ima preduvjet resursa s popisa, a zatim kliknite **Pošalji zahtjev**.
 
 Status zahtjeva generičkog člana tima promijenit će se u **Poslano**.
 
-Primatelj zahtjeva za resurs ima mogućnost djelomičnog popunjavanja zahtjeva pomoću jednog ili više resursa ili potpuno ispuniti zahtjev za resursom.
+Primatelj zahtjeva za resurs ima mogućnost ili djelomično ispuniti zahtjev koristeći jedan resurs ili više njih ili potpuno ispuniti zahtjev za resurs.
 
-Nakon što je zahtjev ispunjen, jedan ili više imenovanih resursa dodaju se projektu kao članovi projektnog tima. Ako je zahtjev za resursom ispunjen jednim resursom, briše se generički član tima povezan sa zahtjevom za resursom. 
+Nakon što je zahtjev ispunjen, jedan imenovani resurs ili više njih dodaje se projektu kao članovi projektnog tima. Ako zahtjev za resurs ispunjava jedan resurs, generički član tima povezan sa zahtjevom za resurs se briše. 
 
-Nakon što primatelj zahtjeva za resurs predloži resurse i bude spreman da voditelj projekta pregleda predložene resurse, trebao bi ažurirati status zahtjeva za resurs na **Pregled potreba**.
+Nakon što primatelj zahtjeva za resurse predloži resurse i bude spreman da voditelj projekta pregleda resurse koji su predloženi, trebao bi ažurirati status zahtjeva za resurse na **Potreban pregled**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

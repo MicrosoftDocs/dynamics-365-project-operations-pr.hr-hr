@@ -1,6 +1,6 @@
 ---
-title: Što je novo ili promijenjeno u projektnim operacijama, rujan 2022. za scenarije koji se temelje na zalihama/proizvodnji
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete koja su dostupna u Microsoftovu Dynamics 365 Project Operations izdanju iz rujna 2022. za scenarije koji se temelje na zalihama/proizvodnji.
+title: Novosti i izmjene u aplikaciji Project Operations u rujnu 2022. za scenarije koji se temelje na zalihama/proizvodnji
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Microsoft Dynamics 365 Project Operations iz rujna 2022. za scenarije koji se temelje na resursu/proizvodnji.
 author: ramagadu
 ms.date: 09/28/2022
 ms.topic: article
@@ -14,31 +14,31 @@ ms.contentlocale: hr-HR
 ms.lasthandoff: 10/04/2022
 ms.locfileid: "9621311"
 ---
-# <a name="whats-new-or-changed-in-project-operations-september-2022-for-stockedproduction-based-scenarios"></a>Što je novo ili promijenjeno u projektnim operacijama, rujan 2022. za scenarije koji se temelje na zalihama/proizvodnji
+# <a name="whats-new-or-changed-in-project-operations-september-2022-for-stockedproduction-based-scenarios"></a>Novosti i izmjene u aplikaciji Project Operations u rujnu 2022. za scenarije koji se temelje na zalihama/proizvodnji
 
 _**Odnosi se na:** Project Operations za scenarije koji se temelje na zalihama/proizvodnji_
 
-Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.29
+- Upravljanje projektima i računovodstvo u verziji 10.0.29 okruženja aplikacije Dynamics 365 Finance
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
 | Područje značajke | Naziv značajke | Dodatne informacije |
 | --- | --- | --- |
-| Upravljanje troškovima | **Mogućnost knjiženja obveze prema troškovima u valuti dobavljača**<br>Ova značajka omogućuje knjiženje izvješća o troškovima u valuti dobavljača za način gotovinskog plaćanja. | [Mogućnost knjiženja obveze prema troškovima u valuti dobavljača](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
+| Upravljanje troškovima | **Mogućnost knjiženja obveze troškova u valuti dobavljača**<br>Ova značajka omogućuje knjiženje izvješća o troškovima u valuti dobavljača za način gotovinskog plaćanja. | [Mogućnost knjiženja obveze troškova u valuti dobavljača](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
-Informacije o ispravcima pogrešaka obuhvaćenima ovim ažuriranjem potražite u Microsoft Dynamics članku iz baze podataka o životu i članku iz [baze znanja](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
+Za informacije o ispravcima uključenima u ovo ažuriranje prijavite se u aplikaciju Microsoft Dynamics Lifecycle Services (LCS) i pogledajte [članak iz baze znanja](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
 
 ## <a name="features-turned-on-by-default-in-upcoming-release"></a>Značajke uključene prema zadanim postavkama u nadolazećem izdanju
 
-U sljedećoj su tablici navedene značajke koje su prema zadanim postavkama uključene u verziji 10.0.30. Većina značajki koje su automatski uključene mogu se isključiti u [upravljanju](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) značajkama. Ubuduće bi se neke značajke koje su automatski uključene mogle ukloniti iz upravljanja značajkama i postati obvezne. Ova promjena osigurava da korisnici koriste trenutnu funkcionalnost kako bi se poboljšanja mogla nadovezati na trenutnu funkcionalnost kako se dodaju. Značajke se nikada neće automatski omogućiti za manje od godinu dana, osim ako se utvrdi da su bitne.
+Sljedeća tablica navodi značajke koje su uključene prema zadanim postavkama u verziji 10.0.30. Većina značajki koje su automatski uključene može se isključiti u [Upravljanju značajkama](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). U budućnosti bi se neke značajke koje su automatski uključene mogle ukloniti iz Upravljanja značajkama i postati obavezne. Ova promjena osigurava da korisnici koriste trenutačnu funkcionalnost, tako da se poboljšanja mogu nadograđivati na trenutačnu funkcionalnost kako se dodaju. Značajke nikada neće biti automatski omogućene za manje od godinu dana, osim ako se ne utvrdi da su bitne.
 
 | Naziv značajke | Omogući datum | Dodana značajka | Stanje značajke | Modul |
 | --- | --- | --- |--- |--- |
-| Omogući rad async-a kada se korisnik treba prebacivati između sinkronizacije i Async operacija | 21. listopada 2022. | 9. travnja 2021. | Uključeno prema zadanim postavkama | Upravljanje troškovima |
-| Potrebna procjena politike troškova za primitke | 21. listopada 2022. | 20. prosinca 2021. | Uključeno prema zadanim postavkama | Upravljanje troškovima |
-| Prikaz izvješća o troškovima stvorenih delegiranjem radnika | 21. listopada 2022. | 19. veljače 2020. | Uključeno prema zadanim postavkama | Upravljanje troškovima |
-| Izračun ukupnih vrijednosti kilometraže prema poslovna godina | 21. listopada 2022. | 10. svibnja 20202. | Uključeno prema zadanim postavkama | Upravljanje troškovima |
+| Omogućivanje asinkrone operacije kada se korisnik treba prebacivati između sinkronizacije i asinkronizacije | 21. listopada 2022. | 9. travnja 2021. | Uključeno prema zadanim postavkama | Upravljanje troškovima |
+| Potrebna je procjena politike troškova za račune | 21. listopada 2022. | 20. prosinca 2021. | Uključeno prema zadanim postavkama | Upravljanje troškovima |
+| Prikaz popisa izvješća o troškovima koje su izradili delegirani radnici | 21. listopada 2022. | 19. veljače 2020. | Uključeno prema zadanim postavkama | Upravljanje troškovima |
+| Izračun ukupne kilometraže prema poslovnoj godini | 21. listopada 2022. | 10. svibnja 20202. | Uključeno prema zadanim postavkama | Upravljanje troškovima |

@@ -1,6 +1,6 @@
 ---
 title: Radni prostor Unosa vremena za projekt
-description: U ovom se članku nalaze informacije o mobilnom radnom prostoru za unos vremena projekta. Ovaj radni prostor omogućuje korisnicima unos i uštedu vremena u odnosu na projekt s pomoću mobilnog uređaja.
+description: U ovom se članku nalaze informacije o mobilnom radnom prostoru Unos vremena za projekt. Ovaj radni prostor omogućuje korisnicima unos i uštedu vremena u odnosu na projekt s pomoću mobilnog uređaja.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029659"
 
 [!include [banner](../includes/banner.md)]
 
-U ovom se članku nalaze informacije o mobilnom **radnom prostoru za unos** vremena projekta. Ovaj radni prostor omogućuje korisnicima unos i uštedu vremena u odnosu na projekt s pomoću mobilnog uređaja.
+U ovom se članku nalaze informacije o mobilnom radnom prostoru **Unos vremena za projekt**. Ovaj radni prostor omogućuje korisnicima unos i uštedu vremena u odnosu na projekt s pomoću mobilnog uređaja.
 
 Ovaj mobilni radni prostor namijenjen je uporabi s mobilnom aplikacijom Dynamics 365 Unified Ops. 
 
@@ -44,7 +44,7 @@ Točnije, u mobilnom radnom prostoru **Unos vremena za projekt** korisnici mogu 
 ## <a name="prerequisites"></a>Preduvjeti
 Preduvjeti se razlikuju, ovisno o verziji sustava Microsoft Dynamics 365 koji je postavljen za vašu tvrtku ili ustanovu.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Preduvjeti ako koristite Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Preduvjeti ako upotrebljavate uslugu Dynamics 365 Finance
 Ako su Financije postavljene za vašu tvrtku ili ustanovu, administrator sustava mora objaviti mobilni radni prostor **Unos vremena za projekt**. Upute potražite u odjeljku [Objavljivanje mobilnog radnog prostora](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Preduvjeti ako upotrebljavate verziju 1611 s ažuriranjem platforme 3 ili novijom
@@ -82,7 +82,7 @@ Ako je za vašu tvrtku ii ustanovu postavljena verzija 1611 s ažuriranjem platf
 
 ## <a name="download-and-install-the-mobile-app"></a>Preuzimanje i instaliranje mobilnu aplikaciju
 
-Preuzmite i instalirajte mobilnu aplikaciju za financije i operacije:
+Preuzimanje i instaliranje mobilne aplikacije za financije i operacije:
 
 -   [Za telefone s operacijskim sustavom Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Za iPhon uređaje](https://go.microsoft.com/fwlink/?linkid=850663)

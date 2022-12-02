@@ -1,6 +1,6 @@
 ---
 title: Pregled vremena
-description: U ovom se članku nalaze informacije o funkciji Time u sustavu Dynamics 365 Project Operations.
+description: U ovom članku nalaze se informacije o funkcionalnosti vremena u aplikaciji Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

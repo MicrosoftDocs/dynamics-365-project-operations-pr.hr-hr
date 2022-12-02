@@ -1,6 +1,6 @@
 ---
 title: Upravljanje delegiranjem
-description: U ovom se članku nalaze informacije o tome kako delegat troškova može kreirati izvješća o troškovima i upravljati njima za drugog zaposlenika.
+description: U ovom se članku navode informacije o načinu na koji delegat za troškove može izraditi izvješća o troškovima i upravljati njima za drugog zaposlenika.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

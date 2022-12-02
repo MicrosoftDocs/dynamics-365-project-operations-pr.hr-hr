@@ -1,6 +1,6 @@
 ---
 title: Primjena pokaznih podataka u okruženju aplikacije Finance hostirane u oblaku
-description: U ovom se članku objašnjava kako primijeniti demo podatke iz projektnih operacija na Dynamics 365 Finance okruženje hostirano u oblaku.
+description: U ovom članku pojašnjava se način primjene pokaznih podataka iz aplikacije Project Operations na okruženje hostirano u oblaku aplikacije Dynamics 365 Finance.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029888"
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
 > [!IMPORTANT]
-> Ovaj je članak primjenjiv samo Microsoft Dynamics 365 Finance verzija 10.0.13 i može se izvoditi samo u okruženju smještenom u oblaku. Dovršite korake u ovom članku **PRIJE nego što** primijenite kvalitetna ažuriranja na okoliš.
+> Ovaj članak odnosi se samo na verziju 10.0.13 aplikacije Microsoft Dynamics 365 Finance i može se izvršavati samo u okruženju hostiranom u oblaku. Dovršite korake iz ovog članka **PRIJE** primjene kvalitativnih ažuriranja na okruženje.
 
 1. U svom LCS projektu otvorite stranicu **Pojedinosti okruženja**. Vidite da to uključuje pojedinosti potrebne za povezivanje s okruženjem s pomoću protokola udaljene radne površine (RDP, Remote Desktop Protocol).
 

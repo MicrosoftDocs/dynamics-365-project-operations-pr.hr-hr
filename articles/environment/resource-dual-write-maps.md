@@ -1,6 +1,6 @@
 ---
 title: Verzije karte s dvostrukim pisanjem u aplikaciji Project Operations
-description: U ovom se članku nalazi popis karata s dvostrukim pisanjem potrebnih za Dynamics 365 Project Operations.
+description: U ovom članku nalazi se popis karata s dvostrukim pisanjem koje su potrebne za aplikaciju Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ Sljedeće su karte preduvjeti rješenje aplikacije Project Operations. Obavezno 
 
 | Karta tablice | Početna sinkronizacija |
 | --- | --- |
-| Glavna knjiga (msdyn_ledgers) | Zahtijeva početnu sinkronizaciju za kartu tablice i sve preduvjete. Master za početnu sinkronizaciju su financijske i operativne aplikacije. |
+| Glavna knjiga (msdyn_ledgers) | Zahtijeva početnu sinkronizaciju za kartu tablice i sve preduvjete. Aplikacije za financije i operacije glavne su za početnu sinkronizaciju. |
 | Pravne osobe (cdm_companies) | Nije obvezno. Sustav automatski popunjava ovaj entitet kada su okruženja povezana s pomoću dvostrukog pisanja. |
 | Klijenti V3 (računi) | Nije potrebno za dodjelu resursa. |
 | Dobavljači V2 (msdyn_vendors) | Nije potrebno za dodjelu resursa. |
 
-1. S popisa karata odaberite kartu Glavna knjiga **(msdyn\_ledgers)** sa svim preduvjetima i odaberite potvrdni okvir **Početna sinkronizacija**. U polju Matrica za početnu **sinkronizaciju** odaberite **Aplikacije** za financije i operacije za kartu analitike i za sve karte preduvjeta. Odaberite **Pokretanje**.
+1. S popisa karata odaberite kartu Glavna knjiga **(msdyn\_ledgers)** sa svim preduvjetima i odaberite potvrdni okvir **Početna sinkronizacija**. U polju **Glavni za početnu sinkronizaciju** odaberite **Aplikacije za financije i operacije** i za kartu glavne knjige i za sve karte preduvjeta. Odaberite **Pokretanje**.
 
 ![Sinkronizacija karte knjige.](media/DW6.png)
 
@@ -40,13 +40,13 @@ Sljedeće su karte preduvjeti rješenje aplikacije Project Operations. Obavezno 
 
 Sljedeće su karte potrebne za rješenje aplikacije Project Operations. Verzije mapa s dvostrukim pisanjem navode se počevši od ažuriranja aplikacije Project Operations u svibnju 2021., verzija 4.10.0.186.
 
-| Karta entiteta | Najnovija verzija | Početna sinkronizacija | Obavezna verzija Dynamics 365 Finance |
+| Karta entiteta | Najnovija verzija | Početna sinkronizacija | Potrebna verzija Dynamics 365 Finance |
 | --- | --- | --- | --- |
 | Entitet integracije za odnose projektne transakcije (msdyn\_transactionconnections) | 1.0.0.0 | Nije potrebno za dodjelu resursa. ||
 | Zaglavlja projektnih ugovora (prodajni nalozi) | 1.0.0.1 | Nije potrebno za dodjelu resursa. ||
 | Redci ugovora o projektu (pojedinosti prodajnog naloga) | 1.0.0.0 | Nije potrebno za dodjelu resursa. ||
 | Izvor financiranja projekta (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nije potrebno za dodjelu resursa. ||
-| Tablica integracije projekta za procjene materijala (msdyn\_ procjene) | 1.0.0.0 | Nije potrebno za dodjelu resursa. ||
+| Tablica integracije projekta za procjene materijala (msdyn\_estimatelines) | 1.0.0.0 | Nije potrebno za dodjelu resursa. ||
 | Prijedlozi faktura za projekt V2 (fakture) | 1.0.0.3 | Nije potrebno za dodjelu resursa. ||
 | Stvarni podaci aplikacije Project Operations (msdyn_actuals) | 1.0.0.15 | Nije potrebno za dodjelu resursa. |10.0.29 ili noviji|
 | Integracija kontrolnih točki retka ugovora s aplikacijom Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nije potrebno za dodjelu resursa. ||

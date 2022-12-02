@@ -1,6 +1,6 @@
 ---
 title: Prijelazi stanja na podugovoru
-description: U ovom se članku objašnjavaju prijelazi stanja na podugovaranju u Microsoftu Dynamics 365 Project Operations dok se kooperant stvara, izvršava i zatvara.
+description: Ovaj članak objašnjava prijelaze stanja na podugovoru u aplikaciji Microsoft Dynamics 365 Project Operations dok se podugovor stvara, izvršava i zatvara.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9522929"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-U ovom se članku objašnjavaju prijelazi stanja na podugovaranju u Microsoftu Dynamics 365 Project Operations. Svaka je država predstavljena kao skica, potvrđena, zatvorena ili otkazana. Sljedeća slika predstavlja državne prijelaze.
+Ovaj članak objašnjava prijelaze stanja na podugovoru u aplikaciji Microsoft Dynamics 365 Project Operations. Svako stanje je predstavljeno kao nacrt, potvrđeno, zatvoreno ili otkazano. Sljedeće slike predstavljaju prijelaze stanja.
 
-![Model stanja podugovaranja](../media/SubconStates.png)  
+![Model stanja podugovora](../media/SubconStates.png)  
 
-Sljedeća tablica daje opis onoga što svaka država predstavlja u životnom ciklusu podugovaratelja u projektnim operacijama.
+Sljedeća tablica pruža opisa onoga što svako stanje predstavlja u životnom ciklusu fakture podugovora u aplikaciji Project Operations.
 
 | Stanje | Opis | Dopušteni prijelazi |
 | --- | --- | --- |
-| Skica | To predstavlja početno stanje podugovaranja. Pregovori s dobavljačem su u tijeku. Reci i cijene podložni su izmjenama. Podugovaratelj u ovoj državi može se koristiti za procjenu i zahtjeve projekata osoblja za resurse i materijale. Također se može referencirati na vrijeme, trošak i korištenje materijala na projektu. Kooperant u ovom stanju može se uređivati i brisati. | Potvrđeno |
-| Potvrđeno | To predstavlja fazu podugovaranja nakon što se završe pregovori s dobavljačem o cijenama i artiklima za retke koji se kupuju. Međutim, stvarna isporuka materijala i/ili rada od strane kooperantskih resursa još uvijek je u tijeku. Podugovaratelj u ovoj državi može se koristiti za procjenu i zahtjeve projekata osoblja za resurse i materijale. Također se može referencirati na vrijeme, trošak i korištenje materijala na projektu. Podugovor u ovom stanju ne može se uređivati ili brisati. Gumb **Odustani** omogućuje vam otkazivanje potvrđenog podugovaratelja. Gumb **Ponovno otvori** omogućuje vam ponovno otvaranje podugovaranja kako biste ga vratili u **status skice**. Pomoću gumba **Zatvori** zatvorite potvrđeni kooperant. | Zatvoren <br> Otkazano <br> Skica |
-| Zatvoren | To predstavlja fazu podugovaranja kada se dovrši stvarna isporuka materijala i/ili rad kooperantskim resursima. Podugovaratelj u ovom stanju više se ne može koristiti za procjenu i zahtjeve projekata osoblja za resurse i materijale. Također, više se ne može referencirati na vrijeme, trošak i korištenje materijala na projektu. Podugovor u ovom stanju ne može se uređivati ili brisati. | Nijedno |
-| Otkazano | To predstavlja fazu podugovaranja kada stvarna isporuka materijala i/ili rad podugovarajućih resursa više nije potrebna. Podugovaratelj u ovom stanju ne može se koristiti za procjenu i zahtjeve projekta osoblja za resurse i materijale niti se može navesti na vrijeme, trošak i upotrebu materijala na projektu. Podugovor u ovom stanju ne može se uređivati ili brisati. | Nijedno |
+| Skica | Ovo predstavlja početno stanje podugovora. Pregovori s dobavljačem su u tijeku. Reci i cijene podložni su izmjenama. Podugovor u ovom stanju može se upotrebljavati za procjenu i dodjelu osoblja projektnim zahtjevima za resurse i materijale. Također se na nj može upućivati na vremenu, troškovima i korištenju materijala na projektu. Podugovor u ovom stanju ne može se uređivati ni brisati. | Potvrđeno |
+| Potvrđeno | Ovo predstavlja fazu podugovora nakon završetka pregovora s dobavljačem o cijenama i stavkama koje se kupuju. Međutim, stvarna isporuka materijala i/ili radova od strane podugovorenih resursa još uvijek je u tijeku. Podugovor u ovom stanju može se upotrebljavati za procjenu i dodjelu osoblja projektnim zahtjevima za resurse i materijale. Također se na nj može upućivati na vremenu, troškovima i korištenju materijala na projektu. Podugovor u ovom stanju ne može se uređivati ni brisati. Gumb **Otkaži** omogućuje vam otkazivanje potvrđenog podugovora. Gumb **Ponovo otvori** omogućuje vam ponovno otvaranje podugovora kako biste ga vratili u status **Nacrt**. Upotrijebite gumb **Zatvori** za zatvaranje potvrđenog podugovora. | Zatvoren <br> Otkazano <br> Skica |
+| Zatvoren | Ovo predstavlja fazu podugovora u kojoj je stvarna isporuka materijala i/ili radova od strane podugovorenih resursa dovršena. Podugovor u ovom stanju više se ne može koristiti za procjenu i dodjelu osoblja projektnim zahtjevima za resurse i materijale. Također se više ne može na nj upućivati na vremenu, troškovima i korištenju materijala na projektu. Podugovor u ovom stanju ne može se uređivati ni brisati. | Nijedno |
+| Otkazano | Ovo predstavlja fazu podugovora u kojoj stvarna isporuka materijala i/ili radova od strane podugovorenih resursa više nije potrebna. Podugovor u ovom stanju ne može se koristiti za procjenu i projektne zahtjeve osoblja za resurse i materijale niti se može navoditi u vremenu, troškovima i upotrebi materijala u projektu. Podugovor u ovom stanju ne može se uređivati ni brisati. | Nijedno |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

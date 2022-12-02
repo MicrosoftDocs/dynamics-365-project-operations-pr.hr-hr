@@ -1,6 +1,6 @@
 ---
 title: Potvrda fakture dobavljača projekta
-description: U ovom se članku objašnjava kako potvrditi fakturu dobavljača projekta u Microsoftu Dynamics 365 Project Operations i financijski učinak potvrde fakture dobavljača projekta.
+description: U ovom se članku objašnjava kako potvrditi fakturu dobavljača projekta u sustavu Microsoft Dynamics 365 Project Operations, kao i financijski učinak potvrđivanja fakture dobavljača projekta.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261502"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Kada potvrdite sve retke na fakturi dobavljača u Microsoftu Dynamics 365 Project Operations, možete upotrijebiti akciju Potvrda da biste potvrdili fakturu dobavljača.
+Nakon što ste provjerili sve retke fakture dobavljača u sustavu Microsoft Dynamics 365 Project Operations, radnjom Potvrdi možete potvrditi fakturu dobavljača.
 
-Kada na fakturi dobavljača odaberete **Potvrdi**, događa se sljedeće ponašanje:
+Kada odaberete **Potvrdi** na fakturi dobavljača, događa se sljedeće:
 
-1. Stanje fakture dobavljača obnavlja se u **Potvrđeno**.
-2. Potvrđena faktura dobavljača i povezani zapisi postaju samo za čitanje i ne mogu se uređivati ili brisati.
-3. Ako se bilo koji iznos troška odnosi na redak fakture dobavljača kao dio postupka podudaranja, sve stvarne troškove povezane s referentnim retkom fakture dobavljača storniraju se.
-4. Novi iznosi troška kreiraju se pomoću podataka u retku fakture dobavljača.
-5. Nakon što je faktura dobavljača potvrđena, više ne možete kreirati temeljnice ispravaka, opozive stavki vremena obrade ili stornirati odobravanje izvornog vremena, troška ili stvarnog materijala koje su stornirane.
+1. Stanje fakture dobavljača ažurira se na **Potvrđeno**.
+2. Potvrđena faktura dobavljača i s njom povezani zapisi postaju samo za čitanje te se ne mogu uređivati niti brisati.
+3. Ako bilo koji stvarni podaci o troškovima upućuje na redak fakture dobavljača kao dio procesa uparivanja, svi stvarni podaci o troškovima koji su povezani s referenciranim retkom fakture dobavljača se poništavaju.
+4. Novi stvarni podaci o troškovima izrađuju se primjenom informacija u retku fakture dobavljača.
+5. Nakon potvrđivanja fakture dobavljača više ne možete izrađivati dnevnike ispravaka, obrađivati opozive unosa vremena ili otkazati odobrenje izvornog vremena, troška ili stvarnih podataka o materijalu koje je poništeno.
 
 > [!NOTE]
-> Ako bilo koji redak na fakturi dobavljača ima status provjere koji nije **Dovršeno**, faktura dobavljača ne može se potvrditi.
+> Faktura dobavljača ne može se potvrditi ako status svih redaka fakture dobavljača ne glasi **Dovršeno**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

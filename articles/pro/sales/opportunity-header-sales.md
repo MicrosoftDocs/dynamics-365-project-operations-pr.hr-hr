@@ -1,6 +1,6 @@
 ---
 title: Postavke prilike – jednostavno
-description: U ovom se članku nalaze informacije o ponudama temeljenim na projektima i linijama prilika temeljenima na projektima.
+description: U ovom članku nalaze se informacije o poslovima i redcima prilike koji se temelje na projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

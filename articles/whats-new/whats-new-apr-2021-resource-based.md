@@ -1,6 +1,6 @@
 ---
 title: Novosti u travnju 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
-description: U ovom se članku navode informacije o ažuriranjima kvalitete dostupnima u izdanju projektnih operacija u travnju 2021. za scenarije temeljene na resursima/ne zalihama.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Project Operations iz travnja 2021. za scenarije koji se temelje na resursu / bez zaliha.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029245"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
 - Project Operations u verziji 4.9.0.221 okruženja platforme Dataverse
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.17
+- Upravljanje projektima i računovodstvo u verziji 10.0.17 okruženja aplikacije Dynamics 365 Finance
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
@@ -42,13 +42,13 @@ Sljedeći popis prikazuje karte s dvostrukim pisanjem koje su izmijenjene ili do
 | **Karta entiteta** | **Ažurirana verzija** | **Komentari** |
 | --- | --- | --- |
 | Stvarni podaci o integraciji aplikacije Project Operations (msdyn\_actuals) | 1.0.0.14 | Karta izmijenjena za sinkronizaciju stvarnih podataka o materijalu za projekt. |
-| Entitet za integraciju aplikacije Project Operations za procjene troškova (msdyn\_estimateslines) | 1.0.0.2 | Dodana je sinkronizacija retka ugovora o projektu u aplikacije za financije i operacije za podršku za naplatu na temelju zadataka. |
-| Entitet za integraciju aplikacije Project Operations za procjene sati (msdyn\_resourceassignments) | 1.0.0.5 | Dodana je sinkronizacija retka ugovora o projektu u aplikacije za financije i operacije za podršku za naplatu na temelju zadataka. |
-| Tablica integracije aplikacije Project Operations za procjene materijala (msdyn\_estimatelines) | 1.0.0.0 | Nova karta tablice za sinkronizaciju procjena materijala s Dataverse financijskih i operativnih aplikacija. |
-| Entitet izvoza fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova karta tablice za sinkronizaciju zaglavlja faktura dobavljača iz aplikacija za financije i operacije u Dataverse. |
-| Entitet izvoza retka fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nova karta tablice za sinkronizaciju redaka fakture dobavljača iz financijskih i operacijskih aplikacija u Dataverse. |
+| Entitet za integraciju aplikacije Project Operations za procjene troškova (msdyn\_estimateslines) | 1.0.0.2 | Dodana je sinkronizacija retka ugovora o projektu s aplikacijama za financije i operacije za podršku naplate koja se temelji na zadacima. |
+| Entitet za integraciju aplikacije Project Operations za procjene sati (msdyn\_resourceassignments) | 1.0.0.5 | Dodana je sinkronizacija retka ugovora o projektu s aplikacijama za financije i operacije za podršku naplate koja se temelji na zadacima. |
+| Tablica integracije aplikacije Project Operations za procjene materijala (msdyn\_estimatelines) | 1.0.0.0 | Nova karta tablice za sinkronizaciju procjena materijala s platforme Dataverse u aplikacije za financije i operacije. |
+| Entitet izvoza fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova karta tablice za sinkronizaciju zaglavlja faktura dobavljača iz aplikacija za financije i operacije na platformu Dataverse. |
+| Entitet izvoza retka fakture dobavljača projekata integracije aplikacije Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nova karta tablice za sinkronizaciju redaka faktura dobavljača iz aplikacija za financije i operacije na platformu Dataverse. |
 
-Uvijek biste trebali pokrenuti najnoviju verziju karte u svom okruženju i omogućiti sve povezane karte tablica dok ažurirate rješenje za Project Operations Dataverse i verziju rješenja za financije i operacije. Određene značajke i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija karte. Aktivnu verziju karte možete vidjeti u stupcu **Verzija** na stranici **Dvostruko pisanje**. Novu verziju karte možete aktivirati odabirom **Verzije karte tablice**, odabirom najnovije verzije, a zatim spremanjem odabrane verzije. Ako ste prilagodili gotovu kartu tablice, ponovite promjene. Dodatne informacije potražite u članku [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Uvijek trebate pokrenuti najnoviju verziju karte u svom okruženju i omogućiti sve povezane karte tablice dok ažurirate svoje verzije rješenja aplikacije Project Operations platforme Dataverse i aplikacija za financije i operacije. Određene značajke i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija karte. Aktivnu verziju karte možete vidjeti u stupcu **Verzija** na stranici **Dvostruko pisanje**. Novu verziju karte možete aktivirati odabirom **Verzije karte tablice**, odabirom najnovije verzije, a zatim spremanjem odabrane verzije. Ako ste prilagodili gotovu kartu tablice, ponovite promjene. Dodatne informacije potražite u članku [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ako naiđete na problem s pokretanjem karte, slijedite upute u odjeljku [Problem nedostatka stupaca tablice na kartama](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) vodiča za rješavanje poteškoća s dvostrukim pisanjem.
 
@@ -79,7 +79,7 @@ Ako naiđete na problem s pokretanjem karte, slijedite upute u odjeljku [Problem
 | Vrijeme i trošak | 2204377 | Kopirane vremenske tablice moraju se automatski prikazati kada odaberete **Kopiraj tjedan** tijekom vremenskog unosa. |
 | Vrijeme i trošak | 2209059 | Polje **Stanje** može se uređivati za vremenske unose u aplikaciji Dynamics 365 Field Service. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u aplikaciji Dynamics 365 Finance
 
 | **Područje značajke** | **Broj reference** | **Ažuriranja kvalitete** |
 | --- | --- | --- |

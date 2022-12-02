@@ -1,6 +1,6 @@
 ---
 title: Novosti u studenom 2020. – Project Operations za scenarije koji se temelje na zalihama/proizvodnji
-description: U ovom se članku navode informacije o ažuriranjima kvalitete dostupnima u izdanju projektnih operacija u studenome 2020. za scenarije temeljene na proizvodnji zaliha.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Project Operations za studeni 2020. za scenarije koji se temelje na zalihama/proizvodnji.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ Za informacije o ispravcima uključenim u ovo ažuriranje, prijavite se na platf
 
 ## <a name="regulatory-updates"></a>Ažuriranja propisa
 
-Informacije o regulatornim ažuriranjima za financijske i operativne aplikacije sustava Dynamics 365 potražite u članku [Regulatorna ažuriranja](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+Za informacije o ažuriranjima propisa za aplikacije za financije i operacije Dynamics 365 pogledajte članak [Ažuriranja propisa](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

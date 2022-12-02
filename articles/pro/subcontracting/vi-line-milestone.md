@@ -1,6 +1,6 @@
 ---
 title: Redci za kontrolne točke u fakturi dobavljača
-description: U ovom se članku objašnjava kako kreirati retke fakture dobavljača za ključne etape na podugovaratelju.
+description: Ovaj članak objašnjava kako stvoriti retke fakture dobavljača za kontrolne točke na podugovoru.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,28 +17,28 @@ ms.locfileid: "9260986"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Faktura dobavljača u Microsoftu Dynamics 365 Project Operations može imati retke fakture dobavljača za ključne etape definirane u retku kooperanta. Voditelji projekata mogu koristiti retke fakture dobavljača za ključne etape kako bi zabilježili troškove usluga koji se nabavljaju kao troškove temeljene na ključnim etapama koji nastaju na uslugama ili proizvodima koji se nabavljaju za projekt.
+Faktura dobavljača u aplikaciji Microsoft Dynamics 365 Project Operations može imati retke fakture dobavljača za kontrolne točke koje su definirane u retku podugovora. Voditelji projekata mogu koristiti retke faktura dobavljača za kontrolne točke za bilježenje troškova usluga koje su nabavljene kao troškova temeljenih na kontrolnim točkama koji nastaju na uslugama ili proizvodima koji su nabavljeni za projekt.
 
-Reci fakture dobavljača za ključne etape uvijek se moraju odnositi na redak kooperanta koji ima fiksni način naplate cijena. Kada se redak fakture dobavljača za ključne etape poziva na redak podugovaranja, voditelji projekata moći će uskladiti i provjeriti temeljne troškove vremena, troškova ili materijala koji se odnose na taj redak podugovaranja u odnosu na prekretnicu koju fakturira dobavljač.
+Reci fakture dobavljača za kontrolne točke uvijek moraju upućivati na redak podugovora koji ima metodu naplate po fiksnoj cijeni. Kada redak fakture dobavljača za kontrolne točke upućuje na redak podugovora, voditelji projekata moći će uskladiti i provjeriti temeljne troškove vremena, troškova ili materijala koji upućuju na taj redak podugovora u odnosu na kontrolnu točku koju fakturira dobavljač.
 
-Sljedeća tablica sadrži informacije o poljima u recima fakture dobavljača za ključne etape.
+Tablica u nastavku pruža informacije o poljima u recima fakture dobavljača za kontrolne točke.
 
 | Polje | Opis | Funkcionalni utjecaj |
 | --- | --- | --- |
-| Ime/naziv | Naziv retka fakture dobavljača za pomoć pri identifikaciji. | Taj će naziv biti prikazan kao prvi stupac u svim pretraživanjima koja se temelje na recima fakture dobavljača. |
+| Ime/naziv | Naziv retka fakture dobavljača za pomoć pri identifikaciji. | Taj naziv prikazivat će se kao prvi stupac u svim pretraživanjima koja se temelje na recima fakture dobavljača. |
 | Opis | Kratak opis usluga koje dobavljač fakturira u retku fakture dobavljača. | Nijedno |
-| Podugovor | Kooperant na kojem su usluge izvorno naručene. | Kada je za fakturu dobavljača odabran kooperant, svi reci na fakturi dobavljača naslijedit će taj odabir. Faktura dobavljača ne može imati retke fakture dobavljača koji se odnose na različite kooperante. |
-| Redak kooperacije | Linija podugovaranja na kojoj su usluge naručene. Popis redaka kooperanta koji se mogu odabrati ograničen je na retke na odabranom kooperantu. | Kada je redak kooperanta odabran u retku fakture dobavljača za ključne etape, **polja kategorija** Uloga **i** transakcija te polja povezana s proizvodom nisu relevantna i nisu dostupna. Polja **Grupa Količina**, **Jedinica** i **Jedinica** također nisu relevantna za retke fakture dobavljača koji se temelje na ključnoj etapi. |
-| Datum transakcije | Datum kada će se na projektu zabilježiti stvarni trošak retka fakture dobavljača. | Nijedno |
-| Razred transakcije | Odaberite **Prekretnica** da biste zabilježili fakturu dobavljača za dovršenu prekretnicu definiranu u retku kooperanta. | Nijedno |
-| Kontrolna točka | Odaberite prekretnicu definiranu u povezanom retku kooperanta koji je označen kao **Spreman za fakturiranje**. | Ključne etape redaka kooperanta koje imaju status Spremno **za fakturiranje** mogu se odabrati u retku fakture dobavljača. |
-| Project | Naziv projekta na kojem su korištene usluge koje se fakturiraju. | Ovo je polje obavezno i ne može se ostaviti praznim. |
-| Zadatak | Naziv projektnog zadatka na kojem su korištene usluge koje se fakturiraju. Ovo je polje dostupno samo ako je odabran projekt. Odabir projektnog zadatka nije obavezan. | Ako ovo polje ostane prazno, voditelj projekta može uskladiti redak fakture dobavljača s klasom transakcija u povezanom retku kooperanta koja je zabilježena na bilo kojem zadatku projekta. Ako se redak fakture dobavljača ne odnosi na redak kooperanta, a to polje ostaje prazno, stvarni trošak kreiran retkom fakture dobavljača neće biti povezan ni s jednom nenaplaćenom stvarnom prodajom. U tom slučaju, ako je postavljena naplata na temelju zadataka, troškovi se možda neće moći fakturirati krajnjem kupcu. |
-| Iznos kontrolne točke | Unesite vrijednost prekretnice definirane u retku kooperanta koji je spreman za fakturiranje. | Nijedno |
+| Podugovor | Podugovor na temelju kojeg su usluge izvorno naručene. | Kada se za fakturu dobavljača odabere podugovor, svi reci na fakturi dobavljača naslijedit će taj odabir. Faktura dobavljača ne može sadržavati retke fakture dobavljača koji upućuju na različite podugovore. |
+| Redak podugovora | Redak podugovora na temelju kojeg su usluge naručene. Popis redaka podugovora koje je moguće odabrati ograničen je na retke na odabranom podugovoru. | Kada je redak podugovora odabran u retku fakture dobavljača za kontrolne točke, polja **Uloga** i **Kategorija transakcije** i polja povezana s proizvodom nevažna su i nisu dostupna. Polja **Količina**, **Jedinica** i **Grupa jedinica** također nisu važna za retke fakture dobavljača temeljene na kontrolnoj točki. |
+| Datum transakcije | Datum kada će stvarni trošak retka fakture dobavljača biti zabilježen u projektu. | Nijedno |
+| Razred transakcije | Odaberite **Kontrolna točka** za bilježenje fakture dobavljača za dovršenu kontrolnu točka koja je definirana u retku podugovora. | Nijedno |
+| Kontrolna točka | Odaberite kontrolnu točku koja je definirana u povezanom retku podugovora koji je označen kao **Spremno za fakturiranje**. | Kontrolne točke retka podugovora koje imaju status **Spremno za fakturiranje** mogu se odabrati u retku fakture dobavljača. |
+| Project | Naziv projekta u kojem su korištene usluge koje se fakturiraju. | To je polje obavezno i ne smije se ostaviti prazno. |
+| Zadatak | Naziv projektnog zadatka u kojem su korištene usluge koje se fakturiraju. To polje dostupno je samo ako je odabran projekt. Odabir projektnog zadatka nije obavezan. | Ako se ovo polje ostavi praznim, voditelj projekata može uskladiti redak fakture dobavljača s klasom transakcija u povezanom retku podugovora koji je zabilježen u bilo kojem zadatku projekta. Ako redak fakture dobavljača ne upućuje na redak podugovora, a to polje je ostavljeno prazno, stvarni trošak koji je kreirao redak fakture dobavljača neće biti povezan ni s kojom nenaplaćenom stvarnom prodajom. U tom slučaju, ako je postavljena naplata na temelju zadataka, troškovi se možda neće moći fakturirati krajnjem kupcu. |
+| Iznos kontrolne točke | Unesite vrijednost kontrolne točke koja je definirana u retku podugovora koji je spreman za fakturiranje. | Nijedno |
 | Porez na promet | Unesite iznos poreza na prodaju. | Nijedno |
-| Ukupan iznos | Ukupan iznos retka fakture dobavljača, uključujući poreze. Ovo se polje izračunava kao *iznos* + *prekretnice Porez na* promet. | Nijedno |
+| Ukupni iznos | Ukupni iznos retka fakture dobavljača, uključujući porez. Ovo polje izračunava se kao *Iznos kontrolne točke* + *Porez na promet*. | Nijedno |
 
 > [!NOTE]
-> Kada se kreira redak fakture dobavljača koji upućuje na prekretnicu retka kooperanta, status prekretnice kooperanta obnavlja se u **kreiranu** fakturu Dobavljača. Zatim, kada se ta faktura dobavljača potvrdi, status prekretnice retka kooperanta ažurira se u **Potvrđena** faktura Dobavljača.
+> Kada se stvori redak fakture dobavljača koji upućuje na kontrolnu točku retka podugovora, status kontrolne točke podugovora ažurira se na **Faktura dobavljača izrađena**. Zatim, kada se ta faktura dobavljača potvrdi, status kontrolne točke retka podugovora ažurira se na **Faktura dobavljača potvrđena**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

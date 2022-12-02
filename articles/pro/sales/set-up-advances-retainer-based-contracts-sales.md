@@ -1,6 +1,6 @@
 ---
 title: Predujmovi i ugovori koji e temelje na povremenim plaćanjima
-description: Ovaj članak pruža informacije o modelima ugovaranja temeljenim na zadržavanju i napretku u projektnim operacijama.
+description: U ovom se članku nalaze informacije o ugovornim modelima koji se temelje na akontaciji i predujmovima u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

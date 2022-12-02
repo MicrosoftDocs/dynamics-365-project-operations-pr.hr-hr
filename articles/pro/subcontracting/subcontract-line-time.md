@@ -1,6 +1,6 @@
 ---
 title: Redci podugovora za vrijeme
-description: U ovom se članku objašnjava kako zabilježiti retke kooperanta za vrijeme i zabilježiti nabavu vremena od dobavljača.
+description: U ovom članku objašnjava se način bilježenja redaka podugovora za vrijeme i kupnje vremena od dobavljača.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

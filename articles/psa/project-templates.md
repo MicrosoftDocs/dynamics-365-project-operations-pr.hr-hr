@@ -1,6 +1,6 @@
 ---
 title: Predlošci projekta
-description: U ovom se članku nalaze informacije o korištenju predložaka projekata za brzo postavljanje projekata.
+description: Ovaj članak pruža informacije o tome kako upotrebljavati predloške projekta za brzo postavljanje projekta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Postavljanje cijene zasnovane na ulogama
-description: U ovom se članku nalaze informacije o postavljanju cijena za određene uloge.
+description: U ovom članku nalaze se informacije o načinu postavljanja određivanja cijena za određene uloge.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

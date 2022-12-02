@@ -1,6 +1,6 @@
 ---
 title: Novosti u veljači 2021. – Project Operations za scenarije temeljene na resursima / bez zaliha
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete dostupnima u izdanju projektnih operacija u veljači 2021. za scenarije koji se temelje na resursima/neutemeljenim resursima.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Project Operations za veljaču 2021. za scenarije koji se temelje na resursu / bez zaliha.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029606"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
 - Project Operations u okruženju 4.7.0.95 platforme Dataverse
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.16 
+- Upravljanje projektima i računovodstvo u verziji 10.0.16 okruženja aplikacije Dynamics 365 Finance 
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
@@ -44,14 +44,14 @@ Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i
 | **Vremenski unos** | 2129161 | Primjenjuju se stroža ograničenja kako bi se osiguralo da korisnici ne mogu mijenjati i ažurirati vremenski unos koji je poslan ili odobren. |
 | **Vremenski unos** | 2103572 | Odobrenje vremena za unose koji se ne odnose na projekt ne smije tražiti ulogu odobravatelja projekta. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u aplikaciji Dynamics 365 Finance 
 
-Dodatne informacije o upravljanju projektima i računovodstvu u Dynamics 365 Finance potražite u članku [Što je novo u siječnju 2021. – Projektne operacije za scenarije koji se temelje na resursima/nenaseljenim izvorima](whats-new-jan-2021-resource-based.md).
+Dodatne informacije o upravljanju projektima i računovodstvu u aplikaciji Dynamics 365 Finance potražite u odjeljku [Što je novo u siječnju 2021. – Project Operations za scenarije koji se temelje na resursima / bez zaliha](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Ažuriranja propisa
 
-Informacije o regulatornim ažuriranjima za financijske i operativne aplikacije potražite u članku [Regulatorna ažuriranja](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ažuriranjima jest prijava na Lifecycle Services (LCS) i pregledavanje planiranih regulatornih ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+Za informacije o ažuriranjima propisa za aplikacije za financije i operacije pogledajte članak [Ažuriranja propisa](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ažuriranjima jest prijava na Lifecycle Services (LCS) i pregledavanje planiranih regulatornih ažuriranja s pomoću alata za pretraživanje problema. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

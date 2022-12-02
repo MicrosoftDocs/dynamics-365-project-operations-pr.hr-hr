@@ -1,6 +1,6 @@
 ---
-title: Datum na snazi nadjačavanja cijena
-description: U ovom se članku objašnjava kako postaviti nadjačavanje cijena za određene cijene u cjeniku.
+title: Zamjene cijena s datumom stupanja na snagu
+description: U ovom se članku objašnjava način postavljanja zamjene cijena za određene cijene u cjeniku.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -14,60 +14,60 @@ ms.contentlocale: hr-HR
 ms.lasthandoff: 09/08/2022
 ms.locfileid: "9445998"
 ---
-# <a name="date-effective-price-overrides"></a>Datum na snazi nadjačavanja cijena 
+# <a name="date-effective-price-overrides"></a>Zamjene cijena s datumom stupanja na snagu 
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-*Nadjačavanja* cijena s datumskom učinkovitošću omogućuju nadjačavanje ili promjenu određenih cijena u cjeniku. Na primjer, imate standardni cjenik koji stupa na snagu od 1. siječnja 2022. do 31. prosinca 2022. Ovaj cjenik ima cijene za mnoge uloge. Cijena koja je postavljena za ulogu mrežnog tehničara **je** 100 američkih dolara (USD) po satu. Kada mrežni tehničar zabilježi vrijeme između 1. siječnja 2022. i 31. prosinca 2022., cijena mu je 100 USD. Dana 1. listopada 2022. morate prilagoditi cijenu *samo* za ulogu mrežnog **tehničara**, od 100 USD po satu do 110 USD po satu. Značajka efektivne **cijene datumskog nadjačavanja** omogućuje vam postavljanje ove promjene kao poništenja retka za tu određenu cijenu uloge. Stoga ne morate kopirati cijeli cjenik i mijenjati cijenu samo tog jednog retka.
+*Zamjene cijena s datumom stupanja na snagu* omogućuje način za zamjenu ili promjenu određenih cijena u cjeniku. Primjerice, imate standardni cjenik koji je na snazi od 1. siječnja 2022. do 31. prosinca 2022. Ovaj cjenik ima cijene za mnoge uloge. Cijena koja je postavljena za ulogu **Tehničar za mrežu** iznosi 100 američkih dolara (USD) po satu. Kada mrežni tehničar bilježi vrijeme između 1. siječnja 2022. i 31. prosinca 2022., cijena vremena iznosi 100 USD. 1. listopada 2022. morate prilagoditi cijenu *samo* za ulogu **Tehničar za mrežu**, i to s 100 USD po satu na 110 USD po satu. Značajka **Zamjena cijena s datumom stupanja na snagu** omogućuje vam da postavite ovu promjenu kao zamjenu retka za cijenu te određene uloge. Dakle, ne morate kopirati cijeli cjenik i mijenjati cijenu samo u tom jednom retku.
 
-## <a name="date-effective-price-overrides-for-labor-pricing"></a>Datum na snazi za nadjačavanje cijena za cijene rada
+## <a name="date-effective-price-overrides-for-labor-pricing"></a>Zamjena cijena s datumom stupanja na snagu za cijene rada
 
-Proces postavljanja datuma efektivnih nadjačavanja cijena za radno vrijeme na projektu sastoji se od dva osnovna koraka.
+Proces postavljanja zamjena cijena s datumom stupanja na snagu za radno vrijeme na projektu sastoji se od dva osnovna koraka.
 
-1. Omogući **značajku efektivnih nadjačavanja** cijena datuma.
-1. Postavite poništenje cijene na datumskom učinkovitošću.
+1. Omogućite značajku **Zamjene cijena s datumom stupanja na snagu**.
+1. Postavite zamjenu cijena s datumom stupanja na snagu.
 
-### <a name="enable-the-date-effective-price-overrides-feature"></a>Omogućivanje značajke datumskih efektivnih nadjačavanja cijena
+### <a name="enable-the-date-effective-price-overrides-feature"></a>Omogućavanje značajke Zamjene cijena s datumom stupanja na snagu
 
 > [!NOTE]
-> Nakon što je omogućena **značajka datumskog efektivnog nadjačavanja** cijena, ona se ne može onemogućiti.
+> Nakon što se značajka **Zamjena cijena s datumom stupanja na snagu** omogući, ne može se onemogućiti.
 
-Da biste omogućili **značajku nadjačavanja cijena na datum, slijedite** ove korake.
+Da biste omogućili značajku **Zamjena cijena s datumom stupanja na snagu**, slijedite ove korake.
 
-1. Otvorite **Parametri postavki** \> **·**.
-1. **Otvorite zapis Parametri**.
-1. U oknu akcije na **kartici Kontrola** značajki odaberite **Omogući nadjačavanje** cijena na datum.
+1. Idite na **Postavke** \> **Parametri**.
+1. Otvorite zapis **Parametri**.
+1. U Oknu radnji, na kartici **Kontrola značajke**, odaberite **Omogući zamjenu cijene s datumom stupanja na snagu**.
 1. U potvrdnom dijaloškom okviru kliknite **U redu**.
-1. Nakon nekoliko trenutaka osvježite preglednik. Mogućnosti za nadjačavanje cijena na datum stupanja na snagu sada bi trebale biti dostupne. Znat ćete da su te mogućnosti omogućene ako **se u oknu akcije više ne pojave mogućnosti Omogući poništenja** cijena s datumom.
+1. Osvježite preglednik nakon nekoliko trenutaka. Mogućnosti zamjene cijene s datumom stupanja na snagu sada bi trebale biti dostupne. Znat ćete da su te mogućnosti omogućene ako se opcija **Omogući zamjenu cijene s datumom stupanja na snagu** više ne pojavljuje u Oknu radnji.
 
-### <a name="set-up-a-date-effective-price-override"></a>Postavljanje nadjačavanja cijene na datumsku snagu
+### <a name="set-up-a-date-effective-price-override"></a>Postavljanje zamjene cijene s datumom stupanja na snagu
 
-Datumski efektivna poništenja cijena mogu se postaviti na **cjenicima troškova**, **prodaje** ili **Nabave**.
+Zamjene cijene s datumom stupanja na snagu mogu se postaviti na cjenicima **Trošak**, **Prodaja** ili **Kupnja**.
 
 > [!NOTE]
->Ponašanje datuma efektivnih **nadjačavanja** cijena trenutno ima sljedeća ograničenja:
+>Ponašanje značajke **Zamjene cijene s datumom stupanja na snagu** trenutno ima sljedeća ograničenja:
 >
-> - Samo cijene uloga i oznake cijena uloga podržavaju **značajku datuma efektivnog nadjačavanja** cijena u operacijama projekta.
-> - Kada kopirate cjenik pomoću **akcije Kopiraj** na **stranici s detaljima cjenika** i kada kreirate cjenik projekta iz standardnog ili prilagođenog cjenika tijekom stvaranja ugovora, datumski efektivna povećanja cijena ne **kopiraju se** iz izvornog cjenika.
+> - Značajka **Zamjena cijene s datumom stupanja na snagu** podržana je samo za cijene uloge i marže cijene uloge u aplikaciji Project Operations.
+> - Kada kopirate cjenik s pomoću radnje **Kopiraj** na stranici **Detalji cjenika** i kada izradite cjenik projekta iz standardnog ili prilagođenog cjenika tijekom izrade ugovora, zamjene cijene s datumom stupanja na snagu **ne** kopiraju se iz izvornog cjenika.
 
-Da biste postavili poništenje cijene koja stupa na snagu datuma za cijenu uloge ili oznaku cijene uloge, slijedite ove korake.
+Da biste postavili zamjenu cijene s datumom stupanja na snagu za cijenu uloge ili maržu cijene uloge, slijedite ove korake.
 
-1. Otvorite stranicu cjenika za koji želite postaviti poništenje cijene na datum.
-1. Odaberite karticu **Cijene** uloga. Ova kartica prikazuje sve zapise **cijena** Uloga u cjeniku.
-1. **Odaberite zapis cijene** uloge za koji želite postaviti novu cijenu nadjačavanja koja stupa na snagu datuma, a zatim dvaput dodirnite (ili dvokliknite) **cijenu** uloge da biste otvorili **stranicu Detalji o** cijeni uloge.
-1. Odaberite karticu **Efektivna poništenja** datuma. Rešetka na ovoj kartici navodi sva nadjačavanja cijena na datumskom efektivu za odabrani **zapis cijene** uloge.
-1. Na alatnoj traci iznad rešetke odaberite **Novo nadjačavanje** cijene uloge. Otvorit će se **klizač Nadjačavanje** cijene nove uloge.
-1. Navedite datum stupanja na snagu, jedinicu i novu cijenu za nadjačavanje cijene. Zatim odaberite **Spremi** i zatvorite obrazac.
+1. Otvorite stranicu za cjenik za koji želite postaviti zamjenu cijene s datumom stupanja na snagu.
+1. Odaberite karticu **Cijene uloga**. U toj se kartici navode svi zapisi **Cijene uloge** u cjeniku.
+1. Odaberite zapis **Cijene uloge** za koji želite postaviti novu zamjensku cijenu s datumom stupanja na snagu, a zatim dvaput dodirnite (ili dvaput kliknite) **Cijena uloge** da biste otvoriti stranicu **Pojedinosti o cijeni uloge**.
+1. Odaberite karticu **Datum stupanja na snagu nadjačava**. Rešetka na ovoj kartici navodi sve promjene cijena s datumom na snagu za odabrani zapis **Cijena uloge**.
+1. Na alatnoj traci iznad rešetke odaberite **Nova zamjena cijene uloge**. Otvara se klizač **Nova zamjena cijene uloge**.
+1. Navedite datum stupanja na snagu, jedinicu i novu cijenu za zamjenu cijene. Zatim odaberite **Spremi** i zatvorite obrazac.
 
 > [!NOTE]
-> - Datumsko povećanje cijene za cijenu uloge ili oznaku cijene uloge primjenjuje se na istu kombinaciju vrijednosti dimenzije određivanja cijena koja postoji u nadređenoj **cijeni** uloge ili **retku cijene** Role.
-> - Datum odabran u polju Stupa na **snagu iz** trebao bi biti unutar datuma stupanja na snagu nadređenog cjenika. Nadjačavanje cijena stupit će na snagu na datum koji je odabran u **polju Stupi na snagu iz** i primjenjivat će se do kraja datuma završetka nadređenog cjenika. Ako postavite drugo nadjačavanje cijene na datum na snagu za istu cijenu uloge, prvo nadjačavanje cijene stupit će na snagu na datum koji je odabran u **polju Stupi na snagu iz** i primjenjivat će se do početka drugog poništenja.
+> - Zamjena cijene s datumom stupanja na snagu za cijenu uloge ili maržu cijene uloge primjenjivo je na istu kombinaciju vrijednosti dimenzije cijene koja postoji u nadređenom retku **Cijena uloge** ili **Marža cijene uloge**.
+> - Datum koji se odabere u polju **Na snazi od** treba biti unutar datuma stupanja na snagu matičnog cjenika. Zamjena cijene stupit će na snagu na datum koji je odabran u polju **Na snazi od** i primjenjivat će se do datuma završetka matičnog cjenika. Ako postavite još jednu zamjenu cijene s datumom stupanja na snagu za istu cijenu uloge, prva zamjena cijene stupit će na snagu na datum koji je odabran u polju **Na snazi od** i primjenjivat će se do početka druge zamjene.
 
 ## <a name="examples"></a>Primjeri
 
-### <a name="example-1-determining-date-effectivity-for-a-role-price-that-has-role-price-overrides"></a>Primjer 1: Određivanje efektivnosti datuma za cijenu uloge koja ima nadjačavanje cijene uloge
+### <a name="example-1-determining-date-effectivity-for-a-role-price-that-has-role-price-overrides"></a>Primjer 1: određivanje datuma stupanja na snagu za cijenu uloge koja ima zamjene cijene uloge
 
-Sljedeći primjer pokazuje kako se određuje efektivnost datuma za određenu cijenu uloge za koju su postavljena nadjačavanja cijena uloge.
+Sljedeći primjer pokazuje kako se datum stupanja na snagu određuje za određenu cijenu uloge za koju su postavljene zamjene cijene uloge.
 
 **Cjenik A: od 1. siječnja do 30. lipnja**
 
@@ -75,18 +75,18 @@ Sljedeći primjer pokazuje kako se određuje efektivnost datuma za određenu cij
 
 | Cijena uloge | Jedinica | Cijena | Učinak na cijene za dolazne transakcije |
 |---|---|---|---|
-| Mrežni tehničar | h | 100 | Ta će se cijena koristiti za sve transakcije u kojima je datum transakcije između 1. siječnja i 14. ožujka. |
+| Tehničar za mrežu | h | 100 | Ta će se cijena upotrebljavati za sve transakcije čiji je datum transakcije između 1. siječnja i 14. ožujka. |
 
-*Nadjačavanje cijene uloge*
+*Zamjena cijene uloge*
 
-| Efektivno od | Jedinica | Cijena | Učinak na cijene za dolazne transakcije |
+| Na snazi od | Jedinica | Cijena | Učinak na cijene za dolazne transakcije |
 |---|---|---|---|
-| Ožujak 15. | h | 110 | Ta će se cijena koristiti za sve transakcije u kojima je datum transakcije između 15. i 30. ožujka. |
-| Travanj 1. | h | 120 | Ta će se cijena koristiti za sve transakcije u kojima je datum transakcije između 1. travnja i 30. lipnja. |
+| Ožujak 15. | h | 110 | Ta će se cijena upotrebljavati za sve transakcije čiji je datum transakcije između 15. ožujka i 30. ožujka. |
+| Travanj 1. | h | 120 | Ta će se cijena upotrebljavati za sve transakcije čiji je datum transakcije između 1. travnja i 30. lipnja. |
 
-### <a name="example-2-determining-date-effectivity-for-a-role-price-markup-that-has-role-price-markup-overrides"></a>Primjer 2:Određivanje efektivnosti datuma za oznaku cijene uloge koja ima nadjačavanje oznake cijene uloge
+### <a name="example-2-determining-date-effectivity-for-a-role-price-markup-that-has-role-price-markup-overrides"></a>Primjer 2: određivanje datuma stupanja na snagu za maržu cijene uloge koja ima zamjene marže cijene uloge
 
-Sljedeći primjer pokazuje kako se određuje efektivnost datuma za određenu oznaku cijene uloge za koju su postavljena nadjačavanja cijene role.
+Sljedeći primjer pokazuje kako se datum stupanja na snagu određuje za određenu maržu cijene uloge za koju su postavljene zamjene marže cijene uloge.
 
 **Cjenik A: od 1. siječnja do 30. lipnja**
 
@@ -94,19 +94,19 @@ Sljedeći primjer pokazuje kako se određuje efektivnost datuma za određenu ozn
 
 | Cijena uloge | Radni sati | Jedinica | Cijena | Učinak na cijene za dolazne transakcije |
 |---|---|---|---|---|
-| Mrežni tehničar | Redovan | h | 100 | Ta će se cijena koristiti za sve transakcije u kojima je datum transakcije između 1. siječnja i 14. ožujka. |
+| Tehničar za mrežu | Regularno | h | 100 | Ta će se cijena upotrebljavati za sve transakcije čiji je datum transakcije između 1. siječnja i 14. ožujka. |
 
-*Oznaka cijene uloge*
+*Marža cijene uloge*
 
-| Organizacijska jedinica | Radni sati | Obilježi % |
+| Organizacijska jedinica | Radni sati | Marža % |
 |---|---|---|
 | Contoso US | Prekovremeni rad | 10 % |
 
-*Nadjačavanje oznake cijene uloge*
+*Zamjena marže cijene uloge*
 
-| Efektivno od | Cijena | Učinak na cijene za dolazne transakcije |
+| Na snazi od | Cijena | Učinak na cijene za dolazne transakcije |
 |---|---|---|
-| Ožujak 15. | 20 % | Taj postotak marže koristit će se za sve transakcije u kojima je datum transakcije između 15. i 30. ožujka. |
-| Travanj 1. | 25 % | Ta će se marža koristiti za sve transakcije u kojima je datum transakcije između 1. travnja i 30. lipnja. |
+| Ožujak 15. | 20 % | Taj će se postotak marže upotrebljavati za sve transakcije čiji je datum transakcije između 15. ožujka i 30. ožujka. |
+| Travanj 1. | 25 % | Ta će se marža upotrebljavati za sve transakcije čiji je datum transakcije između 1. travnja i 30. lipnja. |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

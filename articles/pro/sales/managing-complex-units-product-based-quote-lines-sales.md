@@ -1,6 +1,6 @@
 ---
 title: Upravljanje složenim jedinicama, primjerice po korisniku, po mjesecu za retke ponude utemeljene na proizvodu – jednostavno
-description: U ovom se članku nalaze informacije o upravljanju složenim jedinicama za retke ponuda temeljene na proizvodu.
+description: U ovom se članku navode informacije o upravljanju složenim jedinicama za retke ponude koji se temelje na projektu.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

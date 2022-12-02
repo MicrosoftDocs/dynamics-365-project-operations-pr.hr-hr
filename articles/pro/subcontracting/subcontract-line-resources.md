@@ -1,6 +1,6 @@
 ---
 title: Resursi retka podugovora
-description: U ovom se članku objašnjava kako odrediti namjenske resurse koje dobavljač pruža za određeni redak kooperanta za vrijeme.
+description: U ovom članku objašnjava se način navođenja namjenskih resursa koje dobavljač daje za određeni redak podugovora za vrijeme.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

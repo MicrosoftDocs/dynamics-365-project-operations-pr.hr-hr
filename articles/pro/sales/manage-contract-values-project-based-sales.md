@@ -1,6 +1,6 @@
 ---
 title: Pregled redaka ugovora koji se temelje na projektu
-description: U ovom se članku nalaze informacije o radu s recima ugovora koji se temelje na projektu.
+description: U ovom se članku navode informacije o radu s redcima ugovora koji se temelji na projektu.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

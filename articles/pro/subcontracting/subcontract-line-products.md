@@ -1,6 +1,6 @@
 ---
 title: Redci podugovora za proizvode
-description: U ovom se članku objašnjava kako zabilježiti retke kooperanta za proizvode i koristiti različita polja za bilježenje nabave proizvoda od dobavljača.
+description: U ovom članku objašnjava se način bilježenja redaka podugovora za proizvode i upotrebe različitih polja za bilježenje kupnje proizvoda od dobavljača.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

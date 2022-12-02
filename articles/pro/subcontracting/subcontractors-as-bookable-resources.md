@@ -1,6 +1,6 @@
 ---
 title: Postavljanje podizvođača kao resursa koji se mogu rezervirati
-description: U ovom se članku objašnjava kako postaviti i održavati resurse kooperanta stvorene od korisnika i kontakata u sustavu, tako da se mogu povezati s podugovarateljima u Microsoftu Dynamics 365 Project Operations.
+description: U ovom se članku objašnjava način za postavljanje i održavanje resursa podizvođača koje su stvorili korisnici i kontakti u sustavu, tako da se mogu povezati s podugovorima u aplikaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Što je novo u srpnju 2022. – implementacija osnovne aplikacije Project Operations
-description: U ovom se članku nalaze informacije o kvalitetnim ažuriranjima dostupnima u izdanju implementacije sustava Microsoft Dynamics 365 Project Operations lite u srpnju 2022.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju osnovne implementacije aplikacije Microsoft Dynamics 365 Project Operations iz srpnja 2022.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
@@ -18,25 +18,25 @@ ms.locfileid: "9403988"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Operacije projekta u verziji okruženja Dataverse 4.44.0.22
+- Project Operations u okruženju platforme Dataverse verzije 4.44.0.22
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |
-| Implementacija i konfiguracija | 2761472 | Obrađena je pogreška instalacije operacija projekta. |
-| Naplata i određivanje cijene | 2746940 | Naziv retka podugovaranja trebao bi imati maksimalnu duljinu od 100 znakova. |
-| Naplata i određivanje cijene | 2739162 | Korisnici moraju moći vidjeti gumbe vrpce u stvarnom prikazu rešetke. |
-| Planiranje i praćenje projekta | 2730318 | Ažurirana provjera valjanosti za nepodržane znakove u predmetu projekta. |
-| Naplata i određivanje cijene | 2705361 | Stvarni iznosi prodaje naplaćeni ključnom etakom moraju biti uključeni u polja za praćenje projekata. |
-| Naplata i određivanje cijene | 2675880 | Spriječite povezivanje projekta s retkom ugovora koji se ne temelji na radu. |
-| Naplata i određivanje cijene | 2664396 | Ako je cjenik ponude spremljen bez ponude, mora postojati pogreška koja kaže da ponuda ne može biti prazna. |
-| Naplata i određivanje cijene | 2184019 | Kartica Naplata **temeljena na zadacima ne bi trebala biti prikazana** za projekte koji nemaju ugovor o potpori ili ponudu. |
-| Vrijeme i trošak | 2754459 | Kada je ponavljajući tijek oblaka zakazivanja neaktivan, pokažite obradu bannera i zaobiđite asinc. |
-| Naplata i određivanje cijene | 2724391 | Pogrešna iznimka baca se kada pravilo podjele naplate ugovora o projektu nedostaje vrijednost kupca. |
-| Naplata i određivanje cijene | 2708638 | Zapis nije pronađen tijekom pretraživanja pomoću pretraživanja rešetke u korištenju materijala i odobrenjima za korištenje materijala.|
-| Naplata i određivanje cijene | 2686977 | Spriječite provjeru valjanosti retka fakture tijekom stvaranja fakture. |
-| Naplata i određivanje cijene | 2683032 | Kopiranje uloga i kategorija za naplatu ne premašuje 5000 zapisa.|
-| Naplata i određivanje cijene | 2673363 | % potrošnje troškova na projektu oštećeno je kada za projekt postoje procjene truda i rashoda i stvarne vrijednosti. |
+| Implementacija i konfiguracija | 2761472 | Obrađena je pogreška instalacije Project Operations. |
+| Naplata i određivanje cijene | 2746940 | Naziv retka podugovora treba imati najviše 100 znakova. |
+| Naplata i određivanje cijene | 2739162 | Korisnici moraju moći vidjeti gumbe na vrpci u prikazu mreže stvarnih vrijednosti. |
+| Planiranje i praćenje projekta | 2730318 | Ažurirana provjera nepodržanih znakova u predmetu projekta. |
+| Naplata i određivanje cijene | 2705361 | Stvarne vrijednosti ključne fakturirane prodaje moraju biti uključene u polja za praćenje projekta. |
+| Naplata i određivanje cijene | 2675880 | Spriječite povezivanje projekta s retkom ugovora koji se ne temelji na poslu. |
+| Naplata i određivanje cijene | 2664396 | Ako je cjenik ponude spremljen bez ponude, mora postojati greška koja navodi da ponuda ne može biti prazna. |
+| Naplata i određivanje cijene | 2184019 | Kartica **Naplata na temelju zadataka** ne bi trebala biti prikazana za projekte koji nemaju prateći ugovor ili ponudu. |
+| Vrijeme i trošak | 2754459 | Kada je ponavljajući tok oblaka za zakazivanje neaktivan, prikaži banner i zaobiđi asinkronu obradu. |
+| Naplata i određivanje cijene | 2724391 | Pogrešna iznimka javlja se kada pravilu o podijeljenoj naplati ugovora o projektu nedostaje vrijednost korisnika. |
+| Naplata i određivanje cijene | 2708638 | Zapis nije pronađen tijekom pretraživanja s pomoću pretraživanja mreže u Upotrebama materijala i Odobrenjima za upotrebu materijala.|
+| Naplata i određivanje cijene | 2686977 | Spriječite provjeru valjanosti retka fakture tijekom izrade fakture. |
+| Naplata i određivanje cijene | 2683032 | Kopiranje naplativih uloga i kategorija ne prelazi 5000 zapisa.|
+| Naplata i određivanje cijene | 2673363 | % potrošnje troškova na projektu oštećen je kada za projekt postoje procjene i stvarne vrijednosti napora i troškova. |

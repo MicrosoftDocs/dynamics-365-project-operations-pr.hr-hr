@@ -1,6 +1,6 @@
 ---
 title: Koncepti financijske procjene
-description: Ovaj članak pruža informacije o financijskim procjenama projekata u projektnim operacijama.
+description: U ovom se članku navode informacije o financijskim procjenama projekata u aplikaciji Project Operations.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

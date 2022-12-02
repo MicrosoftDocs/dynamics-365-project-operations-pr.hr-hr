@@ -1,6 +1,6 @@
 ---
 title: Troškovi unutar tvrtke
-description: Ovaj članak pruža informacije o tome kako koristiti međukompanijske troškove za dodjelu troškova radnika pravnoj osobi za koju je posao obavljen.
+description: U ovom se članku navode informacije o načinu uporabe troškova unutar tvrtke za dodjelu troškova radnika pravnoj osobi za koju je posao obavljen.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

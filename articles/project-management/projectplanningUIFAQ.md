@@ -1,6 +1,6 @@
 ---
 title: Rješavanje problema s radom u rešetki sa zadacima
-description: U ovom se članku nalaze informacije o otklanjanju poteškoća potrebne za rad u rešetki zadatka.
+description: U ovom članku nalaze se informacije o rješavanju problema potrebne za rad u rešetki sa zadacima.
 author: ruhercul
 ms.date: 07/22/2022
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9188222"
 
 _**Odnosi se na:** Project Operations za scenarije koji se temelje na resursima/bez zaliha, osnovna implementacija – od sklapanja posla do predračuna, Project for the Web_
 
-Rešetka zadatka koju Dynamics 365 Project Operations koristi je hostirani iframe unutar sustava Microsoft Dataverse. Kao rezultat ove uporabe, moraju biti ispunjeni specifični zahtjevi kako bi se osigurala provjera autentičnosti i ispravno funkcioniranje autorizacije. U ovom se članku opisuju uobičajeni problemi koji mogu utjecati na mogućnost prikazivanja rešetke ili upravljanja zadacima u strukturi raščlambe rada (WBS).
+Rešetka zadataka koju koristi aplikacija Dynamics 365 Project Operations hostirani je iframe unutar platforme Microsoft Dataverse. Kao rezultat ove uporabe, moraju se ispuniti posebni zahtjevi kako bi se osiguralo ispravno funkcioniranje provjere autentičnosti i autorizacije. U ovom članku navode se uobičajeni problemi koji mogu utjecati na mogućnost prikazivanja rešetke ili upravljanja zadacima u strukturnoj analizi rada (WBS, engl. work breakdown structure).
 
 Uobičajeni problemi uključuju:
 
@@ -32,7 +32,7 @@ Uobičajeni problemi uključuju:
 
 ### <a name="mitigation-1-enable-cookies"></a>Ublažavanje 1: Omogućivanje kolačića
 
-Project Operations zahtjeva da kolačići trećih strana budu omogućeni za prikazivanje strukturne analize rada. Kada kolačići drugih proizvođača nisu omogućeni, umjesto da vidite zadatke, vidjet ćete praznu stranicu kada odaberete karticu **Zadaci** na **stranici Projekt**.
+Project Operations zahtjeva da kolačići trećih strana budu omogućeni za prikazivanje strukturne analize rada. Kada kolačići trećih strana nisu omogućeni, umjesto da vidite zadatke, vidjet ćete praznu stranicu kada odaberete karticu **Zadaci** na stranici **Projekt**.
 
 Postupci u nastavku opisuju način ažuriranja postavki preglednika Microsoft Edge ili Google Chrome kako biste omogućili kolačiće treće strane.
 
@@ -57,10 +57,10 @@ Postupci u nastavku opisuju način ažuriranja postavki preglednika Microsoft Ed
 
 ### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Ublažavanje 2: Potvrđivanje da je Krajnja točka PEX ispravno konfigurirana
 
-Project Operations zahtijeva da parametar projekta upućuje na krajnju točku PEX. Ovaj krajnja točka potrebna je za komunikaciju s uslugom koja se upotrebljava za prikazivanje strukturne analize rada. Ako parametar nije omogućen, prikazat će se pogreška "Parametar projekta nije valjan". Kako biste ažurirali Krajnju točku PEX, poduzmite sljedeće korake.
+Project Operations zahtijeva da parametar projekta upućuje na krajnju točku PEX. Ovaj krajnja točka potrebna je za komunikaciju s uslugom koja se upotrebljava za prikazivanje strukturne analize rada. Ako parametar nije omogućen, dobit ćete pogrešku „Parametar projekta nije valjan”. Kako biste ažurirali Krajnju točku PEX, poduzmite sljedeće korake.
 
 1. Dodajte polje **Krajnja točka PEX** na stranicu **Parametri projekta**.
-2. Identificirajte vrstu proizvoda koju koristite. Ova se vrijednost upotrebljava kada je postavljena krajnja točka PEX-a. Nakon preuzimanja, vrsta proizvoda već je definirana u krajnjoj točki PEX-a. Zadržite tu vrijednost.
+2. Odredite vrstu proizvoda koju upotrebljavate. Ova se vrijednost upotrebljava kada je postavljena krajnja točka PEX-a. Nakon preuzimanja, vrsta proizvoda već je definirana u krajnjoj točki PEX-a. Zadržite tu vrijednost.
 3. Ažurirajte polje sljedećim vrijednostima: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Sljedeća tablica daje parametre vrste koja se treba upotrebljavati ovisno o vrsti proizvoda.
 
       | **Vrsta proizvoda**                     | **Parametar vrste** |
@@ -71,15 +71,15 @@ Project Operations zahtijeva da parametar projekta upućuje na krajnju točku PE
 
 4. Uklonite polje sa stranice **Parametri projekta**.
 
-### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Ublažavanje 3: prijavite se u project.microsoft.com
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Ublažavanje 3: Prijava na project.microsoft.com
 
-U pregledniku otvorite novu karticu, idite na project.microsoft.com i prijavite se s korisničkom ulogom koju koristite za pristup operacijama programa Project. Važno je da se samo jedan korisnik prijavi na Microsoftov proizvod u pregledniku. Poruka o pogrešci "login.microsoftonline.com odbio povezati" najčešće se pojavljuje kada je prijavljeno više korisnika, kao što je prikazano na sljedećoj slici.
+U svom pregledniku otvorite novu karticu, idite na project.microsoft.com i prijavite se s korisničkom ulogom koju koristite za pristup aplikaciji Project Operations. Važno je da samo jedan korisnik bude prijavljen na Microsoftov proizvod u pregledniku. Poruka o pogrešci „login.microsoftonline.com odbio povezivanje” najčešće se pojavljuje kada je više od jednog korisnika prijavljeno, kao što je prikazano na sljedećoj ilustraciji.
 
-![Odaberite stranicu za prijavu na račun koja pokazuje da su prijavljena dva korisnika.](media/MULTIPLE_USERS_LOGGED_IN.png)
+![Odaberite stranicu za prijavu na račun koja pokazuje da su dva korisnika prijavljena.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Projekt se ne učitava, a korisničko sučelje je zaglavilo na rotoru
 
-U svrhu provjere autentičnosti, skočni prozori moraju biti omogućeni za učitavanje Rešetke zadataka. Ako skočni prozori nisu omogućeni, zaslon će se zaglaviti na rotoru za učitavanje. Sljedeća grafika prikazuje URL s blokiranom skočnom naljepnicom u adresnoj traci, što rezultira zaglavljivanjem spinnera pokušavajući učitati stranicu. 
+U svrhu provjere autentičnosti, skočni prozori moraju biti omogućeni za učitavanje Rešetke zadataka. Ako skočni prozori nisu omogućeni, zaslon će se zaglaviti na rotoru za učitavanje. Slika u nastavku prikazuje URL-adresu s blokiranom skočnom oznakom u traci za adresu što dovodi do zaglavljivanja rotora pri pokušaju učitavanja stranice. 
 
    ![Zaglavljeni rotor i skočni blok.](media/popupsblocked.png)
 
@@ -115,7 +115,7 @@ Umjesto toga možete poduzeti sljedeće korake.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problem 3: Upravljanje privilegijima za Project for the Web
 
-Project Operations oslanja se na vanjsku uslugu planiranja. Usluga zahtijeva da korisnik ima nekoliko dodijeljenih uloga koje mu omogućuju čitanje i pisanje entitetima povezanim s WBS-om. Ti entiteti uključuju projektne zadatke, dodjele resursa i ovisnosti zadataka. Ako korisnik ne može prikazati WBS kada prijeđe na karticu **Zadaci**, to je vjerojatno zato **što Project** for **Project Operations** nije omogućen. Korisnik može dobiti pogrešku sigurnosne uloge ili pogrešku povezanu s uskraćivanjem pristupa.
+Project Operations oslanja se na vanjsku uslugu planiranja. Usluga zahtijeva da korisnik ima nekoliko dodijeljenih uloga koje mu omogućuju čitanje i pisanje entitetima povezanim s WBS-om. Ti entiteti uključuju projektne zadatke, dodjele resursa i ovisnosti zadataka. Ako korisnik ne može prikazati WBS tijekom kretanja do kartice **Zadaci**, to je vjerojatno zato što **Projekt** za **Project Operations** nije omogućen. Korisnik može dobiti pogrešku sigurnosne uloge ili pogrešku povezanu s uskraćivanjem pristupa.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Ublažavanje 1: Provjera valjanosti sigurnosnih uloga korisnika aplikacije i krajnjeg korisnika
 

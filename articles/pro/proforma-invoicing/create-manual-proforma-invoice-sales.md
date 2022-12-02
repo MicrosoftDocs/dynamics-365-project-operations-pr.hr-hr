@@ -1,6 +1,6 @@
 ---
 title: Predračuni za projekt
-description: U ovom se članku nalaze informacije o proforma fakturama projekta u operacijama projekta.
+description: U ovom se članku navode informacije o predračunima za projekt u aplikaciji Project Operations.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

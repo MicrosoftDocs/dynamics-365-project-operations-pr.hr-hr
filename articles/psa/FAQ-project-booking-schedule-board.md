@@ -1,6 +1,6 @@
 ---
 title: Izrada rezervacije projekta s ploče rasporeda
-description: U ovom se članku navode informacije o tome kako izraditi rezervaciju projekta s ploče s rasporedom.
+description: U ovom se članku navode informacije o izradi rezervacije projekta s ploče rasporeda.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

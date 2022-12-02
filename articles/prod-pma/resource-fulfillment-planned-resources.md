@@ -1,6 +1,6 @@
 ---
 title: Ispunjenje resursa za planirane resurse
-description: U ovom se članku nalaze informacije o planiranim resursima za projekt.
+description: U ovom članku nalaze se informacije o planiranju resursa za projekt.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Ugovori o projektu – Osnovni koncepti – jednostavno
-description: Ovaj članak pruža informacije o ključnim konceptima projektnih ugovora.
+description: U ovom se članku navode informacije o ključnim konceptima ugovora o projektima.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predrač
 
 
 
-Ovaj članak sadrži ključne koncepte kojih morate biti svjesni prije nego što počnete koristiti Project ugovore u Dynamics 365 Project Operations:
+U ovom se članku navode ključni koncepti kojih morate biti svjesni prije nego što počnete upotrebljavati ugovore o projektu u aplikaciji Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Ugovorna jedinica
 

@@ -1,6 +1,6 @@
 ---
 title: Stvaranje vremenskih unosa
-description: U ovom se članku nalaze informacije o kreiranju stavki vremena.
+description: Ovaj članak pruža informacije o tome kako izraditi vremenske unose.
 author: rumant
 ms.custom:
 - dyn365-projectservice

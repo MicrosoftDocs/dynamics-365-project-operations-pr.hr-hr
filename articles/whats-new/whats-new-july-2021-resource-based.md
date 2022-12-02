@@ -1,6 +1,6 @@
 ---
 title: Novosti u srpnju 2021. – Project Operations za scenarije koji se temelje na resursu / bez zaliha
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete dostupnima u izdanju Projektnih operacija u srpnju 2021. za scenarije koji se temelje na resursima/nenaseljenim izvorima.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Project Operations za srpanj 2021. za scenarije koji se temelje na resursu / bez zaliha.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8931689"
 
 *Odnosi se na: Project Operations za scenarije temeljene na resursu / bez zaliha*
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
    - Project Operations u okruženju platforme Microsoft Dataverse verzije 4.12.0.148 ili 4.12.0.152.
-   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.20.
+   - Upravljanje projektima i računovodstvo u verziji 10.0.20 okruženja aplikacije Dynamics 365 Finance
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
@@ -80,7 +80,7 @@ Ako naiđete na problem s pokretanjem karte, slijedite upute u odjeljku [Problem
 | Općenito                       | 2253682              | Rješenje dvostrukog pisanja u aplikaciji Project Operations ne bi trebalo instalirati kada je jezgra dvostrukog pisanja instalirana u okruženje bez rješenja za organizaciju dvostrukog pisanja.                                                |
 | Općenito                       | 2316420              | Priprema jezgre aplikacije Project Service ne uspijeva ako se promijeni poslovna jedinica korisnika aplikacije.                                                                                                                     |
 | Općenito                       | 2376405              | Riješen je problem s ažuriranjem koje je proveo izdavač (ažuriranje kvalitete dostupno je u verziji 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u aplikaciji Dynamics 365 Finance
 
 | Područje značajke                      | Broj reference | Ažuriranja kvalitete                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

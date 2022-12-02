@@ -1,6 +1,6 @@
 ---
 title: Izmjene značajki s aplikacije Project Service Automation na aplikaciju Project Operations
-description: U ovom se članku daje pregled promjena značajki iz automatizacije project usluga u Dynamics 365 Project Operations.
+description: U ovom članku nalazi se pregled promjena značajki za nadogradnju iz servisa Project Service Automation na servis Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -25,79 +25,79 @@ ms.locfileid: "9459917"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Izmjene značajki s aplikacije Project Service Automation na aplikaciju Project Operations
 
-Nadogradnja s na Dynamics 365 Project Service Automation Lite bit će isporučena Dynamics 365 Project Operations u tri faze. U ovom se članku nalaze informacije o glavnim promjenama koje možete očekivati kada se nadogradnja dovrši.
+Nadogradnja iz servisa Dynamics 365 Project Service Automation na servis Dynamics 365 Project Operations Lite isporučivat će se u tri faze. Ovaj članak pruža informacije o glavnim promjenama koje možete očekivati kada nadogradnja bude dovršena.
 
 | Isporuka nadogradnje | Faza 1 <br>(siječanj 2022.) | Faza 2 <br>(studeni 2022.) | Faza 3  |
 |------------------|------------------------|---------------------------|---------------------------|
-| Nema ovisnosti o strukturi raščlambe rada (WBS) za projekte. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS je uključen u trenutno podržana ograničenja projektnih operacija. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
-| WBS izvan trenutno podržanih ograničenja projektnih operacija, uključujući podršku za project desktop klijent. | &nbsp; | &nbsp; | :heavy_check_mark: |
+| Nema ovisnosti o strukturnoj analizi rada (SAR) za projekte. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| SAR je uključena u trenutačno podržana ograničenja aplikacije Project Operations. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
+| SAR izvan trenutačno podržanih ograničenja aplikacije Project Operations, uključujući podršku za Project Desktop Client. | &nbsp; | &nbsp; | :heavy_check_mark: |
 
 ## <a name="project-management"></a>Upravljanje projektima
 
-Najznačajnije promjene korisničkog iskustva bit će u području planiranja projekta. Projektne operacije usvajaju novo moderno iskustvo za upravljanje strukturom raščlambe rada (WBS) iskorištavanjem mogućnosti zakazivanja koje [pruža Project za web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+Najznačajnije promjene u korisničkom iskustvu bit će u području planiranja projekta. Project Operations usvaja novo moderno iskustvo za upravljanje strukturnom analizom rada (SAR) iskorištavanjem mogućnosti zakazivanja koje pruža [Project for the Web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
 
 ## <a name="differences-in-the-scheduling-experience"></a>Razlike u iskustvu zakazivanja
 
-Sljedeća tablica sažima razlike u rasporedu između automatizacije usluge projekta i operacija projekta.
+Sljedeća tablica sažima razlike u zakazivanju između servisa Project Service Automation i servisa Project Operations.
 
 |  Planiranje     |   Project Operations   |   PSA   |
 |-----------------|------------------------|---------|
-| Predlošci projekata – mogućnost definiranja i primjene predložaka projekata prilikom stvaranja projekta  |  &nbsp;    | :heavy_check_mark: |
-| Integracija strukture raščlambe projekta (WBS) s klijentom za stolna računala   |    &nbsp;  | :heavy_check_mark: |
-| Ograničenja - Započnite najranije, završite najkasnije  | :heavy_check_mark: |   &nbsp;  |
-| Ključne etape – zadaci s nultim trajanjem   | :heavy_check_mark:  |  &nbsp;  |
-| Zadaci temeljeni na resursima poštovat će dostupnost dodijeljenih resursa   | :heavy_check_mark: |  &nbsp;    |
-| Uređivanje u vremenskoj fazi – uređivanje planova i rad na dnevnoj bazi   |   &nbsp;  | :heavy_check_mark: |
-| Automatsko/ručno zakazivanje – automatsko ili ručno zakazivanje zadataka pomoću modula za raspoređivanje projekata |  &nbsp; | :heavy_check_mark:  |
-| Uređivanje velikih projekata izravno u korisničkom sučelju: Ne postoji ograničenje veličine planova koji se mogu uređivati  | Ograničenje zadatka 500  | :heavy_check_mark:       |
-| Postotak dovršenosti - označavanje tijeka zadatka   | :heavy_check_mark:  |  &nbsp;  |
-| [Načini rasporeda projekata](../project-management/scheduling-modes.md) – definiranje projekta kao fiksnih jedinica, fiksnog napora ili fiksnog trajanja | :heavy_check_mark: | &nbsp; |
-| Vremenska traka – izradite i prilagodite prikaz vremenske trake da biste vizualizirali detalje rasporeda i komunicirali s dionicima. | :heavy_check_mark:  | &nbsp; |
-| Zadaci usmjereni na napore – zakazivanje podrške motora za zakazivanje zadatka kao napora  | :heavy_check_mark:  | &nbsp; |
-| **Dijaloški okvir Informacije o** zadatku – spremanje detalja o zadatku pomoću dijaloškog okvira | :heavy_check_mark:  |  &nbsp;  |
-| Povlačenje i ispuštanje – višestruko odabir zadataka i njihova pozicija na WBS-u | :heavy_check_mark: | &nbsp;  |
-| Fleksibilni trajni prikazi – definiranje granularnijih prikaza atributa zadataka   | :heavy_check_mark:  | &nbsp; |
-| Sortiranje i filtriranje WBS-a  | :heavy_check_mark:  | &nbsp; |
-| Prikaz ploča za isporuku projekta bez vodopada  | :heavy_check_mark:   | &nbsp; |
-| Prikaz vremenske trake - Interaktivni Ganttov grafikon koji se koristi za vizualizaciju i uređivanje WBS-a   | :heavy_check_mark:  | &nbsp; |
-| Tipkovni prečaci – koristite tipkovne prečace za uobičajene operacije, kao što su uvlaka ili umetanje  | :heavy_check_mark:  |  &nbsp; |
-| Poništavanje na više razina - Izvršite analizu "što ako" kako biste u potpunosti razumjeli utjecaj promjena preokretanjem i ponovnom primjenom cijelog niza operacija | :heavy_check_mark: | &nbsp; |
-| Izreži/kopiraj/zalijepi – surađujte na razvoju rasporeda kopiranjem i lijepljenjem detalja rasporeda između aplikacija  | :heavy_check_mark: | &nbsp; |
-| Kontrolni popisi zadataka – dodavanje do 20 stavki kontrolnog popisa zadatku   | :heavy_check_mark: | &nbsp; |
+| Predlošci projekta - Mogućnost definiranja i primjene predložaka projekata kada se projekt stvara  |  &nbsp;    | :heavy_check_mark: |
+| Integracija strukturne analize rada (SAR) projekta sa servisom Desktop Client   |    &nbsp;  | :heavy_check_mark: |
+| Ograničenja - nemoj početi ranije, nemojte završiti kasnije  | :heavy_check_mark: |   &nbsp;  |
+| Kontrolne točke - Zadaci s nultim trajanjem   | :heavy_check_mark:  |  &nbsp;  |
+| Zadaci na temelju resursa poštivat će dostupnost dodijeljenih resursa   | :heavy_check_mark: |  &nbsp;    |
+| Uređivanje prema vremenskim fazama - Uredite planove i radite na dnevnoj osnovi   |   &nbsp;  | :heavy_check_mark: |
+| Automatsko/ručno zakazivanje - Koristite modul za zakazivanje projekta za automatsko ili ručno zakazivanje zadataka |  &nbsp; | :heavy_check_mark:  |
+| Uredite velike projekte izravno u korisničkom sučelju: nema ograničenja u veličini planova koji se mogu uređivati  | Ograničenje od 500 zadataka  | :heavy_check_mark:       |
+| Postotak dovršenosti - Označite napredak zadatka   | :heavy_check_mark:  |  &nbsp;  |
+| [Načini zakazivanja projekta](../project-management/scheduling-modes.md) - Definirajte projekt kao fiksne jedinice, fiksni napor ili fiksno trajanje | :heavy_check_mark: | &nbsp; |
+| Vremenska crta - Izgradite i prilagodite prikaz vremenske crte za vizualizaciju detalja zakazivanja i komunikaciju sa zainteresiranim stranama. | :heavy_check_mark:  | &nbsp; |
+| Zadaci na temelju napora - Podrška modula za zakazivanje za zakazivanje zadatka na temelju napora  | :heavy_check_mark:  | &nbsp; |
+| Dijaloški okvir **Informacije o zadatku** - Spremite detalje zadatka pomoću dijaloškog okvira | :heavy_check_mark:  |  &nbsp;  |
+| Povuci i ispusti - višestruko odaberite zadatke i promijenite njihov položaj na SAR-u | :heavy_check_mark: | &nbsp;  |
+| Fleksibilni postojani prikazi - Definirajte preciznije prikaze atributa zadatka   | :heavy_check_mark:  | &nbsp; |
+| Sortiranje i filtriranje SAR-a  | :heavy_check_mark:  | &nbsp; |
+| Prikaz ploča za isporuku nekaskadnog projekta  | :heavy_check_mark:   | &nbsp; |
+| Prikaz vremenske crte - Interaktivni Ganttov grafikon koji se koristi za vizualizaciju i uređivanje SAR-a   | :heavy_check_mark:  | &nbsp; |
+| Tipkovni prečaci - koristite tipkovne prečace za uobičajene operacije, kao što su uvlačenje ili umetanje  | :heavy_check_mark:  |  &nbsp; |
+| Višerazinsko poništavanje - Izvršite analizu što ako da biste u potpunosti razumjeli utjecaj promjena poništavanjem i ponovnom primjenom čitavog skupa operacija | :heavy_check_mark: | &nbsp; |
+| Izreži/Kopiraj/Zalijepi - Surađujte na razvoju rasporeda kopiranjem i lijepljenjem detalja rasporeda između aplikacija  | :heavy_check_mark: | &nbsp; |
+| Kontrolni popisi zadatka - Dodajte do 20 stavki kontrolnog popisa zadatku   | :heavy_check_mark: | &nbsp; |
 
 ## <a name="project-planning"></a>Planiranje projekta
 
-Stranica **Projekt** u projektnim operacijama ima značajan broj razlika u usporedbi **sa stranicom Projekt** u automatizaciji projektnih usluga.
+Stranica **Projekt** u servisu Project Operations ima značajan broj razlika u usporedbi sa stranicom **Projekt** u servisu Project Service Automation.
 
-Sljedeće akcije uklonjene su sa stranice Projekti **u** sklopu nadogradnje prve faze:
+Sljedeće su radnje uklonjene sa stranice **Projekti** kao dio nadogradnje faze 1:
 
   - **Otvaranje u programu MS Project**
   - **Stvori predložak**
   - **Poništi vezu s programom MS Project**
 
-Stranica **Projekt** u operacijama projekta sadrži sljedeće nove kartice.
+Stranica **Projekt** u servisu Project Operations uključuje sljedeće nove kartice.
 
 - **Procijene materijala**
 - **Postavljanje zadatka za naplatu**
 
-Kartica **Stanje** je uklonjena **, a polje Status** sada se nalazi na **kartici Sažetak** s načinom zakazivanja projekta.
+Kartica **Status** uklonjena je i polje **Status** sada je na kartici **Sažetak** s načinom zakazivanja projekta.
 
-   ![Ažuriranja stranice Projekt.](media/projectform.png)
+   ![Ažuriranja na stranici Projekt.](media/projectform.png)
 
-Kartica **Raspored** preimenovana je u karticu **Zadatak** i sadrži novo iskustvo planiranja projekta s programom Project for the Web.
+Kartica **Raspored** preimenovana je u karticu **Zadatak** i sadrži novo iskustvo planiranja projekta uz servis Project for the Web.
 
-   ![Kartica Novi projektni zadaci.](media/tasktab.png)
+   ![Nova kartica Projektni zadaci.](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Načini planiranja
 
-Project Operations predstavio je novu značajku, [Načini](../project-management/scheduling-modes.md) zakazivanja. Svi postojeći projekti automatizacije projektnih usluga zadani će na **Fiksno trajanje** u projektnim operacijama. Međutim, zadanim postavkama za nove projekte može se upravljati prelaskom na **način rasporeda parametara parametara parametara** > **·** > **postavki** > **·**.
+Servis Project Operations uveo je novu značajku, [Načini zakazivanja](../project-management/scheduling-modes.md). Svi postojeći projekti servisa Project Service Automation bit će zadani na **Fiksno trajanje** u servisu Project Operations. Međutim, zadanim postavkama za nove projekte može se upravljati odlaskom u **Postavke** > **Parametri** > **Parametar** > **Način zakazivanja**.
 
-   ![Postavke parametara projekta za način rasporeda.](media/projectparameter.png)
+   ![Postavke parametara projekta za način zakazivanja.](media/projectparameter.png)
 
 ## <a name="project-planning-limits"></a>Ograničenja planiranja projekta
 
-Projektne operacije oslanjaju se na Project for the Web za sve operacije zakazivanja projekata. Project za web upravlja strukturom raščlambe rada pomoću ograničenja u sljedećoj tablici.
+Project Operations oslanja se na Project for the Web za sve operacije zakazivanja projekta. Project for the Web upravlja strukturnom analizom rada pomoću ograničenja u sljedećoj tablici.
 
 | **Polje**                                          | **Ograničenje**             |
 |----------------------------------------------------|-----------------------|
@@ -114,9 +114,9 @@ Projektne operacije oslanjaju se na Project for the Web za sve operacije zakaziv
 | Podržani datumski raspon za zadatak                    | 01. 01. 2000. – 31. 12. 2149. |
 | Stavke popisa za provjeru                                    | 20                    |
 
-## <a name="project-planning-extensibility-and-development"></a>Proširivost i razvoj projektnog planiranja
+## <a name="project-planning-extensibility-and-development"></a>Proširivost i razvoj planiranja projekta
 
-Nakon nadogradnje na Operacije projekta morate koristiti API-je za planiranje projekata da biste izvršili operacije stvaranja, ažuriranja i brisanja na sljedećim entitetima:
+Nakon nadogradnje na Project Operations, morate koristiti API-je zakazivanja projekta za izvršavanje operacija stvaranja, ažuriranja i brisanja na sljedećim entitetima:
 
 |   Naziv entiteta           |   Logički naziv entiteta       |
 |-------------------------|-----------------------------|
@@ -127,14 +127,14 @@ Nakon nadogradnje na Operacije projekta morate koristiti API-je za planiranje pr
 | Grupa projekta          | msdyn_projectbucket         |
 | Članov projektnog tima     | msdyn_projectteam           |
 
-Ako trenutno imate prilagodbe koje obuhvaćaju te entitete, pročitajte članak [Korištenje API-ja za planiranje projekta za izvođenje operacija sa entitetima](../project-management/schedule-api-preview.md) za planiranje rasporeda za provedbu za smjernice za implementaciju.
+Ako trenutno imate prilagodbe koje uključuju te entitete, pogledajte [Koristite API-je zakazivanja projekta za izvršavanje operacija s entitetima zakazivanja](../project-management/schedule-api-preview.md) za smjernice za implementaciju.
 
 ## <a name="data-model-changes"></a>Promjene podatkovnog modela
 
-U sklopu faze nadogradnje 1 dolazi do promjena u podatkovnom modelu. Te su promjene prvenstveno promjene polja postojećih entiteta. U fazi 1 entiteti, **msydn_project** i **msdyn_projectteam** refaktoriraju prilagodbe. 
+Kao dio 1. faze nadogradnje, postoje promjene u podatkovnom modelu. Ove promjene prvenstveno su izmjene polja postojećih entiteta. U 1. fazi, entiteti, **msydn_project** i **msdyn_projectteam** su refaktoriranje prilagodbi. 
 
 > [!IMPORTANT]
-> Ovaj će se odjeljak ažurirati dodatnim entitetima kako se dovršavaju buduće faze nadogradnje.
+> Ovaj odjeljak ažurirat će se dodatnim entitetima kako buduće faze nadogradnje budu dovršene.
 
 Sljedeća polja zamijenjena su novim poljima.
 
@@ -153,57 +153,57 @@ Dodana su sljedeća polja.
 
 |   Entity          |   Logički naziv                               |   Opis |
 |-------------------|----------------------------------------------|---------------|
-| msdyn_project     | msdyn_actualfeesales                         | Prikazuje agregat stvarne prodaje naknada za projekt. Za upotrebu samo u automatizaciji project usluga. |
-| msdyn_project     | msdyn_actualmaterialcost                     | Prikazuje zbroj stvarnog troška materijala za projekt. Za upotrebu samo u automatizaciji project usluga. |
-| msdyn_project     | msdyn_actualmaterialsales                    | Prikazuje zbroj stvarne prodaje materijala na projektu. Za upotrebu samo u automatizaciji project usluga. |
+| msdyn_project     | msdyn_actualfeesales                         | Prikazuje zbroj vrijednosti stvarne prodaje s naknadom u projektu. Samo za upotrebu u servisu Project Service Automation. |
+| msdyn_project     | msdyn_actualmaterialcost                     | Prikazuje zbroj stvarnih materijalnih troškova projekta. Samo za upotrebu u servisu Project Service Automation. |
+| msdyn_project     | msdyn_actualmaterialsales                    | Prikazuje zbroj stvarnih prodajnih materijala u projektu. Samo za upotrebu u servisu Project Service Automation. |
 | msdyn_project     | msdyn_businesscase                           |                |
 | msdyn_project     | msdyn_contractlineproject                    | Redak ugovora povezan s ovim projektom. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | Ovo je interno sistemsko polje koje se koristi za **kopiranje projekta** povezanog s identifikatorom korelacije. Za upotrebu samo u automatizaciji project usluga. |
-| msdyn_project     | msdyn_copyprojectsessionid                   | Ovo je polje internog sustava koje se koristi za **kopiranje projekta** povezanog s identifikatorom sesije. Za upotrebu samo u automatizaciji project usluga. |
-| msdyn_project     | msdyn_globalrevisiontoken                    | Zadnja sinkronizacija xRM Token globalne revizije iz usluge zakazivanja projekta. |
-| msdyn_project     | msdyn_msprojectdocument                      | Dokument programa Microsoft Project koji pripada projektu. |
-| msdyn_project     | msdyn_plannedmaterialcost                    | Agregat planiranih materijalnih troškova na projektu. Za upotrebu samo u automatizaciji project usluga. |
-| msdyn_project     | msdyn_plannedmaterialsales                   | Agregat planirane prodaje materijala na projektu. Za upotrebu samo u automatizaciji project usluga. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | Ovo je polje internog sustava koje se koristi za **kopiranje projekta** povezanog s identifikatorom korelacije. Samo za upotrebu u servisu Project Service Automation. |
+| msdyn_project     | msdyn_copyprojectsessionid                   | Ovo je polje internog sustava koje se koristi za **kopiranje projekta** povezanog s identifikatorom sesije. Samo za upotrebu u servisu Project Service Automation. |
+| msdyn_project     | msdyn_globalrevisiontoken                    | Posljednja sinkronizacija xRM globalne revizije tokena iz usluge zakazivanja projekta. |
+| msdyn_project     | msdyn_msprojectdocument                      | Dokument Microsoft Project koji pripada projektu. |
+| msdyn_project     | msdyn_plannedmaterialcost                    | Zbroj planiranih materijalnih troškova projekta. Samo za upotrebu u servisu Project Service Automation. |
+| msdyn_project     | msdyn_plannedmaterialsales                   | Zbroj planiranih prodaja materijala projekta. Samo za upotrebu u servisu Project Service Automation. |
 | msdyn_project     | msdyn_program                                | Program s kojim je ovaj projekt povezan. |
-| msdyn_project     | msdyn_quotelineproject                       | Redak Ponuda pridružen ovom projektu. |
-| msdyn_project     | msdyn_replaylogheader                        | Zaglavlje zapisnika ponavljanja. |
-| msdyn_project     | msdyn_schedulemode                           | Zadani način zakazivanja koji se koristi za sve zadatke na projektu.  |
+| msdyn_project     | msdyn_quotelineproject                       | Redak ponude povezan s ovim projektom. |
+| msdyn_project     | msdyn_replaylogheader                        | Zaglavlje za zapisnike ponovne reprodukcije. |
+| msdyn_project     | msdyn_schedulemode                           | Zadani način zakazivanja koji se koristi za sve zadatke u projektu.  |
 | msdyn_project     | msdyn_taskearlieststart                      | Najraniji datum početka bilo kojeg zadatka u projektu.  |
 | msdyn_project     | msdyn_valuestatement                         |                |
-| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Član projektnog tima iz kojeg je kopiran ovaj član projektnog tima. |
-| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Označava treba li stvoriti zahtjev resursa za novostvorenog generičkog člana tima.  |
-| msdyn_projectteam | msdyn_deletestatus                           | Status brisanja člana tima za praćenje postoji li zahtjev za brisanjem poslan usluzi zakazivanja projekta i šalje li uspješno odgovor natrag u očekivanom vremenskom prozoru. |
-| msdyn_projectteam | msdyn_effortcompleted                        | Prati trud koji je član tima postigao na njihovim zadacima. |
-| msdyn_projectteam | msdyn_effortremaining                        | Prati napore koje član tima tek treba dovršiti na njihovim zadacima. |
-| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Razdoblje čekanja od trenutka kada član tima pošalje zahtjev za brisanje usluzi zakazivanja projekta dok se član tima zapravo ne izbriše Microsoft Dataverse.|
-| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Vremenska oznaka za snimanje prilikom brisanja zahtjeva člana tima šalje se usluzi zakazivanja projekta. |
+| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Prikazuje člana projektnog tima iz kojeg je kopiran taj član projektnog tima. |
+| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Navodi treba li stvoriti zahtjev za resurs za novoosnovanog člana generičkog tima.  |
+| msdyn_projectteam | msdyn_deletestatus                           | Status brisanja člana tima kako bi se pratilo postoji li zahtjev za brisanje poslan usluzi zakazivanja projekta i hoće li odgovor poslati uspješno i unutar očekivanog vremenskog okvira. |
+| msdyn_projectteam | msdyn_effortcompleted                        | Praćenje rada koji je član tima izvršio na svojim zadacima. |
+| msdyn_projectteam | msdyn_effortremaining                        | Praćenje rada koji član tima još nije izvršio na svojim zadacima. |
+| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Razdoblje čekanja od trenutka kada član tima pošalje zahtjev za brisanje u uslugu zakazivanja projekta do stvarnog brisanja člana tima u servisu Microsoft Dataverse.|
+| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Podaci vremenske oznake za zapis vremena slanja zahtjeva za brisanje člana tima u uslugu zakazivanja projekta. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Prikazuje člana projektnog tima iz kojeg je kopiran taj član projektnog tima.  |
 
 ## <a name="project-templates"></a>Predlošci projekta
 
-Project Operations ne pruža podršku za predloške projekata. Međutim, veći dio osnovne funkcionalnosti možete replicirati pomoću API-ja za kopiranje [projekta](../project-management/dev-copy-project.md).
+Project Operations ne pruža podršku za predloške projekta. Međutim, možete replicirati velik dio temeljne funkcionalnosti upotrebom [API-ja kopiranja projekta](../project-management/dev-copy-project.md).
 
 ## <a name="desktop-add-in-support"></a>Podrška za dodatke za stolna računala
 
-Podrška za dodatak Microsoft Project Desktop neće biti dostupna u prve dvije faze nadogradnje. U trećoj fazi korisnici koji imaju projekte veće od trenutno podržanih ograničenja programa Project za web moći će koristiti dodatak za stolna računala.
+Podrška za dodatke za stolna računala Microsoft Project neće biti dostupna u prve 2 faze nadogradnje. U 3. fazi, korisnici koji imaju projekte veće od trenutno podržanih ograničenja servisa Project for the Web moći će koristiti dodatak za stolna računala.
 
-## <a name="editing-resource-assignment-contours"></a>Uređivanje kontura dodjele resursa
+## <a name="editing-resource-assignment-contours"></a>Uređivanje kontura za dodjelu resursa
 
-Mogućnost uređivanja kontura dodjele resursa bit će dostupna kada je dostupna faza 2 nadogradnje.
+Mogućnost uređivanja kontura dodjele resursa bit će dostupna kada bude dostupna 2. faza nadogradnje.
 
 ## <a name="billing-and-pricing"></a>Naplata i određivanje cijene
 
-Sljedeće nove značajke dodane su u projektne operacije. Te su značajke aditivne prirode i ne utječu na podatkovni model automatizacije projektnih usluga.
+Sljedeće nove značajke dodane su u Project Operations. Ove su značajke aditivne prirode i ne utječu na podatkovni model servisa Project Service Automation.
 
-- [Bilježenje upotrebe materijala na projektima i projektnim zadacima](../material/material-usage-log.md)
-- [Upravljanje kooperantima](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Zapis utrošenog materijala na projektima i projektnim zadacima](../material/material-usage-log.md)
+- [Upravljanje podugovorima](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Predujmovi i ugovori koji e temelje na povremenim plaćanjima](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Status i provjere valjanosti ugovora koje ne premašuju](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
-- [Naplata temeljena na zadacima](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
+- [Ugovor sa statusom koji se ne smije premašiti i provjerama valjanosti](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Naplata na temelju zadataka](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
 ## <a name="deprecated-components"></a>Zastarjele komponente
 
-Sljedeće tablice dokumentiraju sva zastarjela polja koja su premještena u nadogradnju rješenja zastarjelih komponenti nakon objave. Dodatne informacije i poveznicu na rješenje potražite u odjeljku [Dynamics 365 Project Service Automation 3x do komponenti project operations 4x](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
+Sljedeće tablice dokumentiraju sva zastarjela polja koja su premještena u rješenje za zastarjele komponente nakon nadogradnje. Za dodatne informacije i vezu na rješenje pogledajte [Dynamics 365 Project Service Automation 3x u servisu Project Operations 4x zastarjele komponente](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
 
 ### <a name="invoicedetail"></a>invoicedetail
 

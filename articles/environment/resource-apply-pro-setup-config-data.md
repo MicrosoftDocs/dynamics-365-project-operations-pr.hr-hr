@@ -1,6 +1,6 @@
 ---
 title: Postavljanje i primjena konfiguracijskih podataka na platfomi Microsoft Dataverse
-description: U ovom se članku nalaze informacije o postavljanju i primjeni konfiguracijskih podataka u operacijama programa Project.
+description: U ovom članku nalaze se informacije o načinu postavljanja i primjene konfiguracijskih podataka u aplikaciji Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -21,10 +21,10 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 ## <a name="prerequisites"></a>Preduvjeti
 
-Da biste počeli konfigurirati podatke u okviru Microsoft Dataverse, moraju se ispuniti sljedeći preduvjeti:
+Prije nego što počnete konfigurirati podatke u aplikaciji Microsoft Dataverse, moraju se ispuniti sljedeći preduvjeti:
 
-1.  Dodijelite Dataverse okruženje i Dynamics 365 Finance okruženje za projektne operacije.
-2.  Podaci pravne osobe iz Dynamics 365 Finance dijele se okolišu Dataverse. To znači da **entitet Društvo** u sustavu Dataverse ima sljedeće zapise o poduzeću:
+1.  Pružite okruženje platforme Dataverse i sustava Dynamics 365 Finance za aplikaciju Project Operations.
+2.  Dijeljenje podataka o pravnoj osobi sustava Dynamics 365 Finance s okruženjem platforme Dataverse. To znači da entitet **Tvrtka** na platformi Dataverse ima sljedeće zapise o poduzeću:
   - THPM
   - USPM
   - GBPM

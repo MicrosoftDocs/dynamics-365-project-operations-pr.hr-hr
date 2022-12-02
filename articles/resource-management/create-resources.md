@@ -1,6 +1,6 @@
 ---
 title: Stvaranje resursa
-description: U ovom se članku nalazi veza na informacije o stvaranju resursa koji se mogu rezervirati.
+description: U ovom je članku navedena veza do informacija o načinu izrade resursa koji se mogu rezervirati.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 Možete upotrebljavati aplikaciju Dynamics 365 Field Service kako biste stvorili resurse koji se mogu rezervirati za uporabu u vašem okruženju aplikacije Dynamics 365 Project Operations. Kako biste stvorili ove resurse, pogledajte članak [Postavljanje resursa koji se mogu rezervirati](/dynamics365/field-service/set-up-bookable-resources).
 
-Projektne operacije podržavaju sljedeće vrste resursa:
+Aplikacija Project Operations podržava sljedeće vrste resursa:
 - Kupac
 - Kontakt
 - User

@@ -1,6 +1,6 @@
 ---
 title: Korektivne fakture za projekt
-description: U ovom se članku nalaze informacije o stvaranju i potvrđivanju korektivnih faktura u operacijama projekta.
+description: U ovom se članku navode informacije o načinu stvaranja i potvrđivanja korektivnih faktura u aplikaciji Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

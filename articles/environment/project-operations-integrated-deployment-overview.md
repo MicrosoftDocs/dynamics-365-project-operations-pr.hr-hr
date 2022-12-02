@@ -1,6 +1,6 @@
 ---
 title: Pregled implementacije aplikacije Project Operations za scenarije temeljene na resursima / bez zaliha
-description: U ovom se članku nalaze informacije o vrsti implementacije, Operacijama projekta za scenarije koji se temelje na resursima/neuskladnim resursima.
+description: U ovom članku nalaze se informacije o vrsti implementacije, aplikaciji Project Operations za scenarije koji se temelje na resursu / bez zaliha.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ Vrsta implementacije Dynamics 365 Project Operations za scenarije koji se temelj
 - Priznavanje prihoda za projekte
 - Proširivost kroz aplikaciju Power Platform
 
-Ova vrsta implementacije pruža proširenje funkcionalnosti koje pružaju Dynamics 365 Finance i Dynamics 365 Supply Chain Management aplikacije.
+Ova vrsta implementacije također omogućuje proširenje na funkcionalnost koju pružaju aplikacije Dynamics 365 Finance i Dynamics 365 Supply Chain Management.
 
 Trebalo bi odabrati ovu implementaciju ako se od aplikacije Project Operations očekuje da upotrijebi puni životni ciklus projekta, koji uključuje sljedeće preduvjete:
 

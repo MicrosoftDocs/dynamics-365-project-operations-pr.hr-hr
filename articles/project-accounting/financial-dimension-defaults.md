@@ -1,6 +1,6 @@
 ---
 title: Zadane postavke financijske dimenzije
-description: U ovom se članku nalaze informacije o postavljanju zadanih postavki financijske dimenzije.
+description: U ovom se članku navode informacije o načinu postavljanja zadanih financijskih veličina.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez 
 
 
 
-Dynamics 365 Project Operations [koristi okvir Financijske dimenzije](/dynamics365/finance/general-ledger/financial-dimensions) u Dynamics 365 Finance kako bi pružio dodatne uvide u transakcije podremena projekata i glavne knjige.
+Dynamics 365 Project Operations upotrebljava okvir [Financijske veličine](/dynamics365/finance/general-ledger/financial-dimensions) u usluzi Dynamics 365 Finance za pružanje dodatnih uvida o transakcijama sporedne knjige i glavne knjige projekta.
 
 Zadane financijske dimenzije mogu se postaviti na kupca, izvor financiranja projekta, kontrolnu točku, redak ugovora o projektu ili projekt.
 

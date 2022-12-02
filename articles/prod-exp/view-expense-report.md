@@ -1,6 +1,6 @@
 ---
 title: Prikaz izvješća o troškovima iz Glavne knjige ili nabave i dobavljanja
-description: U ovom se članku objašnjava kako pregledati izvorno izvješće o troškovima na kojem se pojavila transakcija.
+description: U ovom članku objašnjava se način prikaza izvornog izvješća o troškovima u kojem se pojavila transakcija.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

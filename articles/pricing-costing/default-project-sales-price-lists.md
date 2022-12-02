@@ -1,6 +1,6 @@
 ---
 title: Zadani cjenici
-description: U ovom se članku nalaze informacije o zadanim cjenicima prodaje i troškova u operacijama projekta.
+description: U ovom se članku navode informacije o zadanim prodajnim cjenicima i cjenicima troškova u aplikaciji Project Operations.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -25,7 +25,7 @@ Svaka projektna ponuda i ugovor u aplikaciji Dynamics 365 Project Operations sad
 Sustav dovršava sljedeći postupak kako bi odredio koji će cjenik zadati za ponudu projekta:
 
 1. Sustav pregledava cjenike koji su priloženi cjenicima za projekt računa. 
-1. Ako zapisu računa nisu pridruženi cjenici projekta, sustav pregledava cjenike prodaje povezane s parametrima projekta koji odgovaraju valuti ponude projekta.
+1. Ako uz zapis računa nisu priloženi cjenici za projekt, sustav pregledava prodajne cjenike priložene uz parametre projekta koji se podudaraju s valutom ponude projekta.
 1. Nadalje, sustav provjerava mjerodavnost datuma cjenika koji se podudara s datumskim rasponom ponude projekta. Osobito datum kada je stvorena ponuda.
 1. Ako postoji više cjenika koji vrijede za datum ponude projekta, za ponudu projekta zadani su svi cjenici.
 1. Ako na datum ponude projekta nema cjenika koji su na snazi, za ponudu projekta ne postoji zadani cjenik projekata. Na ponudi projekta pojavit će se poruka upozorenja. U poruci se navodi kako, budući da nisu priloženi cjenici za projekat, stvarni i procijenjeni podaci za projekt neće imati cijenu.
@@ -41,38 +41,38 @@ Sustav dovršava sljedeći postupak kako bi odredio koji će cjenik zadati za ug
 
 ## <a name="cost-price-lists"></a>Cjenici troškova
 
-Cjenici troškova ne zadaju nijedan entitet u aplikaciji Project Operations. Određivanje cjenika troškova koji će se koristiti za troškove projekta uvijek se vrši po transakciji. Sustav dovršava sljedeći postupak kako bi odredio koji će cjenik upotrijebiti za troškove projekta:
+Cjenici troškova ne zadaju nijedan entitet u aplikaciji Project Operations. Utvrđivanje cjenika troškova koji će se upotrebljavati za troškove projekta uvijek se vrši na osnovni pojedine transakcije. Sustav dovršava sljedeći postupak kako bi odredio koji će cjenik upotrijebiti za troškove projekta:
 
-1. Sustav pregledava cjenike koji su povezani s jedinicom ugovorne organizacije projekta.
-1. Zatim sustav razmatra efektivnost datuma cjenika koji odgovaraju datumu konteksta dolazne procjene ili stvarnog konteksta.
+1. Sustav pregledava cjenike koji su priloženi ugovornoj organizacijskoj jedinici projekta.
+1. Sustav potom pregledava datum stupanja na snagu cjenika koji se podudara s datumom konteksta ulazne procjene ili konteksta stvarnih podataka.
 
-    - *Kontekst* procjene odnosi se na bilo koji od tri konteksta procjene u projektnim operacijama:
+    - *Kontekst procjene* odnosi se na bilo koji od tri konteksta procjene u aplikaciji Project Operations:
 
         - Redak procjene projekta
         - Pojedinost retka ponude
         - Pojedinosti retka ugovora
 
-    - *Stvarni kontekst* odnosi se na bilo koji od tri izvora za stvarne slučajeve u projektnim operacijama:
+    - *Kontekst stvarnog podatka* odnosi se na bilo koji od tri izvora stvarnih podataka u aplikaciji Project Operations:
 
-       - Reci temeljnice stavki koji su ručno kreirani ili reci temeljnice ispravaka kreirani u temeljnici ispravaka
-       - Reci temeljnice kreirani tijekom slanja zapisnika o vremenu, troškovima ili korištenju materijala
+       - Ručno izrađeni redci temeljnice ili redci dnevnika ispravaka izrađeni u dnevniku ispravaka
+       - Redci u dnevniku izrađeni tijekom podnošenja zapisnika o vremenu, trošku ili utrošenom materijalu
        - Pojedinost retka fakture
 
-    Kada operacije projekta podudaraju s efektivnošću datuma retka ulazne temeljnice ili retka fakture u *stvarnom kontekstu*, koristi **polje Datum** transakcije.
+    Kada aplikacija Project Operations pronađe podudaranje datuma stupanja na snagu dolaznog retka u dnevniku ili pojedinosti retka fakture u *kontekstu stvarnog podatka*, upotrebljava polje **Datum transakcije**.
 
-    - Ako više cjenika stupa na snagu za datum konteksta dolazne procjene ili stvarnog konteksta, odabire se posljednji kreirani cjenik.
-    - Ako jedinici ugovorne organizacije projekta nisu priloženi cjenici, sustav pregledava cjenike troškova koji su povezani parametrima projekta koji odgovaraju valuti projekta.
+    - Ako je za datum konteksta ulazne procjene ili konteksta stvarnog podatka na snazi više cjenika, odabire se najnovije izrađeni cjenik.
+    - Ako uz ugovornu organizacijsku jedinicu projekta nisu priloženi cjenici projekta, sustav pregledava cjenike troškova priložene uz parametre projekta koji se podudaraju s valutom projekta.
 
 ## <a name="enable-multi-currency-cost-price-list"></a>Omogući cjenik troškova u više valuta
 
-Ova postavka može se pronaći na Parametri **postavki** \> **·**. Zadana je vrijednost **Ne**.
+Ovu postavku možete pronaći u **Postavke** \> **Parametri**. Zadana je vrijednost **Ne**.
 
-Kada je ova postavka omogućena (to jest, vrijednost je postavljena na **Da**), sustav se ponaša na sljedeći način:
+Kada je ova postavka omogućena (to jest, njena vrijednost postavljena na **Da**), sustav se ponaša na sljedeći način:
 
-- Omogućuje da se cjenici troškova u bilo kojoj valuti povežu s organizacijskom jedinicom. Na primjer, cjenik troškova u valuti EUR može se priložiti organizacijskoj jedinici u valuti USD. Sustav će i dalje provjeravati da cjenici troškova koji su povezani s organizacijskom jedinicom nemaju preklapajuću efektivnost datuma.
-- Potvrđuje da cjenici troškova koji su povezani s parametrima projekta nemaju preklapajuću efektivnost datuma, čak i ako imaju različite valute. Takvo se ponašanje razlikuje od zadanog ponašanja (to jest, ponašanja kada je vrijednost postavljena na **Ne**). U zadanom ponašanju provjeravaju se samo cjenici troškova koji imaju istu **valutu** za efektivnost datuma koja se ne preklapa.
-- Za kontekst dolazne transakcije određuje cjenik troškova samo na temelju efektivnosti datuma. Takvo se ponašanje razlikuje od zadanog ponašanja, gdje sustav odabire cjenik troškova koji odgovara valuti projekta i efektivnosti datuma.
+- Omogućuje povezivanje cjenika troškova u bilo kojoj valuti s organizacijskom jedinicom. Na primjer, cjenik troškova u valuti EUR može se priložiti organizacijskoj jedinici u valuti USD. Sustav će nastaviti provjeravati da cjenici troškova koji su priloženi organizacijskoj jedinici nemaju preklapajuće datume stupanja na snagu.
+- Potvrđuje da cjenici troškova koji su priloženi projektnim parametrima nemaju preklapajuće datume stupanja na snagu, čak i ako imaju različite valute. Ovo se ponašanje razlikuje od zadanog ponašanja (to jest, ponašanja kada je vrijednost postavljena na **Ne**). U zadanom ponašanju, za datume stupanja na snagu koji se ne preklapaju potvrđuju se samo cjenici troškova koji imaju **istu** valutu.
+- Za kontekst dolazne transakcije, određuje cjenik troškova isključivo na temelju datuma stupanja na snagu. Ovo se ponašanje razlikuje od zadanog ponašanja gdje sustav odabire cjenik troškova koji odgovara i valuti projekta i datumu stupanja na snagu.
 
-Zbog tih promjena u ponašanju, kupci Project Operationsa moći će održavati globalni cjenik troškova koji će biti relevantan za cijelu tvrtku. Neće morati imati cjenike u svakoj valuti poslovanja. Globalni cjenik imat će efektivnost datuma i omogućit će postavljanje stopa troškova u bilo kojoj valuti za određenu kombinaciju vrijednosti dimenzije određivanja cijena. Valuta cjenika troškova koristi se samo za unos zadanih vrijednosti kada **se kreiraju cijene** uloga, **cijene** kategorija i **zapisi stavki cjenika**. Neće se koristiti za određivanje cjenika.
+Zbog ovih promjena ponašanja, klijenti koji se koristi aplikacijom Project Operations moći će održavati globalni cjenik troškova koji će biti relevantan za cijelu tvrtku. Neće morati imati cjenike u svakoj valuti poslovanja. Globalni cjenik imat će datum stupanja na snagu i omogućit će postavljanje stopa troškova u bilo kojoj valuti za određenu kombinaciju vrijednosti cjenovne veličine. Valuta cjenika troškova koristi se samo za unos zadanih vrijednosti kada se izrađuju zapisi stavki **Cijene uloga**, **Cijene kategorije** i **Cjenik**. Neće se koristiti za određivanje cjenika.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

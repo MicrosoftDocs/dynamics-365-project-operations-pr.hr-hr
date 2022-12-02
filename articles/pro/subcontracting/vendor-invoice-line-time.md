@@ -1,6 +1,6 @@
 ---
 title: Redci za vrijeme u fakturi dobavljača
-description: U ovom se članku objašnjava kako zabilježiti retke fakture dobavljača za vremenske troškove koje su stavili kooperanti.
+description: Ovaj članak objašnjava kako zabilježiti retke faktura dobavljača za vremenske troškove koje podizvođači unesu.
 author: rumant
 ms.date: 03/15/2022
 ms.topic: article
@@ -17,30 +17,30 @@ ms.locfileid: "9262003"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Faktura dobavljača u Microsoftu Dynamics 365 Project Operations može imati retke fakture dobavljača za vrijeme. Voditelji projekata mogu koristiti retke fakture dobavljača za vrijeme bilježenja troškova vremena kooperanta na projektima.
+Faktura dobavljača u aplikaciji Microsoft Dynamics 365 Project Operations može imati retke fakture dobavljača za vrijeme. Voditelji projekata mogu koristiti retke fakture dobavljača za vrijeme kako bi zabilježili troškove vremena podizvođača na projektima.
 
-Reci fakture dobavljača za vrijeme mogu se, ali i ne moraju odnositi na redak kooperanta za vrijeme. Ako redak fakture dobavljača za vrijeme upućuje na podugovaranje, voditelji projekata moći će uskladiti i provjeriti vrijeme koje redak fakture dobavljača fakturira s vremenom koje su zabilježili podizvođači i odobrili voditelji projekata na projektu.
+Redci fakture dobavljača za vrijeme mogu, ali ne moraju upućivati na redak podugovora za vrijeme. Ako redak fakture dobavljača za vrijeme upućuje na podugovor, voditelji projekata moći će usporediti i provjeriti vrijeme koje fakturira redak fakture dobavljača s vremenom koje su zabilježili podizvođači i odobrili voditelji projekata na projektu.
 
-Sljedeća tablica sadrži podatke o poljima u recima fakture dobavljača za vrijeme.
+Tablica u nastavku pruža informacije o poljima u recima fakture dobavljača za vrijeme.
 
 | Polje | Opis | Funkcionalni utjecaj |
 | --- | --- | --- |
-| Ime/naziv | Naziv retka fakture dobavljača za pomoć pri identifikaciji. | Taj će naziv biti prikazan kao prvi stupac u svim pretraživanjima koja se temelje na recima fakture dobavljača. |
-| Opis | Kratak opis usluga koje dobavljač fakturira u retku fakturiranja dobavljača. | Nijedno |
-| Podugovor | Kooperant na kojem su usluge izvorno naručene. | Kada je za fakturu dobavljača odabran kooperant, svi reci na fakturi dobavljača naslijedit će taj odabir. Faktura dobavljača ne može imati retke fakture dobavljača koji se odnose na različite kooperante. |
-| Redak kooperacije | Linija podugovaranja na kojoj su usluge naručene. Popis redaka kooperanta koji se mogu odabrati ograničen je na retke na odabranom kooperantu. | Kada je redak kooperanta odabran u retku fakture dobavljača za vrijeme, zadane vrijednosti za **polja Resursi** Projekt **,** Uloga **i** Raspoloživost za rezervaciju unose se iz odgovarajućih polja u retku kooperanta. Ako odabrani redak kooperanta ima vrijednosti u poljima Projekt **,** Uloga **i** Moguće **rezervirati, vrijednosti odgovarajućih polja u** retku fakture dobavljača ne mogu se razlikovati od tih vrijednosti. |
-| Datum transakcije | Datum kada će se na projektu zabilježiti stvarni trošak retka fakture dobavljača. | Nijedno |
-| Razred transakcije | Zadana vrijednost je **Vrijeme**. | **Vrijednost Vrijeme** označava da se redak fakture dobavljača koristi za bilježenje iznosa fakture vremena kooperanta. |
-| Project | Naziv projekta na kojem su korištene usluge koje se fakturiraju. | Ovo je polje obavezno i ne može se ostaviti praznim. |
-| Zadatak | Naziv projektnog zadatka na kojem su korištene usluge koje se fakturiraju. Ovo je polje dostupno samo ako je odabran projekt. Odabir projektnog zadatka nije obavezan. | Ako ovo polje ostane prazno, voditelj projekta može uskladiti redak fakture dobavljača s vremenom koje su zabilježili resursi kooperanta na bilo kojem zadatku projekta. Ako se redak fakture dobavljača ne odnosi na redak kooperanta, a to polje ostaje prazno, stvarni trošak kreiran retkom fakture dobavljača neće biti povezan ni s jednom nenaplaćenom stvarnom prodajom. U tom slučaju, ako je postavljena naplata na temelju zadataka, troškovi se možda neće moći fakturirati krajnjem kupcu. |
-| Uloga | Uloga resursa kooperanta čije se vrijeme fakturira. | Ovo polje navodi ulogu koju obavljaju resursi kooperanta čije je vrijeme fakturirano na fakturi dobavljača. |
-| Resurs koji je moguće rezervirati | Ime podizvođača čije se vrijeme fakturira. Odabir resursa koji se može rezervirati nije obavezan. | Ako ovo polje ostane prazno, voditelj projekta može uskladiti redak fakture dobavljača s vremenom koje bilježi bilo koji resurs koji pripada dobavljaču u retku fakture dobavljača. |
-| Količina | Unesite broj sati koje dobavljač fakturira u retku fakture. |Nijedno |
-| Grupa jedinica | Zadana vrijednost je **grupa** Jedinica vremena i ne može se mijenjati. | Nijedno |
-| Jedinica | Zadana vrijednost je osnovna jedinica sati iz grupe jedinica vremena. Tu vrijednost možete promijeniti tako da biste je kupili u bilo kojoj jedinici grupe vremenskih jedinica, kao što su dan ili tjedan. | Kombinacija vrijednosti Uloga **i** Jedinica **koristit će se kao zadana ili izračunata vrijednost za** polje Jedinična **cijena** u retku fakture dobavljača. |
-| Jedinična cijena | Zadana jedinična **cijena koristi kombinaciju vrijednosti Uloga** i **Jedinica** iz cjenika projekta koja se primjenjuje na datum transakcije retka fakture dobavljača. | Ako je cijena primjenjivog cjenika projekta postavljena u jedinici koja se razlikuje od jedinice u retku fakture dobavljača, sustav koristi jediničnu konverziju za izračun cijene po jedinici. |
-| Podzbroj | Ovo polje samo za čitanje izračunava se kao *Jedinična cijena* količine&times;*ako* su vrijednosti unesene **i u polje Količina** i u polje Jedinična **cijena.** Ako su jedno ili oba polja prazna, u ovo polje možete unijeti vrijednost. | Nijedno |
+| Ime/naziv | Naziv retka fakture dobavljača za pomoć pri identifikaciji. | Taj naziv prikazivat će se kao prvi stupac u svim pretraživanjima koja se temelje na recima fakture dobavljača. |
+| Opis | Kratak opis usluga koje dobavljač fakturira u retku fakture dobavljača. | Nijedno |
+| Podugovor | Podugovor na temelju kojeg su usluge izvorno naručene. | Kada se za fakturu dobavljača odabere podugovor, svi reci na fakturi dobavljača naslijedit će taj odabir. Faktura dobavljača ne može sadržavati retke fakture dobavljača koji upućuju na različite podugovore. |
+| Redak podugovora | Redak podugovora na temelju kojeg su usluge naručene. Popis redaka podugovora koje je moguće odabrati ograničen je na retke na odabranom podugovoru. | Kada je redak podugovora odabran na retku fakture dobavljača za vrijeme, zadane vrijednosti za polja **Projekt**, **Uloga** i **Resurs koji se može rezervirati** unose se iz odgovarajućih polja u retku podugovora. Ako odabrani redak podugovora ima vrijednosti u poljima **Projekt**, **Uloga** i **Može se rezervirati**, vrijednosti odgovarajućih polja u retku fakture dobavljača ne mogu se razlikovati od tih vrijednosti. |
+| Datum transakcije | Datum kada će stvarni trošak retka fakture dobavljača biti zabilježen u projektu. | Nijedno |
+| Razred transakcije | Zadana vrijednost je **Vrijeme**. | Vrijednost **Vrijeme** označava da se redak fakture dobavljača koristi za bilježenje iznosa fakture za vrijeme podizvođača. |
+| Project | Naziv projekta u kojem su korištene usluge koje se fakturiraju. | To je polje obavezno i ne smije se ostaviti prazno. |
+| Zadatak | Naziv projektnog zadatka u kojem su korištene usluge koje se fakturiraju. To polje dostupno je samo ako je odabran projekt. Odabir projektnog zadatka nije obavezan. | Ako se to polje ostavi praznim, voditelj projekta može povezati redak fakture dobavljača s vremenom koje zabilježe resursi podizvođača u bilo kojem zadatku projekta. Ako redak fakture dobavljača ne upućuje na redak podugovora, a to polje je ostavljeno prazno, stvarni trošak koji je kreirao redak fakture dobavljača neće biti povezan ni s kojom nenaplaćenom stvarnom prodajom. U tom slučaju, ako je postavljena naplata na temelju zadataka, troškovi se možda neće moći fakturirati krajnjem kupcu. |
+| Uloga | Uloga resursa podugovora čije se vrijeme fakturira. | Ovo polje specificira ulogu koju obavljaju resursi podugovora čije je vrijeme fakturirano na fakturi dobavljača. |
+| Resurs koji je moguće rezervirati | Ime podizvođača čije se vrijeme fakturira. Odabir resursa koji se može rezervirati nije obavezan. | Ako se to polje ostavi praznim, voditelj projekta može povezati redak fakture dobavljača s vremenom koje zabilježi bilo koji resurs koji pripada dobavljaču u bilo kojem retku fakture dobavljača. |
+| Količina | Unesite broj sati vremena koje dobavljač fakturira u retku fakture. |Nijedno |
+| Grupa jedinica | Zadana vrijednost je **Grupa vremenskih jedinica** i ne može se promijeniti. | Nijedno |
+| Jedinica | Zadana vrijednost je osnovna jedinica sati iz grupe jedinica za vrijeme. Ovu vrijednost možete promijeniti kako biste kupili bilo koju jedinicu grupe jedinica vremena, kao što je dan ili tjedan. | Kombinacija vrijednosti **Uloga** i **Jedinica** upotrebljavat će se kao zadana ili izračunana vrijednost za polje **Jedinična cijena** u retku fakture dobavljača. |
+| Jedinična cijena | Zadana jedinična cijena koristi kombinaciju vrijednosti **Uloga** i **Jedinica** iz cjenika projekta koja je primjenjiva na datum transakcije retka fakture dobavljača. | Ako je cijena za primjenjivi cjenik projekta postavljena u drugoj jedinici različitoj od jedinice u retku fakture dobavljača, sustav upotrebljava pretvaranje jedinice za izračun jedinične cijene. |
+| Podzbroj | To je polje samo za čitanje koje se izračunava kao *Količina* &times; *Jedinična cijena* ako su unesene vrijednosti u polja **Količina** i **Jedinična cijena**. Ako su jedno ili oba polja prazna, možete unijeti vrijednost u to polje. | Nijedno |
 | Porez na promet | Unesite iznos poreza na prodaju. | Nijedno |
-| Ukupan iznos | Ukupan iznos retka fakture dobavljača, uključujući poreze. Ovo se polje izračunava kao *porez na promet podzbroja* + *·*. | Nijedno |
+| Ukupni iznos | Ukupni iznos retka fakture dobavljača, uključujući porez. To polje izračunava se kao *Međuzbroj* + *Porez na promet*. | Nijedno |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

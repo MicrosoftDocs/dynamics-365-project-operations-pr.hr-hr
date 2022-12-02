@@ -1,6 +1,6 @@
 ---
 title: Procjena troškova dodjela podugovornih resursa
-description: U ovom se članku objašnjavaju neki način na koji Microsoft Dynamics 365 Project Operations izračunava procjenu troškova dodjela kooperantskih resursa.
+description: U ovom se članku objašnjava kako sustav Microsoft Dynamics 365 Project Operations izračunava procjenu troškova dodjela podugovorenih resursa.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,32 +17,32 @@ ms.locfileid: "9522645"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Dodjele zadataka članova projektnog tima kooperanta koštaju se pomoću **cjenika nabave** priloženog podugovaranju na zapisu povezanog člana tima. To se razlikuje od načina na koji se koštaju dodjele resursa zaposlenika ako se dodjele zadataka resursa zaposlenika koštaju pomoću **cjenika Troškova** koji je povezan s ugovornom jedinicom projekta. 
+Dodjela zadataka podugovorenih članova projektnog tima obračunava se korištenjem cjenika **Kupnja** priloženog podugovoru na povezanom zapisu člana tima. To se razlikuje od načina na koji se obračunavaju troškovi dodjele resursa zaposlenika gdje se dodjela zadataka resursa zaposlenika obračunava korištenjem cjenika **Trošak** priloženog ugovornoj jedinici projekta. 
 
-Za generičke članove projektnog tima koji su podugovarani, dodjele se koštaju pomoću postavke cijena na temelju uloga u cjeniku nabave priloženom kooperantu. Nabavne cijene mogu se postaviti i posebno za svaki resurs. Ove cijene specifične za resurse imat će prioritet kada su dodjele zadataka imenovanih članova projektnog tima ugovorni radnici. 
+Dodjele se za generičke podugovorene članove projektnog tima obračunavaju korištenjem postavljanja cijene temeljenog na ulozi u nabavnom cjeniku priloženom podugovoru. Nabavne cijene također se mogu postaviti posebno za svaki resurs. Ovim cijenama specifičnim za resurse dat će se prioritet kada su dodjele zadataka za obračun troškova imenovanih članova projektnog tima radnici zaposleni po ugovoru. 
 
-Prioritet korištenja nabavne cijene specifične za ulogu u odnosu na specifičnu za resurs temelji se na postavljanju prioriteta dimenzije određivanja cijena u **parametrima > dimenzijama cijena na temelju iznosa**.
+Prioritet korištenja nabavne cijene specifične za ulogu u odnosu na onu specifičnu za resurs određuje se postavljanjem prioriteta dimenzije cijena u **Parametri > Dimenzije cijena temeljene na iznosu**.
 
-Ova funkcionalnost dinamičkog izvlačenja cijena na temelju postave dimenzije za nabavne cijene kooperanata slična je načinu na koji se izvode cijene troškova i računa za zaposlenike s punim radnim vremenom. 
+Ova funkcija dinamičkog izvođenja cijena na temelju postavljanja dimenzija za nabavne cijene podizvođača slična je načinu na koji se izvode stope troškova i naplate za zaposlene s punim radnim vremenom. 
 
-## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Kreiranje dodjela zadataka za dobivanje procjena troškova resursa kooperanata
+## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Izrada dodjela zadataka za dobivanje procjene troškova resursa podizvođača
 
-Dodjele zadataka za podizvođače mogu se stvoriti na dva načina: 
-- Pomoću kartice **Zadaci koristite karticu Zadaci**.
-- Pomoću kartice **Tim**.
+Dodjele zadataka za podizvođače mogu se izraditi na dva načina: 
+- Putem kartice **Zadaci**.
+- Putem kartice **Tim**.
 
-### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Stvaranje dodjela resursa pomoću kartice Zadaci
-Pomoću popisa Resursi **na** **kartici Zadaci** za određeni zadatak možete stvoriti dodjelu zadatka za imenovani resurs ili generički resurs. Ako odaberete imenovani resurs s padajućeg izbornika **Dodijeljeni resursi** na zadatku, a taj je resurs ugovorni radnik, imenovani resurs dodjeljuje se zadatku i stvara se odgovarajući zapis člana projektnog tima s vrstom radnika postavljenom na **Ugovorni radnik** i **Valjanost postavljenom** na **Nevaljano**. Kao sljedeći korak morat ćete otvoriti zapis člana projektnog tima i odabrati liniju kooperanta i kooperacije. Time će se dodjela zadatka ažurirati tako da ima referencu na liniju podugovaratelja i podugovaranja, a status člana tima ažurirat će i na **Valjano**.
+### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Izrada dodjela resursa putem kartice Zadaci
+Putem popisa **Resursi** na kartici **Zadaci** za određeni zadatak, možete izraditi dodjelu zadatka za imenovani resurs ili generički resurs. Ako odaberete imenovani resurs iz padajućeg izbornika **Dodijeljeni resursi** na zadatku te je taj resurs ugovorni radnik, imenovani resurs dodjeljuje se zadatku te se izrađuje odgovarajući zapis člana projektnog tima s vrstom radnika postavljenom na **Ugovorni radnik** i stavkom **Valjanost** postavljenom na **Nevažeće**. Kao sljedeći korak, morat ćete otvoriti zapis člana projektnog tima i odabrati podugovor i redak podugovora. Time će se ažurirati dodjelu zadatka kako bi imao referencu na podugovor i redak podugovora, a ažurirat će i status člana tima na **Važeće**.
 
-Ako odlučite stvoriti generičkog člana tima s padajućeg izbornika **Dodijeljeni resursi** na zadatku, **dijaloški okvir stvaranje** članova generičkog tima omogućit će vam odabir retka kooperanta i kooperacije. Kada se zadatku dodijeli generički resurs i stvori se odgovarajući zapis člana projektnog tima, primijetit ćete da se zapis člana projektnog tima stvara s vrstom radnika postavljenom na **Ugovorni radnik** i **Valjanost** postavljenom na **Valjano**.
+Ako odlučite izraditi generičkog člana tima iz padajućeg izbornika **Dodijeljeni resursi** na zadatku, putem dijaloškog okvira **Izrada generičkog člana tima** moći ćete odabrati podugovor i redak podugovora. Kada je generički resurs dodijeljen zadatku te je izrađen odgovarajući zapis člana projektnog tima, primijetit ćete da je zapis člana projektnog tima izrađen tako da je vrsta radnika postavljena na **Ugovorni radnik**, a **Valjanost** na **Važeće**.
 
-### <a name="creating-project-team-members-using-the-team-tab"></a>Stvaranje članova projektnog tima pomoću kartice Tim
-Pomoću kartice Tim na projektu možete stvoriti generičkog ili imenovanog člana tima. Prilikom stvaranja člana tima možete odabrati redak podugovaranja i podugovaranja. Nakon stvaranja člana tima morat ćete dodijeliti člana tima zadatku pomoću **padajućeg izbornika Dodijeljeni resursi** na zadatku. 
+### <a name="creating-project-team-members-using-the-team-tab"></a>Izrada članova projektnog tima putem kartice Tim
+Putem kartice Tim na projektu možete izraditi generičkog ili imenovanog člana tima. Prilikom izrade člana tima možete odabrati podugovor i redak podugovora. Nakon što se član tima izradi, morat ćete ga dodijeliti zadatku putem padajućeg izbornika **Dodijeljeni resursi** na zadatku. 
 
 ## <a name="updating-estimates"></a>Ažuriranje procjena
-Nakon što dodijelite članove projektnog tima zadacima, morat ćete prijeći **na karticu Procjene** u projektu i odabrati **Ažuriraj cijene** da biste osigurali da se stope troškova dodjele resursa kooperanta ažuriraju na temelju popisa nabavnih cijena priloženog kooperantu. Procjene se ne generiraju za nedodijeljene zadatke u Microsoftu Dynamics 365 Project Operations. Kao rezultat toga, morat ćete stvoriti zadatke za cijenu i troškove različitih zadataka na vašem projektu. 
+Nakon što ste članovima projektnog tima dodijelili zadatke, morat ćete otići na karticu **Procjene** na projektu i odabrati **Ažuriraj cijene** kako bi se stope troškova dodjele resursa podizvođača ažurirale na temelju nabavnog cjenika priloženog podugovoru. Procjene se ne izrađuju za nedodijeljene zadatke u sustavu Microsoft Dynamics 365 Project Operations. Kao rezultat toga, morat ćete izraditi dodjele zadataka kako biste odredili cijene i troškove različitih zadataka svog projekta. 
 
-> [NAPOMENA!] Članovi projektnog tima koji imaju vrstu Radnika kao **ugovorni radnik**, ali nemaju referencu kooperanta, označeni su kao **Nevažeći** u rešetki članova **projektnog** **tima.** Ako postoje članovi projektnog tima s tim statusom, otvorite zapis člana projektnog tima i ručno ažurirajte polja retka podugovaratelja i podugovaranja tako da procjena financijskog troška točno odražava trošak kooperanta na **kartici Procjene**. 
+> [NAPOMENA!] Članovi projektnog tima za koje je stavka **Vrsta radnika** postavljena na **Ugovorni radnik**, no koji nemaju referencu podugovora, nose oznaku **Nevažeće** na rešetki **Članovi projektnog tima**. Ako ima članova projektnog tima s tim statusom, otvorite zapis člana projektnog tima i ručno ažurirajte polja podugovor i redak podugovora tako da procjena financijskog troška točno odražava trošak podizvođača na kartici **Procjene**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

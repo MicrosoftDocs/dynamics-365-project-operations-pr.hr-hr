@@ -1,6 +1,6 @@
 ---
 title: Opoziv prethodno odobrenih unosa
-description: U ovom se članku objašnjava kako član projektnog tima može zatražiti opoziv prethodno dostavljenih i odobrenih zapisa o vremenu, troškovima i korištenju materijala te kako voditelj projekta može odobriti ili odbiti zahtjeve za opoziv.
+description: U ovom članku objašnjeno je kako član projektnog tima može zatražiti opoziv prethodno podnesenih i odobrenih zapisa o vremenu, trošku i utrošenom materijalu te kako voditelj projekta može odobriti ili odbiti zahtjeve za opoziv.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -17,26 +17,26 @@ ms.locfileid: "8930355"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Član projektnog tima koji pošalje unos vremena, troškova ili korištenja materijala može se sjetiti tog unosa nakon što je odobren. Postupak opoziva ima dva glavna koraka:
+Član projektnog tima koji podnese unos vremena, troška ili utrošenog materijala može u potpunosti opozvati taj unos nakon što je on odobren. Postupak opoziva sastoji se od dva glavna koraka:
 
 1. Pošiljatelj zahtijeva opoziv.
-2. Odobravatelj odobrava zahtjev za opoziv.
+2. Odobritelj odobrava zahtjev za opoziv.
 
 ## <a name="request-a-recall"></a>Zahtjev za opoziv
 
-Slijedite ove korake da biste zatražili opoziv odobrenih stavki vremena, troškova ili upotrebe materijala.
+Pratite sljedeće korake kako biste zatražili opoziv odobrenih unosa vremena, troška ili utrošenog materijala.
 
 1. Slijedite jedan od ovih koraka, ovisno o vrsti unosa koji želite opozvati:
 
-    - Stavke vremena potražite u odjeljku **Projicira** \> **stavku** mog radnog \>**vremena** i odaberite sve vremenske unose za određenu kombinaciju projekta i zadatka. Ili u rešetki odaberite pojedinačne ćelije za vrijeme na određeni datum za određeni projekt.
-    - Stavke troškova potražite u odjeljku **Projekti** \> **moji troškovi** rada \>**i** odaberite redak za stavku troškova za opoziv.
-    - Stavke upotrebe materijala potražite u odjeljku **Projekti** \> **moj evidencija** korištenja radnog \>**materijala** i odaberite redak za stavku korištenja materijala koju želite opozvati.
+    - Za vremenske unose idite na **Projekti** \> **Moj posao** \> **Unos vremena** i odaberite sve unose vremena za određenu kombinaciju projekta i zadatka. Ili u rešetki odaberite pojedinačne ćelije za vrijeme na određeni datum za određeni projekt.
+    - Za unose troškova idite na **Projekti** \> **Moj posao** \> **Troškovi** i odaberite redak unosa troška koji želite opozvati.
+    - Za unose upotrebe materijala idite na **Projekti** \> **Moj posao** \> **Zapisnik o utrošenom materijalu** i odaberite unos utrošenog materijala koji želite opozvati.
 
-2. Odaberite **Storniraj**. Prikazat će se dijaloški okvir za potvrdu. Ako su odabrane stavke vremena, troška ili upotrebe materijala već odobrene, od vas će se zatražiti da unesete razlog za opoziv.
+2. Odaberite **Storniraj**. Prikazat će se dijaloški okvir za potvrdu. Ako su odabrani unosi vremena, troška ili utrošenog materijala već odobreni, prikazat će se odzivnik za unos razloga opoziva.
 3. Unesite razlog za opoziv, a zatim odaberite **U redu** da biste potvrdili operaciju. Sustav šalje osobi koja je odobrila unose zahtjev za odobravanje opoziva.
 
 > [!IMPORTANT]
-> Ne možete kreirati zahtjev za opoziv za odobreno vrijeme, trošak ili stavku upotrebe materijala koja je već fakturirana kupcu. Ako pokušate, primit ćete poruku u kojoj se navodi da se vrijeme, trošak ili unos upotrebe materijala ne mogu opozvati jer je već fakturirana. U tom slučaju možete zatražiti opoziv stavke samo ako se korektivni račun koristi za izdavanje punog kredita ili povrata novca kupcu na izvornom računu.
+> Zahtjev za opoziv ne možete stvoriti za odobreni unos vremena, troška ili utrošenog materijala koji je već fakturiran klijentu. Ako to pokušate učiniti, dobit ćete poruku u kojoj je navedeno da se unos vremena, troška ili utrošenog materijala ne može poništiti jer je već fakturiran. U tom slučaju opoziv unosa možete zatražiti samo ako se korektivna faktura upotrebljava za izdavanje punog kredita ili povrata kupcu na originalnoj fakturi.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Odobravanje ili odbacivanje zahtjeva za opoziv
 
@@ -52,7 +52,7 @@ Poduzmite ove korake da biste odobrili ili odbacili zahtjev za opoziv.
     Ako ste odabrali **Odbaci**, zahtjev za opoziv odbacuje se.
 
 > [!IMPORTANT]
-> Kada je opoziv odobren, baš kao i kada se zatraži, sustav provjerava ima li aktivnosti fakturiranja u vezi s vremenom, troškovima ili unosima u upotrebi materijala. Ako je stavka već fakturirana ili se nalazi na skici fakture, odobravatelj prima poruku o pogrešci u kojoj se navodi da se vrijeme ili trošak ne mogu odobriti za opoziv jer su već fakturirani. U tom slučaju odobravatelj može odobriti opoziv samo ako se za izdavanje punog kredita ili povrata novca kupcu na izvornom računu koristi korektivni račun.
+> Kad se opoziv odobri, kao i kada se zatraži, sustav će provjeriti sve aktivnosti fakturiranja za unose vremena, troška ili utrošenog materijala. Ako je unos već fakturiran ili je naveden u skici fakture, odobravatelj će dobiti poruku o pogrešci u kojoj se navodi da se ne može odobriti opoziv vremena ili troška jer su već fakturirani. U tom slučaju odobravatelj može odobriti opoziv samo ako se korektivna faktura upotrebljava za izdavanje punog kredita ili povrata kupcu na originalnoj fakturi.
 
 ## <a name="impact-of-a-recall-request"></a>Učinak zahtjeva za opoziv
 
@@ -60,9 +60,9 @@ Kada se odobrenje opozove, postoji operativni i financijski učinak.
 
 ### <a name="operational-impact"></a>Operativni učinak
 
-Ako se zahtjev za opoziv odobri, zapis odobravanja dobiva oznaku **Odbačeno**. Status stavke mijenja **se u Vraćeno** ili **Odbijeno**, ovisno o tome radi li se o vremenskoj stavci ili stavci troškova ili materijalne upotrebe.
+Ako se zahtjev za opoziv odobri, zapis odobravanja dobiva oznaku **Odbačeno**. Status unosa mijenja se u **Vraćeno** ili **Odbačeno**, ovisno o tome je li riječ o unosu vremena, troška ili materijala.
 
-Član projektnog tima može pregledavati unose, uređivati, a zatim ponovno slati unose ili u potpunosti izbrisati unose.
+Član projektnog tima može pregledati, urediti i zatim ponovno poslati unose ili ih u cijelosti izbrisati.
 
 Ako se zahtjev za opoziv odbaci, status unosa ostaje **Odobreno**, a član projektnog tima ili odobravatelj za projekt ne može uređivati unos.
 
@@ -79,14 +79,14 @@ Ako se zahtjev za opoziv odbaci, ne postoji financijski učinak na projekt.
 
 ## <a name="changes-to-time-entry-records"></a>Promjene zapisa unosa vremena
 
-Sljedeća ilustracija prikazuje promjene koje se događaju za odobrene stavke vremena i odgovarajuće zapise odobravanja prilikom opoziva.
+Na sljedećoj ilustraciji prikazane su promjene do kojih dolazi pri opozivu odobrenih unosa vremena i odgovarajućih zapisa odobrenja.
 
 ![Prijelazi stanja unosa vremena.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Promjene zapisa stavki troškova i korištenja materijala
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Promjene zapisa unosa troška i utrošenog materijala
 
-Sljedeća ilustracija prikazuje promjene koje se događaju za odobrene stavke troškova i korištenja materijala te odgovarajuće zapise odobravanja prilikom opoziva.
+Na sljedećoj ilustraciji prikazane su promjene do kojih dolazi pri opozivu odobrenih unosa troška i utrošenog materijala te odgovarajućih zapisa odobrenja.
 
-![Prijelazi države unosa troškova.](media/ExpenseEntryStateTransitions.png)
+![Prijelazi stanja unosa troška.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

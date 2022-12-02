@@ -1,6 +1,6 @@
 ---
 title: Pregled osnovne implementacije
-description: U ovom se članku nalaze informacije o lite implementaciji programa Dynamics 365 Project Operations.
+description: U ovom članku nalaze se informacije o jednostavnoj implementaciji aplikacije Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

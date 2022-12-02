@@ -1,6 +1,6 @@
 ---
 title: Ručna implementacija aplikacije Project Operations Dataverse s podrškom za dvostruko pisanje
-description: U ovom se članku objašnjava kako ručno implementirati aplikaciju Project Operations Dataverse tako da podržava dvostruko pisanje.
+description: U ovom se članku objašnjava način na koji se vrši ručna implementacija aplikacije Project Operations Dataverse tako da podržava dvostruko pisanje.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028555"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovom se članku objašnjava kako ručno implementirati Microsoft Dynamics 365 Project Operations tako Microsoft Dataverse da podržava dvostruko pisanje. Project Operations otkriva konfiguraciju okruženja i dodaje dodatnu podršku za dvostruko pisanje ako se ispune preduvjeti.
+U ovom se članku objašnjava način na koji se vrši ručna implementacija aplikacije Microsoft Dynamics 365 Project Operations na platformi Microsoft Dataverse tako da podržava dvostruko pisanje. Project Operations otkriva konfiguraciju okruženja i dodaje dodatnu podršku za dvostruko pisanje ako se ispune preduvjeti.
 
-Tijekom implementacije putem Microsoft Dynamics usluge životnog ciklusa (LCS), ako ste slijedili upute u ovom članku, možete preskočiti implementaciju Microsoft Power Platform integracije (ranije poznate kao Common Data Service okruženje).
+Ako ste, tijekom implementacije putem sustava Microsoft Dynamics Lifecycle Services (LCS), slijedili upute navedene u ovom članku, možete preskočiti implementaciju integracije aplikacije Microsoft Power Platform (prethodno znana kao okruženje platforme Common Data Service).
 
 Postupak implementacije aplikacije Project Operations na platformu Dataverse tako da podržava dvostruko pisanje ima četiri glavna koraka:
 
@@ -37,7 +37,7 @@ Kako biste dovršili ovaj postupak, morate se prijaviti kao administrator.
 3. Odaberite vrstu okruženja. Ako ste se prijavili za ponudu probne verzije, odaberite **Probna verzija (na temelju pretplate)**.
 4. Potvrdite područje implementacije.
 5. Omogućite mogućnost **Stvori bazu podataka za ovo okruženje**. 
-6. Potvrdite jezik, a zatim potvrdite da valuta odgovara valuti za vaše financijske i operativne aplikacije.
+6. Potvrdite jezik, a zatim potvrdite da se valuta podudara s valutom vaših aplikacija za financije i operacije.
 7. Omogućite mogućnost **Aplikacije sustava Dynamics 365** i potvrdite da je polje **Automatski postavi ove aplikacije** postavljeno na **Nijedna**.
 8. Dodajte sigurnosnu grupu ako je potrebna.
 9. Odaberite **Spremi** kako biste stvorili okruženje.
@@ -62,4 +62,4 @@ Ovaj postupak možete dovršiti samo ako ste dovršili prethodne postupke prije 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Povezivanje svojih okruženja
 
-Nakon implementacije okruženja Dataverse vezu možete postaviti u svojim financijskim i operativnim aplikacijama. Slijedite korake navedene u odjeljku [Uporaba čarobnjaka za dvostruko pisanje za povezivanje svojih okruženja](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Nakon implementacije okruženja platforme Dataverse, možete postaviti vezu u svojim aplikacijama za financije i operacije. Slijedite korake navedene u odjeljku [Uporaba čarobnjaka za dvostruko pisanje za povezivanje svojih okruženja](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

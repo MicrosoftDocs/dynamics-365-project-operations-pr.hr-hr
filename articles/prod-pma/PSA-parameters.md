@@ -1,6 +1,6 @@
 ---
 title: Parametri integracije usluge Project Service Automation
-description: U ovom se članku objašnjava kako konfigurirati način unosa zadanih podataka prilikom integracije Microsoft Dynamics 365 for Project Service Automation s programom Microsoft Dynamics 365 Finance.
+description: U ovom se članku objašnjava način konfiguracije unosa zadanih podataka tijekom integracije usluge Microsoft Dynamics 365 for Project Service Automation s aplikacijom Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932287"
 
 [!include[banner](../includes/banner.md)]
 
-**Na stranici Parametri** integracije automatizacije Dynamics 365 Project Service Automation usluge projekta možete konfigurirati način unosa zadanih podataka kada se integrirate s Dynamics 365 Finance. Kako bi se projekti uspješno sinkronizirali iz usluge Project Service Automation u Financije, morate postaviti sljedeća polja.
+Na stranici **Parametri integracije usluge Project Service Automation** možete konfigurirati način unosa zadanih podataka tijekom integracije usluge Dynamics 365 Project Service Automation s aplikacijom Dynamics 365 Finance. Kako bi se projekti uspješno sinkronizirali iz usluge Project Service Automation u Financije, morate postaviti sljedeća polja.
 
 Kako biste otvorili stranicu **Parametri integracije usluge Project Service Automation**, idite na **Upravljanje projektima i računovodstvo** \> **Postavljanje** \> **Parametri integracije usluge Dynamics 365 for Project Service Automation**. 
 

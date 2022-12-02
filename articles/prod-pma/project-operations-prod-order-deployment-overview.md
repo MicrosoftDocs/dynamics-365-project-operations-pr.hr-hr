@@ -1,6 +1,6 @@
 ---
 title: Pregled implementacije aplikacije Project Operations za scenarije koji se temelje na zalihama/proizvodnji
-description: U ovom se članku nalaze informacije o vrsti implementacije, Operacijama projekta za scenarije koji se temelje na opskrbi/proizvodnji.
+description: U ovom članku nalaze se informacije o vrsti implementacije, aplikaciji Project Operations za scenarije koji se temelje na zalihama / proizvodnji.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -22,21 +22,21 @@ Ova vrsta implementacije ima sljedeće mogućnosti za tvrtke koje se temelje na 
 
 - Planiranje projekta s pomoću [strukturna analiza rada](work-breakdown-structures.md)
 - Nabavka i trošenje zalihe inventara za projekte
-- Upravljanje prodajom temeljenom na projektima pomoću modula **Prodaja i marketing** u aplikacijama za financije i operacije sustava Dynamics 365
-- Određivanje cijena projekata i troškovi korištenja konfiguracija stope troškova i tečaja računa u aplikacijama za financije i operacije
-- Upravljanje resursima za projekte u financijskim i operativnim aplikacijama
-- Praćenje napretka projekta i vremena u financijskim i operativnim aplikacijama
+- Upravljanje prodajom koja se temelji na projektu s pomoću modula **Prodaja i marketing** u aplikacijama za financije i operacije Dynamics 365
+- Cijene i troškovi projekta primjenjuju konfiguracije cijene troška i cijene naplate u aplikacijama za financije i operacije
+- Upravljanje resursima za projekt u aplikacijama za financije i operacije
+- Praćenje vremena i napretka projekta u aplikacijama za financije i operacije
 - Iskustva upravljanja troškovima na projektu i izvan projekta dohvaćanjem potvrde s pomoću mogućnosti OCR-a
 - Fakturiranje s pomoću poreza na promet klase poduzeća i sustava tečaja koji su na snazi na određeni datum
 - Grupe projekata koje se mogu konfigurirati za WIP računovodstvo i akumulacije
 - Priznavanje prihoda za projekte
 
-Ova vrsta implementacije također pruža proširenje funkcionalnosti koje pružaju Dynamics 365 Finance i Dynamics 365 Supply Chain Management aplikacije.
+Ova vrsta implementacije također omogućuje proširenje na funkcionalnost koju pružaju aplikacije Dynamics 365 Finance i Dynamics 365 Supply Chain Management.
 
 Odaberite ovu vrstu implementacije za uporabu aplikacije Dynamics 365 Project Operations tijekom punog životnog ciklusa projekta, uključujući sljedeće preduvjete:
 
 - Opsežni sustav upravljanja projektima koji upravlja inventariziranim stavkama i troškovima naloga / radnih naloga za interne i naplative projekte za rokove i financije.
-- Organizacija već ima aplikacije Dynamics 365 Finance ili dynamics 365 Supply Chain and Manufacturing, a integracija transakcija temeljenih na projektima pojednostavit će pristup podacima i potrebe za izvješćivanjem.
+- Tvrtka ili ustanova već ima aplikaciju Dynamics 365 Finance ili Dynamics 365 Supply Chain i proizvodne aplikacije, a integriranje transakcija koje se temelje na projektu pojednostavit će pristup podacima i potrebe izvješćivanja.
 - Potpuno funkcionalan sustav upravljanja troškovima koji uključuje provođenje politika i naknade za praćenje troškova na projektu i izvan projekta.
 - Porez na promet u klasi poduzeća i modul deviznog tečaja za generiranje faktura za projekte za klijente.
 - Međunarodni standardi financijskog izvješćivanja (MSFI) usklađeni s računovodstvom projekta i sustavom priznavanja prihoda.

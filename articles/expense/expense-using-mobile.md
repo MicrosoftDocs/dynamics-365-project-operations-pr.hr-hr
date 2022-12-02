@@ -1,6 +1,6 @@
 ---
 title: Aplikacija Trošak za mobilni uređaj
-description: U ovom se članku nalaze informacije o mobilnom radnom prostoru za upravljanje troškovima.
+description: U ovom članku nalaze se informacije o mobilnom radnom prostoru Upravljanje troškovima.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8930217"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-U ovom se članku nalaze informacije o mobilnom **radnom prostoru za upravljanje troškovima**. Ovaj radni prostor omogućuje korisnicima dohvaćanje i prijenos računa, kako bi ga kasnije mogli priložiti izvješću o troškovima. Korisnici također mogu brzo stvoriti redak troška s pomoću priloženog računa te stvoriti i upravljati svojim izvješćima o troškovima. Osim toga, odobravatelji mogu upotrebljavati mobilni radni prostor **Upravljanje troškovima** za pregled izvješća o troškovima koji su im dodijeljeni i ta izvješća odobriti ili odbiti.
+U ovom članku nalaze se informacije o mobilnom radnom prostoru **Upravljanje troškovima**. Ovaj radni prostor omogućuje korisnicima dohvaćanje i prijenos računa, kako bi ga kasnije mogli priložiti izvješću o troškovima. Korisnici također mogu brzo stvoriti redak troška s pomoću priloženog računa te stvoriti i upravljati svojim izvješćima o troškovima. Osim toga, odobravatelji mogu upotrebljavati mobilni radni prostor **Upravljanje troškovima** za pregled izvješća o troškovima koji su im dodijeljeni i ta izvješća odobriti ili odbiti.
 
 Ovaj mobilni radni prostor namijenjen je uporabi s mobilnom aplikacijom Dynamics 365 Unified Ops.
 
@@ -47,7 +47,7 @@ Ove značajke možete upotrebljavati i za sljedeće:
 - Podnošenje izvješća o troškovima na odobrenje i nadoknadu.
 - Odobravanje ili odbijanje izvješća o troškovima kojima ste dodijeljeni kao odobritelj.
 
-## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Preduvjeti ako koristite Dynamics 365 Finance
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Preduvjeti ako upotrebljavate uslugu Dynamics 365 Finance
 
 Ako su Financije postavljene za vašu tvrtku ili ustanovu, administrator sustava mora objaviti mobilni radni prostor **Upravljanje troškovima**. 
 
@@ -100,7 +100,7 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 
 10. Odaberite **Gotovo**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Odobravanje izvješća o troškovima pomoću mobilnog radnog prostora za upravljanje troškovima
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Odobravanje izvješća o troškovima s pomoću mobilnog radnog prostora Upravljanje troškovima
 
 1. Na mobilnom uređaju otvorite radni prostor **Upravljanje troškovima**.
 2. Mogućnost **Odobrenja troškova** prikazuje broj izvješća o troškovima koja su vam dodijeljena na odobrenje. Broj se ažurira otprilike svakih 30 minuta. Odaberite **Odobrenja troškova**.
@@ -113,7 +113,7 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 6. Unesite komentare za radnju odobrenja.
 7. Odaberite **Gotovo**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Izradite novo izvješće o troškovima i pošaljite ga na odobrenje pomoću mobilnog radnog prostora za upravljanje troškovima
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Stvaranje novog izvješća o troškovima i njegovo slanje na odobrenje s pomoću mobilnog radnog prostora Upravljanje troškovima
 
 1. Na mobilnom uređaju otvorite radni prostor **Upravljanje troškovima**.
 2. Odaberite **Unos troškova**.
@@ -204,28 +204,28 @@ Preuzimanje i instaliranje mobilne aplikacije Dynamics 365 Unified Ops:
 
 ## <a name="frequently-asked-questions"></a>Najčešća pitanja
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zašto mobilna aplikacija Expense ne ulazi u način plaćanja prema zadanim postavkama?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zašto mobilna aplikacija Expense ne unosi način plaćanja prema zadanim postavkama?
 
-Organizacije mogu prilagoditi postavku Zadani **način** plaćanja za svaku kategoriju troškova prilikom stvaranja. Osim toga, kada postavite načine plaćanja, polje Zadani način plaćanja **možete postaviti** samo na **Uvoz**.
+Organizacije mogu prilagodit postavku **Zadani način plaćanja** za svaku kategoriju troškova tijekom izrade. Osim toga, kada postavite načine plaćanja, možete postaviti polje **Zadani način plaćanja** na **Samo uvoz**.
 
-Kada **je uvoz omogućen samo** za način plaćanja, način plaćanja ne unosi se prema zadanim postavkama. Bit će prazan u kategorijama troškova u kojima je postavljen ovaj način plaćanja. Takvo je ponašanje dosljedno i u web iskustvu i u mobilnom iskustvu.
+Kada je opcija **Samo uvoz** omogućena za način plaćanja, način plaćanja ne unosi se prema zadanim postavkama. Bit će prazan u kategorijama troškova u kojima je ovaj način plaćanja postavljen. To je ponašanje dosljedno u web-iskustvu i mobilnom iskustvu.
     
-Kada **uvoz nije omogućen samo** za način plaćanja, postavljena vrijednost unosi se prema zadanim postavkama za kategorije troškova u kojima je postavljen ovaj način plaćanja. Međutim, poznat je problem u kojem zadana vrijednost nije unesena u mobilnu aplikaciju Expense. Da biste zaobišli taj problem, ručno odaberite način plaćanja prije spremanja izvješća o troškovima. 
+Kada opcija **Samo uvoz** nije omogućena za način plaćanja, postavljena vrijednost unosi se prema zadanim postavkama za kategorije troškova za koje je ovaj način plaćanja postavljen. Međutim, postoji problem zbog kojeg se zadana vrijednost ne unosi u mobilnu aplikaciju Expense. Da biste zaobišli taj problem, ručno odaberite način plaćanja prije nego što spremite izvješće o troškovima. 
 
 ### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Zašto ne mogu dodati ili urediti financijske dimenzije u mobilnoj aplikaciji Expense?
 
-Unos dimenzija i distribucija nije podržan. Da biste zaobišli to ograničenje, ta polja možete postaviti prema zadanim postavkama u mobilnoj aplikaciji postavljanjem zadanih financijskih dimenzija po projektu ili zaposleniku.
+Unos dimenzija i distribucija nije podržan. Da biste zaobišli ovo ograničenje, ova polja možete postaviti prema zadanim postavkama u mobilnoj aplikaciji tako da postavite zadane financijske dimenzija po projektu ili zaposleniku.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Zašto se ponekad u mobilnoj aplikaciji Expense pojavljuje pogreška pri sinkronizaciji?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Zašto ponekad vidim pogrešku sinkronizacije u mobilnoj aplikaciji Expense?
 
-Ako reci troškova ne ispunjavaju zahtjeve pravila, a korisnik pošalje izvješće o troškovima bez upućivanja na upozorenje o pravilima, mobilni podaci se ne sinkroniziraju s poslužiteljem i dolazi do pogreške pri sinkronizaciji. Sva izvješća o troškovima koja se pošalju nakon neuspjeha sinkronizacije ostat će u neuspjelom stanju i uzrokovati više kvarova sinkronizacije. Jedini način da popravite ovu situaciju je ručno brisanje obavijesti o sinkronizaciji. Taj je problem riješen zaustavljanjem podnošenja izvješća o troškovima kada upozorenja o pravilima nisu riješena kako bi se izbjegle pogreške pri sinkronizaciji.
+Ako redci troškova ne zadovoljavaju zahtjeve pravila, a korisnik podnese izvješće o troškovima bez rješavanja upozorenja o pravilima, mobilni podaci ne sinkroniziraju se s poslužiteljem i dolazi do pogreške sinkronizacije. Sva izvješća o troškovima koja se predaju nakon što dođe do pogreške sinkronizacije ostat će u neuspjelom stanju i uzrokovati dodatne pogreške sinkronizacije. Ovu situaciju možete popraviti jedino tako da ručno izbrišete obavijesti o sinkronizaciji. Ovaj je problem riješen tako da je zaustavljeno podnošenja izvješća o troškovima ako upozorenja o pravilima nisu riješena kako bi se izbjegle pogreške sinkronizacije.
 
 ### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zašto se provjera valjanosti projekta i kategorije ne odražava ispravno u mobilnoj aplikaciji Expense?
 
-Ova provjera valjanosti trenutno nije podržana. Međutim, podrška bi se mogla dodati u budućnosti. 
+Ta provjera valjanosti trenutno nije podržana. Međutim, postoji mogućnost dodavanja podrške u budućnosti. 
 
 ### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Koje su vrste dokumenata podržane u mobilnoj aplikaciji Expense?
 
-Mobilna aplikacija Expense podržava samo slike. Trenutno ne podržava PDF-ove ili druge dokumente.
+Mobilna aplikacija Expense podržava samo slike. Trenutno ne podržava PDF-ove ni druge dokumente.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

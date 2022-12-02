@@ -1,6 +1,6 @@
 ---
 title: Zatvaranje ponude
-description: U ovom se članku nalaze informacije o zatvaranju ponuda u projektnim operacijama.
+description: U ovom članku nalaze se informacije o zatvaranju ponuda u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

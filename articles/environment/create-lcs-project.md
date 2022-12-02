@@ -1,6 +1,6 @@
 ---
 title: Pokretanje novog LCS projekta
-description: U ovom se članku nalaze informacije o stvaranju novog projekta u LCS-u za okruženje project operations.
+description: U ovom se članku navode informacije o načinu stvaranja novog projekta u LCS-u za vaše okruženje aplikacije Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Upotrijebite portal Lifecycle Services (LCS) za upravljanje okruženjima aplikac
   ![Odabir vrste LCS projekta.](./media/create-lcs-1.png)
 
 5. Dajte projektu naziv. 
-6. Odaberite **Financije i operacije** kao naziv proizvoda te odaberite industriju i metodologiju. 
+6. Kao naziv proizvoda odaberite **Financije i operacije** te odaberite industriju i metodologiju. 
 7. Kliknite **Stvori**.
 
 ![Stvori LCS projekt.](./media/create-lcs-2.png)

@@ -1,6 +1,6 @@
 ---
 title: Grupe jedinica i jedinice
-description: U ovom se članku nalaze informacije o grupama jedinica i jedinicama.
+description: U ovom se članku navode informacije o grupama jedinica i jedinicama.
 author: rumant
 ms.custom:
 - dyn365-projectservice

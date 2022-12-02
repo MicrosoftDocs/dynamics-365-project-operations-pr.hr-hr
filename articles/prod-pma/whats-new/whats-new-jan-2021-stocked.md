@@ -1,6 +1,6 @@
 ---
 title: Novosti i izmjene u aplikaciji Project Operations u studenom 2021. – za scenarije koji se temelje na zalihama / proizvodnji
-description: U ovom se članku navode informacije o ažuriranjima kvalitete dostupnima u izdanju projektnih operacija za scenarije temeljene na zalihama/proizvodnji u siječnju 2021.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Project Operations za siječanj 2021. za scenarije koji se temelje na zalihama/proizvodnji.
 author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "9029429"
 
 _**Odnosi se na:** Project Operations za scenarije koji se temelje na zalihama/proizvodnji_
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.16
+- Upravljanje projektima i računovodstvo u verziji 10.0.16 okruženja aplikacije Dynamics 365 Finance
 
 
 ### <a name="quality-updates"></a>Ažuriranja kvalitete
@@ -142,7 +142,7 @@ Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i
 | Putovanje i trošak                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | U aplikaciji Project Operations, vrijeme zadataka unutar kompanije na platformi Dataverse ne može se stvoriti ili odobriti.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Ažuriranja propisa
-Informacije o regulatornim ažuriranjima za financijske i operativne aplikacije potražite u članku [Regulatorna ažuriranja](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
+Za informacije o ažuriranjima propisa za aplikacije za financije i operacije pogledajte članak [Ažuriranja propisa](/dynamics365/finance/localizations/regulatory-updates). Također se možete prijaviti na LCS i pregledati planirana regulatorna ažuriranja s pomoću alata za pretraživanje izdanja. Pretraživanje izdanja omogućuje vam pretraživanje po zemlji, vrsti značajke i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

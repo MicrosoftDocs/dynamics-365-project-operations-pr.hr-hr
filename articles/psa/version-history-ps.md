@@ -1,6 +1,6 @@
 ---
 title: Ažurirajte raspored izdanja za Project Service 3.x
-description: U ovom se članku nalaze informacije o dostupnim i nadolazećim izdanjima programa Dynamics 365 Project Service Automation.
+description: U ovom se članku nalaze informacije o dostupnim i nadolazećim izdanjima aplikacije Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -65,7 +65,7 @@ Informacije o ažuriranjima usluge Project Service potražite u članku [Planovi
 |<strong>Stanica 4</strong> | |  |  | |
 | | <i>Europa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. listopada 2022.
 |<strong>Stanica 5</strong> | |  |  | |
-| | <i>Sjeverna Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04. studenoga 2022.
+| | <i>Sjeverna Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 4. studenoga 2022.
 |<strong>Stanica 6</strong> | |  |  | |
 | | <i>Zajednica državnih ustanova u oblaku</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02. studeni 2022.
 | | <i>Namjenske grupe ljestvica</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11. studeni 2022.

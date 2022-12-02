@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, izdanje ažuriranja 41, V3
-description: U ovom se članku navode značajke i popravci dostupni u Microsoft Dynamics 365 Project Service Automation ažuriranju izdanja 41, V3.
+description: U ovom članku navode se značajke i popravci koji su dostupni u aplikaciji Microsoft Dynamics 365 Project Service Automation, izdanje ažuriranja 41, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/07/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8930539"
 
 Zadovoljstvo nam je objaviti najnovije ažuriranje aplikacije Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Kompatibilno je sa sustavom Dynamics 365 9.x. Kako biste ažurirali na ovo izdanje, posjetite stranicu Centar za administratore za rješenja sustava Dynamics 365 na mreži i instalirajte ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za izdanje ažuriranja automatizacije usluge project service 41, V3. Ova verzija ima broj međuverzije V3.10.62.162 i općenito je dostupna putem samostalnog ažuriranja iz ožujka 2022.
+U ovom članku navode se značajke i ispravci koji su novi ili izmijenjeni u aplikaciji Project Service Automation, izdanje ažuriranja 41, V3. Ova verzija ima broj međuverzije V3.10.62.162 i općenito je dostupna putem samostalnog ažuriranja iz ožujka 2022.
 
 ## <a name="update-release-41"></a>Izdanje ažuriranja 41
 
@@ -38,10 +38,10 @@ U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za i
 Popravljeni su sljedeći problemi.
 
 **Upravljanje projektom**
-- Kada pokušate stvoriti projekt iz predloška koji se temelji na projektu stvorenom iz dodatka za stolna računala, prikazat će se sljedeća pogreška: "Provjera polja Planirani rad dodjele resursa: Datum završetka svakog vremena dodjele resursa S isječak ne smije biti raniji od datuma početka".
+- Kada pokušate stvoriti projekt iz predloška koji se temelji na projektu kreiranom iz dodatka za radnu površinu, prikazuje se sljedeća pogreška: "Provjera valjanosti polja planiranog rada dodjele resursa: datum završetka svakog vremenskog odsječka dodjele resursa ne smije biti prije njegova datuma početka".
 
 **Vrijeme i trošak**
-- Kada pokušate izbrisati unos vremena, prikazuje se sljedeća poruka o pogrešci:"Iz ISV koda dolazi do neočekivane pogreške".
+- Kada pokušate izbrisati unos vremena, prikazuje se sljedeća poruka o pogrešci: "Dolazi do neočekivane pogreške koda ISV-a".
 
 **Prodaje**
-- Kada kreirate fakturu za prekretnicu s fiksnom cijenom, polja Opis **i** Vanjski opis **ne popunjavaju** se. 
+- Kada izradite fakturu za ključnu vrijednost s fiksnom cijenom, ne popunjavaju se polja **Opis** i **Vanjski opis**. 

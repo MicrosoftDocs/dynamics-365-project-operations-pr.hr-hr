@@ -1,6 +1,6 @@
 ---
 title: Upravljanje cjenicima projekta u projektnim ponudama
-description: U ovom se članku nalaze informacije o radu s cjenicima projekta na ponudama.
+description: U ovom se članku navode informacije o radu s cjenicima za projekt u ponudama.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Konfigurirajte ploču rasporeda tako da prikaže radnike po ugovoru i podugovorne kapacitete
-description: U ovom se članku opisuje kako konfigurirati ploču za raspored u Microsoftu Dynamics 365 Project Operations tako da prikazuje kapacitet resursa kooperanta prilikom zapošljavanja potreba za resursima projekta.
+description: U ovom se članku opisuje kako konfigurirati ploču rasporeda u sustavu Microsoft Dynamics 365 Project Operations za prikaz kapaciteta podugovorenih resursa prilikom dodjeljivanja osoba prema zahtjevima za resursima projekta.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
@@ -17,48 +17,48 @@ ms.locfileid: "9262207"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Ploča za raspored u Microsoftu Dynamics 365 Project Operations može se koristiti za traženje resursa na dva načina:
+Ploča rasporeda u sustavu Microsoft Dynamics 365 Project Operations može se koristiti za pretraživanje izvora na dva načina:
 
-- Pretraživanje općih resursa bez konteksta bilo kojeg specifičnog zahtjeva resursa temeljenog na projektu.
-- Pretraživanje resursa specifično za zahtjev ako će zahtjev za projekt pružiti kontekst predloženih resursa.
+- Općenito pretraživanje resursa bez konteksta bilo kojeg specifičnog zahtjeva za resursima koji se temelji na projektu.
+- Pretraživanje resursa specifičnog za zahtjev gdje će projektni zahtjev pružiti kontekst za predložene resurse.
 
-Da biste obavijestili odbor za raspored o kapacitetu resursa i ugovornim radnicima, morate ažurirati postavke ploče za raspored. Ta ažuriranja uključuju: 
-- Ažurirajte postavke rasporeda ploče za opće pretraživanje resursa.
-- Ažurirajte postavke ploče za raspored za pretraživanje resursa temeljeno na zahtjevima.
+Da biste obavijestili ploču rasporeda o kapacitetima podugovorenih resursa i ugovornim radnicima, trebate ažurirati postavke ploče rasporeda. Ta ažuriranja uključuju: 
+- Ažurirajte postavke ploče rasporeda za općenito pretraživanje resursa.
+- Ažurirajte postavke ploče rasporeda za pretraživanje resursa temeljno na zahtjevu.
 
-## <a name="update-schedule-board-settings-for-general-resource-search"></a>Ažuriraj postavke rasporeda ploče za opće pretraživanje resursa
-### <a name="update-filters-for-general-resource-search"></a>Ažuriranje filtara za opće pretraživanje resursa
-Kada tražite resurs, filtre dostupne na ploči za raspored trebalo bi ažurirati tako da možete tražiti i vanjske resurse navodeći nešto ili sve od sljedećeg:
-  - Vrsta radnika, bez obzira na to trebaju li prikazani resursi biti ugovorni radnici ili zaposlenici.
-  - Poduzeće dobavljača kojem bi resurs trebao pripadati.
-  - Resursi koji pripadaju određenom retku podugovaranja ili podugovaranja.
+## <a name="update-schedule-board-settings-for-general-resource-search"></a>Ažuriranje postavki ploče rasporeda za općenito pretraživanje resursa
+### <a name="update-filters-for-general-resource-search"></a>Ažuriranje filtara za općenito pretraživanje resursa
+Kada tražite resurs, filtri dostupni na ploči rasporeda trebali bi se ažurirati tako da možete pretraživati i vanjske resurse navođenjem bilo kojeg ili svih od sljedećeg:
+  - Vrsta radnika, trebaju li prikazani resursi biti ugovorni radnici ili zaposlenici.
+  - Tvrtka dobavljača kojoj bi resurs trebao pripadati.
+  - Resursi koji pripadaju određenom podugovoru ili retku podugovora.
     
-### <a name="update-retrieve-resource-query"></a>Ažuriraj upit o dovršavanju resursa
-Upit koji se koristi za pretraživanje također bi trebalo ažurirati kako bi se koristili ti dodatni atributi filtra. Da biste ažurirali konfiguraciju rasporeda ploče za opće pretraživanje resursa, slijedite ove korake:  
-1. Otvorite **Postavke** ploče za raspored za određenu ploču za raspored.
-2. Otvorite karticu **Opće postavke** i pomaknite se do **odjeljka Ostale postavke**.
-3. Na popisu postavki u ovom odjeljku ažurirajte **izgled** filtra na **Zadani izgled filtra za Project Operations Lite**.
-4. Ažuriraj upit **za dohvaćanje resursa** u **zadani upit o resursima za dohvaćanje za projektne operacije Lite**.
+### <a name="update-retrieve-resource-query"></a>Upit za ažuriranje dohvaćanja resursa
+Upit koji se koristi za pretraživanje također treba ažurirati za korištenje ovih dodatnih atributa filtra. Slijedite sljedeće korake za ažuriranje konfiguracije ploče rasporeda za općenito pretraživanje resursa:  
+1. Otvorite **Postavke ploče rasporeda** za određenu ploču rasporeda.
+2. Otvorite karticu **Opće postavke** i pomaknite se do stavke **Ostale postavke**.
+3. Na popisu postavki u ovom odjeljku ažurirajte postavku **Raspored filtra** na **Zadani izgled filtra za aplikaciju Project Operations Lite**.
+4. Ažurirajte **Dohvati upit za resurse** na **Zadani upit za dohvaćanje resursa za aplikaciju Project Operations Lite**.
 
-![Ažuriraj postavke rasporeda ploče za opće pretraživanje resursa](../media/BoardSettings.png)  
+![Ažuriranje postavki ploče rasporeda za općenito pretraživanje resursa](../media/BoardSettings.png)  
 
-## <a name="update-schedule-board-settings-for-requirementbased-resource-search"></a>Ažuriraj postavke rasporeda ploče za pretraživanje resursa utemeljeno na zahtjevima
-### <a name="update-filters-for-requirement-specific-resource-search"></a>Ažuriranje filtara za pretraživanje resursa specifičnih za zahtjeve 
-Kada tražite resurs, filtre dostupne na ploči za raspored trebalo bi ažurirati tako da možete tražiti i vanjske resurse navodeći nešto ili sve od sljedećeg:
- - Vrsta radnika, bez obzira na to trebaju li prikazani resursi biti ugovorni radnici ili zaposlenici.
- - Poduzeće dobavljača kojem bi resurs trebao pripadati.
- - Resursi koji pripadaju određenom retku podugovaranja ili podugovaranja.
+## <a name="update-schedule-board-settings-for-requirementbased-resource-search"></a>Ažuriranje postavki ploče rasporeda za pretraživanje resursa temeljno na zahtjevu
+### <a name="update-filters-for-requirement-specific-resource-search"></a>Ažuriranje filtara za općenito pretraživanje resursa 
+Kada tražite resurs, filtri dostupni na ploči rasporeda trebali bi se ažurirati tako da možete pretraživati i vanjske resurse navođenjem bilo kojeg ili svih od sljedećeg:
+ - Vrsta radnika, trebaju li prikazani resursi biti ugovorni radnici ili zaposlenici.
+ - Tvrtka dobavljača kojoj bi resurs trebao pripadati.
+ - Resursi koji pripadaju određenom podugovoru ili retku podugovora.
 
-### <a name="update-retrieve-resource-query-for-requirement-specific-resource-search"></a>Ažuriranje upita dohvata resursa za pretraživanje resursa specifičnog za zahtjev 
-Upit koji se koristi za pretraživanje također bi trebalo ažurirati kako bi se koristili ti dodatni atributi filtra. Da biste ažurirali konfiguraciju rasporedske ploče za pretraživanje resursa utemeljeno na zahtjevima, slijedite ove korake:
+### <a name="update-retrieve-resource-query-for-requirement-specific-resource-search"></a>Ažuriranje upita za dohvaćanje resursa za pretraživanje resursa temeljeno na zahtjevu 
+Upit koji se koristi za pretraživanje također treba ažurirati za korištenje ovih dodatnih atributa filtra. Slijedite sljedeće korake za ažuriranje konfiguracije ploče rasporeda za pretraživanje resursa temeljeno na zahtjevu:
 
-1. Otvorite **Postavke** ploče za raspored za određenu ploču za raspored, a zatim odaberite **Otvori zadane postavke** da biste otvorili postavke za pretraživanje specifično za zahtjev.
-2. Otvorite karticu **Opće postavke** i pomaknite se do **odjeljka Ostale postavke**.
-3. Na popisu postavki u ovom odjeljku ažurirajte **izgled** filtra na **Zadani izgled filtra za Project Operations Lite**.
-4. Ažuriraj upit **za dohvaćanje resursa** u **zadani upit o resursima za dohvaćanje za projektne operacije Lite**.
-5. Otvorite karticu **Vrste rasporeda** i otvorite **Project**.
-6. U postavkama za Project ažurirajte upit o dohvaćanju resursa pomoćnika za **planiranje na** zadani upit o resursima za dohvaćanje za projektne operacije Lite **i ažuriraj** upit Za uređivanje ograničenja pomoćnika za raspored u **zadani** upit za dohvaćanje ograničenja za Project Operations Lite **.** **·**
+1. Otvorite **Postavke ploče rasporeda** za određenu ploču rasporeda, a zatim odaberite **Otvori zadane postavke** da biste otvorili postavke za pretraživanje temeljeno na zahtjevu.
+2. Otvorite karticu **Opće postavke** i pomaknite se do stavke **Ostale postavke**.
+3. Na popisu postavki u ovom odjeljku ažurirajte postavku **Raspored filtra** na **Zadani izgled filtra za aplikaciju Project Operations Lite**.
+4. Ažurirajte **Dohvati upit za resurse** na **Zadani upit za dohvaćanje resursa za aplikaciju Project Operations Lite**.
+5. Otvorite karticu **Vrste rasporeda** i idite na **Projekt**.
+6. Pod postavkama za **Projekt**, stavku **Upit za dohvaćanje resursa pomoćnika za raspored** ažurirajte na **Zadani upit za dohvaćanje resursa za aplikaciju Project Operations Lite**, a stavku **Upit za dohvaćanje ograničenja pomoćnika za raspored** na **Zadani upit za dohvaćanje ograničenja za Project Operations**.
 
-![Ažuriraj postavke rasporeda ploče za pretraživanje resursa utemeljeno na zahtjevima](../media/SASettings.png)  
+![Ažuriranje postavki ploče rasporeda za pretraživanje resursa temeljno na zahtjevu](../media/SASettings.png)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

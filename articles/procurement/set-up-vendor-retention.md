@@ -1,6 +1,6 @@
 ---
 title: Postavljanje zadržavanja dijela uplate dobavljaču
-description: U ovom se članku objašnjava kako postaviti zadržavanje dobavljača.
+description: U ovom se članku objašnjava način postavljanja zadržavanja dijela uplate dobavljaču.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929757"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U ovom se članku nalaze informacije o postavljanju zadržavanja dobavljača.
+U ovom članku nalaze se informacije o načinu postavljanja zadržavanja dijela uplate dobavljaču.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Postavljanje računa za zadržavanje dijela uplate dobavljaču u Glavnoj knjizi
 
-1. U Dynamics 365 Finance otvorite **Postava** > **knjiženja glavne knjige** > **Računi za automatske transakcije**.
+1. U aplikaciji Dynamics 365 Finance, idite na **Glavna knjiga** > **Postavljanje knjiženja** > **Računi za automatske transakcije**.
 2. Dodajte novi redak.
 3. U polju **Vrsta knjiženja** odaberite **Zadržavanje dijela uplate dobavljaču**.
 4. Odaberite glavni račun za knjiženje zadržavanja dijela uplate dobavljaču.

@@ -1,6 +1,6 @@
 ---
 title: Procjena retka ugovora o projektu
-description: U ovom se članku nalaze informacije o procjenama u retku ugovora o projektu.
+description: U ovom se članku navode informacije o načinu procjena retka ugovora projekta.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

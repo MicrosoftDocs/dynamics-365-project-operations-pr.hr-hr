@@ -1,6 +1,6 @@
 ---
 title: Konfiguriranje upravljanja troškovima
-description: U ovom se članku opisuju razmatranja i odluke koje morate donijeti tijekom postupka planiranja prije nego što konfigurirate upravljanje troškovima u Microsoft Dynamics 365 Finance.
+description: U ovom se članku opisuju razmatranja i odluke koje morate donijeti tijekom postupka planiranja, prije nego što konfigurirate upravljanje troškovima u aplikaciji Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8933989"
 ---
 # <a name="configure-expense-management"></a>Konfiguriranje upravljanja troškovima
 
-U ovom se članku opisuju razmatranja i odluke koje morate donijeti tijekom postupka planiranja prije konfiguriranja upravljanja troškovima. U modul Upravljanje troškovima možete pohranjivati informacije o načinima plaćanja, putnim nalozima, izvješćima o troškovima, pravilima itd.
+U ovom se članku opisuju razmatranja i odluke koje morate donijeti tijekom postupka planiranja, prije nego što konfigurirate upravljanje troškovima. U modul Upravljanje troškovima možete pohranjivati informacije o načinima plaćanja, putnim nalozima, izvješćima o troškovima, pravilima itd.
 
 Budući da se mnoge odluke koje donosite kada planirate svoju konfiguraciju modula Upravljanje troškovima temelje na hijerarhiji i financijskoj strukturi vaše tvrtke ili ustanove, morate pogledati dokumente za planiranje tih područja.
 

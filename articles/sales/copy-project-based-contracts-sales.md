@@ -1,6 +1,6 @@
 ---
-title: Kopiranje ugovora temeljenih na projektu
-description: U ovom se članku nalaze informacije o kopiranju projektnih ugovora u microsoftu Dynamics 365 Project Operations.
+title: Kopiranje ugovora koji se temelje na projektima
+description: U ovom se članku navode informacije o kopiranju ugovora o projektima u sustavu Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -13,36 +13,36 @@ ms.contentlocale: hr-HR
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410362"
 ---
-# <a name="copy-project-based-contracts"></a>Kopiranje ugovora temeljenih na projektu
+# <a name="copy-project-based-contracts"></a>Kopiranje ugovora koji se temelje na projektima
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Nove projektne ugovore možete jednostavno stvoriti kopiranjem postojećih ugovora na jedan od dva načina:
+Možete jednostavno izraditi nove ugovore o projektima kopiranjem postojećih ugovora na jedan od dva načina:
 
-- **Na stranici popisa Ugovori o** projektu odaberite ugovor o projektu, a zatim **Kopiraj**.
+- Na stranici s popisom **Ugovori o projektima** odaberite ugovor o projektu, a zatim **Kopiraj**.
 - Na stranici s pojedinostima **Ugovor o projektu** odaberite **Kopiraj**.
 
-U oba slučaja pojavit će se dijaloški okvir u kojem možete postaviti parametre kopiranog ugovora. Dijaloški okvir sadrži sljedeća polja. Ovisno o vrijednostima koje odaberete, postupak kopiranja može se promijeniti.
+U oba će se slučaja otvoriti dijaloški okvir u kojem možete odrediti parametre kopiranog ugovora. Dijaloški okvir obuhvaća sljedeća polja. Ovisno o vrijednostima koje odaberete, postupak kopiranja može se promijeniti.
 
 | Polje | Opis | Utjecaj na niže razine |
 | --- | --- | --- |
-| Tema | Unesite naziv ciljanog ugovora. Kada se dijaloški okvir otvori, sustav postavlja polje na naziv izvornog ugovora, ali mu se dodaje riječ "kopija". | Ovo polje ne utječe na niže razine. |
-| klijente | Upućivanje na zapis tvrtke ili računa klijenta. Kada se otvori dijaloški okvir, sustav postavlja polje na račun na izvornom ugovoru. | Ovo polje primarni je klijent u ugovoru. |
-| Tvrtka vlasnik | Tvrtka koja je odgovorna za isporuku projekata koji su povezani s ovim poslom. Kada se otvori dijaloški okvir, sustav postavlja polje na poduzeće vlasnika izvornog ugovora. | Vlastita tvrtka je pravna osoba koja će izvršiti projekt nakon zaključenja posla. Valuta vlasnika mora odgovarati valuti ugovorne jedinice. |
-| Ugovorna jedinica | Organizacijska jedinica koja je odgovorna za isporuku projekata koji su povezani s ovim poslom. Kada se otvori dijaloški okvir, sustav postavlja polje na jedinicu ugovaranja izvornog ugovora. | Ugovorna jedinica odjel je tvrtke koji će izvršiti projekte nakon zaključenja posla. Svaka ugovorna jedinica ima valutu. Ova se valuta koristi za izvješćivanje o procijenjenim i stvarnim troškovima nastalim tijekom projekta. |
-| Valuta | Valuta u kojoj se transakcija posla obavlja. Kada se otvori dijaloški okvir, sustav postavlja polje na valutu izvornog ugovora. Valuta se može promijeniti. Ako jest, **polje Kopiraj cijene** uvijek je postavljeno na **Ne** jer cjenici na izvornom ugovoru više nisu relevantni. | Ova valuta koristi se za zadane cjenike, za generiranje financijskih procjena na ugovoru i za fakturiranje kupcu prilikom dobivanja posla. |
-| Zatraženi datum isporuke | Datum isporuke koji je kupac zatražio. | Taj se datum koristi kao završni datum kada stvarate datume fakturiranja na određenoj frekvenciji. |
-| Kopiranje cijena | Vrijednost koja pokazuje treba li cijene na ugovoru kopirati iz izvornog ugovora. | Ako je polje postavljeno na **Da**, reference cjenika projekta i proizvoda kopiraju se iz izvornog ugovora u ciljni ugovor. Ako je postavljen na **Ne**, koriste se zadani cjenici na temelju najnovijih cjenika na računu ili parametrima projekta. |
+| Tema | Unesite naziv ciljanog ugovora. Kad se otvori dijaloški okvir, sustav određuje polje prema nazivu izvornog ugovora s time da mu dodaje riječ "kopija". | Ovo polje ne utječe na niže razine. |
+| klijente | Upućivanje na zapis tvrtke ili računa klijenta. Kada se otvori dijaloški okvir, sustav će ovo polje odrediti prema računu na izvornom ugovoru. | Ovo polje primarni je klijent u ugovoru. |
+| Tvrtka vlasnik | Tvrtka koja je odgovorna za isporuku projekata povezanih s ovim poslom. Kada se otvori dijaloški okvir, sustav će ovo polje odrediti prema tvrtki vlasnici na izvornom ugovoru. | Tvrtka vlasnica je pravna osoba koja će izvršiti projekte nakon zaključenja posla. Valuta tvrtke vlasnice mora se podudarati s valutom ugovorne jedinice. |
+| Ugovorna jedinica | Organizacijska jedinica koja je odgovorna za isporuku projekata povezanih s ovim poslom. Kada se otvori dijaloški okvir, sustav će polje odrediti prema ugovornoj jedinici na izvornom ugovoru. | Ugovorna jedinica odjel je tvrtke koji će izvršiti projekte nakon zaključenja posla. Svaka ugovorna jedinica ima valutu. Ta valuta upotrebljava se za izvješćivanje o procijenjenim i stvarnim troškovima koji nastanu tijekom projekta. |
+| Valuta | Valuta u kojoj se transakcija posla obavlja. Kad se otvori dijaloški okvir, sustav će polje odrediti prema valuti izvornog ugovora. Valuta se može promijeniti. Ako jest, polje **Kopiraj cijenu** uvijek je postavljeno na **Ne** jer cjenici na izvornom ugovoru više nisu relevantni. | Ova se valuta upotrebljava za zadane cjenike, za izradu financijskih procjena za ugovor i za fakturiranje klijentu kada se posao dobije. |
+| Zatraženi datum isporuke | Datum isporuke koji je klijent tražio. | Taj datum upotrebljava se kao datum završetka tijekom izrade datuma za fakturiranje pri određenoj učestalosti. |
+| Kopiranje cijena | Vrijednost koja označava treba li cijenu na ugovoru kopirati iz izvornog ugovora. | Ako je polje postavljeno na **Da**, referentni cjenik projekta i proizvoda kopiraju se iz izvornog ugovora u ciljani ugovor. Ako je postavljeno na **Ne**, upotrebljavaju se zadani cjenici temeljeni na najnovijim cjenicima u parametrima računa ili projekta. |
 
-Kada u dijaloškom okviru odaberete **U redu**, sustav stvara kopiju ugovora na temelju vrijednosti parametara koje ste postavili. Tada se otvara novi ugovor.
+Kad u dijaloškom okviru odaberete **U redu**, sustav izrađuje kopiju ugovora na temelju vrijednosti parametara koje ste odredili. Potom se otvara novi ugovor.
 
-Sljedeće informacije ne **kopiraju se** iz izvornog ugovora u ciljni ugovor jer su specifične za svaki ugovor:
+Sljedeći podaci se **ne** kopiraju iz izvornog ugovora u ciljni ugovor jer su specifični za svaki ugovor:
 
 - Rasporedi fakturiranja
 - Klijenti ugovora i retka ugovora
 - Referenca projekta na redcima ugovora koji se temelje na projektu
 - Podaci o proračunu klijenta
 
-Kopiraju se reci ugovora za projekte i proizvode, procjene u detaljima retka ugovora i vrijednosti koje ne prelaze na razini ugovora. Unos zadanih cijena i cijena troškova ovisi o odabiru u **polju Kopiranje cijena** u dijaloškom okviru Kopiranje **parametara**.
+Kopiraju se redci ugovora za projekte i proizvode, procjene u pojedinostima redaka ugovora i vrijednosti koje ne smiju premašiti na razini ugovora. Unos zadanih cijena i stopa troškova ovisi o odabiru u polju **Kopiraj cijene** u dijaloškom okviru **Kopiraj parametre**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

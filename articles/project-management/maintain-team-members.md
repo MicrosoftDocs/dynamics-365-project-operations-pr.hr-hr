@@ -1,6 +1,6 @@
 ---
 title: Održavanje članova tima
-description: U ovom se članku nalaze informacije o rezervaciji imenovanih resursa projektnim timovima i njihovom dodjeljivanju zadataka.
+description: U ovom se članku navode informacije o rezerviranju imenovanih resursa za projektne timove i dodjeli istih zadacima.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

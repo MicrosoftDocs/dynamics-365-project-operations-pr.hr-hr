@@ -1,6 +1,6 @@
 ---
 title: Po danima
-description: Ovaj članak pruža informacije o pravilima dnevnice koja se koriste u upravljanju troškovima.
+description: U ovom članku nalaze se informacije o pravilima za dnevnice koja se upotrebljavaju za upravljanje troškovima.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

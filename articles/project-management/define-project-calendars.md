@@ -1,6 +1,6 @@
 ---
 title: Definiranje kalendara projekata
-description: U ovom se članku nalaze informacije o primjeni predloška kalendara na projekt za praćenje rasporeda projekta.
+description: U ovom se članku navode informacije o tome kako primijeniti predložak kalendara na projekt kako bi se pratio raspored projekta.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

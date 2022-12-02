@@ -1,6 +1,6 @@
 ---
 title: Korektivne fakture koje se temelje na projektu
-description: U ovom se članku nalaze informacije o stvaranju i potvrđivanju korektivnih faktura temeljenih na projektima u operacijama projekta.
+description: U ovom se članku navode informacije o načinu stvaranja i potvrđivanja korektivnih faktura koje se temelje na projektu u aplikaciji Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

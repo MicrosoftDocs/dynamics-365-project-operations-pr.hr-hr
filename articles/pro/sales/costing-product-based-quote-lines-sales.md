@@ -1,6 +1,6 @@
 ---
 title: Određivanje cijene redaka ponude utemeljenih na proizvodu
-description: U ovom se članku navode informacije o primjeni cijene troška na redak ponude koji se temelji na proizvodu.
+description: U ovom se članku navode informacije o primjeni cijene koštanja na redak ponude koji se temelji na proizvodu.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

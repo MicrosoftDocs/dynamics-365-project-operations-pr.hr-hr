@@ -1,6 +1,6 @@
 ---
 title: Projektni prodajni nalozi za vremenske i materijalne projekte
-description: U ovom se članku objašnjava kako kreirati naloge za prodaju temeljene na projektima za vremenske i materijalne projekte.
+description: U ovom se članku objašnjava način stvaranja prodajnih naloga na temelju projekata za vremenske i materijalne projekte.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8933805"
 
 [!include[banner](../includes/banner.md)]
 
-U ovom se članku opisuje kako kreirati nalog za prodaju za projekt. Prodajni nalozi mogu se stvarati samo za projekte vrste **vrijeme i materijal**.
+U ovom članku opisuje se način stvaranja prodajnog naloga za projekt. Prodajni nalozi mogu se stvarati samo za projekte vrste **vrijeme i materijal**.
 
 Ako projekt za vrijeme i materijal ima više izvora financiranja na ugovoru o projektu, morate omogućiti parametar **Omogući prodajne naloge za projekte s više izvora financiranja** na stranici **Parametri upravljanja projektom i računovodstveni parametri**. 
 

@@ -1,6 +1,6 @@
 ---
 title: Predlaganje resursa projekta
-description: U ovom se članku nalaze informacije o predlaganju resursa projekta.
+description: U ovom članku nalaze se informacije o načinu predlaganja projektnih resursa.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

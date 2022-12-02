@@ -1,6 +1,6 @@
 ---
 title: Stvaranje dodjela resursa
-description: U ovom se članku nalaze informacije o stvaranju generičkih i imenovanih dodjela resursa.
+description: U ovom se članku navode informacije o izradi generičkih i imenovanih dodjela resursa.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: hr-HR
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933483"
@@ -18,7 +18,7 @@ ms.locfileid: "8933483"
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
 
-Dodjela resursa izravna je povezanost člana projektnog tima sa zadatkom lisnog čvora. U ovom se članku nalaze informacije o različitim načinima dodjeljivanja resursa.
+Dodjela resursa izravna je povezanost člana projektnog tima sa zadatkom lisnog čvora. U ovom se članku navode informacije o različitim načinima za dodjelu resursa.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Izrada generičkog člana tima putem dodjele zadatka
 

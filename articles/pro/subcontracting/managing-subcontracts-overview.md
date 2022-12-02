@@ -1,6 +1,6 @@
 ---
 title: Upravljanje podugovorima u aplikaciji Project Operations
-description: Ovaj članak pruža pregled procesa upravljanja kooperatom od kraja do kraja koji se obično nalazi u projektnim organizacijama.
+description: U ovom se članku navodi pregled cjelovitog postupka upravljanja podugovorima uobičajenog tvrtkama ili ustanovama koje se temelje na projektu.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522316"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Ovaj članak pruža pregled procesa upravljanja kooperantima od kraja do kraja u projektnim organizacijama. Podugovaranje usluga obično slijedi tijek poslovnog procesa koji se prikazuje na dijagramu u nastavku.
+U ovom se članku navodi pregled cjelovitog postupka upravljanja podugovorima u tvrtkama ili ustanovama koje se temelje na projektu. Podugovaranje usluga obično slijedi tijek poslovnog procesa koji se prikazuje na dijagramu u nastavku.
 
 ![Tijek postupka podugovaranja](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Redak podugovora može se temeljiti na količini ili na radu.
 
 Kad je redak podugovora **na temelju količine**, količina kupljena na retku podugovora za vrijeme, troškove ili materijal može se upotrijebiti na svakom projektu.
 
-Kad je redak podugovora **na temeljenu rada**, redak podugovora mapira se na ukupnost rada koji se u planu projekta prikazuje kao čvor. Vrijednost retka podugovora zbroj je svih komponenti koje su potrebne za isporuku te ukupnosti rada. One su modelirane kao pojedinosti retka podugovora i mogu biti skup vremena, troškova ili materijala. Za redak podugovora koji se temelji na radu, redak podugovora također je namijenjen jednom projektu. Te vrste podugovaratelja nisu podržane projektnim operacijama.
+Kad je redak podugovora **na temeljenu rada**, redak podugovora mapira se na ukupnost rada koji se u planu projekta prikazuje kao čvor. Vrijednost retka podugovora zbroj je svih komponenti koje su potrebne za isporuku te ukupnosti rada. One su modelirane kao pojedinosti retka podugovora i mogu biti skup vremena, troškova ili materijala. Za redak podugovora koji se temelji na radu, redak podugovora također je namijenjen jednom projektu. Aplikacija Project Operations trenutačno ne podržava ovakve vrste podugovora.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

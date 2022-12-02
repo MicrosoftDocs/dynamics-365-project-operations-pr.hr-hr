@@ -1,6 +1,6 @@
 ---
 title: Što je novo u kolovozu 2022. – implementacija osnovne aplikacije Project Operations
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete koja su dostupna u izdanju implementacije sustava Microsoft Dynamics 365 Project Operations lite u kolovozu 2022.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju osnovne implementacije aplikacije Microsoft Dynamics 365 Project Operations iz kolovoza 2022.
 author: ramagadu
 ms.date: 08/19/2022
 ms.topic: article
@@ -18,16 +18,16 @@ ms.locfileid: "9403894"
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Ovaj se članak odnosi na sljedeće komponente i verzije programa Microsoft Dynamics 365 Project Operations:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Microsoft Dynamics 365 Project Operations:
 
-- Operacije projekta u verziji okruženja Dataverse 4.45.0.53
+- Project Operations u okruženju platforme Dataverse verzije 4.45.0.53
 
 ## <a name="quality-updates"></a>Ažuriranja kvalitete
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |
-|   Upravljanje prilikama | 2762089 | Rukovanje pogreškama prilikom zatvaranja ugovora kao izgubljenog ako je automatsko spremanje onemogućeno u operacijskoj mreži.|
-|Planiranje i praćenje projekta | 2767841 | Telemetrija ažurira entitet Projekta Stvaranje ili ažuriranje scenarija.|
-|Naplata i određivanje cijene | 2771072 | Rukovanje iznimkom null reference tijekom osvajanja ponude.|
-|Naplata i određivanje cijene | 2844181 |Pogreška u dohvaćanju ID-a korelacije i blokiranju stvaranja fakture.|
-|Naplata i određivanje cijene | 2852836 | Međukompanijske stvarne vrijednosti koje nedostaju za međukompanijski trošak stvoren i odobren u CE.|
+|   Upravljanje prilikama | 2762089 | Rješavanje pogreške prilikom zatvaranja ugovora kao izgubljenog ako je automatsko spremanje onemogućeno u organizaciji.|
+|Planiranje i praćenje projekta | 2767841 | Ažuriranja telemetrije Entitet projekta Stvorite ili ažurirajte scenarije.|
+|Naplata i određivanje cijene | 2771072 | Rukovanje iznimkama nulte reference tijekom osvajanja ponude.|
+|Naplata i određivanje cijene | 2844181 |Neuspjeh u dobivanju ID-a korelacije i blokiranje izrade fakture.|
+|Naplata i određivanje cijene | 2852836 | Nedostaju međukompanijske stvarne vrijednosti za međukompanijske troškove kreirane i odobrene u CE-u.|

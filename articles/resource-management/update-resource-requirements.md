@@ -1,6 +1,6 @@
 ---
 title: Uređiivanje preduvjeta resursa
-description: U ovom se članku nalaze informacije o ažuriranju informacija o preduvjetima resursa.
+description: U ovom članku nalaze se informacije o načinu ažuriranja podataka o preduvjetima resursa.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

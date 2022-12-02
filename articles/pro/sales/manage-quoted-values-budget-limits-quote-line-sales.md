@@ -1,6 +1,6 @@
 ---
 title: Pregled redaka ponude koji se temelje na projektu
-description: U ovom se članku nalaze informacije o korištenju redaka ponuda temeljenih na projektu za projektni rad.
+description: U ovom se članku navode informacije o uporabi redaka ponude koji se temelje na projektu za rad na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

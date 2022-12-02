@@ -1,6 +1,6 @@
 ---
 title: Postavljanje kilometraže s pomoću tarifnih razreda kilometraže
-description: Ovaj članak pruža informacije o stopama kilometraže i razinama stope kilometraže.
+description: U ovom članku nalaze se informacije o cijenama kilometraže i cjenovnim razredima kilometraže.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ Značajka **Izračuna iznosa kilometraže za više razina kilometraže s istom c
 
 Nakon što omogućite značajku, vratite razine kilometraže na zadane kako bi ispravno odražavale vrijednost polja **Količina**. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Omogućivanje izračuna ukupnih iznosa kilometraže prema značajci poslovna godina
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Omogućivanje značajke Izračun ukupne kilometraže prema poslovnoj godini
 
-Izračun **ukupnih vrijednosti kilometraže prema poslovna godina** značajki omogućuje novu postavku parametara upravljanja troškovima koja izvodi izračune ukupnih vrijednosti kilometraže prema poslovna godina umjesto kalendarske godine. Poduzmite sljedeće korake kako biste omogućili ovu značajku.
+Značajka **Izračun ukupne kilometraže prema poslovnoj godini** omogućuje novu postavku u parametrima upravljanja troškovima koja izračunava ukupnu kilometražu prema poslovnoj godini umjesto prema kalendarskoj godini. Poduzmite sljedeće korake kako biste omogućili ovu značajku.
 
 1. Idite na **Radni prostori** > **Upravljanje značajkama**.
-1. Na popisu pronađite i odaberite **Izračun ukupnih zbrojeva kilometraže prema poslovna godina**, a zatim odaberite **Omogući odmah**.
-1. Otvorite Parametre **upravljanja općim** > **troškovima postave** > **upravljanja** > **troškovima**.
-1. **Na stranici Parametri upravljanja troškovima** pronađite i omogućite **korištenje poslovna godina za ukupne količine** kilometraže.
+1. Na popisu pronađite i odaberite **Izračun ukupne kilometraže prema poslovnoj godini**, a zatim odaberite **Omogući sada**.
+1. Otvorite **Upravljanje troškovima** > **Postavljanje** > **Općenito** > **Parametri upravljanja troškovima**.
+1. Na stranici **Parametri upravljanja troškovima** pronađite i omogućite postavku **Koristi poslovnu godinu za ukupnu kilometražu**.
 
-Nakon što omogućite **koristi** poslovna godina za ukupne količine kilometraže, ukupni zbrojevi kilometraže izračunavaju se prema poslovna godina.
+Nakon što omogućite postavku **Koristi poslovnu godinu za ukupnu kilometražu**, ukupna kilometraža izračunava se prema poslovnoj godini.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

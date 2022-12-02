@@ -1,6 +1,6 @@
 ---
 title: Planiranje i praćenje projekta
-description: U ovom se članku nalazi veza na informacije o planiranju i praćenju u automatizaciji project usluga.
+description: Ovaj članak pruža vezu na informacije o planiranju i praćenju u značajci Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice

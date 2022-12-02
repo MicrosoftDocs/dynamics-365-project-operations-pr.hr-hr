@@ -1,6 +1,6 @@
 ---
 title: Pregled projektnih mobilnih aplikacija
-description: U ovom se članku nalaze općenite informacije o aplikacijama vezanim uz vrijeme projekta za Microsoft Dynamics 365 Project Timesheet, Unos vremena projekta i Moje vremenske tablice/Vremenske tablice koje su dostupne na mobilnom uređaju.
+description: U ovom članku nalaze se opće informacije o projektnim aplikacijama vezanim za vrijeme za sustav Microsoft Dynamics 365 Project Timesheet, Unos vremena za projekt i Moja evidencija radnog vremena / evidencije radnog vremena koji su dostupni na mobilnom uređaju.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,15 +29,15 @@ Dostupne su tri mobilne aplikacije povezane s vremenom projekta za sustav Micros
 
 ## <a name="project-timesheet-mobile-app"></a>Mobilna aplikacija Project Timesheet
 
-Mobilna aplikacija Dynamics 365 Project Timesheet omogućuje korisnicima slanje i odobravanje evidencija radnog vremena za projekte na mobilnom uređaju. Ova mobilna aplikacija prikazuje funkcionalnost vremenske tablice u području upravljanja projektima i računovodstva Dynamics 365 Finance. Pomaže u poboljšanju produktivnosti i učinkovitosti korisnika, a također pomaže u pravodobnom unosu i odobravanju evidencija radnog vremena na projektu.
+Mobilna aplikacija Dynamics 365 Project Timesheet omogućuje korisnicima slanje i odobravanje evidencija radnog vremena za projekte na mobilnom uređaju. Ova mobilna aplikacija prikazuje funkcionalnost evidencije radnog vremena u područjima upravljanja projektima i računovodstvu sustava Dynamics 365 Finance. Pomaže u poboljšanju produktivnosti i učinkovitosti korisnika, a također pomaže u pravodobnom unosu i odobravanju evidencija radnog vremena na projektu.
 
 ## <a name="project-time-entry-workspace"></a>Radni prostor Unosa vremena za projekt
 
-Radni prostor Unosa vremena za projekt omogućuje korisnicima ulazak i uštedu vremena u odnosu na projekt. Međutim, korisnicima se ne dozvoljava predaja ili odobravanje evidencije radnog vremena na projektu. Može se upotrijebiti samo za Unos vremena. Ovaj mobilni radni prostor namijenjen je korištenju zajedno s mobilnom aplikacijom za financije i operacije.
+Radni prostor Unosa vremena za projekt omogućuje korisnicima ulazak i uštedu vremena u odnosu na projekt. Međutim, korisnicima se ne dozvoljava predaja ili odobravanje evidencije radnog vremena na projektu. Može se upotrijebiti samo za Unos vremena. Ovaj mobilni radni prostor namijenjen je uporabi s mobilnom aplikacijom za financije i operacije.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Moja evidencija radnog vremena / evidencija radnog vremena za moj pregled
 
-Moja evidencija radnog vremena (optimizirana za mobilne uređaje) i evidencija radnog vremena za moj pregled (optimizirana za mobilne uređaje) čine rješenje koje omogućuje zaposlenicima stvaranje, slanje i odobravanje evidencija radnog vremena za projekt na mobilnom uređaju. Radnici mogu pristupiti funkciji Financija putem URL adrese aplikacije. Ovo rješenje ne zahtijeva mobilnu aplikaciju za financije i poslovanje.
+Moja evidencija radnog vremena (optimizirana za mobilne uređaje) i evidencija radnog vremena za moj pregled (optimizirana za mobilne uređaje) čine rješenje koje omogućuje zaposlenicima stvaranje, slanje i odobravanje evidencija radnog vremena za projekt na mobilnom uređaju. Radnici mogu pristupiti funkciji Financija putem URL adrese aplikacije. Za ovo rješenje nije potrebna mobilna aplikacija za financije i operacije.
 
 ## <a name="for-more-information"></a>Za dodatne informacije
 

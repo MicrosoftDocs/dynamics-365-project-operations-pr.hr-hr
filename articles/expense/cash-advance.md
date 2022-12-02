@@ -1,6 +1,6 @@
 ---
 title: Gotovinski predujam
-description: Ovaj članak pruža informacije o novčanim predujmovima.
+description: U ovom se članku navode informacije o gotovinskim predujmovima.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article

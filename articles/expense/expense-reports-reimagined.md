@@ -1,5 +1,5 @@
 ---
-title: Ponovno osmišljena izvješća o troškovima (sadrži videozapise)
+title: Izmijenjena izvješća o troškovima (sadržava videozapis)
 description: U ovom se članku objašnjava redizajnirano i ponovno osmišljeno iskustvo za unos izvješća o troškovima.
 author: suvaidya
 ms.date: 12/16/2021
@@ -58,7 +58,7 @@ Kako biste uključili novo iskustvo, upotrijebite radni prostor **Upravljanje zn
 | Spremanje i dodavanje novih redaka troškova | Gumbi **Spremi** i **Novo** dostupni su kada se unose novi troškovi, što vam pomaže pri brzom unosu redaka troškova. |
 | Bolja vidljivost unutar razdvojenih i specificiranih redaka | Specificirani i razdvojeni redci dodaju se izravno na popis troškova kako bi se povećala vidljivost i olakšalo utvrđivanje postojanja pogrešaka. |
 | Pregled pojedinosti o podkategorijama u redcima s pojedinostima | Redci s pojedinostima nadređenog troška prikazuju oznake podkategorija u izvješću o trošku. Specificiranje vam omogućuje da letimičnim pregledom uočite najsitnije pojedinosti.|
-|Brzo posvjedočite ponavljajuće troškove | Ponovno osmišljeni radni prostor troškova omogućuje brzo određivanje ponavljajućih troškova dodavanjem potkategorije, datuma početka i količine. Količina se odnosi na broj ponavljanja punjenja tijekom neprekidnog razdoblja. |
+|Brzo specificirajte ponavljajuće troškove | Ponovno osmišljeni radni prostor za troškove pruža mogućnost brzog specificiranja ponavljajućih troškova dodavanjem potkategorije, datuma početka i količine. Količina se odnosi na broj ponavljanja troška tijekom kontinuiranog razdoblja. |
 | Prikaz računa tijekom specificiranja | Tijekom specificiranja mogu se prikazati računi. |
 | Odabir gotovinskog predujma | Odaberite jedan ili više gotovinskih predujmova za ispunjenje jedne transakcije troškova. |
 | Saldo gotovinskog predujma | Pregledajte saldo gotovinskog predujma u stvarnom vremenu kada stvarate unos troška u odnosu na odobrene i plaćene gotovinske predujmove. |

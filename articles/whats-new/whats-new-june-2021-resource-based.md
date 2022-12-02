@@ -1,6 +1,6 @@
 ---
 title: Novosti u lipnju 2021. – Project Operations za scenarije koji se temelje na resursu / bez zaliha
-description: U ovom se članku nalaze informacije o ažuriranjima kvalitete dostupnima u izdanju projektnih operacija za scenarije temeljene na resursima/neutemeljenim resursima u lipnju 2021.
+description: U ovom članku nalaze se informacije o ažuriranjima kvalitete dostupnima u izdanju aplikacije Project Operations za lipanj 2021. za scenarije koji se temelje na resursu / bez zaliha.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9028166"
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Ovaj se članak odnosi na sljedeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak odnosi se na sljedeće komponente i verzije aplikacije Dynamics 365 Project Operations:
 
 - Project Operations u okruženju sustava Dynamics 365 Dataverse verzije 4.11.0.156 ili 4.11.0.164.
-- Upravljanje projektima i računovodstvo u okruženjima financijskih i operativnih aplikacija verzija 10.0.19.
+- Upravljanje projektima i računovodstvo u okruženjima aplikacija za financije i operacije verzije 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Značajke koje su obuhvaćene ovim izdanjem
 
@@ -38,7 +38,7 @@ U ovom izdanju nema ažuriranja za karte s dvostrukim pisanjem aplikacije Projec
 
 Za trenutačni popis i verzije karata s dvostrukim pisanjem aplikacije Project Operations pogledajte [Verzije karte s dvostrukim pisanjem aplikacije Project Operations](../environment/resource-dual-write-maps.md).
 
-Uvijek pokrenite najnoviju verziju karte u svom okruženju i omogućite sve povezane karte tablica dok ažurirate rješenje za Project Operations Dataverse i verziju rješenja za financijske i operativne aplikacije. Određene značajke i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija karte. Aktivnu verziju karte možete vidjeti na stranici **Dvostruko pisanje** u stupcu **Verzija**. Aktivirajte novu verziju karte odabirom mogućnosti **Verzije tabličnih karata**, odabirom najnovije verzije, a zatim spremanjem odabrane verzije. Ako ste prilagodili gotovu kartu tablice, ponovite promjene. Dodatne informacije potražite u članku [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Uvijek pokrenite najnoviju verziju karte u svom okruženju i omogućite sve povezane karte tablice dok ažurirate svoje rješenje Project Operations Dataverse i verziju aplikacija za financije i operacije. Određene značajke i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija karte. Aktivnu verziju karte možete vidjeti na stranici **Dvostruko pisanje** u stupcu **Verzija**. Aktivirajte novu verziju karte odabirom mogućnosti **Verzije tabličnih karata**, odabirom najnovije verzije, a zatim spremanjem odabrane verzije. Ako ste prilagodili gotovu kartu tablice, ponovite promjene. Dodatne informacije potražite u članku [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ako naiđete na problem s pokretanjem karte, slijedite upute u odjeljku [Problem s nedostatkom stupaca tablice na kartama](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) vodiča za rješavanje poteškoća s dvostrukim pisanjem.
 
@@ -62,7 +62,7 @@ Ako naiđete na problem s pokretanjem karte, slijedite upute u odjeljku [Problem
 | Vrijeme i trošak | 2194431 | Rešetka **Vremenski unos** mora poštivati početak tjedna kako je postavljeno u stavci **Postavke sustava**. |
 | Vrijeme i trošak | 2277311 | Nakon što izbrišete vrijednost u ćeliji u rešetki **Vremenski unos**, pokazivač ostaje u rešetki. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u aplikaciji Dynamics 365 Finance
 
 | Područje značajke | Broj reference | Ažuriranja kvalitete |
 | --- | --- | --- |

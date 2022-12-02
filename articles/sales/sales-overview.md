@@ -1,6 +1,6 @@
 ---
 title: Pregled prodajnog postupka
-description: U ovom se članku nalaze informacije o osnovnim prodajnim procesima.
+description: Ovaj članak pruža informacije o osnovnim prodajnim procesima.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview

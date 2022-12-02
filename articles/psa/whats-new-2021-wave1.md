@@ -1,6 +1,6 @@
 ---
 title: Novosti ili izmjene u aplikaciji Project Service Automation, val ranog pristupa 1 za 2021, V3
-description: U ovom se članku navode značajke i popravci dostupni u programu Project Service Automation Early Access Wave 1 2021, V3.
+description: U ovom se članku navode značajke i ispravci koji su dostupni aplikaciji Project Service Automation, val ranog pristupa 1 za 2021., V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
@@ -31,7 +31,7 @@ ms.locfileid: "8930723"
 
 Zadovoljstvo nam je najaviti najnovije ažuriranje aplikacije Project Service Automation za sustav Dynamics 365. Ovo izdanje uključuje neka bitna poboljšanja kvalitete, značajki i upotrebljivosti. Ovo je izdanje kompatibilno sa sustavom Dynamics 365 9.x. Kako biste ažurirali ovo izdanje, posjetite stranicu Centra za administratore za sustav Dynamics 365 s rješenjima na mreži, kako biste instalirali ažuriranje. Dodatne informacije potražite u članku [Instaliranje, ažuriranje ili uklanjanje željenog rješenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovom se članku navode značajke i popravci koji su novi ili promijenjeni za automatizaciju usluga projekta V3, Val ranog pristupa 1 2021. Ova verzija ima broj izrade V3.10.49.3 i općenito je dostupna putem samostalnog ažuriranja u veljači 2021.
+U ovom se članku navode značajke i ispravci koji su novi ili izmijenjeni za aplikaciju Project Service Automation V3, val ranog pristupa 1 za 2021. Ova verzija ima broj izrade V3.10.49.3 i općenito je dostupna putem samostalnog ažuriranja u veljači 2021.
 
 
 ### <a name="bug-fixes"></a>Ispravke pogrešaka

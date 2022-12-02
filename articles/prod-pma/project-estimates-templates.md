@@ -1,6 +1,6 @@
 ---
-title: Sinkronizacija procjena projekata izravno iz automatizacije projektnih usluga s financijama i operacijama
-description: U ovom se članku opisuju predlošci i temeljni zadaci koji se koriste za sinkronizaciju procjena sati projekta i procjena troškova projekta izravno iz Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+title: Sinkroniziranje procjene projekta izravno iz aplikacije Project Service Automation u aplikaciju Financije i operacije
+description: U ovom se članku opisuju predlošci i temeljni zadaci koji se upotrebljavaju za sinkronizaciju procjene sati rada na projektu i izdataka za projekt izravno iz sustava Microsoft Dynamics 365 Project Service Automation u uslugu Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: hr-HR
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9029796"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronizacija procjena projekata izravno iz automatizacije projektnih usluga s financijama i operacijama
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkroniziranje procjene projekta izravno iz aplikacije Project Service Automation u aplikaciju Financije i operacije
 
 [!include[banner](../includes/banner.md)]
 
-U ovom se članku opisuju predlošci i temeljni zadaci koji se koriste za sinkronizaciju procjena sati projekta i procjena troškova projekta izravno iz Dynamics 365 Project Service Automation Dynamics 365 Finance.
+U ovom se članku opisuju predlošci i temeljni zadaci koji se upotrebljavaju za sinkronizaciju procjene sati rada na projektu i izdataka za projekt izravno iz sustava Dynamics 365 Project Service Automation u uslugu Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integracija projektnog zadatka, kategorije transakcija izdataka, procjene sati, procjene izdataka i zaključavanje funkcionalnosti dostupni su u verziji 8.0.
@@ -69,7 +69,7 @@ Prije nego što se dogodi sinkronizacija procjena sati rada na projektu, morate 
 
 ### <a name="power-query"></a>Power Query
 
-U predlošku procjene sata projekta morate koristiti Microsoft Power Query za Excel da biste dovršili ove zadatke:
+U predlošku za procjenu sati rada na projektu morate upotrijebiti uslugu Microsoft Power Query za Excel kako biste izvršili ove zadatke:
 
 - Postavite zadani ID modela predviđanja koji će se upotrebljavati kada integracija stvara nova predviđanja radnih sati.
 - U zadatku filtrirajte sve zapise specifične za resurse koji se neće uspjeti integrirati u predviđanja radnih sati.
@@ -80,7 +80,7 @@ U predlošku procjene sata projekta morate koristiti Microsoft Power Query za Ex
 Kako biste u predlošku ažurirali zadani ID modela predviđanja, kliknite strelicu **Mapiraj** kako biste otvorili mapiranje. Zatim odaberite vezu **Napredni upit i filtriranje**.
 
 - Ako upotrebljavate zadani predložak Procjene radnih sati za projekt (PSA u Fin i Ops), odaberite **Umetnuti uvjet** na popisu **Primijenjeni koraci**. U unosu **Funkcija** zamijenite **O\_forecast** nazivom ID-a modela predviđanja koji bi se trebao upotrijebiti s integracijom. Zadani predložak ima ID modela predviđanja iz pokaznih podataka.
-- Ako stvarate novi predložak, morate dodati ovaj stupac. U Power Query okviru izaberite **stavku Dodaj uvjetni stupac** i unesite naziv novog stupca, kao **što je ModelID**. Unesite uvjet za stupac, gdje, ako Projektni zadatak ima vrijednost nula , onda \<enter the forecast model ID\>; inače ima vrijednost nula.
+- Ako stvarate novi predložak, morate dodati ovaj stupac. U dodatku Power Query odaberite **Dodaj uvjetni stupac** i unesite naziv novog stupca, kao što je **ModelID**. Unesite uvjet za stupac, gdje, ako Projektni zadatak ima vrijednost nula , onda \<enter the forecast model ID\>; inače ima vrijednost nula.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtriranje zapisa specifičnih za resurse
 
@@ -125,7 +125,7 @@ Prije nego što se dogodi sinkronizacija procjena izdataka na projektu, morate s
 
 ### <a name="power-query"></a>Power Query
 
-U predlošku za procjenu troškova projekta morate se poslužiti Power Query za dovršavanje sljedećih zadataka:
+U predlošku procjene izdataka za projekt morate upotrijebiti dodatak Power Query da biste izvršili sljedeće zadatke:
 
 - Filtrirajte kako biste uključili samo zapise redaka procjene izdataka.
 - Postavite zadani ID modela predviđanja koji će se upotrebljavati kada integracija stvara nova predviđanja radnih sati.
@@ -140,8 +140,8 @@ Predložak procjena izdataka za projekt (PSA u Fin i Ops) ima zadani filtar koji
 
 Kako biste u predlošku ažurirali zadani ID modela predviđanja, odaberite zadatak **Procjene izdataka** i zatim kliknite strelicu **Mapiraj** kako biste otvorili mapiranje. Odaberite vezu **Napredni upit i filtriranje**.
 
-- Ako koristite zadani predložak procjene troškova projekta (PSA do Fin i Ops), u odjeljku Power Query Primijenjeni koraci **odaberite prvi** umetnuti **uvjet**. U unosu **Funkcija** zamijenite **O\_forecast** nazivom ID-a modela predviđanja koji bi se trebao upotrijebiti s integracijom. Zadani predložak ima ID modela predviđanja iz pokaznih podataka.
-- Ako stvarate novi predložak, morate dodati ovaj stupac. U Power Query okviru izaberite **stavku Dodaj uvjetni stupac** i unesite naziv novog stupca, kao **što je ModelID**. Unesite uvjet za stupac, gdje, ako vrijednost ID retka Procjene nije nula , onda \<enter the forecast model ID\>; inače ima vrijednost nula.
+- Ako upotrebljavate zadani predložak Procjene izdataka za projekt (PSA u Fin i Ops), u dodatku Power Query odaberite prvi **Umetnuti uvjet** iz odjeljka **Primijenjeni koraci**. U unosu **Funkcija** zamijenite **O\_forecast** nazivom ID-a modela predviđanja koji bi se trebao upotrijebiti s integracijom. Zadani predložak ima ID modela predviđanja iz pokaznih podataka.
+- Ako stvarate novi predložak, morate dodati ovaj stupac. U dodatku Power Query odaberite **Dodaj uvjetni stupac** i unesite naziv novog stupca, kao što je **ModelID**. Unesite uvjet za stupac, gdje, ako vrijednost ID retka Procjene nije nula , onda \<enter the forecast model ID\>; inače ima vrijednost nula.
 
 #### <a name="transform-the-billing-types"></a>Pretvaranje vrsta naplata
 
