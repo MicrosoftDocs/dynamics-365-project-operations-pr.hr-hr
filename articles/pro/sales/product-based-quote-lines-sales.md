@@ -1,19 +1,19 @@
 ---
-title: Pregled redaka ponude koji se temelje na proizvodu – jednostavno
+title: Pregled redaka ponude koji se temelje na proizvodu
 description: U ovom članku nalaze se informacije o radu s redcima ponude koji se temelje na proizvodu.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a260c0f51cc2d958281dbc6f0f711347cab85a9a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914301"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826213"
 ---
-# <a name="product-based-quote-lines-overview---lite"></a>Pregled redaka ponude koji se temelje na proizvodu – jednostavno
+# <a name="product-based-quote-lines-overview"></a>Pregled redaka ponude koji se temelje na proizvodu
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 

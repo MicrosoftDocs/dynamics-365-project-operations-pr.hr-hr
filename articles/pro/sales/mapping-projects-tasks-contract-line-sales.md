@@ -1,23 +1,23 @@
 ---
-title: Mapiranje projekata i zadataka u redak ponude koji se temelji na ugovoru – jednostavno
+title: Mapiranje projekata i zadataka u redak ugovora o projektu
 description: U ovom se članku navode informacije o dodavanju projekata i zadataka u redak ugovora i uklanjanju istih iz retka ugovora.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932517"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825049"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapiranje projekata i zadataka u redak ugovora koji se temelji na projektu 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Mapiranje projekata i zadataka u redak ugovora o projektu 
 
 _**Primjenjuje se na:** Osnovna implementacija – od dogovora do predračuna, Project Operations za scenarije koji se temelje na resursima / bez zaliha_
 
-Na redcima ugovora koji se temelje na projektu možete mapirati određene zadatke u projektu na redak ugovora.
+U recima ugovora o projektu možete mapirati određene zadatke u projektu u redak ugovora.
 
 Kada mapirate određene zadatke na redak ugovora, način naplate, mogućnosti naplate, ograničenja koja se ne smiju prekoračiti i klijente definirane na retku ugovora bit će primjenjivi samo na te određene zadatke.
 
@@ -25,7 +25,7 @@ Ako imate scenarij u kojem je jedna faza projekta, na primjer faza prototipa, fi
 
 Sve ostale faze u strukturnoj analizi rada (WBS) vašeg projekta mogu se povezati s retkom ugovora koji se temelji na vremenu i materijalu.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Povezivanje zadataka s redcima ugovora koji se temelje na projektu
+## <a name="associate-tasks-to-project-contract-lines"></a>Pridruživanje zadataka recima ugovora o projektu
 
 Zadaci se mogu povezati s redcima ugovora iz kartice **Naplativi zadaci** na stranici **Redak ugovora** ili iz kartice **Naplata zadatka** na stranici **Projekt**.
 

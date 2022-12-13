@@ -1,32 +1,32 @@
 ---
-title: Procjena retka ugovora koji se temelji na projektu – osnovna
+title: Procjena projec retka ugovora
 description: U ovom se članku navode informacije o procjeni retka ugovora koji se temelji na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914393"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824758"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Procjena retka ugovora koji se temelji na projektu – osnovna
+# <a name="estimate-a-project-contract-line"></a>Procjena retka ugovora o projektu
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-U aplikaciji Dynamics 365 Project Operations, redak ugovora koji se temelji na projektu sadrži pojedinosti koje pomažu pri procjeni troškova i potencijalnog prihoda od posla koji se odnosi na isporuku retka ugovora.
+U Dynamics 365 Project Operations retku ugovora o projektu nalaze se detalji koji pomažu u procjeni troškova i potencijalnog prihoda uključenog posla za isporuku retka ugovora.
 
-Kako biste procijenili redak ugovora koji se temelji na projektu, idite na karticu **Pojedinosti retka ugovora** na **Retku ugovora** koji se temelji na projektu.  Postoje dva načina za stvaranje procjene na retku ugovora koji se temelji na projektu:
+Da biste procijenili redak ugovora o projektu, idite na karticu **Detalji retka** ugovora u retku ugovora koji se temelji **na projektu**.  Postoje dva načina za stvaranje procjene na retku ugovora koji se temelji na projektu:
 
    - Stvorite procjenu izravno na retku ugovora ručnim dodavanjem pojedinosti retka ugovora.
    - Stvorite projekt i projektni plan, a zatim projekt i zadatke povežite s retkom ugovora o projektu. To omogućuje postupak kojim možete uvesti procjenu plana projekta u redak ugovora koji se temelji na komponentama uključenim u redak ugovora.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Stvaranje procjene izravno na retku ugovora koji se temelji na projektu
 
-Kako biste stvorili procjene izravno na retku ugovora koji se temelji na projektu, slijedite ove korake:
+Da biste stvorili procjenu izravno u retku ugovora o projektu, slijedite ove korake:
 
 1. Idite na redak ugovora i odaberite karticu **Pojedinosti retka ugovora**. Redci koje stvarate na ovoj kartici sažeti su i prikazani kao **Ugovorena vrijednost** za ovaj **Redak ugovora**. 
 2. U podrešetki **Pojedinosti retka ugovora** odaberite **Nova pojedinost retka ugovora**. Otvara se klizač za brzo stvaranje. Polja u nastavku dostupna su na stranici **Pojedinosti retka ugovora**.

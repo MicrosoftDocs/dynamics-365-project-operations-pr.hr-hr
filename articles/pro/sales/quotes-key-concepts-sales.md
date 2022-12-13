@@ -1,17 +1,17 @@
 ---
-title: Ponude – Osnovni koncepti – jednostavno
+title: Jedinstveni koncepti za ponude projekata
 description: U ovom članku nalaze se informacije o načinu uporabe ponuda projekata u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916969"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825884"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Jedinstveni koncepti za ponude projekata
 
@@ -82,9 +82,13 @@ Rasporedi faktura specifični su za svaki redak ponude i također nisu obavezni.
 
 Ponude iz aplikacije Project Operations grade se na ponudama iz aplikacije Dynamics 365 Sales. Međutim, postoje neke važne razlike u funkcionalnosti koje biste trebali znati:
 
-- Radnje **Revidiraj** i **Aktiviraj** nisu podržane.
+
 - Ponude iz aplikacije Project Operations imaju dvije različite vrste redaka. Jedni su za projekte, a druga za proizvode.
 - Ponude iz aplikacije Project Operations imaju vlastiti obrazac i elemente korisničkog sučelja, poslovna pravila, poslovnu logiku u dodacima i skripte na strani klijenta što ih čini jedinstvenima u prodajnim ponudama.
+- Prodajne ponude omogućuju vam prilaganje više naloga prodajnoj ponudi. U projektnim operacijama samo se jedan projektni ugovor može priložiti ponudi projekta.
+- Kada osvojite prodajnu ponudu, povezana prilika može ostati otvorena. Nakon što se dobije projetna ponuda, povezana prilika je zatvorena.
+- Prodajna ponuda ne uključuje neka polja i koncepte obuhvaćene ponudom projekta. Polja uključuju **Ugovornu jedinicu**, **Upravitelja računa** i **Naziv fakture za kontakt**.  
+- **Vrsta**: Ponude prodaje i projekta također se identificiraju poljem koje se temelji na skupu mogućnosti,**Vrsta**. Za prodajnu ponudu, ovo polje ima vrijednost **Na temelju artikla**. Za projektnu ponudu, ona ima vrijednost **Na temelju rada**.
 
 Iz tih razloga nije preporučljivo naizmjenično upotrebljavati ponude iz aplikacija Sales i Project Operations.
 

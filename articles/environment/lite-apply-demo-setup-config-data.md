@@ -2,16 +2,16 @@
 title: Primjena probnog postavljanja i konfiguracija podataka – jednostavno
 description: U ovom se članku navode informacije o načinu primjene pokaznih postavki i konfiguracijskih podataka za aplikaciju Project Operations.
 author: sigitac
-ms.date: 01/27/2021
+ms.date: 11/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: HT
+ms.openlocfilehash: 8ac8c910ce2d91fa47df08e8fb6efb723c0dc5fa
+ms.sourcegitcommit: 38cb012502cbd640abbc21a0912b195112b27ccb
+ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409968"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9811016"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Primjena podataka postavljanja pokazne verzije i konfiguracije za aplikaciju Project Operations – jednostavno 
 
@@ -26,31 +26,31 @@ Prije nego započnete konfiguriranje, morate imati okruženje platforme Datavers
 
 ## <a name="instructions"></a>Upute
 
-1. Preuzmite [Paket glavnih podataka](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
-2. Dođite do mape *ProjOpsSampleSetupData – CE samo CMT* i pokrenite izvršnu datoteku *DataMigrationUtility*.
-3. Na 1. stranici Čarobnjaka za migraciju konfiguracije (CMT) platforme Common Data Service odaberite **Uvez podatke** a zatim **Nastavi**.
+1. Preuzmite paket instalacijskih [podataka](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+1. Dođite do mape *ProjOpsSampleSetupData – CE samo CMT* i pokrenite izvršnu datoteku *DataMigrationUtility*.
+1. Na 1. stranici Čarobnjaka za migraciju konfiguracije (CMT) platforme Common Data Service odaberite **Uvez podatke** a zatim **Nastavi**.
 
     ![Migracija konfiguracije.](./media/1ConfigurationMigration.png)
 
-4. Na 2. stranici CMT čarobnjaka odaberite **Microsoft 365** kao **Vrstu uvođenja**.
-5. Označite potvrdne okvire **Prikaži popis dostupnih tvrtki ili ustanova** i **Prikaži napredne**.
-6. Odaberite regiju svog klijenta, unesite svoje vjerodajnice, a zatim odaberite **Prijava**.
+1. Na 2. stranici CMT čarobnjaka odaberite **Microsoft 365** kao **Vrstu uvođenja**.
+1. Označite potvrdne okvire **Prikaži popis dostupnih tvrtki ili ustanova** i **Prikaži napredne**.
+1. Odaberite regiju svog klijenta, unesite svoje vjerodajnice, a zatim odaberite **Prijava**.
 
    ![Konfiguracija prijave.](./media/2ConfigurationSignin.png)
 
-7. Na 3. stranici, s popisa tvrtki ili ustanova na klijentu odaberite u koju tvrtku ili ustanovu želite uvesti pokazne podatke, a zatim odaberite **Prijava**.
-8. Na 4. stranici odaberite zip datoteku *SampleSetupAndConfigData* iz raspakirane mape *ProjOpsSampleSetupData – CE samo CMT*.
+1. Na 3. stranici, s popisa tvrtki ili ustanova na klijentu odaberite u koju tvrtku ili ustanovu želite uvesti pokazne podatke, a zatim odaberite **Prijava**.
+1. Na 4. stranici odaberite zip datoteku *SampleSetupAndConfigData* iz raspakirane mape *ProjOpsSampleSetupData – CE samo CMT*.
 
    ![Zip datoteka.](./media/3ZipFile.png)
 
    ![Odabir datoteke.](./media/4SelectAFile.png)
 
-9. Nakon odabira zip datoteke odaberite **Uvezi podatke**.
+1. Nakon odabira zip datoteke odaberite **Uvezi podatke**.
 
    ![Uvezite podatke.](./media/5ImportData.png)
 
-10. Uvoz će se izvoditi otprilike dvije do deset minuta, ovisno o brzini vaše mreže. Po završetku izađite iz CMT čarobnjaka. 
-11. U svojoj tvrtki ili ustanovi provjerite podatke za sljedećih 18 entiteta:
+1. Uvoz će se izvoditi otprilike dvije do deset minuta, ovisno o brzini vaše mreže. Po završetku izađite iz CMT čarobnjaka. 
+1. U svojoj tvrtki ili ustanovi provjerite podatke za sljedećih 18 entiteta:
 
     -   Valuta
     -   Kupac

@@ -1,23 +1,23 @@
 ---
-title: Upravljanje s više klijenata u redcima ponude koji se temelje na projektu – jednostavno
-description: U ovom se članku opisuje način upravljanja višestrukim klijentima u redcima ponude koji se temelje na projektu.
+title: Upravljanje većim brojem kupaca u recima ponuda za projekte
+description: U ovom se članku opisuje kako upravljati većim brojem kupaca u recima ponuda za projekt.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927779"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824429"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Upravljanje s više klijenata u redcima ponude koji se temelje na projektu – jednostavno
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Upravljanje većim brojem kupaca u recima ponuda za projekte
 
 _**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
-Redci ponude koji se temelje na projektu podržavaju scenarije u kojima svaki redak ponude ima popis klijenata koji to plaćaju. Ovaj popis klijenata u retku ponude koji se temelji na projektu može biti jednak popisu klijenata na ponudi. Također možete promijeniti popis klijenata kako bi bio drugačiji. Kada se prihvati ponuda projekta, popis klijenata na retku ponude koji se temelji na projektu kopira se u odgovarajući redak ugovora koji se temelji na projektu kako bi se stvorio konačni ugovor o projektu. Klijenti u ponudi koji se temelji na projektu kopiraju se u ugovor o projektu.
+Reci ponude projekta podržavaju scenarije u kojima svaki redak ponude ima popis kupaca koji ga plaćaju. Ovaj popis klijenata u retku ponude koji se temelji na projektu može biti jednak popisu klijenata na ponudi. Također možete promijeniti popis klijenata kako bi bio drugačiji. Kada se prihvati ponuda projekta, popis klijenata na retku ponude koji se temelji na projektu kopira se u odgovarajući redak ugovora koji se temelji na projektu kako bi se stvorio konačni ugovor o projektu. Klijenti u ponudi koji se temelji na projektu kopiraju se u ugovor o projektu.
 
 Kada fakturirate konačni ugovor o projektu, popis klijenata u retku ugovora koji se temelji na projektu ima prednost pred popisom u ugovoru o projektu. Popis klijenata na ugovoru o projektu upotrebljava se samo za zadane postavke u novim redcima ugovora o projektu.
 

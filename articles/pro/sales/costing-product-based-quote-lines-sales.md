@@ -1,21 +1,21 @@
 ---
 title: Određivanje cijene redaka ponude utemeljenih na proizvodu
 description: U ovom se članku navode informacije o primjeni cijene koštanja na redak ponude koji se temelji na proizvodu.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932563"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825602"
 ---
 # <a name="costing-product-based-quote-lines"></a>Određivanje cijene redaka ponude utemeljenih na proizvodu
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
+_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
 
 
 Redci ponude koji se temelje na proizvodu u aplikaciji Dynamics 365 Project Operations također imaju polje **Cijena koštanja**. To se polje upotrebljava za praćenje cijene koštanja proizvoda na retku ponude i za izračun profitabilnosti na nižim razinama.

@@ -1,21 +1,21 @@
 ---
-title: Procjena retka ponude utemeljenog na projektu
-description: U ovom se članku navode informacije o načinu stvaranja procjene retka ponude koji se temelji na projektu.
+title: Procjena retka ponude za projekt
+description: U ovom se članku nalaze informacije o stvaranju procjene u retku ponude projekta.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914347"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825978"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Procjena retka ponude utemeljenog na projektu
+# <a name="estimate-a-project-quote-line"></a>Procjena retka ponude za projekt
 
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Primjenjuje se na:** Osnovna implementacija – od dogovora do predračuna, Project Operations za scenarije koji se temelje na resursima / bez zaliha_
 
 Redak ponude koji se temelji na projektu sadrži pojedinosti koje pomažu u procjeni troška i potencijalnih prihoda od posla potrebnog za isporuku retka ponude.
 
@@ -24,7 +24,7 @@ Za procjenu retka ponude koji se temelji na projektu, na retku ponude koji se te
 - Ručna izrada procjene izravno na retku ponude s pomoću pojedinosti retka ponude. 
 - Stvorite projekt i plan projekta, a zatim projekt i zadatke na projektu povežite s retkom ponude. Omogućit će se postupak uvoza procjena iz plana projekta u redak ponude koji se temelji na podacima koje ste naveli.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Stvaranje procjena izravno iz retka ponude koji se temelji na projektu
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Stvaranje procjena izravno u retku ponude za projekt
 
 Kako biste stvorili procjenu iz retka ponude koji se temelji na projektu, odaberite karticu **Pojedinosti retka ponude**. Stavka retka koju stvarate na ovoj kartici sažet će ponuđenu vrijednost za ovaj redak ponude. 
 
@@ -68,8 +68,7 @@ Valuta pojedinosti retka ponude za zadane vrijednosti troška iz cjenika ugovorn
 
 Izračuni profitabilnosti pretvaraju iznos pojedinosti retka ponude za troškove i prodaju u osnovnu valutu okruženja kako bi se prijavila ukupna procijenjena marža ponude.
 
-> [!BILJEŠKA
-> > Pogreške u zaokruživanju valuta i izmjena marži mogli bi se dogoditi zbog nedostatka tečajeva koji su na snazi na određeni datum. Upotrebljavajte ove izračune samo na ugovorima o projektu, jer su to približni podaci i nisu stvarno propisani ili drugo izvještavanje koje zahtijeva veću preciznost zaokruživanja i svijest o učinkovitosti datuma za tečajeve.
+> [! NAPOMENA Pogreške zaokruživanja valute i promijenjene marže mogle bi se pojaviti zbog nedostatka važećih tečajeva datuma. Upotrebljavajte ove izračune samo na ugovorima o projektu, jer su to približni podaci i nisu stvarno propisani ili drugo izvještavanje koje zahtijeva veću preciznost zaokruživanja i svijest o učinkovitosti datuma za tečajeve.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,31 +1,29 @@
 ---
-title: Upravljanje potencijalnim klijentima
+title: Upravljanje potencijalnim klijentima koji se temelje na projektu
 description: U ovom se članku navode informacije o upravljanju potencijalnim klijentima koji se temelje na projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920189"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825790"
 ---
-# <a name="manage-leads"></a>Upravljanje potencijalnim klijentima
+# <a name="manage-project-based-leads"></a>Upravljanje potencijalnim klijentima koji se temelje na projektu
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
 Potencijalnim se klijentima koji se temelje na projektu može upravljati u aplikaciji Project Operations, gdje ih se može i kvalificirati Proces upravljanja potencijalnim klijentima uključuje stvaranje potencijalnih klijenata koji se temelje na radu i njihovo kvalificiranje. 
 
-## <a name="project-sales-leads"></a>Potencijalni klijenti prodaje projekta
-
 U lijevom navigacijskom oknu odjeljka **Prodaja** otvorite stranicu popisa **Potencijalni klijenti** za prikaz popisa svih zapisa o potencijalnim klijentima u sustavu. Prikazani popis potencijalnih klijenata temelji se na radu i drugim vrstama potencijalnih klijenata koji se mogu stvoriti ako imate aplikaciju Dynamics 365 Sales ili Dynamics 365 Field Service.
 
 Možete stvoriti filtrirani prikaz, kako biste vidjeli samo potencijalne klijente koji se temelje na projektu, stvaranjem filtra na vrijednosti **Vrsta**. Na primjer, možete odabrati prikazivanje samo potencijalnih klijenata koji se temelje na radu.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Stvaranje novog potencijalnog klijenta za posao koji se temelji na projektu
+## <a name="create-a-new-project-based-lead"></a>Stvaranje novog potencijalnog klijenta temeljenog na projektu 
 
 Kad se potencijalni klijent koji se temelji na projektu kvalificira, stvaraju se prilika i račun. Prilika koji se temelji na projektu polazna je točka za aktivnosti potrage za prodajom u fazi Prilike. Prilike koje se temelje na projektu imaju jedinstvene mogućnosti potrebne za prodaju rada na projektu. Te mogućnosti uključuju:
 

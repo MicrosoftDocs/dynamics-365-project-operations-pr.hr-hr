@@ -1,23 +1,23 @@
 ---
-title: Zatvaranje ponude
+title: Zatvaranje ponuda koje se temelje na projektu
 description: U ovom članku nalaze se informacije o zatvaranju ponuda u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931873"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824207"
 ---
-# <a name="close-a-quote"></a>Zatvaranje ponude
+# <a name="close-project-based-quotes"></a>Zatvaranje ponuda koje se temelje na projektu
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Ponuda projekta mogu se zatvoriti kao ostvarene ili neostvarene. Budući da funkcije Aktivacija i Revizija nisu podržane u ponudi u aplikaciji Microsoft Dynamics 365 Project Operations, skicu ponude možete zatvoriti.
+Ponuda projekta može se zatvoriti kao dobivena **ili** **izgubljena**. 
 
 ## <a name="close-a-quote-as-won"></a>Zatvaranje ponude kao ostvarene
 

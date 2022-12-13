@@ -1,19 +1,19 @@
 ---
-title: Stvaranje rasporeda faktura na retku ugovora koji se temelji na projektu
+title: Kreiranje rasporeda faktura u retku ugovora temeljenom na projektu
 description: U ovom se članku navode informacije o načinu izrade rasporeda faktura i kontrolnih točaka u redcima ugovora.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 490a61b67f54bdad95ecfce905191c381dddc85b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: afc6357b7b221b91674035ae3181ef84eed8d586
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914991"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825084"
 ---
-# <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Stvaranje rasporeda faktura na retku ugovora koji se temelji na projektu 
+# <a name="create-invoice-schedules-on-a-project-based-contract-line"></a>Kreiranje rasporeda faktura u retku ugovora temeljenom na projektu
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 

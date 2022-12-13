@@ -1,27 +1,27 @@
 ---
-title: Rasporedi faktura po redcima ponude koji se temelje na projektu
+title: Rasporedi faktura u recima ponude za projekte
 description: U ovom se članku navode informacije o izradi rasporeda faktura i kontrolnih točaka za retke ponude.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918303"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825743"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Rasporedi faktura po redcima ponude koji se temelje na projektu
+# <a name="invoice-schedules-on-project-quote-lines"></a>Rasporedi faktura u recima ponude za projekte
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-Redak ponude koji se temelji na projektu pruža mogućnost navođenja rasporeda računa. To nije obvezno tijekom faze ponude, jer aplikacija ne podržava fakturiranje projekta kada je vezan za redak ponude. Fakturiranje je dozvoljeno tek nakon prihvaćanja ponude. Jedini utjecaj na niže razine pri stvaranju rasporeda faktura tijekom faze ponude je taj da se ovaj raspored faktura kopira u redak ugovora koji se temelji na projektu. Ako tijekom faze ponude ne stvorite raspored faktura, to ćete moći učiniti na retku ugovora koji se temelji na projektu.
+Redak ponude projekta daje mogućnost izražavanja rasporeda faktura. To nije obvezno tijekom faze ponude, jer aplikacija ne podržava fakturiranje projekta kada je vezan za redak ponude. Fakturiranje je dozvoljeno tek nakon prihvaćanja ponude. Jedini utjecaj na niže razine pri stvaranju rasporeda faktura tijekom faze ponude je taj da se ovaj raspored faktura kopira u redak ugovora koji se temelji na projektu. Ako tijekom faze ponude ne stvorite raspored faktura, to ćete moći učiniti na retku ugovora koji se temelji na projektu.
 
 Sveukupno, svrha rasporeda faktura je omogućiti automatsko stvaranje nacrta faktura za redak ugovora koji se temelji na projektu. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Stvaranje rasporeda faktura za vrijeme i materijal za redak ponude koji se temelji na projektu
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Kreiranje rasporeda faktura za vrijeme i materijal za redak ponude za projekt
 
 Kada je način naplate retka ponude koji se temelji na projektu Vrijeme i materijal, sustav generira raspored računa na temelju datuma. Kako biste automatski generirali raspored računa na temelju datuma, poduzmite sljedeće korake.
 
@@ -36,7 +36,7 @@ Kada je način naplate retka ponude koji se temelji na projektu Vrijeme i materi
     - **Datum presjeka transakcije** postavljen je na dan prije **Datuma pokretanja fakture**.
     - **Status pokretanja** automatski se postavlja na **Ne pokreći**. Kada se posao automatskog stvaranja fakture odvija za određeni datum pokretanja fakture, ažurirat će ovo polje bilo na **Uspješno pokretanje** ili **Neuspješno pokretanje**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Stvaranje rasporeda faktura nepromjenjive cijene za redak ponude koji se temelji na projektu
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Kreiranje rasporeda faktura s fiksnom cijenom za redak ponude za projekt
 
 Kada redak ponude koji se temelji na projektu ima način naplate **Nepromjenjiv**, sustav stvara raspored faktura na temelju kontrolne točke. Poduzmite sljedeće korake za automatsko generiranje ovog rasporeda za nepromjenjivi skup kontrolnih točaka koje su podjednako raspoređene za kalendarsko razdoblje.
 

@@ -1,8 +1,8 @@
 ---
-title: Ponude – Osnovni koncepti
-description: U ovom se članku nalaze informacije o ponudama projekta i ponudama prodaje koje su dostupne u aplikaciji Project Operations.
+title: Koncepti jedinstveni za ponude koji se temelje na projektu
+description: U ovom se članku nalaze informacije o ponudama za projekte u microsoftu Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912507"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824318"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Jedinstveni koncepti za ponude koje se temelje na projektu
+# <a name="concepts-unique-to-project-based-quotes"></a>Koncepti jedinstveni za ponude koji se temelje na projektu
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-U aplikaciji Dynamics 365 Project Operations, postoje dvije vrste ponuda: projektne i prodajne. Te dvije vrste ponuda razlikuju se na sljedeće načine:
+Prije nego što počnete koristiti ponude za projekte u Microsoftu Dynamics 365 Project Operations, trebali biste biti svjesni sljedećih ključnih koncepata.
 
-- **Rešetke za stavke retka**: Na ponudi prodaje postoji samo jedna rešetka za stavke retka. Ponuda projekta ima dvije rešetke za stavke redaka. Jedna je rešetka za retke projekta, a druga za retke proizvoda.
-- **Aktivacija i revizije**: Ponude prodaje podržavaju aktivaciju i revizije. Ovi procesi nisu podržani u ponudi projekta.
-- **Priložene narudžbe**: Ponudi prodaje možete priložiti više narudžbi. Ponudi projekta možete priložiti samo jedan ugovor o projektu.
-- **Usvajanje ponude** : Kada osvojite ponudu prodaje, povezana prilika može ostati otvorena. Nakon što se dobije projetna ponuda, povezana prilika je zatvorena.
-- **Polja i koncepti**: Ponuda prodaje ne uključuje neka polja i koncepte koji su uključeni u ponudu projekta. Polja uključuju **Ugovornu jedinicu**, **Upravitelja računa** i **Naziv fakture za kontakt**.  
-- **Vrsta**: Ponude prodaje i projekta također se identificiraju poljem koje se temelji na skupu mogućnosti,**Vrsta**. Za prodajnu ponudu, ovo polje ima vrijednost **Na temelju artikla**. Za projektnu ponudu, ona ima vrijednost **Na temelju rada**.
+## <a name="owning-company"></a>Tvrtka vlasnik
 
-U ovom članku usredotočit ćemo se na pojedinosti o ponudama projekta.
+Vlastito poduzeće predstavlja pravnu osobu koja je vlasnik isporuke projekta. Kupac na ponudi trebao bi biti valjani kupac u toj pravnoj osobi u financijskim i operativnim aplikacijama. Valuta poduzeća u vlasništvu i valuta ugovorne jedinice odabrane na ponudi koja se temelji na projektu moraju se podudarati.
 
-Ponuda projekta u aplikaciji Project Operations može imati stavke s više redaka ili retke ponuda. U stvari, projektna ponuda ima dvije rešetke za stavke redaka. Jedna rešetka je za retke temeljene na projektu koji omogućuju detaljne procjene. Druga rešetka je za retke temeljene na proizvodu koje koriste jednostavnu jediničnu cijenu i pristup temeljen na količini.
+## <a name="contracting-unit"></a>Ugovorna jedinica
 
-- **Na temelju projekta**: Vrijednost ponude određuje se nakon procjene koliko je posla potrebno. Možete procijeniti rad na visokoj razini, izravno kao pojedinosti retka ispod svakog retka ponude ili na temelju procjena najsitnijih pojedinosti, uporabom projekta i plana projekta. Redci ponude koji se temelje na projektu nalaze se samo u ponudama temeljenim na projektu koje su izrađene s pomoću aplikacije Project Operations. Ova vrsta retka ponude prilagođeni je oblik redaka ponude za unos koji su dostupni u Microsoft Dynamics 365 Sales.
+Ugovorna jedinica predstavlja podjelu ili praksu u čijem je vlasništvu isporuka projekta. Možete postaviti troškove resursa za svaku ugovornu jedinicu. Kada navedete troškove resursa za resurs u ugovornoj jedinici, možete postaviti različite stope troškova za resurse iz kojih jedinica ugovaranja posuđuje ili za druge odjele ili prakse u poduzeću. Ti se tečajevi nazivaju transfernim cijenama, zaduživanjem resursa ili tečajnim cijenama. Kada postavite trošak posudbe resursa iz drugih odjela, možete postaviti tečajeve u valuti odjela za posudbu.
 
-- **Na temelju proizvoda**: Vrijednost ponude određuje se na temelju količine prodanih jedinica i prodajne cijene jediničnog proizvoda. Proizvod u retku koji se temelji na proizvodu može doći iz kataloga proizvoda u Prodaji ili može biti proizvod koji definirate. Ova vrsta retka ponude dostupna je i u ponudama temeljenim na projektu koje su izrađene uporabom aplikacije Project Operations.
+## <a name="cost-currency"></a>Valuta troška
 
-Iznos na ponudi je ukupan zbroj u recima koji se temelje na proizvodu i recima koji se temelje na projektu.
+Valuta troška u projektnim operacijama je valuta u kojoj se iskazuju troškovi. Ova valuta izvedena je iz valute pridružene **polju Ugovorna jedinica** na ponudi, ugovoru i projektu. Troškovi za projekt mogu se zabilježiti u bilo kojoj valuti. Međutim, dolazi do konverzije valute iz valute u kojoj su troškovi zabilježeni u valuti troškova projekta.
 
-> [!NOTE]
-> Ponude i redci ponude nisu obavezni u aplikaciji Project Operations. Proces projekta možete pokrenuti s ugovorom o projektu (prodan projekt). Međutim, prilika je uvijek potrebna, bez obzira na to jeste li započeli s ponudom ili ugovorom o projektu.
+Budući da tečajevi na Dataverse platformi ne mogu biti na snazi po datumu, ukupni iznosi troškova na zaslonu mogu se s vremenom promijeniti ako ažurirate tečajeve valuta. Međutim, troškovi koji su zabilježeni u bazi podataka ostaju nepromijenjeni, jer se iznosi pohranjuju u valuti u kojoj su nastali.
 
-## <a name="project-based-quote-lines"></a>Redci ponude utemeljeni na projektu
+## <a name="sales-currency"></a>Valuta prodaje
 
-Redak ponude koji se temelji na projektu u aplikaciji Project Operations ima sljedeće načine naplate:
+Prodajna valuta u operacijama projekta valuta je u kojoj se bilježe i prikazuju procijenjeni i stvarni iznosi prodaje. To je ujedno i valuta u kojoj se kupcu fakturira za posao. Za ponudu projekta zadana prodajna valuta postavljena je iz zapisa o klijentu ili računu i može se promijeniti prilikom kreiranja ponude. Međutim, prodajna valuta ne može se promijeniti nakon spremanja ponude. Zadani cjenici proizvoda i projekata postavljaju se na temelju prodajne valute ponude.
 
-- Vrijeme i materijal
-- Fiksna cijena
+Za razliku od troškova, prodajne vrijednosti mogu se bilježiti **samo** u prodajnoj valuti.
 
-### <a name="time-and-material"></a>Vrijeme i materijal
+## <a name="billing-method"></a>Način naplate
 
-Način naplate vremena i materijala temelji se na potrošnji. Kada odaberete ovaj način naplate, klijent se fakturira jer projekt snosi troškove. Fakture se izrađuju na periodičnoj frekvenciji koja se temelji na datumu. Tijekom procesa prodaje, navedena vrijednost komponente vremena i materijala daje samo procjenu krajnjeg troška klijentu. Dobavljač se ne obvezuje na dovršetak projekta za točno navedenu vrijednost. Komponente vremena i materijala povećavaju rizik klijenta. Klijenti bi mogli pregovarati o dodatnim klauzulama koje se ne mogu premašiti kako bi smanjio njihov rizik. Project Operations ne podržava postavljanje klauzula koje se ne smije prelaziti.
+Projekti obično imaju modele ugovaranja s fiksnom naknadom i potrošnjom. U projektnim operacijama model ugovaranja projekta predstavljen je metodom naplate. Način naplate ima dvije vrijednosti: vrijeme i materijalnu i fiksnu cijenu.
 
-### <a name="fixed-price"></a>Fiksna cijena
+- **Vrijeme i materijal**  – model ugovaranja temeljen na potrošnji u kojem je svaki nastali trošak potkrijepljen odgovarajućim prihodom. Kako procjenjujete ili pravite više troškova, povećavaju se i odgovarajuće procijenjena i stvarna prodaja. U redcima ponude koji imaju ovaj način naplate možete odrediti ograničenja koja ne smiju premašiti. Na taj način možete ograničiti stvarni prihod. Na procijenjeni prihod ne utječu ograničenja koja se ne smiju prekoračiti.
+- **Fiksna cijena**  - Model ugovaranja s fiksnom naknadom u kojem su prodajne vrijednosti neovisne o nastalim troškovima. Prodajna je vrijednost fiksna i ne mijenja se kako procijenite ili napravite više troškova.
 
-U načinu naplate fiksne cijene, dobavljač se obvezuje na isporuku projekta po fiksnom trošku klijentu. Klijentu se naplaćuje navedena vrijednost retka ponude za fiksnu cijenu, bez obzira na troškove koje dobavljač snosi za isporuku tog retka ponude. Vrijednost retka ponude fiksne cijene naplaćuje se na jedan od sljedećih načina: 
+## <a name="project-price-lists"></a>Cjenici za projekt
 
-- Kao paušalni iznos na početku ili kraju projekta, ili kada se dosegne ključna točka projekta. 
-- Na frekvenciji koja se temelji na datumu jednakih rata fiksne vrijednosti u retku ponude. Ove rate su poznate kao periodične ključne točke.
-- U ratama koje imaju monetarnu vrijednost koja je usklađena s napretkom rada ili specifičnim ključnim točkama koje se postižu na projektu. U tom slučaju, vrijednost svake rate može se razlikovati, ali sve moraju biti jednake fiksnoj vrijednosti u retku ponude.
+Cjenici projekta su cjenici koji se koriste za unos zadanih cijena, a ne troškovnih stopa, za vrijeme, troškove i druge komponente povezane s projektom. Cjenika može biti više, a svaki popis može imati svoj datum stupanja na snagu za svaku ponudu projekta. Projektne operacije ne podržavaju preklapajuću efektivnost datuma za cjenike projekta.
 
-Project Operations podržava sve tri vrste rasporeda faktura za retke ponude s fiksnom cijenom.
+## <a name="product-price-lists"></a>Cjenici proizvoda
 
-## <a name="transaction-classification"></a>Klasifikacija transakcije
+Cjenici proizvoda su cenovnici koji se koriste za unos zadanih cijena, a ne troškovnih stopa za retke temeljene na proizvodu na ponudi. Postoji samo jedan cjenik proizvoda po ponudi.
 
-Organizacije za profesionalne usluge obično sastavljaju ponude i izdaju fakture svojim klijentima klasifikacijom troškova. Troškovi su predstavljeni sljedećim klasifikacijama transakcija:
+## <a name="transaction-classes"></a>Klase transakcija
 
-- **Vrijeme**: Ova klasifikacija predstavlja trošak rada ili vremena ljudskog resursa na projektu.
-- **Trošak**: Ova klasifikacija predstavlja sve druge vrste troškova na projektu. Budući da troškovi mogu biti široko klasificirani, većina organizacija izrađuje podkategorije, kao što su putovanja, iznajmljivanje automobila, hotel ili uredski materijal.
-- **Naknada**: Ova klasifikacija predstavlja razne opće troškove, kazne i ostale stavke koji se naplaćuju klijentu. 
-- **Porez**: Ova klasifikacija predstavlja iznose poreza koje korisnici dodaju tijekom unosa troškova.
-- **Materijalna transakcija**: Ova klasifikacija predstavlja stvarne podatke iz redaka s proizvodima na potvrđenoj fakturi za projekt.
-- **Ključna točka**: Ovom se klasifikacijom služi logika naplate fiksne cijene.
+Project Operations podržava četiri vrste klasa transakcija:
 
-Jedna ili više tih klasifikacija transakcije može se pridružiti svakom retku ponude. Nakon što se dobije ponuda, mapiranje između klasifikacije transakcija i retka ponude prenosi se u redak ugovora.
-  
-Na primjer, ponuda može sadržavati sljedeće dvije retke ponude: 
+- Vrijeme
+- Izdatak
+- Materijal
+- Naknada
 
-- Savjetovanje koji koriste način naplate vremena i materijala u kojima se primjenjuju klasifikacije transakcija s vremenom i naknadama. Na primjer, sve transakcije s vremenom i naknadama za primjer **Implementacije AX Dynamics** sustava fakturiraju se klijentu na temelju vremena i materijala koji se koriste. 
-- Povezani putni troškovi koji upotrebljavaju način naplate fiksne cijene. Na primjer, svi putni troškovi za primjer **Implementacije AX Dynamics** sustava fakturirani su po fiksnoj monetarnoj vrijednosti.
+Vrijednosti troškova i prodaje mogu se procijeniti i nastati u **klasama transakcija Vrijeme**, **Trošak** i **Materijal** . **Naknada** je klasa transakcija samo prihoda.
 
-> [!NOTE]
-> Kombinacija projekta i klasifikacija transakcije **Vremena**, **Troška** i **Naknade** koje su pridružene retku ponude ili retku ugovora mora biti jedinstvena. Ako je ista kombinacija razreda projekta i transakcije pridružena više od jednom retku ugovora ili retku ponude, Project Operations neće ispravno funkcionirati.
+## <a name="work-entities-and-billing-entities"></a>Entiteti rada i naplate
 
-## <a name="billing-types"></a>Vrste naplate
+Projekti i zadaci su entiteti koji predstavljaju posao. Reci ponude i Reci ugovora subjekti su koji predstavljaju naplatu. Različite poslovne subjekte možete povezati s mogućnostima naplate tako da ih povežete s recima ponude ili recima ugovora.
 
-Polje **Vrsta naplate** definira koncept mogućnosti naplate. To je skup mogućnosti koji ima sljedeće moguće vrijednosti:
+## <a name="multi-customer-deals"></a>Poslovi s više klijenata
 
-- **Naplativo**: Trošak koji se obračunava ovom ulogom/kategorijom izravan je trošak koji pokreće izvršenje projekta, a klijent će platiti za ovaj rad. Plaćanje se može provoditi kao aranžman na temelju vremena i materijala ili kao aranžman fiksne cijene. Međutim, zaposlenik koji provede ovo vrijeme primit će odgovarajuću plaću za svoje naplativo korištenje.
-- **Nenaplativo**: Trošak koji se obračunava ovom ulogom/kategorijom smatra se izravnim troškom koji pokreće izvršenje projekta, iako klijent ne uvažava tu činjenicu i neće platiti za taj rad. Zaposlenik koji provodi ovo vrijeme neće biti plaćen za naplativim korištenjem za njega.
-- **Besplatno**: Trošak koji se obračunava ovom ulogom/kategorijom smatra se izravnim troškom koji pokreće izvršenje projekta, a klijent uvažava tu činjenicu. Zaposlenik koji provodi ovo vrijeme biti će plaćen za naplativo korištenje za njega. Međutim, taj se trošak ne naplaćuje klijentu.
-- **Nije dostupno**: S pomoću ove mogućnosti prate se troškovi nastali na internim projektima koji ne zahtijevaju praćenje prihoda.
+Ponude za više kupaca događaju se kada postoji više od jednog kupca po fakturi. Evo nekoliko tipičnih primjera:
 
-## <a name="invoice-schedule"></a>Raspored faktura
+- **Poduzeća proizvođača originalne opreme (OEM) i njihovi partneri**  - Partneri i preprodavači prodaju proizvod koji uključuje usluge s dodanom vrijednošću. Tijekom dogovora s kupcem, OEM obično nudi financiranje dijela projekta.
+- **Projekti**  javnog sektora- Više odjela lokalne samouprave pristalo je financirati projekt i fakturira se prema prethodno dogovorenom razlazu. Na primjer, školski okrug i gradska uprava ili odjel lokalne uprave dogovore se financirati izgradnju bazena.
 
-Raspored faktura je niz datuma kada se pojavljuje fakturiranje za projekt. Po želji možete stvoriti raspored faktura u retku ponude. Svaki redak ponude može imati vlastiti raspored faktura. Da biste izradili raspored faktura, morate navesti sljedeće vrijednosti atributa:
+## <a name="invoice-schedules"></a>Rasporedi fakturiranja
 
-- Datum početka naplate 
-- Datum isporuke koji predstavlja datum završetka naplate na projektu
-- Učestalost faktura
+Rasporedi faktura specifični su za svaki redak ponude i nisu obavezni. Rasporedi faktura kreiraju se na temelju određenog datuma početka i završetka te učestalosti fakture. Koriste se tijekom faze ugovora kada je konfiguriran postupak automatskog stvaranja fakture. Tijekom faze ponude rasporedi faktura nisu obavezni. Ako su kreirani tijekom faze ponude, kopiraju se u ugovor o projektu koji se stvara prilikom osvojene ponude za projekt.
 
-Te tri vrijednosti atributa upotrebljavaju se za generiranje privremenog skupa datuma za uspostavljanje fakturiranja.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Razlike u odnosu na prodajne ponude sustava Dynamics 365
 
-## <a name="invoice-frequency"></a>Učestalost faktura
+Ponude za operacije projekta izrađene su na prodajnim ponudama sustava Dynamics 365. Međutim, postoje neke važne razlike u funkcionalnosti koje biste trebali znati:
 
-Učestalost fakture je entitet koji pohranjuje vrijednosti atributa koje pomažu izraziti učestalost izrade fakture. Sljedeći atributi izražavaju ili definiraju entitet Učestalost fakture:
+- Ponude za projektne operacije imaju dvije različite vrste linija: jednu za projekte i jednu za proizvode.
+- Ponude za project operations imaju vlastite elemente stranice i korisničkog sučelja ( korisničko sučelje), poslovna pravila, poslovnu logiku u dodacima i skripte na strani klijenta koje ih razlikuju od prodajnih ponuda.
+- U odjeljku Prodaja jednoj prodajnoj ponudi možete priložiti više naloga. U projektnim operacijama možete priložiti samo jedan projektni ugovor ponudi.
+- Kada osvojite prodajnu ponudu, povezana prilika može ostati otvorena. Nakon što se dobije projetna ponuda, povezana prilika je zatvorena.
+- Prodajna ponuda ne uključuje neka polja i koncepte koje uključuje ponuda projekta. Polja uključuju **Ugovornu jedinicu**, **Upravitelja računa** i **Naziv fakture za kontakt**.
+- Prodajne ponude i ponude za projekte identificiraju se poljem Vrsta **koja se temelji na** skup mogućnosti. Za prodajnu ponudu vrijednost ovog polja temelji se **na artiklu**. Za ponudu projekta vrijednost se **temelji na radu**.
 
-- **Razdoblje**: Podržavaju se mjesečna, dvotjedna i tjedna razdoblja. 
-- **Izvršavanje po razdoblju**: Za tjedna i dvotjedna razdoblja, možete definirati samo jedno izvršavanje po razdoblju. Za mjesečna razdoblja, možete definirati između jednog i četiri izvođenja po razdoblju. 
-- **Dani izvršavanja**: Dani kada bi trebalo izvršiti fakturiranje. Ovaj atribut možete konfigurirati na dva načina:
-  - **Radni dani** – Na primjer, možete odrediti da se fakturiranje izvršava svakog ponedjeljka ili svakog drugog ponedjeljka. Klijenti koji moraju postaviti fakturiranje za izvođenje na radni dan možda preferiraju ovu vrstu konfiguracije. 
-  - **Kalendarski dani**: Na primjer, možete odrediti da se fakturiranje izvršava sedmog i dvadesetprvog dana svakog mjeseca. Neke tvrtke možda preferiraju ovu vrstu konfiguracije jer pomaže jamčiti da se fakturiranje izvodi prema fiksnom rasporedu svaki mjesec.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Raspored faktura za redak ponude fiksne cijene
-
-Za redak ponude fiksne cijene možete koristiti rešetku **Raspored faktura** da biste izradili ključne točke za naplatu koje su jednake vrijednosti retka ponude.
-
-- Da biste izradili ključne točke za naplatu koje su podjednako podijeljene, odaberite učestalost fakture, unesite početni datum naplate u redak ponude i odaberite **Traženi datum dovršetka** za ponudu u odjeljku **Sažetak** u zaglavlju ponude. Zatim odaberite **Generiraj periodične ključne točke** za izradu podjednako podijeljenih ključnih točaka na temelju odabrane frekvencije fakture. 
-- Da biste izradili ključnu točku naplate u paušalnom iznosu, izradite ključnu točku, a zatim unesite vrijednost retka ponude kao iznos ključne točke.
-- Da biste izradili ključne točke za naplatu koje se temelje na određenim zadacima u planu projekta, izradite ključnu točku i mapirajte ju u element rasporeda projekta u korisničkom sučelju ključne točke za naplatu.
-
+Zbog tih razlika ne preporučujemo da naizmjenično koristite prodajne ponude i ponude za projektne operacije.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

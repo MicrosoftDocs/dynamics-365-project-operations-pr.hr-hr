@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911633"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826072"
 ---
 # <a name="manage-project-quotes"></a>Upravljanje ponudama projekta
 
@@ -23,7 +23,7 @@ U aplikaciji Dynamics 365 Project Operations, ponude projekta osmišljene su kak
   - Pojedinosti retka ponude koje identificiraju i procjenjuju posao za svaku komponentu ili redak ponude visoke razine. Raspored ili procjene datuma i financijski aspekti posla vezani su uz redak ponude.
   - Modeli ugovaranja i naplatne komponente postavljaju se za svaki redak ponude. Ova postavka pomaže u procjeni razvijanja prihoda, potrošnje i profitabilnosti za svaki redak ponude i ukupnu ponudu.
 
-## <a name="view-all-project-based-quotes"></a>Prikaz svih ponuda koje se temelje na projektu
+## <a name="view-all-project-quotes"></a>Prikaz svih ponuda projekta
 
 Popis svih ponuda projekta mogu se vidjeti na stranici s popisom **Ponude**. 
 

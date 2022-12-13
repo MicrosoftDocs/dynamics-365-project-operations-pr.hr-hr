@@ -1,23 +1,23 @@
 ---
-title: Mapiranje projekata i zadataka u redak ponude koji se temelji na projektu
-description: U ovom se članku navode informacije o načinu mapiranja projekata i zadataka u redak zadatka koji se temelji na projektu.
+title: Mapiranje projekata i zadataka u retke ponude za projiciranje
+description: U ovom se članku nalaze informacije o mapiranju projekata i zadataka u retke ponude projekta.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917153"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824199"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapiranje projekata i zadataka u redak ponude koji se temelji na projektu
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mapiranje projekata i zadataka u retke ponude za projiciranje
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
-U retke ponude koji se temelje na projektu možete mapirati određene zadatke projekta koji su već povezani s retkom ponude.
+U recima ponude projekta možete mapirati određene zadatke projekta koji je već povezan s retkom ponude.
 
 Kada mapirate zadatke u redak ponude, sljedeće će se stavke koje ste definirali u retku ponude primijeniti samo na te zadatke:
 

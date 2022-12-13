@@ -1,23 +1,23 @@
 ---
-title: Konfiguriranje naplative komponente retka ugovora koji se temelji na projektu
+title: Konfiguriranje naplativih komponenti retka ugovora o projektu
 description: U ovom se članku navode informacije o načinu dodavanja naplatnih komponenti u retke ugovora u aplikaciji Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0e4118e8e56d45ef75f53d828e267a8a9c1c903a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 33296c93964cc88499e7a98d499b99463e59d62a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922949"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825555"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfiguriranje naplative komponente retka ugovora koji se temelji na projektu
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Konfiguriranje naplativih komponenti retka ugovora o projektu
 
 _**Primjenjuje se na:** Osnovna implementacija – od dogovora do predračuna, Project Operations za scenarije koji se temelje na resursima / bez zaliha_
 
-Redak ugovora koji se temelji na projektu ima *naplative* komponente i *naplative* komponente.
+Redak ugovora o projektu uključivao je *komponente i* komponente za fakturiranje *.* 
 
 Uključene komponente, komponente su koje podliježu:
 

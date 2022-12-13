@@ -1,21 +1,21 @@
 ---
-title: Uvoz procjene u redak ugovora koji se temelji na projektu – jednostavno
+title: Uvoz procjena iz projekta u redak ugovora o projektu
 description: U ovom se članku navode informacije o uvozu financijskih procjena iz projekta u redak ugovora.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924191"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824665"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Uvoz procjene u redak ugovora koji se temelji na projektu – jednostavno
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Uvoz procjena iz projekta u redak ugovora o projektu
 
-_**Odnosi se na:** Jednostavna implementacija – od sklapanja posla do predračuna_
+_**Odnosi se na:** Lite implementaciju - posao s proforma fakturiranjem, Projektne operacije za scenarije temeljene na resursima/ ne zalihama_ _
 
 U aplikaciji Dynamics 365 Project Operations možete uvesti procjene iz projekta u redak ugovora koji se temelji na projektu.
 

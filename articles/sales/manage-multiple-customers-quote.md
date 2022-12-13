@@ -1,23 +1,23 @@
 ---
-title: Upravljanje s više klijenata u ponudi projekta
+title: Upravljanje većim brojem korisnika na ponudi koja se temelji na projektu
 description: U ovom se članku navode informacije o radu s ponudama koje uključuju više klijenata koji će financirati projekt.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928193"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825139"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Upravljanje s više klijenata u ponudi projekta
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Upravljanje većim brojem korisnika na ponudi koja se temelji na projektu
 
-_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
+_**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha_
 
-Ponude projekata podržavaju scenarij u kojem prijedlog uključuje više klijenata koji će financirati posao. Kartica **Sažetak** ponude ima polje **Potencijalni klijent** koje identificira primarnog klijenta posla. Ostali klijenti posla mogu se postaviti na karticu **Klijenti** ponude projekta.
+Ponude temeljene na projektu podržavaju scenarij u kojem prijedlog uključuje više kupaca koji će financirati posao. Kartica **Sažetak** ponude ima polje **Potencijalni klijent** koje identificira primarnog klijenta posla. Ostali klijenti posla mogu se postaviti na karticu **Klijenti** ponude projekta.
 
 Svi klijenti ponude na kartici **Klijenti** ponude projekta zadani su kao klijenti retka ponude na svakom **novom** retku ponude koji se temelji na projektu, a stvoren je za ponudu. Svaki postojeći redak ponude koji se temelji na projektu neće naslijediti nove zapise o klijentima stvorene nakon njih.
 

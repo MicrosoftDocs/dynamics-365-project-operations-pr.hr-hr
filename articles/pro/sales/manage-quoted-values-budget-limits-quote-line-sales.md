@@ -1,19 +1,19 @@
 ---
-title: Pregled redaka ponude koji se temelje na projektu
+title: Pregled redaka ponude projekta
 description: U ovom se članku navode informacije o uporabi redaka ponude koji se temelje na projektu za rad na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e6a67b5c37508085c9ec3d8385eaa6828536de00
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934449"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825649"
 ---
-# <a name="project-based-quote-lines-overview"></a>Pregled redaka ponude koji se temelje na projektu 
+# <a name="project-quote-lines-overview"></a>Pregled redaka ponude projekta 
 
 _**Primjenjuje se na:** Osnovna implementacija – od dogovora do predračuna, Project Operations za scenarije koji se temelje na resursima / bez zaliha_
 

@@ -1,19 +1,19 @@
 ---
-title: Kopiranje ponuda koje se temelje na projektu
-description: U ovom se članku navode informacije o načinu kopiranja ponuda koje se temelje na projektu u aplikaciji Project Operations.
+title: Kopiranje ponuda projekta
+description: U ovom se članku nalaze informacije o kopiranju ponuda za projekt u projektnim operacijama.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6c3b964d89d6d24ae5d32dd9e5e79fcd1e90c19d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4f865a4c8a541d6a9c92c5f58a4ed2ed32891eb0
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914899"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825268"
 ---
-# <a name="copy-project-based-quotes"></a>Kopiranje ponuda koje se temelje na projektu
+# <a name="copy-project-quotes"></a>Kopiranje ponuda projekta
 
 _**Odnosi se na:** Project Operations za scenarije temeljene na resursima / bez zaliha, jednostavna implementacija – poslovanje putem predračuna_
 
