@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Novosti
       items:
-        - name: Studeni 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: Studeni 2022. – Project Operations za scenarije koji se temelje na resursima / bez zaliha
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Arhiva
           items:
+            - name: Listopad 2022. – Project Operations za scenarije koji se temelje na resursima / bez zaliha
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: Studeni 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: Kolovoz 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Srpanj 2022. – Project Operations za scenarije temeljene na resursima / bez zaliha
@@ -122,23 +126,23 @@
               href: sales/sales-currency.md
             - name: Organizacijske jedinice
               href: sales/OrgUnits.md
-        - name: Upravljanje potencijalnim klijentima projekta
+        - name: Upravljanje potencijalnim klijentima na temelju projekta
           href: sales/manage-leads.md
-        - name: Upravljanje prilikama za projekt
+        - name: Upravljanje prilikama koje se temelje na projektu
           items:
             - name: Pregled upravljanja prilikama za projekt
               href: sales/manage-project-based-opportunities.md
-            - name: Pojedinosti zaglavlja za mogućnosti koje se temelje na projektu
+            - name: Pojedinosti zaglavlja za prilike koje se temelje na projektu
               href: sales/opportunity-header.md
             - name: Redci prilike koja se temelji na projektu
               href: sales/project-based-lines.md
-            - name: Stvaranje ponuda za projekt iz prilika
+            - name: Stvaranje ponuda iz prilika za projekt
               href: sales/link-quotes-opportunities.md
-            - name: Kopiranje prilika koje se temelje na projektu
+            - name: Kopiranje prilika za projekt
               href: sales/copy-project-based-opportunity.md
             - name: Zatvaranje prilike za projekt
               href: sales/close-opportunity.md
-        - name: Upravljanje ponudama projekta
+        - name: Upravljanje ponudama koje se temelje na projektu
           items:
             - name: Pregled upravljanja ponudama projekta
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Pojedinosti zaglavlja za ponude koje se temelje na projektu
               href: sales/quote-values-budget-limits-contract.md
-            - name: Upravljanje s više klijenata u ponudi projekta
+            - name: Upravljanje s više klijenata u ponudi koja se temelji na projektu
               href: sales/manage-multiple-customers-quote.md
-            - name: Upravljanje cjenicima projekta u ponudi
+            - name: Cjenici projekta u ponudama projekta
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Redci ponude koji se temelje na projektu
               items:
-                - name: Pregled redaka ponude koji se temelje na projektu
+                - name: Pregled redaka ponude za projekt
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Upravljanje s više klijenata u redcima ponude koji se temelje na projektu
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Mapiranje projekata i zadataka u retke ponude utemeljene na projektu
+                - name: Mapiranje projekata i zadataka u retke ponude za projekt
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfiguriranje naplative komponente za retke ponude koji se temelje na projektu
+                - name: Konfiguriranje naplative komponente redaka ponude projekta
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Konfiguriranje naplative komponente retka ponude projekta
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Procjena retka ponude koji se temelji na projektu
-                  href: sales/create-estimate-quote-line.md
-                - name: Uvoz procjena iz projekta u redak ponude koji se temelji na projektu
-                  href: sales/import-estimate-quote-line.md
-                - name: Rasporedi faktura po redcima ponude koji se temelje na projektu
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Uvoz procjena iz projekta u redak ponude projekta
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Rasporedi faktura po redcima ponude projekta
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopiranje ponuda projekta
               href: sales/lose-quote.md
             - name: Aktivacija i revidiranje projektne ponude
               href: sales/activation-and-revision.md
-            - name: Zatvaranje ponuda projekta
+            - name: Zatvaranje ponuda koje se temelje na projektu
               href: sales/win-quote.md
-        - name: Upravljanje ugovorima o projektu
+        - name: Upravljanje ugovorima koji se temelje na projektima
           items:
-            - name: Pregled upravljanja ugovorima o projektu
+            - name: Upravljanje ugovorima projekta
               href: pro/sales/manage-contracts-sales.md
             - name: Koncepti jedinstveni za ugovore koji se temelje na projektu
               href: sales/contracts-key-concepts.md
             - name: Pojedinosti zaglavlja za ugovore koji se temelje na projektu
               href: sales/project-contract-settings.md
-            - name: Upravljanje cjenicima projekta u ugovorima o projektu
+            - name: Upravljanje cjenicima projekta u ugovorima koji se temelje na projektu
               href: sales/contracts-manage-project-price-lists.md
-            - name: Upravljanje s više klijenata u ugovorima o projektu
+            - name: Upravljanje s više klijenata u ugovorima koji se temelje na projektu
               href: sales/manage-multiple-customers-contract.md
             - name: Redci ugovora koji se temelje na projektu
               items:
-                - name: Pregled redaka ugovora koji se temelje na projektu
+                - name: Pregled redaka ugovora projekta
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Upravljanje s više klijenata u redcima ugovora koji se temelje na projektu
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Mapiranje projekata i zadataka u redak ugovora o projektu
+                - name: Mapiranje projekata i zadataka u redak ugovora projekta
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Konfiguriranje naplativih komponenti za redak ugovora o projektu
+                - name: Konfiguriranje naplativih komponenti u retku ugovora projekta
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Procjena retka ugovora o projektu
+                - name: Procjena retka ugovora koji se temelji na projektu
                   href: sales/create-estimate-contract-line.md
-                - name: Uvoz procjena iz projekta u redak ugovora koji se temelji na projektu
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Stvaranje rasporeda faktura na redcima ugovora koji se temelje na projektu
+                - name: Uvoz procjena iz projekta u redak ugovora projekta
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Stvaranje rasporeda faktura u retku ugovora koji se temelji na projektu
                   href: sales/invoice-schedules-contract-line.md
             - name: Kopiranje ugovora koji se temelje na projektima
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Predujmovi i akontacije
               items:
-                - name: Predujmovi i ugovori koji e temelje na povremenim plaćanjima
+                - name: Ugovori koji se temelje na predujmima i povremenim plaćanjima
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Postavljanje rasporeda zadržavanja
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Stvaranje ad hoc predujma za ugovor
+                - name: Stvaranje ad hoc predujma za ugovor o projektu
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Određivanje cijene i troškova
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Sinkronizacija statusa projekta radi sprječavanja unosa u zatvorene projekte
           href: advanced-configuration/sync-project-status.md
+        - name: Postavljanje pretvorbe valuta za izračun prodajnih cijena prema stopama troška
+          href: advanced-configuration/currencyconversion.md
     - name: Nadogradnja
       items:
         - name: Razmatranja o nadogradnji za Suvremena odobrenja
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: Novosti
       items:
-        - name: Novosti u rujnu 2022. – osnovna implementacija
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Novosti u studenom 2022. – osnovna implementacija
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Arhiva
           items:
+            - name: Novosti u listopadu 2022. – osnovna implementacija
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Novosti u rujnu 2022. – osnovna implementacija
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Novosti u kolovozu 2022. – osnovna implementacija
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Novosti u srpnju 2022. – osnovna implementacija
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Stvaranje ponuda iz prilika za projekt
               href: sales/link-quotes-opportunities.md
-            - name: Kopiranje prilika koje se temelje na projektu
+            - name: Kopiranje prilika za projekt
               href: sales/copy-project-based-opportunity.md
             - name: Zatvaranje prilike za projekt
               href: sales/close-opportunity.md
-        - name: Upravljanje ponudama koje se temelje na projektu
+        - name: Upravljanje ponudama projekta
           items:
-            - name: Pregled ponuda koji se temelje na projektu
+            - name: Pregled ponuda projekta
               href: pro/sales/manage-quotes-sales.md
             - name: Koncepti jedinstveni za ponude projekta
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Pojedinosti zaglavlja za ponude projekta
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Više klijenata na ponudama projekta
+            - name: Upravljanje s više klijenata u ponudama projekta
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Cjenici projekta u ponudama projekta
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Upravljanje složenim jedinicama za retke ponude utemeljene na proizvodu
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Redci ponude koji se temelje na projektu
+            - name: Redci ponude projekta
               items:
-                - name: Pregled redaka ponude koji se temelje na projektu
+                - name: Pregled redaka ponude za projekt
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Upravljanje s više klijenata
+                - name: Upravljanje s više klijenata u redcima ponude projekta
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Mapiranje projekata i zadataka
+                - name: Mapiranje projekata i zadataka u retke ponude za projekt
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfiguriranje naplativih komponenti
+                - name: Konfiguriranje naplative komponente redaka ponude projekta
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Procjena retka ponude utemeljenog na projektu
+                - name: Procjena retka ponude koji se temelji na projektu
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Uvoz procjene iz projekta
+                - name: Uvoz procjena iz projekta u redak ponude projekta
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Upravljanje rasporedima faktura
+                - name: Rasporedi faktura po redcima ponude projekta
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopiranje ponuda koje se temelje na projektu
+            - name: Kopiranje ponuda projekta
               href: sales/lose-quote.md
             - name: Aktivacija i revidiranje projektne ponude
               href: sales/activation-and-revision.md
-            - name: Zatvaranje ponuda koje se temelje na projektu
+            - name: Zatvaranje ponuda projekta
               href: pro/sales/win-quote-sales.md
-        - name: Upravljanje ugovorima koji se temelje na projektima
+        - name: Upravljanje ugovorima projekta
           items:
-            - name: Pregled ugovora koji se temelje na projektu
+            - name: Pregled ugovora o projektu
               href: pro/sales/manage-contracts-sales.md
             - name: Koncepti jedinstveni za ugovore o projektu
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Pojedinosti zaglavlja za ugovore o projektu
               href: pro/sales/project-contract-settings-sales.md
-            - name: Više klijenata u ugovorima o projektu
+            - name: Upravljanje s više klijenata u ugovorima o projektu
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Cjenici projekta u ugovorima o projektu
               href: sales/contracts-manage-project-price-lists.md
@@ -814,33 +822,33 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Upravljanje složenim jedinicama za retke ugovora utemeljene na proizvodu
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Redci ugovora koji se temelje na projektu
+            - name: Redci ugovora projekta
               items:
-                - name: Pregled redaka ugovora koji se temelje na projektu
+                - name: Pregled redaka ugovora projekta
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Upravljanje s više klijenata ugovora
+                - name: Upravljanje s više klijenata u ugovorima o projektu
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
-                - name: Mapiranje projekata i zadataka u redak ugovora o projektu
+                - name: Mapiranje projekata i zadataka u redak ugovora projekta
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Konfiguriranje naplativih komponenti u retku ugovora o projektu
+                - name: Konfiguriranje naplativih komponenti u retku ugovora projekta
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Procjena retka ugovora koji se temelji na projektu
+                - name: Procjena retka ugovora projekta
                   href: pro/sales/create-estimate-project-contract-line-sales.md
-                - name: Uvoz procjena iz projekta u redak ugovora o projektu
+                - name: Uvoz procjena iz projekta u redak ugovora projekta
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Upravljanje rasporedima faktura u retku ugovora o projektu
+                - name: Izrada rasporeda faktura u retku ugovora projekta
                   href: pro/sales/invoice-schedules-contract-line-sales.md
-            - name: Kopiranje ugovora o projektu
+            - name: Kopiranje ugovora projekta
               href: pro/sales/copy-project-contracts-sales.md
             - name: Potvrda ugovora o projektu
               href: pro/sales/confirm-contract-sales.md
             - name: Predujmovi i akontacije
               items:
-                - name: Ugovori koji se temelje na predujmovima i akontacijama – osnovni
+                - name: Predujmovi i ugovori koji e temelje na povremenim plaćanjima
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Postavljanje rasporeda akontacija – osnovno
+                - name: Postavljanje rasporeda zadržavanja Postavljanje rasporeda zadržavanja
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Stvaranje ad hoc predujma za ugovor – osnovno
+                - name: Stvaranje ad hoc predujma za ugovor o projektu
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Određivanje cijene i troškova
       items:
@@ -1172,7 +1180,7 @@
               href: prod-pma/PSA-integration.md
             - name: Parametri integracije usluge Project Service Automation
               href: prod-pma/PSA-parameters.md
-            - name: Sinkroniziranje ugovora o projektu i projekata izravno iz aplikacije Project Service Automation u aplikaciju Finance
+            - name: Sinkroniziranje ugovora projekta i projekata izravno iz aplikacije Project Service Automation u aplikaciju Finance
               href: prod-pma/project-contracts-templates.md
             - name: Sinkronizirajte stvarne podatke o projektu izravno iz rješenja Project Service Automation u dnevnik integracije projekta za knjiženje u financijama i operacijama
               href: prod-pma/project-actuals-templates.md
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Novosti
       items:
-        - name: Novosti u rujnu 2022. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Novosti u listopadu 2022. – Project Operations za scenarije koji se temelje na zalihama/proizvodnji
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Arhiva
           items:
+            - name: Novosti u rujnu 2022. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Novosti u srpnju 2022. – Project Operations za scenarije koji se temelje na zalihama / proizvodnji
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Novosti u lipnju 2022. – Project Operations za scenarije koji se temelje na zalihama/proizvodnji
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Pregled implementacije aplikacije Project Operations za scenarije koji se temelje na zalihama/proizvodnji
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Pregled upravljanja projektom i računovodstva
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Projektno računovodstvo
+      items:
+        - name: Pregled upravljanja projektom i računovodstva
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Prilagodbe projekta
+          href: project-accounting/project-adjustments.md
     - name: Postupak prodaje projekta
       items:
         - name: Ponude projekta
@@ -1226,7 +1240,7 @@
           href: prod-pma/confirm-update-send-project-quotation.md
         - name: Prijenos ponudu na projekt
           href: prod-pma/transfer-quote-new-existing-project.md
-        - name: Ugovori o projektu
+        - name: Ugovori projekta
           href: prod-pma/project-contracts.md
         - name: Projektna dopuštenja
           href: prod-pma/project-grants.md
