@@ -1,17 +1,17 @@
 ---
 title: Prijavite se za pretplate za pretpregled aplikacije Project Operations za scenarije resursa / bez zalihe
-description: U ovom članku nalaze se informacije o načinu pretplate i implementiranja aplikacije Project Operations za scenarije koji se temelje na resursu / bez zalihe.
+description: U ovom se članku nalaze informacije o tome kako se pretplatiti na projektne operacije i uvesti ih za scenarije koji se temelje na resursima/nenaseljenim resursima.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3164add153d77a52f85c2aac442dcf90baa24440
+ms.sourcegitcommit: 0d11377bf3ac74c80afbd2013775fcc9869f926a
 ms.translationtype: MT
 ms.contentlocale: hr-HR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920097"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "9842006"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijavite se za pretplate za pretpregled aplikacije Project Operations za scenarije resursa / bez zalihe
 
