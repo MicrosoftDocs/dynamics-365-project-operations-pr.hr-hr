@@ -844,9 +844,9 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Predujmovi i akontacije
               items:
-                - name: Predujmovi i ugovori koji e temelje na povremenim plaćanjima
+                - name: Predujmovi i ugovori koji se temelje na povremenim plaćanjima
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Postavljanje rasporeda zadržavanja Postavljanje rasporeda zadržavanja
+                - name: Postavljanje rasporeda zadržavanja
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Stvaranje ad hoc predujma za ugovor o projektu
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1180,7 +1180,7 @@
               href: prod-pma/PSA-integration.md
             - name: Parametri integracije usluge Project Service Automation
               href: prod-pma/PSA-parameters.md
-            - name: Sinkroniziranje ugovora projekta i projekata izravno iz aplikacije Project Service Automation u aplikaciju Finance
+            - name: Sinkroniziranje ugovora o projektu i projekata izravno iz aplikacije Project Service Automation u aplikaciju Finance
               href: prod-pma/project-contracts-templates.md
             - name: Sinkronizirajte stvarne podatke o projektu izravno iz rješenja Project Service Automation u dnevnik integracije projekta za knjiženje u financijama i operacijama
               href: prod-pma/project-actuals-templates.md
@@ -1240,7 +1240,7 @@
           href: prod-pma/confirm-update-send-project-quotation.md
         - name: Prijenos ponudu na projekt
           href: prod-pma/transfer-quote-new-existing-project.md
-        - name: Ugovori projekta
+        - name: Ugovori o projektu
           href: prod-pma/project-contracts.md
         - name: Projektna dopuštenja
           href: prod-pma/project-grants.md
